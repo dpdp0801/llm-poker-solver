@@ -12,14 +12,11 @@ GPT4 created solution for computing GTO (Game Theory Optimal) solutions for poke
 2. Set up Hugging Face Access Token:
    - Create a Hugging Face account if you don't have one
    - Generate an access token at https://huggingface.co/settings/tokens
-   - Copy `config.py.template` to `config.py` and add your token:
+   - Copy `.env.template` to `.env` and add your token:
      ```
-     HF_TOKEN = "your_huggingface_token_here"
+     HF_TOKEN=your_huggingface_token_here
      ```
-   - Alternatively, set it as an environment variable:
-     ```bash
-     export HF_TOKEN="your_huggingface_token_here"
-     ```
+   - The code will automatically load this token using python-dotenv
 
 3. Run tests:
 ```bash

@@ -1,5 +1,0 @@
-# Configuration settings
-# Copy this file to config.py and update with your credentials
-
-# Hugging Face API token
-HF_TOKEN = "your_huggingface_token_here" 

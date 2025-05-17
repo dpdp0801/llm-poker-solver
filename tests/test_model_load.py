@@ -1,9 +1,13 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import sys
 import os
 
+# Add parent directory to path to import utils
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils import get_hf_token
+
 def test_llama_load():
-    token = os.environ.get("HF_TOKEN")
-    assert token, "set HF_TOKEN env var"
+    token = get_hf_token()
     model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     tokenizer = AutoTokenizer.from_pretrained(model_id, token=token)
     model = AutoModelForCausalLM.from_pretrained(

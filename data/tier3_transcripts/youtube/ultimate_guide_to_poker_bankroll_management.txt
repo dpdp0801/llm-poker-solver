@@ -1,0 +1,1031 @@
+many people say poker is all luck others
+say it's a game of skill where is the
+truth and is it possible to win at poker
+in the long run we're going to find out
+in today's lecture about variants and
+bankroll management
+let's talk about variants in bankroll
+management easily one of the most
+underrated things in all of Poker
+variance and bankroll management is not
+a sexy topic right and the truth is that
+most of the advice you find online are
+just rules of thumb they're just kind of
+guesstimates but there does exist
+mathematically optimal strategies for
+growing your bankroll as fast as
+possible I'm going to present some of
+those strategies to you today now this
+is kind of a touchy topic people have
+different risk profiles but I think it's
+important to manage risk not just in
+poker but in the shots you take in what
+Stakes you play and how fast you want to
+move up these are key to your long-term
+poker success poker is a game of small
+edges and managing risk is key to
+success
+not only that but understanding the
+nature of variants being able to
+conceptualize how swingy this game is
+will help you control and manage tilt so
+I truly believe that variants of macro
+management are one of the most important
+yet underrated topics in poker I really
+wanted to put this lecture out there so
+that everyone will have some free
+resources to optimize their bankroll
+management we're going to talk about
+three key Topics in this lecture one is
+going to be is poker luck or skill
+we're going to talk about understanding
+variance and that's going to involve you
+know what is variance how do you use a
+poker variance calculator how to
+understand risk of Ruin profiles and
+lastly we're going to look at how to
+optimize bankroll management
+let's start with this question is poker
+luck or skill
+[Music]
+well you're poker players right if it
+was all luck why would you even be
+playing just go play Slots right buy a
+lottery ticket
+so the truth is that it's both it's not
+100 skill it's not 100 luck poker is
+luck and skill and how much luck or
+skill it is depends on your timeline
+depends how many hands you play it
+depends on the sample size now when we
+look at it from the point of your
+timeline tiny edges get magnified in the
+long run what does that mean let's say
+you have some small Edge against your
+competition in the short term your
+results will be mostly dominated by luck
+in the long term your results are more
+dominated by skill and over an infinite
+timeline an infinite number of hands
+played poker becomes 100 skill
+now I'm going to talk a little bit more
+about how this works in chapter 2.
+now poker is a combination of both and
+the truth is you need to write out the
+variance and learning to do that
+correctly learning to only risk what
+your bankroll can manage is key right
+and this isn't the only thing like that
+other examples include trading stocks or
+options investing in a business counting
+cards at blackjack almost every
+Financial Pursuit involves some
+combination of luck and skill
+so thinking in black and white that it's
+one of the other is of course a fallacy
+it all comes down to your timeline
+so let's talk about understanding
+variance now some key concepts for this
+section what is variance what is the law
+of large numbers how do we use a poker
+variance calculator and what on Earth is
+a confidence interval and these are all
+very mathematical sounding words and
+we've got some fancy looking graphs here
+but the truth is that variance is a
+pretty straightforward topic when you
+really think about it when we ask
+ourselves what is variance we get this
+scary looking graph with numbers and
+sigmas the term variance refers
+mathematically to a statistical
+measurement of the spread between
+numbers in a data set so how spread
+apart are your numbers more specifically
+variance measures how far each number in
+the set is from the mean so if you're
+getting really swingy results that's
+high variance if you're all most of your
+results are come towards the middle
+that's lower variance and poker variance
+simply refers to how swingy your results
+are again we're talking about out how
+far away your results are from the
+average so if we could imagine that
+there's some true win rate here some one
+with high variance would experience
+extreme swings for someone with low
+variants would have their results closer
+to their true win rate
+now why is this important because the
+swingier your results the more you need
+to account for things like risk of Ruin
+you need to be taking on less risk
+proportional to your bankroll so let's
+try and visualize this this is just a
+clip taken from my favorite poker
+variance calculator Prime dope this is a
+low variance This Is 50 big lines per
+100 with a win rate of 5 PD per 100 and
+let's compare that to
+High variance now maybe it doesn't stick
+out to you but I want you to pay
+attention to the axis on the left and
+right in this one here given 20 samples
+the best result
+was like 22 000 and the worst result was
+like negative 17 000. previously
+the best result was about 10 000 and the
+worst result
+was about minus one thousand
+so we go from -1 to plus ten
+to
+2 minus 17
+to plus uh almost 20. so you can see
+that despite both of these players
+having the same win rate one is
+experiencing much higher variance than
+the other their results are more swingy
+maybe they're a bit of a Maniac maybe
+you can see yourself a little bit in
+this are you the the nitty type who only
+Bets with an edge are you more of the
+big risk taker type both results have
+the same expected value in the long run
+but the higher variance approach carries
+some other risk to it right so let's
+talk about the law of large numbers
+before we dive into that data a bit more
+and this is like the simplest exercise
+that I think many people do not
+understand most of you will have heard
+of the gambler's fallacy I'm sure you
+guys being even participating in this
+lecture will have heard of this and will
+know about it but you may not apply it
+properly when it comes to your bankroll
+so let's say we flip a Fair coin and it
+lands on heads six times in a row what
+is the probability that it lands on
+heads in the next flip
+the truth is yes the expected value is
+that heads retains at six point lead but
+it doesn't matter because
+your probability is 50 to the next flip
+let's take a look let's give heads a six
+point lead and flip the coin a thousand
+times the expected value in this case is
+going to be heads 503 times in Tails
+497. so the EV starting with a six point
+lead
+is that heads retains its six point lead
+but it still converges to 50 50. you can
+imagine if we do it ten thousand times
+now it's 50.03 and 49 point uh you know
+it just gets closer and closer to 50 50.
+despite the fact that Tails never
+actually catches up from that six point
+lead now of course it can catch up of
+course anything can happen but the
+expected value doesn't actually change
+now what does this mean
+when we think about for example if
+you've taken if you've hit some run bat
+right you're down you're all in EV is
+down maybe I don't know 10 buy-ins from
+where it should be right do the poker
+Gods therefore owe you that 10 buy-ins
+back are you now due for a 10 by an
+upswing the answer is no right the
+answer is no if you are starting with a
+10 by and downswing relative to where
+you should be the expected value is to
+keep going with that 10 by and downswing
+but over the long term it won't matter
+because over a large enough timeline and
+enough hands you're going to converge
+closer and closer despite the fact that
+there is no Universal karma that's going
+to catch you up so let's talk a little
+bit about risk profile how much risk can
+you handle now
+us being poker players we naturally this
+demographic has a high risk tolerance uh
+I mean why else are you playing poker
+right poker naturally attracts people
+with a high risk tolerance but the truth
+is that the optimal amount of risk for
+you depends on your lifestyle is poker
+your only source of income do you have
+other income streams can you afford to
+bust is it important to grow as fast as
+possible or make a reliable profit and
+pay your bills right so the truth is
+that the amount of risk you can take
+depends on your situations there is no
+one-size-fits all
+despite that I'm gonna show you some
+mathematically optimal bankroll
+strategies that try and help you
+maximize your risk reward
+we've talked a little bit about how much
+risk can you handle what I want to show
+you next is one of the most important
+topics I can show you here and that is
+how to use a poker variance calculator
+so if you learn nothing from this
+lecture learn how to use this tool okay
+this one is by Prime dope others exist
+this is a free tool you can find online
+that helps you find your variance so
+this is the way it works we have four
+fields we plug in here one is the win
+rate so let's plug in for example you
+win five big clients per hundred the
+next is your observed win rate let's
+just leave that blank for now
+the next is your standard deviation now
+in cash games six Max cash games it's
+about a hundred but it depends where you
+play right uh if you play PLO it's going
+to be much higher if you play heads up
+this is going to be much higher if you
+play full ring it's going to be much
+lower so your standard deviation in big
+lines per 100 is something you can find
+uh with any HUD it's a stat you can pull
+if you don't know
+but you can use 100 as default thing
+here so let's go ahead and calculate
+that so we win five big blinds per
+hundred
+and we play a hundred thousand hands
+here we see 20 samples that is to say
+just 20 random samples given this Edge
+and we can see that some of the samples
+ran like a God and others ran terribly
+right
+and if we look at the variance in
+numbers we can ask ourselves what is the
+expected value we typed it in five big
+Blends per hundred standard deviation
+number of hands expected winning after
+10 after a hundred thousand hands is
+five thousand big lines
+standard deviation
+is how much give or take you should win
+so it's five thousand dollars plus or
+minus this amount in one standard
+deviation
+and this is a great tool because it
+helps you visualize uh what you should
+expect to win so here we can see a
+seventy percent confidence interval I'm
+going to talk a little bit more about
+confidence intervals later but
+essentially if we assume your true win
+rate is five big blinds per hundred then
+over the course of a hundred thousand
+hands you should expect to win somewhere
+between
+1 800 big lines to eight thousand one
+hundred and if you want an even more
+certain interval that is to say we are
+95 sure our results will land between
+these two numbers that's what you'll get
+right
+so a really confident interval is going
+to be a wider spread but most of the
+time your results are going to be
+somewhere in the middle here right
+somewhere close to the expected value
+now of course we can increase the
+standard deviation so if we put that up
+to 200 we're going to see it's much more
+spread out and if we put that down to 50
+we're going to see it's much closer
+together closer to the mean right
+so a lot of players ask what is a good
+sample size how do I know if I'm a
+winning player well this is the tool you
+need to do it with right let's imagine
+that you play
+10 000 hats right
+what are the chances that you lose money
+despite being a winning player after ten
+thousand hands
+we scroll down here we can see the
+probability of a loss after 10K hands is
+about 30 percent right
+about a 30 chance that you're going to
+lose money despite being a winning
+player playing a winning strategy after
+10K hands just due to Pure Luck
+however if we put that up to even more
+hands let's make that 50K
+the chance that you lose money goes down
+even further after 50k right after 100k
+now it's down to only five percent and
+the sum this might sound crazy like
+you're telling me there's a 5.7 chance I
+lose money despite being a solid winner
+after a hundred thousand hands and yes
+yes there is there's also an equally
+likely chance that you run like a god
+right so
+let's say for example that you're true
+when you are a break even player and you
+want to ask yourself what are the
+chances that I'm actually a Crusher
+who's supposed to be winning at 10 big
+blinds per hundred
+actually we'll do this the other way
+we're gonna go ten and zero so
+and let's do ten thousand hands so
+You observe your win rate is zero
+and you think your actual win rate is
+10.
+what are the chances that you are a 10
+big blind per 100 Crusher despite being
+a break even player after 10K hence
+foreign
+we can see this and we can see
+probability of running at or above
+observed win rate over 10K hands with a
+true win rate
+of this much so there's a 15 chance that
+you a break-even player are actually
+attend big blind per hundred Crusher
+after ten thousand hands after a hundred
+thousand hands it gets even smaller so
+after a hundred thousand hands if you
+break even and you think you're a 10
+big blind for under winner well that
+might be true less than one percent of
+the time uh but for the most part no so
+this is a really useful tool to
+visualize variants in poker and as we
+can see poker is very swingy there's uh
+variance is larger than your mind can
+imagine right
+there's also a thing here that has to do
+with downswings so that is to say what
+kind of down swings can you expect and
+the truth is that every poker player if
+you play for a long enough timeline you
+will experience ungodly downswings and
+also run like a god yet equally probable
+right and you need to be prepared for
+that
+now there is a human access that
+this chart does not simulate and that is
+that when players are running badly they
+tend to change their strategy they tend
+to increase their variance and they tend
+to magnify their own losses that is to
+say when you're running like crap you
+tend to change your strategy to run even
+worse and take on even more risk it's
+just a natural human response and it's
+really important to control that
+response if you ever want to achieve
+long-term success imagine you're running
+well you're running well you're running
+well and then you go on like a 2600 big
+blind downswing right you're you're
+going to be devastated naturally like
+how am I running this badly compared to
+EV uh but if you don't grind through
+that properly if you don't continue to
+play a solid game then this loss can be
+magnitudes orders of magnitude larger
+than it appears here because you're
+going to change your strategy to play
+much worse so controlling tilt in times
+of hardship is also key to managing your
+risk confidence intervals are key to
+understanding statistics and any
+measurement where the measurement is
+uncertain right
+so this is a distribution this is just a
+normal distribution so we can say that
+imagine that your win rate is somewhere
+from left to right I don't worry about
+the exact axis here we're going to say
+that within one standard deviation that
+is to say one standard deviation I.E
+two-thirds of the time your actual
+results will fall within this range
+given that this is your true win rate so
+if your true win rate is here the mean
+your actual results within one standard
+deviation
+will fall somewhere between here and
+here within two standard deviations it
+falls between here and here so two
+standard deviations mean 95 of the time
+your true results will fall within this
+range given that this is your actual win
+rate right you can never be certain what
+your true win rate is all you can do is
+assign a confidence interval and say I
+am 95 confident my win rate is between
+here and here and this is the mean that
+is the way you express certainty
+mathematically and correctly
+so you can never be certain but you can
+play more and more hands until this
+confidence interval shrinks and you get
+more and more confidence that your mean
+here is the True Result
+that's a confusing concept to many if
+you haven't studied math or statistics
+but it's
+easier than it sounds so for example
+let's have one here we observe a true we
+observe a win rate of 2.5 big blinds per
+hundred we play a hundred thousand hands
+what that actually means is that our
+true win rate within one standard
+deviation within 70 confidence is going
+to be between negative 0.66 big blinds
+per 100 and 5.66 if we want to be more
+confident if we want to assign a two
+Sigma confidence interval your true win
+rate is between minus 3.8 and 8.82 and
+as you play more and more hands that
+confidence interval will shrink down
+until you get more and more confident
+results relative to your actual results
+so understanding and thinking in
+confidence intervals is key to
+determining you know am I running bad am
+I unlucky or just bad or am I running am
+I a God or just you know super lucky so
+realistically if you want to understand
+the way luck and skill interact you need
+to learn how to use confidence intervals
+and poker variance calculators and
+hopefully I've given you guys the tools
+to get started estimating your results
+using these types of tools I'm going to
+go on here because there's a number of
+other cool subjects I want to show you
+guys before this lecture ends so
+this one will be quick how to use a risk
+of Ruin calculator this one is a very
+old school calculator based on some old
+uh two plus two Mason malmoth math
+so let's assign some win rates and some
+standard deviation
+and let's say that we are playing with
+one bankroll it can never be refilled
+topped up you just play with this Edge
+and this much money until you either win
+or lose so we'll assign ourselves a five
+percent risk of Ruin and that means that
+there's a five percent chance that we go
+bust
+in order to achieve that we need our
+bankroll to be about 3 000 big blinds
+right so about 30 buy-ins
+uh and that's going to give you a five
+percent chance of losing all of your
+money this assumes there's no moving up
+and down it's a very simple calculator
+right now let's assume that
+you are willing to take on a lot more
+risk you know I'm willing to do a deal
+with a 25 chance of busting forever well
+in that case you only need about 13 14
+buy-ins but uh you better be a winner
+you better have this standard deviation
+because if this is a little higher and
+this is a little bit lower well
+all of a sudden your risk of Ruin just
+went from 25 to 50 right so that's why
+most people suggest uh a much larger
+bankroll they suggest something like a
+hundred uh roughly 50 to 100 buy-ins so
+here we can see that with a slightly
+lower win rate and a slightly higher
+standard deviation you know maybe I'll
+pump that up to 130 this time
+you can see that just to have a five
+percent chance of not going broke you
+need an 84 buy-in uh
+bankroll right
+now I won't get too much into the math
+here there are references down below and
+I've also built a calculator that will
+calculate this out for you but it's
+important to realize that
+the amount uh how big your bankroll
+should be
+is a function
+of your win rates and your standard
+deviation and how much risk you can
+tolerate
+a pro player needs to take on much less
+risk like if this is all the money you
+have in the world well you better be
+playing Stakes that aren't going to bust
+you
+yeah
+so important to account for your risk of
+Ruin regardless of whether you're
+playing cash or tournaments or mtts or
+anything else so let's go on to section
+two bank roll management what is
+bankroll management why is it important
+I'm going to set you guys some very
+basic guidelines staking we're going to
+talk about fast and slow growth and
+finally we'll end with my favorite
+subject optimizing growth with the Kelly
+Criterion
+what is poker Bank parole management
+well it's just the term used to describe
+how you manage the funds available to
+play poker your bankroll determines what
+stakes and games you can play while
+limiting your chances of going broke and
+again there's different risk and return
+profiles you can take on more risk
+to the point of being suicidal you know
+buying in for all of your money in the
+world and then losing it all or you can
+be very conservative and take a very
+slow growth approach and the truth is
+that there is a mathematically optimal
+curve to how much risk you should take
+on and sometimes it's easier said than
+done sometimes it's a little bit softer
+and not so dry but I'm going to keep it
+simple for this presentation
+so what is the goal here the goal
+ideally is to grow your bankroll as fast
+as possible without imploding right we
+want the perfect amount of risk to
+maximize return without completely
+imploding our bankroll
+so what does that look like
+well
+too much risk has a very high certainty
+of busting and
+more psychologically you end up playing
+scared money right you alter your
+strategy because all of a sudden the
+utility of the money uh that is to say
+you know losing this 200 matters so much
+to you that you actually change your
+strategy to something sub-optimal
+so sub-optimal plays are sometimes even
+required just to preserve your bankroll
+if you're playing too aggressively if
+you're buying in for more than you can
+handle so the utility of money comes
+into play
+conversely not enough risk very common
+way more common than you might think
+involves getting stuck at low stakes
+forever paying a ton more rake putting
+in you know a ton more volume is
+required to climb out of there and
+ultimately very little reward for
+long-term effort
+so a lot of people that they want the
+dream of you know building up a bankroll
+from the microstates I don't recommend
+that uh you know I don't recommend
+trying to grind your way up to high
+stakes from free rolling that just
+doesn't work very well in the long term
+it's much better to use low stakes to
+train yourself to play well and then
+make a real investment at you know low
+stakes least because the truth is that
+the amount of rake you pay at the micro
+Stakes is just
+disgustingly High just
+ridiculously high amount of rake and
+trying to grind your way through that is
+going to take so much more long-term
+effort than should be required that
+oftentimes you'll give up on your poker
+dreams long before they ever really
+started
+now that's a controversial opinion but
+there is
+a good balance between not enough risk
+and too much risk there lies the optimal
+Middle Ground
+we could talk about fast growth versus
+slow growth uh this is very similar to
+the last slide so fast growth uh it's
+riskier requires less volume higher risk
+of Ruin paying less rake and slow growth
+is more conservative requires a lot more
+volume lower risk of Ruin and paying
+more rake
+I don't really like to set out exact
+numbers uh but I figured I I'm kind of
+required to in this lecture because if I
+don't you know people will say well you
+never told me what to do but the truth
+is that I'm not trying to tell you how
+much what bankroll strategy you should
+be using because it depends on your risk
+profile right what I'm trying to do is
+give you the tools to figure out what
+Stakes you should be playing yourself
+so I've set out some very generic
+guidelines here based on common wisdom
+so for cash players would say roughly 35
+to 65 buy-ins somewhere in there never
+risking more than five percent of your
+role that would be way too much and for
+tournament Players somewhere between 75
+to 125 buy-ins never risking more than
+two percent of your bankroll on one
+tournaments unless of course you're
+selling a lot of the action so
+somewhere between here is considered
+very standard rules of thumb bankroll
+management
+so let's talk a little bit about other
+ways people deal with risk and one of
+them is staking selling action so
+another way to manage risk is staking
+and this involves selling a portion of
+the action the Staker takes share of the
+risk in exchange for the promise of a
+piece of your success and sometimes
+they'll even you know staking also
+involves giving you some of the money so
+staking can be between you know
+individuals Stables larger institutions
+and believe it or not this concept of
+trading risk exists uh everywhere now I
+used to work in the insurance industry
+and in the insurance industry believe it
+or not most insurers actually pool their
+risk under what's called reinsurance
+which is like a larger insurance company
+that buys the risk from smaller
+insurance companies and so realistically
+they're all most of them are just
+sharing one giant pool of of risk right
+they each shell a big portion of their
+risk to these major umbrella companies
+that you've never heard of nameless
+faceless Mega corporations and then
+these guys they also uh
+they also sell the risk to an even
+larger umbrella that you've never heard
+of so in every industry what they'll do
+is they'll sell a portion of their risk
+to the next big guy underneath and then
+they'll all pull their risk and the
+reason they do this is because uh with
+financial institutions specifically
+lower variance is better and in poker
+selling a portion of your risk is a way
+to mitigate the amount of variance that
+you take on right if you buy in for a
+tournament and you sell a piece of the
+action it's a similar way thing there
+right you're of course you get less
+reward but also you are uh selling some
+of the risk to other people so that you
+can afford to play higher Stakes
+so
+we'll talk about how to build
+mathematically optimal bankroll
+strategies next and the way this is done
+is through the Kelly Criterion now I
+have to say that this is a topic that
+people
+don't address much because it's
+difficult to apply the Kelly Criterion
+to Poker directly some formats are
+easier than others but I have an attempt
+here that I think you guys will like so
+what is the Kelly Criterion well
+a mathematician found out a formula that
+tells you what portion of your bankroll
+you should invest given some Edge some
+odds on a bet
+and it turns out that
+depending on how much of your bankroll
+you risk at a time on some repeated bet
+you're either going to grow
+conservatively
+aggressively you can maximize it at some
+point but then if you risk too much it's
+almost a guaranteed bust right
+or almost just guaranteed to be negative
+growth in the long run so
+this is that middle ground correct
+amount of risks take
+now let's talk about
+where at how much risk you should take
+so the classic formula for the Kelly
+Criterion is this thing here
+where f is the fraction of your bankroll
+to bet
+uh B RV decimal odds minus one p is the
+probability of winning and Q is the
+probability of losing
+so just to give you a rough example
+here's a simple one where you play heads
+up sit and ghosts and these are great
+because you can directly apply the Kelly
+Criterion to these uh so you play heads
+up sitting goes and average a five
+percent return on investment
+your bankroll is a thousand dollars what
+Stakes should you play to grow your
+bankroll as fast as possible
+give me your best guess
+[Music]
+Kelly Criterion has one major thing and
+that is for a uh heads up bet for a one
+for one bet
+you should uh you should risk your Edge
+so if you over five percent Edge you
+should risk five percent of your
+bankroll and the math works out
+such that five percent of a thousand
+dollars is a fifty dollar buy-in that is
+the the most aggressive strategy you
+could take to grow as fast as possible
+assuming that this is your Edge and keep
+in mind that it would always be five
+percent of whatever your bankroll is so
+if your bankroll grew you would then
+take five percent of that right
+now
+again recall this map here
+we can simplify this a bit so in this
+case b is one we're getting one to one
+uh you know we're just ignoring rake
+here assuming that our five percent
+includes rake
+p is equal to 52.5 Q is equal to 47.5
+and if you simplify this out you get P
+minus Q is 5 risk your Edge if you have
+a five percent Edge you risk five
+percent per thousand dollars now that
+said that is what's called a full Kelly
+strategy realistically you don't usually
+want to take a full Kelly strategy
+this is right here this is redlining
+your engine as fast as possible so that
+you're maximizing growth but what most
+investment professionals actually
+recommend is something like half Kelly
+or less and the reason for that is that
+a half Kelly strategy captures something
+like 75 percent of the growth while
+taking on only 50 percent of the
+variance
+and so a more sound answer despite B
+being the actual correct answer it might
+be c 25 it's not the fastest growth
+method but it is uh it's going to
+capture at least 75 percent of the
+growth without taking on a ton of risk
+so applying the Kelly Criterion to cash
+games is a little bit tricky but we can
+somewhat regard it as a coin flip bet
+for 100 hands
+um now that's not really reflective of
+what's going on but it's kind of close
+enough to get a good estimate so we can
+plug in your win rates and your standard
+deviation into the Kelly Criterion
+formula solve for p and then use those
+numbers to figure out how much you
+should risk so in this case uh your win
+rate would be let's say 10 big blinds
+per 100 and let's say your standard
+deviation is 100 big blinds per 100
+you're going to find that P equals 0.55
+or 55 percent uh which means you have a
+10 Edge and you should risk 10 of your
+role probably less than that because you
+never really want to go full Kelly right
+now this method is oversimplified
+but it's approximate I've built a
+calculator here based on some more
+advanced math that I'm not going to get
+into in this video that tells you
+exactly what your bankroll should be
+given your current win rate at some
+stake and your potential win rate at the
+next stake I'll show you that next
+I'll share this spreadsheet with you
+guys it's going to be free to access
+all you do is just go file make a copy
+I'll post the link in the Discord
+afterwards and you can make your own
+copy the way you use this is simply to
+fill in the grade boxes
+so this one uses some more advanced uh
+calculations you can learn more about
+this in the mathematics of Poker or from
+this two plus two post short explanation
+down here blah blah blah but let's
+imagine that you're playing some sticks
+so I'm going to say you're currently
+playing 100
+uh you know NL 100. and the next stake
+is NL 200. now let's imagine that you're
+currently winning for five pick blinds
+per hundred but you think you'd win uh
+four big blinds per hundred at the next
+stake now if we translate that to uh
+dollars per hundred
+here we're winning five dollars per
+hundred and the next stake would be
+winning eight big eight dollars per
+hundred
+we can imagine that our standard
+deviation is about the same at both
+Stakes uh the same in big blinds per
+hundred but not the same in dollars per
+hundred it's actually double at the next
+stake because you're risking twice as
+much now this formula again taken from
+the mathematics of Poker page 301 tells
+you what the critical bankroll is before
+you should move up to the next stake
+and in this exact case it's five
+thousand dollars so you should have you
+should be taking shots at the next stake
+once your bankroll is greater than
+five thousand dollars right
+now
+the way this works is by using the Kelly
+Criterion to say
+how much money you'd need before it's
+worth it to take on extra risk and extra
+variance to move on to the next stake
+now
+I clearly do not have time to reference
+all the math here but I've put links in
+there for those who are curious if you
+don't care all you really need to do is
+type in
+your win rates here
+and figure out exactly how much money
+you need now there are certain cases for
+example let's say that you're currently
+doing quite well here and maybe poorly
+here right there is and this is a real
+thing that happens that people don't
+realize is that you might actually be
+making more at a lower sticker at your
+current stake than you would moving up
+right like in this case you'd actually
+be losing money and doubling your
+variance moving to the next stake it's
+just not worth it but what if it's
+really close what if it's like you're
+making five dollars per hundred here and
+six per year well now all of a sudden
+you need a much bigger bankroll to
+justify moving to the next stake right
+here's the next question how much should
+you invest the next stake should you
+take big shots or small shots and the
+math actually shows that small shots are
+way way more efficient than big shots
+that is to take say you know just taking
+like a three by and five buying shot the
+next stake is going to be way more
+efficient than you know taking huge
+shots and then having to grind it all
+back up afterwards
+that is assuming that you have you know
+a higher dollar per 100 at the next
+stake right and
+the the math behind that is based on
+risk of Ruin for how much you're putting
+in for your next shot and of course the
+Kelly Criterion for how much you're
+risking at the next stake and you can
+see more about that in this post here
+that I've referenced
+ideally when you use this you would want
+to say for example like let's give
+ourselves something more reasonable
+let's say we expect to make even more
+money so eight dollars per hundred at
+the next stake
+if this is the case you need at least
+five thousand dollars that's 50 buy-ins
+at your current stake and you would
+build up a little bit beyond here
+and then you would only risk that and
+move back down once you hit five
+thousand right so maybe build up to like
+I don't know 5600 take a three buy-in
+shot and then move back down if you fail
+rinse and repeat
+anyway the long and short of it is
+smaller shots are more efficient than
+bigger shots and you need to calculate
+your dollars per 100 not your big lines
+per hundred but your dollars per 100 at
+the next stake to see if it's worth it
+the other thing is you should be
+overestimating your variance and
+underestimating your win rate because
+every poker player overestimates their
+win rates and underestimates their
+variance so make sure to
+run your numbers a bit more
+conservatively than you poker players
+might otherwise
+this is just the risk of Ruin calculator
+you actually saw this earlier I posted a
+link I just made it myself using the
+same math here so again this is just
+based on like
+some mathematics you could say
+here's your current stake I think this
+one's in big lines rather than buy-ins
+so
+100 NL five pick blind win rate standard
+deviation we'll say like 20 and you want
+a four percent risk of Ruin there's a
+few different ways to calculate it but
+here's the bankroll you should be using
+given these numbers so
+again there's a website for this but I I
+built it anyway uh heads up sit and go
+the easiest to calculate this is a uh
+very direct Kelly Criterion calculation
+again you plug in your Roi this could
+also work for spins by the way right
+like if you have a one percent spins
+here and like I don't know like a three
+thousand dollar bankroll and you want to
+take maybe a half Kelly approach so
+we'll put in 0.5 so here you just enter
+a number between
+zero and one one being the most
+aggressive
+then you should be buying in for like 15
+dollars
+heads up sit and goes right
+mtts are
+more complex I've put some links here
+for you guys I didn't really have time
+to build an MTT calculator you can
+roughly roughly approximate it using
+this if you know your Roi on tournaments
+but it's not a one for one BET right
+mtts are like maybe like a five percent
+chance winning a huge amount of money in
+a 95 chance of winning very little money
+so it's not really directly applicable
+I've put a post here that you can check
+out if you want a more
+optimized MTT approach perhaps I'll
+write more about that later I didn't
+really have time for this lecture though
+I've also put some links here for you
+guys I highly recommend you check out
+this video would you take this bet by
+veritasium love veritasium uh it's
+basically the Kelly Criterion except you
+know it's done by veritasium so it's
+it's much better than my video
+uh mathematics of Poker great book
+I always reference this when I'm doing
+something math related here's some two
+plus two posts for mtts and more for
+cash as well so further links if you
+guys want to go down the rabbit hole
+in summary understanding variance is
+absolutely required for long-term poker
+success poker is a game of small edges
+right and every serious poker player
+should be required to learn how to use
+the poker variance calculator
+controlling risk is key to success
+there's an optimal line between
+conservative and aggressive risk and
+just as you risk your hands and your
+Holdings and your bet sizings in an
+actual poker game you need to manage
+your risk as effectively when it comes
+to your bankroll and what you're buying
+into
+if you have any questions about it feel
+free to follow up in the Discord thank
+you all for your attendance today and
+happy grinding

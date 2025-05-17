@@ -1,0 +1,360 @@
+if you play or watch a lot of tournament poker 
+you've probably noticed that in the past year  
+or so it's become much more common for players 
+to make an unusual play where they risk most  
+of their stack perhaps only leaving one chip 
+behind but not all of it let's examine why  
+this play has become so common and whether or 
+not it's something that you should also start
+doing before we get into the video please do go 
+ahead and like this video And subscribe to our  
+channel here on YouTube it helps us keep bringing 
+you the best content that we possibly can there  
+are two primary versions of this play that you 
+might see the first version is where a player  
+raises anywhere between half and 3/4 of their 
+stack pre flop leaving themselves a few big  
+blinds behind and the second version is usually 
+done on the River where a player might leave one  
+big blind behind or perhaps one physical chip in 
+a live event but before we dive into the Strategic  
+aspects of this spot let's talk about the elephant 
+in the room the fact that quite often when you  
+see players doing this they're doing it for the 
+purposes of allowing themselves to stall their  
+way through a pay jump by waiting until the last 
+possible moment before putting their last chip  
+into the pot now players have a lot of different 
+opinions on this but my personal stance is that  
+whether it's live or online stalling is not only 
+bad for the game because it makes the game a lot  
+less enjoyable for recreational players but it's 
+also a form of soft cheating because it allows  
+shorter Stacks to silently collude with each 
+other by slowing the game down forcing fewer  
+hands to be played and reducing the ICM Advantage 
+possessed by bigger Stacks there are many other  
+arguments against in which I won't go into in this 
+video but for now it's enough for us to Simply  
+say that we're going to disregard stalling as a 
+potential reason for making the almost Allin play  
+and proceed with discussing the more strategic 
+reasons why we might do it let's start with the  
+first version of this play where we put most but 
+not all of our stackin pre flop and the reason for  
+that is that it has a lot to do with ICM and the 
+concept of risk premium in particular this play is  
+mostly applicable in situations where we might be 
+massively disincentivized from being involved in  
+any reway Allin pots and instead benefit more 
+from allowing someone else to bust before us  
+essentially the idea is that raising a big chunk 
+of our stack without actually going Allin allows  
+us to always call it off whenever we're in a heads 
+up Allin scenario but occasionally find a fold  
+whenever someone else is potentially going to be 
+at risk instead of us allowing ourselves to gain  
+a pay jump that we otherwise might not achieve 
+here's an example from the GTO wizard archive in  
+this spot we're at a final table with six players 
+remaining and the average stack is still at 40 big  
+blinds however we're in the lowjack with 10 big 
+blinds and we are the shortest stack of the six  
+the Sim has the option for a two big blind raise 
+an Allin and most importantly a six big blind  
+raise this is what's going to allow us to study 
+the option of risking most but not all of our  
+stack and you'll see that a majority of our final 
+table Sims in the solution Library do include  
+this option for short stack players as well as 
+including the option to three bet or four bet for  
+most of the effective stacks for players who are 
+deeper stacked as you can see these six big blind  
+raise option is actually the most prevalent part 
+of the lowjack strategy here and the all in size  
+is not used very much at all if we isolate the 
+range of hands which is using the six big blind  
+raise sizing it's quite close to what we would 
+usually expect a 10 big blind jamming range from  
+the low Jack to look like it's not drastically 
+different from a chip EV jamming range for the  
+same spot the reason we're doing this becomes 
+clear when we start looking at what happens  
+after we make it six big blinds if for example 
+the player in the cut off reshes for their 20 big  
+blind stack right here then our folding frequency 
+once the action gets back around to us is exactly  
+0% it's only four big blinds more to call and 
+our risk premium against the cut off as you  
+can see here is only going to be 4.1% so we just 
+can't justify folding when there's only four big  
+blinds more to call however if the cut off shoves 
+and then this big stack in the small blind here  
+with 70 big blinds finds a call or finds a resove 
+now when it gets back around to us the equation  
+completely flips around and we're actually folding 
+hands as strong as pocket 10s here at a very high  
+rate and even pocket Jacks is very close the value 
+of leaving ourselves four big blinds here when the  
+cut off is guaranteed to be at risk against the 
+small blind is very significant and crucially our  
+risk premium here is massively inflated because 
+we know for sure another player with a bigger  
+stack than ours is already going to be all in and 
+at risk so we know there's probably around a 40%  
+or so chance that they bust and we get a pay jump 
+now you'll notice that Queens plus and Ace King  
+suited aren't in the range here the reason is 
+that they're choosing to Min Rays pre flop for  
+the purpose of actively inducing more action from 
+the players behind they're trying to get value but  
+the other portions of our range the stuff that 
+is generally preferring to either be all in and  
+realize all of its Equity or just get everyone 
+to fold that's the stuff that's preferring to  
+use the six big blind raay sizing you might be 
+wondering here whether this kind of strategy is  
+exploitable by our opponents well the answer is no 
+because the ICM parameters of the spot are going  
+to heavily constrain our opponent strategies the 
+big blind for example can't really start calling  
+the cut off shove wider just because they know 
+that we're always folding once they call because  
+they still need to have pretty high Equity to 
+call the cut off shove in the first place as  
+you can see here the big blind would only call 
+that cut off jam with Jack plus Ace King suited  
+half of Ace King off and a little bit of pocket T 
+similarly the cuto can't really adapt to the fact  
+that they know we're never folding to their jam 
+if it goes heads up because they have to factor  
+in the presence of three players left behind them 
+who have them covered and might wake up with a  
+strong hand so they are essentially just facing a 
+10 big blind all in or close to it in the same way  
+they would be if we had jammed the same principles 
+apply to most other heavy ICM spots as well well  
+let's look at another one here's an example of a 
+four-handed spot where we are in the small blind  
+here with 30 big blinds facing a raise and a three 
+bet from two covering Stacks instead of adopting a  
+shove or fold strategy here like we would often in 
+chip we're actually going for an approach where we  
+raised to about 15 big blinds which obviously is 
+roughly half our stack now normally we would never  
+even consider folding after putting in half our 
+stack pre flop considering the price that we're  
+getting but but in this case we're actually fine 
+with it because if both players shove our range  
+for calling off is going to be very very tight 
+in fact if we make it 15 bigs here and the cut  
+off and the button both go all in we're actually 
+folding pocket kings we're only getting it in with  
+Aces because our risk premium here is so high this 
+strategy can be applied in any preflop spot where  
+ICM implications are significant however there's 
+only one scenario in which we have no reason to  
+bother with it and that's when we're heads up pre 
+flop and there's no possibility of a three-way or  
+four-way all-in pot in this next spot you can see 
+here we are six-handed at a final table and the  
+big stack Min raises from the lowjack we're in 
+the big blind with 10 big blinds as the shortest  
+stack and even though we have the option to raise 
+to around half our stack or 4.5 big blinds we're  
+never using it because there's no Strategic 
+Benefit its main purpose is to cater to the  
+possibility of multi-way allins and that can't 
+happen in the this spot because everyone else is  
+folded so we're heads up against the lowjack and 
+in this case we just have a very simple calling  
+and all-in strategy we have no small three bets 
+whatsoever so now that we've seen the spots in  
+which raising half or most of our stack can be 
+strategically viable let's take a brief look  
+at how we want to construct our ranges when we 
+do this we'll go back to the first spot that we  
+looked at where we raised to six big blinds from 
+a 10 big blind stack to provide an example I've  
+changed the color scheme here to make make it 
+a little easier to see the differences between  
+the sizings the first thing to take note of is 
+that the all-in strategy is used at a very low  
+frequency here and most of the hands that take 
+that option are also mixing in the six big blind  
+Rays with the exception of king queen suited this 
+makes it very reasonable to conclude that the  
+existence of the all-in sizing isn't really 
+mandatory here at all we could quite easily  
+simplify our approach to A Min raise and a six big 
+blind Rays without needing to use the all-in size  
+at all based on this our analysis of the strategy 
+here can focus on splitting hands into two  
+categories based on whether they prefer to use the 
+Min ra sizing or the six big blind sizing if we  
+start by isolating the minr sizing clicking on the 
+orange bar over here we can see that it's quite  
+polarized it's primarily hands which are strong 
+enough to raise and call off which is going to be  
+anything that is in this upper region up here or 
+hands that are raise folding even to one player  
+such as the a7s and a6s or the ace 10s and Ace 9's 
+here a little bit of this offsuit Broadway stuff  
+here those hands that have some blocking power but 
+are not really strong enough to shove by contrast  
+the range for raising larger if we merge together 
+the six big blind and the Allin sizes is primarily  
+composed of hands which prefer to be Allin against 
+one opponent but are heavily disincentivized to  
+either be all in multi-way or put themselves in 
+a Min rais and decide kind of a spot this is how  
+we end up with that 97 % folding frequency against 
+two allins because most of the hands which make it  
+six big blinds in the first place are not at the 
+top of our range they're specifically hands which  
+aren't strong enough to raise call but aren't weak 
+enough to raise fold as we said before this is  
+not too dissimilar from how a 10 big blind chiev 
+strategy might look in this spot it's just tighter  
+spots where we have a polarized Min raising range 
+and a condensed jamming range are actually quite  
+common the only real difference here is that we're 
+raising 60% of our stack instead of actually going  
+all in so that's the basic Guide to the pre- Flop 
+version of the raising most of your stack play but  
+what about post flop after all we're quite rarely 
+going to be involved in multi-way post flop allins  
+so the equation has to change as a result well 
+it does change because the post flop version of  
+the raise most of your stack play actually occurs 
+almost exclusively on the river and in particular  
+this is where you'll see players in Live Events 
+just leaving themselves one single chip behind  
+this might seem very unusual so let's break it 
+down and try to figure it out it all hinges on  
+the fact that we shove all in on the river in 
+any spot we're doing it with a highly polarized  
+range very strong hands and very weak hands this 
+is important because it means we're never going  
+to have a hand which actually has an awkward 
+decision when calling off our last chip we're  
+getting an incredible price so even the bottom of 
+our value range should clearly call it off while  
+our Bluffs are weak enough that they simply can 
+never win so they have no reason to call it off  
+even if they're getting 100 to one pot odds to 
+illustrate this here's an example Sim I built  
+with GTO wizard AI obviously it's just a chippy V 
+Sim but it illustrates the point quite well it's a  
+spot where we check rais the flop in the big blind 
+versus hijack formation at 50 big blinds on an 886  
+flop and Barrel off on a blank run out when we 
+get to the river I've run two separate Sims one  
+where we shove all in and one where we bet 24 big 
+blinds leaving ourselves 1.4 big blinds behind as  
+you can see the EVS are very similar it does make 
+an extra 0.1 big blinds to shove all in and we're  
+able to do it with an extra 0.8% of our range 
+but that EV difference is only around 0.2% of  
+the pot so it's not a consequential change either 
+in EV or in strategy in addition if we look at the  
+strategy for what happens if we bet 24 big blinds 
+and get shoved on it's very straightforward I've  
+increased all the boxes to full height to make it 
+clearer but essentially everything with a queen  
+or better always calls off while only a couple of 
+our ace high Bluffs which are low frequency hands  
+anyway are indifferent to calling off our last 1.4 
+big blinds we're really not in any substantially  
+tough spots here and our EV doesn't change a lot 
+compared to shoving all in as we saw however the  
+real magic happens when we add ICM to the equation 
+let's imagine this specific situation occurs in a  
+$100 tournament with 200 Runners and 50% of 
+the field remaining in the solution Library  
+a hypothetical risk premium for this spot if all 
+Stacks are equal would be around 3.5% given the  
+field of 200 players and the resulting price pool 
+but when we're actually faced with the decision  
+of calling off our last 1.4 big blinds after 
+betting the river in this spot things get more  
+complex our numbers here aren't precise because 
+we're not accounting for each player having paid  
+an anti into the pot but they're fine for now 
+the first thing to note is that when there's a  
+lot of money already in the pot we end up in the 
+strange scenario that our bubble factor is less  
+than one we're being laid a price in a way that 
+doesn't apply when we calculate our bubble Factor  
+at the beginning of a hand our bubble Factor here 
+is actually 0.16 which seems extremely low but it  
+makes sense given the fact that we're calling 
+1 4 big blinds to win a PO of just over a 100  
+big blinds when we convert that number into our 
+Equity required to call we get around 13.8% but  
+if we looked at this spot in terms of basic chip 
+EV we're getting more than 70 to one so we would  
+only need around 1.4% Equity to make the call 
+Break Even this means that the risk premium on  
+our last 1.4 big blinds here is a massive 12.4% 
+even though our risk premium before the hand began  
+was only about 3.5% so what's going on here well 
+essentially it all comes down to the fact that  
+as we effectively get closer to the bottom of 
+our stack our chips become progressively more  
+valuable putting our last chip into the pot and 
+risking busting out of the tournament is a very  
+significant decision so even when we're getting 
+70 to1 here there's a big risk premium placed on  
+us instead of only needing to win less than 2% of 
+the time we now need to win just under 14% of the  
+time in addition to this while the math behind 
+how ICM affects value betting is comp complex  
+enough that it's not worth diving into in depth 
+just yet for this video we also have a decreased  
+incentive to go all in for Value the ICM worth of 
+the additional 1.4 big blinds that we gain when  
+we win is insignificant compared to how much we 
+lose when we run into the top of villains range  
+here as a result what we end up with is a spot 
+where there's a big benefit to risking almost all  
+of our stack as opposed to all of it we're still 
+going to end up putting our whole stack in when  
+we're value betting in villain raises since we're 
+virtually always going to have enough Equity to  
+offset the risk premium but we now no longer bust 
+out of the tournament when we're bluffing and the  
+trade-off in terms of the ICM value of our last 
+chip is more than favorable it is however very  
+important that we don't put ourselves in tough 
+spots by leaving ourselves one chip behind in a  
+spot where our range does contain some Thin value 
+those thin value hands are exactly the hands which  
+might be in danger against the range of hands with 
+which villain does decide to raise and go for our  
+last chip so those are the ones which might feel 
+tempted to fold despite the price they're getting  
+if you want a good example of when not to make 
+this play check out the three-handed play from  
+the 2022 WSOP Main Event Final Table the player 
+who eventually finished third made this play for  
+thin value with top pair and ended up agonizingly 
+calling off his main event getting incredible pot  
+odds only to lose to the nut straight so that's 
+the summary of both versions of the almost all-in  
+play we do the first version The pre- Flop version 
+in spots where we're looking to avoid a multi-way  
+Allin and the second version the post-flop version 
+we're looking to shove the river effectively with  
+a polarized range but preserve that last chip for 
+more information on post flop ICM stay tuned to  
+this channel because in the future we are going 
+to have videos covering those topics once we have  
+some post flop ICM capability in GTO wizard Ai 
+and in the solution archive so stay tuned for  
+that in the meantime if you have any questions 
+feel free to reach out to me on Discord I'll be  
+happy to answer them but that's about it for 
+this video and I'll be back again with some  
+more content soon here on YouTube thanks for 
+watching and good luck at the tables everybody

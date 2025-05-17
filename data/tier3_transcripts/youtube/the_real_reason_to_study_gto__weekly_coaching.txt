@@ -1,0 +1,1372 @@
+okay so i think we are good to go now so
+first of all thanks everyone for joining
+us today's webinar is for all of you
+guys who are either just starting to get
+into solvers or even those of you who
+have been using solvers for
+some time but feel like you're not
+getting that much out of it
+especially when it comes to reviewing
+and
+it's really easy to fall into the trap
+of convincing yourself that you made the
+right play just because the solver takes
+the same action at some frequency so if
+you've ever been guilty of this then
+make sure you watch till the end because
+i'll be going over a bunch of examples
+where i show you guys how to use gto
+wizard or any other solver for that
+matter in a much more effective way and
+even if you don't have a solver you
+probably want to continue watching
+anyway because i'll also be talking
+about why solver work is so important in
+today's games and why you can't play
+good exploitative poker without having
+some kind of gto baseline so without
+further ado let's get right into the
+first example so hand number one button
+raises recall in the big blind and the
+flop is king seven news so facing a
+wanted plot size c bet let's say if we
+decide to
+check raise to about three and a half x
+and button calls and eventually he shows
+down the hand like jack then also i
+didn't put our hand into the
+question because it's not important
+right the objective is to look at the
+hand that button shows down and think
+about how we can adjust uh against the
+same player in future so jack 10 or
+parts you know without the backdoor
+flash obviously a pretty loose load so
+how would you guys adjust against this
+sort of
+opponent who floats really wide versus
+the check race so i'm going to start a
+poll here and you guys can choose the
+option that you think makes the most
+sense so a do we only check raise value
+and maybe some of our best bluffs kind
+of makes sense since we're not they
+don't seem to be getting a lot of votes
+so maybe there's no point in uh check
+raising hands that don't have much
+equity and b after getting called
+barrelling the turn more often also kind
+of makes sense since uh our opponent is
+floating really wide on the flop so a
+turned arrow should be quite effective
+in terms of holding out all of this air
+or maybe you think that both a and b are
+correct or d none of the above so i'll
+give everyone like a couple of minutes
+[Music]
+so let's take a look at the results okay
+it seems like the most
+popular option is to barrel to turn more
+often with bluffs after getting called
+and the least popular option also
+happens to be the correct option which
+is the none of the other so it sounds
+strange to say that you know we
+shouldn't be exploiting our opponent by
+making all of these adjustments right
+but
+in fact the reason why these are not
+these adjustments are not justified is
+because without knowing the gto baseline
+we cannot even say that dylan is making
+mistake like sure it seems from our
+perspective that he's floating really
+wide when he calls sends like jack turn
+or flux but if you take a look at the
+solver response
+so let's pull up the sim and gto wizard
+and take a look at what exactly the
+solver is calling against this three and
+a half x check rate so what we see is
+that
+a hand like check
+10
+of apart so if we take a look at buttons
+response
+is actually pretty much a pure call
+and even jacktan offsuit which is pretty
+much the same here it's all continuing
+at quite quite a high
+frequency so basically you can't really
+say that you're exploiting your opponent
+by
+check raising the more value heavy range
+or barreling the turn with more blabs
+because your opponent is in fact playing
+gto so there's nothing to exploit here
+so that brings us to the the first main
+point without knowing gto we cannot even
+identify mistakes in our opponent's
+strategy once again things that look
+like mistakes to us might not
+objectively be mistakes in reality
+that's what the solver is for instead to
+give us some kind of baseline and so
+that we can say if our opponent deviates
+from this baseline then he is in fact
+making a mistake so let's talk a little
+bit about why the solver actually floats
+so white so there's all kinds of reasons
+for this right first of all rejection of
+hearts despite not having a backdrop
+flasher it actually has pretty decent
+bacterial equity in the sense that uh
+there's a couple of turns that actually
+give you an open-ender so the the queen
+gives you an open-ended i believe the
+nine also gives you a double button so
+you have like a little bit of vector
+equity and on top of that injection of
+hud specifically is going to have like a
+little bit better blockers compared to
+offset combos because when you have two
+hearts in your range you unblock all of
+these backdoor
+cluster
+hence like
+jack nine of jack nine of speed striking
+out of diamonds right hence like 10 8 of
+speeds and diamonds that check race
+bluffing at some frequency so it's kind
+of nice to have the hearts since you
+allow your opponent to have more of
+these backdoor type hands and there's
+just a little bit higher chance that you
+can steal the pod away from these hands
+on later streets right but the most
+important reason about it is really that
+big line is supposed to check raise
+extremely wide in this point right so
+again looking at the big blinds
+the the gto solution in terms of the big
+blind strike raising range but what we
+see is a whole load of backdoor type
+hands and it's like eight six of spades
+uh eight five of spades right and
+these hands uh maybe they're not that
+difficult to find i'm sure there are
+plenty of you guys who will check raise
+the same hand as well but you know on
+top of that what you're going to see is
+hence like check 10 off suit 109 off
+suit right hence like ace 5 of suit
+getting in there at some frequency as
+well and this is really something that
+it's very unlikely to be happening in
+practice especially if you are playing
+in softer games as well as lower
+stakes games so my point is that you
+know yes the solver is floating pretty
+wide and it does call ends like jack 10
+or pads or without any kind of effect of
+that show but this doesn't mean that we
+actually want to float this center
+breakfast because the solver is only
+calling these hands under the assumption
+that the big line is check raising
+appropriate range and
+if you
+look at hands like again let's come back
+to the sim and we take a look at hands
+like jack tan
+off suit
+the ev of our hand
+any hand that is mixing is basically
+zero av otherwise it would uh just
+simply pick the higher
+av option so i haven't like jacked an
+offsuit you know it's zero av support
+zero av is a call and this is what we
+uh refer to as indifference there's just
+some kind of equilibrium here whereby
+this hand the solver is telling you that
+it's really close between those two
+options and the equilibrium tends to be
+really sensitive right in the sense that
+any kind of disturbance in your
+opponent's strategy could potentially
+skew your decision
+all the way towards one end of the
+spectrum right so in this case if your
+opponent is not check raising enough
+fluffs for example uh like jack 10 or
+fats that was originally indifferent
+right now it's just going to start
+favoring
+folding since it's not you know up
+against a wide enough range and there's
+really no reason to be floating these
+kinds of events against check raising
+range that's much stronger than it
+should be or even for that matter even
+if your opponent's track raising range
+is slightly stronger than it should be
+it's still enough to upset
+this balance that you see here because
+the equilibrium is very sensitive right
+if you imagine a seesaw that is equally
+weighted on both ends even if you just
+add like feather on one side right
+chances are it's just going to topple
+all the way to one end and in this case
+it's not even like a small mistake that
+your opponent is making right looking at
+the
+uh gto solution right chances are your
+actual opponents are going to be making
+like huge mistakes here in the sense
+that then the check raising nowhere near
+enough blobs so it's not even like close
+decision or anything repents available
+uh because now we know that it's not a
+mistake for him to float check that
+right so a more appropriate question to
+ask ourselves would be
+uh against opponents
+who
+will not float hands like dragon outside
+right so now we can uh objectively say
+that he's making a mistake since gto is
+calling and subjecting of ads and checks
+and off suit sometimes right but our
+opponent is folding
+those hands so the question here is
+what is the exploit right and can we
+exploit him by check raising hands such
+as uh h6 of
+diamonds right so again i'm going to
+pull up the ball and give everyone a
+couple of minutes to think about this
+right so a uh through his overfolding
+which makes our check race plus eevee or
+do you think it's false it's six of
+diamonds since it's already a gto check
+race
+it doesn't qualify or maybe it doesn't
+qualify as an exploit so
+let me know what you guys think again
+i'll just give everyone a couple of
+minutes yeah the same same thoughts
+kings have been used rainbow so eight
+six of diamonds would be a bactostration
+plus spectral cholesterol
+okay so the more popular answer is
+b eight six of diamonds is already a gto
+check race so it doesn't qualify as an
+exploit there's also some guys who chose
+the first option but there's actually b
+which is correct 86 it's not really an
+exploit because the solvers what we're
+going to see is that the solver is check
+raising this hand at some
+frequency or probably most of the time
+in fact so even if you were to check
+races and it's not really an exploit
+right it would just be
+playing gto and you're not really
+punishing your opponent or overfolding
+versus to check race right
+if anything if you fail to check
+resistant then it would be a mistake
+right and your opponent should be over
+folding right but check raising this end
+it's you can't say that it's a mistake
+because what
+we see is that the solver is in fact
+raising descent at quite a high uh
+frequency so eight six of diamonds over
+here
+what you see is that it's raising like
+around eighty percent of the time and
+uh therefore it doesn't count as an
+exploit right so it's also
+uh you guys can also think about what it
+means in this case to be exploiting
+your opponent right so thiago says we
+can exploit by check raising 100 of the
+time with this combo so very good that
+is in fact correct and we can exploit
+our opponents overfalls by
+uh increasing the frequency of these
+check raises and including hands like
+ace five offsuit like jackson offsuit
+the most direct way of punishing our
+opponents over folks would just be to
+check racy sense more often or perhaps
+even all the time right because if we
+just play
+gto right so gto is check raising eight
+six of diamonds most of the time and if
+we do that and we just stop that then
+our opponent's checkpoint is going to be
+indifferent between both options right
+you can you can call he can pull both
+options that work about the same how we
+make calling
+better than folding is by check raising
+more than gto so this brings us to the
+second important point of today's
+webinar right the first point we looked
+at we talked about was that without
+knowing gto we cannot identify mistakes
+in our opponent strategy right the
+second point here is that without
+knowing gto we not only are unable to
+identify mistakes we also cannot say
+that we are exploiting our opponent
+because once again you know what
+we perceive as an exploit could just be
+gto so there's definitely going to be
+players who feel like they're playing
+pretty loose by check raising hands like
+eight saves of diamonds right it's just
+like a vector straight draw a backdoor
+clash right but that is in fact gto and
+uh the exploit is actually something
+that is much more extreme right which is
+two chakras sounds like ace five fox
+which is a naked overcard as well as a
+backdoor straight drop right those ends
+are also indifferent between like
+raising and calling and folding so a
+logical adjustment would just be to
+increase the frequency of the race right
+perhaps even raise 100 if you think that
+your
+opponent is um like overfolding right
+once again the equilibrium tends to be
+very sensitive and even if our opponent
+is overfalling by a little bit what's
+going to happen is hence like ace five
+fox suit they're just preferring to
+check rates in the sense that check
+raising will be higher eb than folding
+and therefore we should just pick the
+higher av option all the time so
+something interesting to think about is
+that you know what if we have hands that
+are pure folds such as checkpipe or
+parts just pure error right should we
+check restores as well so hands that are
+supposed to be folding all of the time
+in theory what do you guys
+think about track raising these kinds of
+things and do you
+think it's acceptable to do this or
+maybe maybe it's a little bit too out of
+line only if they overflowed a lot okay
+someone says check raising is acceptable
+if the eb is close to
+zero and that is most of the answers are
+quite spot-on it definitely has to do
+with how definitely has to do with the
+ev difference between check raising as
+well as folding so in this case if we
+look at the hand like okay let's look at
+jack type of speeds first and what you
+see is that raising okay so jack five of
+spades for example and what we see is
+that raising is worth negative 0.12
+chips and then folding is worth
+zero so we we're only using uh 10 of a
+big light right by check raising this
+hand so it's definitely not a huge
+mistake and
+if your opponent was overfolding
+by a big enough margin raising could
+definitely be become higher ev
+than folding so it's all about so as you
+guys many of you guys pointed out in the
+chat right it's really all about how big
+of an eb difference there is between
+raising as well as folding right if the
+ev difference is small enough for sure
+we can start to uh justify raising this
+assuming that our opponent is
+overfolding by a big enough margin and
+then hence like track five
+of hearts right there's a little bit
+bigger of an ev loss
+when you start raising this hand you
+lose about half a bit line so it's a
+little bit
+harder to justify doing that but could
+still be reasonable if your opponent was
+overfolding by a huge margin
+but that said i don't really
+advocate right typically
+i don't advocate raising these kinds of
+pure folks on the term because there's
+there's other considerations that you
+have to take into account as well right
+you have to think about the times that
+your opponent you know if you check
+raise your hand like drag piper parts
+and let's say your opponent sees you
+show down this head immediately he's
+going to start adjusting because he's
+going to know right off the bat that
+you're just out of flying
+maybe the next time around he'll start
+tightening up
+in terms of the seat betting range he's
+probably going to float more against
+your check raise yourself uh whereas if
+you separate something like eight six of
+diamonds right that is like supposed to
+be mixing in theory and then you just
+increase your frequency to 100
+it's not going to look as out of line
+and there's a lower chance that your
+opponent is going to start adjusting and
+start trying to counter
+exploit you there's like a nice
+children's story that i like to use here
+to
+like explain this this type of reasoning
+i'm not sure if any of you guys have
+heard of the story of the golden goose
+and imagine if you have a goose that
+lays golden eggs right would you
+kill the goose and eat it like that's
+just going to be uh super minus eevee
+and like why would you kill the ghost
+when goose when it's just going to when
+you could just like keep it and keep on
+letting it lay it's golden eggs and
+maybe you can sell the eggs and
+buy more geese with the money all right
+so check raising a hand like drag five
+for cuts in a way that's like killing
+the golden goose because once your
+opponent
+sees you show down this hand and it
+catches on to what you're doing right
+you're going to lose like a very
+plus eb spot in future so what we're
+really doing is we're thinking about our
+future eb as well right if
+it's possible for us to um
+for our opponent to not catch on
+to what we're doing then we can continue
+to exploit him for a small amount of ev
+over a very long period of time right
+but the moment we check raise strike
+fighter fights and
+we show this hand down right we're gonna
+lose this uh plus ev spot all together
+right so if you consider your future eb
+as well probably not the best idea to
+raise these kinds of events unless of
+course if it's an anonymous game right
+then that's not really a concern and you
+know you could probably justify track
+raising this if your
+opponent was over folding by a big
+enough margin okay so different types of
+players a level
+one would be players who don't have a
+good grasp of treat you so this is
+probably like 80 of the player pool
+right not just because like people
+don't study with solvers or anything
+right there's plenty of players to study
+with solvers but most guys especially
+those who are a little bit newer to
+solve us they tend to focus on a lot of
+the noise right
+stuff like blockers and so on it's it's
+very eye-catching in the sense that you
+know it feels good when you can break
+down and understand these things but
+at the end of the day there's
+there's other things that contribute
+more
+in terms of your win rate compared to
+blockers right for example understanding
+uh whether your opponent is like truck
+raising enough gloves in a certain spot
+yeah so gto is difficult by by nature
+and
+that's the reason why most players level
+one right not necessarily because they
+don't work with solvers but
+because it's even if you do work with
+software it's very difficult to
+understand how the equilibrium works in
+like every single spot that you might
+come across and then level two you have
+players who know
+gto and who just play
+accordingly so
+going along with the same
+example of the king seven deuce rainbow
+bot right these are guys who
+like maybe they see that the solver is
+floating and it's like checking the
+parts against the check race right and
+then the next time they encounter the
+same spot uh they just
+blindly call check them out and
+obviously that's not ideal uh especially
+if you
+playing
+like lower sticks or even mistakes for
+the method right it's very unlikely that
+the population is going to be check
+raising enough for you to justify
+floating so wide on the floor so
+sometimes
+a little bit of theory i can actually
+hurt you more than knowing not at all
+because the level one player
+is probably just going to pull traction
+off that's against the track race right
+but because the level two player has
+seen this hand uh being floated in the
+solver and he starts
+calling these kinds of ends and floating
+really wide and ends up losing a bunch
+of eb so where we really want to be is
+level three right level three these are
+the players who are at the top of the
+food chain right they know
+gto and instead of blindly imitating the
+solver they use gto and think about how
+to exploit their opponents so first of
+all a level three player is going to
+know he's going to understand that hence
+like dragon apart should not
+be floated in practice because
+population is under check raising but
+the advantage that the level three
+player has over the level one player is
+that the timestamp he is in the big
+blind and what he can do is check raise
+more bluffs relative to the gto strategy
+right so that includes hence like
+109 off suit and ace five off suit
+hence that the level one player will not
+check race so this is how the level
+three player
+gains eb over
+players who don't have a good grasp of
+gto and who don't understand how
+a certain spot works in theory right so
+at the end of the day it's always going
+to be
+the player who
+you know if you understand a certain
+spot and how it works in theory you're
+always going to be in a much better
+position to exploit your opponents okay
+so uh next
+question uh once again on the same king
+seven news rainbow board we're facing
+one third range bet so previously we
+were talking about what to do with our
+bluffs right so for example hence like
+eight six of diamonds right hence like
+ace five off suit uh we know that the
+cost population is overflowing right we
+can increase our raising frequency with
+thousands and it's uh quite intuitive
+something that's quite easy to
+understand in the sense that if your
+opponent is overfolding
+the most direct way to
+punish the overflow is to throw in more
+bluffs into your
+check raising range but we
+haven't really considered what to do
+with our maintenance i stuff like top
+pair
+middle pair that's also supposed to be
+getting track race at some uh
+frequency so i had like king queen for
+example is probably indifferent
+in
+theory so against
+someone who is likely to be overfolding
+against the check race right what do you
+guys think we should do with
+king queen should we always race
+should we always
+call
+or should we
+mix it up with our head
+[Music]
+so the most
+popular option is to always call it and
+that is in fact the correct answer so
+for e5444 says in the chat if this n is
+indifferent then overfolding makes it
+minus a b correct id but not technically
+correct because this end is plus eb for
+sure no matter what you do right you
+have a lot of eb as a call you have a
+lot of evs erased right probably what
+you mean is that if your opponent is
+overfolding and failing to defend hands
+like jackson offsuit then hand like king
+queen
+is going to be
+slightly lower ebs array since you're
+just getting like less
+value the timestamp erase so
+if if you can imagine that the ev of
+raising goes down even by a little bit
+we're just going to start preferring to
+call so that's why the correct answer is
+in fact b to always
+call so let's
+yeah so admin says the overflow makes
+raising this hand but yeah that's true
+definitely it's not it's not ideal to be
+raising this hand and then you know it's
+not ideal for your opponent to be
+holding stuff like jack 10 so here if we
+look at what the client is doing with
+king queen right this hand is basically
+indifferent to both options right but
+because our opponent is making the
+mistake of uh
+under defending against the
+against the track race so every combo
+object then that default
+is going to decrease the eb of uh
+check raising a hand like king queen
+since what we
+what we want is for these sends to call
+all the time right we're getting like
+plenty of value uh against the hand that
+doesn't have like that many outs against
+us we probably have like 90 something
+percent equity against descent and if
+our opponent fails to defend defense
+then it just means that the eb of
+raising is uh going
+to be much lower so whenever the moral
+of the story is that anytime you see a
+ham that is mixing
+instead of just let's let's see if you
+were reviewing this and you know you you
+have king queen from the big blind and
+then you're facing the c bet and let's
+say you decide to check raise this time
+and you're looking in the solver to see
+if you made a mistake and the solver
+says that you're supposed to be mixing
+with this head right don't just stop
+there and move on to the next step right
+what you really need to be thinking
+about
+is you need to look at you know instead
+of looking at your own side of the
+strategy you need to
+look at your opponent's response versus
+arrays as well as your opponent's
+response the times that you
+caught or what's he going to do on the
+turn for example and all of these things
+will affect the evie of calling as well
+as raising so you want to pay particular
+attention to potential mistakes that
+your opponent is making and when i say
+mistake what i mean is a deviation from
+gto so an example would be
+our opponent failing to defend hence
+like ejection effects right that is a
+mistake in the sense that gto is
+defending descent but
+chances are your opponents are not going
+to be floating so wide on the flop right
+and how this mistake
+affects the ep or raising is that it
+goes
+down right since you're just basically
+getting less value and mistakes on
+latest trees can also affect our
+ep so so far we've considered the ep of
+raising with king queen and we've talked
+about why it tends to be a little bit
+lower in practice compared to gto but
+we also
+need to consider
+the ev of calling right because it's
+it's possible that our opponent is
+making
+certain
+mistakes
+that
+also decrease the eb of calling right
+and in that case our decision would
+still be pretty close because the evil
+raising is lower but so is the eb of
+calling let's take a look at our
+opponent's response or what his strategy
+is supposed to look like
+after we check call
+on the block so
+if
+the big blind calls here
+and
+let's let's take a look at
+what happens on the average then
+so let me just
+make this full screen
+so if the big blind checks again here
+what we see is the
+button strategy on all the different
+possible
+run ups right so let's
+start off by taking a look at the
+buttons bedsides are the kind of sizings
+that you're supposed to use
+in
+theory
+so here we see that the most common size
+is the
+over bed and the pot is 9.1 chips and
+21.5 percent of the time
+the button is betting the turn for
+around
+12 12 big blanks right topic plugs into
+a port of nine big lines uh the smaller
+sizes do get used
+a little bit but not as much as the big
+one so we need to ask ourselves the
+question right is this
+a realistic assumption in practice
+particularly if you're playing
+lower 6 right 50 nl
+25 nl uh do you guys think that there's
+going to be so much over betting on yes
+or no okay i think everyone everyone
+agrees that over bets are kind of rare
+in these kinds of games right people
+don't really understand that you know
+it's
+you need to be using big beds to extract
+the maximum amount of value if you have
+something that's really strong right
+there's this idea that we need to size
+down to try and get a call
+a little bit more
+often and that's probably why these
+kinds of bets are kind of rare or it
+could just be because people are not
+really exposed to solvers or if you've
+never worked with solvers before i guess
+this does look kind of surprising at
+first right but it's super common in
+spots where the turn is a blank
+especially because here the button just
+has like a huge uh knight advantage
+reply has check rays almost all of the
+strong ends on the flop so the big bet
+is there to leverage just another
+advantage and to put maximum pressure on
+the big blinds black catches because the
+fact is that most of the big planes
+range is just going to be blood catches
+so
+this is definitely a mistake in the
+sense of a deviation from gto right
+mistake number one the times that we
+call king queen on the floor population
+is not using big enough bets on the term
+and then mistake number two right let's
+take a look at some specific terms right
+so if
+we have
+[Music]
+and
+the three of spades on the tent
+and you take a look at the buttons
+strategy here
+does anyone notice anything that is
+maybe not
+that realistic
+what do you think most of your opponents
+will do with hands like top pair okay
+zola says they're probably betting like
+three quarters part so we've talked
+about the bad size already right
+probably people are just not betting big
+enough with these kinds of hands okay
+james says they will probably bet top
+have a weaker kicker mata says they
+would
+never check i i
+definitely agree right maybe they do
+check like once in a while right but
+definitely not as often as what the
+software is doing here right because
+look at what's
+happening here the
+[Music]
+solver is
+pure checking
+every combo of king x king 9 and below
+right this is kind of unrealistic you
+know especially if like a flush draw on
+the bot right the way that
+a lot of players tend to think is that
+they just want to bet their topic before
+like the flash comes in on the river
+it's just an easier way to play the hand
+because there's this
+it's probably just psychology where
+people don't like making difficult
+decisions so they don't want to check
+here and then have like some kind of bad
+guy come on the river and now they face
+it better they're not sure what to do
+right whereas if you just bend this hand
+on the turn it's really easy to play
+because if the decker comes on the river
+you can just check behind and you don't
+have to
+worry about making any kind of typical
+decision right but of course the the
+easiest play might not always
+be the best play and what the solver
+does is it checks descends a lot even
+the stronger kickers such as
+and sly ace this region of ace king king
+queen and it's doing quite a bit of
+checking king jack checking almost half
+the time as well so that's mistake
+number two
+missing number one is that your opponent
+is probably not using big enough bed
+sizes mistake number two is that he's
+probably
+betting a little bit too often with top
+pair right so
+who can tell me how these mistakes
+affect the eevee
+of
+calling with king queen on the floor so
+let's say we have king queen and we're
+facing a seabed and we know that the
+times that we call our opponent is going
+to not use big enough sizes on the turn
+and also back to thin for value with
+worse top pack
+okay most of you guys say that the id
+will
+kind of mix actually some
+some people say it goes up some people
+will say it goes down i would actually
+argue that it goes up right because it's
+um yeah maybe it's not that clear right
+so let me elaborate on on this a little
+bit
+uh
+the reason why the your ev goes up right
+is because
+first of all
+um
+you know let's talk about the mistake of
+betting of button betting like too thin
+for value with weaker back right i think
+this is something that clearly increases
+your ap right the time set you call your
+opponent is going to be putting in so
+much more money with what sense right if
+a hand that if i had like king six is
+supposed to be checking all the time and
+then now it's putting in more money uh
+that can only be a good thing right
+you're just getting more value from
+hands that are worse than your very
+opponent's value i think two thin and
+that's going to increase av or kingpin
+as for the mistake of getting
+or failing to bet big enough
+this is a little bit less clear but the
+main thing to understand here is that
+the hands that are betting
+like really big right most of them
+they're supposed to be really strong
+hands right like sets and two pairs
+over pairs hand side ace king right so
+in theory you're supposed to lose a lot
+against these sets because they're going
+to be using a much bigger size and
+you know the solver is also going to
+throw in a whole bunch of bluffs such
+that your hand is just indifferent like
+calling and folding right but in
+practice if your opponent is not using
+the overpass then you're going to lose a
+lot less the time say you run into and
+like aces or pocket
+sevens right so you're kind of getting
+the best of both worlds here right not
+only
+do you save a lot of money the times
+that you
+run into a stronger hand but you're also
+getting a lot of uh you're also getting
+your opponent to put in more money with
+hands that you actually
+be so the eevee of calling on the thumb
+is going to go way up
+this
+mix that you see here right this is a
+problem with just um
+like copying what the solver does i
+imagine like a level two player who
+looks at this and then the next time he
+finds himself in this spot against a
+small c bet right he maybe he randomizes
+and trick raises king queen after attack
+right every time he check raises his
+hand he's probably going to be losing
+like a couple of bitcoins and because
+there's so many reasons why the eb of
+calling is higher than the eb of raising
+right first of all opponent is not
+defending enough versus the check raise
+which decreases the idea of raising and
+then secondly the times that you call is
+making all of these mistakes
+that
+increase the eb of calling so it's a
+huge huge mistake to be track raising
+king queen uh hands like king queen and
+king jack in specifically in the lower
+stakes okay
+right so don't don't do this right like
+and in general don't
+just copy what the solver does it's
+really important to
+once again think in terms of uh the
+kinds of mistakes that your opponent is
+making right just because your hand is
+mixing in theory and it has the same
+eevee in theory very rarely it's going
+to have
+the same eb in practice almost all the
+time one option is going to be higher
+than the other and it's very important
+to
+think about like which option is
+superior based on the kinds of mistakes
+that your opponent's making right so
+always think in terms of your opponent's
+mistakes instead of looking at your own
+side of the strategy and you want to pay
+attention to dylan's end of the strategy
+and to try and see if there's anything
+unrealistic that you might notice about
+the solver solution because every
+mistake that your opponent makes is
+going to affect the eevee of your
+various options
+including the six on later streets as we
+as we saw in the previous example
+okay so next example uh this one is
+an early position hand so hero raises
+from the low jack with ac8 suited the
+big line calls the client checks the
+flop we get this uh a7 used to turn top
+so we've laptop attack kicker big blind
+check holes 10 is a blank a trio pads of
+course check check so we decided to
+check up top air here
+and on the river the seven pairs and the
+big blind over beds like that's 20 big
+plans into a part of certain big blinds
+so the question here is how inclined
+will you guys be to bluff catch this
+spot so a
+we have good blockers and also big blind
+has like plenty of the straws right so
+maybe that is enough to make us want a
+black patch or b big blind is likely to
+be under bluffing especially for such a
+big size so once again i'll give you
+guys a few minutes maybe i will
+shift the slide back to uh previous one
+just so that you guys can see the bond
+and what stick is this assumed to be
+not so important it's more like a
+general idea that you guys can can use
+when it comes to
+love catching
+it seems like everyone loves to do blab
+catch the same okay thiago says that we
+beat value bets are you're referring to
+seven yeah probably not gonna be for the
+seven because yes we repeat uh value but
+probably
+the headline ac is not going to uh
+not really going to beat any value for
+this size uh tombow says is the station
+so they're definitely calling okay
+i'll remember not not to bluff against
+you in future so most popular answer is
+a
+most of you guys seem to want to call
+this hand
+and
+it turns out that this is a situation
+where like it's really not
+not such a great spot to be
+love catching right it doesn't have so
+much to do with the the bad size even
+right it's more about you know going
+along the same lines of
+what it means for your opponent to make
+a
+mistake right yes bitly has plenty of
+misdraws but the question that we really
+need to be asking ourselves is um
+like is it a mistake for him to be
+bluffing all of those miss drops right
+even if he has a ton of misdraws but
+let's say you look up the spot on the
+solver and you see that all of the
+mistrust are supposed to be flapping
+alone you know it doesn't justify
+like just calling ac
+since your opponent is not making a
+mistake right yes it's bluffing all of
+this mistrust but that's what he's
+supposed to do right whereas if this is
+a situation where your opponent is like
+let's say you look up the spot in the
+solver and then you see that he is not
+supposed to be bluffing all of his
+misdraws right then you can say
+that this is a good spot to block catch
+right fake blind has plenty of misdraws
+and the solver is not bluffing uh
+all of those
+draws okay so
+let me pull up the scene right just to
+elaborate a little bit on what i mean
+and we can take a look at the big
+blind's strategy after the
+turn goes
+check check
+so what we see here
+is that we are getting almost all of our
+range around 80 of our range it's a
+little bit confusing to look at this uh
+hand grid so what i
+like a nice tip that you can use is to
+look at the breakdown instead
+like here it's much easier to figure out
+what's uh what's going on right
+particularly if you look at the air
+hands in the big blinds range
+king high as well as hands that have no
+showdown value right the solver is
+betting these hands all the time so this
+is what i was talking about earlier and
+if even if there's a whole bunch of
+misdraws on the bot um and you think
+your opponent is betting all of them
+right that alone doesn't
+justify bluff catching a hand like uh
+ace hit because that's in some cases
+that's just what your opponent is
+supposed to be
+doing so let's look at end positions
+response versus this overpass
+and look at what ac8 is doing
+so uh what we see here is ac king
+[ __ ] they're all in different to
+calling or folding right it is calling
+most of the time
+but that's not the main point where the
+main point is that the ev of calling is
+close to
+zero right so once again with these
+kinds of hands that are mixing
+what you don't want to do is just like
+look at this hand and say oh the solver
+is mixing so it doesn't matter what i do
+with it right the correct approach is to
+instead look at your opponent's strategy
+right because this hand is mixing
+against the gta strategy
+and
+what you need to figure out now is if
+your opponent is deviating from gto
+right and that could potentially affect
+the ep of calling right the evil folding
+is always going to be zero right so the
+question here is really whether or not
+calling is plus ep and that really just
+depends on your opponent's value block
+ratio and if you can identify uh
+certain mistakes in this strategy right
+then that could uh definitely affect
+your decision so in this case
+because his air hands are supposed to be
+laughing all the time right it's very
+difficult for him to make the mistake of
+overblocking i think think about it like
+this right let's say
+if um if you were in the
+big blind okay and you guys were
+bringing against me and i'm i'm in the
+low jack with ac or whatever bluff
+catcher that i have and i tell you that
+i'm just going to fold this hand
+all of the time i'm going to fold all of
+my bluff catches
+what would you guys
+what do you think you guys can do to
+exploit me uh yes very good rv says turn
+a sign into a block
+yeah is there anything else that you can
+do to exploit me without bluffing can
+you exploit me by bluffing all of your
+misflush draws uh yeah there's some very
+creative answers here right bluff
+smaller check all of your strong hands
+right very good those are all valid
+options but you know you guys
+can see where i'm going with this right
+it's very difficult
+to
+be overplaying without getting creative
+here because most players are just going
+to check these pin right it doesn't make
+so much sense to turn a spin into a
+bluff when the ball comparison you have
+so much uh
+showdown value right and this is the
+reason why this is
+not that great of a spot to be bluff
+catching right even if you fold all of
+your blood catchers that are
+indifferent versus the overpaid
+right there's very little that your
+opponent can do to punish you right you
+have to turn stuff like a sign into a
+black right that would be the most
+direct way that he could
+take advantage of your
+mistake right whereas if you decide to
+bluff catch here with ac right you're
+kind of getting free right in the sense
+that there's very little that your
+opponent can do to overblock but it's
+certainly possible that he's under
+blocking and maybe he is
+just giving up with a bunch of like miss
+flash trucks that players nowadays are
+quite obsessed with uh
+blockers right so maybe if your opponent
+has something like uh jack nine of
+diamonds and then he says oh i i should
+give up this end because i block back to
+miss flush draw and then i block like
+some miss straight draws as well of
+course that probably doesn't apply in a
+spot like this right but what my point
+is that there are certainly players
+working this way and then once he fails
+to blow up and like drag right right off
+the bat he's going to be
+under
+laughing
+right and you know your call is just
+going to become minus db as a result so
+the exploit of folding a hand like ac
+here against an over bed is actually
+pretty safe in the sense that there's
+nothing much your opponent can do
+to counter exploit you and that's that's
+the reason why like i would
+personally just fold this hand 100 of
+the time i wouldn't even blah catch it
+at some frequency because i'm confident
+that the ep of calling is just gonna be
+less than zero or at this is just going
+to be zero right even if the big planet
+bluffs all of this error right then yes
+my n is zero e b right but if that's the
+case then what's the point of calling
+i'm just getting free row basically
+right if my opponent is playing gto then
+yeah my call is okay right it's like
+mediocre call uh if my opponent is like
+under blapping then i'm just making a
+minus ep call right it's so so unlikely
+that he's actually going to be over
+laughing here
+yeah so um seems like quite a
+contentious question i don't think
+everyone
+really
+agrees with me but hopefully i've
+convinced most of you okay let me take a
+look at some of the replies so steve
+says
+that there are some players who
+might not be betting so big with strong
+hands okay so fair point right that's
+something just potentially a
+consideration
+as well if you are not expecting to
+receive a platform miss dross on the
+river checkington seems like a bad day
+okay so that's not necessarily true
+because you don't know that the river is
+going to be a seven
+right what what if
+the river was an ace instead
+right then now it is going to be a very
+different kind of uh situation right if
+we
+take a look at yeah i guess i haven't
+really explained like why the big plane
+gets to block all of this error on the
+seven it's really because the seven is a
+fantastic run-up for him right the three
+and the seven especially right the three
+doesn't uh improve any of the position
+players over cards as well as the seven
+obviously we're going to have like a
+whole lot more trips compared to the
+early position player so in situations
+like these where we have a big region of
+value heads where we have all of these
+trips and even 8x is strong enough to
+make like a small bet
+and all of these value heads have a bad
+thing right especially if a lot of them
+can go for a bigger size right then
+that's always going to allow us to plug
+a lot because the bigger that we bet we
+have like 7x for example
+if we start over battling with descents
+our opponent is going to be getting
+terrible products and what we need to do
+to compensate for these products is to
+laugh
+more so that's why the solver is
+bluffing so much on this kind of right
+now because big light has like enough
+value hands that are betting for a big
+enough size to support all of these
+blocks right but if the runout is
+different
+let's say if it was an ace instead of a
+seven right then what we're going to see
+is something very
+different right look at what the
+error hands are doing here
+king high is checking all the time even
+if we have like a hand without any
+showdown value it doesn't mean that we
+get to bluff all the time now
+because the run out is much worse
+for us where the ace hits in position
+much harder than it hits us so there's a
+very limited amount of hands that we get
+to value bet right at the end of the day
+your blocks are just there to make sure
+that your battery hands get you know
+and if you
+don't have enough value hands then
+you're obviously not going to be allowed
+to bet all of your blocks and then the
+more value hands you have especially if
+they can bet for a pretty big size right
+you're going to be allowed to
+laugh more so in this
+kind of situation uh it's kind of the
+opposite of the previous
+river the previous example right here it
+would be a much more reasonable spot to
+bluff edge because now it's very
+possible that your opponent could be
+over laughing right at least it's it's
+physically possible for him to overclock
+right he just has to that ahead like
+knight hand for example you can see
+nighttime or space is supposed to be a
+pure check but the moment your opponent
+starts batting descents and he's going
+to be over flapping so this is a much
+more reasonable spot to be blood
+catching compared to the previous one
+because it's
+your opponent basically has more room
+to be making
+mistakes so in conclusion gto is we want
+to think about gto as a
+baseline helps us identify mistakes in
+our opponent's strategy first of all
+right because without
+a gto baseline we can't even see that
+our opponent is making mistakes right
+without gto we wouldn't we'll be pretty
+lost in terms of how to adjust as well
+right but if we have some kind of gto
+baseline then we can say that you know
+if my opponent does this he's making a
+mistake because of the deviation from
+gto
+and
+it also tells us which direction in
+which to
+adjust because we can think about
+how his mistakes affect the av of our
+hand right and let's see if he's folding
+too much and we have some kind of
+bluff that is
+indifferent to like grazing and folding
+in theory and then we can see that the
+epo of raising is now
+higher than the the eb of folding so
+that's what the solver is for right it's
+there to help you first of all identify
+mistakes in your opponent's strategy and
+then secondly if you think about it a
+little bit where you often find ways to
+uh exploit those mistakes that your
+opponents are making so when uh
+reviewing hands especially right don't
+just stop there if the hand is mixing
+you've got to look at dylan's side of
+the strategy and think about all the
+mistakes and all the ways that he's
+deviating from gto right think about how
+they affect the ev of your various
+options and then from there there's
+going to be some situations where you
+find that one option is like way higher
+even than the other so you can just pick
+that option all the time you don't have
+to
+mix it up when you know that one option
+is superior to the others
+and finally when used correct resolvers
+become
+very powerful exploitative weapons and i
+hope i have
+demonstrated that in this presentation
+thanks for watching and i'll see you
+guys again soon
+you

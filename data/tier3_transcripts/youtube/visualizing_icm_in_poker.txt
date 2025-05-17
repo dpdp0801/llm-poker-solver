@@ -1,0 +1,1379 @@
+understanding the independent chip model
+is key to winning more poker tournaments
+in this video I'm going to break down
+the barriers to give you an intuitive
+visual understanding of how ICM works
+and how it impacts your strategy let's
+Dive Right In
+the independent chip model impacts every
+decision you'll ever make in a poker
+tournament so to start with we're going
+to address the question of what is ICM
+I'll give a brief introduction to the
+topic after that I'm going to show you a
+tool I've built to help visualize how
+ICM Works we're going to look at
+placement probabilities risk premium
+bubble factor and then we're going to go
+through some GTO wizard examples to help
+you drill down these Concepts what is
+the independent chip model at its core
+ICM is a utility function to translate
+the value of a stack from chips to
+dollars more specifically it predicts
+the probability of a stack placing first
+second third and so on now we've already
+written an article to help you
+understand the math Behind these
+decisions in today's lecture I'm not so
+concerned with the exact map as I am
+giving you a visual understanding behind
+all of this map it's the same concept it
+is the value of survival so let's take a
+look at how ICM impacts your strategy
+let me show you how I'm going to attempt
+to visualize ICM traditional tools only
+show you your risk premium or bubble
+Factor when Stacks are fully invested
+but I wanted something a little bit
+different so on this graph I've graphed
+the absolute change to your stack in
+chips against the change to your
+expected value in dollars so the
+horizontal axis represents the absolute
+amount of chips we've gained or lost and
+the vertical access represents how
+gaining or losing those chips impacts
+our expected value and something we'll
+notice as we're going through these
+examples is that the losses always seem
+to be bigger than the wins and again
+this is because the tournament losses
+hurt more than wins help and this
+difference between the expected value we
+gain when we gain chips and the expected
+value we lose when we lose those same
+amount of chips is our risk premium Now
+classic risk premium in poker
+tournaments is calculated with a pod
+odds equation how much extra Equity do
+you need facing a shove to call given
+the I ICM implications but for this
+lecture I'm just going to use this
+dollar difference in our expected value
+because this is better suited to what
+I'm doing something else that's
+important to understand are how your
+probability of coming in first second
+third fourth or so on is impacted by
+changes to your stack so in this graph
+we can see there's a 13 chance of
+getting first a 24 chance of getting
+second a 33 chance of getting third and
+a 30 chance of getting fourth and the
+reason this is important is because the
+elasticity of this graph determines how
+much ICM pressure there is if there's
+really no change to your probabilities
+or very little change to your
+probabilities with respect to doubling
+or half in your stack whatever then
+there's not a lot of ICM pressure right
+conversely if losing or gaining even a
+few chips has a big impact on these
+probabilities then there is a much
+larger shift to your payouts and
+therefore your expected value and so
+it's really important to understand that
+ICM just comes down to placement
+probabilities and how your probability
+of placing first second third and so on
+is impacted by ICM pressure now in a
+tournament you're never going to be able
+to calculate this in real time the
+purpose is to just give you a general
+intuitive sense for how this stuff works
+so before I dive into the tool let me
+just tell you a little bit about the
+inputs so in this tool we can input any
+payout structure we'd like we can enter
+the stacks for three or four players and
+we can choose hero as well as the active
+players active players just means who's
+still in the hand who hasn't faulted yet
+as a simplification gains or losses to
+our stack are taken or distributed
+proportionally among the active players
+in a hand and the reason I've done this
+is because I only wanted one graph if we
+wanted to see this for every player
+versus every other player you could do
+that but then you need a whole bunch of
+different graphs and that's unwieldy so
+instead I'm just saying that gains or
+losses are distributed proportionally
+among the active players
+without further Ado let me show you this
+visualization tool
+so here's the tool this is a simple
+spreadsheet I've made you can try this
+out yourself link is in the description
+first of all I'm going to change hero to
+cut off
+here and let's select some prize pools
+so we'll say it's a thousand dollar
+prize pool
+to start with what happens if it's a
+winner take all tournament so I'm going
+to change first place to 100 percent and
+zero all of that so Winner Takes all
+and down here I've defined the stacks so
+everyone just has the same amount of
+chips
+we'll notice that doubling up or gaining
+100 chips
+just doubles our expected value 250
+dollars and conversely losing all our
+chips
+just loses 250 and so losses hurt as
+much as wins help there is no risk
+premium but now watch what happens when
+I split the payout structure if I change
+this to something like 50 30 and 20. and
+we'll notice that this blue line is
+bigger than this green line and that is
+your risk premium Now I want you to take
+a moment and really think about why this
+is the case why is it that there is no
+risk premium in a winner take all
+situation but we get this risk premium
+whenever we split the payout structure
+what is that about why does that exist
+really think about it take a moment
+pause the video
+well the reasoning is that ICM just
+predicts the probability of placing
+first as your chip portion so if you
+have 25 percent of the chips in the
+tournament it expects you'll place first
+25 percent of the time
+and therefore the probability of placing
+first is just linear with your chip
+stack as we can see this is just a
+straight line
+and therefore there is no risk premium
+what causes risk premium are the curves
+to this line essentially and so I've
+graphed this as an area chart
+but we can also view this as lines and
+so that's what I've done here and so
+this line represents the probability of
+cut off placing first with respect to
+their stack now in the middle remember
+everyone has the same amount of chips so
+it's just
+everything's meeting down at the middle
+everyone has a 25 chance of placing
+everywhere let me change the inputs a
+bit we'll mix this up
+enter some other random stuff maybe
+something like that
+and this will change the probability of
+placement
+here we can see new lines
+now think about this really carefully
+for a second probability first scales
+linearly with the amount of chips but
+what about the probability of placing
+second or third or fourth
+well these don't scale linearly for
+example if we just look at the
+probability of placing third let's say
+we lose all of our chips this must drop
+to zero and again if we double up the
+probability of placing third decreases
+because we're more likely to get a
+higher placement and it's this
+non-linear curve that creates ICM
+pressure let's try another example
+let's imagine that you're playing a
+satellite and there's four players
+remaining and the top three players get
+a ticket so we're gonna change this to
+33.3 across the board
+and look how drastically our risk
+premium increases look at all that red
+and this is because
+now the payout for coming in for a
+second and third is the same and so we
+don't care about any of that all we care
+about is the probability of busting
+versus the probability of not busting
+and this curve is the most drastic among
+all the curves right and so this is why
+in satellites the bubble is extremely
+important there's a ton of ICM pressure
+all right let's try a new quiz so I'll
+reset this and let's make it three max
+this time so I'm going to change this
+from cut off to button and we'll go
+ahead and delete cutoff stack so cutoff
+is out of the tournament it is three max
+which of these three payout structures
+give an equal Stacks so I'll make these
+equal
+have the most ICM pressure and I'm going
+to measure this with the bubble Factor
+one Winner Takes all which is what it's
+set up now second option fifty percent
+thirty percent and twenty percent for
+first second and third third option is
+sixty percent twenty percent twenty
+percent and the last option is eighty
+percent fifteen percent and five percent
+take a moment to think about your answer
+foreign
+[Music]
+well let's take a look so obviously
+first answer is not correct because if
+it's winner take all there is no ICM
+pressure as we've just discussed
+hopefully you're paying attention let's
+try this second option now so 50 30 and
+20.
+and here we can see a bubble factor of
+1.4 now what does a bubble factor mean
+this simply means the absolute value of
+your loss if the stock is fully invested
+so 133 divided by the absolute value of
+the gain if you double up and this is
+1.4 all right so let's try another one
+what about 60 20 and 20. and we'll
+notice something interesting there is no
+ICM pressure 60 20 20. this is
+essentially a winner take all situation
+in Disguise because what players could
+do is they could simply each pay out 200
+and then they're playing a winner takes
+all tournament for the remaining 400 so
+this payout structure has no ICM
+pressure because it is just winner take
+all in Disguise all right and so this
+last one is going to be 80 15 and 5. and
+this one
+is closer to when it takes all the
+bubble factor of 1.2 and because it's
+closer to a winner takes all scenario
+there's less I see and pressure there's
+more emphasis on this linear first place
+probability than there is on the second
+place probability now naturally I'm
+quite curious so there was another one
+that I wanted to check when I Was
+preparing this lecture watch what
+happens if we change the payout
+structure to something like 34 33 and 32
+percent so there's three players
+remaining and all of these are very very
+close and yet it looks like
+we're actually experiencing quite a bit
+of ICM pressure in fact the bubble
+factor is 1.7 and so why is this the
+case why is it that when these are
+really close the bubble Factor increases
+well again this is three players left
+button small line big line and we can
+imagine that everyone gets paid out 320
+dollars in that case it's more like a 66
+33 tournament where the button
+gets paid two-thirds of the price and
+second place gets paid one third of the
+price right first place is competing for
+20 second is competing for 10 third is
+competing for nothing and so even though
+the absolute value
+of our risk premium is lower the
+proportional value that is to say how
+much more do losses hurt than wind's
+help is still quite high and ultimately
+this is what impacts your strategy so
+now we've got a sense for how the payout
+structure impacts our ICM pressure let's
+next play around with the stacks and see
+how that changes so let me change this
+back to some normal looking payout
+structure we'll do something like 50 30
+20 and let's go ahead and make this
+formats again so I'm going to add cutoff
+back in
+and there we go now we're the cut off
+and so hero is the cutoff
+and we get this
+ICM distribution so let's see what
+happens if we make one of villains the
+chip leader so we're going to say that
+button has a thousand chips instead of a
+hundred and notice that our risk premium
+increases
+and so does our bubble Factor think
+about why this is most tournament Pros
+will tell you something along the lines
+of well button can put a lot of pressure
+on us if we open the contribute us a lot
+and this is all true this is all true
+but think about it from a more
+fundamental perspective even without
+strategic implications or range charts
+or any of that stuff what happens if you
+take a hundred chips off button
+well there's still a massive chip leader
+right you don't decrease their EV that
+much taking 100 chips off of them so
+let's take a look at button for a second
+Button as the chip leader experiences
+almost no ICM pressure 1.1 it's very
+very flat they're almost playing a chip
+EV utility function at this point and
+the reason is that losing 100 chips or
+gaining 100 chips barely impacts their
+payouts right
+and so the real reason that cutoffs
+risk premium increases is that when they
+get into pots against button they can't
+do as much damage right that's
+fundamentally what this comes down to
+and so if I change this back to cut off
+we can use this active players control
+to see how our risk premium changes
+against certain players so for example
+if we're in a heads up pot versus big
+blind
+our ICM pressure decreases now it's only
+minus 68 dollars the bubble factor is
+1.6
+and big blind and I have the same stack
+right but Watch What Happens
+to this big red area if I change this
+from cut off to button
+and now our ICM pressure increases
+greatly
+the bubble factor is 2.7 and this is a
+bad spot to be in because
+even if we double up sure that's great
+because we're more likely to get second
+and third but we barely do any damage to
+button whereas if we're in a heads up
+pot against small blind or big blind we
+can actually do significant damage to
+their stacks and therefore significantly
+increase our chances of not busting and
+so hopefully this explains why the chip
+leader has such an advantage in these
+tournaments so let's try something else
+let's make one player a shorter stack so
+we still have 100 chips button is a
+thousand chips and let's say that big
+blind or will make it small blind has 10
+chips
+and oh boy would you look at that that
+is an enormous amount of ICM pressure
+whoa what's going on here the bubble
+factor is 5.9 this is absolutely
+ridiculous cutoff should be incredibly
+tight here incredibly tight
+and okay that's this is still against
+both players but
+even if we select all players
+yeah very very tight so what is
+happening here well to understand this
+let's look at it from small blinds
+perspective so I'm going to change hero
+to small blind
+and again small blind surprisingly
+has very little ICM pressure bubble
+Factor 1.2 you know minus five dollars
+changes to their stack have a less of an
+effect
+on their expected value and if we want
+to figure out why the answer is to look
+at this probability distribution chart
+you see small blind is so short stacked
+that they're pretty much they're very
+likely to get fourth regardless right
+even if they double up chances are they
+still bust at some point later on in the
+tournament and so
+what this means is changes to small
+blind stock have less of an effect on
+their expected value and this is why
+short stocks in poker tournaments
+especially lone short stacks when
+there's no one else that's going to bust
+generally don't experience a lot of risk
+premium right and so small blind here
+can play Closer to ship EV strategy now
+let's look at this from cutoff's
+perspective again
+why did cutoffs risk premium increase
+when we made small blind shorter stacked
+and the reason for that is that cutoff
+is now more likely to get place in the
+money right place for a second or third
+and therefore losing your entire stack
+is extremely problematic when there was
+a high chance you could have just folded
+your way into a payout and so
+you really really don't want to bust
+when there's an immediate short stack
+that's ready to bust and improve your
+position in the tournament
+and so mid Stacks like cut off here
+often experience the most pressure
+when they're in the presence of both
+big stacks and short stacks and this is
+a fairly extreme example but this exists
+everywhere and it's important to
+understand this concept
+so let's take a look at how cutoffs
+EV changes against different players now
+against the button
+it's going to be quite high in fact it's
+even more because again we can't do a
+lot of damage to the button against the
+small blind
+our risk premium is very low so if we're
+in a heads up pod against the small line
+we don't care we'd love to bust them get
+the chips in yeah but the problem is
+there is two other players to get
+through so that's probably not going to
+happen and against the big blind
+we have medium ICM pressure so a bubble
+factor of 3.3
+again the big blind has the same amount
+of chips we do
+and so considering how your
+probabilities of placing in the
+tournament change with respect to the
+stocks is really the key for me anyway
+to understanding how ICM Pressure Works
+and how gaining or losing chips impacts
+your expected value and so a big part of
+ICM comes down not just to your own
+stack but the other Stacks in play and
+what are the probabilities of colliding
+with those stocks I think we've got a
+pretty good feel for how ICM generally
+works with respect for stocks and
+payouts but it's important that we
+actually look at some examples so we can
+see how drastically this pressure
+impacts our strategy so let's take a
+look at that next here's the first
+example so I'm looking at a three max
+spot button has 50 chips small blind has
+five chips and big blinds started with
+30 chips
+this is a final table spot with three
+players remaining
+to find the payout structure you can
+just click payouts
+and we can see three players remaining
+this is the payout structure so I'll go
+ahead and enter that in my spreadsheet
+next I want to take a look at how button
+strategy changes as the chip leader as
+compared to some sort of Chip EV
+Baseline so button
+who can apply more ICM pressure they
+experience less risk premium as compared
+to for example small blind or big blind
+they can therefore open wider so 56
+percent of hands pretty wide right and
+just to compare what is our risk premium
+here
+I'm going to go take a look at the
+spreadsheet and so you'll see I've
+entered the palette structure and the
+stacks we'll click show risk premium
+and button still experiences oh sorry
+this is big blind button
+it still experiences some
+ICM pressure but it's not that high
+right 1.3 It's relatively small sure big
+blind can still hurt us but we're doing
+pretty good
+and if we take a look at small blind
+here again small blind doesn't
+experience much pressure at all because
+changes to their stack
+have a small impact on their placement
+probabilities and so small blind is very
+close to a chippy situation as well what
+about big blind what about this mid
+stack
+big blind is under the most pressure
+here because they really want to be able
+to secure at least a second place payoff
+here and therefore the probability of
+busting is very problematic for them
+because right now they've got a very
+high chance of placing in the money
+almost 88 busting is
+horrendous at this point and like I
+mentioned earlier it is the collision
+between these Stacks or the the gradient
+between the ICM pressures that allows
+the Strategic changes to take place so
+who is button most likely to get in a
+fight with or who are they most likely
+to collide with if they open well
+obviously the big blind right
+and therefore we can open pretty wide so
+let's go take a look at how our strategy
+changes
+so here we see the strategy again this
+is the ICM Sim and let's compare this to
+a chip EV situation that's somewhat
+similar and so this is from the six Max
+chip EV Sims you can see chip AV up here
+where everyone has a 30 big blind stack
+and we can see we're opening 10 percent
+tighter we were opening 56 now it's like
+47. uh and some players May argue well
+hold on hold on small blind was short
+stacked before that changes things sure
+and so I've got another one here which
+is somewhat similar
+button in big blind have what is it 27
+big blinds effective and small blind is
+a short stack and again this is going to
+tighten up our strategy a bit in a chip
+AV scenario but comparing this to the
+ICM scenario we can see that here we can
+play much wider as the chip leader and
+this should be a fairly obvious example
+you have more chips you're the chip
+leader you can apply pressure open wider
+right that's very simple let's take a
+look at small blind though how does
+small blind strategy change let's say
+button folds action on small blind and
+again short stacks don't experience that
+much ICM pressure especially when
+there's no other short stacks present
+and that's because as we demonstrated
+using the visualizer their expected
+value doesn't change much even if they
+double up and so here we can see that
+they are just shoving 73 of their range
+and when they do shove
+big blend actually has to uh they can
+call pretty wide here
+because again they don't mind busting
+small blind
+let's compare to some sort of Chip EV
+scenario though and so here
+it's a chip AV situation where a small
+blind
+has five chips now I should mention that
+this chip ev1 includes antes
+or different aunties so it's a slightly
+different risk reward ratio but
+essentially we're still opening like 70
+something percent of hands here so still
+opening quite wide right
+and again
+very similar strategy this is going to
+play closer to a chip EV scenario now
+lastly let's take a look at how big
+blind strategy changes facing a button
+open so back at the ICM Sims here
+button opens two chips action on big
+blind and big blindfolds a ton and I
+mean to a cash game player this might
+look like a normal range but to a
+tournament player this looks crazy why
+are you folding so much right they only
+open two chips call wider but due to the
+ICM pressure and the implications of
+potentially busting against the button
+when you have such a good chance of just
+waiting for small blind to bust this
+further decreases how wide we can call
+and so we're only defending something
+like 45 of our range here in total uh
+very passive not a lot of raising right
+very little three betting going on
+let's compare this to a chip EV spot and
+here you can see that big blind is
+defending much wider much much wider and
+part of this is just due to a little bit
+of extra antes in the pot
+but a large part of it comes down to the
+fact that there's a lot more ICM
+pressure and this is I think is uh
+kind of demonstrated by the fact that
+we're raising 18 of hands here in this
+chip EV simulation whereas we were
+barely raising it all like what is this
+five percent of hands in the ICM
+scenario
+so
+this is why it's important to pay
+attention to these situations
+understanding how risk premium impacts
+your strategy and how though the
+differences in those risk premiums can
+impact your strategies is just crucial
+to maximizing value in tournaments let's
+take a look at another example
+just so you know you can press M to
+bring up these saved spots and then you
+can go and review spots later so I've
+picked this spot here which is very
+similar to what we've just looked at the
+stacks are now 30 50 and 5. before the
+blinds were posted that is so 30
+55.
+and we'll notice immediately what jumps
+out to me is that button is only opening
+20 of hands
+ouch
+ouch ouch ouch oh that hurts
+and so why is this the case well we're
+the mid-stack small blind is a pig stack
+and big blind is a short stack so what
+happens if we open well let's find out
+uh well first of all small blind can
+three bet us relentlessly
+much three betting
+oh man raising 31 of hands
+very painful and big blind like the
+honey badger just don't care they can
+call super wide because as the short
+stack again their probability
+distribution is less affected by changes
+to stock and so it is this difference in
+ICM pressure between us as the midstack
+who really wants to get at least second
+and the chip leader and the short stack
+that just don't care because their
+probabilities are less affected that
+really really hurts our ability to open
+right
+so let's take a look at the visualizer
+to see if we can understand what's going
+on here so we'll change these Stacks
+around 30 50 and 5.
+and we can see there's quite a bit of
+ICM pressure a bubble factor of 2.1 and
+of course it really really hurts to bust
+against the small blind who can raise us
+relentlessly knowing that we have to
+play passively to try and secure at
+least the second place position in this
+tournament if we take a look at for
+example
+the small blinds risk premium against us
+It's relatively small only 1.3 and the
+big blinds risk premium
+almost non-existent it's almost chip EV
+right again
+their probability placements are less
+affected by changes to their stack
+but with the button
+there's a drastic difference
+changes to our stack have a bigger
+impact on
+our expected value this creates a risk
+premium
+and so keeping this in mind how your
+opponents will play back against you
+to counter your weakened ICM position is
+an important factor
+let's go back to the example for a
+moment so button only opens 20 of hands
+painful painful and if we do open small
+blend will freebit US relentlessly and
+big blind will call relentlessly so we
+have very very little fold Equity almost
+never getting this through and if we
+fold small blind it can just raise a ton
+of hats because
+they want to bust
+big blind be very happy to and big blind
+who is playing close to a chipity
+strategy will just call according to
+their Equity let's try another example
+now in this scenario button has 10 chips
+small blind is 15 and big blind has 50.
+so there are two mid Stacks versus a
+chip leader in the big blind we we are
+both very likely to collide and as a
+result of that we can see that both
+button and small blind are playing
+tighter as a result and the reason is
+that we're both in the running for a
+pretty good running for second even
+first place and we really don't want to
+be the first person to bust
+and so
+button plays tighter but so does small
+blind right small blinds folding
+two-thirds of their range
+which is quite a lot and so even if they
+raise small what ends up happening is
+big blind can just re-raise relentlessly
+you know 26 percent of hands are three
+betting here versus the small blind and
+so let's take a look at the visualizer
+to see what's going on here
+all right we've got 10 15 50.
+and here we see button now
+the risk premium is not super
+significant 1.4 okay it's it's there but
+what about small blind
+a small blind has a little bit more risk
+premium right 1.7 uh they're risking a
+decent portion of their Equity against
+us
+now what about big blind
+1.2 so not a whole lot of risk premium
+big blind what they can do though is
+they can put us in a bad spot because
+neither button or small blind wants to
+bust first
+and so because of that they can raise
+either one of us more often and for that
+reason button in small blind both play
+tighter
+but there's something else going on that
+I want to show you guys
+so I've named this one
+why does button not shut
+in case you guys are curious yes you can
+save spots just hit this little save
+icon
+up in the top hand corner here
+and
+I've got this simplified but let's just
+change it back to the original so button
+has three options we can shove which the
+solver's not doing
+we can Min raise which the solver is
+only doing at a low frequency
+or we can raise 60 of our stack what on
+Earth is this size why would you open
+sixty percent of your stock makes no
+sense uh and this is something that the
+silver actually prefers this is the
+preferred sizing and I don't think
+you're going to see this from a lot of
+other ICM coaches in the poker Community
+because let's be honest who gives their
+silver this crazy size well we do
+we gave it lots of sizes and this seems
+to be the one that's preferred
+so what's going on why this button want
+to open 60 if they're stack well first
+of all it should be noted that we open
+six and faces like a shove we're not
+folding we are pot committed
+and similarly if small blind shoves we
+are pot committed so we're not folding
+to arrays ever
+once we open six we're in it
+let's see what happens if we open
+two chips though
+well all of a sudden this opens up the
+opportunity for an exploit
+you see the blinds can Min click and so
+what happens facing a mint click is that
+we need to fold a huge chunk of our
+range it's very very difficult for us to
+call like Jack 10 suited for example
+maybe King jack off suits or a Stein off
+suit against these min-click strategies
+and so you really really don't want to
+have to fold a huge chunk of your range
+against such a small three bet
+what the button has done to counter this
+is It's polarized its Min click opening
+range we can see lots of weak
+blocker-ish type hands and some like
+really strong value up here and it's
+polarized this in order to counter the
+Min click strategy
+and similarly big blind can also main
+click us and it's the same idea right
+but what happens when we open six again
+well we'll notice that small blind no
+longer has the option to Min click and
+instead they're forced to reinvest their
+entire stack if they do want to go into
+a pot with us
+and similarly big blind would much
+rather just raise fold than develop a
+calling strategy against six big blinds
+and part of the reason for this is that
+small blind and big blind would both
+much rather
+play for our entire stack they don't
+want to play for 60 of our stack they
+want us out so that those two can play
+heads up for the last two spots and so
+button in order to take advantage of
+this is opening six partly to counter
+these Min click strategies and also
+partly because it forces these guys to
+use a shove or fold strategy and this
+causes them to play quite tight you can
+see they're both holding lots of hands
+now watch what happens to small blinds
+calling frequency right now it's 1.2
+percent if we open 10 instead of six it
+actually increases
+5.2 percent
+that's interesting right what about
+their folding frequency let's take a
+look here we open six they're folding 88
+of hands if we open 10
+they're folding 88 of hands and this is
+because I mean if they're gonna invest
+against the six pick blind open they're
+pretty much invested against the 10 big
+blind open they are also pot committed
+uh and they if they're going to be Puck
+committed they would much rather have us
+all in and so you may think that this is
+just the Quirk or the solver you know
+maybe how do I know that we solved it
+right yada yada yada but the truth is
+that if you look at ICM Sims you see
+these weird pot committal strategies
+come up all over the place you'll see
+these crazy sizes where one player will
+just risk a huge portion of their stock
+which may be something that you haven't
+encountered before studying tournament
+strategies and I just wanted to share
+this because I thought it was a really
+cool example but there's actually tons
+of examples exactly like this in the ICM
+Sims you can check out I want to make
+another Point that's kind of related to
+this one though we've looked at the
+EV for this scenario let me change this
+scenario up a bit though let me go back
+to button and we'll switch up the stacks
+I'll make it something like
+150 and 300 something like this
+I'm just trying to make a nice curve
+here in fact maybe I'll put this up a
+bit more let's exaggerate that curve a
+bit
+and maybe I'll put that down a little
+more yeah that's a nice looking risk
+premium curve so
+take a look at this chart closely
+in fact maybe I'll even go here this is
+just a full screen of this chart
+we'll notice that your expected value
+scales linearly with respect the amount
+of chips with respect to the change of
+your stack this is a straight line
+so the EV if we win scales linearly but
+the EV if we lose or moreover the the
+risk premium scales somewhat
+exponentially
+it's not actually exponential it's a
+different curve but you get what I'm
+saying it's
+there's a lot of chips near the end here
+there's a lot of risk near the end to
+investing your full stack whereas in a
+lot of spots investing only a part of
+your stack
+results in a much smaller risk premium
+and so
+the bubble factor or risk premium or
+these these classic calculations that we
+usually use to analyze uh tournament
+spots only look at what happens when
+Stacks are fully invested when Stacks
+are partially invested there's a
+proportionally less risk premium so like
+the bubble factor for investing half
+your stack is not the same as the bubble
+factor for investing your entire stack
+because risk premium is exponential I
+hope that makes sense
+all right we got a little bit
+sidetracked with that curious button
+opening spot but let's get back to the
+main presentation so
+I'm going to switch over to a four-way
+spot
+in this scenario
+the stacks are as follows cutoff has 30
+chips but has a hundred small blind
+started with 20 and big blind with 10.
+now a question for you guys
+against which stack does cutoff pay the
+most risk premium do we pay more risk
+premium against the button who has 100
+chips the small blind who has 20 chips
+or the big blind who has 10 chips
+take a moment to consider your answer
+[Music]
+and hopefully if you've been paying
+attention
+you'll know that correct choice is the
+button we pay the most risk premium
+against the button
+let's take a look at the visualizer to
+see what's going on
+first of all
+we're going to change the payout
+structure so under payouts I'm going to
+select this four-way structure and I'm
+just going to type these numbers into my
+spreadsheet all right I've typed
+everything in here you can see the
+payouts are entered as well as the
+stacks and hero is the cutoff so we're
+looking at this four-way spot and again
+the question was who do we pay the most
+risk premium against we can use this
+active player control to test this
+question now against the button that is
+to say if our chips are taken from or
+added to the button
+that's what this is measuring
+we have a lot of risk premium bubble
+Factor 2.5 lots of red here lots of red
+high risk premium
+and again this is just because we can do
+less damage to the button we can't bust
+them they can bust us and even if we
+take a full 30 trips off of them sure
+that don't get me wrong that's
+definitely helpful that's definitely
+going to increase your EV
+but
+we can't do as much damage conversely
+against for example the small blind
+our risk premium is much lower and this
+is because
+busting the small blind
+is extremely valuable
+there's a higher value to busting this
+player and securing at least a third
+place position or third place payout
+same story with the big blind there's
+more value to busting this player and
+therefore the value of wins is closer to
+the value of losses and when this is the
+case when green is as big as blue or
+about as big as blue well
+there's less risk premium but against
+the button that's not going to happen we
+can take an entire stack off them and
+they'll still be pretty well in the
+running even still ahead of us
+uh and so that's problematic
+so let's go back to the example we'll
+notice
+that cutoff is opening extremely tight
+here only 16 percent of hence a typical
+cutoff opening range is roughly 30
+percent so this is very very tight
+and what happens if we open
+well first of all the button can prevent
+us relentlessly absolutely relentlessly
+also calling a ton only folding like 58
+which is kind of absurd
+and so realistically it's just trying to
+get through this player that's
+problematic uh moreover part of the
+reason we're tight is as I mentioned
+earlier the presence of short stacks so
+the big blind here
+they are more likely to bust and
+therefore we want to play even tighter
+to try and secure our chances of
+increasing our payout
+that small blind here when we open they
+experience a ton of risk premium
+themselves because they really really
+don't want to bust us when they've got a
+short stack behind them
+you can see folding 93 of hands here
+uh big blind on the other hand well
+they're short but they're not that short
+right only half the size of small blind
+and so they are also over folding so if
+we could get through buttons
+successfully
+heck yeah we can open quite a few hands
+but buttons ability to three bet us
+relentlessly is what's problematic here
+so next I want to compare some format
+Sims where cutoff is big stack short
+stack and mid-stack so let's take a look
+at this big stack Sim
+and we're going to go back here
+and in this scenario
+the blinds are as follows cutoff has 150
+chips button is 20 small blind 30 big
+blind 40.
+so we are the chip leader by a large
+margin hooray for us and we have all of
+these mid Stacks here
+and this creates an interesting dynamic
+because all three of these positions are
+in the running for second and third
+place and all three of them have a
+pretty good shot at increasing their
+payout right and so they're under a lot
+of pressure not just from the cutoff but
+from each other and because they're
+under pressure from each other the chip
+leader can open even wider and so we see
+cutoff just opening two-thirds of hands
+which is absolutely ridiculous for a
+cutoff open I'm hoping you guys are now
+realizing just how drastically ICM can
+impact your strategy the effects are
+really incredible and it's you know
+you're not going to memorize everything
+there's too many spots but you should
+have a sense for how this stuff works if
+you want to succeed in tournaments you
+really do need to develop a sense of ICM
+so
+here we're opening
+very very wide and look what happens
+when we open 65 percent of hands do you
+think button it's going to relentlessly
+three bet us
+not really what is this 15 of hands
+barely calling folding like 85 percent
+of the time what is this a cash game
+what's going on here button is folding a
+ton
+same story with small blind
+and same story with big blind relative
+to standard frequencies these are
+all three of these guys are under
+defending
+let's take a look at another scenario
+where cutoff is the short stack and I'm
+going to pick this example here
+and here
+we have five chips so Stacks are as
+follows
+five
+40 60 20.
+now a normal cutoff opening range in a
+chip EV scenario in a cash game scenario
+is about 30 percent and that's exactly
+what we see here we're just opening a
+normal amount of hands we're opening
+thirty percent of hands and the reason
+is that when you're very short stacked
+relative to the rest of the field
+your risk premium is relatively low
+again right and so this plays closer to
+a chip EV simulation in cutoff's shoes
+and even if we open look what happens
+button with 40 chips second place
+they're not raising at all it's a pure
+call they're not raising to 10 to try
+and kick these other players out uh
+they're just pure calling and that's
+because all button really wants to
+accomplish
+is busting us that's all they want in
+life right now is just a bus cut off and
+secure at least a third place payment
+the last thing button wants is to get
+into a fight with the small blind and
+end up throwing away a huge ICM
+advantage
+well allowing this short stack to lift
+that's button that's an absolute
+disaster for the button
+and so let's take a look at these
+examples in our ICM visualizer so here
+I've got the short stack example and
+I'll put it on cutoff
+and again we can see that cutoff who has
+only five chips experiences very little
+risk premium
+and again this is because their
+placement probabilities don't shift very
+drastically as their stack changes right
+you go from five chips to ten chips
+you're still getting fourth a lot
+you lose all your chips well you got
+fourth and so when these probabilities
+when your placements shift less
+drastically you experience less risk
+premium you can see a bubble factor of
+only 1.2
+but what about button button is in
+second place here just behind the small
+blind so they have 40 chips versus small
+blind 60 and you can see that their risk
+premium is quite high now I mentioned
+earlier in this lecture that mid Stacks
+experience the most ICM pressure
+in the presence of both large and short
+stacks and the reason for this is that
+right now button actually has a lot of
+EV
+it would be an absolute disaster to
+throw away all of this EV and bust
+before cutoff has had the chance to bust
+themselves right
+we would much rather wait for a cut off
+the bus so that we can at least secure a
+third place payout
+and for this reason the button
+experiences much higher risk premium so
+let's change up the stocks what was it
+here I think it was
+150
+20 30 40 something like that
+and we'll change this back to cut off
+and here we're the chip leader here
+where the big head honcho 150 chips and
+again very little risk premium and the
+same reasoning applies the changes to
+our placement probabilities are less
+affected to changes by our stack right
+lose a few chips gain a few chips it's
+pretty steady our tournament TV doesn't
+change that much and
+the gains are about as big as the losses
+this is largely because it's
+more to do with the first place price
+right
+and so
+when more of your EV is coming from
+first place prizes or from first place
+probabilities
+then it plays closer to a chip EV spot
+and so let's take a look at someone who
+might experience more risk premium so
+the small blind for example is playing
+monkey in the Middle with this 30 big
+blind mid stack so if I change this to
+small blind
+again we can see the risk premium goes
+up quite a bit right and this is because
+changes to their stack have drastic
+implications
+on their placements and therefore their
+payouts
+I don't know if I mentioned but you can
+see the probability of getting first
+second third or fourth here as well so
+hopefully you guys are seeing a pattern
+at this point and I know this is only
+four Max we're only covering like basic
+spots but it's really important just to
+nail down these really fundamental
+things and to try and develop a sense
+for when ICM implications are at their
+uh most important points
+and by doing this by just studying the
+fundamentals the basics and trying to
+develop an intuition you can get a much
+better sense for when you should be
+playing super wide
+and when you should be playing super
+tight
+and these adjustments are invaluable in
+a tournament for the final example I'm
+going to start off with a quiz
+in what situation should cut off open
+wider and so here you can see both
+players stacks
+cut off to move
+in What scenario should we be playing
+wider
+[Music]
+foreign
+hopefully you figured out that it is the
+second scenario where cutoff should be
+playing wider where Stacks are 65
+75
+and 55.
+we'll change that cut off
+so here we do experience a decent amount
+of ICM pressure right
+a bubble Factor 1.7 so don't get me
+wrong there's still a lot of pressure
+here but let's compare this to something
+else where it's going to be 30 40 20 and
+a big blind of 150.
+here it's a bit more problematic now
+this chart doesn't actually show
+the big thing that's going on unless we
+notice that we're playing against the
+big blind the most so we are most likely
+to go up against the chip leader here
+and because we're more likely to collide
+with the chip leader
+and we can do less damage to the chip
+leader we're going to open tighter
+so let me show you what these Sims look
+like so in this scenario
+we've got 30 40 20 and 150 right
+and again when we open we are most
+likely to go up against this chip leader
+and therefore we have to open much much
+tighter
+only two chips
+I can see even though button and small
+blind are both playing very passively
+very defensively
+the chip leader just gets the call a ton
+of hands
+they get to call relentlessly
+let's compare this situation
+to
+this one here
+where more players are mid-stack than
+here cutoff is opening a normal range
+like I said before about 30 is normal
+for a cutoff opening range
+and in this scenario everyone is
+experiencing ICM pressure
+and therefore
+we can open a normal amount of hands and
+play a normal strategy
+you can see the button of course they're
+going to call wide because we've been
+opened but not nearly as wide as when
+they were the chip leader
+and just going back here
+hopefully you understand that it's not
+just about your own ICM pressure you
+have to consider the differences between
+different players and the probability
+with who you're going to collide with
+as the cutoff here
+we would much rather collide with the
+small blind
+because the small blinds risk premium or
+Iris premium against the small blind is
+very very low
+at our risk premium against the big
+blind is very very high
+and so
+for this reason
+when the player that's most likely to
+collide with you that is the big blind
+is also the chip leader that's
+problematic for us let's do a quick
+recap so when we're examining
+our total expected value with respect
+changes in our stack the main takeaway
+that you'll always hear are that losses
+hurt more than wins help
+generally speaking winds increase our
+expected value linearly whereas losses
+decrease our expected value
+exponentially but a little squiggly here
+because it's not actually exponential
+that's not the actual curve but you guys
+get the idea it's non-linear
+the extra premium we pay between the
+loss if we lose and the win if we gain
+is called our risk premium sometimes
+calculated as a pot odds Equity amount
+as opposed to this but same concept the
+absolute value of losses divided by the
+absolute value of wins is the bubble
+Factor so both of these things attempt
+to assign a metric to the same concept
+bubble factor is a factor risk premium
+is more of a difference
+but both of them are trying to
+understand this big red area right here
+which is the extra loss that you lose if
+you lose those chips and so the main
+takeaways strategically are that
+generally speaking short stacks and big
+Stacks experience less ICM pressure
+because their placement probability is
+less affected by changes to stack right
+like if you're very very short stacked
+if you have one chip left you're
+probably going to get last place
+regardless and similarly if you're Ultra
+deep stacked if you're a huge chip
+leader chances are you get first place
+regardless and even if you don't like
+changes to your stack don't impact your
+expected value very much now conversely
+mid Stacks experience more ICM pressure
+and this is because their placement
+probability is more affected by changes
+to their stack ICM pressure increases
+drastically in the presence of both big
+and short stacks
+so keep this in mind next time you're
+playing a mid-stack in an MTT the
+presence of very short stacks increases
+survival pressure for everyone else and
+this is because the more likely someone
+is to bust the more important it is to
+survive and secure that next payout
+placement probability tends to scale
+with respect to the total chips in play
+and the average stack
+one thing I didn't cover in this lecture
+were situations where there were
+multiple short stacks and in this case
+short stacks can actually experience
+higher ICM pressure because both of them
+are trying to ensure that the other one
+busts and so both of them want to try
+and secure that next placement
+that's maybe something we can cover
+another time but just keeping in mind
+these key points about how your
+placement probabilities change with
+respect to the stack at what points you
+should generally be playing a much wider
+or much tighter those changes alone to
+your strategy will have a big impact on
+your overall tournament performance and
+on How likely you are to be winning
+money that's all I have for you guys if
+you have any questions or you need
+something clarified feel free to comment
+down below or join our Discord and if
+you want to give this tool a try I've
+put a link in the description you can
+make a copy try it out yourself it's
+just a little side project I made this
+isn't some officially supported thing
+it's just something I made because I
+wanted to visualize ICM and I thought it
+would be fun I realized that ICM gets
+more complex where there's tons of
+different players but just understanding
+these really raw fundamental key
+Concepts is so important before you dive
+into the more Niche stuff
+anyway that's all for now I hope you
+guys enjoyed this hope you got something
+out of it let me know down below what
+you'd like to see next that's all for
+now happy grinding

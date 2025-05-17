@@ -1,0 +1,961 @@
+three bet pots are some of the most challenging 
+post flop situations in tournaments the ranges  
+are narrower the pots are bigger and our 
+entire stack will often be at risk if you  
+have trouble with these spots don't worry 
+this video is here to guide you let's dive
+in before we dive into the topic please do take 
+the time to like this video And subscribe to our  
+Channel it helps us to keep bringing you the 
+content you like here on YouTube before we get  
+too technical let's discuss some of the major 
+challenges inherent to navigating three bet  
+Parts in tournaments specifically since cash game 
+three bet parts are going to look very different  
+in terms of both ranges and sprs first of all we 
+have to deal with the fact that there's a lot of  
+fluctuation in what tournament 3 Bet ranges look 
+like at deeper Stacks we'll see some fairly linear  
+3B construction such as the range you see here on 
+the left which is from a small blind versus Under  
+the Gun 80 big blind spot once we get shallower 
+we'll see a lot more polarization in the ranges  
+such as the range on the right which is from a 
+button versus big blind spot at 40 big blinds  
+the same variation also exists within the ranges 
+which call versus three bets we sometimes call  
+with very narrow peir heavy ranges such as the 
+under the gun versus Under the Gun one80 big  
+blind range on the left and will sometimes call a 
+lot wider with more suited hands and a lot of our  
+pairs for bet jamming pre flop like the range on 
+the right which comes from a button versus small  
+blind spot at 40 big blinds naturally these 
+discrepancies which exist within the ranges  
+will often mean that certain board textures can 
+play out very differently and that's before we  
+even start to consider the impact of our opponent 
+potentially employing flawed or less than optimal  
+ranges secondly we also have to consider the 
+wildly varying sprs which exist in three bet  
+pots these sprs are heavily influenced by the 
+exact pre-f flop sizings we and our opponents  
+choose as well as obviously the starting stack 
+sizes if we start fairly shallow and our opponent  
+uses a larger pre- flop sizing like 2.5 big 
+blinds then an outer position three bet to 10  
+big blinds would leave us at an spr of only 1.33 
+going to the Flop if we get called on the other  
+hand we could easily be at an spr of more than 
+13 if we're playing 200 big blinds deep and the  
+sizings are smaller while something in the middle 
+would leave us at an spr of around 3.5 clearly all  
+these various types of pots are going to play out 
+very differently and require us to adhere to very  
+different stack off thresholds at the lower spr 
+we would only need roughly 36% equity in order  
+to stack off while that number jumps to just over 
+48% at the higher spr these thresholds are going  
+to vastly alter the level of aggression we can 
+justify in our strategy and they're also going  
+to magnify the importantance of Concepts like nut 
+advantage and overall Equity Advantage within the  
+ranges which arrive at the Flop we'll talk more 
+about that later on finally it would be a mistake  
+to ignore the impact of both ICM and exploitative 
+considerations on our strategy in three bet pots  
+ICM will almost always alter our three bet 
+strategies and responses very significantly  
+and even though calculating ICM based post flop 
+Solutions isn't something we can easily do just  
+yet in future we'll be able to use GTO wizard 
+AI to account for all kinds of variables like  
+ICM we're also looking forward to being able 
+to to nod loock our opponent's strategy and  
+explore the impact of pre- flop mistakes on our 
+approach in three bet pots however for the time  
+being we're going to focus purely on the theory 
+guiding our strategies in these situations look  
+out for upcoming videos on our channel for some 
+exploration of exploitative approaches so with  
+all this in mind let's begin by establishing 
+some basic principles which will be important  
+in building our three bet pot strategies from 
+the ground up starting with our approach when we  
+are the three better our first Port of Call when 
+building our overall C strategy is to establish  
+our frequencies in other words getting a sense of 
+how aggressive we can afford to be the good news  
+is that the answer here is relatively simple we 
+can afford to be very aggressive in three bet pots  
+since we will almost always have a stronger range 
+than our opponent on most boards and there will  
+often be certain nut hands which are not present 
+at all in our opponent's range in particular we're  
+almost always going to be able to justify a high 
+level of aggression when we're in position post  
+flop as we can see from this chart I've picked out 
+our CET frequencies for a variety of spots from  
+the GTO wizard solution Library if we focus on 
+the inos spots first we can see see that there's  
+actually a remarkable amount of consistency in 
+the C bet frequencies at every stack size from  
+30 big blinds up to 100 big blinds we C betting 
+between 80 and 90% of the time when in position  
+in three bet pots and the positional formation 
+doesn't really have much of an effect on the  
+equation the primary reason for this aspect is in 
+an equilibrium scenario both players are already  
+pre- adapting their ranges to cater to post flop 
+play if the inos player was able to C bet 100%  
+of the time on all boards then it would be a 
+sign that the outou of position players range  
+for calling the three betat was probably too weak 
+but the solver isn't going to make such a mistake  
+likewise the solver isn't going to three betat a 
+hyper aggressive range from in position since that  
+would force it to check the Flop at a much higher 
+rate when we're out of position however there are  
+some other factors to consider as you can see in 
+the chart our outer position C bet frequency in  
+three bet pots does drop fairly significantly when 
+Stacks are greater than around 60 big blinds this  
+is because our ability to realize Equity from 
+Outer position is heavily dependent upon the  
+spr and the higher the spr the more passively 
+we're forced to play from out of position as a  
+result the other interesting phenomenon in the 
+outter position spots is that our C frequency  
+when three betting out of the big blind is lower 
+than when we're in the small blind the reason for  
+this has a lot to do with the construction of 
+our big blind three bet range we're a lot more  
+polarized when we three bet from the big blind 
+since we'll be defending through a call with most  
+of our range pre flop this makes our range a bit 
+weaker on a lot of board textures and so we're a  
+little bit less able to show aggression across a 
+variety of post flop spots much like when we're in  
+position the positional formation won't alter 
+our outer position frequencies very much so I  
+haven't included a comparison here we're already 
+accounting for the position of the open razor when  
+we construct our pre flop three bet range next 
+let's look at a snapshot of our raising and check  
+raising strategies as the pre flop Defender we're 
+focused on the 25% CET size since this is the most  
+common size across all boards both in theory and 
+in practice this equation is also surprisingly  
+simple for familiar reasons at equilibrium the 
+C better is always going to moderate their C bet  
+frequency to prevent the defender from being 
+able to easily raise at a very high rate one  
+thing that is noteworthy however is the fact that 
+we still have a roughly 10% raising frequency from  
+in position across all boards this is a part 
+of the game tree a lot of players ignore or  
+Miss try to remember the last time you C bet from 
+out of position in a three bet pot and got raised  
+on the Flop it doesn't happen very often it's 
+also worth remembering that we're raising more  
+often at shallower Stacks this is because the 
+equity threshold needed for us to get all in  
+profitably is much lower as we mentioned earlier 
+and so we can raise with a wider range of hands  
+next let's move on from looking at frequencies to 
+looking at bet sizing using the cutof off versus  
+lowjack formation as a guideline here's what our 
+in position sizing structure looks like as you can  
+see it's heavily dominated by smaller and medium 
+bet sizings with the medium sizing beginning  
+to disappear as we get down below 50 big blinds 
+there is some large betting taking place at deeper  
+stacks and even some over betting at shallower 
+Stacks but this mostly represents a grouping of  
+specific spots where our range prefers to get get 
+all in either on the Flop or turn as opposed to  
+playing all three streets if we switch to looking 
+at outer position in the small blind versus hijack  
+formation some of the same Trends are visible 
+except we become a lot less inclined to use  
+smaller sizings at shallower Stacks we're making a 
+lot more effort to get Stacks in across one or two  
+streets as opposed to playing out of position all 
+the way to the river by contrast when we're deep  
+enough that we're likely going to have to play 
+all three streets no matter what we're a little  
+more content to bet smaller on the Flop since 
+our opponent's pre- flop calling range is wider  
+and less trap heavy and since we might be less 
+inclined to bloat pots unnecessarily to summarize  
+we're going to have a high cabet frequency across 
+all inos spots in three bet pots between 80 to 90%  
+of the time when we're out of position we're still 
+going to be aggressive in particular from the  
+small blind but we're going to slow down a little 
+when Stacks are deeper as the defender we're going  
+to do more raising at shallower stacks and more 
+raising from Outer position than in position but  
+we are still going to have some aggressive raising 
+strategies in all spots in terms of bet sizing  
+we're going to stick with mostly small and medium 
+sizes from in position with some larger sizes  
+coming in when we're deeper stacked or when we're 
+out of position and looking to play a two Street  
+or one street game so now that we've established 
+our basic principles let's build out some heris  
+STS for how to approach evaluating different 
+types of board textures since we know that the  
+most common approach in three bet Parts is for the 
+three better to employ a highfrequency small bet  
+strategy we're going to focus on identifying 
+the board textures where we either have to  
+significantly decrease our CET frequency increase 
+our sizing or both we'll also Identify some of the  
+rare board textures where we might consider Don 
+betting as the outer position Defender first let's  
+discuss one particular category of board textures 
+where our strategy might look a little outside  
+the box the Jack 10x boards where X is an eight or 
+lower with either a flush draw or rainbow texture  
+on these boards one of our primary strategies at 
+many different stack depths both in position and  
+out of position is going to be to Simply shove 
+all in even for multiple times the size of the  
+pot as you can see from this chart we not using 
+this approach very much at Deep Stacks because  
+the spr is still too high but as soon as we get 
+down to around 60 big blinds out of position or  
+40 big blinds in position the strategy of just 
+jamming the Flop on the jack 10x boards becomes  
+very reasonable it will often be supplemented by a 
+smaller bet with some other portions of our range  
+as we'll see but let's start by examining why this 
+strategy actually works here here's a SIM for the  
+Jack 108 flush draw board at 40 big blind Stacks 
+in the lowjack versus Under the Gun formation the  
+three bet ranges are quite tight in this formation 
+so it's a good example of why the all-in strategy  
+works well you can see that the all-in size is 
+by far the most common size for the low Jack here  
+if we switch to the actions chart you can see by 
+far it's the most prevalent but without going too  
+far into range construction let's dig into the 
+range comparison here to try to understand why  
+this strategy actually works firstly check out 
+that top category of best hands neither player  
+has many hands in this bracket here mostly because 
+the board is quite Dynamic if we look at the good  
+hands category though we can see that the lowjack 
+has a huge advantage in this department more than  
+60% of their range is in this region of 50 to 75% 
+equity and they have literally no trash hands here  
+at all no trash hands whatsoever on the other hand 
+almost half of the under theeg gun range is in the  
+weak hands category right here between 25 to 50% 
+equity and this creates a situation where a lot  
+of the low Jack's hands are somewhat vulnerable 
+imagine a hand like black pocket kings here if we  
+go back to the strategy and we look at Equity 
+black pocket kings has 65.5% Equity but there  
+are obviously a large number of turn cards on 
+which its ability to realize Equity is going to  
+drastically decrease so it would heavily prefer 
+to realize that equity right now by being all  
+in by contrast if we flip it around to look at 
+the under the gun players range and we look at  
+a hand like pocket sevens this hand has about 
+35% Equity here but it has no real ability to  
+navigate multiple streets versus aggression this 
+hand is heavily going to prefer to see the lowjack  
+check back and there are a lot of other hands in 
+this category in the Under the Gun players range  
+something like Ace 8 suited Ace 9 Ace 10 a lot 
+of this stuff that has one pair or a mediocre  
+draw or something like that smaller pocket pairs 
+they really want to see a checkback and by using  
+the all-in jam strategy if we flick back to the 
+strategy Tab and then we go over here and look at  
+what happens when the all-in jam occurs we can see 
+that the lowjack is able to create indifference  
+for a pretty big chunk of the under the gun 
+players range here and if we highlight this  
+weak hands category we see that this category is 
+splitting almost 50/50 between hauling and folding  
+and if we go over here to see strategy plus Equity 
+we can see that hands as strong as something like  
+King jack of diamonds here are actually mixing a 
+tiny amount of folding and then stuff like King  
+Queen of Spades that has two overcards an open 
+Ender and a back door flush dra that has 35%  
+Equity is actually folding and there's plenty of 
+other hands like that too a Queen suited here Ace  
+Queen of Spades open Ender back door nut flush 
+draw has 40% equity and it's actually forced to  
+fold to the jam which massively benefits the low 
+Jack it's really going to benefit that good hands  
+portion of their range that we saw here which if 
+we clear the filter is still uh pretty big portion  
+of their range as you can see 60.7% and if we look 
+at how the low Jack actually constructs that all  
+in shove we're going to start to see why this 
+strategy functions particularly well so if we  
+go over to strategy and we look at the all-in 
+shove and we just focus on the summary here we  
+start to look at which hands are shoving at the 
+highest frequencies you can see that it's a lot of  
+King Jack type hands Ace Queen a lot of stuff in 
+this region we can see that hands like over here  
+if we go to Ace King or Ace Queen with a heart so 
+Ace of Hearts King Ace X King of Hearts Queens uh  
+Ace Jack off suit here Aces without a heart a lot 
+of these hands are heavily prioritizing the Allin  
+Jam as their strategy and even some hands like 
+Queen 10 and King 10 suited of Spades hands like  
+that are also in there now you might be wondering 
+why would we shove King 10 for Value here and if  
+you are then you're right to wonder because 
+the truth is it's not entirely a value shove  
+but it's also not entirely a bluff either how is 
+that possible well let me show you if we examine  
+the under the gun response to the jam we can see 
+that shoving King 10 does sometimes get called by  
+worse because all 109 suited right here and all 
+pocket NES is calling as well as 87 of Hearts  
+which is a pair plus flush draw technically worse 
+than than King 10 however it also manages to get  
+some better combos to fold like Ace 10 of diamonds 
+Ace 10 of clubs right so we're actually achieving  
+both at once here we're getting a few calls from 
+some worst hands and we're getting the occasional  
+fold from something better which is a huge benefit 
+and even though this seems kind of too good to be  
+true it actually does happen sometimes in certain 
+spots and particularly these Jack 10x boards are a  
+pretty decent example of this although Jack 109 
+is a bit of an exception there because of the  
+the king queen it's created by the fact that the 
+straight and flush draws are so important and so  
+prevalent on this board ace10 without diamonds 
+has to fold because the lack of a straight or  
+flush draw massively reduces its Equity while 109 
+is forced to call because it has a straight draw  
+so 109 here if we flip and look at the equity 
+109 has 50% Equity can never fold to any size  
+Ace 10 of diamonds only has about 38% Equity 
+so massive difference between A10 and 109 here  
+if we now look at the same board in a different 
+formation if we go to small blind versus hijack  
+at 60 big blinds so we'll just take a quick look 
+there Jack 108 there we go we will see that from  
+Outer position the strategy of just all-in shoving 
+is going to be pretty prevalent as well you can  
+see here the Allin and the large bet which is 
+basically an Allin are both happening with a  
+pretty high frequency and it's the same principle 
+at play here we're seeing seeing that the equity  
+denial and the power to just take advantage of 
+these good hands and leverage them against all  
+of this weak hands region that villain might have 
+is a huge driving Factor behind our strategy on  
+this board now we could spend hours following 
+the logic of each individual combo for these  
+spots because it does get really complex but for 
+now it's enough just to know that we want to be  
+jamming these Jack 10x flops quite a lot and that 
+this is a pretty consistent Trend across a lot of  
+formations especially when Stacks get shallower 
+and or we're out of position our construction is  
+usually going to be built around a lot of those 
+High Equity but vulnerable hands and drawers  
+plus a lot of that stuff that occasionally has the 
+power to get called by worse but also fold better  
+things like that and we're really putting a lot 
+of pressure on all those hands that have about 35  
+40ish per equity and in this kind of a formation 
+that's going to be a lot of hands on this board  
+so this is one category of board textures that 
+requires a fairly unique sort of a strategy our  
+next juristic is for rainbow paired boards without 
+an Ace and it's primarily geared towards deeper  
+Stacks but does apply to some extent at shallower 
+Stacks as well it relates to the fact that while  
+most players instinct is to bet smaller on pair 
+boards which is what we might usually do from  
+in position in single raise pots these boards are 
+actually pretty appropriate for using larger sizes  
+in three bet pots take a look at this table here 
+it shows our frequencies for betting half pot or  
+greater on this type of board for various stacks 
+and formations evidently the larger bets start to  
+fade away a little once we get below 50 big blinds 
+in position or 30 big blinds out of position but  
+they can be very prevalent at deeper Stacks 
+particularly in the narrower range formations  
+where we're against a under the gun razor let's 
+take a look at an example of such a board to  
+see how and why such a bet functions well our 
+example is going to be Jack dece Deuce rainbow at  
+100 big blinds in the button versus Under the Gun 
+formation I've used GTO wizard AI to test the EVS  
+of various single sizing strategies in this spot 
+and as you can see it's a board where a range bet  
+of 25% pot which might be a strategy many players 
+would employ here is actually significantly  
+outperformed by larger sizings even betting 100% 
+of pot achieves higher EV here than betting 25% of  
+pot although a sizing as large as that would now 
+Force us to check certain hands and reduce our  
+Bing frequency to below 80% however if we look at 
+the middling sizings we can see that the highest  
+EV size is actually about half pot the 61% sizing 
+you can see listed here is our geometric sizing a  
+sizing used to allow us to bet the same percentage 
+of the pot on all remaining streets with the river  
+bet being all in and that has very similar EV to 
+the half pot bet it does technically Force us to  
+check around 2 to 3% of the time but in practice 
+that's not really going to be necessary I also  
+tested the sizings in between 50% and 61% of pot 
+and our betting frequency didn't dip below 100%  
+until the sizing hit 58% or higher but why is all 
+of this happening why would we want to bet half  
+pot or greater on a board with no draws let's 
+look at the reasoning so here is that Jack du  
+du spot and if we pull up the range comparison 
+here we can see that as the button player we  
+have a massive nut advantage on this board we have 
+34.5% best hands to 3.2% so while both players can  
+have pocket Jacks and only under the gun can have 
+quad Deuces we can have Kings and Aces almost in  
+full as well as a lot of strong Jack X hands 
+and strong pocket pairs while villains range  
+contains a lot of pairs between threes and eight 
+as well as a lot of ace high meaning they have  
+a lot of hands in this weak hands region and note 
+also that neither player possesses any trips here  
+the equation is going to be slightly different on 
+boards where the pair on board isn't the dece and  
+some trips are in the ranges but it won't change 
+so much that our entire strategy Alters neither  
+player has a deuce in this spot our not Advantage 
+here can be leveraged to put a lot of those threes  
+through eights and ace high hands in a very tough 
+spot in fact it's so significant that if we look  
+at villains response to the half pot sizing in 
+fact if we look at villain's response to the  
+half pot sizing and we take a note of where the 
+indifference thresholds are we can see that all  
+these pairs between eights and threes are actually 
+pretty much indifferent versus this size they are  
+primarily folding mixing a small amount of calls 
+and raises in some cases but for the most part  
+they're in very very tough spots despite the fact 
+that if we check the equity a hand like a actually  
+has close close to 50% Equity they have about 48% 
+or so in this spot even nines has almost exactly  
+50% and that hand is not loving this spot either 
+it's calling but it's actually folding about a  
+tiny tiny fraction of the time so even nines 
+with 50% Equity is in very big trouble here  
+these hands are just going to have too much 
+trouble defending on future streets if they  
+continue against a bet that's what's Happening 
+Here There are almost no good runouts even in  
+a spot where we're essentially range betting the 
+flop for a fairly big size the geometric size here  
+or something roughly equivalent basically Narrows 
+villains flop continuing range to being very heavy  
+on jackx hands as you can see here which is great 
+for both our strong value hands which are getting  
+maximum value and our multi Street bluffing 
+candidates as well plus we're also forcing  
+villain to raise the Flop at some rate because 
+our bet sizing isn't that big that they can just  
+play call or fold easily and that of course 
+uh puts them in a lot of tough spots as well
+by contrast against a quarter poop bet here 
+villain is not forced to play particularly  
+aggressively they're still able to get away 
+with just calling a lot and not really raising  
+a ton of hands and you can see that there's a big 
+difference here in how often these pocket pairs  
+are able to continue they are getting a slightly 
+easier spot against a quarter pot bat even though  
+the quarter pot bet does still make life tough 
+for them it doesn't quite make it as tough as the  
+half pot bet does so the general conclusion here 
+really is that on a lot of these board textures  
+because our opponent's calling ranges are quite 
+often going to be heavy on pocket Pairs and Ace  
+highs these small bet sizings are not going to 
+create indifference for those hands as easily  
+as some slightly larger bet sizes so geometric 
+strategies and sizings of half po 3/4 part Etc  
+depending on the stacks can actually be very very 
+effective here to put your opponents in a lot of  
+tough spots across multiple streets so this is 
+something to really keep in mind for these board  
+textures because they do play a lot differently to 
+how single raise pots would play out on the same  
+boards next let's look at a very interesting 
+category of boards the Donk bet boards these  
+are generally the boards with a possible flopped 
+straight available and a high card of 98 or seven  
+and the Donk betting trend is most evident in 
+tight range formations like under the gun versus  
+Under the Gun one where the three better doesn't 
+have a lot of board coverage on these flops it  
+might be fairly intuitive as to why these boards 
+are Don bet boards after all they're very scary  
+boards for the three better and a lot of the three 
+BET's strongest hands generally won't want to play  
+Big pots it might be reasonable to say that any 
+board where pocket aces doesn't necessarily want  
+to get all in could feasibly become a donk bet 
+board but since stack sizes do matter we'll focus  
+it on the connected middle card boards for now 
+this graphic shows us the frequency of donk bets  
+on these boards in each of the three formations 
+as you can see it's occurring a lot more often  
+in the scenarios where the pre- Flop caller of the 
+three bet is under the gun this is largely because  
+of the higher density of pocket pairs in the rais 
+calling range which flop sets when the pre-f Flop  
+ranges are wider such as in the hijack versus 
+button scenario the pre-f Flop caller won't be  
+quite so weighted towards this region of hands we 
+can also see that stack sizes play a big role but  
+this is mostly because they will dictate how 
+much board coverage the three better is going  
+to have on these flops and how happy they are to 
+get it in with over pairs at that stack size once  
+stack sizes are shallower they're less concerned 
+about getting it in and once stack sizes are deep  
+enough in certain formations they're three betting 
+more suited connectors pre flop so the pre- Flop  
+caller nut Advantage is slightly reduced let's 
+take a look at an example of one of these boards  
+I've chosen 876 with a flush draw in the under 
+the gun versus Under the Gun one formation at  
+50 big blinds it's a very good example here as you 
+can see the range comparison here is going to give  
+the pre-flop caller a really big not Advantage 15% 
+or so against 3% and while the three better does  
+still have plenty of good hands the Donk bet 
+is really effective at applying pressure here  
+there's about 40% good hands in the three betters 
+range but still 36% in the callers range so it's  
+really just going to still be a spot where the 
+caller has a lot of decent hands and if you look  
+at the overall strategy the caller is actually 
+dun betting with about 70% of their range here  
+they're checking 29% and donking the rest so 
+they're donking a pretty linear construction  
+you can see here that the best hands are donking 
+at a slightly higher frequency than everything  
+else and the frequency with each chunk of the 
+range gets slightly lower as we go down from the  
+best hands to the trash hands but overall pretty 
+high donk bet frequency actually would be kind  
+of reasonable to donk bet entire range here for 
+the under the gun player and if we look at the  
+indifference threshold for the flop three better 
+in terms of what they're supposed to continue with  
+against the quarter pot donk bet we see that in 
+fact it's a lot of the ace highs and King highs  
+and a lot of the pre-f Flop three bet Bluffs that 
+are actually pretty indifferent versus this donk  
+bet so stuff like king queen with one Spade is 
+actually continuing but depending on what Spade  
+it is it sometimes folds Ace King with no Spade is 
+kind of mixing continues so there's a lot of hands  
+here that just have overcards that are actually 
+able to be targeted for indifference by that  
+quarter pot D bet sizing so very interesting spot 
+where a lot of players probably wouldn't think to  
+have donk betting ranges on this board but it is 
+a spot where it's actually pretty favorable for  
+the out of position player in these situations 
+where their pre-flop calling range is pretty  
+condensed into that region of pocket pairs our 
+next category of board textures is anything nine  
+high or lower with a flush draw specifically 
+when we're out of position and in particular  
+when Stacks get deeper beyond the 50 big blind 
+Mark as you can see from this graphic our cette  
+frequencies get much lower when the spr is 
+higher and they're also lower from the small  
+blind than they are in the big blind which is 
+a little counterintuitive the reasoning behind  
+this is that our small blind three bet range when 
+deeper stacked is often fairly linear including a  
+lot of strong Broadway and ace high Combos and 
+therefore doesn't interact especially well with  
+these low card boards by contrast our big blind 
+three bet range often has a lot of high card low  
+card offit combos which can flop some decent pairs 
+on low boards and it has a much lower density of  
+Broadway cards which miss the flop altogether a 
+lot of players already intuitively recognize the  
+significance of connected boards in these spots 
+being much more willing to check at a high rate  
+on something like a 765 flop but they may heavily 
+overestimate how much C betting they're supposed  
+to be doing on a flop like 873 let's examine 
+that 873 board at the 80 big blind stack depth  
+to see why this is the case here's that 873 board 
+from the GTO wizard solution library in this case  
+we're looking at the small blind versus hijack 
+formation at 8 big blinds like I mentioned our  
+CET frequency here is about 53% we're checking 47% 
+so it's pretty close to 50/50 but what's notable  
+here is that if we look at the range comparison 
+you can see the ranges are very symmetrical in a  
+lot of ways not quite in this region here which 
+is why we have some seab bets and then you can  
+see at the top villain is a little bit ahead 
+with some portion of the range here but this  
+is a very symmetrical distribution of ranges and 
+when we're out of position and ranges are going  
+to run very close together are going to be pretty 
+symmetrical it's going to incentivize us to have  
+a pretty cautious approach and you can see here 
+that almost all the combos in our range are mixing  
+C bets and checks there's no specific region of 
+hands that's heavily favoring betting or heavily  
+favoring checking there's a little bit more of a 
+lean towards betting with stuff like Jacks 10 that  
+requires a bit of protection and a little bit of 
+a lean towards checking with stuff like 76 some  
+of the ace Highs but there's really not a lot of 
+pure strategies here it's a lot of mixing that's  
+going to basically be required and it's not a 
+board where a medium to large sizing is going  
+to be that challenging for villain because they 
+have a lot of sets they have position they have a  
+lot of draws and it's going to be very tricky for 
+us to navigate and realize Equity across multiple  
+streets here if we were to use a small size if we 
+just look at the 25% size here if we were to to  
+go ahead and use that you can see that villain 
+almost never folds they only fold 12% of the  
+time and that's one of the reasons why a small 
+Size Doesn't function very well here even with  
+the 75% size they're not going to fold that much 
+they're folding 41% of the time so they're still  
+continuing more than half the time 60% of the 
+time they're putting us in a lot of awkward out of  
+position spots here across multiple streets so we 
+just don't really get to do a lot of betting here  
+we don't really get to do a lot of big betting 
+and I think a lot of players would be a little  
+bit likely to even if they don't just range bet 
+these boards I think it's very easy to overse  
+bet these boards in three bet pots particularly 
+at depth and get us into a lot of tough spots  
+as a result the final category of board textures 
+we're going to look at is the ace high monotone  
+textures where the other two cards are both nine 
+or lower these boards are surprisingly bad for  
+the three better in a lot of formations and tend 
+to be drastically over overplayed as a result if  
+we look at the overall frequency of C bets in 
+these spots we can see that there are very few  
+formations where our betting frequency even jumps 
+above 70% let alone approaching the margin where  
+we might be able to range bet the main reason for 
+this is the sheer density of the suited Broadway  
+hands in the pre-f Flop Defender range they can 
+have plenty of flushes in these spots as we'll  
+see in a moment and as a byproduct of this the 
+three better is often going to struggle to play  
+for Stacks across three streets even with top set 
+of Aces or a hand like Ace King our example board  
+for this category is a flop of a 75 all HS at 50 
+big blinds effective in the cut off versus button  
+formation the first interesting thing here is that 
+the out of position player is actually supposed to  
+donk bet at some small rate here they're only 
+checking 88% which means they're donk betting  
+about 12% of the time because it's such a good 
+spot for them and the reason it's such a good  
+spot for them is if we look here and we actually 
+break the equity buckets down a bit more we can  
+see that the out of position player has a flush 
+9% of the time while the three better only has  
+a flush 2.8% % of the time so that's partly 
+what's going on here it's not just about that  
+top region of hands because the top region of 
+hands isn't just flushes but if we think purely  
+about the flushes it's actually more likely much 
+more likely that the cut off is going to have a  
+flush here than it is that the button and while 
+the button does have a lot of good hands here  
+including obviously a lot of top pair a lot of Ace 
+X some Ace King Ace Queen Etc especially even some  
+offsuit ACE X that has an ace with a heart these 
+hands aren't really going want to play really big  
+pots at any significant frequency and there's 
+not very many hands here that really do want  
+to play very big pots other than flushes so if 
+the cut off does check the button is actually  
+not going to be able to see that often you can 
+see here that they're checking 38% of the time  
+C betting only about 62% of the time so it's 
+just not necessarily a spot that's that good  
+for the pre flop Razer here they're not going to 
+be able to justify a super aggressive strategy and  
+even when they do bet they're using the the small 
+possible size here of 10% pot 58% of the time they  
+are betting that really really small size so very 
+small bet sizings are going to be applicable here  
+but also a lot of checking and maybe even a tiny 
+bit of donk betting when we're the caller but the  
+bottom line here is that the caller is much more 
+likely to have a flush than the three better in  
+a formation like this so as a byproduct of that 
+we just have to be quite cautious on a board like  
+this and not put ourselves in a SP where we end 
+up stacking off with a hand that's way too weak  
+our last turistic here is a strategy which applies 
+to when we're defending against the CET as opposed  
+to when we are the cab better and it relates to 
+one specific category of hands in particular when  
+we're in a three bet pot compared to a single 
+rais pot and that's what I'm going to refer to  
+here as the back door wraps so that's hands which 
+flop three to a straight plus three to a flush now  
+in single raay pots it's quite common for these 
+hands to never want to fold to a small seab bet  
+because they have too much equity and they have 
+strong implied odds they'll often be pretty happy  
+to continue passively and mix between raising 
+and calling particularly if they have overcards  
+however in three bet pots we're now in a pretty 
+different spot with these hands for a few reasons  
+firstly our pair outs are less often going 
+to be live because we're up against a higher  
+density of strong hands which is obviously going 
+to decrease our overall Equity secondly the lower  
+spr is going to reduce our implied odds in the 
+event that we actually do back to our way into  
+a strong hand in addition to that we're likely 
+to face a lot more aggression on the turn in a  
+three bet pot which makes it harder to realize 
+our Equity across multiple streets and finally  
+our straight drawers and flush drawers are more 
+often going to be dominated given the frequency  
+of high-end Broadway hands and strong suited aces 
+in our opponent's range here's an example of what  
+I mean in this single raise pot scenario on a 
+104 dece rainbow flop at 50 big blinds deep in  
+the hijack versus big blind formation a hand like 
+Jack n of Spades here or Jack n of hearts with a  
+back door wrap plus an overcard is never folding 
+to a 33% of pot C bet in fact the same goes for  
+jack8 suited Queen n suited King n suited a lot of 
+this stuff that wraps around the 10 here and queen  
+8 suited is only folding you about 7% of the time 
+so Queen eight of spades is pretty much in that  
+same category if we highlight the Spade category 
+over here we get a bit more insight into it and we  
+can see that even stuff like eight six of Spades 
+is indifferent between all three options so we're  
+definitely continuing with a lot of these back 
+doors that have some kind of additional Equity  
+97 is in there as well so we're not really too 
+unhappy even out of position against 1/3 at this  
+depth to continue with these hands because they 
+just have pretty decent Equity if we look at the  
+actual Equity of these hands something like the 
+Jack n of Spades has 28.6% however if we switch  
+over to this three bet pot scenario which is 
+button versus hijack at the same depth 50 big  
+blinds same board texture even against a quarter 
+pot size the Jack n of Spades is now no longer  
+really continuing at all and the same goes for a 
+lot of the other hands in that region there's a  
+little bit of there's some mixing here with the 
+King Nine of Spades but really a lot of stuff in  
+this region is now just folding in particular the 
+middle card stuff is just folding as well if we  
+filter for just the Spades you can see now that a 
+lot of this middle card stuff that was continuing  
+in the single race pot scenario that wraps around 
+the 10 that has those double back doors they just  
+don't continue here because they're not strong 
+enough if we look at the equity of those hands  
+it's gone way down by about 5% here Jack 
+n of Spades is now at about 23% Equity so  
+even though we're facing a smaller bet size we're 
+now folding these hands because their Equity has  
+dropped by about 5% in a three bet pot compared 
+to in a single raise pot and that obviously is a  
+really significant margin that's going to heavily 
+alter our strategy with these hands so back doors  
+back door wraps definitely not as strong in a 
+three bet po scenario so before we wrap up the  
+video let's talk a little bit about what some of 
+our basic heris would be for looking at the turn  
+in various three bet pot scenarios now obviously 
+there are a massive variety of different spots  
+that we could be in here but let's divide them 
+into a few different categories the first one is  
+going to be situations where we range bet the Flop 
+and then we see a brick on the turn so in these  
+cases we're quite often going to want to just use 
+a turn strategy that's based around what you would  
+call a 2E geometric sizing so two equal bets for 
+the remaining streets and the reason for that is  
+relatively straightforward it's just because our 
+range is mostly going to want to get all in by  
+the river and when we're the three better and we 
+have a lot of strong hands that are looking to  
+play for Stacks geometric sizing is going to be 
+the most efficient way to do that in most cases  
+so it's really important that we train ourselves 
+to get a pretty good sense of what a two- Street  
+geometric sizing looks like for each spr and a 
+good starting point is to know that at an spr  
+of four a two Street Geo sizing is exactly pot so 
+you can start extrapolating from there if the spr  
+is higher than four you know a Geo sizing is 
+going to be bigger than pot if it's less than  
+four you know that it's going to be smaller when 
+we're constructing our turn barreling range it's  
+pretty important that we use Bluffs that don't 
+have a fear of getting check jammed on because  
+at lower sprs check jams on turns are going 
+to happen a bit more and we really don't want  
+to be in an indifferent spot against the check 
+shove so we actually have to prioritize certain  
+weaker drawers instead of stronger ones and in 
+particular we're also more inclined to Bluff with  
+hands which allow us to Target the folding range 
+more effectively by unblocking the maximum number  
+of folding combos so sometimes that's going to be 
+hands that are high card low card combos like the  
+suited Ace wheel hands that have a de three four 
+in them that doesn't interact with your opponent's  
+range and doesn't block anything from the folding 
+range and finally we should avoid going super thin  
+for value on turn for the same reason that we 
+avoid using High Equity drawers as Bluffs it's  
+because we're probably going to be indifferent 
+versus a check Jam in a lot of spots and that's  
+really a problem so ordinarily the thin value 
+portion of our range is going to want to check  
+the turn and then either value bet or just call 
+the river against a bet on a lot of runouts so  
+these are the basic approaches in these spots 
+where we range bet and see a brick on the turn  
+next we'll consider the category of spots where we 
+use a two Street geometric size on the Flop so a  
+slightly larger flop size in particular from out 
+of position in a situation where we're intending  
+to jam all in on the turn so a very draw heavy 
+turn texture where where we might have a lot of  
+topend hands that are quite vulnerable maybe a 
+board with a lot of straight drawers two flush  
+drawers things like that we might want to take 
+an outter position jamming strategy here after  
+using a two Street sizing two Street geometric 
+sizing on the flop for this type of spot we're  
+usually going to want to have a depolarized or 
+merged range construction where we're primarily  
+jamming with vulnerable value hands and drawers 
+which still have Equity when called and the very  
+top and very bottom of our range usually going 
+to prefer to check here since the top doesn't  
+need any protection and the bottom doesn't have 
+any Equity when called so it really cannot Jam  
+profitably the bottom of our range is then going 
+to serve as our River bluffing range if it goes  
+check check on the turn which dovetails quite 
+nicely with the fact that we're still going to  
+have some of those trapping hands that check 
+the turn and are now wanting to Value bet or  
+Jam the river because they need to get value so 
+we're still going to allow ourselves to have a  
+solid River strategy after it goes check check 
+and our range is going to be constructed pretty  
+well overall as a result so our turn betting 
+range our turn jamming range is going to be  
+composed of a lot of strong but not completely 
+nutted value hands and then some draws that have  
+Equity when called in particular this is because 
+if we are bluffing with a range of hands on the  
+turn that still has Equity when called then we 
+need to re reduce the equity of our value range  
+to compensate for that because we don't just want 
+to have a very very strong range that is strong  
+hands and high Equity draws because that makes 
+life easier for villain it makes it easier for  
+them to fold so we reduce the equity of our value 
+range we increase the equity of our Bluffs and we  
+end up jamming a merged range and checking and 
+actually slightly polarized range but with some  
+Bluff catches in there as well finally we want 
+to consider spots where we're using a geometric  
+sizing as the pre- Flop Defender after it goes 
+check check on the Flop so again this is a 2E two  
+Street sizing and this is surprisingly common 
+since we're quite often going to be in a spot  
+where the pre-f Flop razor checks back the Flop 
+but we still have plenty of hands in our range  
+that want to get Stacks in across two streets 
+our approach here is going to boil down to some  
+pretty simple principles we should assume that 
+our opponent's range is going to be somewhat CA  
+but will include the occasional trapping combo 
+to protect their range if they are a competent  
+player who understands range interactions and in 
+addition to that our opponent having very little  
+incentive to jam all in on the turn against a big 
+bet means that we get to Bluff with a lot more of  
+our high Equity draws as opposed to the lower 
+Equity draws that we have to Bluff with when  
+we're in position and we're using a Geo siiz 
+so from out of position here if it goes check  
+check we can very easily bet those flush draws 
+those combo draws because villain has very very  
+limited incentive to just Jam All In when they're 
+the one in position when they're in position they  
+have a pretty big incentive to just play call 
+or fold especially since their whole range is  
+doing a lot of bluff catching and they just don't 
+really have a lot of hands in their range that  
+would serve as good jamming candidates for Value 
+because mostly they're either trapping or they  
+just don't have that much value to begin with so 
+for the most part we can actually have a lot more  
+High Equity Bluffs on the turn we don't need 
+to have as many of those lower Equity Bluffs  
+and we also don't really need to construct in a 
+way where we have both bets and check raises in  
+most cases we just need one methodology by which 
+we're going to get value from the top of our range  
+it's very difficult for there to be a spot where 
+our value hands have an incentive to check raise  
+but also other value hands have an incentive 
+to bet for the most part we can just look at  
+what the top of our range wants to do establish 
+whether on this particular turn card the top of  
+our range has the incentive to check or to bet 
+and build our value approach around around that  
+as well as having a bluffing range that we build 
+out on top of it so we don't gain a ton of EV by  
+splitting our ranges and having both bets and 
+check raises and we don't really need to spend  
+a lot of time on that so that's about it for this 
+video a relatively comprehensive guide to three  
+bet Parts in tournaments at least particularly 
+with reference to flops and turns and if you  
+have any questions about this or any of my other 
+content please do feel free to reach out to me via  
+our Discord server as I'd be happy to discuss 
+at any time I will be back soon with another  
+video here on YouTube and until then thanks for 
+watching everybody and good luck to you all at the
+tables

@@ -1,0 +1,55 @@
+A Beginner’s Guide to Poker Combinatorics
+Combinatorics is a fancy term for evaluating the number of possible “combinations” (combos) of any given hand: the combination of 2 cards of certain ranks and suits. It allows us to answer questions like how many different versions of AK you can hold in a specific spot, what hands make for better bluff-catchers and many more.
+Combo Counting Basics
+The Hand Matrix
+There are 1326 possible combinations of starting hands in Texas Hold’Em. They are frequently represented by a grid that is commonly referred to as a hand matrix.
+Simply looking at the hand matrix, it would be easy to mistakenly assume that pocket pairs comprise 13/169 of possible hands and suited and offsuit hands each make up 78/169. By looking at the grid and summing the squares that correspond to each hand class we would arrive at the aforementioned answer. However, this relies on all squares being equal to each other. Despite this being the case geometrically, it is not the case combinatorically.
+There are in fact:
+6 combos of each pocket pair
+A♠A♥, A♠A♦, A♠A♣, A♥A♦, A♥A♣, A♦A♣
+4 combos of each suited hand
+A♠K♠, A♥K♥, A♦K♦, A♣K♣
+12 combos of each unpaired, offsuit hand
+A♠K♥, A♠K♦, A♠K♣, A♥K♠, A♥K♦, A♥K♣, A♦K♠, A♦K♥, A♦K♣, A♣K♠, A♣K♥, A♣K♦
+This leads us to the conclusion that there are 78 pocket pairs (6 combos times 13 squares), 312 suited hands (4 combos times 78 squares) and 936 unpaired, offsuit hands (12 combos times 78 squares).
+Want to practice combo counting during actual gameplay? GTO Wizard Play Mode lets you test your understanding by playing hands and reviewing ranges afterward, providing a practical way to reinforce these concepts.
+The Card Matrix
+Dead Cards
+The above ratios are applicable preflop but falter when in the presence of “dead cards”. Dead cards refer to cards that are known to not be in a player’s hand. The most common example occurs when a flop is dealt. The flop cards are dead as it is impossible for any player to hold them.
+The simplest way to count combinations is to multiply the number of unseen cards. Let’s go over some examples to familiarize you:
+BTN opens, BB calls, flop is AK2:
+How many combinations of AQ does the BTN have?
+
+How many combinations of AA does the BTN have?
+How many combinations of AKs does the BTN have?
+Other Card Removal Examples
+Dead cards exist when public information makes certain hands impossible to hold. There exist other, more subtle versions of card removal, however. One notable version is blockers. This is when one player uses the private information provided by their hand, or private dead cards if you will, to combinatorically narrow their opponent’s range.
+Simple Blocker Example
+Blockers are a vital part of poker strategy that can make or break close decisions. By eliminating specific combos from players’ ranges, you can shift their action frequencies and value to bluff ratios.
+Let’s examine a simple example where we can make use of this effect:
+🎲 [6Max Cash, 500NL, 100BB]
+BTN opens to 2.5BB and BB defends. BB check-calls a 33% flop c-bet, a 125% turn c-bet and faces an 85% river c-bet on J♠5♥2♠K♦8♠. Which of the following hands can profitably call?
+K♠9♥
+K♥9♠
+K♣T♣
+A♥5♦
+🎲 Answer
+Strategic vs Actual Frequencies
+Despite blockers changing range action frequencies, solvers (including GTO Wizard) do not display the impact of this effect in their strategic frequencies. This leaves a discrepancy between strategic and actual frequencies. This is clearly demonstrated on flush boards:
+[6Max Cash, 500NL, 200BB]
+HJ opens to 2.5BB and BB defends. BB check-calls a 130% c-bet, the turn checks through and BB check-shoves (for 407%) vs a 61% river bet on a board of Q♠J♠4♥7♦2♠.
+Despite the strategic frequency window declaring that HJ calls 19.8% of the time (1.07 combos out of a total 5.51 combos), they only call 13.8% in reality (0.52 combos out of a total of 3.78 combos).
+The 19.8% frequency includes “ghost” combos: ones that cannot exist due to our opponent’s blockers.
+BB only shoves hands that contain the A♠, however, HJ’s 19.8% calling frequency includes many A♠ hands. Once removed, the calling frequency becomes 13.8%.
+This doesn’t mean the strategy is incorrect. The expected value calculations account for this effect. It’s just a matter of interpreting and displaying data. Do we want to examine the strategic frequency or the actual frequency? Some solvers have a switch that allows you to alternate between both views.
+Check out this spot in GTO Wizard.
+Card Bunching
+The final card removal effect we will examine is card bunching. Players tend to fold low cards more often than high cards preflop. So when many players have folded, the remaining players and deck are skewed towards high cards.
+At a 3-handed table, BTN acts first, and every combo in their range is equally likely. This is not the case at a 6-handed table when several players have already folded. This card removal affects the ranges and strategy of all players to act, frequencies, and runout probabilities.
+UTG RFI range at a 6-handed table
+This means that BTN is more likely to hold higher cards when it has folded to them. This can change the BTN’s actual opening frequency even if they don’t change their strategic opening frequency.
+Let’s visualize this effect. The following animation displays the density of cards from 2 through Ace in the deck after several players fold. Remember that they’re more likely to fold low cards, so the remaining cards in the deck (and player’s ranges who are yet to act) are more top-heavy.
+Generally speaking the card removal due to bunching is not very significant, although it depends on the spot. As this is a beginner article, we’ll not cover this effect in great detail. Check out this article by HRC if you’d like to learn more about the bunching effect.
+Conclusion
+There are 1326 possible combinations of starting hands in Texas Hold’Em made up of 78 pocket pairs, 312 suited hands and 936 unpaired, offsuit hands. Some of these combos can be blocked by the board or players’ hands and ranges, further decreasing the number of available combos. This should be accounted for and optimized for when forming a strategy.
+There are 3 key card removal effects: dead cards, blockers and card bunching; each with their own unique properties.

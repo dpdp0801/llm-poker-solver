@@ -1,0 +1,1086 @@
+[Music] hey guys Tom Boss 21 here with a 
+very special video for you in this episode  
+we compare poo and Texas Holdem with none other 
+than the legendary Joey Ingram we've prepared  
+some novel Graphics to help you visualize poo 
+ranges exploreand Rarity charts and uncover  
+what we can learn by finding the similarity 
+between these games stay tuned to enhance  
+your poker skills and discover the underlying 
+theories that connect Holdem and pl [Music]  
+so in today's video we're gonna be talking about 
+pot lioma versus holdom here at GTA wizard we're  
+almost always focusing on holdom strategies 
+that's what our apps about but I got some  
+curious about PLO and I have special guests 
+on PLO Master Mr Joey Ingram here to walk me  
+through some of the differences between poo and 
+hold him and I and I do want to say you know the  
+ma Master you got to I feel like you got to 
+be playing a lot of PLO to feel like you're  
+at that top level and lately you know Tomos GT 
+wizard has me a little bit addicted to the two  
+card game so I'm I'm like pursuing my Mastery 
+at two card but I always think about PLO and  
+you know it's like one of my my biggest loves in 
+the world I'm always thinking about the strategy  
+and the ideas and stuff like that but you know 
+everything's always fluid and changing and and  
+strategies are changing too so it's it's kind of 
+an interesting time for for PLO I feel like with  
+you know the rise of more Advanced Data Solutions 
+and um you know just getting a lot more popular  
+and a lot more people are playing it so so it's 
+a great time for the great game and I think this  
+would be a good topic for us to talk about so 
+I guess just for the the noobs out there we  
+should explain the differences so pot liit Omaha 
+the great game uh uses four whole cards and you  
+must use exactly two of those four whole cards to 
+make your hand and the maximum bet is of course  
+the pot therefore Pot Limit contrast that to Texas 
+Holdem where you get two whole cards there's no  
+betting limits and you can use any combination of 
+board and whole cards to make your hand so I guess  
+my first question for for Mr Joey Ingram here 
+is what do you think the the differences uh are  
+between PLO and hold him well I mean you just said 
+it right the most you can better raise is the size  
+of a pot and this is such a different Concept 
+in hold them and this is something that really  
+has been taking me a lot hard it hard get used to 
+right what were the first things that really were  
+hard for me to get used to was uh pre- flop hand 
+selection because in PLO you have four cards and  
+told them you get two cards and in PLO you really 
+want to have cards that work together very well  
+which at holdom once you like really get deeper 
+in ranges like that's pretty much exactly what you  
+want to do in a holdom but just like understanding 
+you know suited connectors and the value of suited  
+connectors there's such a difference in making 
+a flush in PLO versus holdom and in hold them  
+if you make a flush you're like this is amazing 
+we got to start putting money in and PLO unless  
+you have a potential redraw with your very high 
+flush you know when you got a nut flush and that's  
+when you want to put a lot of money in but every 
+other flush you're like kind of scared to put a  
+lot of money in so reversing that trauma was has 
+been very challenging for me just that first with  
+trauma there's such trauma with flushes I'm like 
+oh my God you know that was like a big thing I  
+had to really get used to and then listen in my 
+opinion in PLO you can call way more three bets  
+you're not going to get punished as hard and 
+hold them as the caller with three bets with  
+weaker hands you're just going to get my opinion 
+destroyed and you're going to be in so many  
+awkward spots on that River whereas at PLO you 
+can call a lot three bets pre- flop and end up in  
+spots where you're very happy you're comfortable 
+you have a very comfortable aggressive decision  
+and I feel like in hold them too often you end up 
+with these like top pairs second Pairs and you're  
+just like praying the gu's got his Ace Queen this 
+time or praying the guys go you know bluffing you  
+to call down with certain hands and you and you 
+really can't always take the aggressive action  
+back you know these some of these three bet uh 
+formations and scenarios as well too whereas like  
+at PLO there's a lot more of ability to attack 
+a lot of boards on turns and rivers because the  
+biggest thing is the nuts change so much and 
+that's really the hardest thing that you have  
+to understand to be a really good PLO player is 
+that you need to be very aggressive on the turn  
+and on the river when the nuts are changing with a 
+very wide uncomfortable variety of hands whereas I  
+feel like could hold them you know you you can 
+get creative I want to have enough Bluffs here  
+but like at the end of the day I don't think you 
+really need Bluff just don't Bluff you know if you  
+have that P you got to get creative like you don't 
+really have to Bluff whereas at PLO like if you  
+don't Bluff here it's a massive blunder like you 
+got to Bluff you know and it wouldn't necessarily  
+always be intuitive that you have to do these 
+things so it's really hard to find a lot of  
+aggression at PLO and um you know that's something 
+I've always I've always really specialized in is  
+just Redline Mastery at PLO and finding all these 
+spots to Bluff and be aggressive so you know a few  
+things that come to mind also just the swings are 
+higher you're all in way more and um you know you  
+really you really want suited this you really 
+want connectedness you really want hands that  
+can make the nuts by the river s it's just not 
+many hands like that so where's at hold them I  
+feel like it's not quite as relevant in terms of 
+you know in the river with hold them like I feel  
+you have third pair fourth you know it's like 
+there's you don't have to really stress about  
+having the best hand by the river whereas at PLO 
+like you got to be thinking about that pre flop  
+and that's going to matter for your flop decision 
+and then you know how aggressive you play certain  
+parts of your range is going to matter on your 
+side cards and your back door draws everything  
+like that so that topic isn't as relevant at 
+Holden but it is relevant for finding like future  
+Bluffs and like I'm finding it's very relevant for 
+splitting frequencies and you know that one side  
+card I call like a blocker can really matter for 
+your split you know so it's um yeah every day I'm  
+learning learning something new so so in PLO like 
+every decision you make has to be viewed through  
+the lens of how can I make the nuts whereas 
+in hold them it's it's maybe not so extreme  
+I feel like it's the implied odds and reverse 
+implied odds in PLO are are just much greater  
+because these these high quality hands are so much 
+more common but we'll we'll get to that shortly I  
+guess for starters first thing I wanted to do was 
+just to compare the win rates by position in a in  
+a theoretical game so assuming GTO strategies and 
+so here on the left hand side we have the lowjack  
+highjack cut off button and then on the right 
+small blind and big blind and what I notice is  
+that PLO these red bars here seem to have higher 
+win rates this is in big blinds per 100 and also  
+higher loss rates than the blinds so this is based 
+on NL 500 100 big blind Solutions uh and so this  
+makes me think that the positional Advantage seems 
+to be uh slightly magnified in PLO what do you  
+thoughts that Joey oh yeah I mean listen you got 
+to and you know most people first of all right  
+they play awful lot of position so they don't know 
+how to navigate three streets especially if you're  
+going to put three streets some aggression on them 
+when you're in position very hard to like know  
+that there really isn't these open solutions for 
+you know we call here we call here you know and  
+holdom a lot of this is more solv so you know 
+you kind of like just kind of know what to do  
+in a lot of river spots or is it PLO there's so 
+many like weird spots where you got like a third  
+you got a flush or you got like a bottom two 
+pair like it's a potential Bluff catch you got  
+that that think it a it you know there's just 
+all these like really weird uncomfortable  
+spots and like most people we just haven't been 
+talking about it so you know people don't really  
+necessarily always going to know what to do there 
+so and then you just have last to act as such a  
+huge Advantage because you can basically like I 
+said the nuts change so much so if you have the  
+visibility in terms of what your opponent's going 
+to do before you then you're able to really be the  
+person who you know has that that foot on the gas 
+so you can even you know you can start with the  
+generalistic the buttons very profit will be and 
+then you know my opinion I like to open that up  
+as wide as I can and start to figure out who can 
+I play against and what hands can I play against  
+them with and what you start to realize is that 
+EV estimation and certain players have certain  
+loss races in certain positions so this might be 
+the general standard framework that you start at  
+but then you know a losing player is going to have 
+a lot bigger loss rate in certain positions which  
+makes your button play even more important and 
+that's why you know I might play extremely wide  
+range like I don't follow any chart playing on the 
+button depending on you know where I'm playing and  
+who I'm playing against and who's in the blinds 
+and I feel like at hold them that you know that  
+concept is relevant as well too because maybe 
+you loosen up on the button I find like I I'm  
+still you know maybe not like I'm still getting 
+you know getting kind of like crushed if I call  
+Queen four off suit or queen four suited or like 
+you know these kind of weaker hands whereas a PLO  
+you can really open it up wide and you know get 
+yourself in the in the greater depths of of Post  
+Street poker when you have these marginal hands 
+and you know to me that's where the real Beauty  
+a PL and then the button comes out and then just 
+from like a general hey I'm playing my strongest  
+hands and you know like your strongest hands just 
+dominate these guys so often later streets that  
+you just have such a powerful position with that 
+button so you know yeah it stands out to me that  
+this this doesn't do it justice in some ways 
+because this is assuming that the rates are  
+loss rates are standard but once you have somebody 
+you know people really lose out of position they  
+really can win in position so you got to factor 
+that in when you're deciding which hand to play  
+so you you think that the the skill edges in PLO 
+might be a lot greater than they are in Holdem oh  
+yeah massive massive massively difference yeah 
+potentially right I mean depends it just feels  
+like in hold them they're you know if a player's 
+bad then of course he's going to have a big loss  
+rate but most those players you know theoretically 
+we you don't see them but or they're just not as  
+common so you you look at it from the lens of 
+you know against another good player who studied  
+but you know if you find someone at holding who's 
+not very studied in your study then I don't know  
+I mean you're going to have a huge skill Edge if 
+you can just play hands with them against them too  
+interesting yeah I I kind of got that sense as 
+well generally I find that there's just in the  
+the Baseline GTO strategy for PLO you end up 
+playing more pots uh therefore you end up with  
+a higher effective rake as well in cash games 
+and I got me thinking like why is positional  
+Advantage greater just in theory like assuming 
+equal skill between players uh and we also see  
+like a similar effect in hold him where uh on draw 
+boards generally speaking all else being equal the  
+player in position gets a greater Edge on draw 
+heavy boards compared to being out of position  
+and so I think part of it is that draws are just 
+more valuable in position and there's a lot more  
+drawing going on in PLO and the other part of it 
+is like maybe a way to rephrase it would be that  
+the the value of your hand is less certain in 
+PLO uh and therefore having the informational  
+advantage of being in position uh gets magnified 
+I'm not sure though this is just me spitballing  
+so I wanted to ask you another question here 
+Joey what do you think of this quote PLO is a  
+game of equities Holdem is a game of frequencies 
+I don't know who said this some random two plus  
+two poster probably but how true do you think this 
+saying is that's pretty prettyy interesting saying  
+uh p is a game of equities yeah makes it does 
+make sense I mean I feel like Po is a game of  
+of bluffing and uh you know to be able to Bluff 
+you have to understand why you're bluffing and  
+what your Equity is in this situation and how 
+your equities change and your equities change  
+very quickly uh in PLO where because the nuts 
+just change so much on the turn like on the  
+Flop you flop top set on the turn strike 
+get there the flush gets there you know  
+what's your Equity against a potential range of 
+straights and flushes and semi Bluffs and other  
+two pairs you know you got to think about that 
+then once you face a big bet you got to think  
+about okay well if I call here and you know 
+does a guy Bluff a lot in the river is it I  
+fill up am I going to lead Don here you know 
+if I like what's my range of you know there's  
+all these different things think about you know 
+obviously these things happen in Holden but in PL  
+um you know they just come up so much where 
+you go from 90% 80% to you feel like 15% 5%  
+you know and you got to figure out okay how do 
+I think about that moving forward and then when  
+you were thinking about bluffing you got to think 
+about your blockers and um and uh yeah like right  
+understanding the other opponent's Equity when 
+they have top set and what they're going to do  
+with it you know it's an important thing so you 
+know hold them you know I don't know if it's a  
+game of frequencies because it can be a game of 
+frequencies if you're thinking about it from that  
+lens of you know I want to check back here 20% I 
+want to bet here 80% with my Aces some people just  
+bet 100% And they're not thinking about anything 
+frequency related you know they're thinking about  
+the game from a completely different strategic 
+lens so I think that if you're studied in the  
+idea of frequencies and um randomization then hold 
+them is definitely a game of frequencies for you  
+and it is for me when I play like it's all about 
+frequency you know I'm like oh I've got Aces here  
+the board's 864 um all right I have no Blocker in 
+my hand then I'm going to be wanting to bet here  
+uh you know 30% of time and check your 7% time 
+kind of things so that's how I think about holding  
+now yeah I feel like um this quote is certainly an 
+oversimplification but in po I suspect that you're  
+a lot more concerned with the quality of your your 
+redraws and such and like your ability to make the  
+nuts on the future uh whereas in hold them you 
+can often just Blast Off with air just based on  
+like oh I've have this many value bets therefore 
+I need to be bluffing this percentage of the time  
+blah blah blah but I'm not sure how how much truth 
+that this saying actually has it did stick with me  
+a little bit Joey it's stuck with it's interesting 
+I mean you always need words and sayings and they  
+got to connect with people in different ways 
+so yeah I mean like you said about poo poo all  
+about in a perfect world Listen D in a perfect 
+world you do want to have those redraws I don't  
+you know we're not playing in a perfect world so 
+you're often going to be left out on an island  
+without that redraw of course you want to have you 
+redraw of course you want to have that of course  
+you want to have all these great things going with 
+your hand in PLO but you got to get comfortable  
+in the uncomfortable in PLO if you really want to 
+really want to thrive because if you're just just  
+you know nut pedaling waiting for Aces waiting for 
+nut flush you know first of all it's going to be  
+boring and second of all you know it's just when 
+you lose with those hands a lot you're GNA you're  
+going to want to fair enough if you lose with 
+these power hands so often it's like with thing  
+un hold and when you lose with Aces you're like 
+oh my God I'm GNA like this is the worst thing of  
+all time and whole PLO like that might happen five 
+10 aces in a row and you're like what's going on  
+here so all your Aces and the frequency of like 
+you know the equities are just so close together  
+that the clashing when you have a perceived 
+good hand you know you're not that really  
+big of a favorite whereas I hold them you can 
+just sit there with your with your hands in your  
+pants and just wait for the best hands and oh you 
+know I'm a God I got Ace King it's like you know  
+come on guy like you're not that you're not that 
+guy but you know a guy plays top 5% of his hands  
+well against Bad players and it's an interesting 
+point Joey and speaking of which I wanted to look  
+at the hand Rarity uh meaning like how common are 
+different hands just overall so if we say in P you  
+draw four cards you go to the river what type of 
+hand will you have in Holden in blue here we can  
+see that most of the time you end up with either 
+a pair or nothing sometimes two pair and then very  
+rarely trips plus whereas in PLO a pair actually 
+two pair is more common than one pair and that's  
+way more common than having nothing like having a 
+high card in PLO is is very uncommon right so it  
+got me thinking like if this is the case well it 
+makes sense obviously that you get more cards you  
+get better hands right but you need to adjust your 
+your value thresholds when you're going from hold  
+them to poo as well as going from po to hold them 
+so obviously you need to be comfortable with the  
+fact that you're going to make more strong hands 
+in poo and also in hold them you have to start  
+giving more value to these rarer hands because in 
+general the rarer a hand the more value it has now  
+obviously it depends on the texture and such like 
+you know if it's a monotone flop a flush is going  
+to be way more common than this thing tells you 
+but yeah anyway the thoughts on on hand Rarity  
+there Joey yeah like I said this was a really hard 
+it still is hard for me to get used to because I'm  
+so used to like the flushes and the straights 
+and like the full houses they are so common so  
+like I'm always like really on the lookout to 
+try to make those hands and I'm really you know  
+aiming for Full Houses I'm aiming for fly like 
+you're you're sort of like aiming for a few hands  
+on PLO whereas that hold them like you said it's 
+kind of like weird because in some spots like it  
+doesn't matter what you have it all it's just you 
+can Bluff here all the time you know it's like or  
+you just call you know I don't know it's like very 
+hard for me to get used to the nothing and the one  
+pair and the third pair principle right I came 
+with this idea third pair principle fourth pair  
+principle there's like certain principles with 
+Pairs and hold them I'm starting to learn that  
+you got a bluff that you know I would just never 
+think about okay I got to Bluff this hand because  
+you know I don't have any blockers necessarily but 
+like you have to start bluffing certain hands in  
+your range to have enough Bluffs you know whereas 
+like at PLO that concept you know I I don't know  
+it's more about like uh a different way I guess 
+think about it and then like you said like here  
+with the you know two pair you have have two pair 
+so much in PLO but then you got to realize like  
+two pair kind of sucks and it's actually not that 
+good of a hand uh you know by by the river often  
+times so not all two pairs created equal and you 
+know two pairs a very tricky hand to play so you  
+know that that's something where at hold them 
+when you have two pair you're you know you're  
+raising Sunshine right you got bottom two you got 
+top and bottom German two pair you're always like  
+oh my God whereas the value of two pair in PLO 
+you got to really pump the brakes on it unless  
+you got to the river and then you know even then 
+you're still vulnerable against some slow playay  
+sets bottom sets and stuff like that whereas 
+it hold them you just don't really see a lot  
+of those kind of like encounters and um yeah 
+it's it just changes a bit right how exactly  
+what do you do with information it's it's kind of 
+something we're all still figuring out I guess two  
+pairs the new one pair yeah listen and in hold 
+them it really I peel out really is like it it  
+can be unless you what depending on what you 
+have to go with it it kind of be like one it  
+can be like one pair you can kind of play it that 
+way I also wanted to kind of dive into like the  
+value of certain hands or how often different 
+hands would make different things and so here  
+we have like kind of a standard looking range 
+chart and then I can choose like okay what are  
+the chances that you'll make for example exactly 
+a straight with all of these different hands and  
+we can see that like you're going to make a 
+straight a decent junk of the time like a PSE  
+suda connector 15.7% of the time you end up with 
+the Straits in PLO so here's here's a kind of a  
+weird theoretical question for you Joey why do you 
+think it is that Ace 10 and then two random side  
+cards is more likely to make a straight than Ace 
+King that's pretty interesting I'm not sure what  
+what why is that yeah so it doesn't make a lot 
+of sense because you wouldn't normally use an  
+Ace and a 10 to make your straight but we can see 
+like all of the 10x hands are slightly more likely  
+and actually similar effect with the 5x hands 
+slightly more likely to make Straits than the  
+other hands and the reason for this is uh a 10 is 
+just more likely to connect with your other two  
+random side cards than a king as simple as that 
+right so it's kind of a weird way to think about  
+it but if you have a 10 like you could have Ace 10 
+8 Ace 10 Jack n whereas if you have Ace King then  
+your side cards if you want them to be connected 
+have to be like Ace king queen Jack so there's  
+fewer ways to make a straight when you have Ace 
+King than there is to have Ace 10 to hold them  
+you actually end up with the same effect but for a 
+different reason because in hold them you can just  
+use the the 10 on its own right so you can just 
+for example not use your your Ace so if you have  
+Ace 10 here more likely to make it straight than 
+Ace King because you can make one card straights  
+so I made these charts for like all the different 
+hands you could have let's see how about at least  
+a full house obviously pocket pair is way more 
+likely to make a Full House what about at least  
+at least the flush and so double suited hands 
+compared to let's say actually here's a question  
+for you Joey How likely do you think what is more 
+likely to make a flush a triple suit at hand or  
+a single suited hand a triple suited hand or a 
+single suited hand single suited meaning meaning  
+we have just one you know like like four five 
+suited you know with two random side cards and not  
+a flush and then triple suited means we have three 
+the same uh three the same suit yeah I would say  
+the single suited it's going to be way more likely 
+just because you have a reverse blocker to one of  
+the flushes yeah it is you're you're right single 
+suited is is more likely than than triple suited  
+because you don't block your own flush right um 
+and then if we look at like let's say monotone  
+which is like all four of your cards at the same 
+suit yeah way way down so yeah anyway I got like  
+deep into the weeds like looking at the the the 
+different frequencies that you'll make different  
+hands and yeah with the three flush thing I mean 
+you know it's interesting I intuitively as a PLO  
+player you just you know you automatically know 
+you want to have you know if you have three in  
+your hand it's just going to be harder to make the 
+flush but obviously it can still be intoxicating  
+to some people because they see three in their 
+hand and they think oh like you know they got the  
+same possibility with you know making the flush 
+but it does become just a little bit little bit  
+worse I can say it's a small percentage but it 
+is it can be a big difference I feel like it's  
+the it's the hold them mentality like uh you know 
+if a if a Holden player looks down and gets like  
+you know quad Queens the first instinct you feel 
+is excitement like yeah I got for kind and then  
+as a PLO player you look down at that you're like 
+oh wait I don't have quad Queens I have two queens  
+and then I block my own outs so poker such a game 
+of excitement when you see your whole cards it's  
+like a first time to get excited and you know 
+when I first would look at a hold Dem man before  
+I'd see an Ace and I'd get I'd get excited like oh 
+we got an Ace Ace is so great and then I realized  
+like oh actually you know Ace Jack Ace 10 offsuit 
+used to be one some of my favorite hands and hold  
+them and then I realized like oh they're actually 
+like not very good and the you know the suited  
+hands are so much more better and Powerful so it's 
+hard to get adjusted it really really can take a  
+long time most Holden players look at PLO hands I 
+always do like coaching with them and their their  
+brain's broken they're like oh my God what is 
+what is this is this a good hand I'm like oh boy  
+so because nobody just knows they think any a any 
+Ace is good sometimes PL like oh my God no like we  
+we got a long way to go so next thing I wanted to 
+do was to start looking at some pre- flop charts  
+uh now my problem Joe is that whenever I looked 
+at poo training software uh it was always it just  
+gave you like categories or like lists of like 
+thousands and thousands of hands but as a Holden  
+player I want to view it in ch form and so I spent 
+way too much time trying to figure out how to make  
+how to visualize poo using the standard 13x13 grid 
+so here we have Holdem versus poo and this isn't  
+under the gun open in a six Max game again NL 500 
+rake 100 big blind steep what's interesting is  
+that they both open about 17% of the time um but 
+we can see that the the range of hands is very  
+different now in order to visualize four cards 
+on a square uh I had to make some assumptions  
+so what I've done is I've made the right side 
+s double suited and O off suit meaning just  
+not double suited anything but double suited and 
+then pairs are just anything whereas in Holdem  
+you know it's just suited in off suit now what's 
+really interesting to me is that under the gun in  
+PLO the GTO strategy is like folding Ace King off 
+it's it's folding pocket kings sometimes which is  
+crazy to me and it's way less concerned about 
+Pairs and more concerned about uh you know is  
+my hand double suited can I how often can I make a 
+flush Etc yeah thoughts on this way of of looking  
+at PLO strategies there Joey yeah it's a different 
+way to think about it because like you said with  
+the Kings under the gun you know like you said 
+it's crazy to fold Kings but like King King a  
+doce no suit you know like a lot of kings that are 
+wildly cuz like the you know the main pre-f flop  
+factors for your hand that you're going to want to 
+think about are nuttiness connectedness suited and  
+then High pair power so you want to have hands 
+like we've talked about numerous times that can  
+handle changing board textures and that's going 
+to be the immediate hands you look for hands that  
+can handle changing your board texture that can 
+turn a straight into a flush straw that can turn  
+a flush into a set into a full house like you 
+want to be very visualizing ahead you want to  
+be looking at the river and when you're under the 
+gun you're going to be out of position so that's  
+why it's going to take some of your worst combos 
+that you know maybe can't always get there which  
+are typically going to be the you know the less 
+connected kind of hands and um you know but yeah  
+I mean when you look at this chart it is pretty 
+interesting because you kind of see you know most  
+of these doubl suited Ace hands like I don't know 
+I'm usually like opening most of my you know even  
+ace deuce you know typically your ace deuce they 
+like they really hate the deuce and po the solvers  
+hate Deuces I mean they just oh yeah find that 
+card absolutely dis a disgusting card for that  
+but I think it's a pretty interesting way to think 
+about it you know half of your 10 N double suited  
+hands and then you just start to think okay what 
+are those 10 n suited you want to open and you  
+know it's all kind of intuitive you start with 
+the ace and you you know Ace 910 X and kind of  
+work your way down and you know every when you 
+play right so it's like a different way to think  
+about it but I I it does does show you that you 
+know not all double suited hands are created equal  
+and that's always important to remember too and 
+then you know trying to figure out what are the  
+parameters of why I'd start folding you know you 
+just like I said you just look for at some point  
+in time it starts to break down where you don't 
+have that connectivity or don't have the nuttiness  
+or you don't have the suited this kind of thing 
+well part of the challenge of this is that okay  
+imagine you have one card you're dealt one card 
+you could just represent that with a line of cards  
+Ace through Deuce two cards you could represent 
+it with a square three cards could be represented  
+with a cube so in PLO what we're actually looking 
+at is one side of a four-dimensional tesseract  
+which is oh oh boy something I can't visualize 
+in my head so I have to make it a square but um  
+essentially 2 two here like there's a sliver of 
+2 two this also includes 22 Ace Ace and like ace7  
+off includes all of the other two side cards that 
+could go with that and I think part of it is like  
+you know we see ASX opening a lot even if it's off 
+suit but I imagine those are mostly the ASX hands  
+that were where the ace is suited right so if it's 
+like a single Su only only in the Ace is suited  
+yeah I mean you're only opening under the gun 
+with a single suit if you have Ace X suited plus  
+you know like uh and maybe there's some exceptions 
+right ace king king deuce with king deuce you know  
+something like that could be but you either need 
+the king suited or the ace to be suited before  
+you for under most your under gun opens with with 
+uh if you have an ace in your hand correct yeah  
+right right that makes sense that makes sense so 
+I'll show you uh a little bit of the the inside  
+how I made these and uh it's not very optimized 
+so this is a very slow spreadsheet by the way  
+don't try and analyze PLO with spreadsheet there's 
+too many hands it's too slow this is essentially  
+what it originally looked like and then I made it 
+into a NIC looking chart but I wanted to like be  
+able to filter for stuff so like for example let's 
+say I've got like Queens here so I'll just type in  
+queen queen and then wait like 10 seconds for it 
+to load through hundred how many so you made your  
+own GTO wizard in in the spreadsheet it looks 
+like I did yeah made my I wanted way to think  
+about it but I like it you know sometimes you got 
+to do the research first yeah we'll wait for that  
+to load we can see over here I'm also breaking it 
+down by the the different types of suited this you  
+can get and so double suited under the gun you're 
+opening like half the time uh whereas with a you  
+have a monotone hand under the gun you're just 
+not opening that almost ever right what's your  
+takeaway what's your takeaway here right okay so 
+here what I've done is I I've filtered the side  
+card so uh these are any hand that involves 
+queen queen so any almost any good pair with  
+a queen queen is is going to be it's going to 
+be opening and then it looks like about queen  
+queen with any like 10 Jack king or ace double 
+suited is going to be good enough to open under  
+the gun um queen queen with almost any ax hand is 
+going to be good enough to open and then the rest  
+of time it's got to be like okay it's going to 
+be pretty connected by the looks of it and so I  
+I went through and I filtered for for stuff like 
+this to try and get a better sense like what are  
+we going to be opening so maybe I'll do like Ace 
+five next obviously if it's double suited you want  
+that suited Ace we can see exactly which hands 
+are opening more often so yeah different ways to  
+to kind of visualize what's going on so here we 
+can see A5 like with a five5 is always going to  
+fold because then you have Ace 555 Etc but anyway 
+getting a little too deep in the weeds here Joey  
+I love I love this chart I love this sliding 
+chart this is pretty nice essentially I was  
+so here's here's the backstory a little bit right 
+I was looking through like all the different ways  
+that people have built to visualize p and I was 
+thoroughly disappointed um with what the current  
+market has and I'm like there must be a better way 
+you know I'm a holding player I want to view stuff  
+as a chart give me my chart and so it didn't 
+exist so I had to make it obviously yeah make  
+makes sense yeah I mean you know we have we have 
+only have a few limited resources in our great  
+game a pot Li noaw Community right now and um you 
+know I've used all these growing up and taking  
+the courses and everything like that so I think 
+there's a lot you know PLO training is really at  
+still infant stages and and um you know who knows 
+what's going to happen with that maybe the wizard  
+will dive into that one day too maybe one day I 
+did the same thing for a button comparison and  
+see that you I never actually even looked at the 
+P I know there's some charts out there for PLO  
+on some of different sites I've never actually 
+like really studied PLO charts I've just like  
+played millions of hands where I kind of just like 
+learned how pre- flop works and then you have some  
+trainers you can do where you can go through and 
+you can see okay well how right right or wrong am  
+but you know I never really played off a chart 
+before playing off a chart's very weird I I hold  
+them the first time I started it right right so 
+I feel like it's it's something else to get used  
+to if you're coming to hold them from PLO is is 
+getting used to looking at your strategy in terms  
+of a charts rather than one hand at a time and I 
+think you know also part of the reason that this  
+is useful Joey is that realistically in terms of 
+Game Theory what your hand does in a vacuum is  
+not really important without the context of your 
+broader strategy we see that again the opening  
+frequencies are are quite similar massively 
+pring double suited hands over you know not  
+double suited hands but again this might not 
+be the best way to visualize a PLO strategy  
+now you probably aren't used to chart form in poo 
+because it doesn't really exist in PL like there's  
+a few people that have done kind of like a basic 
+version of it but I don't know I think I think  
+charts should be more common give me the charts 
+Joey you're a chart player I I always you know we  
+got an old school mentality so chart player vers 
+not chart player but chart charts are very like  
+powerful for visualizing strategies and thinking 
+ahead and um it makes sense I mean look at this  
+you know I like that graph you showed about just 
+on the button goes to show you the power of doubl  
+suited it goes to show you the power of high cards 
+kind of you know the common themes we're talking  
+about which you know these are real principles 
+you have to drill in your head over and over and  
+over and over again because there's just so 
+many combinations that not all combinations  
+are created equal so you know seeing a chart 
+like this just does go to really illustrate the  
+power of the ace the power of the double suited 
+and the power of you know wanting to play these  
+suited High suited cards pre FL yeah absolutely 
+what I have here is a comparison of the Rays first  
+in frequencies across three different formats 
+so hold them poo and I even got poo 5 in here  
+now this is based on not my own simulations but 
+um some other ones also I want to give a special  
+shout out to my boy moose gills for running 
+some PLO Sims for me it's very interesting  
+to me that the the RFI like the opening 
+frequencies across positions are so similar  
+what do you think what do you think that is Joey 
+uh I actually have no idea it's really shocking  
+to me that it would be 22% like 30% it'd be pretty 
+much the exact same in early positions and on the  
+button you can you know the more cards you have it 
+appears the more race first in you can have yeah  
+it seems odd to me that it would be like because 
+you expect it would be like way different right  
+because these are such different games um but I 
+think there's another like there's a fundamental  
+principle at work here and so I'll I'll give you 
+my little conspiracy theory all right now I call  
+this the harmonic opening principle and the reason 
+is uh because it resembles a harmonic series and  
+so what I mean by that is the Baseline opening 
+frequency without thinking about anything else  
+is about one divided by the number of players to 
+act so in a six Max game under the gun opens one  
+out of six hands in a nine Max game under the gun 
+opens one out of nine hands and then hijack here  
+in a six Max game there's there's five players 
+left so they'll open about one out of five hands  
+and then you say okay well that pattern looks all 
+good and well but then get to the button and it  
+completely breaks like there's three players 
+left that should be 33% I think that's because  
+of the positional advantage and so if we take a 
+look at the 20 big blind Sims here we can remove  
+that positional advantage and kind of see what's 
+going on here so under the gun opens one six of  
+hands so I'll just break up my old calculator here 
+hijack okay well one5 opens 20% of the time which  
+they do right cut off should open 1/4 of the time 
+and they do and button should open about oneir of  
+the time which they do right and small blind so 
+they've got some shoves here I'll just put those  
+together should open of course one half the time 
+which they do now as you go deeper small blind  
+is going to be out of position to big blind and so 
+they open fewer hands so if I pump that up to like  
+100 big blinds the opening frequency goes down 
+and conversely players that are more likely to  
+be in position such as button and cut off they 
+start opening much wider than one3 but I think  
+the the fundamental principle here and this is 
+just a conjecture not something I can prove is  
+is that the the number of players yet to act is 
+directly proportional to how many hands you should  
+be playing that that's my little conspiracy anyway 
+Joey makes a lot of sense right I mean I guess you  
+have to just worry about what they have so they 
+can put an aggressive action on you or obviously  
+you're not a position they just have that by the 
+river they have such a big Advantage getting to  
+play three more streets so it does make sense that 
+you'd want to be tighter with your range and um I  
+don't know the 22% kind of mind-blowing to me 
+that it would be the same for hijack but yeah  
+so we gotta look more into the harmonic opening 
+principle yeah I don't know I just made that up  
+because I couldn't think of a name but I like 
+it yeah I'm your names you make up anything you  
+want I like I like when you make up a name for 
+something it's the cool thing about poker Theory  
+man it's such a it's not a lot of science on it 
+so you can just kind of make up your own stuff  
+so next I wanted to look at uh big blind defense 
+and so here is the big blind defense versus you  
+know under the gun versus hijack cut off button 
+and small blind the left bars are hold them and  
+the right bars are PL and so I guess but just to 
+clarify this is against a 3X opening size and hold  
+them and against the I guess three and a half X 
+in PLO so uh what's interesting here you get to  
+defend quite a bit more in PLO but you don't raise 
+as often so we can see like 5.6% versus 4.4 versus  
+Under the gun and then let's say small blind opens 
+get to raise maybe 18% of hands in hold them only  
+about 11 in PL so why do you think it is that PO 
+features I guess more defending and less raising  
+more defending less raising just cuz you can call 
+with a you got a lot wider range you have so many  
+more hands so you're going to be able to call with 
+such a wide range and you're never going to three  
+bet those hands so you know and hold them I feel 
+like you have some more mixes with with some of  
+your hands too where you know even like versus 
+Under the Gun you know Ace King offu can just  
+be like pure call and the big blind and you're 
+really never like there's just it's kind of like  
+interesting how the you know the position versus 
+big blind specifically right like your rang has  
+changed where some y you're not really mixing in 
+PLO as three bets you're just pure calling them  
+and whereas it hold them there's like a lot more 
+kind of like mixes with king queen or oh or like  
+eight or like n you know what I mean it's like it 
+really kind of handles the range is really weird  
+unless it's button versus big blind or small blind 
+versus big blind then it's like how the big blind  
+hold strategy is just you know goes a little crazy 
+you know even in PLO I feel like you know verse to  
+button you're still kind of like playing you know 
+a general not really mixing a lot of hands you  
+know maybe you are mixing some hands maybe you 
+are mixing other hands depending on how you're  
+thinking about it whereas you know that principle 
+is just a little bit different I feel like withold  
+them too so yeah no I hear you and I guess it kind 
+of goes back to that that old quote that that we  
+heard where it's like um p is a game of equities 
+hold them is a game of frequencies if you look  
+at any sort of standard uh defense in hold them 
+you end up with a lot of mixing uh whereas in PLO  
+there are so many more combinations of hands that 
+you can take a lot more pure strategies this is  
+very hard to get used to by the way this is very 
+hard to get used to BL your mind joey yes because  
+in hold them I'm always like it just doesn't make 
+any sense like why would I like do this like why  
+am I mixing the every hand pre flop theoretically 
+and like you said at PLO like you don't need to  
+mix there's just so many more hands so like a lot 
+of your hands are just pure calls or just pure  
+folds or and a lot of times you're just calling 
+because you can defend a lot wider because you  
+got four cards and a lot of times they're going 
+to be kind of you know together to the point  
+you're getting the right price depending on you 
+then that's just like immediate pot equities are  
+running closer in PLO and therefore uh more hands 
+are capable of Defending uh but and furthermore  
+the the thing about um like I know it looks like 
+a lot of hands are mixing in this Tru but if you  
+actually break it down like combination by 
+combination most of the time in P you'll end  
+up with like this hand is pure calling this hand 
+is pure raising this hand P fing so you end up  
+with a lot more pure strategies and po just in 
+general and I think that's because the urgency  
+or the the necessity to mix from a solver's 
+point of view comes from the fact that if it  
+didn't mix it creates a lot of blocker weaknesses 
+that the the opponent could exploit now whether a  
+human could do that is another question but for 
+example let's say you your three betting range  
+doesn't contain enough of one card or too much 
+of another card your opponent can you know Dodge  
+your value on certain runouts whereas they'll 
+know you're like like super weak on others um  
+and so it tries to minimize that damage from from 
+its blocker weaknesses whereas in PLO you have so  
+many hands that you can just basically take pure 
+strategies with all of them without creating those  
+blocker weaknesses and that's really interesting 
+what you just said first of all makes a lot I  
+never knew that so that makes sense and holding 
+why it does the mixing with like these random BS  
+cards that you're always like why like I don't 
+want to I don't want to do that with King King 3  
+right now you know I I sometimes I just don't want 
+to do that with King 3 I'm not I'm not willing to  
+take it there but the solver really likes it when 
+you take it there with King 3 with Jack five and  
+and PLO like I I think about that sometimes when 
+I have these like low card hands I'm always like H  
+maybe I want to be have some card card protection 
+with that part of my range but in general in PLO  
+like you're just really looking for the you can 
+see right you're really looking for like just  
+top of range hands and you're looking for these 
+spots where you don't really need to protect with  
+threes and Deuces and fours whereas like at hold 
+them I feel like it is a little more relevant to  
+be able to protect with kind of like that part 
+of your range and the you know like on those War  
+textures you want to be able to defend and your 
+over pairs are a little bit stronger as well too  
+in these Reis pods so like you know you sort 
+of have the the King 3 but you also have a lot  
+of the over pairs whereas in like holdom or PLO 
+rather you know the overp pair on certain board  
+textures like is basically non-existent so you 
+need the back door flush draw to go with it so  
+it's kind of like it you know I think about these 
+low boards a lot in P but oftentimes a poo you  
+just have to lose them when you're not the when 
+you don't have range Advantage so it's you know  
+it's kind of interesting to to consider your you 
+know how you think about those hands well said  
+yeah you can hold them you can can almost figure 
+out the strategy a lot of the time but there's  
+like you know there's only so many cards in hold 
+I think what is it 1,326 combinations of cards  
+in holding whereas in PLO it's it's uh in the 
+range of 260,000 something different combinations  
+of whole cards you could have the the idea any 
+any concept or notion you have of I'm going to  
+memorize my strategy just goes out the window as 
+soon as you add two more cards to your hand right  
+so I guess a lot of it comes down to for me anyway 
+if I'm wanting to learn PLO I I try and try and  
+simplify it out a bit try and make it make a bit 
+more sense and that's where the idea to make these  
+charts came in one more topic I wanted to cover 
+with you Joey uh that is the ACR reshuffle have  
+you heard of this one here yeah I've heard of 
+the reshuffle basically when someone folds it it  
+puts the card back into the deck which I haven't 
+actually played that format before so I I don't  
+know the specifics but I'm interested to hear hear 
+what you think about it yeah it's a relatively  
+new thing and so ACR I believe they actually had 
+reached out to wizard about it I don't know the  
+the specifics but yeah basically the idea is that 
+as soon as you fold uh your hand is shuffled back  
+into the deck that means like under the gun will 
+fold and then hijack get their their whole cards  
+Etc and so this has some interesting properties 
+like okay so for one thing the main idea behind  
+this is to prevent collusion prevent card sharing 
+between uh two colluding players and so one of  
+the other effects is that it uh prevents bunching 
+so the bunching effect is an interesting idea and  
+the idea is that when you get a bunch of folds in 
+a row what ends up happening is players fold low  
+cards more often than they fold High cards and 
+so you expect the remaining players and the deck  
+to then have more highight cards remaining so we 
+can actually visualize what that looks like so I  
+this is a Blog I wrote a long time ago for HRC 
+and here I want you to imagine Joey that we're  
+playing a n Max game and everyone folds and it 
+folds to you in the small blind and you just  
+to open any two cards right so you open any two 
+cards in the small blind after it's folded to you  
+now if you say okay well how often are you opening 
+some hand relative to others if you're opening  
+Aces 100% of the time and you're always opening 
+twos you'll still have Aces a lot more often than  
+twos like twos is 60% as likely as Aces so this 
+is a bunching adjusted chart where you're opening  
+any two cards so you end up having high cards more 
+often than low cards and the reason is simply that  
+when everyone is folded it is more likely that 
+they were dealt low cards therefore it is more  
+likely that you were dealt higher cards and this 
+completely dangers the the post flop strategies  
+the pre-f Flop strategies basically what they've 
+done is is they've thrown all of that out and so  
+like if we go back earlier to under the gun I 
+think part of the reason under the gun is so  
+gung-ho for these Aces is largely uh due to the 
+the card removal effects of having two Aces like  
+when you open Aces under the gun in PL you're not 
+super excited about the pair right or if you open  
+Kings you're not that excited about having a pair 
+of kings the reason that these cards are good is  
+because a you know if you have like a pair of Aces 
+you can make the nut flush you can make the nut  
+boat and bead because you you block a lot of the 
+defense in your opponent's ranges so you expect to  
+get called in three bet a lot less often I wonder 
+how that changes with the the reshuffle like how  
+much does the optimal pre-f flop strategy change 
+how much does postop strategy change I'm not sure  
+setting that aside I guess just removing or like 
+making collusion a lot harder in PLO uh through  
+card sharing is is very very useful and I remember 
+when they posted about this they said uh you know  
+a lot of people on Twitter were like oh you're 
+gonna scare away the fish um you know don't do  
+this but I don't know I guess like the the threat 
+of collusion is is to me a lot scarier you know  
+as a poo fish than the the threat of other stuff 
+you know especially with online poker these days I  
+mean it makes sense to have you know try something 
+different especially if you're noticing a issue  
+with collusion which it is easy to collude and 
+you know obviously this has been a very common  
+strategy people have used in poker for 100 years 
+is to work together and identify share cards with  
+each other and and in PLO when you have eight 
+cards instead of four cards it's very powerful  
+because if you have the blockers as we talked 
+about earlier are super important so if I know  
+that you have the nut flesh blocker and you folded 
+it or you had two kings or you had two queens then  
+theoretically now you have six cards and you can 
+potentially pull out some more Bluffs and and um  
+it is very powerful to be able able to do that 
+if you are doing that so I think it makes sense  
+to try to come up with some ideas and solutions 
+and try it out and see in terms of how it's going  
+to change the strategies pre- flop I mean very 
+fascinating to think about and I've never thought  
+about it before and never really played with the 
+cards before so don't have any context on that but  
+it is something that you know could be worth um 
+worth discussing especially if it becomes more of  
+a popular Trend in online poker with the reshuffle 
+I think uh I think it's a good step forward at  
+first I wasn't totally convinced but the more I 
+thought about it the more I'm like you know what  
+I think it's a good thing you know well for one 
+thing people don't know that the right strategy  
+so it kind of advances the skill edges and the 
+other thing is that you know just anything to  
+makes Poker safer or better I think is is going 
+to be good for poker as a whole I guess the last  
+thing is a lot of people will be asking like 
+you know is this GTA wizard GNA be doing PLO  
+now that you made a PLO video I was putting this 
+off for a while but on our road map uh PLO is on  
+our long-term future but it's not coming in 
+the near future uh in the near future we're  
+going to be focusing on stuff like uh multi-way 
+multiway pre flop uh ICM post flop ICM Etc and  
+the interesting thing though is that a lot of the 
+engineering Solutions we need in order to solve  
+multi-way I think we'll also transfer over to 
+PLO and and the reason for that is that GJ wizard  
+essentially uses abstractions or simplifications 
+to the board State on future streets in order to  
+make it easier to compute and in PLO that's you 
+need really really good abstractions to solve it  
+so that's why it's uh I think one will help lead 
+to the other now that said we prioritize features  
+based on demand and if we get enough people 
+demanding PLO then perhaps that gets bumped up on  
+the priority list all listen I personally think 
+that the PLO demand is way higher than anyone  
+realizes and uh people definitely want tools they 
+want Solutions obviously you I'm I'm the pl man  
+so I love PLO I'd be playing a PLO trainer every 
+day right now I play my Holdem trainer every day  
+and um I've been loving it but you know I'm PL guy 
+uh so anyway guys that's the video I hope you got  
+something out of it now if you have any questions 
+or need something clarified feel free to post  
+questions in our Discord server great Community 
+there or leave a comment on this video anyway  
+that's all for now hope you guys got something 
+out of it and as always happy grinding [Music]

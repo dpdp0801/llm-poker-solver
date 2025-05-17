@@ -1,0 +1,946 @@
+small blind versus big blind scenarios 
+are arguably one of the most common yet  
+least studied spots in poker the ranges are 
+extremely wide and many tough spots can come up  
+today we'll take a deep dive into the 
+theory of blind versus blind play in mdts
+before we get started with this video just 
+a quick reminder to please go ahead and hit  
+the like And subscribe button so we can keep 
+bringing you more of this content on YouTube
+hi Wizards I'm Matt hunt and this video is going 
+to cover all the fundamentals of blind versus  
+blind play in tournaments it's a very complex 
+topic with a lot of different angles to cover  
+so let's Dive Right In to start with we're going 
+to look at some of the theoretical principles  
+underpinning blind versus blind situations since 
+these spots are different from playing outside the  
+blinds and they're also different from regular 
+heads up play then we're going to identify four  
+keynodes of the pre-flop game Tree on which we're 
+going to focus our analysis the initial node where  
+action folds around to the small blind the node 
+where the small blind lymphs and the action is on  
+the big blind the subsequent node where the small 
+blind limps and the big blind raises and finally  
+the node where the small blind raises and the big 
+blind is defending at each node we're going to  
+look at the primary strategies we'll be employing 
+in chip EV terms and then take a glance at how  
+ICM pressure is going to influence that node in 
+particular in that part of the discussion we'll  
+be referencing the concept of risk Advantage which 
+I introduced in a previous video on this channel I  
+encourage you to go back and watch that one if you 
+haven't already finally we'll be taking a look at  
+how post-flop strategies are built in three of the 
+most common scenarios limped pots raised pots with  
+the small blind opening and raised pots with the 
+small blind limp calling versus a big blind raise  
+but first let's focus on some of the key 
+theoretical principles in play one of the most  
+important aspects about blind versus blind play is 
+that while the big plane does possess an inherent  
+positional advantage that Advantage does not scale 
+in a purely linear fashion this graph shows the EV  
+of each player in a nine-handed game with roughly 
+2.6 big blinds in the pot when it folds around to  
+the small blind you can see that the big blind is 
+winning between about 60 and 70 of the pot at all  
+stack sizes which is approximately what we might 
+expect the two players are playing heads up but  
+one is guaranteed to be out of position so that's 
+a pretty big disadvantage however an interesting  
+Trend occurs with the EVS of the two players while 
+the small blinds EV is higher at shallower Stacks  
+as we would expect since it's easier for them to 
+realize equity in any post-flop scenario the big  
+blinds Advantage does seem to hit a ceiling once 
+we reach approximately 60 big blind stacks and by  
+the time we hit 80 big blinds there's almost no 
+change no matter how deep we get this represents  
+a saturation point for the big blind's positional 
+Advantage where they can only leverage the benefit  
+of position up to a certain point just because 
+they're say 200 big blinds deep doesn't mean  
+they can just force the small blind off a massive 
+portion of their Equity the small blind still gets  
+to have strong hands sometimes and those strong 
+hands can't be made to fold just because Stacks  
+are deep this is especially true in limped pots 
+where the big blind will usually have a weaker  
+range than the small blind and is therefore often 
+going to struggle to take aggressive lines at a  
+high frequency on many board textures as a result 
+of this overall Dynamic you'll see that a lot of  
+the strategies for 80 big blind Stacks look 
+extremely similar to the ones for any stack  
+size above that level making it a little easier 
+for us to build deep stacked pre-flop strategies  
+for these spots another thing we need to consider 
+about blind versus blind spots is that the raised  
+sizings we'll be using from both positions are 
+much larger than in other situations and for  
+slightly different reasons in each case from the 
+small blind a small raise for example our usual  
+two big blinds or 2.2 big blinds would achieve 
+very little fold Equity given that the big blind  
+would be getting an extremely good price to call 
+and realize Equity with many hands in fact even  
+if we go bigger we're still much more likely to 
+face a call than to face a three bet and this  
+basic reality means that the top of our range has 
+a strong desire to grow the pot by raising larger  
+to 3 or 3.5 big blinds or even bigger when Stacks 
+are deep in addition raising to a larger size  
+helps to shrink the post-flop stack to pot ratio 
+at a faster rate which is favorable when we're  
+guaranteed to be out of position so in general the 
+only times when we can tolerate raising a little  
+smaller from the small blind are when Stacks are 
+shallow enough that the post-flop spr will be low  
+anyway or when post-flop play is less likely 
+to happen in the first place for ICM Reasons  
+from the big blind we also prefer to raise larger 
+versus a limp simply because there's already a lot  
+in the pot and raising small would mean that the 
+small blind gets to realize Equity with a large  
+portion of their limping range something that 
+isn't especially favorable when our own range  
+is very wide on top of this the small blind's 
+limping range is generally not particularly  
+strong meaning an aggressive response in the form 
+of a limp re-raise is relatively unlikely once  
+again this means the top of our range has a strong 
+desire to start building the the pot at a faster  
+rate to get value from the calls in the small 
+blinds range overall we'll find that both players  
+raising ranges will usually contain some element 
+of polarization consistent with using a larger  
+sizing while the limping or checking ranges will 
+often be somewhat condensed to Middle strength or  
+weaker hands but with some element of protection 
+in there as well you'll see what I mean by these  
+two things as we start to break down the ranges 
+the third theoretical principle we need to keep  
+in mind is that simplifying strategies in these 
+spots is somewhat difficult it's not easy to  
+Simply Implement a limp all or erase all strategy 
+pre-flop or a range bet or range check strategy  
+post-flop because the ranges are so wide to begin 
+with they contain a lot of different categories of  
+hands all with different incentives the top of our 
+range wants to get value the bottom wants to Bluff  
+and the middle wants to realize Equity but when 
+each of these categories contain several hundred  
+possible combinations of hands balancing them all 
+against each other is very difficult splitting our  
+ranges mixing our frequencies and all these other 
+things that we might often do in spots where our  
+range does doesn't contain quite so many hands 
+are going to be more difficult in blind versus  
+blind spots so we have to start out with a clear 
+perspective on what a strategic incentives are  
+finally another key thing to remember is that 
+blind versus blind play is actually one of the  
+most common individual positional formations in 
+tournament play in a GTO scenario action folds  
+to the small blind somewhere between roughly 
+7 and 13 of the time if action is nine-handed  
+these numbers go up rapidly as we remove players 
+from the table so as we progress deeper into a  
+tournament short-handed player will increase the 
+proportion of hands played blind versus blind in  
+addition ICM spots will demand everybody folds 
+slightly more often than in chip EV and removing  
+multiple players from the table to create a 
+four-handed or five-handed spot could easily  
+put us in a situation where the overall frequency 
+that action falls to the small blind is greater  
+than 30 percent it's hard to find other specific 
+formations which are replicated with this kind  
+of significant frequency clearly blind versus 
+blind is an important part of tournament poker  
+play so with all of this in mind let's move on to 
+introducing our primary methodology for this video  
+what I've called pivot Points this isn't really a 
+pre-existing term it's just something I've applied  
+for this analysis so let me tell you what I mean 
+by this a pivot point is a specific stack size  
+at which our overall strategy at a certain node 
+changes in a noticeable way this could include  
+any type of change such as adding or removing 
+specific bet sizes changing initial preferred  
+actions such as switching from Raising to limping 
+altering our frequencies or adapting the overall  
+construction and makeup of our ranges you'll see 
+plenty of examples of this over the course of this  
+video with the most significant probably being 
+the introduction or removal of certain all-in  
+or non-all in raising ranges at different Stacks 
+obviously there are certain stack thresholds above  
+or below which certain options aren't viable and 
+will establish those thresholds later on let's  
+now move on to looking at our first keynode the 
+unopened small blind node this is possibly the  
+most important note of the blind versus blind 
+game trees since it's the one which occurs far  
+more often than any other and all the subsequent 
+nodes we're going to look at in this video are  
+simply a product of the small blind strategy 
+when it folds around to them to begin let's  
+break down this graphic showing the evolution 
+of the small blind's unopened strategy at all  
+the stack sizes from Seven big blinds up to 200 
+big blinds in a nine-handed game the first thing  
+to note is that virtually all stack sizes have 
+more limping than raising in fact limping is by  
+far the dominant action here at most Stacks the 
+limping frequency the green region here is very  
+consistent at all stack sizes from 80 big blinds 
+upwards which links very closely to what we talked  
+about earlier with regard to the big blind's Edge 
+becoming saturated once we hit that saturation  
+Point limping becomes a very good strategy for the 
+small blind because there's only so much the big  
+blind can reasonably do to apply pressure to the 
+small blind's limping range this is why a lot of  
+our small blind strategies at Deep Stacks look the 
+way they do people tend to assume deeper Stacks  
+feature more raising but in reality that's not 
+the case in reality raising becomes more prevalent  
+between around 25 and 50 big blinds peaking at 
+around 35 big blinds but still never coming close  
+to surpassing limping as the foundation of our 
+strategy you'll note also that the small blinds  
+fold frequency is very consistent at all Stacks 
+it only goes above 20 percent once we're sub 15  
+big blinds and it stays at around 10 from 60 big 
+blinds upwards this speaks to one very common leak  
+in MTT players simply folding too much in these 
+spots playing only 60 to 70 percent of hands here  
+would be giving up a lot of EV to the big blind 
+with this graph we can establish fairly easily  
+what our pivot Points are we can identify three 
+specific stack sizes at which the small blind  
+strategy shifts quite significantly these Stacks 
+are roughly 70 big blinds 35 big blinds and 18 big  
+blinds conveniently each is roughly half of the 
+next let's take a look at some of our strategies  
+as we pass these pivot Points and identify where 
+the shifts in our approach are occurring first  
+here's our strategy for 200 big blinds compared 
+to 80 big blinds to illustrate how these two  
+stack sizes are actually virtually identical in 
+terms of how we should approach them in both of  
+these spots we're folding only the weakest 
+offsuit hands roughly the bottom 10 of the  
+deck and our non-folding range is very clearly 
+delineated we have a polarized raising range  
+primarily consisting of some of the strongest and 
+weakest suited hands at higher frequencies along  
+with some slightly less trashy off-suit hands at 
+lower frequencies with a lot of our most playable  
+categories of hands like suited connectors and 
+pairs also mixing both options our limping range  
+is wide and slightly more condensed with fours 
+through Deuces always limping along with some  
+of the middling and weaker suited hands and some 
+weak off-suit hands most hands are limping more  
+often than they're raising with the exception of 
+the suited Broadway region once we pass that first  
+70 big blind pivot point though our strategy 
+starts to shift significantly take a look at  
+this comparison between 100 big blinds and 50 big 
+blinds to see what I mean at 50 big blinds we're  
+folding very slightly more often and our raising 
+range is staying polarized this is a common Trend  
+as you'll see but we're now heavily favoring 
+raising with most of the strongest suited hands  
+and many of the middling off-suit combos are now 
+raising at a much higher rate as well our limping  
+range has stayed relatively consistent in terms 
+of its construction with two specific categories  
+of hands now essentially playing pure the suited 
+High cards such as king do suited through King  
+6 suited Queen do suited through Queen 8 suited 
+and Jack four suited through jack 7 suited this  
+speaks to our desire to have hands in our limping 
+range which can realize Equity quite efficiently  
+even if they're not strong enough to raise and 
+get called by worse we're also pure limping the  
+portion of the deck that's just above our folding 
+range a lot of the weakest offsuit hands these  
+hands are primarily limping with intent to fold to 
+a raise and they don't even have enough post-flop  
+playability or blocking power for us to raise 
+them at any frequency next let's compare 50 big  
+blinds with 25 big blinds crossing over our next 
+pivot point which was at the 35 big blind stack  
+size the previous Trends have been Amplified 
+even further here and we now have an all-in  
+shoving range on top of our raising range we're 
+still folding at roughly the same frequency and  
+those small Pairs and middling off-suit aces 
+are favoring all in ahead of anything else our  
+raising range has actually become more polarized 
+because we're now forced to remove any hands which  
+would be indifferent versus an all-in shove 
+at 25 big blinds hands like the weaker suited  
+Aces Queen 10 suited King 9 suited and others 
+are now limping because they're neither strong  
+enough to comfortably raise coal nor weak enough 
+to justifiably raise fault our limping range is  
+also a little more protected at this stack size 
+with those suited Aces and some stronger off suit  
+Aces serving as some of our limp jams which 
+we'll discuss later essentially because we're  
+shallow enough that our opponent can theoretically 
+justify just jamming over our limp we now have a  
+little more incentive to trap with some stronger 
+hands which also serves to protect the bottom of  
+our limping range a little more finally when we 
+pass through that 18 big blind pivot point and  
+compare 25 big blinds to 12 big blind Stacks 
+it's clear that our non-all in raising range  
+has virtually disappeared and been replaced by 
+a shoving range this is the primary adaptation  
+which occurs when we cross that pivot point we're 
+folding a little more often and playing more or  
+less a limp or Jam strategy and our construction 
+is a little unusual in that our limping range is  
+actually somewhat polarized a rare example of 
+taking a passive action with a polarized range  
+the reason is because we're anticipating the 
+big blind jamming over our limp at a high rate  
+we're only limping with hands which can 
+snap call or snap fold if that happens  
+there are only a handful of combos like Jack 8 
+suited or King 5 suited which are reluctantly  
+calling off due to pot odds everything else is a 
+snap call or a snap fold our all-in shoving range  
+on the other hand is now somewhat condensed we're 
+jamming a lot of hands which have good Equity when  
+called but aren't strong enough to trap or weak 
+enough to fold we're prioritizing a lot of the  
+suited 7x hands and off suit Kings as the cutoff 
+point for our jamming range because the stronger  
+suited hands are now limping to trap and they have 
+so much Equity to realize in limped pots that they  
+play very well when it goes limp check so let's 
+summarize the Strategic changes we're making  
+at each Pivot Point here above 70 big blinds so 
+before we hit our first pivot point we're limping  
+a wide range and raising a polarized range at 
+a low frequency as we go below 70 big blinds  
+and approach 35 big blinds we're increasing 
+our propensity to raise and prioritizing the  
+strongest suited hands when we do so once we 
+dip below 35 big blinds we're likely to start  
+open jamming some hands while while protecting 
+our limping range a little more and finally once  
+we get below 18 big blinds we stop raising to 
+a non-all in size and switch to a limp or Jam  
+strategy with a polarized limping range and a 
+condensed jamming range now before we finish  
+up looking at the small blind unopened node let's 
+take a look at how ICM might impact this node I've  
+pinpointed two fairly extreme scenarios in the 
+GTO wizard archive where the small blind either  
+has a significant risk advantage or a significant 
+disadvantage in this first one it's a six-handed  
+final tablespot where the small blind has a 
+huge risk advantage of 12.9 percent over the  
+big blind at 42 big blind effective Stacks here 
+the small blind's risk advantage means the big  
+blind has to fold a disproportionately high 
+number of hands versus arrays so the limping  
+option becomes almost Irrelevant in this case the 
+small blind is essentially playing raise or fold  
+and could easily justify removing limping from 
+their strategy entirely here by contrast take  
+a look at this next spot where the small blind 
+has a significant risk disadvantage this time at  
+62 big blinds effective with the big blind being 
+the chip leader at a final table and have having  
+a 13.8 percent risk advantage over the small blind 
+in this case the small blind is forced to fold a  
+lot more often even beginning to muck some suited 
+hands for fear of the big blind's aggression while  
+there's almost no raising range at all the small 
+blind has no desire to play bloated pots anymore  
+and there's also a huge incentive to make sure the 
+limping range is protected here since it would be  
+very vulnerable to aggression if it weren't we can 
+see from these two examples that significant ICM  
+pressure causes the small blind to shift heavily 
+towards either a more aggressive raising strategy  
+or a more protected limping strategy depending 
+on the circumstances obviously the extent of ICM  
+pressure and risk Advantage won't always be this 
+extreme but if we know where the boundaries are  
+we can adjust more effectively when the impact of 
+ICM isn't quite so drastic next let's move on to  
+our second keynode the big blinds response versus 
+a small blind limp as you can see from this first  
+graph this node is very different from the small 
+blind unopened node there are fewer pivot Points  
+in play in fact there's really only one Pivot 
+Point at around 28 big blinds you could make the  
+argument that another Pivot Point exists somewhere 
+else perhaps at around 60 to 65 big blinds but  
+the changes to the big blinds frequencies really 
+aren't significant until we start to get to those  
+shallower stack regions so I think it's easier 
+to just use one pivot point for this node the  
+reason for this is in large part because the big 
+mine strategy at this node is dependent upon the  
+small blind's limping strategy the small blind 
+is always limping with the intent to keep the big  
+blind indifferent between raising and checking 
+with as much of their range as possible so  
+it's natural that there's no specific stack size 
+where raising becomes much better or much worse  
+for the big blind the 28 big blind pivot point 
+is approximately the point where jamming all in  
+becomes a viable option for the big blind versus 
+a limp and that's what makes it a pivot point  
+here it's not necessarily that the small blinds 
+approach becomes drastically different it's just  
+that the stacks are shallow enough that the big 
+blind is getting a slightly better price to jam  
+and potentially win the roughly three big blind 
+starting pot let's compare the big blind strategy  
+at two wildly different stack sizes 200 big blinds 
+and 40 big blinds to illustrate the similarities  
+we're seeing across the stacks here as you can see 
+the two approaches look very close here in both  
+instances the big blind is raising a wide range 
+Although our Stacks get a bit shallower they're  
+shifting a little bit more in favor of off-suit 
+trashy Bluffs instead of suited ones another  
+common trend is that the big blinds checking range 
+isn't really protected to any extent at either  
+stack size they're never checking back strong 
+hands here in fact they're barely checking back  
+any of the top 20 to 25 percent of the deck let 
+alone strong hands this is simply because limped  
+pots don't contribute a significant amount to the 
+big blinds EV here so it's much more important to  
+Simply maximize their EV in raised pots and it's 
+also because even on some of the absolute worst  
+boards for the big blind in a limped pot usually 
+a double Broadway or triple Broadway flop they  
+can still have some amount of two pair combos 
+or straights which can protect their range from  
+enduring massive amounts of pressure from the 
+small blind if we look at a comparison between  
+40 big blinds and 20 big blinds though you'll 
+see a much more stark contrast between the two  
+stacks as we pass below that 28 big blind pivot 
+point we now have an all-in jamming range versus  
+a limp and that range looks very similar to the 
+range which the small blind was open jamming at  
+similar Stacks it's very heavy on the smallest 
+pocket Pairs and off suit Ace hands both of  
+which have decent Equity when called but which 
+realize Equity poorly when playing post-flop the  
+big blind's raising range versus the limp is now 
+extremely polarized since it's now important for  
+the big blind to protect their raising range 
+versus a limp Jam they're only raising hands  
+which have a clear call or a clear fold versus 
+the jam in this case that means never raising  
+as a bluff with a suited hand the bluffing region 
+here is exclusively composed of off-suit combos  
+in particular some of the absolute weakest offsuit 
+hands in the deck are bluffing at moderately high  
+frequencies here in particular the ones which 
+contain a deuce three or four with a high to  
+Middle card kicker the stronger suited hands which 
+are in a close spot if they get jammed on like a  
+six-suited king 8 suited and queen 10 suited are 
+heavily preferring to just check back instead of  
+raising and being indifferent versus a jam this 
+node is a little simpler to summarize than the  
+previous one in this case when we're above 28 big 
+blinds we have a high raise frequency versus a  
+limp with a polarized raising range which leans 
+on off suit Bluffs at most Stacks but includes  
+a few suited Bluffs once we get deeper below 28 
+big blinds we start jamming over a limp at some  
+frequency while our raising range becomes heavily 
+polarized to combat the limp jam with our bluffing  
+combos coming from the weakest offsuit hands 
+and our value hands being very happy to call a  
+limp Jam to address the impact of ICM on this node 
+let's keep the same set of Sims as we were looking  
+at before starting with the spot where the big 
+blind has a huge risk Advantage at 62 big blind  
+Stacks interestingly this spot hasn't altered 
+significantly compared to what we saw in chip EV  
+it's more aggressive overall particularly with the 
+bluffing portion of range but it's not constructed  
+in a different way the small blind in this spot 
+was limping a much more protected range so while  
+the big blind does still get to attack their limp 
+fairly aggressively they can't go overboard and  
+they still don't have much incentive to raise with 
+medium strength suited hands which might prefer  
+to just check interestingly if we swap things 
+around and give the big blind a significant risk  
+disadvantage a couple of things do occur a very 
+small frequency of jams start to emerge along with  
+some much larger raises to 7 big blinds instead of 
+3.5 big blinds the bluffing portion of the range  
+is also much more content to check back instead 
+of raising however this range is less worthy of  
+in-depth examination because as we saw previously 
+in this spot where the small blind has a huge risk  
+Advantage the small blind is essentially supposed 
+to play a pure raised strategy instead of limping  
+so it's ultimately not that important for the big 
+blind to know how to play against the limp but it  
+is interesting that jamming and raising larger 
+become a possibility when we're more preoccupied  
+with simply taking pots down pre-flop against the 
+chip leader next let's move on to a more complex  
+note of the tree the small blinds response versus 
+arrays after they limp obviously there's a reason  
+we looked at the small blind unopened node before 
+this one since this node is dependent on the small  
+blind having limb to begin with we should keep 
+in mind what the small blinds on open strategy  
+looks like when we're analyzing this node for 
+this node we have three pivot Points at roughly  
+80 big blinds 40 big blinds and 25 big blinds for 
+the purposes of analyzing our strategies here I'm  
+going to adapt top view of the Sims to show the 
+hand combos at full height just so we can see  
+them more clearly but keep in mind when you see 
+these ranges that not all the hands within the  
+ranges are limping first in at high frequencies 
+let's start with deep Stacks again in this case  
+comparing 200 big blinds with 100 big blinds as 
+you can see the strategies are very similar the  
+only major difference here is that the 200 big 
+blind spot requires the small blind to limp 3 Bet  
+with a slightly more linear range including some 
+suited hands instead of the off-suit aces you can  
+see on the right but overall the value three bet 
+range is consistent and so are most of the calls  
+and faults we're prioritizing two things in the 
+limp 3-bet range board coverage and blocking power  
+the suited connectors are providing the coverage 
+while the offsuit aces provide the blocking power  
+it's notable also that the pocket pairs don't 
+function well as limp 3 bits even pocket nines  
+and pocket eights are mostly just limp calling 
+it's also notable that the small blind is limp  
+calling some hands as weak as Jack do suited or 
+King 7 off here these might seem way too weak to  
+call a large raise but the bottom line here is 
+that the big blind's raising range is very wide  
+and very polarized so the small blind has more 
+Equity with these hands than it might seem like  
+they do next let's compare 100 big blinds with 60 
+big blinds passing that first 80 big blind Pivot  
+Point there's a very clear shift here which is 
+easily observable at 60 big blinds the small blind  
+is no longer limp 3-bet bluffing with any suited 
+hands The Suitor connectors have disappeared from  
+the range indicating that board coverage is no 
+longer particularly important while some off-suit  
+hands have started bluffing where they weren't 
+before the bottom of the small blinds limping  
+range is still purely folding but the limp 3 Bet 
+range has changed dramatically these off-suit high  
+card hands and now are bluffs in addition the 
+slightly shallower Stacks mean that we're able  
+to limp call with almost any suited hand which 
+limbed in the first place while pairs like nines  
+and eights are now slightly more willing to limb 
+three bet in order to play for Stacks if we drop  
+the stacks to 30 big blinds crossing over that 
+second 40 big blind pivot point we can now see  
+that a limp jamming range becomes a big part of 
+our strategy pocket pairs up to nines and a lot  
+of the strongest and weakest offsuit aces are 
+forming the foundation of our range once again  
+our jamming range is composed of those two hand 
+categories here what's also notable here is that  
+the range for limp raising to a non-all in size 
+isn't containing very many obvious Bluffs or at  
+least it looks that way the reason is because the 
+value range is very narrow to begin with while all  
+the pocket pairs tens plus and the strongest 
+suited aces are limp raising small if they do  
+limp in the first place they're not limping that 
+often at these Stacks so this is actually a very  
+low frequency play we're mostly limp jamming limp 
+calling or limp folding here once we get below the  
+final pivot point of 25 big blinds we can see 
+from this 15 big blind example that we have no  
+room to limp or a small anymore we're just playing 
+Jam call or fold we're actually trapping with Jax  
+plus to protect our other limp calls while Pez 
+like sixes through tens need a bit of protection  
+so they prefer to jam fives through Deuces didn't 
+limp in the first place they just jammed all in so  
+they're not in the range here I'll suit today's 
+hands also prefer to limp Jam Even though they  
+play fairly well as limp calls they just have 
+very good Equity when called plus good blocking  
+power we're also limp jamming a small frequency 
+with some of the suited queens and some other  
+middle suited hands but again these hands aren't 
+limping that often to begin with at this stack  
+they were open jamming a lot instead to summarize 
+our overall Approach at this node when we're deep  
+stacked above 80 big blinds we're limp 3 betting 
+with a more diverse range which possesses good  
+board coverage and includes some suited connectors 
+as we get shallower those suited hands disappear  
+from our bluffing range and are replaced by a lot 
+of offsuit Ace ax hands and other Bluffs below 40  
+big blinds we start limp jamming some hands mostly 
+Pairs and off suit Aces while we begin to trap a  
+bit more readily with Jax plus as we start to get 
+shallower and shallower and Limp jamming with a  
+wider range becomes a more attractive proposition 
+the Imp impact of ICM at this node is very  
+interesting if we look first at our risk Advantage 
+example it's important to remember that the small  
+blind wasn't limping a lot here in the first place 
+so this node is slightly less reliable as a result  
+however in theory the same principles are still 
+applying we're limp raising a very polarized range  
+here at 42 big blinds and we haven't yet arrived 
+at the point where limp jamming is a big part of  
+our strategy our offsuit bluffing hands are even 
+weaker than they were in chip EV the off suit aces  
+are now almost too strong to use as Bluffs but 
+we're still bluffing at a good rate and our value  
+range is restricted to Ace Jack plus and pocket 
+nines plus since the big blind won't be jamming  
+over our limp 3 Bet with a wide range with a risk 
+disadvantage some very interesting things happen  
+remember that as the small blind in this spot we 
+were essentially employing a pure limp strategy at  
+the unopened node and our high risk premium with 
+the 62 big blind stack against the chip leader is  
+exerting a big influence here we're actually 
+limp jamming some hands although it's a very  
+blocker heavy range of mostly Ace 10 off suit 
+through ACE King offsuit and we're still three  
+bet bluffing with mostly those off suit Ace combos 
+but the biggest difference is our limp 3 Bet value  
+range it's only Kings plus and Ace King suited 
+even queens and Jacks are forced to just limp  
+call here because getting it all in against the 
+big blind would be so damaging in this spot and  
+there are so many awkward spots which can happen 
+if we limp 3-bit in addition many low card hands  
+like Deuces and 5 4 suited are forced to fold at 
+some frequency even if they seemingly have good  
+Equity versus the raising range since they're 
+going to really struggle to realize that equity  
+in a post-flop spot where folding hands as strong 
+as Queen 10 off aesaid off and King 3 suited here  
+as well so it's clearly not a spot where we want 
+to put ourselves in a lot of Limp coal situations  
+next let's move on to our final key pre-flop 
+node the node where the big blind defends against  
+arrays from the small blind we saw beforehand 
+that raising from the small blind was occurring  
+at a reasonable frequency at all Stacks so it's 
+important that we know how to defend against it  
+interestingly our pivot Points for this node are 
+the same as the ones for when we're in the small  
+blind facing a big blind raise after limping most 
+likely because the spr is roughly the same at each  
+of these two nodes there is a significant change 
+in the big blind strategy at the 40-big blind Mark  
+but this is because the small blinds raise size 
+changes from 3.5 big blinds down to three big  
+blinds in most of our Sims that results in the big 
+blind getting a much better price and forces the  
+big blind to defend a fair amount wider you'll 
+see that this change in sizing is fairly often  
+reflected in how people actually play which is 
+convenient for us in implementing these strategies  
+if we look first at our defense strategy for deep 
+Stacks we can see there's a similar alteration to  
+what we observed before between 200 big blind 
+and 100 big blind Stacks the 200 big blind Sim  
+requires a little bit more in the way of board 
+coverage and suited Bluffs in our three bet  
+range than the 100 big blind version does but 
+otherwise the two are very similar the reason  
+why the calling range is actually wider in the 
+100 big blind version is because the open size  
+goes down from four big blinds at 200 to 3.5 
+big blinds at 100. our three bet value range  
+is consistent across both Sims at roughly Jax 
+plus Ace Jack suited plus and Ace Queen off  
+note how important it is for us to have high card 
+value and be able to dominate our opponents raise  
+calls if we scale down the stacks and look at 
+100 big blinds compared to 50 big blinds the  
+effect of that 80 big blind pivot point is fairly 
+clear when we look at the suited connector region  
+we no longer have much need for any significant 
+amount of board coverage in our three bet range  
+The Suitor connectors are almost always just 
+calling at 50 big blinds while they're mixing a  
+lot of three bets at hundred the rest of our three 
+bet Bluffs are coming from the offsuit side of the  
+deck and that's staying pretty consistent between 
+the two stacks as is our value three bet range and  
+our tendency to virtually never fold the suited 
+hand when we dropped from 50 big blinds down to 30  
+big blinds a lot starts to change we now have both 
+a three bet jamming range and a non-all in three  
+bet range the former of which is constructed in 
+a very familiar way containing mostly small Pairs  
+and off-suit Aces we're also now starting to trap 
+with Kings Plus at some rate to protect what is  
+now a fairly weak calling range and because we can 
+still easily stack off with these hands post-flop  
+on most boards as before our three bet Bluffs are 
+coming from the offsuit region so this is very  
+consistent across stack sizes we're not three bet 
+bluffing with suited hands here in particular the  
+high card low card combos are our best candidates 
+since they block some raised calls and unblock a  
+lot of raised Folds while our calling range is 
+actually a little wider than it was before since  
+the raised size is now smaller at three big 
+blinds instead of 3.5 once we compare 30 big  
+blinds to 20 big blinds we can see the impact of 
+the 25 big blind pivot point we're no longer three  
+betting to a non-all in size our jamming range 
+is heavily composed of low Pairs and offsuit Aces  
+now almost exclusively in fact with some of the 
+strongest suited Aces also jamming for Pure value  
+we no longer have to worry about constructing 
+a three bet Bluff range it's just an all-in  
+however one very interesting factor is that 
+because our opponent's raising range doesn't  
+contain a lot of lower pocket pairs since they 
+prefer to either open Jam or limp Jam them  
+we're actually preferring to trap by calling 
+with pairs sevens and up this seems a bit  
+unconventional but it really just comes down to 
+the fact that it's hard for us to actually get  
+called by worse hands when we Jam them we just 
+make the small blindfold all that low Equity  
+off-suit Bluff raises Which is less favorable than 
+forcing them to play those hands post-flop out of  
+position to summarize our overall Approach at this 
+node it looks a lot like the small blinds approach  
+to defending against arrays at deeper Stacks our 
+three bet range needs some board coverage but not  
+a ton we're still primarily three bet bluffing 
+with off-suit hands as we get shallower we move  
+away from wanting board coverage in our three 
+bets and towards prioritizing blockers while we  
+begin jamming small Pairs and some off suit Aces 
+as we hit the second Pivot Point once we get even  
+shallower we continue jamming at a high rate but 
+we now start to benefit from calling and playing  
+post-flop with hands like sevens and king queen 
+suited since the villain's raising range is very  
+polarized the impact of ICM here is a little like 
+what we might expect in the first spot where the  
+big blind has a big risk Advantage the small blind 
+isn't raising many hands to begin with remember  
+that almost pure limp strategy we saw before but 
+if they do then the big blind gets to punish them  
+with a lot of weaker offsuit throughout Bluffs 
+and their value three bet range Narrows to mostly  
+Queens plus and Ace Queen suited plus if the 
+big blind has a big risk disadvantage versus  
+a small blind who's open raising a very wide 
+range and some of the same Trends are visible  
+like the jams creeping in a little more readily 
+even at 42 big blinds while the value range stays  
+relatively consistent the small blind is more 
+able to forbet jam with a wider range so hands  
+like Ace Jack suited are still strong enough 
+to be willing to get it in here the three bet  
+bluffing range is not that far away from Chip EV 
+here because the impact of the small blind being  
+able to raise a wider range pre-flop and then 
+four bet Jam a wider range as well is enough to  
+offset the risk premium imposed on the big blind 
+to some degree if the small blind were to play a  
+normal chippy V strategy here the big blind 
+would be forced to tighten up a fair bit so  
+this concludes our fairly comprehensive pre-flop 
+analysis let's move on to a brief overview of how  
+some of the most important flop nodes operate in 
+this case we're going to be focusing on the small  
+blind strategy in limped pots the small blind 
+strategy in raised pots and then the big blind  
+strategy in raised pots these are the most common 
+nodes in this portion of the post-flop tree first  
+a breakdown of the small blinds flop strategy 
+in limped pots as you can see here there's an  
+interesting Trend regarding the small blinds 
+aggression they're betting flops less than half  
+the time overall in limped pots but in particular 
+they're doing it even less often at the stack  
+sizes where the small blinds pre-flop strategy was 
+more centered around raising with a lot of their  
+strongest hands this makes sense since the small 
+blinds range in a limped pot at these stack sizes  
+will be weaker overall in general the small blind 
+is rarely using any kind of large bet sizings most  
+mostly because there's a very limited degree 
+of asymmetry between the ranges which they can  
+leverage they have a very wide range and so does 
+the big blind so small bats are by far the most  
+common option on the Flop this does alter a little 
+as Stacks get shallower but that's mostly because  
+the big blinds checking behind range is getting 
+weaker overall to analyze overall board textures  
+I've used 50 big blinds as an example since it's 
+a middling stack size there are a few clear Trends  
+here the triple boards are the best ones for the 
+small blind with the connected and monotone ones  
+being the worst it doesn't seem to matter much 
+whether the board is paired or unpaired or whether  
+it's rainbow or contains a flush drawer other 
+factors matter more as we'll see in a moment  
+this is a breakdown of the strategy according 
+to the Flop high card at 50 big blinds there's  
+a very obvious trend here the lower cardboards are 
+significantly less favorable for the small blind  
+to the point where the triple wheel boards are 
+almost pure checks when we combine this somewhat  
+linear scale with the Insight from the previous 
+graphic it's clear that a board which is say nine  
+high and monotone or eight high and connected 
+should have very little bet thing while an ace  
+high disconnected board might be a little more 
+favorable all of which is very logical if you're  
+familiar with how conventional flop continuation 
+back construction usually works in general the  
+small blind strategy in limped parts will be very 
+passive overall with very little large bedding on  
+the Flop and a sub 50 frequency of small betting 
+it gets even more passive at middling stack sizes  
+between 25 to 40 big blinds because the small 
+blinds limping range weakens and the big blinds  
+checking back range becomes a little stronger we 
+should be the most wary on monotone and connected  
+boards especially if the board is all low cards 
+while Ace and King High disconnected boards  
+do allow for a bit more betting all in all our 
+strategy is relatively straightforward up to a  
+point if we move on to looking at the small blind 
+strategy in raised Parts there are a few obvious  
+differences we'll notice right away first of all 
+the trend of being more passive at middle Stacks  
+disappears we're able to be quite aggressive in 
+raised pots at all Stacks in fact we become more  
+aggressive as Stacks get shallower in a fairly 
+linear way this is just because as stacked bot  
+race gets lower we become more focused on denying 
+Equity to the big blind when we're out of position  
+it's also noteworthy here that the small blind 
+does quite a lot of big betting including a lot of  
+over betting at deeper Stacks this does disappear 
+once we're below 30 big blinds but the medium and  
+large bets are still prevalent at this stack size 
+and indeed at many stacks below 30 big blinds as  
+well this is reflective of our much stronger range 
+in raised pots and the fact that we do possess a  
+nut advantage on many boards the same Trends as 
+before are visible when it comes to texture with  
+the exception that paired boards are now pretty 
+good for the Razer otherwise everything stays more  
+or less identical to what it was in limped pots 
+this is also broadly true for the flops high card  
+although with the slight caveat that Ace and King 
+High boards are not quite as good for the Razer  
+as they could be in fact Queen High boards are the 
+best ones which is perhaps a little surprising but  
+makes sense when we consider that the offsuit 
+queen X hands will often be folded by the big  
+blind to the pre-flop Rays while the offsuit 
+king X and asex hands will mostly call or 3-bit  
+in summary we're doing a lot more seabetting 
+in raised pots as Stacks get shallower since  
+the seabed itself has a greater proportional 
+impact on spr across multiple streets and  
+Equity denial matters more as we get shorter 
+we're also attacking the paired disconnected  
+and rainbow boards more aggressively since they're 
+a lot better for our range now we're using a good  
+amount of big bets on some of the middle card 
+disconnected boards including some over bets at  
+deeper stacks and finally we should be careful 
+not to go overboard on Ace or King High flops  
+since those are still decent boards for the big 
+blind crawler in many instances to wrap up this  
+video let's end by switching to the big blinds 
+perspective and looking at the big blind C bet  
+strategy after the small blind limp calls note in 
+this case that the small blind will have some donk  
+bets on certain boards and we're not accounting 
+for that if we remove the small blind donk bet  
+then the big blind's overall strategy would likely 
+become more passive overall as you can see the  
+trend of being more aggressive at shallower Stacks 
+is still present in a fairly linear way the most  
+surprising part of the equation here is that 
+we're still forced to check almost half the time  
+at deeper Stacks even though we possess a 
+significant positional Advantage the small  
+blinds range is protected enough that we have 
+to be somewhat cautious on many flops when it  
+comes to texture we see exactly the same Trends 
+here as we did before more betting on Rainbow  
+disconnected and paired or tripled textures and 
+less betting on monotone connected or unpaired  
+flops the reasons for this are the same as they 
+were before these boards are more favorable for  
+the pre-flop razors range overall lastly if we 
+sort by high card we see a slightly different  
+Trend our frequency on any board with an 8 
+or higher stays relatively consistent while  
+the lower cardboards are actually the ones 
+which we get to pressure more aggressively  
+this would be a byproduct of the fact that the 
+small blind very rarely has over pairs in the  
+limp call line at this stack size while they 
+also don't have very many of the offsuit low  
+card combos which make two pairs or straights 
+the big blind gets to pressure these boards  
+relatively aggressively while on any other type 
+of board texture the small blind will have enough  
+top pairs that they can defend relatively well 
+against the seabet from the big blind the lack  
+of over pairs hurts the small blind a fair amount 
+and he hands like eights plus are mostly jamming  
+or three betting after they limp pre-flop to sum 
+up we see the big blind once again doing more sea  
+betting as Stacks get shallower with primarily 
+smaller sizings but some big bets also appearing  
+the overbats disappear once they get below 40 big 
+blinds but the large and medium bets still happen  
+a lot the same monotone and connected boards 
+are the ones to watch out for but this time  
+we're able to attack the low cardboards a bit 
+more aggressively since the small blind almost  
+never has an over pair on these boards and so 
+finally we've reached the end of this video  
+thanks everyone for sticking with me the whole way 
+through if you have any questions please feel free  
+to message me via the GTO wizard Discord server 
+and I will do my best to answer them I will be  
+back with another video soon and in the meantime 
+good luck everybody and thanks again for watching

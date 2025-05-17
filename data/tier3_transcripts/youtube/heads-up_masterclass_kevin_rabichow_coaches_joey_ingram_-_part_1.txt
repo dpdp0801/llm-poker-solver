@@ -1,0 +1,2171 @@
+this video I'll be taking you behind the scenes 
+in my exclusive coaching session with one of the  
+world's top heads up Specialists Kevin rabbitow 
+known for his Elite decision making and his  
+ability to dominate on the toughest tables Kevin 
+has mastered the art of one-on-one poker at the  
+highest level together we'll dive deep into 
+the nuances of heads up play and explore how  
+to build custom strategies within GTO wizard to 
+outmaneuver even the sharpest opponents whether  
+you're refining your skills or looking to unlock 
+new levels of strategy this session will equip you  
+with the tools to elevate your game I know 
+I had a few mind-blowing moments let's dive
+[Applause]
+in what's up guys we're here today with Kevin 
+rabbitow me and Kevin are going to get deep  
+into the two card pot lemon Omaha heads up lab and 
+uh when I you know when I think about coaches out  
+there one of the first people that came to mind 
+was Kevin so we got together we're going to do  
+this session and we're going to go over all about 
+heads up poker I've been playing a lot of heads  
+up poker I played tens of thousands of hands over 
+these past these past couple months so it's going  
+to be nice to get an actual coaching session from 
+you Kevin yeah I'm looking forward to it I I was  
+just saying you know I I don't I don't know that 
+we I don't know that I can think of anyone who's  
+who's trained as much as it sounds like you've 
+been training um so happy to be able to show you  
+some stuff and also excited to hear what you've 
+learned about heads up from the trainer cool yeah  
+let's uh I'm I'm glad you gave me these drills I 
+already hav practice a lot of your drills and uh  
+and yeah I'm excited I'm just excited as I never 
+asked anybody any questions about uh heads up deir  
+most most content all six Max or n-h handed or 
+theoretical stuff so there's very few heads up  
+content creators out there you're one of the 
+few so now uh now the the the fans get to hear  
+about everything so let's get into it all right 
+you want you want to talk a little about your  
+your heads up background because I know that you 
+play you play cash games you do six Max you coach  
+everybody you coach you you basically seems 
+like you can play everything so what's your  
+relationship with with heads up poker yeah yeah 
+uh heads up was my game like for almost a decade  
+I would say so so from 2009 uh until let's call it 
+2018 or 2019 like there was there was a lot more  
+uh places to play heads up there was a lot more 
+heads up action on the internet um and especially  
+in in those like earlier years uh I was just 
+playing heads of No Limit as my full-time job  
+uh I thought I I feel pretty lucky that that was 
+the game that I I learned first cuz what you end  
+up having is all these transferable skills from 
+playing really wide ranges playing every single  
+hand playing you know the exploit game against 
+one opponent really learning the psychology of  
+your opponent um I took away a lot of skills I 
+think from playing it full-time that I now get  
+to use in live poker or in tournament poker right 
+so what it's been like lately is that every now  
+and then an opportunity to play heads up comes up 
+um maybe it's the Legend showdown at run at once  
+poker a few years ago maybe it's Doug pulk having 
+an open challenge at the lodge right um these big  
+opportunities to play heads up surface every now 
+and then and it's like well I have 10 years of  
+experience I just brush up a little bit you know 
+use a little bit of modern um study a little bit  
+of modern resources like GTO Wizard and I feel 
+like with that background I can come in and be  
+one of the best heads up players in the world 
+even though there aren't that many people who  
+are playing heads up in general like routinely 
+right um and then every now and then people are  
+interested in learning heads up because they've 
+either uh got a private game that they want to  
+play they have a home game where they can you know 
+they can get action uh heads up they want to start  
+tables in six Max they want to finish tournaments 
+uh where all the big money is so there's all these  
+like little parts of the game where people get to 
+play heads up that I think gets overlooked uh and  
+every now and then I get the chance to teach those 
+people how to be really good at the format yeah  
+that makes sense I remember being a full-time 
+heads up player and then like you said the  
+games sort of evolved the poker sights evolved the 
+ability to play heads up evolved then you got more  
+into tournaments and you got more into coaching 
+you got more into other formats as well too so  
+it does seem like to me when I learned heads up 
+I it's most like potman Omaha to me because you  
+can play a lot of hands you can play every hand 
+and the major difference between this and six  
+Max for me is that you can just play a lot more 
+hands you can make more Bluffs you can call down  
+with weaker pairs whereas at six Max against good 
+players often times you got to play very tight so  
+that's what really appealed to me to heads up 
+and I've just kind of been obsessed with it for  
+the past couple years and just playing it with all 
+the programs and trainers and there's Bots online  
+you can play again so I've been pretty obsessed 
+with it there really isn't a place to play for  
+um you know unless you're starting tables like 
+you said are private games or different things  
+like that but I think that in the future it's 
+going to be very valuable to know I play heads  
+up poker so I'm uh I'm I'm staying focused on it 
+for the foreseeable Futures one of the things I'm  
+learning nice yeah I'm I'm happy to hear that I I 
+hope that has keeps getting played I hope that new  
+opportunities to play keep showing up because I I 
+think it's a great format it's like it's the most  
+sport-like the most like pure competition format 
+right yeah I'm glad you're what do you think a  
+difference between heads up heads up and uh you 
+know heads up and six Max are um I mean I guess I  
+could think about like what the challenge is that 
+s like so I've coached a fair number of six max  
+players who are coming to me trying to get better 
+at their heads Up game so from that point of view  
+I can I can think of some of the big gaps um 
+one major difference I think is that in six Max  
+all these opportunities come up where you just 
+take for granted that you have the better range  
+right oh I'm going to bet my whole range on this 
+board in this spot because I just I just have the  
+stronger range I was playing from under the gun 
+and they're on the button or they're in the big  
+blind of course I have the stronger range and it's 
+so rare in heads up that that happens like it's so  
+it's so uncommon that one player has a significant 
+uh advantage against the other it's just like  
+everyone's playing everything everyone has so 
+many hands well I'm saying everyone both of you  
+have so many hands and you you have to you have 
+to play with more I don't want to say caution but  
+you have to play with more like finesse you have 
+to play with more Nuance right there's there's so  
+many spots where it's just like we both have 
+everything you got to play good well-rounded  
+poker and I think that six max players or or 
+players from other formats they let that um  
+they forget that sometimes uh and and this just 
+goes back to the fundamental difference of the  
+fact that you're playing way wider ranges way more 
+aggressively on average um than you are in six Max  
+yeah that that's a biggest thing that that is 
+noticed it took me because I learned heads up  
+hold them first and then I when I started playing 
+six Max you basically set to play so much tighter  
+at six Max then then heads up and heads up you 
+can call down in some spots with third pair call  
+down in some spots with fourth pair call down some 
+spots with a fifth pair you get devalue your low  
+pairs often as well too depending on what the run 
+out is so you have to be very comfortable calling  
+three bets light four betting three betting a lot 
+out of position with weak hands and then playing  
+potentially really big pots with these weak top 
+Pairs and weak second pairs so I noticed for me  
+you can't just really sit around you could sit 
+around and maybe nut ped a little bit but there's  
+just so many hands and so many spots and you're 
+going to be facing so much aggression that you  
+have to be comfortable with all these different 
+parts of your range and with basically playing any  
+single hand as well too so it's it definitely 
+takes a lot of getting used to versus six Max  
+where you always have top pair top kicker or you 
+have n flush draw when you get a lot of money in  
+or you have a set when you get a lot of money 
+in you know it's just such a a different game  
+than than six Max and heads up just not get into 
+that pre-flop pre flop heads up fundamentals and  
+break down the ranges yeah yeah so why don't we 
+look at kind of the details of exactly what we're  
+describing right so so how different the the 
+opening ranges the three betting ranges all the  
+all the different spots that you're going to be 
+playing pre- flop are compared to a game like six  
+Max um the first obvious thing that well you know 
+let's let's describe the structure very quickly  
+we're playing 100 big blinds deep we're not 
+playing with an ante uh this is your typical heads  
+up cache format right the the format that I would 
+have played um most often online and you pretty  
+much want to be comfortable on the button playing 
+every single hand cuz yes in GTO and what we're  
+looking at right now is is kind of the equilibrium 
+solution you're not playing every single hand but  
+you're you're very close to doing it right it's 
+it's not a big mistake to play every single hand  
+you're extremely close to playing every hand um 
+so right away the like both players are reacting  
+to the fact that the first in the button um is 
+going to try to play almost everything so you're  
+basically just playing 80% of your hands you're 
+not you know even would you fold these bottom  
+parts of your range ever or you know once you get 
+more experience are you just comfortable opening  
+those or if you're playing against a weaker 
+player are you just playing all the hands or  
+you know how how would you think about it are you 
+just kind of trying to go off of off of this chart  
+so most part if I'm playing someone who I know 
+who I know is tough like I'm I'm playing someone  
+where I understand that they've studied the game 
+then I'm just pretty much going to come out with  
+this strategy because I don't think I can do a 
+lot better but if I'm playing against someone  
+who's anywhere you know anywhere below the top so 
+you know 99.9% of people that you're going to come  
+across in a heads up game I would try something 
+like I I would I would just go in there and try  
+a strategy that's going to be to my advantage um 
+one option would be to just raise every button and  
+see if it goes wrong right the my first thought 
+is a lot of players don't th that enough a lot  
+of players are not going to punish that so let's 
+just come out and raise every button and see if  
+they force it to be a mistake um you know some 
+of the worst mistakes that we can make are going  
+to be you know the the EV of raising like three 
+du off suit is losing 15 big blinds the EV of  
+raising s du off suit is losing 0.2 big blinds um 
+it doesn't cost us that much if we're wrong but  
+if we're right and they're playing too passively 
+too weak in the big blind we make a lot I've also  
+played with the sizing sometimes like maybe you 
+just want to Min raise 100% of the time uh until  
+again until they show you that it's a mistake 
+maybe you want maybe if you notice something about  
+how you know if you expect them to be a horrible 
+player on the other side of things you can come  
+out and raise really big um and and not play all 
+these bottom hands where you can see the the EV  
+number on screen is like 05 or lower so I'm very 
+willing to deviate here um but I think in general  
+the goal is to play as Betty hands as you can so 
+if then we raised the button here 2.5 and then  
+how does the big blind react and this is where to 
+me heads up gets really interesting and so much  
+different than other forms of Texas holdom yeah 
+so this is you know let's call it the Baseline  
+expectation for what the big blind needs to do to 
+play well um this is you know first again let's  
+start with the sizing the assumption is that the 
+three bet sizing is 12.5 big blinds uh this isn't  
+the strategy that they have to play but but if it 
+is the size they're using they've got a 3 Bet 22%  
+of the time uh which is a lot um and you could you 
+can see the mix of all the you know uncomfortable  
+offsuit hands like there's a lot of hands in here 
+that don't necessarily want to three bet but they  
+get the frequency up there's a lot of hands 
+over here that don't necessarily want a three  
+bet but they get the frequency up and the defense 
+obviously as you can tell this is I believe a rake  
+re simulation so some of these weakest calls 
+might be slightly losing in a in a raak game  
+um but if someone's playing less than like 65 to 
+70% of hands in the big blinds I'm I'm flagging  
+them as too tight and I'm going to raise every 
+button mhm and then why why would it why does  
+it have it three betting these Queen 3 Queen four 
+suited eight do suited occasionally the king six  
+the king fours the Jack sevens the 10 sevens so 
+why does it decide to split its range with like  
+that yeah so there's there's a couple Dynamics at 
+play to keep in mind and the the beautiful thing  
+and and kind of the simple thing about heads up 
+is that it's almost always about what's happening  
+on in the other players range so like you can 
+it's not particularly abstract I find in most  
+cases it's just like what is the reaction that 
+we're expecting and how does that benefit or or  
+hurt us right so it might help I you know I'll 
+I'll tease ahead a little bit to the reaction to  
+the three bet but let's think uh what would what 
+would happen if we um faced a forb bet so we Face  
+further aggression right um if we three bet and 
+we Face a four bet the hands that are going to  
+um the hands that are going to get hurt the hands 
+that are going to fold and have pretty reasonable  
+Equity are right here and right here yeah like you 
+can see that there's there's these hands that that  
+they made the three bet they fa the four bet and 
+now they're in pain now it's like a I had such a  
+good hand heads up I faced forbet and now I have 
+to fold away this Equity that I really didn't want  
+to fold away um so generally speaking when this 
+is the the strength of your hand you you try to  
+not put yourself in that spot right you you try 
+to just flat um so everything coming back to this  
+three betting range here everything kind of in 
+between the stuff that that you know everything  
+that's kind of in between the three bets that 
+you just called out and the three bets that  
+are clearly strong for Value all the in between 
+stuff is calling all the in between stuff wants  
+to call because it just wants to like it wants 
+to see a flop it wants to run its Equity right  
+um so this is a this is something you see 
+even outside of heads up but I think this  
+is just the application of it here is like okay 
+we need we want to play really aggressively we  
+want to have three bet Bluffs but we don't want 
+to Bluff with a hands too good I don't want to  
+Bluff with a hand that's good that's that's 
+sacrificing too much uh and these you know  
+the king six suited the Jack n suited the king 10 
+off suits they're basically saying like yeah like  
+I have a good hand but if I three bet and and get 
+blown off this Equity I'm sacrificing too much um  
+so I'm going to I'm going to stay a little more 
+polarized not super polar cuz I'm still expecting  
+to take a flop that's the other side of it is 
+like you just want you're taking a flop 30% of  
+the time this is the call verse three BET right 
+so if if they're going to take a flop 30% of the  
+time you still want a pretty good hand you don't 
+want Total trash you're not three betting the the  
+93 offit right you're not three betting the the 
+very bottom of the range you're expecting to take  
+a flop but uh you don't want to you don't want 
+to have to fold away good Equity so then yeah  
+I mean that's something that always surprised me 
+about cuz like a A7 you know I would say I would  
+want a three bet A8 suited king8 suited or King 
+seven suited King six Suited Queen eight suited  
+more often than I would Queen four Queen three 
+but they love to be aggressive with Queen four  
+in four bets and in three bets so that makes 
+sense what you're saying about that in between  
+range so it kind of goes right outside of that 
+a little bit weaker and then more top of range  
+a little bit stronger as well too and that's sort 
+of how they disguise and play unpredictable out of  
+the big blind and then like you said so now when 
+you're facing a three bet you are also supposed to  
+be forbing pretty aggressively with a lot of these 
+mixes with your queen fours Queen 3es and like the  
+Jack fours and Jack fives and like ace8 off suit 
+A7 offit the Block in the Ace and stuff like that  
+occasionally so can you talk a little bit about 
+why that four bet range works that way and kind  
+of just maybe talk about this calling range and 
+and why it kind of cuts off at the queen five  
+jack six the ace9 offit over there and then you 
+know sort of how you think about four batting and  
+mixing and and maybe if there's way if there's 
+some times that you might not orb bet with those  
+bottom arrange kind of hands yeah totally I think 
+if you're coming from six Max or you're coming  
+from a game where you've studied a forb bet range 
+previously um the structure of this range should  
+make sense and and what I mean by the structure 
+is there's there's no like strange IM very little  
+there's very little strange in between hand 
+strengths here that are for beding for like a an  
+unknown reason um what I'm seeing is I'm seeing uh 
+clear value so that's like you know know the the  
+good Pairs and the and the top suited Broadways 
+this is just value we're planning to get all in  
+right we're we're forb betting with our good hands 
+and we're planning to get all in and then there's  
+Bluffs and the Bluffs are all at the edge of the 
+calling range the Bluffs are all hands that don't  
+do that great calling there's there's very small 
+exceptions to this right like King Jack offit is  
+is bluffing a small frequency Queen Jack offsuit 
+is bluffing a small frequency but I think if you  
+just visualize it in that way like if you make 
+sense of it in that way it's going to be a more  
+uh logical framework and honestly like everything 
+beyond that level of detail is something I just  
+push out of my head and I'm like ah it's not it's 
+not worth thinking about because the the computer  
+knows things that we don't know and it doesn't 
+necessarily translate into language all that well  
+so there there's just you know beyond that point I 
+try not to make sense of it so as a starting point  
+I think it's just like recognizing that the forb 
+bet is the last non all-in raise at least you know  
+these four bets here these are the last non- Allin 
+raises so we're polar we're we're taking Bluffs  
+from the bottom of our continuing range and we're 
+taking value that we plan to get all in with now  
+you know why do we choose these particular hands 
+I mean I think it's a pretty simple combination  
+of of blockers and playability like we we want to 
+block we want to block something that's going to  
+continue and we want and and we're still expecting 
+to take a flop sometimes we're we're going to get  
+called 26% of the time so we're we're going to 
+take a flop sometimes having a Broadway having  
+a suited hand these are good things um when we 
+have to take a flop so you know back backtracking  
+a little bit you asked about the calling range 
+too just thinking about like like the reason  
+this range is so wide and and why the Bluffs come 
+from from such weak hands generally speaking um  
+is we just have enough equity to continue I mean 
+it's it's probably surprising um that you know  
+53 suited and and queen six suited and whatever 
+ace9 off suit can call such a large three bet but  
+we're just up against this range I mean it's it's 
+it's as simple as that right I mean this is what  
+you're up against you're not up against your 12% 
+three bet from the small blind you're not you're  
+not up against you know old man coffee live three 
+betting you 4% of the time or whatever it is like  
+this is this is what you're up against so like 
+97 suited is a huge hand it again it's just it's  
+just the equity of these hands um you got to kind 
+of do what you're going to do and if you don't do  
+it and and we could show this maybe a little 
+bit but like if you don't continue these hands  
+you're going to have some problems yeah and that's 
+what interesting about this this you know with the  
+wizard AI is that you can essentially node lock 
+and you can make people tighter you can make them  
+looser you can see how the adjustments are going 
+to be different maybe you're three bet more maybe  
+you're three bet less maybe you're bluffing more 
+maybe you're betting less so it kind of depends  
+on how your opponent's playing against you or 
+what their strategy is which is what I really  
+love about trying to figure out how to use the 
+node locking and the custom node locking and the  
+custom Solutions is to try to figure out what 
+is this how is a strategy different than a GTO  
+strategy and then also for my strategy how can I 
+build a different strategy that might not be what  
+a standard GTO strategy is going to be so that 
+way if someone's training against me they won't  
+even know what necessarily what to do because you 
+can split your ranges up differently and and you  
+know maybe you're three betting a lot more maybe 
+you're not four betting these hands maybe you're  
+four betting way more maybe you're doing different 
+things or using different sizes and and I guess  
+that's another level of the game but um but yeah 
+it's it gives me a lot to think about yeah so why  
+I mean why don't I show a quick example um of what 
+I'm talking about where you know I might expect a  
+very a very typical opponent to for bet enough 
+honestly or like I don't know what I'm used to  
+seeing even out of newer players to heads up um is 
+not necessarily that they come out and they don't  
+have much fight you know that they that they don't 
+have enough aggression in their game but a lot of  
+players just come out and they look at the queen 7 
+suit and they're just like oh that's not they just  
+automatic pass they're they're just not thinking 
+of it as that strong of a hand so I'm going to  
+do is I'm going to secure the for betting to be 
+the same so the forbing is going to stay the way  
+that it normally looks but then there's going 
+to be some individual combos that I think are  
+just kind of likely to fold um let's take out you 
+know 43 suited 53 Suited maybe 107 and 96 let's  
+I don't even want to mess with the four betting 
+really um so it's it's a little bit strange for  
+me to jump in here but I don't think it's going 
+to take much for us to see what I'm talking about  
+so I'll just take out like the 109 off and and 
+maybe the I'll take out the Jack 10 off I know  
+that was like a sliver of four betting but I 
+don't think that should make a huge impact on  
+the final result um so lock everything just made 
+a a little you know pretty pretty minuscule change  
+to what they're doing against a three betet and 
+we'll see what's going to happen one step prior  
+what's going to happen to the big blind strategy 
+so immediately a shift towards more three betting  
+right not a huge massive shift um but we're up 
+to 24% from 22% uh so I took away like two suited  
+hands or something that that are um that are 
+continuing supposed to continue and we're three  
+betting significantly more um if we took this 
+to an extreme situation and this is how I think  
+it's kind of it's kind of important to like test 
+all the different levels um it's important not to  
+like you know jump to just the really obvious I I 
+think it should be obvious to everyone if I just  
+like smash through everything right yes they're 
+they're so tight oh they're such a knit like if  
+we if we smash through everything and we make them 
+super tight well I mean it's worth looking at um  
+yes you're going to play exceptionally aggressive 
+in the big blind there's nothing else there's no  
+other players there's no other variables if 
+your opponent holds way too much to three bet  
+you should three bet a lot and not only three 
+bet a lot but three bet mostly Bluffs right um  
+reasonable medium strength hands are no longer 
+three betting uh interesting interesting now  
+now what's funny about this and and I've I've kind 
+of yeah I can see what's happening here um what's  
+funny about is that the AI it it tries to find a 
+way out so so actually it's even it's even working  
+around and this is like a good a good lesson for 
+any of you who are new to node locking but like  
+the AI is trying to work around the leak that 
+I just built for it I just told it to make all  
+these huge mistakes right and it's like no I know 
+what to do I'm going to start opening hands that  
+I didn't use to open so that so that I can avoid 
+the mistake that you just told me to make to be  
+such a large mistake right so this is a a good 
+a good trick to be aware of like the AI will try  
+to it'll try to fix its mistakes but your human 
+opponents are are not going to do this right um  
+so go back node loock the original what do we 
+have 81% opening frequency nolock that original  
+oh what is what is going on here let's uh let's 
+do it combo by combo so this no lock it takes it  
+takes you know just like takes a lot of practice 
+but once you learn how to do all this you kind of  
+can just run through it pretty quick and and uh 
+and yeah so either way like the the original r  
+uh we're going to lock all of that the original 
+range trying to change itself if we force it to  
+open the range that we know they're going to open 
+and so if we nolock every hand that we know that  
+we're supposed to open and we keep that same bad 
+response to the to the three bet which we can see  
+it's it's trying to cheat its way out of even even 
+more but we've already seen the result the the  
+strategy now is just to three bet this guy if if 
+we no like to actually just do it with everything  
+there's an 87% three bet you can even see if you 
+click on compare nodes here the difference in the  
+previous strategy and the current strategy and 
+you can see how much it's worth like you can you  
+can look at how much more you're winning now from 
+the big blind your eveve and the big blind just  
+went from 0.67 to 0.88 it's a massive massive 
+increase I don't even think this looks I mean  
+what do you think like come coming from six Max 
+do you think someone might actually uh not four3  
+off part but someone might actually make a mistake 
+like this for some amount of time um maybe maybe  
+if they're not a heads up player you know I mean 
+A3 you know most people I think they think you  
+got to fold these hands of three bets and when 
+I first was thinking about it you know it kind  
+of would come to my mind okay I got to I got to 
+play tighter here I can't call all these hands  
+like it's just really unusual to be able to call 
+Queen a suited all the kings all the aces most of  
+the Queens even a lot of these suited Jacks if 
+you're used to studying but I think if you're  
+not necessarily A study then everyone's going to 
+kind of approach these differently some people  
+might just call everything and other people might 
+kind of play this tighter range too I don't think  
+it's that out of line to say that somebody would 
+be playing a lot tighter to three bets than than  
+you would be now if you three bet them every time 
+eventually they're going to adjust or they might  
+start limping or they might start folding more so 
+um you know how long they would stick with this is  
+questionable but I definitely think that for some 
+people who don't realize how wide you can play  
+that that this might be how they respond yeah yeah 
+and and you know obviously I I need to to show  
+every example but like even if there's somewhere 
+in the middle even if there's some strategy in the  
+Middle where they're playing a little bit too 
+tight um it goes back to what I was saying at  
+the beginning when you asked me about the opening 
+range like I always think there's an opportunity  
+to improve on this I always think there's some 
+opportunity to to do a little bit better than What  
+The pre-f Flop charts are suggesting so you want 
+to know you want to study these you want to study  
+the pre-f Flop solution but you also want to have 
+a good sense for okay if there was a little bit  
+of opportunity where they raise too much fold too 
+much call too much whatever it is like how would  
+I jump on that right what's the what's my Qui 
+strategy adjustment to jump on that thing if they  
+if they play too passively if they play too tight 
+if they play too loose and just a few node locks  
+with this program it might take you a few hours to 
+come up with a plan for all those different player  
+types and now you've got big opportunity in your 
+in your pre-f flop strategy yeah exactly I mean  
+that's that's that's my biggest takeaway here is 
+just to play around with different Strat this is  
+what I do all the time with the no bling just 
+to see how do different boards react how does  
+our range react what do we start bluffing with 
+here what spots can we just Bluff over Bluff  
+against somebody who's overfolded what spots can 
+we add on a lot more aggression what spots do we  
+need to play a lot tighter on later streets as 
+well too so those are all kind of things I think  
+about and uh so here I guess you want to talk 
+about for betting a little bit as well too and  
+just calling calling for bet ranges which I think 
+is going to be like you said it's going to be you  
+know if you kind of just reset the ranges and you 
+look at a normal forb calling range it's going to  
+be pretty wide and then you're going to be out of 
+position playing four bet pots and uh you know a  
+lot of people are going to be in an uncomfortable 
+situation when it comes to that I know sometimes  
+I I get uncomfortable situation because a lot of 
+times you're facing a 20% flop bed out of position  
+and you're supposed to start mixing with some back 
+doors you got a call with some low pairs on some  
+boards and to hit MDF you got to be defending the 
+Flop small betat pretty wide so that definitely  
+put a lot of people in some tricky spots myself 
+included yeah for sure so now that I've removed  
+the node like we can we can see um just the the 
+optimal response to forbit and I think so first of  
+all you know there's there's this um extra raise 
+option in here uh which I think is just you know  
+it's it's a feature of having a ray size offered 
+um that doesn't necessarily need to be offered  
+if I was building this strategy myself I would 
+I would clean this up by editing removing that  
+size and just having only the all-in um is I think 
+there's no functional advantage to have that size  
+it's just in there for the sake of of you know 
+adding the Strategic option it's supposed to add  
+so now we've got like a slightly cleaner picture 
+of of what we're doing here um and I think again  
+like what's important to recognize is which hands 
+are just good enough like which hands are just  
+good enough to call because they're up against 
+a pretty reasonably wide range uh and those  
+hands that are just good enough are like suited 
+Broadways suited aces in particular everything  
+else like not making that much money right like 
+yes we're seeing king queen offit continue in  
+some fashion Ace jack off suit continue in some 
+fashion 65 suited continue in some fashion but the  
+these hands are like all very low EV hands um I do 
+think this part of the pre- Flop game oftentimes  
+gets like over uh I don't want to say overplayed 
+but but people just they they think they need to  
+do more than they need to do um I don't think 
+you need to do that much to play well against  
+a forb bet maybe this is just my perspective but 
+like taking you know the suited Broadways and the  
+suited Aces and doing something with them um and 
+then doing something with pairs like that's kind  
+of the standard um and everything else is like a 
+reaction to your opponent so again if they're a  
+little bit out of line if their sizing is a little 
+bit too small then yes the suited connectors the  
+offsuit Broadways these hands are going to start 
+making you real money but if they're in line or  
+even slightly tight all you have to do has played 
+your suited Broadways your suited Aces and Pairs  
+and then like you know looking at all the mixing 
+is it's a great intro to how I view just heads  
+up in general like like yeah there's a lot of 
+spots with a lot of mixing but I don't think  
+people should be intimidated about that mixing 
+as if it's like something they need to replicate  
+uh you come to heads up in my mind to to make the 
+best play against somebody right to like to know  
+your options to know your strategic options but 
+at the end of the day to just decide like this is  
+the best play in this moment so I wouldn't play 
+a ton of spot where you know I'm I I have pocket  
+NES and I'm facing a for bet and I know it could 
+call and I know it could go all in and I know in  
+theory it doesn't matter really right so like when 
+I'm playing that player what I'm really thinking  
+about is what's the recent game Flow How likely 
+are they to be bluffing in this moment right now  
+based on what I Know How likely are they to have 
+value in this moment right now based on what I  
+know and and if they have value you know what are 
+the benefits of me calling and trying to get away  
+like does that even play out in my favor all these 
+kind of variables to lead me to a decision around  
+whether caller all in makes sense um this is where 
+I think pre- flop just gets it's it's a little  
+more uh creative in my mind like how you apply the 
+mix because it's not so important at this stage of  
+the hand like this is basically the final decision 
+point so I treat it kind of like the river like  
+it's the final decision point do you do you 
+really need to play Super balanced the full mix  
+I mean there you know there are some situations 
+where the answer is yes but they're pretty rare  
+um so I would I would treat all those as just 
+an opportunity to make a good poker play right  
+so G be going to be a lot of other situations 
+a lot of other I data points that are going to  
+matter to you versus just trying to execute on 
+a mixed strategy that you planned or you trained  
+for you're going to think about a few other data 
+points as well and then make your decision in the  
+moment which which does make sense and then so you 
+kind of used the mixing as a guide to know you can  
+do either option and it's just going to depend on 
+on what else is going on which which does make a  
+lot I think people I used to get a little bit of 
+overwhelmed by okay how often do I this how often  
+do I do that and you know I kind of got away from 
+that in a lot of different spots where I just know  
+I can I can sometimes call I can sometimes three 
+bet and I guess the trick is to figure out when  
+are the right moments to call when are the right 
+moments to three bet who are the right people to  
+call verse who are the right people to raise verse 
+and I think that's where the expertise comes in a  
+poker is to identify those situations and those 
+players and those moments like you were saying  
+yeah 100% you want to show the trainer as well too 
+maybe maybe you can you can show the drills this  
+is this is how I personally got really good at 
+heads up is just by using the wizard trainer and  
+I just did thousands of hands out of position 
+in position three bets race pots so I just my  
+ass off for this yeah so for pre flop um I mean 
+great thing is like once this solution is built  
+we've already got the pre- Flop solution that we 
+want to train can just click this guy right here  
+practice this spot and that's going to open up a 
+new window for us where it's going to pull over  
+all that information from the pre-f Flop solution 
+so here it's it's got us navigated to that facing  
+forbit situation because that's the last thing 
+that we were studying but you could certainly just  
+go back to the start of the hand um but either way 
+I would say you know for there's two ways to train  
+um pre flop uh the first way is just to fire it 
+up like you've you've got you know if if you have  
+15 minutes and you don't play that much heads up 
+and you just really don't know what you're doing  
+with these pre-f flop ranges go ahead and just 
+start from the beginning looks like my settings  
+have it to to play two tables by default but just 
+just play pre flop right just get get used to okay  
+I I found you know a fringe hand here I made a 
+slight mistake um and just fire through volume  
+right now it looks like it's playing through the 
+whole hand which my preference would actually be  
+I'm going to stop it and show you my preference 
+would actually be if you're just learning pre flop  
+go into the settings change the mode the game 
+mode here from Full hand to Street and if it's  
+street it's just going to play you know if you're 
+starting from pre-f flop it's just going to play  
+pre- flop if you're starting from the Flop it's 
+just going to play the Flop so I think that you  
+know firing through a lot of volume on pre- flop 
+is how you're going to get better at preflop and  
+you can really just play around with you know if 
+if you aren't sure that a hand is a three bet or a  
+flat well just three bet and find out right like 
+push push your comfort zone a little bit right  
+this is what I like to to encourage people to do 
+people tend to know like what they're not great at  
+they they might know oh I play a little bit too 
+aggressively okay we'll just start making some  
+folds and see what the trainer tells you right 
+um maybe you would you know oh I'm worried I'm  
+playing too aggressively you fold 106 no blunder 
+right um oh I'm worried that I'm three betting  
+too much and then you flat ace5 suited it's like 
+oh okay I I was actually allowed to to call that  
+one um so taking in that quick feedback and just 
+getting a lot of volume in I think is is the best  
+way to improve um broadly at pre flop and then you 
+know when you're done with your session you stop  
+you show the history you review your mistakes 
+right fairly fairly basic application I think  
+of the trainer format um only other thing that I 
+would suggest is like for someone who's a little  
+bit more advanced but still feels like they need 
+that tuneup they still need to you know oh I'm not  
+sure that I'm playing well against three bets 
+or I'm not sure that I'm playing well against  
+for bets just jump straight to that part of the 
+hand right that that's how they had it before you  
+go to the custom starting spot you say that okay 
+I'm I'm facing you could even change the size oh  
+I'm facing someone's been using a small three bit 
+against me lately that's that's been weird I don't  
+really know what to do about that so you just go 
+straight to the fact that you're facing a small  
+three bet start training and immediately you're 
+you're only in that spot you're just getting  
+dealt hands where you're facing small three bet 
+and you're getting feedback on that decision I  
+think it's a super good way to learn and like 
+oh I would have missed a forb bet here because  
+maybe I wouldn't have forb bet that hand against a 
+different size um maybe I could forb bet this one  
+oh I could so this is this is probably my personal 
+favorite way to use the trainer just because I'm  
+you know let's call it a more advanced use case 
+so I have more particular problems I'm coming to  
+the trainer with I'm saying I really need to work 
+on you know this this Doug guy he's always using  
+small three bets I really need to prepare how to 
+how to face small three bets um and maybe I want  
+to do the opposite maybe I want to train my three 
+betting range with the small size as well and all  
+that can be set up here yeah this is the this is 
+the most powerful thing to me with the wizard is  
+just using this trainer I got I didn't know how 
+to play heads up for six Max or or heads up and  
+I just use this constantly and it really does 
+help so like you said it gives you that immediate  
+feedback it sees where you're where you're mix 
+where you're making your mixing mistakes out  
+it see if making blenders you see right away and 
+you can even I sometimes I just put it at stop at  
+a mistake and if I make a mistake I just I'll see 
+the hand again and I won't make that same mistake  
+again because I I already remember that that's 
+what I'm supposed to do in that spot so and with  
+heads up there's you know it's a lot easier 
+in six Max because six Max you got all these  
+different spots you're in position you're out of 
+position there's sometimes three or four people in  
+a hand whereas here it's just two people and the 
+hands are all kind of the same the forbat Bluffs  
+are the same the king jack off suits the ace10 
+off suits the queen for suited the king king for  
+suited you know it's kind of all the same sort of 
+ranges in terms of how you continue and what you  
+do but yeah getting to the into the details of the 
+sizes is something that I I like to think about a  
+lot too okay so we're going to start by looking 
+at a single raised pot to kick off a little  
+bit of post flop material um all I did was I I 
+started with the same pre- flop solution that we  
+built previously um filled in the pre- Flop action 
+raise call and then chose ajck 7 in this case um  
+within this solution what I've got set up is 
+dynamic bet sizing on every street my preference  
+for these is to use Dynamic bet sizing and just 
+use one bet size on every street uh there's a lot  
+of great things that you can do in here if you 
+have different use cases for your for your bet  
+sizing setup but for me I just want like a simple 
+strategy that's easy to keep track of that's easy  
+to understand um and normally what that means 
+is just having the one best bet size in all the  
+different situations in all the different nodes 
+um so that's what these settings here allow for  
+and then I also just add Allin as an option so 
+if Allin is like uh is not the chosen Dynamic  
+size it's also going to give me the option to just 
+go all in Dynamics basically the different boards  
+it'll give you a different size so H 7 it'll 
+it'll recommend two and then some other boards I  
+might recommend pot and some other boards I might 
+recommend 25% so you're just you feel like that's  
+a good way to train is just to let the AI pick the 
+size for you yeah I think there's like you know  
+some sometimes what I'll suggest to players who 
+are more sure of their strategy like players who  
+aren't really at the exploration phase and they're 
+more at the the training and and reinforcing phase  
+um maybe they've decided what what size they like 
+to use you know maybe they know that they like to  
+bet 33% pot um on all AI boards that's just like 
+what they've decided they could absolutely just go  
+in here edit this to 33% um and use this as their 
+default size for their training and I would even  
+recommend that because like why would you study 
+different than you would play right why would  
+you study a strategy that you're not planning to 
+play you could do that you could make that change  
+you could still practice this spot like we showed 
+before well to practice this spot you have to go  
+back to the initial uh settings and then you need 
+to put in the fixed bet size is 33% because if you  
+put in Dynamic right now the trainer will only 
+train the dynamic answer so if you want it put  
+in the trainer at different size you can't edit 
+it right here you have to edit it in the initial  
+setup and then then you can use those sizes too 
+that's a good point yeah so with within here you  
+can always go back um this took me a while to 
+figure figure out by the way I couldn't figure  
+out why I did this so this this this was something 
+that I had I had to explore a little bit my own  
+yeah it's a good point you want to make sure that 
+like whatever solution that you built in here have  
+all the settings that you want or when you're 
+going to set up your drill you you have your  
+drill with all the settings that you want yeah so 
+I would just normally go to fixed and then put in  
+30 30% put in put in whatever size if I wanted a 
+different size otherwise I'd be comfortable using  
+the dynamic size too I practice with both of them 
+yeah yeah it's a good point we're going to look  
+at just the basics of this SE betting strategy 
+using the originally suggested size the dynamic  
+size here um so something we were talking about 
+before like the challenges that six max players  
+um and challenges that you Joey were having 
+like coming into heads up is is kind of like  
+Bing um all these nonaggressive strategies all 
+these mixed strategies that in in situations where  
+you might normally just assume like oh it okay 
+Maj 7 I just bet like a third pot with everything  
+right or oh it's you know it's a high card board 
+I just I just bet and they fold right um but what  
+actually happens in a lot of these situations is 
+you have you know still an aggressive strategy  
+still still a more betting than not strategy 
+uh but there's plenty of checking figuring  
+out which hands to check and then there's also 
+the expectation that once you bet you're going  
+to get called or raised the majority of the time 
+you're you're actually going to see the big blind  
+putting up a fight um I mean can you think of 
+like like w within this strategy just looking at  
+it right now like what what parts of this are are 
+the biggest challenges for you uh usually biggest  
+challenges just identifying how often I want 
+to bet with all these different hands so you  
+know it's mixing Jacks it's kind of mixing even 
+the seven it's mixing the bottom of range it's  
+checking seven Deuce it's betting eight Deuce so 
+I think for me it's just identifying cuz like you  
+said right that a big mistake you can just make 
+is just over over betting here over SE betting  
+here because you have in my mind you have range 
+Advantage you have more Ace Jacks you have Aces  
+Jacks sevens they're going to be three bitting 
+all those hands you have a lot of two pairs so  
+for me you have a lot of straight draws you got a 
+lot of implied odds for a lot of those straights  
+to potentially make some big hands if they have a 
+potential Ace themselves too so in my mind I just  
+want to bet a lot so it's kind of identifying okay 
+how often should I be checking with with my check  
+range and then even King a right king a king high 
+would be a natural hand I would just check back  
+here I King high but it even wants you to bet 
+some of those and normally it wants you to bet  
+hands I've noticed that have a back door flush 
+draw or that have a blocker to a back door not  
+flush draw because that's going to take away some 
+of the combos of flush draws that they're going  
+to be continuing with on the back door so just 
+identifying okay what what are the moments and  
+usually that's what I've been learning lately is 
+that for the offit hands it really does matter if  
+you have a back door blocker to one of the nut 
+flushes so that that I guess I maybe answer my  
+question is that you know what are the indicators 
+I look for to know check verse bet verse yeah  
+yeah yeah I think something like a skill that 
+I didn't I didn't realize I had from heads up  
+until I had to apply it to tournament format or 
+or some other game um was identifying where the  
+folding range was in my opponent's strategy right 
+so so what I think what you're talking about like  
+the need to pay attention to whether your king8 
+offit has a heart in a club or a heart in a spade  
+is the difference between recognizing that like 
+it matters when your opponent faces a bet if they  
+have the king of hearts or if they have the 
+King of Clubs right because when when we bet  
+40% pot it's going to make a difference to their 
+continuing strategy uh let's say with you know uh  
+sorry it's going to be the suited hands so let's 
+say with King five suited or King four suited or  
+King three suited or whatever it's going to make 
+a difference with some of their King High hands  
+whether they have a club or a different suit right 
+because they can't just call every King High they  
+call most King Highs but they don't call the king 
+High's with an undercard to the seven and they  
+don't call the king highs with an undercard that 
+lack the back door flush draw um so it it makes  
+a notable difference maybe not it doesn't seem 
+notable cuz the ranges are so wide but like when  
+when your opponent's only folding 33% of the 
+time you really can zoom in on like okay well  
+what makes up that 33% like what's what's what are 
+the bad cards on this board what what what does my  
+opponent not want to have um he doesn't want to 
+have you know the Queen of Clubs he doesn't want  
+to have the King of Clubs doesn't want to have 
+two cards where one is between the Jack and the  
+seven and the other is below the seven like he 
+doesn't want to have 96 right and like thinking  
+about hand classes in that way is is not I think 
+very intuitive for um people who are used to more  
+condensed ranges um but this just kind of makes 
+sense to me is like you you just scan the board  
+for like where are the bad cards like what are 
+the bad cards to have on this board um the bad  
+cards block the trash so that's going to be a lot 
+of the checks uh for the small blind a lot of the  
+checks from the small blind are just going to 
+come from like the bad cards on the board now  
+you know it's it's a two-player game there's some 
+counter exploitation that can happen you can't  
+like you can't go all in on this idea um but you 
+definitely see that in the patterns so if you are  
+noticing you know that like you said that that 
+the king8 with the King of Clubs is doing less  
+betting there's a reason for that um the whatever 
+in general you know these cards are seeing less  
+aggression and and there are actually ways in here 
+that you can you know you can go through and you  
+can filter and you can look only at offsuit hands 
+that include a club and you can see the betting  
+frequency come down and you could look at you 
+know only offit hands that include the other cards  
+and you could see the betting frequency either 
+like stay roughly the same yeah looks like it's  
+staying roughly the same if you isolate one of 
+those cards but the club betting frequency comes  
+down um so think spot your I I just started using 
+understanding how to use these filters and exclud  
+and you'll notice some spots where especially 
+on like three flush boards or even like a flush  
+draw board the main characteristic is you have 
+to have a back door flush draw and you want to  
+block the flush draw which is one going to 
+be one of their calling hands so I like the  
+way you put it which is that you want to look at 
+what cards that they're going to fold and if you  
+have those cards then theoretically that that 
+means you should bet a little bit less that's  
+how I would interpret it I I sort of think about 
+it as blockers and reverse blockers which is a  
+PLO concept that I used all the time and I found 
+that you like my initial thought on these boards  
+are what do I have back door draws what are my 
+blockers what am I blocking that they're going  
+to have and you know that's sort of how I start 
+to think about the hand not to say that that's  
+the end all be all like you just said but it is 
+a data point that I'm always using lately and I  
+found it heads up it really really applies for 
+continuing on later streets yeah yeah and then  
+you know the the other thing to talk about I guess 
+is like the good hands that check like obviously  
+we don't just check with bad hands we also check 
+with some good hands um and I know that like very  
+commonly uh talked about uh is the concept of 
+protection or like the need to get protection for  
+hand right um so I think that you know a lot of 
+people would say uh oh if I'm choosing hands to  
+check like I would I would check my bad Aces you 
+know like these these Ace X off suits over here  
+which is which is correct you know maybe my high 
+over or high under pairs because they don't need  
+much protection they're kind of showd downable 
+hands right um and then you know maybe you could  
+use the same logic with some of the jacks or some 
+of the sevens but you would also kind of expect by  
+using that logic of protection you would expect 
+maybe more betting from like the lowest pocket  
+pairs you would expect maybe more betting from I 
+don't know like a bad 7x hand or something so I do  
+think sometimes that concept gets taken too far uh 
+and I guess I just want to reinforce the idea that  
+like if we if you just look at the equity of your 
+hand or maybe look at strategy plus Equity as a  
+as a way to visualize it a little bit better like 
+there's just certain hands that are not that great  
+and they just kind of don't want to put that much 
+money in the pot and that hand tends to have you  
+know about let's say what like what a king n King 
+8 and pocket fives pocket 3es pocket twos have in  
+common right like they look like different hands 
+but they kind of just are the same they kind of  
+just have the same rough amount of equity right 
+like sometimes we do over complicate these things  
+so I I do want to just point out that sometimes 
+finding what hands want to check is as simple  
+as like well I just had a medium amount of equity 
+on that board so I wanted to check one thing I've  
+been doing lately is I use the summary tab here 
+and then I basically we'll look at what part of  
+the range wants to check or sorry the filters one 
+yeah and then basically when you go down it says  
+your hands so it has your equity and I notice 
+okay no main hands likes to betm more the king  
+highs the low pairs or typically this is like the 
+same makeup on most boards is that the bottom of  
+range is doing more betting the middle range is 
+doing more checking and top of range is doing more  
+betting yeah and that's kind of been an indicator 
+I would look for that's why a lot of times King  
+highs here typically tend to be the checks because 
+that's what I've noticed in a lot of formations  
+second Pairs and top pair if you go if I want to 
+use an overbed strategy here for example I would  
+this is going to change completely because it's 
+going to have less of these emergy hands and it's  
+going to just going to be more clear where you're 
+betting your kind of back door flush straws and  
+your double back door hands you know cans that are 
+kind cards that are kind of around the seven or  
+in between the seven and Jack or that have the 
+strong Ace then you check back your weak Aces  
+and you'll kind of check back your king highs and 
+check back the Jacks and check back the the queen  
+highs as well too sometimes unless they have a 
+straight draw to go with it so I'm kind of the  
+40% the strategy is a lot different whereas if 
+we change this to an overbed strategy it's going  
+to be you know so that these are the parts I've 
+been really experimenting with lately on in single  
+race pots to see how different it is and and to 
+build some different strats yeah yeah I actually  
+you know I I I think it's a good opportunity to 
+show quickly what you're talking about because  
+I've definitely been through um you know I've 
+I've worked with players and I've built strategies  
+before where this was the type of board where the 
+sizing that we would use is an overb and you know  
+something again in heads up that I think gets 
+like well in in in no limit in general but like  
+in heads up uh it's easier to manipulate this but 
+I think in no limit in general people get a little  
+bit too caught up in like using the best bet size 
+and only the best bet size and they have to use  
+the best bet size and and I'm a big proponent 
+of the fact that like there's there's probably  
+infinite different strategies that you could use 
+that all have the same EV and or or a negligible  
+have a negligible difference in EV between them 
+and if you're using the strategy that just like  
+suits you better or matches up better against your 
+opponent then you're ging an edge um so like this  
+this strategy that I just you know generated here 
+by add by replacing the BET size with an overb um  
+is a totally valid totally reasonable strategy um 
+but now you have a way different thing to learn I  
+mean like you said you know now we've got this 
+this extremely polarized View and and what you  
+just showed I think actually we could even see 
+it here maybe a bit bigger yeah so even like here  
+you can see there's almost no betting happening 
+from everything between under pair through King  
+High cuz I mean you just forced it to bet huge 
+so now we're playing a polarized strategy um but  
+you can build a really good strategy this way 
+uh there's absolutely nothing wrong with using  
+this strategy in my opinion um and I think that 
+like I would I would even encourage players who  
+have a little bit of comfort in the game to just 
+say oh yeah like I I feel really confident in my  
+polarized game so on any board that is let's call 
+it static like on any board that's static doesn't  
+matter what the cards are we're just going to use 
+an overb strategy and you could use this tool to  
+to learn how to do it and what when so when you're 
+in this data point right here and you're you're  
+at this screen are there any other cust filters 
+that you prefer to go to right now or like what  
+are you looking for if you're here are you are you 
+know you mentioned strategy plus Equity is there  
+eqr or is there is do you like to go to ranges 
+and see where they kind of where they fall or  
+what would you recommend that I I want to look out 
+for to kind of give me some information here that  
+that's going to be because there's there's so much 
+information to technically take in yeah definitely  
+so I I mean personally I spend a lot of time in 
+the strategy plus EV tab um I find that if I'm  
+trying to let's say like tweak things about the 
+strategy let's say I'm trying to you know figure  
+out if I can over Bluff or under Bluff um and I 
+want to know what what hands to use I might use  
+compare EV uh I do like compare EV because what it 
+does is you know we can compare let's say betting  
+versus checking there's only two real options 
+in this case so it's a little simpler um but I  
+can compare betting versus checking and I can see 
+lit up in in really bright colors like do not bet  
+these hands do not check these hands right this 
+this I think is like a nice easy way to get to the  
+point where I can test okay how acceptable is it 
+to like change what I'm doing with Queen six well  
+it's in white so it's very reasonable to change 
+what I'm doing with Queen 6 to change what I'm  
+doing with 86 suited right but don't change what 
+you're doing with Jack 6 like do not change what  
+you're doing with Jack 6 um so I find this to be a 
+nice like primer for for exploitative ideas um but  
+otherwise I I spend most of my time here uh cuz I 
+think this is like this is most the info I want I  
+want like the shape of the range and then I want 
+to know the number I want to know like how much is  
+it worth um when you say shape or range what what 
+do you mean by that because I've heard that range  
+morphology uh I've heard that a lot lately so what 
+do you mean by that the shape what's the shape of  
+the range here yeah I mean what's funny is I think 
+I I I think I've spent so much time on solvers in  
+the past that like when I look at this I'm kind of 
+seeing what you see when we look at uh this like  
+when when you see like the you know the good hands 
+are betting more the medium strength hands are  
+checking more the bad hands are betting more this 
+is kind of like such a new view to me uh or like  
+the equity thing here this is great to me for like 
+teaching content but when I'm actually studying th  
+this just like it's just how my brain's wired you 
+know like it the this shape like the shapes that  
+are occurring here on this grid make sense to me 
+the same way that this information here is like  
+meant to get the information across this is a much 
+better way probably for someone who hasn't stared  
+at grids for 10 years um so that's really all 
+I meant by the shape uh is just like where it's  
+where it's lit up you know like there's there's 
+just like the part the parts of the grid that  
+are lit up they they just make sense to me like 
+oh yeah I know those are like the those are the  
+mid Equity hands those are the trash hands those 
+are the you know those are the stuff that interact  
+well with the board mhm and then what what do you 
+think so so for people tending to get wrong on the  
+Flop as as the aggressor in a sing race pot you 
+think it's just betting too much or not maybe not  
+betting enough or not splitting enough or or what 
+what what do you what have you noticed I guess in  
+your encounters with working with everybody and 
+playing people yeah I definitely think I mean the  
+the number one thing that I'm encouraging people 
+to do and I'm going to go back to the the original  
+strategy here is I'm always encouraging people 
+to check more and just like feel comfortable  
+with what happens after they check and I think 
+that until you go down that that line and you  
+start practicing how to play you know against 
+whatever the turn Probe on the three to a straight  
+card I think there's a lot of like fear and and 
+discomfort associated with taking those passive  
+actions um and people think like oh I'm going 
+to get exploited or it looks weak or I turned my  
+hand face up and I'm like I don't know man this 
+the solver does it so like I'm pretty sure it's  
+it's still a valid play right um we just need to 
+get comfortable with it so I'm always encouraging  
+people to just like just try out way more checking 
+back um and and start getting better than your  
+opponents at what comes next get better than them 
+at delay SE betting right like they check to you  
+twice get better than them you know how how many 
+of us knew that Queen four off was going to be a  
+pure pot bet after after we got checked to twice 
+like I you know I could have guessed that this was  
+fine but I wouldn't have even known this off the 
+top of my head and the typical player who never  
+checks this board has never looked at this grid 
+so I I think there's all this opportunity in the  
+check backs um so I wouldn't necessarily say like 
+the reality is it's hard to make a big mistake  
+when you're C betting like it it really is hard to 
+make a big mistake if we're just talking about raw  
+EV like look at the grid everything's mixed right 
+so it it's hard to like punt it and I and I think  
+you know people who maybe use the program and and 
+and um play the trainer and they get a good score  
+they're like great I've got cting nailed but their 
+frequency is like 90% CED instead of 70% and it's  
+like well you're doing fine like there's there's 
+nothing wrong with that right that's that's not a  
+problem but I think if they want to move a little 
+bit further um that's where the opportunity is is  
+like do the thing that other people aren't doing 
+okay so here we Face the bat and so now let's talk  
+a little bit about singer pot out of position 
+defending and then that'll give us an idea of  
+what we can expect as the aggressor because 
+we can identify if this person isn't check  
+raising they're not going to be including these 
+hands if they are check raising for Bluffs what  
+kind of Bluffs are they going to be using 
+and then this gives you a nice way of break  
+that down and kind of giving you an understanding 
+of how to react to the strategy and then that's  
+going to help our small blind approach on later 
+streets a lot yeah yeah so like this check raay  
+you know I want to address first because it's it 
+it's complicated and it's it's also like a very  
+non-standard I think human strategy um to to check 
+raise to such a large size I think that this is a  
+great strategy and I think that like like really 
+really big check raises this was actually like  
+using using this engine was uh how I prepared to 
+play against Doug at the lodge and when you're  
+playing really deep the the check raise frequency 
+in spots like you know let let's let's call this  
+a static board because I already referred to it as 
+that like check raising on static boards uh often  
+times looks like this where you just go extremely 
+polar and you just go for all of it it's a really  
+good strategy I think because it's so hard to 
+uh be disciplined and fold the right amount to  
+these really really really big bets and you 
+don't get that many chances to use bets that  
+are this big so I think this is a sweet strategy 
+um we can get more into it later but like a lot  
+of players are not going to show you this a lot 
+of players are going to show you like a 3X or a  
+4X check rise they're going to go way thinner for 
+value they're going to use you know some top pairs  
+some some semi Bluffs what have you uh and that 
+doesn't necessarily mean they're playing weak  
+or or soft so you you still need to respect that 
+check race strategy um but I think it's you know  
+it's a good reminder that anytime we get 
+into these Solutions and it's like oh I  
+wanted to know what to do against uh you know a 
+player who who just always check raises they use  
+like the 75% button on their on their slider or 
+whatever right or they always go three and a half  
+X CU you're playing live um just edit it right 
+just edit it put that in um that's a much more  
+realistic response and we're kind of interested 
+in what strategy is against that response uh and  
+we're interested in how to adjust accordingly so 
+it's going to give us more po a more polar versus  
+a linear strategy so we kind of did see this with 
+our small bet strategy where if we use that hyper  
+geometric size then it goes very polar where top 
+of range bottom of range whereas you go smaller  
+it'll go this more kind of you know mix range 
+some top pairs some Jacks some I guess not really  
+many Jacks Jacks are two pairs but you know I the 
+the back door straight draws back door flush draw  
+combinations that you're going to have as well 
+too I guess this one goes a little bit less with  
+the 65 suited and which are kind of my natural 
+hands I'm going to look for I'm going to look for  
+65 suited 85 suited 89 suited um you know kind of 
+hands that have that gut shot or have a back door  
+straight draw with a back door flush draw so with 
+this it it looks like it maybe calls those hands  
+a little bit less with this size and it uses more 
+of top pairs versus before where it was using even  
+weaker hands here it seems like the hands are a 
+little bit stronger and those weaker hands they're  
+just going to call with those weaker hands yeah 
+I mean it's it's sometimes counterintuitive but  
+like the bigger you bet the more you get to Bluff 
+right so so when we're using that humongous raise  
+size by proportion you're going to see way more 
+Bluffs um not literally you know way more like uh  
+well it's the Flop actually so yeah you will see 
+like literally more Bluffs than value um you've  
+still got Equity so but at now that we've reduced 
+it now that we've made the size more reasonable  
+like the ratio is a little bit more intact we 
+could see you know exactly what we're dealing  
+with you could even just hover here I forgot 
+about this feature which is great um could just  
+hover here and see that it's you know 51% noade 
+hand uh which is still more Bluffs than value but  
+a lot of those have some kind of draw um but way 
+more top hair that's like visually obvious to me  
+um way more top pair now and again funny like suit 
+relevance that uh that you might be interested in  
+right always using clubs with your thin check Rays 
+uh um another interesting Dynamic where now you're  
+thinking it's it's literally the opposite of what 
+I talked about last time right we're we're value  
+raising we want them to have their calls we want 
+them to have the back door flush draw right we  
+have a value raise but it's a thin value raise 
+so we need we need them to continue something  
+unpaired uh or we're interested in them continuing 
+something unpaired when we have top pair so we  
+raise our clubs we hope that they have diamonds 
+hearts or Spades and they continue in some way
+that's really yeah I didn't I never thought about 
+that before actually that makes a lot of sense so  
+this is really yeah that that whole that whole 
+I got to really think about that more is there a  
+name for what what you just describe which is like 
+the is there a name is something is this called  
+like a like an idea you know having the club here 
+look at that having clubs is so important here or  
+your check race values it's a great question there 
+should be a name for it I don't I don't know if  
+there's I mean it's just it's just unblocking 
+right I don't know yeah I guess reverse player  
+yeah I mean it's it's pretty wild to see I would 
+I would think here that I would want to check  
+raise hands that I do have a back door flush draw 
+potentially with sometimes because that way I do  
+have some a lot a lot of nut Equity potentially 
+where I can make a big hand and I can potentially  
+win a big pot so I might think that that would be 
+the hand I want to do it with I might choose ace5  
+with a back door flush straw here before I would 
+choose ace5 with clubs but you're basically saying  
+you want to reverse block the pair you want to you 
+want to reverse block the pair and you want them  
+to continue and does it have something to do with 
+just being able to get them off on later Street or  
+is it is it you know what's the well reason why 
+we want them to continue I guess with with the  
+you know with these back draws and stuff like that 
+I do want to be careful like how I talk about it  
+because blocker effects are pretty complicated 
+like like I'm I'm saying it as if there's only  
+one reason and there's definitely more than one 
+reason um even as you were talking I could think  
+of more reasons why clubs would be beneficial like 
+if we go back one step and we assume that most of  
+the clubs that small blind could have chose not to 
+Bluff because like we said they block the trash so  
+they don't want to Bluff right so if if a club on 
+average is held by a value hand when when you're  
+the small blind because you're not bluffing so 
+much with clubs on average it's held by a value  
+hand so now it changes our incentives for how to 
+raise when we know that like oh clubs usually mean  
+you have value so if I have a club that means you 
+are a little more likely to not have value um so  
+like these kind of Dynamics also exist I think 
+this one's yeah this one's pretty tricky but it  
+makes sense to me that like uh the range is still 
+extremely wide so now you're trying to encourage  
+some part of the range that normally wouldn't 
+continue to continue if if we were dealing you  
+could find a very similar value situation where 
+you're up against a much tighter range where now  
+your interest is in having imply dos to draw out 
+on them right so now you're thinking oh I have I  
+have mid pair or bottom pair or even top pair and 
+I'm check raising but I'm doing it with the back  
+door flush Dr I need a backup plan because I need 
+that little boost of equity so there's these like  
+subtle differences that could come up I don't want 
+to make like a sweeping generalization about how  
+the blockers work um but I think this is kind of 
+unique to like a super wide range super small pot  
+kind of situation uh I don't think you would 
+see this that much in in a lot of other spots  
+yeah I see what you're saying makes you got to be 
+very careful to make those assumptions on every  
+board and it's going to be case-by case basis 
+for sure but it is it is definitely something  
+I'm going think more about that's for that's for 
+sure so I I never really considered that cool so  
+let's talk about the calling range a little bit 
+um you know something that's interesting and and  
+we touched on it briefly uh in heads up is that 
+there's not a significant range advantage in in  
+many spots um for either player right uh I want 
+to go back to what we call like the root node  
+here just just the uh to see the equities and you 
+can see right here here that getting to the Flop  
+big blind you know single race pot ajck 7 if 
+you had to guess before you saw this like what  
+the equity was of the imposition player certainly 
+we'd come up with a number higher than 51% right  
+I mean this this looks like an amazing board for 
+the small blind and somehow we have the thinnest  
+of thin edges on this board so it it starts to 
+explain not only the the more conservative betting  
+strategy but also the fact that there's not much 
+folding happening like there's just a lot of hands  
+that can continue here um and we were talking 
+a little bit about minimum defense heads up the  
+way that I tend to teach minimum defense and I 
+have you know some opinions on it but heads up  
+no limit in from what from all the games that 
+I've seen is like the only game where you get  
+close to reaching minimum defense everywhere like 
+almost everywhere and I think it's exactly for  
+that reason um you don't necessarily like hit it 
+on the head the exact number every spot obviously  
+because you know poker's not a toy game um but it 
+gets really close just because ranges are so close  
+like there's always an opportunity to continue and 
+if you're not continuing enough there's always a  
+chance to Bluff you more and you just have a lot 
+of equity with pretty you know with pretty much  
+every party your range um so I do think that this 
+is you know a good representation of the fact that  
+even in uh even on a two Broadway board from out 
+of position we're still going to fight and we're  
+still going to fight close to the the minimum 
+defense frequency w wow yeah I mean I you know  
+so my natural inclination here let's say I'm 
+working on this spot and I'm playing against  
+someone who I don't think is check raising me 
+with 64 53 43 85 7 Deuce you know sort of that  
+bottom of range 10 Deuce Queen deuce the double 
+back doors back door straight draw backdoor flush  
+draws then I would alter this to say they're 
+actually going to be calling with those more  
+and then typically what I find in my flop Strat is 
+I can just bet all sometimes all the time like in  
+this board if they're not check raising enough 
+you can actually bet almost every time is what  
+I found in the past which is kind of interesting 
+because if I'm playing against you I know Kevin  
+rabbitow this guy's coming after me right he's 
+going to be having the 4-3 he's going to have  
+the seven Duce he's going you're going to have 
+maybe even more check raises here just make my  
+life miserable where versus another player they're 
+never check raising me so it's like you got to I  
+think you really got to think about this a lot 
+on every flop because if the person isn't check  
+raising these combos then everything could could 
+be different not to say you'd have to be different  
+but maybe you just go little along with your 
+normal strategy they don't check raise you  
+you keep that in mind and then you keep that in 
+mind for later streets too so I feel like there's  
+a different couple different ways to play play 
+around with that idea too yeah yeah definitely I  
+think you I mean you're you're going to be hitting 
+me with a seven a 18 I mean I don't know like the  
+better players they're gonna give you four sizes 
+like what are you gonna do now buddy you know like  
+I don't I don't I'm definitely going for the now 
+that I've seen the 18 big blind check Ray I mean  
+I I think I think you know Prime practiced Kevin 
+would have would have found the Gigan ANC check  
+R here um and I think this is you know just just 
+to just because I want to show it and because I I  
+think that it's um it's a good strategy to learn 
+like you can see how quickly this this type of  
+huge check raise gets dangerous um because I I you 
+know I zoom in right here right you've got you've  
+got a heads up game where you're facing one bet 
+and one raise and you're and you're folding top  
+pair top pair yeah um it's it's hard for it's hard 
+for people to um combat these kind of strategies  
+so once you know that they're valid once you know 
+that they're close um I say like get good at them  
+quick and and start putting them out there yeah 
+I mean this is this is dangerous when you're  
+the caller because if I call here with the seven 
+most sevens are going to have back door straight  
+back door flush draws I'm imagining so you got 
+to be disciplined with your top pairs because  
+I've noticed if you call with the threshold top 
+pairs here you got to fold those potentially on  
+the turn if you do face more aggression as well 
+too so you have to be even if you do call here and  
+you're hitting the right node you still have to be 
+very disciplined on the turn then you get to the  
+river I mean this is like this is one of the most 
+dangerous spots is and I feel like you can really  
+exploit like hypothetically let's say you only 
+take this big size with your value hands and you  
+necessarily aren't bluffing as much therefore they 
+should actually fold even more but they're calling  
+because they think that you are bluffing them a 
+little bit more often than not then you basically  
+can own them on the Charan River because you don't 
+have many Bluffs and even if you do look here and  
+you make it a higher calling range a little bit 
+by by them and say okay they're not calling all  
+these you know sevens and stuff like that then I 
+found that the def the strategy as the check Razer  
+is you are so value heavy on turn and river that 
+and most you know so most people aren't adjusting  
+this is like the whole I was studying this the 
+other day and my mind was kind of exploding  
+looking looking at all the possibilities so um 
+this is kind of fresh on When I Was preparing  
+through the drills yeah yeah I was going to say 
+like using this is this is a great opportunity  
+to use the trainer again not necessar to practice 
+like exactly against this huge size because maybe  
+you don't see this kind of play so often um but 
+just putting yourself in the scenario where you're  
+facing counter aggression and like practicing 
+your your defense um cuz I think that those Less  
+Traveled parts of the the game tree you know like 
+oh I bet and I faced a raay uh are open for these  
+like pretty big gaps between uh the correct amount 
+of defense and like what would be intuitive to you  
+even even against the more normal sizes I think 
+there's just like some misjudgments that are quite  
+easy to make and the mistakes you know the I I was 
+saying the EV mistakes that you can make when seab  
+betting are not large at all but as soon as we're 
+talking about facing check Rays you can you can  
+make some big EV mistakes right away um and what 
+you're talking about is how they compound street  
+over street right so it gets really important 
+to um to just put reps in in those things yeah I  
+mean this is why I would just fold if a guy check 
+raised me really big I'm probably not calling with  
+all those off three cards I'm probably not calling 
+with all the Jacks like I'm probably over folding  
+versus big check rise here which means that 
+obviously you can just check raise me with more  
+of the I think it's I think it's the Bluffs right 
+you basically to check raise me with more of the  
+Bluffs the Bluffs are probably going to come from 
+the double back door range or may maybe um I guess  
+you probably don't want to havean you really don't 
+want to have sevens then because you're going to  
+that's one if they're folding sevens and they're 
+folding Jacks then you maybe want to reverse block  
+the seven and back which could be a hand that they 
+would fold and they are going to be mixing that  
+with with that size in the Flop too yeah I would 
+actually so this is a case where I would argue and  
+we we're really getting into the nitty-gritty 
+of like where to do which blocker application  
+but but here this is a a a huge bet and because 
+it's a huge bet the impact of of you not having  
+the top of your range is going to matter a lot 
+more than the impact of you having the bottom  
+of your range like you're going to have you're 
+going to have a bad hand most of the time does  
+really matter what my two cards are like you're 
+usually just going to have a bad hand and when  
+I'm using a strategy that generates 70% folds in 
+theory I can kind of count on you having a bad  
+hand like almost no matter what my cards are but 
+what I'm really hoping is you don't have one of  
+your best hands right so I really don't want you 
+to have two pair I really don't want you to have  
+Ace King um so I would think that if I know that 
+you're just like playing you're you're kind of nut  
+pedaling like waiting for the top of your range I 
+would take everything that blocks the top of your  
+range and always always raise like everything 
+that has a seven always raise everything that  
+has a king always raise everything that has a jack 
+always raise right and that and that way I'm kind  
+of like I'm taking all the hands that are kind 
+of re a jack might be taking it too far I don't  
+know how bad is a jack raising in theory yeah we 
+lose like half a big blind racing a Jack in theory  
+maybe that's too far but I think the point is is 
+clear like every time I have one of those premium  
+blockers um and a valid raising candidate yeah 
+you use the premium blocker because we're we're  
+using such a large size now the premium blocker 
+has has more impact on the situation wow yeah I  
+mean we could talk about that we are into the 
+weeds here okay so let's say hypothetically we  
+I mean let's say hypothetically big blind calls 
+here and then which is kind of going to be you  
+know the most case scenario and then we go to 
+the turn and maybe we can play a handout in the  
+singer race format and then kind of just talk a 
+little about turn and River too because obviously  
+those are those are pretty important parts of of 
+knowing when to continue and what Combos and and  
+everything like that and here it's just giving 
+you that real polar or I guess that a position  
+yeah even in position wow still yeah it's giving 
+you a super polarized strategy on the turn 200%  
+pot with top of range and with a bunch of hands 
+I'm assuming that it's going to be all gut shots  
+it's going to be your flush straws it's going to 
+be any 89 34 46 910 those will probably be hands  
+that have what I've noticed hands that have 
+Equity if they do potentially get called and  
+also there is some with that that they might have 
+like a future blocker it's kind of weird maybe you  
+can explain this concept because I feel like the 
+best Barrel cards on the turn sometimes have the  
+worst blockers to Bluff with on the river and 
+other times the best Barrel cards in the turret  
+end up having the best blockers to also Bluff 
+with on the river occasionally too and being able  
+to identify that is like the light bulb moment in 
+knowing okay here's when to because I didn't know  
+anything I was like bluffing like i' bet over bet 
+here king queen diamonds and I'd Bluff the river  
+and i''d be like no do that I'm like why the H 
+would I not Bluff king queen doesn't make sense I  
+block Ace King I blocked Ace Queen like I but then 
+I started to realize what how this worked a little  
+bit deeper and I was like oh actually that's you 
+know those are those are the hands you want your  
+opponent to have you want him to have Queen 10 you 
+want him to have King 10 you want him to have a 10  
+a 10 specifically you don't not want to have a 10 
+here if you're going up BL off the river but a 10  
+on the turn is actually a good card because then 
+it's going to take away some of their continuing  
+hands as well and it also blocks some of their 
+strong Pairs and second pairs too so is there  
+is there a name for that or is that is that is 
+that just I don't know yeah I mean you're you're  
+getting into some good stuff I think like I think 
+what's important to th this is this is going to  
+be another situation I guess where I say that we 
+want to like track where the folds are coming from  
+um but I think it's a good opportunity to connect 
+it to uh the pre-op range actually so like this  
+this point so you know let's just set the stage 
+a little bit we're at we're at the turn we have  
+a double barrel opportunity um and on these blank 
+turns a lot of times what we see is the geometric  
+sizing that lets us get all in on the river so 
+same bet size on the turn same bet size on the  
+river um by the way we're talking a lot of Poker 
+math and and we meant to suggest that for if if  
+anything that we're talking about you know minimum 
+defense geometric sizing if any of this feels too  
+advanced uh amazing video from tombos uh on the 
+GTO wizard YouTube uh I believe it was called  
+poker math is that right poker math everyone needs 
+to know the best video like I said the best video  
+that I this actually made me want to work with GTO 
+wizard when I watched that video I was like dude  
+I got to talk to this guy he's the man he's he's 
+cooking in that video so I gotta yeah I mean yeah  
+that video is pretty great so yeah so just because 
+I won't be able to do it justice the same way that  
+he does um I'm not going to get into all the weeds 
+but the large bet size here the extremely large  
+bet size that we're seeing suggested for the turn 
+um is a geometric two Street size uh even though  
+it's a big bet and I was kind of just talking 
+about how you know when you when you use big bets  
+um you want to have those premium blockers uh you 
+also do want to pay attention to what's folding  
+and a big part of the let's call it the check call 
+check fold range on this board um is going to be  
+the likeed straight draws and not only theed 
+straight draws but also like bottom pair and  
+second pair right so I'm I'm naming a lot of hands 
+but once we're betting this big I mean it may be  
+just easier to show the response because this is 
+where all of the impact is coming from we're we're  
+folding out two-thirds of the range bed is huge 
+so the folding percentage is huge um but every  
+Ace is going to continue so a bunch of jacks are 
+going to fold bunch of sevens are going to fold a  
+bunch of my RRS are going to fold the only stuff 
+that continues has diamonds or an Ace and like a  
+few random things in between um but what I always 
+emphasize if we're if we're trying to track ranges  
+and we're trying to pay attention to where the 
+folds are coming from I don't just mean like  
+name individual hands I mean where's the volume of 
+folds coming from right this area right here this  
+is so many combos like there's other folds on this 
+board obviously but Queen six suited like this  
+looks like it's important and it's not because 
+it's two combos right so it it it doesn't really  
+have the same sort of impact that I mean what is 
+this the King High alone are like 40 combos so  
+there's there's an enormous weight on this part of 
+the range over here um and we can pretty quickly  
+see that this part of the range over here is like 
+two cards from King through eight basically King  
+through seven I guess we're not going to blow with 
+the seven Seven's a good hand but two cards from  
+from King through eight right um so these are the 
+cards we don't want when we're bluffing basically  
+wow um so our indicators okay so let's let's take 
+it back to small blind so if I'm in the small  
+blind my indicator is I want to reverse block what 
+they're going to be folding I guess would be a way  
+to say it so in this situation we can now look at 
+our strategy and we are not betting with a lot of  
+Kings we're not betting with a lot of Queens we're 
+actually not betting with the gut shot so my so  
+this is actually something I've been [ __ ] up 
+with then lately is I would Auto gut shot better  
+gut shot here probably even if I especially if 
+I had one Diamond if I had one Diamond I would  
+definitely bet King 10 of diamonds off suit I'm 
+definitely betting that hand 10 of diamonds I'm  
+definitely I'm over bluffing this turn definitely 
+then because I we haven't really thought about  
+that that part is really interesting because 
+and there's this particular board like there's  
+other gut shots right like there's there's these 
+down here as well so on on this particular board  
+like it's it's it's may be hard even even these 
+hands here like these are these are draws that are  
+bluffing a ton so th this I guess is what I mean 
+where there's like there's just so many hands and  
+heads up to say like the gut shots like it's just 
+that's just too many hands to like make about that  
+right yeah I think I think what you're probably 
+getting wrong and this is going to reflect what  
+a lot of people are getting wrong coming from 
+from six Max is they're viewing categories like  
+they're not used to having such a wide variety 
+of gut shots or a wide variety of flush draws so  
+they're forgetting that high gut shots and middle 
+gut shots and low gut shots all have kind of their  
+distinct properties right they're distinct ways 
+of interacting with this board so I wouldn't view  
+you know King 10 Queen 10 109 the same way that I 
+would view 63 96 uh 84 right like the low the low  
+gut shots are really premium bluffing candidates 
+the high gut shots not not so much yeah I see that  
+makes that makes a lot of sense a lot of sense I 
+see what you're saying I like what you said about  
+reverse blocking the hands that we most want them 
+to fold so when I'm looking to say okay what are  
+they going to fold what do they have the most 
+combos of a folding and then looking at my hand  
+and saying okay well what properties does my hand 
+have compared to that range and then using that  
+especially in these polarized sizes I mean that's 
+so helpful right there yeah that's that's that's  
+that's crazy okay that's interesting think about 
+so here we're basically just splitting it up with  
+our draws and top of range hands that can improve 
+hands that can Bluff the river and then and then  
+yeah I mean that make that makes sense to me 
+yeah you talked a little about like having a  
+future blocker um and there's some examples of 
+that like you you can see a hand like Queen of  
+Diamonds 4 Queen of Diamonds 3 right you've got 
+that like like sing Single high card single low  
+card a little bit of interaction going on um um so 
+yeah you have kind of both good things happening  
+here like not so much interaction with the folds 
+but also the chance to have a really good Blocker  
+on the river um yeah so maybe Queen of Diamonds 4 
+you know we can this this kind of teases our way  
+to the river but like maybe Queen of Diamonds 4 
+is going to Bluff always on the turn because it  
+has really good turn interaction but on the river 
+it's going to depend what comes like if we get you  
+know the I would expect we'll see if I'm right 
+i' would expect when we get the low card that  
+misses the diamonds we shut it down right we're 
+not so excited about these blockers anymore we've  
+got the other stuff we've got the total brick 
+hands but we get something that connects with  
+the board something like the eight of diamonds 
+looks like we can't have Bluffs anymore and now  
+we have the single Queen of Diamonds to run the 
+bluff so there's there's a little bit of there's  
+a little bit of that Variety in the bluffing range 
+like you were getting at and now we don't have to  
+take a hand so many people feel obligated they'll 
+River um they'll River the eight right and maybe  
+sometimes this does bet but like they'll River the 
+eight and they'll feel this obligation like oh how  
+can I ever have a bluff here like all I ever do is 
+Bluff gut shots and straight draws and flush draws  
+and everything just completed and well there in 
+lies the problem I suppose um but if you have that  
+good distribution to your range you don't need to 
+make that that crazy Bluff on the end um you've  
+just you've got combos that are prepared exactly 
+for this I see I see that makes a lot of sense you  
+gota be very disciplined on the river that's 
+what I've noticed here is you got to be very  
+because I might end up with that Douce on the 
+river with the queen four and say close my eyes  
+and say my prayers because I got Queen High I 
+got sausage in my hand I got one blocker with the  
+deuce and uh you know the queen I know the yeah 
+that's I wouldn't feel good about it but yeah yeah  
+feel good about it you do need to be disciplined 
+I I have um I've done a number of seminars uh kind  
+of like crash course into heads up and I like 
+to lead it off with with basically like uh the  
+thing that always happens to everyone in heads up 
+is your range is weaker than you think so you're  
+always bluffing more than you're supposed to and 
+you're never calling as much as you're supposed to  
+this is like everyone comes to heads up and this 
+is what happens right they they don't realize how  
+weak the range is in every spot so they Bluff too 
+much and they don't realize how weak the range is  
+in every spot so they fold too much and this is 
+you know so the the person who Bluffs too much I  
+guess ends up winning because the other person 
+folds too much and it doesn't end up mattering  
+uh but this is a very normal outcome right this is 
+it's it's exactly what the ranges lead us to do if  
+if we don't kind of go into the the weeds here and 
+figure out the way you're supposed to sort through  
+everything so so on this River our Bluffs would be 
+diamonds and sixes and that's probably it the the  
+hand has to probably either have maybe both they 
+have to have a diamond at least one diamond in it  
+or a six yeah if I or 910 maybe I don't know if a 
+nine or 10 matter I don't know if we gonna I mean  
+so we're gonna have some some um you know maybe 
+like 8 n 810 not not very many combos I guess  
+though too so here yeah so here I've I've clicked 
+on the 0o to 25% Equity hand so you can see all  
+the stuff that's that's continuing um and yeah I 
+guess there's like the very rare you know absolute  
+nothing hand that's getting here and bluffing um 
+but I would say for the most part you're right  
+like you want to that you want to have that um 
+interaction with the board we're using a big bet  
+size again now the range has narrowed a lot so 
+you know having value removal is quite important  
+um so the the hands that have a six seem to be 
+doing great um here we probably got the nine  
+of diamonds yeah we you know we've got these 
+key blocker hands we got the nine of diamonds  
+so we're choosing to Bluff we've got the queen of 
+diamonds so we're choosing to Bluff we've got the  
+king of diamonds so we're choosing to Bluff right 
+just the mostly it's those key blockers I see I  
+I call I've been calling them power blockers and 
+because in in PLO like future blockers is one of  
+the most important Concepts and I don't hear many 
+people talk about it and uh there's like the power  
+blocker the power blocker is something that blocks 
+like three hands you know that might be like a nut  
+flush Blocker on some boards so here it's like 
+an eight of diamonds uh a six of diamonds you  
+know those to me are nine of diamonds here is real 
+power blockers you're blocking 910 you're blocking  
+69ine you're blocking flushes so that would be 
+something I might consider like my best blocker  
+to have here and if if I have that blocker I'm I'm 
+basically always bluffing Because unless I have a  
+straight then I'm betting for Value but that would 
+be kind of like a basic way I would might think  
+about it yeah yeah that's really like and it and 
+it goes back to what we've been talking about but  
+just to like Drive the point home you know when 
+stuff completes like the like the Ada diamonds we  
+were just looking at a lot of times I am thinking 
+about how do I how do I interact with the stuff  
+that that just got there right how do I make sure 
+that my opponent doesn't have the stuff that just  
+got there but when it's a nothing card when it's 
+like a a total blank kind of have the opposite  
+mindset it's like well how can I make sure that 
+my opponent got here with trash like what what are  
+what's like the weakest way that my opponent could 
+have gotten here well I guess if they had you know  
+a combo draw right if they had 7x diamonds uh 
+whatever 10 eight of diamonds or queen 10 of  
+diamonds or something like that um some of those 
+hands are going to three bet pre but but you get  
+the idea so now it's like you know I would expect 
+the the zero Equity hands to just be like nothing  
+nothing hands right we we even give up with you 
+know give up with 10 n of diamonds give up with  
+98 of diamonds fire it through with 64 but we're 
+conservative when we have the diamond fire it  
+through with 86 but we're conservative when we 
+have the diamond um and always fire it through  
+when we don't have the diamond and then is there 
+so would you bet would you ever do that same thing  
+you did on the turn where you might look at what 
+they're folding when we bet and then you might  
+say okay well we don't have those those combos 
+so those are like our first we want at to Bluff  
+exactly yeah it does get a little you know it's 
+it's going to be a little more restricted here I  
+think because now we're mostly dealing with 
+suited hands and and ASX combos um so I do  
+I do think it's a little harder to to execute on 
+that other than just recognizing like what are the  
+lowest what are the lowest Equity hands in this 
+range so this is another good you know spot to  
+just like switch over to equity View and see like 
+where you know where are all of the whatever 0 to  
+20% or 0 to 25 % hands um because those hands 
+are very unlikely to call and if there's any  
+commonality here it's not showing up here but all 
+I would have to do is exclude diamonds for you to  
+see oh a bunch of stuff just disappeared um so we 
+we're focused on the diamonds for sure so you know  
+let's include diamonds perfect so you can see 
+there's just a ton of ton of folding happening  
+from the diamonds 80% of diamonds um whereas 
+if we uncheck diamonds it's only 43% of hands  
+so we have a pretty clear impact there see that's 
+why you didn't want to walk the diamond because  
+you want them to have maximize the chance that 
+they have the diamond and they're going to fold  
+exactly yeah got it that makes a lot of sense that 
+makes a lot of sense yeah that's crazy and then  
+also you mentioned before with the trainer you can 
+basically put these in the trainer if you didn't  
+edit the sizes you could simulate theoretically 
+all these as well too which is I mean this this  
+is like the coolest thing to me because if I find 
+I don't know how to play I just go the trainer and  
+I just run through that spot a bunch and and um 
+and yeah I just get better at it that I mean yeah  
+this is this is pretty interesting yeah I'll show 
+you um I'll show you one quick trick that I like  
+with the trainer for these types of situations 
+yeah so here like something something I think  
+that gets uh looked over in the settings of the 
+drills is that you can filter particular types of  
+boards but not only can you like filter the board 
+you can filter the run out so what I going to say  
+is like we've been talking about the difference 
+in barreling Rivers where it completes versus  
+Rivers where it doesn't complete right so you can 
+you can set right now I have the board filled out  
+to include the river but like let's say we were 
+starting from the turn I could tell it that the  
+river is going to complete the flush or I could 
+tell it that the river is not going to complete  
+the flush right so I can change the filtering 
+of what rivers I'm going to be dealt so that I  
+can practice how to play my range in like blocked 
+fashion like always the draw is always going to  
+come in and then you practice a of that and then 
+take a break and maybe do another block where the  
+draw is never coming in and I think that's going 
+to give you a better um it's going to give you  
+better focus on like finding the patterns of what 
+hands are giving up what hands are bluffing right  
+it's going to be a lot easier to track that when 
+you're seeing 50 in a row of flush always coming  
+in or 50 in a row of whatever like a a board pair 
+right if you're looking for patterns in those kind  
+of particular runouts um and you can do that from 
+the turn as well I need to write that down I mean  
+that's you I've never done this before that's 
+actually a really really phenomenal idea just  
+to help you understand wow that's a really good 
+idea I love that idea a lot yeah I've never done  
+that before nice yeah that that's true because 
+it would give you because sometimes you might I  
+I mean not for me right I might play a hand in the 
+trainer and I might not okay I Bluff this card but  
+just practicing all the car I mean that's actually 
+a really sick idea I'm going to start doing that  
+nice so I want to give some examples just of the 
+ways that you can use the trainer to work on the  
+stuff that that Joe and I have been talking about 
+here um as you can see there's a million ways to  
+set up targeted stuff for heads of cache or for 
+any format really um any two-player situation in  
+the trainer uh but a few ideas from specifically 
+the situations we've been talking about one thing  
+that I think is really important for anyone who's 
+getting into the game uh is to work on how they're  
+facing seats um so just practicing being in the 
+big blind practicing facing um different sizes  
+of seats I have a couple different ones here that 
+are labeled like facing and called I'll just show  
+what those two mean so first facing CET is just a 
+drill that's set up where you're starting from the  
+point where you've called the big blind you've 
+checked the Flop and you're facing a small size  
+uh you you got to pick the size to make sure that 
+you're facing aggression if you just set it up so  
+that you go to the Flop and you're playing in 
+the big blind you're going to play a bunch of  
+spots where it just goes check check and then 
+we'll hand over no fun um so I like to set up  
+different drills for different sizes and I 
+think the small size is the most important  
+one to train CU it's the one you see the most 
+often so I think this is just like a no-brainer  
+practice on facing the small C bet you can get 
+deal all sorts of boards or you could even throw  
+on filters for which boards you want to see um 
+the other one there that I was showing was for  
+uh having called that small seab bet and all 
+that means is we're skipping straight ahead  
+to the turn now we know that we're like we had a 
+drill that was just the Flop and we only played  
+the Flop Street and I like to isolate that and get 
+really really good at that then I have a separate  
+Dr where I've already called now I'm playing the 
+rest of the hand now I need to get good at what  
+comes next right I I need to get good at all the 
+different variables and I I don't like to be too  
+prescriptive past the Flop I think just having a 
+drill where you get really really good at the Flop  
+and then a drill where you practice the rest of 
+the hand from there uh is a good way to break it  
+up so that you like you know you get exposure to 
+everything but you get extremely good at the thing  
+you're seeing the most often and then you get that 
+flexible knowledge on the rest of the hand mhm  
+that makes sense yeah I I really like this drill 
+when you sent it to me where where basically we  
+bet they call and then we got to decide to Barrel 
+or check back and then play the play the rest of  
+the hand out yeah that that one help me to really 
+understand my turn a little bit better and um yeah  
+just got to put more put more volume in that one 
+yeah so here's exactly what you're talking about  
+Joey like we have basically I have it set up so 
+that you get the chance to practice everything  
+that happens after you've see be the Flop so now 
+we're playing from in position we already see be  
+the Flop we need to figure out how to play the 
+rest of the hand you can build different drills  
+for different flop actions you could have a drill 
+where it's like okay I bet 25% I got called now  
+what this is going to be different from I bet 67% 
+I got called now what right so depending on what  
+the Flop action was you're going to have different 
+outcomes on future streets and again this is one  
+of those things that like it just gets overlooked 
+and people forget that the way that the rest of  
+the hand is going to play out is significantly 
+different based on the BET sizing changing  
+um so you just get you know whatever CET size 
+it is that you're using whatever size you've  
+practiced whatever size you're using the most 
+often um put that in here directly that's why  
+it's customizable and then everything that happens 
+from the turn onward is far more realistic that  
+makes a lot of sense yeah this is this is one of 
+the drills I'm I've been going to start doing more  
+of too so would those be the main two you suggest 
+I mean I would suggest the pre- Flop drill as well  
+too so that way people who don't even know pre 
+flop can just work out their pre- flop as well  
+but I think these two post flop singer race 
+pot drills are a good way to get started if  
+out anyone out there wants to learn how to get 
+better at this one yeah definitely yeah I think  
+the pre- Flop one is great um I don't even have 
+that one saved because it's so simple to set up  
+right like you literally just have any new custom 
+solution starting from pre flop it's going to be a  
+heads up solution so just starting from the first 
+I'll show you the whole process starting from that  
+first node that we had in the pre-f Flop solution 
+when you have your pre- flop setup just practice  
+the spot and it'll take you right there yeah 
+that's exactly what I do I practice in position  
+out of position calling three bets four betting 
+and both from both positions so I've just done  
+that I've done that probably 10 10 10,000 times 
+plus for you know for all these different spot not  
+every spot but most of the spots so well I played 
+so many hands I guess every hand you face that  
+so a lot of the trainers they just tell you right 
+away if you raised a bad hand then it doesn't let  
+you actually doesn't even let you raise that hand 
+so you naturally practice that if you just play  
+a lot of hands so yeah cool yeah that's awesome 
+I appre appreciate the the drills the ideas the  
+takeaways I'm definitely going to have to go back 
+and and watch it watch this video again and for  
+my own self and um yeah I've been learning a lot I 
+appreciate it sweet I'm glad all right hey guys uh  
+thanks for watching me and Kevin go over Heads Up 
+N at holdom if you want to check out another video  
+like this one we talked about poker poker math 
+every player needs to know we highly suggest you  
+check that out link will be in the description 
+hope you enjoyed let us know what you thought  
+below give us any comments feedback input and uh 
+we'll be talking with you so let us know [Music]

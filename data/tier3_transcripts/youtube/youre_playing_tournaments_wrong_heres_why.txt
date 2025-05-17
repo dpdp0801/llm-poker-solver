@@ -1,0 +1,664 @@
+you're playing tournaments wrong and
+here's why
+back in the day we started off with Huds
+push fold charts simple calculators and
+guesswork and then we created solvers
+but it was impossible to solve ICM for
+large field mdts so we used chip EV
+simulations instead now recently we've
+developed the technology to calculate
+ICM strategies for large field MTT
+scenarios this begs one important
+question though at what point the
+tournament does ICM become significant
+when should you switch
+we ran an experiment to find out
+first of all what is the independent
+chip model at its core ICM just
+translates the value of a stack from
+chips to Dollars and this is important
+because it impacts every one of your
+tournament decisions you see it's not a
+one-to-one ratio ICM essentially looks
+at the size of each stack in a
+tournament and figures out how often
+each stack will place first second third
+fourth and so on it has no preconceived
+notions of player edges or strategy or
+positions it's just a placement
+probability formula
+the fundamental difference between an
+ICM calculation and a chip EV
+calculation is that chip EV seeks to
+maximize chips whereas ICM seeks to
+maximize dollars these two goals do not
+always align the fundamental trade-off
+of ICM is that it sometimes sacrifices
+chips to win more money and this is
+because a concept called risk premium
+sometimes in mtts survival is worth more
+than maximizing chips so it can be worth
+avoiding marginal spots to survive
+longer
+and this formula was invented in 1987 by
+Mason malmoth originally derived from
+Harville who used it for horse racing
+despite its age it took us over 35 years
+to fully utilize it the reason for this
+is that the original ICM calculation is
+recursive and this means that as you add
+more and more players it becomes more
+and more difficult to calculate it so if
+you had a tournament with thousands of
+players it was almost impossible to
+calculate ICM that was until recently we
+teamed up with Helm of Melcher developer
+of Holdem resources calculator to run an
+experiment you see HRC has developed
+technology to calculate ICM with
+hundreds or thousands of players
+remaining instantaneously so we wanted
+to see at what point should you switch
+from Chip EV solutions to ICM Solutions
+at what point does this significantly
+impact your tournament results well
+let's find out so here's how we're going
+to set up this experiment we're going to
+run a 200 player MTT freeze out 15
+percent of the field is paid and you can
+see the payout structure on the right
+hand side in order to make this simple
+and fast it's going to be a push-fold
+tournament with where the big blind is
+always set to 1 7 of the average stack
+and the big blind will update every time
+a player is eliminated now remember our
+goal is to figure out when switching
+from Chip EV to ICM as a port so we're
+going to simulate six different types of
+strategies all playing in the same
+tournament and every player knows and
+adjusts to each other's strategy let's
+meet the contestants at the top we've
+got ICM 100 this is a pure ICM strategy
+that uses isim calculations from the
+get-go at the very bottom we've got cev
+95 to ICM final table now what does this
+mean
+well for example
+the cev25 to Isam 75 indicates that this
+player type uses a chip EV strategy
+until a quarter of the players in the
+tournament are eliminated at that point
+it will switch to an ICM strategy for
+the remaining 75 of the tournaments and
+so by testing these different strategy
+types we can see how well each strategy
+performs and figure out when it becomes
+significant to switch from Chip EV to
+ICM here are the results as you can see
+the pure ICM strategy at the top did the
+best winning a return on investment of
+3.3 percent so this means for every
+buy-in they entered they gained 3.3
+percent of that buy-in back on average
+at the very bottom we've got this chippy
+V slash Final Table strategy who is
+losing 13 of their buy-in and so the
+question is
+at what point does switching from ICM to
+chippyv become significant and it seems
+to start to drop off at around somewhere
+between 50 percent of the fields
+remaining to 37 percent of the field
+remaining
+now this game is a surprise to me
+because remember the bubble is at 15 yet
+we're seeing significant changes to the
+ROI even somewhere between 50 and 37. so
+this indicates that ICM impacts your
+strategy much sooner than most players
+previously thought here you can see the
+data in more detail on the left we see
+the strategy types followed by the
+return on investment and a 95 confidence
+interval we can see a steady drop off
+as the prism strategy dominates the
+field followed by a decreasing return on
+investment as it switches later and
+later if you want to see more
+information all of our graphs and all of
+these charts will be in an article
+detailed below check the description
+another way we can visualize the data is
+to graph the in the money placements by
+strategy so the pure ICM strategy at the
+top here
+places in the money 16.3 percent of the
+time and we can see a smooth progression
+down to the chip EV strategy at the
+bottom which is only placing in the
+money 10 of the time now keep in mind
+the Baseline probability with 15 percent
+of field paid would be to place in the
+money at least 15 percent of the time
+and we can see that
+it starts to decrease at around the
+25 percent of the field remaining Mark
+at that point players who haven't
+switched sooner are often going to end
+up placing in the money less often as
+compared to an ICM strategy that
+switches sooner each color along each of
+these rectangles represents the
+placement
+here we've detailed how often each
+placement will occur for each type of
+strategy so for example in this icm100
+column we can see how often they're
+busting and how often they're placing
+for example first second third fourth
+and so on something interesting occurs
+here we'll notice just how often the
+chippy v95 strategy on the right is
+busting 89 of the time as shown in the
+top right corner but something else I
+wanted to do with this data instead of
+just looking at the placement
+probability it was compare it to the
+Baseline probability so a baseline
+probability is just how often would some
+player place first if they you just
+picked a player out of a hat so the chip
+EV strategy for example is busting 5.2
+percent more often but they're also
+placing first more often and this
+actually makes sense this is what we
+expect because a chip EV strategy
+maximizes chips and according to ICM
+your probability of placing first is
+simply your chip portion in the
+tournament so this type of player plays
+too risky they aren't account for risk
+premium as a result they are placing
+less often but when they do hit a good
+run they are more likely to get first or
+second however that's not nearly enough
+to make up for all the EV they lose by
+not placing in other areas of the money
+conversely ICM 100 this pure ICM
+strategy is busting 1.5 percent less
+often and placing in the money overall
+much more often we can see that
+proportionally speaking they're much
+more likely to place in the money
+bubbles 16.3 percent of the time they're
+busting in 24 to 30 which means they're
+hanging on hanging on right until at
+least they get some payment and this is
+important because placing in the money
+more often indicates that you're going
+to increase your EV but there's always a
+trade-off between maximizing your stack
+and surviving
+lastly we can graph each of these
+placement probabilities according to how
+much money they make so
+here I've used a 100 buy-in and here's
+the expected value of different
+placements so for example ICM 100
+percent
+when they bust on average they're
+busting 83.69 at the time so they're
+losing 83.69 and we can see throughout
+this how often each player is going to
+win or lose and how much each placement
+impacts your value again the chip EV
+strategy is placing first or second more
+often but they're busting a lot more
+often and placing in those middling
+sections less often overall as well
+which overall results in them losing a
+lot of money so we see this smooth
+progression of expected value from the
+pure ICM strategy to the players that
+switch later in the tournament lastly by
+taking those expected value data points
+we've calculated earlier we can graph
+the in the money expected value by
+strategy and so here we can see how
+often and how much money you get from
+each placement and every strategy seems
+to follow a very similar line except for
+one the chip ev95 slash Final Table
+strategy is way off base placing
+everywhere less often busting more often
+and as a result for their work they are
+placing first and second more often but
+like I said not enough to make up for
+all the money they lost by overplaying
+their stack earlier in the tournament
+good science involves isolating
+variables and repeating your experiment
+so that's what we're going to do here
+instead of a 200 player phrase out we're
+going to simulate a 1000 player phase
+out to see how that impacts the results
+same setup as before six different
+strategies seven big blind average stack
+let's see how they did here we can see
+the return on investment by strategy for
+the 1000 field MTT and again a smooth
+progression from the pure ICM strategy
+down to the chippy V Final Table
+strategy and we can see it's losing
+quite a bit at the bottom and marginally
+winning at the top our question
+originally was at what point does
+switching make the most sense and here
+it seems that switching earlier in the
+event so 50 players remaining is
+approximately when it starts to impact
+your results to any significant degree
+we can see that the 37.5 percent
+strategy
+is winning quite a bit less often than
+the above strategies and the
+Quarterfield strategy is winning
+significantly less often half as often
+as the pricm strategy
+so I think this just reinforces the idea
+that you need to switch to an ICM
+solution much sooner in order to
+maximize your results again all of this
+data and all of these tables can be
+found in an article linked below check
+it out so here's the 1000 field MTT
+seven big blind pushfold 15 of the field
+paid and we can see the strategy return
+on investment and confidence intervals
+again we can graph the in the money
+placements by strategy we see the same
+smooth progression where the pure ICM
+strategy is just placing in the money
+more often Overall winning more money
+overall and as you go down down the very
+bottom the chippyv final table strategy
+is losing a lot more money overall we've
+graphed the expected value of different
+placements here this is for a 100 buy-in
+and at the very bottom we can see the
+total expected value given a 100 buy-in
+and we can see where that EV is coming
+from and I really like these charts
+despite them being kind of confused
+using to look at just because it's
+interesting to see where your expected
+value comes from in a tournament and a
+surprising amount of EV just comes from
+placing in the middle of the tournament
+just making it to the money rather than
+trying to go big or go home the strategy
+that does try to go big or go home is
+the chippy V Final Table strategy who is
+placing you know
+fourth third second first reasonably
+often but also busting a lot more often
+and losing a lot of money as a result of
+overplaying their stack again we've
+graphed those results here so each of
+these lines represents each strategy and
+the height of each line represents the
+expected value of each payout that the
+strategy gains and we could see one
+outlier which is of course the chip EV
+strategy the rest are following a very
+close progression it should be noted
+however that it's more difficult to see
+the difference between other lines when
+there's one player doing significantly
+worse because they make everything else
+look smaller in comparison
+next up let's try more strategies this
+experiment was run to a much lower
+sample size so there's more noise in the
+results but instead of six strategies
+we're going to simulate nine different
+types of strategies this one is run on a
+90 player MTT freeze out 13 players paid
+here we can see the results but it's
+better to look at these graphically we
+can see a smooth progression from ICM
+100 at the top and cev pure at the
+bottom so cvpirin never switches even on
+the final table they are still playing a
+pure CV strategy and losing a lot of
+money 17 of their buy-in is lost and we
+can see that the other strategies have
+actually increased their Roi and this is
+just basic whale Theory right more bad
+players in the tournament exist the
+higher your return on investment for the
+other more sound strategies now this one
+isn't quite as smooth for example we see
+that the ICM 62.5 strategy is winning
+slightly more often than some of the
+strategies above it but this is well
+within the margin of error as outlined
+in the table above you need a pretty big
+sample for these to converge but overall
+we see a very smooth progression players
+who are switching earlier in the
+tournaments are of course going to win
+more money
+for experiment four we're going to vary
+the stack depths of it so we'll use the
+same 90 field MTT frees out as before 13
+players pay but this time we're going to
+test three different tournaments one is
+going to have the big blind set to
+one-fifth the average stack so a five
+big blind push-fold event then we'll do
+a seven big blind push fold event and a
+10 big blind push Vault event and we'll
+compare the results for three different
+stack depths to see how that impacts the
+strategies first up here are the results
+for the five pick blind push-fold events
+so they're much shorter here and this
+will give us more variance in the
+results which is reflected in the
+confidence intervals on this graph and
+again we see the same smooth progression
+a bit more noise the pure ICM strategy
+of course winning the most and where it
+starts to really matter
+for this event is around the 37.5 maybe
+50 left Mark that's where the drop-off
+starts to begin next up we've got the
+seven big blind push fold event same
+smooth progression and the drop-off
+starts to begin somewhere between half
+the fields remaining and 37 of the
+fields remaining again keep in mind it's
+about 15 percent of the field played
+it's actually 13 players so not quite 15
+but pretty close
+you can see the same smooth progression
+a little bit more noise in the ROI
+distribution but same pattern overall
+lastly we have the 10 big blind pushfold
+event now 10 big blinds is inevitably
+going to play much tighter as a push
+fold strategy compared to five pick
+blinds
+and therefore there's going to be I
+think a little less noise in the results
+which is shown by the fact that icing 50
+through Isam 100 are all gaining the
+same Roi the drop-off begins somewhere
+between 50 and 37.5 percent players
+remaining and the chip EV slash Final
+Table strategy of course still losing
+horrendous amounts of money
+let's address a common misconception
+many players believe ICM assumes the
+tournament stops and is paid out after
+the calculation
+but this is not the case
+estimating the value of stacks is not
+the same thing as stopping a tournament
+imagine that you're looking at a cash
+game instead of a tournament and you
+want to figure out the expected value of
+some hand on the flop
+would you say that the hand stops after
+you've assigned an expected value to it
+no that's silly assigning a value to
+some hand or some stack does not assume
+that the hand or the tournament stops I
+think this misconception stems from the
+fact that ICM doesn't account for future
+positions which is where future game
+simulation comes into place so ICM has
+no preconceived notions of what the big
+blind will be next round or who's in
+position who's out of position it just
+looks at the value of stacks we can use
+future game simulation to resolve this
+and the way this works is by simulating
+one round and then another round and
+then another round and so on so for
+example if under the gun is very short
+stacked they're more likely to bust next
+round and therefore that can impact your
+strategy on the previous round similarly
+if for example the big blind is
+increasing next round that can change
+your decision on the current route but
+despite future game simulation and
+despite all of this ICM predicts
+placements accurately even when no
+player is aware of ICM and this is why
+it's often used to make deals at final
+tables but let me prove this to you let
+me prove that ICM works even when
+players aren't actually aware of the
+concept we're going to run another
+experiment two player groups one with
+Half Stack and one with full stacks and
+everyone is playing chip EB strategy so
+no player in this tournament is using an
+ICM strategy no one knows what that
+means they're just playing chip PV
+trying to get the most chips possible
+the big blind is 1 7 of the average
+stack same setup as experiment one so
+here we see the results for the Half
+Stack and full stack strategies and at
+the top we can see for example top two
+percent indicates how often
+each of these Stacks places in the top
+two percent of the tournament you can
+see the simulated results and icm's
+prediction just based on stack depth and
+we can see that they are identical in
+the top 15 percent this is in the money
+we can see some very small variation but
+overall ICM is extremely accurate in
+predicting how often half stacks and
+full Stacks will place in the money
+overall bottom row shows the expected
+value and we can see that ICM predicts
+the expected value of each stack size
+within 39 cents per 100 buy-in so
+extremely accurate despite the fact that
+no player is even aware of the concept
+of ICM it's still a good indicator of
+what your stack is worth
+so I should point out ICM is not the
+only tournament Equity formula there are
+other versions that are pretty good in
+fact helmuth Melcher explored a lot of
+these in an academic paper which I'm
+going to link in the description so here
+we're comparing how three different
+tournament Equity formulas do against a
+perfect strategy they figured out the
+perfect strategy using brute force and a
+lot of calculations which are not
+feasible for really any situation
+outside of an academic study so how well
+did the original ICM calculation that's
+Harville this first row here due against
+the perfect strategy well it lost about
+one percent of its buy-in on average
+which is actually pretty good next up
+we've got Weitzman which is a decent
+formula it's a slight Twist on the
+original ICM idea but it's losing 2.6
+2.7 percent of its buy-in and lastly
+we've got Robert's formula which is
+performing about as good as the original
+ICM formula it's stronger in some places
+weaker in others tends to do better
+against the perfect strategy but loses
+heads up against ICM so the question is
+why not switch to Robert's formula the
+thing is it's not as efficient ICM is
+one of the only tournament formulas we
+know which can be scaled to large field
+MTT events but it should be noted that
+ICM is not perfect it's not the only
+formula and it's not a hundred percent
+accurate given equal skill Edge but it
+is very very darn close if you want to
+explore this data more the paper is in
+the description like I said where they
+did a lot of other experiments comparing
+different tournament Equity models okay
+so I've shown you a lot of different
+charts and in numbers but the real
+question is how does it actually impact
+your strategy well lucky for you GTO
+wizard has MTT pre-flop solutions for
+many tournament stages ranging from
+final tables to the last three tables 25
+37 and 50 of the fields remaining so
+let's go and explore a few of these
+different tournament phases and compare
+how your strategy changes as the
+tournament progresses
+for this first example let's examine how
+low Jack's opening strategy changes as
+we progress through the tournament every
+player has a 20 big blind stack
+and you can see the tournament phase in
+the top left corner here we're looking
+at the chip EV Solutions
+here we see the same solution when 50 of
+the field remain so half the players
+have been eliminated
+here is 37 percent of the field
+remaining
+25 percent
+and the final table
+I'll go through that one more time and
+pay attention to what's happening in the
+range
+chip EV 50 37 25 final table
+interesting hey it's becoming more block
+or heavy more asex hands and fewer
+pocket pairs in suited connector tie
+pants so why is that
+as risk premium increases more of your
+EV is derived from stealing the blinds
+rather than post-flop play post flop
+implied odds decrease due to tightened
+stack-off conditions and a higher risk
+premium as a result these drawing hands
+are traded out for hands that block
+three bets and block calls instead
+and so that's why we see the shape of
+the range change
+for this next example let's examine how
+big blind's defending range changes
+facing the low Jack open so LoJack has
+opened two chips folds the big blind and
+here we see the strategy where 20 big
+blinds effective starting with the chip
+Evolution as shown in the top left
+corner
+when 50 of players remain we can see
+it's already much tighter there's
+already a fair amount of risk premium
+and a lot of these hands were very close
+to start with
+37 percent of players remain
+25 percent
+final table that is a drastic difference
+wow look at that one more time chip EV
+AP the players are gone
+37 for Maine 25 percent final table as
+you can see
+it gets much much tighter even halfway
+through a tournament so ICM clearly has
+a significant impact early on and you
+should be switching to ICM Sims sooner
+rather than later
+lastly let's examine how button strategy
+changes facing a small blind three bet
+this time we're 50 big blinds deep
+and again you can see the solution in
+the top left corner so button opens 2.1
+chips
+small blind three bets and here's how
+button responds lots of calling some
+jamming not a lot of folding
+all right how does their strategy change
+when 50 of the field remains well it's
+already much much tighter wow 37 percent
+25 percent
+final table
+that's an enormous difference we went
+from defending two-thirds of our range
+to one third of our range
+so even if you don't agree with my
+simple push-fold experiments that I was
+running earlier if you give a solver the
+option for complex post-flop play it's
+already going to play much tighter
+and much more conservatively
+even halfway through a tournament I
+think a lot of MTT Pros have been using
+chip PV simulations for the majority of
+stages throughout the tournament and
+it's only recently that we've gained the
+technology to calculate simulations for
+early and mid-stage tournament events
+that account for ICM
+let's summarize
+the goal of these experiments was to
+find out when ICM significantly impacts
+your results in a tournament when should
+you switch from Chip EV solutions to ICM
+Solutions
+we demonstrated that players who
+switched to ICM sooner consistently
+outperformed players who switched later
+we tested multiple structures and field
+sizes we tested multiple stack depths we
+demonstrated that ICM predicts
+placements even when no player is aware
+of the concept of ICM and lastly we
+demonstrated that silver strategies
+changed drastically even halfway through
+an MTT
+ICM appears to have a statistically
+significant impact on your results
+somewhere between 50 and 37 percent of
+the field remaining for a 15 payout
+structure at Hazard guess that The Sweet
+Spot is approximately three times the
+number of players who are paid but it
+might be the case that when you account
+for complex post flaw play The Sweet
+Spot occurs even well before that
+if you guys want to examine this
+experiment go check out the article Link
+in the description we've posted all of
+the tables and graphs there so you can
+go and scrutinize this
+if you want to run your own experiment I
+suggest you pick up a free trial of HRC
+the best ICM tool on the market
+you could pick up a free trial up until
+January 22nd and I'd like to give a big
+shout out to helmuth Melcher who helped
+me run these simulations and is also the
+developer of HRC
+if you have any questions post a comment
+down below or join our Discord
+anyway that's my video guys I hope you
+learned something new I hope you start
+using ICM and as always happy grinding

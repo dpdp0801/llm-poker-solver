@@ -1,1 +1,27 @@
-# LLM-GTO 
+# LLM-GTO
+
+GPT4 created solution for computing GTO (Game Theory Optimal) solutions for poker games.
+
+## Setup
+
+1. Install dependencies: 
+```bash
+./setup.sh
+```
+
+2. Set up Hugging Face Access Token:
+   - Create a Hugging Face account if you don't have one
+   - Generate an access token at https://huggingface.co/settings/tokens
+   - Copy `config.py.template` to `config.py` and add your token:
+     ```
+     HF_TOKEN = "your_huggingface_token_here"
+     ```
+   - Alternatively, set it as an environment variable:
+     ```bash
+     export HF_TOKEN="your_huggingface_token_here"
+     ```
+
+3. Run tests:
+```bash
+python run_solver_test.py  # full end-to-end test
+``` 

@@ -1,10 +1,7 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
-import sys
-import os
 
-# Add parent directory to path to import utils
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from utils import get_hf_token
+from llm_poker_solver.utils import get_hf_token
+
 
 def test_llama_load():
     token = get_hf_token()
@@ -13,5 +10,7 @@ def test_llama_load():
     model = AutoModelForCausalLM.from_pretrained(
         model_id, token=token, load_in_8bit=True, device_map="auto"
     )
-    out = model.generate(**tokenizer("hello", return_tensors="pt").to("mps"), max_new_tokens=1)
-    assert out.shape[1] == 2  # input + 1 generated token 
+    out = model.generate(
+        **tokenizer("hello", return_tensors="pt").to("cpu"), max_new_tokens=1
+    )
+    assert out.shape[1] == 2

@@ -93,13 +93,13 @@ def expand_range(desc: str) -> Set[str]:
     for part in [p.strip() for p in desc.split(",")]:
         if not part:
             continue
-        if "-" in part and "+" not in part:
+        if part.endswith("-"):
+            hands.update(_expand_minus(part[:-1]))
+        elif "-" in part and "+" not in part:
             start, end = part.split("-")
             hands.update(_expand_between(start.strip(), end.strip()))
         elif part.endswith("+"):
             hands.update(_expand_plus(part[:-1]))
-        elif part.endswith("-"):
-            hands.update(_expand_minus(part[:-1]))
         else:
             hands.add(part)
     return hands
@@ -285,6 +285,7 @@ class PreflopLookup:
             hero_position = acts[-1][0]
         hero_position = hero_position.upper()
 
+        # find the last action taken by the hero
         hero_index = None
         for i in range(len(acts) - 1, -1, -1):
             if acts[i][0] == hero_position:
@@ -294,13 +295,41 @@ class PreflopLookup:
         if hero_index is None:
             raise ValueError("Hero position not found in action string")
 
-        scenario, hero_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
+        last_index = len(acts) - 1
         hand = canonize_hand(hero_hand)
 
-        call_range = self.chart.get_range_combos(scenario, hero_pos) or set()
-        alt_action = "3bet" if scenario.endswith("call") else "4bet"
-        alt_scenario = scenario.rsplit(", ", 1)[0] + f", {alt_action}"
-        raise_range = self.chart.get_range_combos(alt_scenario, hero_pos) or set()
+        # Determine which villain action the hero must respond to
+        if hero_index < last_index:
+            decision_index = last_index
+        else:
+            decision_index = hero_index - 1
+
+        call_range: Set[str] = set()
+        raise_range: Set[str] = set()
+
+        if decision_index >= 0:
+            villain_act = acts[decision_index][1]
+
+            call_actions = acts[: decision_index + 1] + [(hero_position, "call")]
+            call_scenario, hero_pos, _ = self._scenario_for_actions(call_actions)
+            call_range = self.chart.get_range_combos(call_scenario, hero_pos) or set()
+
+            raise_map = {"raise": "3bet", "3bet": "4bet", "4bet": "allin"}
+            raise_act = raise_map.get(villain_act)
+            if raise_act is not None:
+                raise_actions = acts[: decision_index + 1] + [
+                    (hero_position, raise_act)
+                ]
+                raise_scenario, raise_pos, _ = self._scenario_for_actions(raise_actions)
+                raise_range = (
+                    self.chart.get_range_combos(raise_scenario, raise_pos) or set()
+                )
+        else:
+            # No villain action -> hero is opening the pot
+            scenario, hero_pos, _ = self._scenario_for_actions(
+                [(hero_position, "raise")]
+            )
+            raise_range = self.chart.get_range_combos(scenario, hero_pos) or set()
 
         in_call = hand in call_range
         in_raise = hand in raise_range

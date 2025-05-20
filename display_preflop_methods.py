@@ -12,45 +12,43 @@ import sys
 # Ensure src package is on the path
 sys.path.append(os.path.join(os.path.dirname(__file__), "src", "llm_poker_solver"))
 
-from preflop import PreflopLookup, canonize_hand, expand_range
-
-
-# ---------------------------------------------------------------------------
-# helper printing functions
-# ---------------------------------------------------------------------------
-
-
-def run_get_ranges_tests(lookup: PreflopLookup) -> None:
-    """Print ranges for a variety of action sequences."""
-
-    tests = [
-        ("UTG raise", None),
-        ("CO raise, BTN call", None),
-        ("CO raise, BTN call", "CO"),
-        ("CO raise, BTN 3bet", None),
-        ("CO raise, BTN 3bet", "CO"),
-        ("CO raise, BTN 3bet, CO call", "CO"),
-        ("BTN raise, SB 3bet, BTN 4bet", None),
-        ("BTN raise, SB 3bet, BTN 4bet", "SB"),
-    ]
-
-    print("=== get_ranges ===")
-    for action, hero in tests:
-        res = lookup.get_ranges(action, hero_position=hero)
-        print(f"Action: {action} | hero={hero or 'default'}")
-        print(f"  hero range   : {res.get('hero')}")
-        print(f"  villain range: {res.get('villain')}")
-        print("-" * 60)
-    print()
+from preflop import PreflopLookup
 
 
 def run_recommend_tests(lookup: PreflopLookup) -> None:
     """Print recommended actions for specific hands."""
 
     tests = [
-        ("CO raise, BTN 3bet", "AhKs", None),
+        ("UTG raise", "AhAd", None),
+        ("UTG raise", "7c2d", None),
+        ("CO raise", "QTo", None),
+        ("CO raise", "9c2c", None),
+        ("BTN raise", "KJo", None),
+        ("BTN raise", "8c2c", None),
+        ("SB raise", "A4o", None),
+        ("SB raise", "Q2o", None),
+        ("UTG raise, MP call", "JTs", "MP"),
+        ("UTG raise, MP call", "2c2d", "MP"),
+        ("UTG raise, MP 3bet", "AhKd", "MP"),
+        ("UTG raise, MP 3bet", "7h6h", "MP"),
+        ("MP raise, CO call", "6c5c", "CO"),
+        ("MP raise, CO call", "Ac2c", "CO"),
+        ("MP raise, CO 3bet", "AsJd", "CO"),
+        ("MP raise, CO 3bet", "9h8h", "CO"),
+        ("CO raise, BTN call", "AdJs", "BTN"),
+        ("CO raise, BTN call", "5c4c", "BTN"),
+        ("CO raise, BTN 3bet", "AhKd", "BTN"),
+        ("CO raise, BTN 3bet", "J9s", "BTN"),
+        ("BTN raise, SB call", "9d8d", "SB"),
+        ("BTN raise, SB call", "Q5s", "SB"),
+        ("BTN raise, SB 3bet", "AhKd", "SB"),
+        ("BTN raise, SB 3bet", "JTs", "SB"),
         ("CO raise, BTN 3bet", "AhKs", "CO"),
+        ("CO raise, BTN 3bet", "6c6d", "CO"),
         ("UTG raise, BTN 3bet", "9c9d", "UTG"),
+        ("UTG raise, BTN 3bet", "AsKs", "UTG"),
+        ("BTN raise, SB 3bet, BTN 4bet", "AsKs", "BTN"),
+        ("UTG raise, BTN 3bet, UTG 4bet, BTN allin", "KcKd", "UTG"),
     ]
 
     print("=== recommend ===")
@@ -60,24 +58,9 @@ def run_recommend_tests(lookup: PreflopLookup) -> None:
     print()
 
 
-def run_utils_tests() -> None:
-    """Show helper function behaviour."""
-
-    print("=== expand_range ===")
-    for text in ["AQs+", "KTo+", "TT+"]:
-        print(f"{text}: {sorted(expand_range(text))}")
-
-    print("\n=== canonize_hand ===")
-    for hand in ["AhKs", "AdKd", "AsKd"]:
-        print(f"{hand} -> {canonize_hand(hand)}")
-    print()
-
-
 def main() -> None:
     lookup = PreflopLookup()
-    run_get_ranges_tests(lookup)
     run_recommend_tests(lookup)
-    run_utils_tests()
 
 
 if __name__ == "__main__":

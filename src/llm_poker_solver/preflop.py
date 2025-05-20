@@ -285,6 +285,7 @@ class PreflopLookup:
             hero_position = acts[-1][0]
         hero_position = hero_position.upper()
 
+        # find last action from the hero in the sequence
         hero_index = None
         for i in range(len(acts) - 1, -1, -1):
             if acts[i][0] == hero_position:
@@ -294,13 +295,53 @@ class PreflopLookup:
         if hero_index is None:
             raise ValueError("Hero position not found in action string")
 
-        scenario, hero_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
+        last_index = len(acts) - 1
         hand = canonize_hand(hero_hand)
 
-        call_range = self.chart.get_range_combos(scenario, hero_pos) or set()
-        alt_action = "3bet" if scenario.endswith("call") else "4bet"
-        alt_scenario = scenario.rsplit(", ", 1)[0] + f", {alt_action}"
-        raise_range = self.chart.get_range_combos(alt_scenario, hero_pos) or set()
+        # Helper to compute a scenario with an additional hero action
+        def _scenario_with(act: str) -> Tuple[str, str]:
+            tmp = acts[: last_index + 1] + [(hero_position, act)]
+            scn, pos, _ = self._scenario_for_actions(tmp)
+            return scn, pos
+
+        if hero_index == last_index:
+            # hero was the last to act, so analyse that action directly
+            scenario, hero_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
+            call_range = self.chart.get_range_combos(scenario, hero_pos) or set()
+
+            next_act = {
+                "call": "3bet",
+                "raise": "3bet",
+                "3bet": "4bet",
+                "4bet": "allin",
+            }.get(acts[hero_index][1], None)
+
+            if next_act is not None:
+                alt_scenario, alt_pos = _scenario_with(next_act)
+                raise_range = (
+                    self.chart.get_range_combos(alt_scenario, alt_pos) or set()
+                )
+            else:
+                raise_range = set()
+        else:
+            # villain acted after hero; hero decision pending
+            villain_act = acts[last_index][1]
+            call_scenario, hero_pos = _scenario_with("call")
+            call_range = self.chart.get_range_combos(call_scenario, hero_pos) or set()
+
+            next_act = {
+                "raise": "3bet",
+                "3bet": "4bet",
+                "4bet": "allin",
+            }.get(villain_act, None)
+
+            if next_act is not None:
+                raise_scenario, raise_pos = _scenario_with(next_act)
+                raise_range = (
+                    self.chart.get_range_combos(raise_scenario, raise_pos) or set()
+                )
+            else:
+                raise_range = set()
 
         in_call = hand in call_range
         in_raise = hand in raise_range

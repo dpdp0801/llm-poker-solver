@@ -128,7 +128,7 @@ def _expand_plus(base: str) -> List[str]:
     suited = base[2] == 's'
     start = RANK_TO_INDEX[base[1]]
     high = RANK_TO_INDEX[prefix]
-    return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(start, high)] + [f"{prefix}{prefix}{'s' if suited else 'o'}"]
+    return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(start, high)]
 
 
 def _expand_minus(base: str) -> List[str]:
@@ -212,30 +212,69 @@ class PreflopLookup:
 
         raise ValueError('Unsupported action sequence')
 
-    def get_ranges(self, action: str) -> Dict[str, str]:
-        """Return hero and villain ranges as text for given action string."""
-        acts = parse_action_string(action)
-        scenario, hero_pos, villain_pos = self._scenario_for_actions(acts)
-        res: Dict[str, str] = {}
-        hero_range = self.chart.get_range_text(scenario, hero_pos)
-        if hero_range:
-            res['hero'] = hero_range
+    def get_ranges(self, action: str, hero_position: Optional[str] = None) -> Dict[str, str]:
+        """Return hero and villain ranges as text for given action string.
 
-        if len(acts) >= 2:
-            prev_pos, prev_act = acts[-2]
-            if prev_act == 'raise' and acts[-1][1] in {'call', '3bet'}:
-                villain_scenario = f'Cash, 100bb, 8-max, raise, {_normalize_position(prev_pos)}, {acts[-1][1]}'
-                res['villain'] = self.chart.get_range_text(villain_scenario, _normalize_position(prev_pos))
-            elif prev_act == '3bet' and acts[-1][1] in {'call', '4bet'}:
-                ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
-                villain_scenario = f'Cash, 100bb, 8-max, 3bet, {ip}, {prev_act}'
-                res['villain'] = self.chart.get_range_text(villain_scenario, _normalize_position(prev_pos))
+        Parameters
+        ----------
+        action:
+            Comma separated action string like ``"CO raise, BTN call"``.
+        hero_position:
+            Which seat the hero occupies. If ``None`` the last actor in the
+            action string is assumed to be the hero.
+        """
+
+        acts = parse_action_string(action)
+
+        if hero_position is None:
+            hero_position = acts[-1][0]
+        hero_position = hero_position.upper()
+
+        # locate the final action from the hero
+        hero_index = None
+        for i in range(len(acts) - 1, -1, -1):
+            if acts[i][0] == hero_position:
+                hero_index = i
+                break
+
+        if hero_index is None:
+            raise ValueError("Hero position not found in action string")
+
+        hero_scenario, hero_chart_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
+        res: Dict[str, str] = {}
+        hero_range = self.chart.get_range_text(hero_scenario, hero_chart_pos)
+        if hero_range:
+            res["hero"] = hero_range
+
+        if hero_index > 0:
+            villain_pos = acts[hero_index - 1][0]
+            villain_scenario, villain_chart_pos, _ = self._scenario_for_actions(acts[: hero_index])
+            villain_range = self.chart.get_range_text(villain_scenario, villain_chart_pos)
+            if villain_range:
+                res["villain"] = villain_range
+
         return res
 
-    def recommend(self, action: str, hero_hand: str) -> str:
+    def recommend(
+        self, action: str, hero_hand: str, hero_position: Optional[str] = None
+    ) -> str:
         """Return recommended action (fold/call/raise) for hero_hand."""
         acts = parse_action_string(action)
-        scenario, hero_pos, _ = self._scenario_for_actions(acts)
+
+        if hero_position is None:
+            hero_position = acts[-1][0]
+        hero_position = hero_position.upper()
+
+        hero_index = None
+        for i in range(len(acts) - 1, -1, -1):
+            if acts[i][0] == hero_position:
+                hero_index = i
+                break
+
+        if hero_index is None:
+            raise ValueError("Hero position not found in action string")
+
+        scenario, hero_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
         hand = canonize_hand(hero_hand)
 
         call_range = self.chart.get_range_combos(scenario, hero_pos) or set()

@@ -89,7 +89,7 @@ Cash, 100bb, 8-max, 4bet, OOP, allin
 KK, AKs, AKo
 
 Cash, 100bb, 8-max, 4bet, OOP, call
-AA, TT-QQ, ATs-AQs, A5s, KQs, JTs, 65s::{}
+AA, TT-QQ, ATs-AQs, A5s, KQs, JTs, 65s
 
 Cash, 100bb, 8-max, allin, IP, call
 JJ+, AKs, AKo

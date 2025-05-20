@@ -150,15 +150,32 @@ def canonize_hand(hand: str) -> str:
     """Convert raw cards like AhKs to range notation (AKs/AKo/KK)."""
     hand = hand.strip()
     if len(hand) == 2:
+        # Pair notation (e.g. "QQ")
         return hand.upper()
-    if len(hand) != 4:
-        raise ValueError(f"Invalid hand: {hand}")
-    r1, s1, r2, s2 = hand[0].upper(), hand[1].lower(), hand[2].upper(), hand[3].lower()
-    if r1 == r2:
-        return r1 + r2
-    ranks = sorted([r1, r2], key=lambda r: RANK_TO_INDEX[r], reverse=True)
-    suited = s1 == s2
-    return f"{ranks[0]}{ranks[1]}{'s' if suited else 'o'}"
+
+    if len(hand) == 3:
+        # Already canonical form like "AKs" or "JTo"
+        r1, r2, suited_flag = hand[0].upper(), hand[1].upper(), hand[2].lower()
+        if suited_flag not in {"s", "o"}:
+            raise ValueError(f"Invalid hand: {hand}")
+        ranks = sorted([r1, r2], key=lambda r: RANK_TO_INDEX[r], reverse=True)
+        return f"{ranks[0]}{ranks[1]}{suited_flag}"
+
+    if len(hand) == 4:
+        # Raw card notation (e.g. "AhKs")
+        r1, s1, r2, s2 = (
+            hand[0].upper(),
+            hand[1].lower(),
+            hand[2].upper(),
+            hand[3].lower(),
+        )
+        if r1 == r2:
+            return r1 + r2
+        ranks = sorted([r1, r2], key=lambda r: RANK_TO_INDEX[r], reverse=True)
+        suited = s1 == s2
+        return f"{ranks[0]}{ranks[1]}{'s' if suited else 'o'}"
+
+    raise ValueError(f"Invalid hand: {hand}")
 
 
 def parse_action_string(action: str) -> List[Tuple[str, str]]:

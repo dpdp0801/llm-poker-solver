@@ -50,7 +50,9 @@ class PreflopChart:
 
     def __init__(self, path: Optional[str] = None) -> None:
         if path is None:
-            path = os.path.join(os.path.dirname(__file__), "..", "..", "solver", "preflop_chart.txt")
+            path = os.path.join(
+                os.path.dirname(__file__), "..", "..", "solver", "preflop_chart.txt"
+            )
         self.scenarios = self._parse_chart(path)
 
     @staticmethod
@@ -88,15 +90,15 @@ class PreflopChart:
 def expand_range(desc: str) -> Set[str]:
     """Expand a range description into a set of hand notations."""
     hands: Set[str] = set()
-    for part in [p.strip() for p in desc.split(',')]:
+    for part in [p.strip() for p in desc.split(",")]:
         if not part:
             continue
-        if '-' in part and '+' not in part:
-            start, end = part.split('-')
+        if "-" in part and "+" not in part:
+            start, end = part.split("-")
             hands.update(_expand_between(start.strip(), end.strip()))
-        elif part.endswith('+'):
+        elif part.endswith("+"):
             hands.update(_expand_plus(part[:-1]))
-        elif part.endswith('-'):
+        elif part.endswith("-"):
             hands.update(_expand_minus(part[:-1]))
         else:
             hands.add(part)
@@ -113,11 +115,14 @@ def _expand_between(start: str, end: str) -> List[str]:
         return [RANKS[i] * 2 for i in range(i_start, i_end + step, step)]
     else:
         prefix = start[0]
-        suited = start.endswith('s')
+        suited = start.endswith("s")
         i_start = RANK_TO_INDEX[start[1]]
         i_end = RANK_TO_INDEX[end[1]]
         step = 1 if i_start <= i_end else -1
-        return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(i_start, i_end + step, step)]
+        return [
+            f"{prefix}{RANKS[i]}{'s' if suited else 'o'}"
+            for i in range(i_start, i_end + step, step)
+        ]
 
 
 def _expand_plus(base: str) -> List[str]:
@@ -125,7 +130,7 @@ def _expand_plus(base: str) -> List[str]:
         i_start = RANK_TO_INDEX[base[0]]
         return [RANKS[i] * 2 for i in range(i_start, len(RANKS))]
     prefix = base[0]
-    suited = base[2] == 's'
+    suited = base[2] == "s"
     start = RANK_TO_INDEX[base[1]]
     high = RANK_TO_INDEX[prefix]
     return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(start, high)]
@@ -136,7 +141,7 @@ def _expand_minus(base: str) -> List[str]:
         end_i = RANK_TO_INDEX[base[0]]
         return [RANKS[i] * 2 for i in range(0, end_i + 1)]
     prefix = base[0]
-    suited = base[2] == 's'
+    suited = base[2] == "s"
     end = RANK_TO_INDEX[base[1]]
     return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(2, end + 1)]
 
@@ -159,11 +164,11 @@ def canonize_hand(hand: str) -> str:
 def parse_action_string(action: str) -> List[Tuple[str, str]]:
     """Parse a user action string into list of (position, action)."""
     actions: List[Tuple[str, str]] = []
-    for part in re.split(r'[;,]', action):
+    for part in re.split(r"[;,]", action):
         part = part.strip()
         if not part:
             continue
-        m = re.match(r'(\S+)\s+(\S+)', part)
+        m = re.match(r"(\S+)\s+(\S+)", part)
         if not m:
             raise ValueError(f"Cannot parse action segment: {part}")
         pos, act = m.group(1), m.group(2)
@@ -177,42 +182,46 @@ class PreflopLookup:
     def __init__(self, chart: Optional[PreflopChart] = None) -> None:
         self.chart = chart or PreflopChart()
 
-    def _scenario_for_actions(self, actions: List[Tuple[str, str]]) -> Tuple[str, str, str]:
+    def _scenario_for_actions(
+        self, actions: List[Tuple[str, str]]
+    ) -> Tuple[str, str, str]:
         hero_pos, hero_act = actions[-1]
         prev_pos, prev_act = actions[-2] if len(actions) > 1 else (None, None)
 
-        if hero_act == 'raise' and prev_act is None:
-            scenario = 'Cash, 100bb, 8-max, RFI'
+        if hero_act == "raise" and prev_act is None:
+            scenario = "Cash, 100bb, 8-max, RFI"
             position = _normalize_position(hero_pos, rfi=True)
             return scenario, position, hero_pos
 
-        if prev_act == 'raise' and hero_act in {'call', '3bet'}:
+        if prev_act == "raise" and hero_act in {"call", "3bet"}:
             villain_cat = _normalize_position(prev_pos)
-            scenario = f'Cash, 100bb, 8-max, raise, {villain_cat}, {hero_act}'
+            scenario = f"Cash, 100bb, 8-max, raise, {villain_cat}, {hero_act}"
             position = _normalize_position(hero_pos)
             return scenario, position, prev_pos
 
-        if prev_act == '3bet' and hero_act in {'call', '4bet'}:
-            ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
-            scenario = f'Cash, 100bb, 8-max, 3bet, {ip}, {hero_act}'
+        if prev_act == "3bet" and hero_act in {"call", "4bet"}:
+            ip = "IP" if _is_villain_ip(prev_pos, hero_pos) else "OOP"
+            scenario = f"Cash, 100bb, 8-max, 3bet, {ip}, {hero_act}"
             position = _normalize_position(hero_pos)
             return scenario, position, prev_pos
 
-        if prev_act == '4bet' and hero_act in {'call', 'allin'}:
-            ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
-            scenario = f'Cash, 100bb, 8-max, 4bet, {ip}, {hero_act}'
+        if prev_act == "4bet" and hero_act in {"call", "allin"}:
+            ip = "IP" if _is_villain_ip(prev_pos, hero_pos) else "OOP"
+            scenario = f"Cash, 100bb, 8-max, 4bet, {ip}, {hero_act}"
             position = _normalize_position(hero_pos)
             return scenario, position, prev_pos
 
-        if prev_act == 'allin' and hero_act == 'call':
-            ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
-            scenario = f'Cash, 100bb, 8-max, allin, {ip}, call'
+        if prev_act == "allin" and hero_act == "call":
+            ip = "IP" if _is_villain_ip(prev_pos, hero_pos) else "OOP"
+            scenario = f"Cash, 100bb, 8-max, allin, {ip}, call"
             position = _normalize_position(hero_pos)
             return scenario, position, prev_pos
 
-        raise ValueError('Unsupported action sequence')
+        raise ValueError("Unsupported action sequence")
 
-    def get_ranges(self, action: str, hero_position: Optional[str] = None) -> Dict[str, str]:
+    def get_ranges(
+        self, action: str, hero_position: Optional[str] = None
+    ) -> Dict[str, str]:
         """Return hero and villain ranges as text for given action string.
 
         Parameters
@@ -240,18 +249,29 @@ class PreflopLookup:
         if hero_index is None:
             raise ValueError("Hero position not found in action string")
 
-        hero_scenario, hero_chart_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
+        hero_scenario, hero_chart_pos, _ = self._scenario_for_actions(
+            acts[: hero_index + 1]
+        )
         res: Dict[str, str] = {}
         hero_range = self.chart.get_range_text(hero_scenario, hero_chart_pos)
         if hero_range:
             res["hero"] = hero_range
 
-        if hero_index > 0:
-            villain_pos = acts[hero_index - 1][0]
-            villain_scenario, villain_chart_pos, _ = self._scenario_for_actions(acts[: hero_index])
-            villain_range = self.chart.get_range_text(villain_scenario, villain_chart_pos)
-            if villain_range:
-                res["villain"] = villain_range
+        if len(acts) > 1:
+            if hero_index < len(acts) - 1:
+                villain_index = hero_index + 1
+            else:
+                villain_index = hero_index - 1
+
+            if 0 <= villain_index < len(acts):
+                villain_scenario, villain_chart_pos, _ = self._scenario_for_actions(
+                    acts[: villain_index + 1]
+                )
+                villain_range = self.chart.get_range_text(
+                    villain_scenario, villain_chart_pos
+                )
+                if villain_range:
+                    res["villain"] = villain_range
 
         return res
 
@@ -278,17 +298,17 @@ class PreflopLookup:
         hand = canonize_hand(hero_hand)
 
         call_range = self.chart.get_range_combos(scenario, hero_pos) or set()
-        alt_action = '3bet' if scenario.endswith('call') else '4bet'
-        alt_scenario = scenario.rsplit(', ', 1)[0] + f', {alt_action}'
+        alt_action = "3bet" if scenario.endswith("call") else "4bet"
+        alt_scenario = scenario.rsplit(", ", 1)[0] + f", {alt_action}"
         raise_range = self.chart.get_range_combos(alt_scenario, hero_pos) or set()
 
         in_call = hand in call_range
         in_raise = hand in raise_range
 
         if in_raise and in_call:
-            return 'raise or call'
+            return "raise or call"
         if in_raise:
-            return 'raise'
+            return "raise"
         if in_call:
-            return 'call'
-        return 'fold'
+            return "call"
+        return "fold"

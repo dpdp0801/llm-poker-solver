@@ -32,11 +32,57 @@ POSITION_CATEGORY_OTHER = {
 }
 
 
-def _normalize_position(pos: str, rfi: bool = False) -> str:
-    """Map raw position to chart category."""
+def _normalize_position(
+    pos: str,
+    rfi: bool = False,
+    ip_map: bool = False,
+    oop_fourbet: bool = False,
+) -> str:
+    """Map raw position to chart category.
+
+    Parameters
+    ----------
+    pos:
+        Raw seat label (e.g. ``"CO"``).
+    rfi:
+        Whether this is an open raising scenario.
+    ip_map:
+        When the acting player is in position facing a 3-bet, positions are
+        grouped as ``EP``, ``MP`` and ``CO`` (which also covers ``BTN``).
+    oop_fourbet:
+        When the player 4-bets out of position, blinds are grouped under
+        ``BTN``.
+    """
+
     pos = pos.upper()
+
     if rfi:
         return POSITION_CATEGORY_RFI.get(pos, pos)
+
+    if ip_map:
+        mapping = {
+            "UTG": "EP",
+            "UTG+1": "EP",
+            "LJ": "MP",
+            "HJ": "MP",
+            "CO": "CO",
+            "BTN": "CO",
+        }
+        return mapping.get(pos, pos)
+
+    if oop_fourbet:
+        mapping = {
+            "UTG": "EP",
+            "UTG+1": "EP",
+            "LJ": "MP",
+            "HJ": "MP",
+            "CO": "CO",
+            "BTN": "BTN",
+            "SB": "BTN",
+            "BB": "BTN",
+        }
+        return mapping.get(pos, pos)
+
     return POSITION_CATEGORY_OTHER.get(pos, pos)
 
 
@@ -76,7 +122,10 @@ class PreflopChart:
         return scenarios
 
     def get_range_text(self, scenario: str, position: str) -> Optional[str]:
-        return self.scenarios.get(scenario, {}).get(position)
+        scen = self.scenarios.get(scenario, {})
+        if position in scen:
+            return scen[position]
+        return scen.get("range")
 
     def get_range_combos(self, scenario: str, position: str) -> Optional[Set[str]]:
         text = self.get_range_text(scenario, position)
@@ -128,7 +177,7 @@ def _expand_plus(base: str) -> List[str]:
     suited = base[2] == 's'
     start = RANK_TO_INDEX[base[1]]
     high = RANK_TO_INDEX[prefix]
-    return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(start, high)] + [f"{prefix}{prefix}{'s' if suited else 'o'}"]
+    return [f"{prefix}{RANKS[i]}{'s' if suited else 'o'}" for i in range(start, high)]
 
 
 def _expand_minus(base: str) -> List[str]:
@@ -195,13 +244,21 @@ class PreflopLookup:
         if prev_act == '3bet' and hero_act in {'call', '4bet'}:
             ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
             scenario = f'Cash, 100bb, 8-max, 3bet, {ip}, {hero_act}'
-            position = _normalize_position(hero_pos)
+            position = _normalize_position(
+                hero_pos,
+                ip_map=ip == 'IP',
+                oop_fourbet=ip == 'OOP' and hero_act == '4bet',
+            )
             return scenario, position, prev_pos
 
         if prev_act == '4bet' and hero_act in {'call', 'allin'}:
             ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
             scenario = f'Cash, 100bb, 8-max, 4bet, {ip}, {hero_act}'
-            position = _normalize_position(hero_pos)
+            position = _normalize_position(
+                hero_pos,
+                ip_map=ip == 'IP',
+                oop_fourbet=ip == 'OOP',
+            )
             return scenario, position, prev_pos
 
         if prev_act == 'allin' and hero_act == 'call':
@@ -212,30 +269,77 @@ class PreflopLookup:
 
         raise ValueError('Unsupported action sequence')
 
-    def get_ranges(self, action: str) -> Dict[str, str]:
-        """Return hero and villain ranges as text for given action string."""
-        acts = parse_action_string(action)
-        scenario, hero_pos, villain_pos = self._scenario_for_actions(acts)
-        res: Dict[str, str] = {}
-        hero_range = self.chart.get_range_text(scenario, hero_pos)
-        if hero_range:
-            res['hero'] = hero_range
+    def get_ranges(self, action: str, hero_position: Optional[str] = None) -> Dict[str, str]:
+        """Return hero and villain ranges as text for given action string.
 
-        if len(acts) >= 2:
-            prev_pos, prev_act = acts[-2]
-            if prev_act == 'raise' and acts[-1][1] in {'call', '3bet'}:
-                villain_scenario = f'Cash, 100bb, 8-max, raise, {_normalize_position(prev_pos)}, {acts[-1][1]}'
-                res['villain'] = self.chart.get_range_text(villain_scenario, _normalize_position(prev_pos))
-            elif prev_act == '3bet' and acts[-1][1] in {'call', '4bet'}:
-                ip = 'IP' if _is_villain_ip(prev_pos, hero_pos) else 'OOP'
-                villain_scenario = f'Cash, 100bb, 8-max, 3bet, {ip}, {prev_act}'
-                res['villain'] = self.chart.get_range_text(villain_scenario, _normalize_position(prev_pos))
+        Parameters
+        ----------
+        action:
+            Comma separated action string like ``"CO raise, BTN call"``.
+        hero_position:
+            Which seat the hero occupies. If ``None`` the last actor in the
+            action string is assumed to be the hero.
+        """
+
+        acts = parse_action_string(action)
+
+        if hero_position is None:
+            hero_position = acts[-1][0]
+        hero_position = hero_position.upper()
+
+        # locate last action from hero
+        hero_index = None
+        for i in range(len(acts) - 1, -1, -1):
+            if acts[i][0] == hero_position:
+                hero_index = i
+                break
+
+        if hero_index is None:
+            raise ValueError("Hero position not found in action string")
+
+        res: Dict[str, str] = {}
+
+        hero_scenario, hero_chart_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
+        hero_range = self.chart.get_range_text(hero_scenario, hero_chart_pos)
+        if hero_range:
+            res["hero"] = hero_range
+
+        if len(acts) < 2:
+            return res
+
+        # determine which action the villain takes in the final pair
+        if hero_index == len(acts) - 1:
+            villain_index = len(acts) - 2
+        else:
+            villain_index = len(acts) - 1
+
+        villain_scenario, villain_chart_pos, _ = self._scenario_for_actions(acts[: villain_index + 1])
+        villain_range = self.chart.get_range_text(villain_scenario, villain_chart_pos)
+        if villain_range:
+            res["villain"] = villain_range
+
         return res
 
-    def recommend(self, action: str, hero_hand: str) -> str:
+    def recommend(
+        self, action: str, hero_hand: str, hero_position: Optional[str] = None
+    ) -> str:
         """Return recommended action (fold/call/raise) for hero_hand."""
         acts = parse_action_string(action)
-        scenario, hero_pos, _ = self._scenario_for_actions(acts)
+
+        if hero_position is None:
+            hero_position = acts[-1][0]
+        hero_position = hero_position.upper()
+
+        hero_index = None
+        for i in range(len(acts) - 1, -1, -1):
+            if acts[i][0] == hero_position:
+                hero_index = i
+                break
+
+        if hero_index is None:
+            raise ValueError("Hero position not found in action string")
+
+        scenario, hero_pos, _ = self._scenario_for_actions(acts[: hero_index + 1])
         hand = canonize_hand(hero_hand)
 
         call_range = self.chart.get_range_combos(scenario, hero_pos) or set()

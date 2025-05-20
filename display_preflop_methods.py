@@ -19,14 +19,6 @@ def run_recommend_tests(lookup: PreflopLookup) -> None:
     """Print recommended actions for specific hands."""
 
     tests = [
-        ("UTG raise", "AhAd", None),
-        ("UTG raise", "7c2d", None),
-        ("CO raise", "QTo", None),
-        ("CO raise", "9c2c", None),
-        ("BTN raise", "KJo", None),
-        ("BTN raise", "8c2c", None),
-        ("SB raise", "A4o", None),
-        ("SB raise", "Q2o", None),
         ("UTG raise, MP call", "JTs", "MP"),
         ("UTG raise, MP call", "2c2d", "MP"),
         ("UTG raise, MP 3bet", "AhKd", "MP"),

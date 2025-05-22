@@ -5,6 +5,7 @@ import os
 import sys
 import json
 import subprocess
+from typing import Dict, Any
 
 # add src package
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src', 'llm_poker_solver'))
@@ -28,14 +29,43 @@ def format_board(cards: str) -> str:
     return f"{cards[0:2]},{cards[2:4]},{cards[4:6]}"
 
 
+def summarize_root_strategy(data: Dict[str, Any]) -> Dict[str, float]:
+    """Return average action frequencies at the root."""
+    strat = data.get("strategy", {})
+    actions = strat.get("actions", [])
+    combos = strat.get("strategy", {})
+    if not actions or not combos:
+        return {}
+    totals = {a: 0.0 for a in actions}
+    n = len(combos)
+    for probs in combos.values():
+        for a, p in zip(actions, probs):
+            totals[a] += p
+    for a in totals:
+        totals[a] /= n
+    return totals
+
+
 def main() -> None:
     lookup = preflop.PreflopLookup()
 
     action = input("Enter preflop action (e.g. 'UTG raise, BTN call'): ").strip()
-    hero_position = input("Enter hero position (default last actor): ").strip() or None
+    hero_position = input("Enter hero position (default last actor): ").strip()
+
+    # handle accidental swap of action and hero position prompts
+    if not action and (
+        "," in hero_position or " " in hero_position.lower() or "raise" in hero_position.lower()
+    ):
+        action, hero_position = hero_position, ""
+
+    hero_position = hero_position or None
     flop = input("Enter flop cards (e.g. 'QsJh2c'): ").strip()
 
-    ranges = lookup.get_ranges(action, hero_position=hero_position)
+    try:
+        ranges = lookup.get_ranges(action, hero_position=hero_position)
+    except ValueError as exc:
+        print(exc)
+        return
     hero_range = ranges.get('hero')
     villain_range = ranges.get('villain')
 
@@ -78,12 +108,15 @@ def main() -> None:
 
     board_text = format_board(flop)
 
+    bet_sizes = '25,33,50,66,75,100,150'
     commands = [
         'set_pot 100',
         'set_effective_stack 200',
         f'set_board {board_text}',
         f'set_range_ip {ip_range}',
         f'set_range_oop {oop_range}',
+        f'set_bet_sizes ip,flop,bet,{bet_sizes}',
+        f'set_bet_sizes oop,flop,bet,{bet_sizes}',
         'build_tree',
         'start_solve',
         'dump_result result.json',
@@ -101,8 +134,11 @@ def main() -> None:
         if os.path.exists('result.json'):
             with open('result.json') as f:
                 data = json.load(f)
-            print("\n=== Strategy Output ===")
-            print(json.dumps(data, indent=2)[:1000])
+            print("\n=== Strategy Summary ===")
+            summary = summarize_root_strategy(data)
+            for act, freq in summary.items():
+                print(f"{act:>8}: {freq:.1%}")
+            print("\nFull JSON saved to result.json")
     else:
         print(f"Solver binary not found at {solver_path}.")
 

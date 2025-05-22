@@ -50,10 +50,22 @@ def main() -> None:
     lookup = preflop.PreflopLookup()
 
     action = input("Enter preflop action (e.g. 'UTG raise, BTN call'): ").strip()
-    hero_position = input("Enter hero position (default last actor): ").strip() or None
+    hero_position = input("Enter hero position (default last actor): ").strip()
+
+    # handle accidental swap of action and hero position prompts
+    if not action and (
+        "," in hero_position or " " in hero_position.lower() or "raise" in hero_position.lower()
+    ):
+        action, hero_position = hero_position, ""
+
+    hero_position = hero_position or None
     flop = input("Enter flop cards (e.g. 'QsJh2c'): ").strip()
 
-    ranges = lookup.get_ranges(action, hero_position=hero_position)
+    try:
+        ranges = lookup.get_ranges(action, hero_position=hero_position)
+    except ValueError as exc:
+        print(exc)
+        return
     hero_range = ranges.get('hero')
     villain_range = ranges.get('villain')
 

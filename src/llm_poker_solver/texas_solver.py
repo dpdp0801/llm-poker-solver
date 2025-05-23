@@ -10,6 +10,7 @@ import os
 import json
 import subprocess
 import tempfile
+import sys
 from typing import Dict, List, Tuple, Any, Optional, Set, Union
 
 
@@ -231,6 +232,11 @@ class TexasSolverBridge:
             text=True,
             capture_output=True
         )
+
+        if process.stdout:
+            print(process.stdout)
+        if process.stderr:
+            print(process.stderr, file=sys.stderr)
 
         if process.returncode != 0:
             raise RuntimeError(f"Solver failed: {process.stderr}")

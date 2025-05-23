@@ -206,9 +206,10 @@ def suggest_bet_sizes(board_texture: Dict[str, Any]) -> Dict[str, List[float]]:
         Suggested bet sizes for IP and OOP players. All values are
         percentages of the pot.
     """
-    # Recommended bet sizes are the same for both players by default
-    # and expressed as percentages of the pot.
-    base_sizes = [25, 33, 50, 66, 75, 100, 150]
+    # Recommended bet sizes are the same for both players by default and
+    # expressed as percentages of the pot. These mirror the defaults used in
+    # ``SolverConfig``.
+    base_sizes = [33, 50, 75, 125]
     return {"ip_flop": base_sizes, "oop_flop": base_sizes}
 
 

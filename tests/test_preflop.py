@@ -1,6 +1,7 @@
 import pytest
 
 from llm_poker_solver.preflop import PreflopChart, PreflopLookup, canonize_hand
+from llm_poker_solver.preflop import compute_pot_and_effective_stack
 
 
 def test_rfi_lookup():
@@ -34,3 +35,13 @@ def test_get_ranges_with_positions():
 
     villain_range = expand_range(res2["villain"])
     assert "QQ" in villain_range  # BTN 3bet range should include premium pairs
+
+
+def test_compute_pot_and_effective_stack():
+    pot, eff = compute_pot_and_effective_stack("UTG raise, BTN call")
+    assert pot == 6.5
+    assert eff == 97.5
+
+    pot3, eff3 = compute_pot_and_effective_stack("UTG raise, BTN 3bet, UTG call")
+    assert pot3 == 16.5
+    assert eff3 == 92.5

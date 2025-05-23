@@ -14,7 +14,12 @@ from typing import Dict, Any, List, Optional
 # Add src package to path
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src', 'llm_poker_solver'))
 
-from preflop import PreflopLookup, expand_range, parse_action_string
+from preflop import (
+    PreflopLookup,
+    expand_range,
+    parse_action_string,
+    compute_pot_and_effective_stack,
+)
 from texas_solver import TexasSolverBridge, SolverConfig
 from utils import (
     analyze_board_texture, suggest_bet_sizes, format_hand_for_display,
@@ -95,7 +100,7 @@ def main() -> None:
     use_suggested = get_user_input("Use suggested bet sizes? (y/n)", "y").lower() == "y"
     
     if not use_suggested:
-        default_sizes = "25,33,50,66,75,100,150"
+        default_sizes = "33,50,75,125"
         ip_flop_sizes = get_user_input(
             "Enter IP flop bet sizes (comma-separated percentages)", default_sizes
         )
@@ -110,6 +115,7 @@ def main() -> None:
     # Prepare solver configuration
     hero_combos = ','.join(sorted(expand_range(hero_range)))
     villain_combos = ','.join(sorted(expand_range(villain_range)))
+    pot, eff_stack = compute_pot_and_effective_stack(action)
     
     # Determine IP and OOP positions and ranges
     acts = parse_action_string(action)
@@ -161,11 +167,12 @@ def main() -> None:
         iterations=5000,
         accuracy=0.0001,
         board=flop,
-        effective_stack=100,
+        pot_sizes=[pot],
+        effective_stack=eff_stack,
         range_ip=range_ip,
         range_oop=range_oop,
         bet_sizes={
-            "ip_flop": bet_sizes["ip_flop"], 
+            "ip_flop": bet_sizes["ip_flop"],
             "oop_flop": bet_sizes["oop_flop"]
         },
     )
@@ -178,7 +185,7 @@ def main() -> None:
     if not os.path.exists(solver.solver_path):
         print(f"Solver binary not found at {solver.solver_path}")
         print("Please build the solver first:")
-        print("cd external/TexasSolver && mkdir -p build && cd build && cmake .. && make")
+        print("cd texas_solver && mkdir build && cd build && cmake .. && make install")
         return
     
     # Ask user if they want to run the solver
@@ -193,7 +200,8 @@ def main() -> None:
     print("This may take a few minutes depending on the complexity...")
     
     try:
-        result = solver.run_solver("solver_results.json")
+        output_file = os.path.join('solver_outputs', 'solver_results.json')
+        result = solver.run_solver(output_file)
         print("Solver completed successfully!")
     except Exception as e:
         print(f"Error running solver: {e}")
@@ -318,7 +326,7 @@ def main() -> None:
                 print(f"Error analyzing hand: {e}")
     
     print_section("Analysis Complete")
-    print(f"Full solver results saved to solver_results.json")
+    print(f"Full solver results saved to {output_file}")
 
 
 if __name__ == "__main__":

@@ -294,7 +294,7 @@ class PreflopLookup:
 
         return res
 
-    def recommend(
+def recommend(
         self, action: str, hero_hand: str, hero_position: Optional[str] = None
     ) -> str:
         """Return recommended action (fold/call/raise) for hero_hand."""
@@ -377,3 +377,95 @@ class PreflopLookup:
         if in_call:
             return "call"
         return "fold"
+
+
+def compute_pot_and_effective_stack(
+    action: str,
+    stack_size: float = 100.0,
+    raise_size: float = 2.5,
+    sb: float = 0.5,
+    bb: float = 1.0,
+) -> Tuple[float, float]:
+    """Return pot size and effective stack after the preflop actions.
+
+    Parameters
+    ----------
+    action : str
+        Preflop action string like ``"UTG raise, BTN call"``.
+    stack_size : float, optional
+        Starting stack size for each player (default 100bb).
+    raise_size : float, optional
+        Open raise size in big blinds (default 2.5bb).
+    sb : float, optional
+        Small blind amount (default 0.5bb).
+    bb : float, optional
+        Big blind amount (default 1bb).
+
+    Returns
+    -------
+    Tuple[float, float]
+        ``(pot, effective_stack)`` expressed in big blinds.
+    """
+
+    acts = parse_action_string(action)
+
+    # Track committed chips for each seat
+    committed: Dict[str, float] = {"SB": sb, "BB": bb}
+    pot = sb + bb
+
+    last_raise = bb
+    last_raiser = "BB"
+
+    def ensure_pos(pos: str) -> None:
+        if pos not in committed:
+            committed[pos] = sb if pos == "SB" else bb if pos == "BB" else 0.0
+
+    for pos, act in acts:
+        ensure_pos(pos)
+        if act == "raise":
+            amount = raise_size
+        elif act == "3bet":
+            amount = 11 if pos in {"SB", "BB"} else 7.5
+        elif act == "4bet":
+            # Determine if the current raiser is in position relative to the
+            # last raiser to decide between IP (25bb) and OOP (22bb) sizing.
+            is_ip = _is_villain_ip(pos, last_raiser)
+            amount = 25 if is_ip else 22
+        elif act in {"allin", "5bet"}:
+            amount = stack_size
+        elif act == "call":
+            amount = last_raise
+        else:
+            continue
+
+        addition = max(0.0, amount - committed.get(pos, 0.0))
+        committed[pos] = amount
+        pot += addition
+
+        if act != "call":
+            last_raise = amount
+            last_raiser = pos
+
+    # Determine players that saw the flop (last two non-fold positions)
+    players: List[str] = []
+    for pos, act in acts:
+        if act == "fold":
+            if pos in players:
+                players.remove(pos)
+            continue
+        if pos not in players:
+            players.append(pos)
+
+    if len(players) >= 2:
+        hero, villain = players[-2], players[-1]
+    elif players:
+        hero = players[0]
+        villain = players[0]
+    else:
+        hero = villain = "BB"
+
+    remaining_hero = stack_size - committed.get(hero, 0.0)
+    remaining_villain = stack_size - committed.get(villain, 0.0)
+    effective_stack = min(remaining_hero, remaining_villain)
+
+    return pot, effective_stack

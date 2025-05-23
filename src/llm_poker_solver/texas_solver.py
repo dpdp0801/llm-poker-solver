@@ -30,6 +30,10 @@ class SolverConfig:
         raise_sizes: Dict[str, List[float]] = None,
         donk_sizing: Dict[str, List[float]] = None,
         allin_threshold: float = 0.67,
+        thread_num: int = 8,
+        print_interval: int = 10,
+        use_isomorphism: bool = True,
+        dump_rounds: int = 2,
     ):
         """Initialize solver configuration.
 
@@ -93,6 +97,11 @@ class SolverConfig:
 
         self.allin_threshold = allin_threshold
 
+        self.thread_num = thread_num
+        self.print_interval = print_interval
+        self.use_isomorphism = use_isomorphism
+        self.dump_rounds = dump_rounds
+
     def format_board(self) -> str:
         """Format board cards for the solver."""
         if not self.board:
@@ -144,19 +153,24 @@ class SolverConfig:
                     if 'allin' in sizes:
                         commands.append(f"set_bet_sizes {pos},{street},allin")
         
-        # Set donk bet sizes
-        for street in ['turn', 'river']:
+        # Set donk bet sizes (OOP only)
+        for street in ["turn", "river"]:
             if street in self.donk_sizing:
                 donk_str = ",".join(str(size) for size in self.donk_sizing[street])
-                commands.append(f"set_donk_sizes {street},{donk_str}")
+                commands.append(
+                    f"set_bet_sizes oop,{street},donk,{donk_str}"
+                )
 
         commands.append(f"set_allin_threshold {self.allin_threshold}")
 
         # Build tree and set solver parameters
         commands.append("build_tree")
+        commands.append(f"set_thread_num {self.thread_num}")
         commands.append(f"set_accuracy {self.accuracy}")
-        commands.append(f"set_max_iterations {self.iterations}")
-        
+        commands.append(f"set_max_iteration {self.iterations}")
+        commands.append(f"set_print_interval {self.print_interval}")
+        commands.append(f"set_use_isomorphism {1 if self.use_isomorphism else 0}")
+
         return commands
 
 
@@ -217,6 +231,8 @@ class TexasSolverBridge:
         self._result_path = output_path
         commands = self._config.to_commands()
         commands.append("start_solve")
+        if self._config.dump_rounds is not None:
+            commands.append(f"set_dump_rounds {self._config.dump_rounds}")
         commands.append(f"dump_result {output_path}")
 
         # Print the commands for debugging

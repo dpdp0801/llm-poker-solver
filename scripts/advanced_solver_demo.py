@@ -198,13 +198,16 @@ def main() -> None:
     # Run the solver
     print_section("Running Solver")
     print("This may take a few minutes depending on the complexity...")
+    print("The solver will display its progress below. If you don't see any output,")
+    print("the solver binary might not be working properly.")
+    print("You should see solver commands and iterations progress.")
     
     try:
-        output_file = os.path.join('output', 'solver_results.json')
-        result = solver.run_solver(output_file)
-        print("Solver completed successfully!")
+        result = solver.run_solver("solver_results.json")
+        print("\nSolver completed successfully!")
+        print(f"Check solver_results.json for full results")
     except Exception as e:
-        print(f"Error running solver: {e}")
+        print(f"\nError running solver: {e}")
         return
     
     # Analyze the results
@@ -326,7 +329,6 @@ def main() -> None:
                 print(f"Error analyzing hand: {e}")
     
     print_section("Analysis Complete")
-    print(f"Full solver results saved to {output_file}")
 
 
 if __name__ == "__main__":

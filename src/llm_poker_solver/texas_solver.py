@@ -209,40 +209,42 @@ class TexasSolverBridge:
         if not os.path.exists(self.solver_path):
             raise FileNotFoundError(f"Solver binary not found at {self.solver_path}")
 
-        root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        input_dir = os.path.join(root_dir, 'input')
-        output_dir = os.path.join(root_dir, 'output')
-        os.makedirs(input_dir, exist_ok=True)
-        os.makedirs(output_dir, exist_ok=True)
-
+        # Create output file path
         if output_path is None:
-            output_path = os.path.join(output_dir, 'output_result.json')
+            fd, output_path = tempfile.mkstemp(suffix='.json')
+            os.close(fd)
 
         self._result_path = output_path
         commands = self._config.to_commands()
         commands.append("start_solve")
         commands.append(f"dump_result {output_path}")
 
-        fd, input_path = tempfile.mkstemp(dir=input_dir, suffix='.txt')
-        with os.fdopen(fd, 'w') as f:
-            f.write('\n'.join(commands))
+        # Print the commands for debugging
+        print("\n===== Solver Commands =====")
+        for cmd in commands:
+            print(f"> {cmd}")
+        print("\n===== Solver Output =====")
 
-        process = subprocess.run(
-            [self.solver_path, '-i', input_path],
+        # Run solver with commands - this time without capturing output
+        process = subprocess.Popen(
+            [self.solver_path],
+            stdin=subprocess.PIPE,
             text=True,
-            capture_output=True
+            universal_newlines=True
         )
+        
+        # Send commands to the solver
+        process.communicate(input='\n'.join(commands))
+        
+        # Wait for the process to complete
+        returncode = process.wait()
 
-        if process.stdout:
-            print(process.stdout)
-        if process.stderr:
-            print(process.stderr, file=sys.stderr)
-
-        if process.returncode != 0:
-            raise RuntimeError(f"Solver failed: {process.stderr}")
+        if returncode != 0:
+            raise RuntimeError(f"Solver failed with return code {returncode}")
 
         # Read results
         if os.path.exists(output_path):
+            print(f"\n===== Reading results from {output_path} =====")
             with open(output_path, 'r') as f:
                 self._result_data = json.load(f)
             return self._result_data

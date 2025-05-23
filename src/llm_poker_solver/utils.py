@@ -203,37 +203,13 @@ def suggest_bet_sizes(board_texture: Dict[str, Any]) -> Dict[str, List[float]]:
     Returns
     -------
     Dict[str, List[float]]
-        Suggested bet sizes for IP and OOP players
+        Suggested bet sizes for IP and OOP players. All values are
+        percentages of the pot.
     """
-    texture = board_texture.get("texture", "dry")
-    
-    # Default sizes
-    ip_sizes = {"ip_flop": [50, 75, 100]}
-    oop_sizes = {"oop_flop": [50, 75, 100]}
-    
-    # Adjust based on texture
-    if texture == "draw heavy":
-        # Larger bets on draw-heavy boards
-        ip_sizes["ip_flop"] = [75, 100, 150]
-        oop_sizes["oop_flop"] = [75, 100, 150]
-    elif texture in ["paired", "trips", "two pair"]:
-        # Polarized sizing on paired boards
-        ip_sizes["ip_flop"] = [33, 75, 150]
-        oop_sizes["oop_flop"] = [33, 75, 150]
-    elif texture == "dry":
-        # Smaller bets on dry boards
-        ip_sizes["ip_flop"] = [33, 50, 75]
-        oop_sizes["oop_flop"] = [33, 50, 75]
-    elif texture == "high card":
-        # Mixed sizes on high card boards
-        ip_sizes["ip_flop"] = [50, 75, 125]
-        oop_sizes["oop_flop"] = [50, 75, 125]
-    elif texture == "flush draw":
-        # Protection bets on flush draw boards
-        ip_sizes["ip_flop"] = [66, 100, 150]
-        oop_sizes["oop_flop"] = [66, 100, 150]
-    
-    return {**ip_sizes, **oop_sizes}
+    # Recommended bet sizes are the same for both players by default
+    # and expressed as percentages of the pot.
+    base_sizes = [25, 33, 50, 66, 75, 100, 150]
+    return {"ip_flop": base_sizes, "oop_flop": base_sizes}
 
 
 def generate_realistic_strategy(hand_value: float, board_texture: Dict[str, Any], 

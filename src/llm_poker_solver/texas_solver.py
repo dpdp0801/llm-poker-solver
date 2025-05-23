@@ -48,9 +48,9 @@ class SolverConfig:
         range_ip : str
             Hand range for in-position player
         bet_sizes : Dict[str, List[float]]
-            Betting sizes as % of pot for each street and position
+            Betting sizes as percentages of the pot for each street and position
         raise_sizes : Dict[str, List[float]]
-            Raise sizes as multipliers for each street and position
+            Raise sizes as percentages of the pot (e.g. ``250`` means 2.5x pot)
         donk_sizing : Dict[str, List[float]]
             Donk bet sizes as % of pot for each street
         """
@@ -64,21 +64,24 @@ class SolverConfig:
         
         # Default bet sizing if not provided
         self.bet_sizes = bet_sizes or {
-            'ip_flop': [50, 75, 100],
-            'ip_turn': [66, 100, 150],
-            'ip_river': [66, 100, 150],
-            'oop_flop': [50, 75, 100],
-            'oop_turn': [66, 100, 150],
-            'oop_river': [66, 100, 150],
+            # Default bet sizes are expressed as percentages of the pot
+            'ip_flop': [25, 33, 50, 66, 75, 100, 150],
+            'ip_turn': [50, 75, 100, 150],
+            'ip_river': [50, 75, 100, 150],
+            'oop_flop': [25, 33, 50, 66, 75, 100, 150],
+            'oop_turn': [50, 75, 100, 150],
+            'oop_river': [50, 75, 100, 150],
         }
-        
+
+        # Raise sizes are also percentages of the pot. Values like 250 mean
+        # a 2.5× raise size.
         self.raise_sizes = raise_sizes or {
-            'ip_flop': [2.5, 3.5],
-            'ip_turn': [2.5, 3.5],
-            'ip_river': [2.5, 3.5],
-            'oop_flop': [2.5, 3.5],
-            'oop_turn': [2.5, 3.5],
-            'oop_river': [2.5, 3.5],
+            'ip_flop': [250, 350],
+            'ip_turn': [250, 350],
+            'ip_river': [250, 350],
+            'oop_flop': [250, 350],
+            'oop_turn': [250, 350],
+            'oop_river': [250, 350],
         }
         
         self.donk_sizing = donk_sizing or {

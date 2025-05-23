@@ -95,8 +95,13 @@ def main() -> None:
     use_suggested = get_user_input("Use suggested bet sizes? (y/n)", "y").lower() == "y"
     
     if not use_suggested:
-        ip_flop_sizes = get_user_input("Enter IP flop bet sizes (comma-separated percentages)", "50,75,100")
-        oop_flop_sizes = get_user_input("Enter OOP flop bet sizes (comma-separated percentages)", "50,75,100")
+        default_sizes = "25,33,50,66,75,100,150"
+        ip_flop_sizes = get_user_input(
+            "Enter IP flop bet sizes (comma-separated percentages)", default_sizes
+        )
+        oop_flop_sizes = get_user_input(
+            "Enter OOP flop bet sizes (comma-separated percentages)", default_sizes
+        )
         bet_sizes = {
             "ip_flop": [float(x.strip()) for x in ip_flop_sizes.split(",")],
             "oop_flop": [float(x.strip()) for x in oop_flop_sizes.split(",")]

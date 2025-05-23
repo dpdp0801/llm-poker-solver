@@ -427,7 +427,10 @@ def compute_pot_and_effective_stack(
         elif act == "3bet":
             amount = 11 if pos in {"SB", "BB"} else 7.5
         elif act == "4bet":
-            ip = _is_villain_ip(last_raiser, pos)
+            # Determine if the raiser is in position relative to the last
+            # aggressor. In position 4bets are larger (25bb) while out of
+            # position 4bets are smaller (22bb).
+            ip = _is_villain_ip(pos, last_raiser)
             amount = 25 if ip else 22
         elif act in {"allin", "5bet"}:
             amount = stack_size

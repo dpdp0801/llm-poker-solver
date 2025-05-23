@@ -28,6 +28,7 @@ class SolverConfig:
         bet_sizes: Dict[str, List[float]] = None,
         raise_sizes: Dict[str, List[float]] = None,
         donk_sizing: Dict[str, List[float]] = None,
+        allin_threshold: float = 0.8,
     ):
         """Initialize solver configuration.
 
@@ -62,32 +63,34 @@ class SolverConfig:
         self.range_oop = range_oop
         self.range_ip = range_ip
         
-        # Default bet sizing if not provided
+        # Default bet sizing if not provided. Each list may include the string
+        # "allin" to allow the solver to consider shoving.
         self.bet_sizes = bet_sizes or {
-            # Default bet sizes are expressed as percentages of the pot
-            'ip_flop': [25, 33, 50, 66, 75, 100, 150],
-            'ip_turn': [50, 75, 100, 150],
-            'ip_river': [50, 75, 100, 150],
-            'oop_flop': [25, 33, 50, 66, 75, 100, 150],
-            'oop_turn': [50, 75, 100, 150],
-            'oop_river': [50, 75, 100, 150],
+            'ip_flop': [33, 50, 75, 125, 'allin'],
+            'ip_turn': [33, 50, 75, 125, 'allin'],
+            'ip_river': [33, 50, 75, 125, 'allin'],
+            'oop_flop': [33, 50, 75, 125, 'allin'],
+            'oop_turn': [33, 50, 75, 125, 'allin'],
+            'oop_river': [33, 50, 75, 125, 'allin'],
         }
 
         # Raise sizes are also percentages of the pot. Values like 250 mean
         # a 2.5× raise size.
         self.raise_sizes = raise_sizes or {
-            'ip_flop': [250, 350],
-            'ip_turn': [250, 350],
-            'ip_river': [250, 350],
-            'oop_flop': [250, 350],
-            'oop_turn': [250, 350],
-            'oop_river': [250, 350],
+            'ip_flop': [50, 100, 'allin'],
+            'ip_turn': [50, 100, 'allin'],
+            'ip_river': [50, 100, 'allin'],
+            'oop_flop': [50, 100, 'allin'],
+            'oop_turn': [50, 100, 'allin'],
+            'oop_river': [50, 100, 'allin'],
         }
         
         self.donk_sizing = donk_sizing or {
-            'turn': [50, 75],
-            'river': [50, 75],
+            'turn': [33, 50],
+            'river': [33, 50],
         }
+
+        self.allin_threshold = allin_threshold
 
     def format_board(self) -> str:
         """Format board cards for the solver."""
@@ -123,19 +126,31 @@ class SolverConfig:
             for street in ['flop', 'turn', 'river']:
                 key = f"{pos}_{street}"
                 if key in self.bet_sizes:
-                    bet_str = ",".join(str(size) for size in self.bet_sizes[key])
-                    commands.append(f"set_bet_sizes {pos},{street},bet,{bet_str}")
+                    sizes = self.bet_sizes[key]
+                    nums = [str(s) for s in sizes if s != 'allin']
+                    if nums:
+                        bet_str = ",".join(nums)
+                        commands.append(f"set_bet_sizes {pos},{street},bet,{bet_str}")
+                    if 'allin' in sizes:
+                        commands.append(f"set_bet_sizes {pos},{street},allin")
                 
                 if key in self.raise_sizes:
-                    raise_str = ",".join(str(size) for size in self.raise_sizes[key])
-                    commands.append(f"set_bet_sizes {pos},{street},raise,{raise_str}")
+                    sizes = self.raise_sizes[key]
+                    nums = [str(s) for s in sizes if s != 'allin']
+                    if nums:
+                        raise_str = ",".join(nums)
+                        commands.append(f"set_bet_sizes {pos},{street},raise,{raise_str}")
+                    if 'allin' in sizes:
+                        commands.append(f"set_bet_sizes {pos},{street},allin")
         
         # Set donk bet sizes
         for street in ['turn', 'river']:
             if street in self.donk_sizing:
                 donk_str = ",".join(str(size) for size in self.donk_sizing[street])
                 commands.append(f"set_donk_sizes {street},{donk_str}")
-        
+
+        commands.append(f"set_allin_threshold {self.allin_threshold}")
+
         # Build tree and set solver parameters
         commands.append("build_tree")
         commands.append(f"set_accuracy {self.accuracy}")
@@ -156,9 +171,13 @@ class TexasSolverBridge:
             Path to the TexasSolver binary
         """
         if solver_path is None:
-            # Default path relative to project root
+            # Default path relative to project root where the solver release resides
             solver_path = os.path.join(
-                'external', 'TexasSolver', 'build', 'console_solver'
+                os.path.dirname(
+                    os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+                ),
+                'texas_solver',
+                'console_solver'
             )
         self.solver_path = solver_path
         self._result_path = None
@@ -194,20 +213,28 @@ class TexasSolverBridge:
         if not os.path.exists(self.solver_path):
             raise FileNotFoundError(f"Solver binary not found at {self.solver_path}")
 
-        # Create output file path
+        root_dir = os.path.dirname(
+            os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        )
+        input_dir = os.path.join(root_dir, 'solver_inputs')
+        output_dir = os.path.join(root_dir, 'solver_outputs')
+        os.makedirs(input_dir, exist_ok=True)
+        os.makedirs(output_dir, exist_ok=True)
+
         if output_path is None:
-            fd, output_path = tempfile.mkstemp(suffix='.json')
-            os.close(fd)
+            output_path = os.path.join(output_dir, 'output_result.json')
 
         self._result_path = output_path
         commands = self._config.to_commands()
         commands.append("start_solve")
         commands.append(f"dump_result {output_path}")
 
-        # Run solver with commands
+        fd, input_path = tempfile.mkstemp(dir=input_dir, suffix='.txt')
+        with os.fdopen(fd, 'w') as f:
+            f.write('\n'.join(commands))
+
         process = subprocess.run(
-            [self.solver_path],
-            input='\n'.join(commands),
+            [self.solver_path, '-i', input_path],
             text=True,
             capture_output=True
         )

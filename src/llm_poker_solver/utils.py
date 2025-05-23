@@ -192,24 +192,31 @@ def analyze_board_texture(board: str) -> Dict[str, Any]:
 
 
 def suggest_bet_sizes(board_texture: Dict[str, Any]) -> Dict[str, List[float]]:
-    """
-    Suggest appropriate bet sizes based on board texture.
-    
+    """Suggest reasonable bet sizes based on board texture.
+
     Parameters
     ----------
     board_texture : Dict[str, Any]
-        Board texture analysis from analyze_board_texture
-    
+        Board texture analysis from :func:`analyze_board_texture`.
+
     Returns
     -------
     Dict[str, List[float]]
-        Suggested bet sizes for IP and OOP players. All values are
-        percentages of the pot.
+        Suggested bet sizes for IP and OOP players in percentages of the pot.
     """
-    # Recommended bet sizes are the same for both players by default
-    # and expressed as percentages of the pot.
-    base_sizes = [25, 33, 50, 66, 75, 100, 150]
-    return {"ip_flop": base_sizes, "oop_flop": base_sizes}
+
+    texture = board_texture.get("texture", "dry")
+
+    if texture in ["dry", "high card"]:
+        sizes = [25, 33, 50, 66]
+    elif texture in ["paired", "paired with flush draw", "trips", "two pair"]:
+        sizes = [50, 66, 75, 100]
+    elif texture in ["flush draw", "straight draw", "draw heavy"]:
+        sizes = [50, 66, 75, 100, 150]
+    else:
+        sizes = [25, 33, 50, 66, 75, 100, 150]
+
+    return {"ip_flop": sizes, "oop_flop": sizes}
 
 
 def generate_realistic_strategy(hand_value: float, board_texture: Dict[str, Any], 

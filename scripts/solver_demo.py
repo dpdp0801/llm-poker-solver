@@ -5,6 +5,7 @@ import os
 import sys
 import json
 import subprocess
+from typing import Dict, Any
 
 # add src package
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src', 'llm_poker_solver'))
@@ -26,6 +27,38 @@ def format_board(cards: str) -> str:
     if len(cards) != 6:
         raise ValueError('Board cards should be like "QsJh2c"')
     return f"{cards[0:2]},{cards[2:4]},{cards[4:6]}"
+
+
+def summarize_root_strategy(data: Dict[str, Any]) -> Dict[str, float]:
+    """Return average action frequencies at the root."""
+    strat = data.get("strategy", {})
+    actions = strat.get("actions", [])
+    combos = strat.get("strategy", {})
+    if not actions or not combos:
+        return {}
+    totals = {a: 0.0 for a in actions}
+    n = len(combos)
+    for probs in combos.values():
+        for a, p in zip(actions, probs):
+            totals[a] += p
+    for a in totals:
+        totals[a] /= n
+    return totals
+
+
+def summarize_hero_strategy(data: Dict[str, Any], hero_ip: bool) -> Dict[str, float]:
+    """Return hero action frequencies on the flop."""
+    if hero_ip:
+        # hero acts after villain; assume villain checks
+        node = data.get("childrens", {}).get("CHECK")
+        if not node and data.get("childrens"):
+            # fall back to first available child
+            key = next(iter(data["childrens"]))
+            node = data["childrens"][key]
+        if node:
+            return summarize_root_strategy(node)
+        return {}
+    return summarize_root_strategy(data)
 
 
 def main() -> None:
@@ -78,12 +111,15 @@ def main() -> None:
 
     board_text = format_board(flop)
 
+    bet_sizes = '25,33,50,66,75,100,150'
     commands = [
         'set_pot 100',
         'set_effective_stack 200',
         f'set_board {board_text}',
         f'set_range_ip {ip_range}',
         f'set_range_oop {oop_range}',
+        f'set_bet_sizes ip,flop,bet,{bet_sizes}',
+        f'set_bet_sizes oop,flop,bet,{bet_sizes}',
         'build_tree',
         'start_solve',
         'dump_result result.json',
@@ -101,8 +137,11 @@ def main() -> None:
         if os.path.exists('result.json'):
             with open('result.json') as f:
                 data = json.load(f)
-            print("\n=== Strategy Output ===")
-            print(json.dumps(data, indent=2)[:1000])
+            print("\n=== Strategy Summary ===")
+            summary = summarize_hero_strategy(data, hero_ip)
+            for act, freq in summary.items():
+                print(f"{act:>8}: {freq:.1%}")
+            print("\nFull JSON saved to result.json")
     else:
         print(f"Solver binary not found at {solver_path}.")
 

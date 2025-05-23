@@ -200,7 +200,7 @@ def main() -> None:
     print("This may take a few minutes depending on the complexity...")
     
     try:
-        output_file = os.path.join('solver_outputs', 'solver_results.json')
+        output_file = os.path.join('output', 'solver_results.json')
         result = solver.run_solver(output_file)
         print("Solver completed successfully!")
     except Exception as e:

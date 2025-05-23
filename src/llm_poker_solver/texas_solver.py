@@ -28,7 +28,7 @@ class SolverConfig:
         bet_sizes: Dict[str, List[float]] = None,
         raise_sizes: Dict[str, List[float]] = None,
         donk_sizing: Dict[str, List[float]] = None,
-        allin_threshold: float = 0.8,
+        allin_threshold: float = 0.67,
     ):
         """Initialize solver configuration.
 
@@ -171,10 +171,9 @@ class TexasSolverBridge:
             Path to the TexasSolver binary
         """
         if solver_path is None:
-            # Default path relative to project root
-            solver_path = os.path.join(
-                'external', 'TexasSolver', 'build', 'console_solver'
-            )
+            # Default path relative to project root. The solver binary is
+            # shipped in the ``texas_solver`` directory at project root.
+            solver_path = os.path.join('texas_solver', 'console_solver')
         self.solver_path = solver_path
         self._result_path = None
         self._result_data = None
@@ -210,8 +209,8 @@ class TexasSolverBridge:
             raise FileNotFoundError(f"Solver binary not found at {self.solver_path}")
 
         root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        input_dir = os.path.join(root_dir, 'solver_inputs')
-        output_dir = os.path.join(root_dir, 'solver_outputs')
+        input_dir = os.path.join(root_dir, 'input')
+        output_dir = os.path.join(root_dir, 'output')
         os.makedirs(input_dir, exist_ok=True)
         os.makedirs(output_dir, exist_ok=True)
 

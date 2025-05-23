@@ -30,4 +30,7 @@ def test_get_ranges_with_positions():
     assert "44+" in res["villain"]
 
     res2 = lookup.get_ranges("UTG raise, BTN 3bet, UTG call", hero_position="UTG")
-    assert "QQ" in res2["villain"]  # BTN 3bet range should include premium pairs
+    from llm_poker_solver.preflop import expand_range
+
+    villain_range = expand_range(res2["villain"])
+    assert "QQ" in villain_range  # BTN 3bet range should include premium pairs

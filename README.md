@@ -31,7 +31,7 @@ paths for model weights:
 - out/stageB/systemB_bf16_r256
 - out/stageB/systemB_bf16_r256
 
-4. **Set up hugging face token in .env**
+4. **Set up hugging face token in .env and get permission for Llama-3-8-Instruct**
 HF_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 

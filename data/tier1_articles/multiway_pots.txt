@@ -1,0 +1,90 @@
+### TOPIC: multiway pots
+10 Tips for Multiway Pots in Poker
+While lots of work has been placed into research and explanation of heads-up pot strategy, multiway pots still largely remain an unexplored frontier in poker. Multiway dynamics feature very different strategic ideas compared to HU. As expert player Matt Hunt stated in his multiway course, Three’s A Crowd: “Multiway postflop spots are more similar to multiway preflop than heads-up postflop”.
+We’ve written this article to provide a theoretical foundation for improving your multiway play. GTO Wizard plans to launch multiway postflop solutions in 2025. However, this article aims to equip you with the knowledge you need to crush your opponents now. It’s important to note that many of the heuristics used in multiway preflop play also apply to multiway postflop. Many players mistake these principles as being specific to preflop when, in reality, they often stem from the broader dynamics of multiway pots.
+Table of Contents
+
+1) Multiway Equilibrium Problems
+Before we dive into the nitty-gritty, we must examine how the fundamental claims of Nash Equilibrium (GTO) change in multiway spots. Nash Equilibrium has a desirable property: if you follow a GTO strategy, you are assured a minimum expected value, and your opponent’s errors can only raise your payoff. This assurance is absent multiway. There is no such thing as an unexploitable strategy in multiway scenarios. Your expected value is no longer guaranteed.
+When someone makes a mistake in a multiway pot, their expected value isn’t simply distributed to the remaining players in the hand as you might expect. That player’s mistake can decrease someone else’s expected value to the benefit of a third player! No strategy, be it GTO or exploitative, is safe from this effect. If this is the case, how can we be sure the GTO solution for multiway scenarios are legitimate? This question has been tackled by Noam Brown, a prominent expert in computational game theory and the creator of advanced poker AI’s such as Libratus and Pluribus. When asked about the distinction between Heads-Up and Multiway poker in an interview with Lex Friedman, Noam stated (paraphrased):
+“It turns out that the methods used to approximate equilibrium in 2-player poker work effectively in practice for 6-player poker, due to the adversarial nature of the game where players do not cooperate.”
+We know that GTO can be approximated in multiway poker. Other evidence for this claim comes from the fact that different solver algorithms reach the same multiway strategies even using vastly different methods. With the hardcore theory out of the way, let’s now delve into the most impactful factors in multiway pots.
+
+2) Shared Burden Of Defense
+In poker, we use Minimum Defense Frequency (MDF) to calculate how wide some player needs to defend to prevent the other from profitably bluffing. The inverse of this calculation is Alpha (α)– how many folds you need to have a profitable pure bluff. Learn more about MDF and Alpha here.
+Consider what happens if you make a pot-sized bluff in a multiway pot. For your bluff to be profitable, you need to take down the pot at least 50% of the time. That means in a heads-up pot your opponent needs to defend at least half the time. However, in a multiway pot, the burden of defense is shared!
+Folding frequencies are multiplicative – each player only needs to defend often enough such that, between both of them, they aren’t folding more than half the time. The probability of taking down the pot with some bet is equal to:
+Total fold%=Player1 fold% × Player2 fold% × Player3 fold% …
+The average folding frequency per player is then alpha to the nth root of the number of defending players:
+n = number of defending players
+α = The alpha of a HU bet, which is equal to s/(s+1)
+s = bet/pot
+In practice, the player who closes the action takes on a larger portion of defense than the players before them. This is because the player who closes the action has more profitable defends, given that they don’t risk being pushed out that street. However, we can use the simplified equation above to demonstrate the strategic differences in multiway pots.
+The following table displays the average defense required per player to meet MDF:
+In a heads-up pot, if your opponent bets 10% of the pot, you’d need to defend 91% of your range to prevent them from profitably bluffing. If there were 8 players defending against this tiny bet, your defense frequency drops to about 26%! The difference is dramatic. In fact, even a 1% pot-sized bet offers a drastic reduction in your overall defense. In a HU pot, if your opponent bets 1% of the pot, you’d need to defend about 99% of your range. That drops to 44% in a 9-way pot.
+Multiway pots feature an absolutely terrible risk/reward ratio on pure bluffs. Your opponents can defend much tighter, even against very small bets, while still preventing you from profitably bluffing. Meanwhile, pot odds don’t change. Any hand that can capture enough EV can continue against this bet.
+
+3) Tight Is Right
+As shown in section 2, in multiway pots, your opponents can defend less often without becoming exploitable (lower burden of defense), while at the same time, they are free to defend more often if your range is too weak. This leads to a very simple yet crucial heuristic:
+Tight is Right!
+You do not need to defend nearly as wide in multiway pots as you would in heads-up pots. The thresholds for what hands should continue against some bet size get much tighter. Simultaneously, your betting range should become much stronger. Pure bluffs are ineffective multiway – you need stronger value bets, and stronger bluffs. With the exception of the river, You’d do well to almost never bluff a hand without solid drawing equity.
+
+4) Stop Rangebetting
+Rangebetting means betting your entire range in some spot, typically for a small size. This strategy is common in HU postflop spots but fails miserably in most multiway spots.
+The strategic premise of rangebetting is that you have such an overwhelming advantage that your opponent is forced to overfold despite you betting any two. However, in multiway pots, your opponents are not obliged to defend very wide at all. That works directly against the incentives of rangebetting – all that extra fold equity you get heads-up evaporates multiway.
+So the simplest change you can make to improve your multiway strategy is this: Stop rangebetting. Give up more often with trash. Tighten your value betting thresholds. Check back more medium hands and play for showdown.
+
+5) Nut Potential is King
+Nut potential is the potential of a draw to become the nuts, or very close to it. For example, on a flop like A♠Q♠8♥, a draw like 6♠4♠ has poor nut potential since it can only make a weak flush. A hand like K♠7♠, however, draws to the nut flush and therefore has strong nut potential.
+Nut potential is vital because stack-off ranges become much tighter multiway.
+When considering a semibluff in a multiway pot, give more consideration to your outs. Are you drawing to just a strong hand, or a nutted hand? Do any of your outs complete stronger draws? The importance of these questions is greatly amplified multiway.
+Furthermore, betting frequencies in multiway pots strongly correlate with nut advantage. A player with a range advantage that lacks the strongest hands should typically play more passively (unless the SPR is very low).
+Consider what happens if you rangebet a board like 753r as BTN vs SB and BB. Sure, you’ve got the overpairs, but they have, proportionally, many more nutted hands like sets, two pair, and straights. Your overpairs get a lot less value from marginal pairs, and get attacked much more often by dangerous check-raises.
+
+6) Higher Implied (And Reverse Implied) Odds
+Here’s a GIF from our Visualizing Implied Odds article, which displays how equities shift multiway. The exact numbers aren’t important. Rather, pay attention to the color-coded gradient.
+Section 5 leads directly to our next point. Multiway pots increase implied and reverse implied odds. The effect is similar to how implied odds also increase in deep-stacked pots. The tighter stack-off thresholds in multiway pots mean you need stronger hands to go all-in for value than HU pots. Static bluff-catchers, medium hands that struggle to improve, even marginal top pairs lose a lot of value. The hands that do well multiway have better “visibility”; more paths to the nuts. Your hand’s ability to improve to something very nutted counts for so much more.
+The type of hands that retain equity multiway typically have strong drawing potential. Suited connectors, suited gappers, hands that can make the nut flush, etc.
+
+7) Use Smaller Bet Sizes
+We’ve said it before, and we’ll say it again – defense gets much tighter multiway. Therefore, it’s very easy to overplay your range if you use large sizings. Consider your equity retention carefully in multiway pots. Equity retention is how much equity your hand retains once your bet is called.
+[NL500 Cash] BTN opens BB calls, flop is A♣T♣2♠. In a heads-up pot, BTN normally prefers overbetting. Here’s their equity once BB calls a 125% pot-sized bet (BB even overfolds quite a bit here!). Most of the strong top pairs are still well ahead of the calling range. As a reminder, the flop is A♣T♣2♠
+Now let’s compare this to a multiway spot. [NL500 Cash] BTN opens, SB calls, BB calls. We’ll use ranges from GTO Wizard. The average burden of defense is 25% per player facing this overbet (compared to 44% HU). Typically, SB would defend less than BB, but let’s just simplify and make both players call with the top quarter of their preflop calling range. As a reminder, the flop is A♣T♣2♠. Here’s BTN’s equity against the top 25% of SB and BB’s range.
+Surprisingly, even some two-pair like A2, or strong top pair like AK, are behind the collective calling ranges! We have effectively overplayed two-pair with a single flop bet… Note that the blinds should actually fold quite a bit more, so I’m overestimating BTN’s equity here.
+This is why you should typically size down in multiway pots. Your equity retention just plummets off a cliff as the collective defense facing large bets results in extremely strong ranges. That said, there are certain spots where you can overbet multiway. These strategies are reserved for scenarios where you have a significant nut advantage and can profitably play for stacks with those nutted hands. Multiway overbets are much rarer than in HU pots.
+
+8) Positional Advantage Increases
+Positional advantage stems from the information gained from your opponents acting first, as well as the ability to close the action on each street. In multiway pots, positional advantage gets amplified as you have even more information, and closing the action becomes more valuable. Conversely, it’s much less profitable to play when many players are yet-to-act behind you.
+The simplest way to demonstrate this principle is to compare BTN’s cold-calling range to SB’s cold-calling range. In most cash games, BTN should defend wider than SB facing an open raise, despite BTN having more players left-to-act behind and a worse price on calling.
+Let’s cherry-pick a deepstack spot to demonstrate this principle (deep stacks further magnify positional advantage). [500NL 200bb Cash] CO opens 2.5bb. Let’s compare the BTN and SB preflop defense.
+BTN vs CO RFI
+SB vs CO RFI
+Note that BTN defends 8% wider than SB! This is a function of having position on the preflop raiser but also potentially having position in a multiway pot. The SB is getting a better price and has fewer players behind them. But those two factors don’t mitigate the pain of being out of position twice. Therefore, the SB plays tighter than BTN in this spot. Obviously, being out of position twice is very bad. But what about being in the middle?
+Playing “monkey in the middle” with a player behind and in front of you is also not a strong proposition. A common mistake that many players make is they believe that the BB should defend a much wider preflop range after SB calls an IP open, but this is not usually the case. Yes, you’re getting better pot odds, but your equity retention multiway is much worse
+As demonstrated in Daily Dose # 64 and Daily Dose #342, most hands lose value going multiway. There are exceptions to this rule, for example if one of the cold-callers is extremely wide then you can overcall wide too. The price of the initial bet also plays a large part.
+
+9) Blocker Effects Are Amplified
+Blockers become more important multiway. As blockers interact with more ranges, the card removal effects become more powerful. Here’s an example. [NL500 6max Cash, 200bb deep] UTG opens. How often does UTG expect to take down the pot? Here’s how often they steal the blinds when opening with different holdings:
+That’s a fairly significant difference. AK expects to steal the blinds 7.3% more often than 22 when opening UTG! This is because AK blocks the hands that call or raise UTGs open, while 22 mainly blocks the hands that fold. The same concept extends multiway postflop. Blocking the nuts counts for a lot more. Blocking folds is more problematic for your bluffs. Blocking continues makes it substantially harder to get paid with your value hands.
+
+10) Capped Ranges Are Less Exploitable
+A “capped” range does not contain the strongest hands. In HU pots, you need to be much more concerned with the exploitability of your range. If you check back too many weak hands and don’t slow-play enough strong hands, then your opponents can exploit your weakened range with excessive aggression!
+In multiway pots, however, capped ranges become less of a problem as multiple players share the burden of defense. An aggressor with a range advantage has to go through multiple opponents. Here’s an example. [NL500 100bb 6max Cash] UTG opens 2bb. Here’s BB’s defense when it folds to them:
+Compare the above range to the below range, which shows how BB defends after SB cold-calls:
+When BB is going HU against UTG, they flat with hands as strong as AKo and QQ, and AQ♠ sometimes. These strong traps are required to ensure the rest of their calling range doesn’t get run over.
+Compare that to BB’s strategy after SB flats – they’re much more inclined to squeeze with the top of their range and leave their calling range more exposed. Part of this has to do with the incentives of squeezing, but also results from capped ranges being less exploitable in multiway spots. Most squeeze strategies are very linear, and very top-heavy for this exact reason. Generally speaking, you need to play “more honestly” in multiway pots. Betting ranges become more linear multiway both pre and postflop. By “honestly”, I don’t mean there’s literally no deception, but a player’s actions should more closely reflect the value of their range multiway. If someone is betting too big, and too weak, they will rarely get the fold equity required for their bluffs, and their value range will quickly fall behind the tightened calling ranges of the defending players. Equity retention falls off a cliff, and they become extremely vulnerable to check-raises or counter-aggression.
+However, what’s more interesting are the checking ranges. Everyone’s checking range is generally weaker and more capped multiway. This is partly because betting ranges are more honest but also because there’s slightly less need for protection with multiple players sharing the burden of defense. In a sense, the other players are acting as a shield that prevents any individual from running your capped range over. This means that river ranges are often quite weak when action checks down. Even more so in practice, as players tend to value bet too thin multiway. For this reason, many MDA study groups promote aggressive bluffing in multiway spots when actions checks to the river.
+
+Conclusion
+The biggest challenge of betting in multiway pots is that players can defend much tighter without becoming exploitable, while at the same time, they are free to defend more often than needed if the betting range is too weak
+In summary
+Players share the responsibility of defense, leading to tighter calling ranges.
+Betting with air or range betting is not typically a viable strategy.
+Use smaller bet sizes due to decreased equity retention.
+Use stronger betting ranges, with stronger thresholds for value bets and bluffs.
+Place more value on implied odds, equity retention, and nut potential.
+Positional advantage becomes more valuable.
+Blockers are more significant as card removal effects interact with multiple ranges.
+It becomes harder to attack capped ranges with another player involved.
+Bets become more linear and check-downs become more capped.
+The GTO solution is no longer guaranteed to be unexploitable.

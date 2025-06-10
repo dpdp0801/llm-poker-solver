@@ -1,0 +1,653 @@
+### TOPIC: how to analyze your poker hands
+hey guys i'm money j2k with gto wizard
+and today
+i'll be going over one of my own hands
+from 500 no
+this hand taught me an important
+principle regarding blockers and triple
+barrel situations so let's get into it
+so as always i'll replay the hand and
+then analyze the strategy afterwards
+this hand starts off with the small
+blind opening to 15 dollars
+and i'm on the big blind with ace four
+spades this hand will mix between
+calling and three betting and this time
+i choose to put in the three bet
+small blind calls flop comes king five
+two
+two tone in the hand i was thinking that
+this board we would be betting at a very
+high frequency
+somewhere around 80 percent or so and
+that my hand would probably be
+betting at a pretty high frequency
+itself as well with the gut shot
+i bet small he calls
+turns to jack of clubs in the hand i was
+thinking that spades
+were a good combo to barrel here because
+when the diamond draws and the club
+draws miss
+i will still have some really good
+barrel offs here that
+that aren't blocking any of his misdraws
+as well as this specific hand i was
+thinking in the in the hand that
+the gut shot will give me that little
+bit of extra equity that will
+push it into more into more of the
+bluffing kind of hands and
+less of the check back the ace highs um
+and so in the hand i bet
+about roughly two-thirds a little bit
+more than that 75 a pot
+he calls river is the two of clubs
+he checks and so here i'm mainly
+thinking that a lot of his club draws
+were either raising the flop folding pre
+or blocked by the king and the jack on
+the board
+now obviously i would prefer to have the
+ace of clubs here
+but i don't think we're only going to be
+barreling off the ace of clubs here i
+think in general this is a really good
+board for us and we're gonna have a lot
+of two pairs we're gonna have a lot
+we're gonna have both all the sets i
+think
+and we're going to have some 2x as well
+on the river
+and so i put in the bluff jam i get snap
+called
+by king queen and so
+this specific hand i wasn't quite sure
+on
+what my bluff combos were on the river i
+don't think i knew in the hand that i
+wouldn't want just to bluff
+club blockers there's going to be other
+spades and there's going to be some
+just random hands in there that are just
+just have no showdown value
+and beat nothing and therefore
+our make up for some really good bluffs
+i was thinking we'd be betting this
+river at a
+reasonable frequency like 60 maybe
+but i didn't love after the hand that
+my hand selection in general i thought i
+might have been getting a little bit out
+of line and over bluffing so i went
+ahead and double checked it
+so now that we're in gta wizard we can
+start analyzing
+where some of my mistakes were made and
+maybe my misconceptions in the hand
+and so my first misconception in the
+hand was
+i overestimated the
+range advantage that i had i was
+thinking king high boards are really
+good for us
+and while i think that is true as in
+general sense the five and the two on
+the board gives him
+a lot of two pairs and some sets that i
+won't have
+and then he also because this is
+specifically blind versus blind
+he still has a lot of these king 4 king
+5
+king 6 king 7 combos that
+in almost any other 3 bet spot he
+wouldn't have
+and in all honesty i haven't really
+studied small blind versus big blind
+three bet pots nearly enough
+and realizing this little extra king x
+that he has as well as these king 10 off
+combos and king jack off combos
+really pushes the equity much closer
+together
+and that's proven here by 50 to 50
+equity so
+really neither player has a equity
+advantage here
+now we have slightly more of the top end
+hands and
+slightly more of the good hands and then
+he has some of these weaker hands a
+little bit more often and then we have
+more trash hands
+but in general if we just look at the
+equity graph we can really see
+it's pretty even throughout the entire
+graph it's everything is is pretty equal
+and i would not have thought this i
+would have thought we had a slight
+advantage
+across most of the range and this a lot
+like i said has to do with him having
+fives him having fight or him having
+twos
+him having king five and just him having
+more king x than i was thinking in the
+hand so it's
+really important to be able to correctly
+visualize the ranges that were going
+into the flop here
+and that is where some of my original
+misconceptions were had
+and so when we hop over to the strategy
+we can see he's got a small donking
+range here
+and that just goes right back to the
+amount of equity he has and that we're
+checking back
+um we're going to be checking back
+roughly 50 of the time 40
+of the time and we so so he
+has somewhat of an incentive to donk but
+it's going to be pretty rare
+and i don't think population in at 500
+is going to be donking this
+board probably ever and so he checks
+and as we hop into our c betting
+strategy
+we can see it's pretty mixed all across
+the board we're betting overall 60
+of the time in the hand i probably would
+have guessed 70 to 80
+which may not be a very big difference
+overall
+but i definitely misunderstood how often
+i'd be betting ace4
+i would have thought that it was
+probably betting almost pure or
+at least seventy percent eighty percent
+of the time
+and that's just a simple i have a gut
+shot
+solvers really like gut shots i'm just
+gonna bet
+and sometimes when you're in the hand
+you don't really get a lot of the time
+to calculate exactly the ranges and
+everything like that
+and you make some split decisions that
+may not always be correct
+and while this is a small discrepancy
+you know the ev difference is going to
+be extremely small
+but it's an important thing to make sure
+that your overall frequencies in your
+head are
+moving in the right direction and not
+the wrong direction obviously
+and so either way my sizing was pretty
+much correct
+using a really small size for at a
+relatively
+high frequency around 60 bet
+so we go ahead and put in the small size
+and now he's definitely has this pretty
+robust raising range here and that just
+goes back to the equities being very
+close on this board
+and a lot of his raises come from these
+flush draws if we go filter
+by the flush draws we can see that a lot
+of these hands
+are mixed raises at pretty high
+frequencies as well especially the
+asexual
+low low nut flush draws and the highest
+king king x also are raising a lot
+and so it's a good question in the hand
+how often he will actually be raising
+and will he be raising enough king x as
+well
+and which would if he wasn't raising
+enough we would probably just
+bet more and more as the imposition
+player is the big blind
+and that is an important exploit that we
+can use now
+in the hand i am playing anonymous
+tables because i'm playing on ignition i
+don't really have a read on this player
+so
+we're going to be trying to play as
+close to gto as possible
+and it's just important to note that he
+needs to be finding some raises that
+may not always be super intuitive hands
+like five four
+you know maybe seven six mo some people
+won't do eight six maybe people won't be
+using especially
+you know eight six of clubs and whatnot
+and
+like uh the a lot of these just like
+backdoor flush draws and nut flush draws
+and
+are just raising at frequencies and it's
+going to be important
+as the small blind to actually raise a
+lot of these hands as you can see almost
+every hand has
+some frequency of mixed raises but
+anyways
+he calls and we see a turn turn was jack
+o'clock
+and on the turn he checks range the turn
+is going to be pretty good for us i
+believe
+and we can see as the as while the
+equities come very close
+this is less important on the turn and
+this is much more important where we
+have this really large nut advantage now
+we have almost double the the or a
+little bit over
+double the best hands and as you go
+farther and farther in the in
+into the hand the top end advantage
+becomes more and more important
+because a lot of the lowest in hands are
+simply just going to fold to bets
+and they're not going to be able to
+realize their equity anyways so that
+amount of equity
+is important but it doesn't it isn't
+always the defining
+part of your strategy a lot of these
+top-end hands that we have are going to
+be much more important
+and so when we hop over to the
+strategies
+we can see that we're again betting
+roughly 60
+of the time betting pure with all of our
+best hands here
+especially these highest king x betting
+a mix between 60
+and this over bet size which in the hand
+i don't think i would have been using
+the over bet size i think i would have
+probably simplified here to about
+the size that i use that was around 75
+percent
+and in the hand i think i was playing
+the turn in the overall frequencies
+pretty close
+we can see a lot of the checks come from
+these pocket pairs that are
+is fairly intuitive a lot of come from
+these jack x hands
+these lowest jack x and then a lot of
+checks are just coming from like lower
+end king x as well
+in some of these like 5x hands like the
+the nut 5x hands like ace five
+and so the issue that i had in the hand
+was that ace four of spades basically
+never uses this uh 60 size and a very
+low frequency uses this over bet size
+but it's basically pure checking and
+i thought about this a lot and trying to
+understand why ace forest
+is checking and hands like queen forest
+spades
+are pure betting hands like if we just
+go to the filters and filter for spade
+combos
+we can see all of these low in spade
+combos here
+are betting really high frequencies even
+though they're
+just worse than ace four this
+is basically my my best guess is that
+the ace of spades has a lot of very
+negative blockers so when we put in the
+60
+size and we go back to the same filter
+the spades filter
+we can see that the ace of spade the ace
+of spade blocks
+a lot of these nut um these these
+highest spade draws basically that they
+were
+draws to these gut shots that we're
+calling the flop but they're not going
+to be calling
+the turn bets and so this ace the ace of
+spades is just blocking all of these
+and this is fairly significant this is a
+lot of combos you can see the ace 10 as
+well the ace 9 as well
+the this is blocking a lot of the
+folding range and so that basically just
+means when we have the ace of spades we
+get called mark because we're blocking
+his folding range
+and the ace of spades isn't really
+blocking a lot of his calling range
+it's only blocking the ace jack off
+combos
+and the ace jack um h jack spades combos
+and the ace queen off combos but this is
+this is less i think of a factor overall
+than all of this folding range being
+blocked and then as we go back down we
+can also just see that
+the equity difference for these hands
+this um this ace 4 of spades that's 21
+equity which is pretty small it's very
+low but when we go down here and we look
+at like queen forest phase that was
+betting a very high frequency it's only
+9
+equity and we basically what this is
+telling us is that we just have a lot of
+bad hands
+and we have a lot of hands that have a
+high incentive to bluff
+because when you when your hand only has
+nine percent equity it
+anything that folds to it is extremely
+good for that hand
+and so we are going to have a high
+incentive to bet these lower end
+um spade hands and the ace iv
+is going to have a little bit higher
+incentive to check instead of the queen
+force
+the the queen fours the queen threes and
+you know the ten threes and
+we can see the spade and the heart
+combos are very similar in strategies as
+well
+and so this is a pretty important
+um misconception i think i had in the
+hand and this is where
+i lose i definitely lose a small amount
+of ev here
+the issue with this
+with this hand is that i'm probably it's
+not just ace four
+i'm probably betting you know i'm
+probably betting too much maybe with
+with 108 of spades i'm doing it too much
+or i'm just
+choosing some hands that maybe i'm
+probably just over bluffing in general
+which is going to be pretty bad for my
+overall range where
+maybe this let's see what the ev
+difference was
+maybe it's it's only 0.5 of a big blind
+.6 of a big blind difference
+of ev here the issue is that might be
+0.5.6 big blinds v
+difference across a ton of different
+combos which overall
+my bet frequency maybe my bet frequency
+is supposed to be 60
+but i push it up to 70 or 80 just
+because i'm bluffing too much
+and there i'm losing pretty significant
+evs simply because of the misconceptions
+that i've already talked about
+previously
+but anyways i put in the 60 bet
+and he calls we can see he's raising
+again he's raising
+a fairly high frequency again for the
+turn
+he's raising about 10 percent of the
+time overall
+a lot of these rays are just coming from
+he has some two pairs now
+he turns some king jack hands he has
+skiing five king 10 is starting to
+become a little bit more vulnerable on a
+double flush draw board
+and there's just a general amount of
+hands that are going to want some
+protection like specifically these king
+10 hands these king queen hands and
+whatnot
+they basically are going to have a lot
+of rivers that they're not going to be
+able to get the money in
+anyways he calls river comes the
+two of clubs
+we can see on this river he does have a
+pretty
+low frequency donk and i think this just
+comes around to he has some of these
+lower nut flushes and whatnot
+we go back to the ranges we are still at
+a pretty huge advantage
+overall but
+we are still we are still checking 53 of
+the time
+so there are a small subset of hands in
+the small blinds range that are going to
+want to bet
+because we're going to be checking back
+a good chunk of hands
+but overall again equities are going to
+come very close here
+but we have a pretty large advantage
+especially after he doesn't donk we have
+a
+very large top end advantage here
+so when we go over to the strategy we
+can see we
+are jamming only the only size we're
+using are jamming
+and that's probably one of the reasons
+that our check frequency is higher
+because we're using a larger size
+but overall we can see some of my ideas
+in the hand were correct we are jamming
+some of these spade x hands like these
+these double spade hands that are we do
+end up jamming a lot of these
+the problem is is because it's blind
+versus blind we
+have a ton of just total air we just
+have a ton of air
+and if we start jamming these ace four
+spades hands we can see it
+when we do get here with ace four spades
+it just never jams and it's actually a
+pretty big ev difference
+checking is a 4.92 whereas jamming is
+3.61 so we're losing
+you know about 1.3 of a big blind here
+which is
+pretty significant if you run that out
+over 100 hands
+or a thousand hands or however many
+hands you want
+it's just it just compounds itself over
+and over and over and so
+ace four of spades really doesn't need
+to bluff here
+just because we have so many of these
+other
+basically just total airy hands and even
+some of these low
+fi like these 5x hands oh these five
+accents are just flushes
+but even some like eight four hands and
+ten four and ten three and whatnot
+they're they're jamming these spade
+combos quite frequently and if we just
+go back and filter by the spade
+the the double spade combos we can see
+just a lot of the lowest in spade combos
+are just bluff jamming the river
+so i don't think i was that far off in
+my
+in my uh overall strategy on the river
+i don't think i i had some very slight
+misconceptions which definitely resulted
+in
+sizable ev differences but
+one of the main things i wanted to
+actually bring up in this hand
+was at first glance i think
+that ace four you can just say oh
+it's a big blind of of ev loss that's
+bad
+i'll try not to do that again and then
+you end the analysis at that point
+and you don't go any deeper into the
+solve you don't try to understand okay
+well why is ace4
+a bad hand a barrel here why should i i
+have checked the turn
+why what you don't just don't dig deeper
+and this is one of the biggest issues
+with the
+whole movement into learning gto and
+learning theoretical poker
+is that a lot of people just see this
+and they just use it as an answer key
+they take their hands they put it in to
+their solver or to gto wizard and
+whatnot
+and they just look at it and they go oh
+ace4 was supposed to check
+dang it i messed up i'll try to do it
+better next time
+and then they close gta wizard and they
+go play again and they
+aren't trying to dig deeper into the
+intricacies of okay well
+why are we checking this high of a
+frequency on the flop are you actually
+doing that or
+are how are you playing all these other
+hands are you if maybe you're
+you're checking or you're betting ace
+four but
+that's a small ev difference and you're
+okay but maybe you're also betting a
+bunch of other hands that you aren't
+supposed to bet either
+and you're just completely missing all
+this evie that you're
+just completely leaving on the table
+just because maybe you're over bluffing
+this spot because you have a bunch of
+misconceptions because you've never dug
+deeper into the solve
+and just the the it's a criminal thing
+to do when you're looking at solves
+because
+many times maybe in this situation ace
+four spades
+isn't a a very good combo to jam but
+maybe if we didn't have all these air
+hands all of a sudden ace four spades is
+a good hand
+handed jam and if you don't understand
+why
+the specific things are happening and
+how all of these hands come together and
+how the overall range is made up
+you're going to end up completely
+ruining your strategy in tons of
+different places
+and so it's going to be very important
+to
+one start to understand the actual
+principles behind
+why your hand is doing what it's doing
+where is the ev of your hand coming from
+why are certain frequencies being taken
+and why is this hand at 30
+frequency and this hand's a 90 frequency
+there's a reason
+the solver chose that hand at higher
+frequency for a very specific reason
+and you have to figure it out and one of
+the best parts about learning theory
+is that you don't have to memorize a lot
+of different things
+many times you can just know what the
+strategy is
+intuitively once you have understood
+tons of theoretical principles
+once you understand why each hand is
+doing what it's doing all of a sudden
+you can take a similar spot
+because you understand all the
+principles of a spot that you studied
+earlier
+you can take a completely different spot
+apply some of those same principles
+and see okay this principle may apply
+here but maybe this principle doesn't
+and so i'm going to adjust like this
+and as you go through your entire career
+your overall intuition just gets better
+and better and better
+and you're able to make these really
+well thought out educated guesses
+while you're playing in a hand with only
+a 15 second or 20 second time bank
+and you're much closer you just get
+closer and closer to gto
+but you never get there if you're only
+looking at the solve
+as an answer key you're just never going
+to get to
+a place where you can intuitively tell
+someone oh
+this hand bet 60 of the time and these
+are the reasons why
+you'll never be able to get there unless
+you start actually analyzing these
+solves in a really in-depth way
+and so i think it would have been very
+easy for me to
+just kind of go through this hand and be
+like oh i should have probably just
+checked the river here
+what a pun i'm not good okay let's move
+on and go play again
+but i would have missed a lot of evie
+that i could have gained and this is why
+i'm showing this hand
+and why i'm trying to relay this
+information to you guys as well because
+this is one of the things that has
+helped me learn poker
+in 2021 like 20-21 basically
+everyone is studying solves and you have
+to be better theoretically than them
+especially if you want to move up to
+stakes that are respectable and you are
+going to be able to make a
+high amount of a very high hourly
+but i appreciate everyone watching this
+video hopefully some of the
+end rant that i had is helpful to you
+guys
+and if you have any questions leave a
+comment or join the gto wizard discord
+and at me if you have any questions as
+well and
+i will try to respond to any comments
+that you leave
+i appreciate you guys watching this and
+i'll see you soon
+you

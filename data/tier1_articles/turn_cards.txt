@@ -1,0 +1,107 @@
+### TOPIC: turn cards
+The Worst Turn Card
+Greetings from GTO land. In today’s article, we will use the Turn Reports feature to gain a macro view of what turn cards are good and bad for us in a single-raised pot where the preflop raiser (PFR) is in position and made a flop c-bet, which out of position called.
+For an in-depth view, we’ll look across a few rainbow flops to see if we can spot any patterns that would benefit our big-picture learning. These studies are 100bb cash games, although some patterns will also apply to tournament situations.
+Scenario 1: K72r, BTN vs BB SRP
+The bread-and-butter situation of poker. We raised preflop on the Button, our opponent called from the Big Blind, and now we find ourselves in the advantageous situation of being the preflop raiser in position.
+The first flop we’ll look at is K♠7♥2♦:
+This is a flop where BTN doesn’t mind using a small c-bet with a large portion of their range. It’s difficult for BB to defend on this board being out of position without natural calling hands like flush/straight draws, so they actually still end up overfolding against a small bet.
+So we c-bet 33% pot and BB calls. In that split second before the dealer burns and turns the fourth community card…
+Quiz 1
+Try ranking these turn cards in order of equity for BTN (highest equity first). Since the board is rainbow, suits make a very small difference in this analysis.
+Ten
+Ace
+Five
+King
+Did you give it a try? I’m guessing that most of you would have thought that the Ace is the best card for BTN’s range equity-wise, while some of you might have guessed that the King is a very poor card for the BTN. So you might have answered: Ace, Ten, Five, King.
+Well, the correct answer might surprise you because the actual ranking given by the Wizard for BTN’s equity is Ten, Ace, Five, King.
+One Turn at a Time
+The following chart displays BTN’s equity by turn card (green is the best, red is the worst):
+Let’s start with the Ten. Not only does it help BTN’s backdoor flop barrels such as AJ, QJ, and 98, but it also misses BB’s flop check-call range. It’s difficult for BB to have hands that took the check-call line and improved on the Ten. Overall, the offsuit T♣ is the best card for BTN’s range, giving BTN 49.9% equity.
+As we can see, BB would have preferred to play their backdoor combo draws—such as QJs, 98s, and J9s—as flop check-raises. These hands don’t quite have enough showdown value to be played as a check-call on the flop, so the solver prefers to treat them as semi-bluffs with some ability to continue on backdoor straight/flush turns. Thus, these cards will appear with reduced frequency in BB’s turn range.
+BB’s flop strategy when BTN makes a small c-bet:
+Note how J9s, 98s, and QJs all do some check-raising, reducing their combos in the flop check-call line.
+Next, we come to the Ace. When the Ace turns up, BTN retains 45.9% equity. It’s not as good as we think because there’s a small (6.8%) percentage of Ace-highs that the BTN would play as a check-back on the flop, having enough showdown value and being at that threshold where betting puts us up against too strong of a range.
+Let’s compare BTN’s c-betting range against BB’s flop calling range.
+The Ace is not as bad for BB as we think. BB actually plays most of their Ace-decent kicker hands (AQ–A8) as check-calls on the flop. They have just enough showdown value to proceed as calls.
+The threshold for BB check-calling the flop seems to be that A8o can check-call, while A6o becomes a check-fold. That’s because A8o gives us an additional overcard against the 7-x in BTN’s range.
+Here, we use the ‘Ranges’ tab to examine the top pairs in each player’s range on the turned Ace. Note that BB has a top pair advantage.
+When the Ace hits, BB has 38 combos of top pair as compared to BTN’s 72. However, because BB’s range is much narrower, whereas BTN c-bet flop with a large portion of their range, BB actually has a higher percentage of combos of top pair. The important thing when understanding hand classes is not absolute combo count but how often they occur in each player’s range.
+The important thing when understanding hand classes is not absolute combo count but how often they occur in each player’s range.
+For example, you have 6 combos of nuts on the river. That doesn’t seem like a lot until you realize you reach the river with just 3 combos of air. Suddenly, 6 combos of nuts become a lot because they make up 2/3 of our range! In a different situation, you raise preflop with 500 combos of hands, of which only 6 are the preflop nuts AA. Now, 6 combos seem very little.
+Next up, let’s examine a brick, the offsuit 5. The 5♣ drops BTN’s equity to just 44.5%!
+BB has more two pair combos on a turned 5.
+The 5 is a bit worse for BTN than the Ace because BB turns more two pair combos and sets of 55. Unlike earlier turn cards, where the BB wouldn’t have turned sets like TT or AA because those would have been three-bet preflop. In addition, since BTN’s range is naturally a bit more high-card heavy, the 5 doesn’t help the broadway part of BTN’s range—although it does help the wheel Aces
+like A4s and A3s.
+Hands like A3s and A4s now have a great barreling opportunity. However, these hands are just a small portion of BTN’s range.
+The last card in the analysis for this board is the King, pairing the top card.
+BB has a higher percentage of trips on the turned King.
+If we just look at trips
+combos, BB has a slight advantage—but BTN has a fair amount of trips as well.
+Even though both players can present similar nut combos, the King is still a poor card for BTN overall as BTN had quite a few backdoor draw type hands in their range. Hands such as T9, 86, and 65 were hoping for help on the turn which would then boost BTN’s equity (by either pairing up or picking up a draw).
+The offsuit K♣ is actually the worst of all Kings because it brought zero additional equity for any backdoor hands in BTN’s range.
+Both BB and BTN have ‘nut’ combos with 90+% equity against an opponent’s entire range, so BTN doesn’t enjoy a clear nut advantage anymore.
+I found the equity distribution graph very useful for understanding this spot. On the turned King, BB and BTN both have nutted hands in their range. In this case, our definition for ‘nutted’ is King-x and better, which has 90+% equity against an opponent’s entire range.
+However, BTN’s equity, as shown by the dark green line, is almost always behind.
+BTN has a tough time because they need to polarize their range between strong hands and air for the most part, but BB can easily defend with ample combos of King-x. This would be less of an issue if BTN has enough ‘ultra-nutted’ hands in their range that beat BB’s nut range.
+BTN’s Strategy by Turn Card
+What can we conclude from the above studies?
+We must be mindful of the ranges involved and understand how they interact with turn cards. Generally, the PFR likes to see bigger cards (9 and above).
+Overcards are generally slightly better for the preflop raiser than BB.
+Low cards, like the 5, are not so good for the PFR.
+When our opponent lacks the nutted hands to counter aggression, an overbet may be a better idea than a more common ⅔ pot bet. I call this a ‘green light’ to be selectively aggressive.
+Board-pairing cards are pretty bad. On a turned King, we should be more cautious, as if we have seen an ‘amber light’, and reduce our barreling frequency accordingly.
+There’s some correlation between our equity and our betting frequency, although it’s also influenced by both players’ nut ranges.
+Regardless of the turn, we usually won’t use a ⅓ size on the turn IP on rainbow boards. Our value hands want to bet bigger and if we have marginal showdown value hands, checking is higher EV than making a small bet. Thus, our decisions should be between checking or betting larger (66% to 125-150% pot).
+Let’s take a quick look at a few different flops to see if our analyses hold true.
+Scenario 2: J85r
+As the ‘General’ strategy for this J♠8♥5♦ flop involves quite a few different bet sizes, for the sake of this study, I used the ‘Simplified GTO IP’ setting, which restricts BTN to only use a 33% pot c-bet sizing on the flop. It’s not a pure c-bet range spot.
+The data from this flop is slightly different. The following chart displays BTN’s equity by turn card after betting 33% on J85r:
+Turn equity for BTN (green is best, red is worst)
+The worst turn card for BTN is not a board-pairing card but actually the 2 (although it’s close). Generally, all the low cards are bad for BTN in this scenario.
+The best turn cards for BTN include the King, Ace, and Queen. An observable trend with overcards is starting to appear. That makes sense because we c-bet a lot of hands like KQ, KT, QT, and Q9, which turned top pair or a draw. It’s also harder for BB to check-call King-x than Ace-x on J85 with poor showdown value, so the King is slightly better for BTN than the Ace.
+BTN will almost always choose to c-bet 1 overcard+gutshot hands like QT and Q9.
+Cards like the Ten or 9 are okay because we usually c-bet the straight draws, and now we turned the nut straight or made a pair to go along with our straight draw, while BB tends to check-raise hands like QT/Q9 vs our small c-bet. Moving toward the bottom, the board-pairing cards are pretty bad, as is the case for the bricks (3 and 2). Comparing the 2 to the King, it’s much easier for BTN to have hands like QT (improved straight draw), AT (overcard with gutshot) than a hand that improved on the turned 3.
+My observations from the above data:
+Overcards are great for the BTN.
+Again, there’s some correlation between BTN’s equity and betting frequency.
+An overbet is a good idea when our opponent’s hands don’t improve, even when it doesn’t improve us either. This is true for both the King and the 2.
+When a card comes that changes the board and helps both players, a large bet is generally better than an overbet.
+This study is a bit simpler because we could see at a glance that the higher the turn card, the better our equity.
+One last study before we go.
+Scenario 3: T32r
+Similar to J85r, I had to use a simplified bet size simulation on the flop for IP to make the data more presentable. The ‘General’ solution uses quite a few bet sizes for IP, including an overbet on the flop.
+Let’s try and group the turn cards into categories for easier understanding:
+Broadway overcards (Jack, Queen, King)
+Pairs the top card (Ten)
+In-between cards (7, 8, 9)
+Improve straight equity (4, 5, 6)
+Overcard but also improves bottom straight connectivity (Ace)
+Pairs the bottom/middle pairs (2, 3)
+Here’s a logical way to try and sort these categories before looking at solver output by equity for BTN:
+As we saw earlier, the face cards
+(overcards to the board) will almost always be good for BTN and poor for BB. So it should be safe to put the Jack/Queen/King in first place equity-wise.
+Pairing the top card seems bad in this situation. BB won’t be check-raising much T-x, probably only AT and KT sometimes, so we can expect BB to have more T-x. Our barreling hands also missed completely. So we could put it in last place equity-wise.
+Pairing the lower cards will be bad for BTN because our backdoor barrels didn’t improve, but the good news is it didn’t improve BB that much either. BB shouldn’t have much 2-x and 3-x. So the 2 and 3 should be a bit better than the dreaded Ten.
+On the turned Ten, BB has a higher percentage of all pair-type hands except overpairs.
+Comparing the 7, 8, and 9 to the 4, 5, and 6, it seems like the higher cards will have more value to BTN.
+On a turned 9, BTN will have many hands with improved equity, such as QJ, KJ, 87, J8. Even picking up a pair of 9’s with hands like K9/Q9 is okay for us. A turned 5 improves much fewer hands in our range, only 55 and T5s, possibly 76s that picks up a gutshot. BB on the other hand, is going to have 64s, 53s, and 52s in their range. So the smaller cards won’t be as good for us.
+What about the turned Ace? The Ace is unique in this situation because it gives us a lot of top pair combos but also boosts wheel straight connectivity. Both players can have 54, A3, AT, A2. Only BTN will have the stronger Ace-x like AJ–AK and of course AA. It also improves broadway straight connectivity, aiding some of BTN’s hands like KJ/KQ, but BB should have those in some percentage as well.
+BTN will enjoy the lion’s share of top pair-good kicker hands on the turned Ace.
+However, BB will still have enough weaker Ace-x and turned two pair combos to not be totally overwhelmed by BTN on this turn.
+It’s difficult to estimate without looking at the data, but I would rank the Ace somewhat above the 4/5/6 category, but below the Jack/Queen/King category.
+Let’s look at the results:
+BTN Turn Equity (green is best, red is worst)
+Finally, a brief look at GTO betting strategies for BTN on the turns, along with a friendly reminder that these frequencies are guidelines and not rules to be strictly followed in-game:
+Some takeaways from this flop study:
+Once again, there is a clear correlation between BTN’s equity and betting frequency.
+Most people don’t use an overbet here often enough. Since BTN bets 33% pot on the flop, BB’s check-calling range is fairly weak, and BTN has a lot of incentive to start polarizing and making bigger bets on the turn. Maybe something to look out for in your next session?
+The exception to the overbetting pattern occurs on a turned Ten, pairing the top card. BTN should almost never overbet; BB has more ‘nut’ combos. Instead, a 66% bet size is more profitable, even with a hand like 44 that can expect calls from Ace-highs.
+Putting Data Into Practice
+Studies like this are where a solver really shines in assisting human understanding. As humans, we can’t objectively state that a turned Queen is better than a turned 9 without using some sort of range calculation tool.
+If I could choose just one learning point to take away from this article, it’s that:
+Generally, high turn cards are going to be better for the PFR, and low cards or board-pairing cards are going to be poorer for the PFR, in an IP vs OOP caller situation.
+Along with the data on betting frequencies, you should now have a better idea of when we have a ‘green light’ to be aggressive and when we have an ‘amber light’ where it might be better to tone down the aggression.
+On the flip side, if we observe that our opponent is not respecting some turn cards where their equity is very poor, we may be able to play back at them by check-raising more or always check-calling hands that would ordinarily be indifferent bluff catchers.
+I would venture further and suggest that most opponents at lower stakes are not aggressive enough even on good turns. For example, on T32Tr, the solver suggests to keep betting all our 44–99, which I’m confident many people don’t do. Consequently, since they removed thin value from their range, our worst bluff catchers become calls. But this is a topic for another day.
+Whenever we want to study exploitation, I suggest first understanding the GTO baseline, and then understanding how your opponents are falling short. Good luck at the tables everyone.

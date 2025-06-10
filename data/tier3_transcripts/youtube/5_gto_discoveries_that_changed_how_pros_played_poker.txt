@@ -1,0 +1,395 @@
+### TOPIC: 5 gto discoveries that changed how pros played poker
+Have you ever wondered about how we
+arrived at some of the strategies that
+we now know to be GTO or to be optimal
+in various scenarios? Well, throughout
+the history of poker, there's been a big
+evolution in what we thought was correct
+in certain spots. In today's video,
+we're going to discuss that in some
+depth. Hi, Wizards. I'm Matt Hunt, and
+we are talking about five GTO
+discoveries that changed how pros played
+poker.
+Firstly, we have pushfold strategies.
+Now, while Nash equilibrium concepts
+have been applied to poker since the
+1960s, the first pushfold software
+actually didn't arrive until the mid
+2000s. Its name was Sitandgo Wizard,
+abbreviated to SMG Whiz, and it's a
+significant predecessor to GTO Wizard,
+of course, but it revolutionized the way
+that players approached online sitandos,
+small tournaments with a specific number
+of players, which were one of the most
+popular formats at the time. I
+personally remember using this software
+when I was grinding sit and goes in
+maybe I would say 2010 or
+2011. Understanding basic push fold
+ranges for short stack spots was a
+massive edge at that time, much more so
+than it is now. And even though this
+tool couldn't really even do ICM
+calculations very well, it was still
+incredibly powerful just in the way that
+it helped players to understand chip EV
+push fold strategies. Of course, these
+days we have much more advanced
+technology. But let's take a look at an
+example in the GTO Wizard solution
+archive to illustrate how a certain spot
+might have been played before we really
+had push fold tech available to us. So,
+this right here is a basic MTT spot
+chippy V, 10 big blinds deep, and it's
+folded around to the button. Now, back
+in the day in the pre-solver era, before
+we even really had the power to
+calculate pushfold ranges, we might not
+necessarily have recognized that 10 big
+blinds was a stack size where shoving
+could be very effective. We might even
+have thought that it was actually too
+deep to be shoving because back in the
+day when no limit holdem was pretty new
+and limit holdem had been the standard
+up to that point. Well, in limit holdem
+you can't shove pre flop. So
+understanding that we can actually shove
+in this spot with more than 30% of hands
+is not something that would have been
+possible without the discoveries that
+came from a solver or an early
+calculator like SNG Whiz. And in this
+spot, of course, these days, we can
+actually even calculate that we should
+limp some hands. And as you can see, the
+solver doesn't want to limp here. In
+fact, it doesn't want to min raise at
+all. But if you went back 20 years, it
+might have been common to see players
+minraising in situations like this from
+the button off of a 10 big blind stack
+because we simply didn't have a lot of
+understanding of push fold in how it
+actually gets executed in real time. We
+might have understood that at short
+stacks you can go allin, but we really
+didn't know exactly what the ranges
+looked like. So that was an important
+discovery that changed tournament poker
+significantly over the years. Our second
+GTO discovery is range betting. Now I
+have put out a video about range betting
+recently which you can go check out
+which explores the concept in more
+detail. But generally, if we're looking
+at the history of this idea, post flop
+solvers were the next evolution of GTO
+strategy that came along after push
+fold. And it was in the mid2010s, early
+to mid2010s that we really started to
+have access to post flop solvers. With
+these solvers came a new wave of
+innovations. And the simplest and most
+straightforward of these was the
+revelation that in fact you can just bet
+all your hands in a lot of spots. Range
+betting all boards for one-third pot
+became a very effective strategy for
+several years. It was actually pretty
+common, particularly in cash games, to
+see people taking a range bet 1/3
+approach simply because they understood
+that their opponents were not uh
+continuing enough against this size,
+were not check raising enough, and so
+on. In fact, even nowadays, it won't do
+that badly if you just range bet every
+single board for a small size, and your
+opponents will probably still make some
+mistakes against it. So, this spot right
+here that I've pulled up is a pretty
+generic cash game spot. It's a 500 ml
+6max spot with a 2.5x open. Lowjack
+opens and the big blind defends and the
+flop comes ace ace queen two hearts.
+Now, clearly, as you can see here from
+the betting frequencies, the solver is
+choosing to essentially range bet here.
+There's only 0.7% check. So that's
+essentially a range bet. And this is
+something that maybe 20 years back, even
+15 years back, we probably would not
+have recognized as being a range bet
+board. It's ace ace queen. It is a board
+that is naturally going to favor the pre
+flop razor in a lot of ways. But it
+might not have been that easy to
+identify immediately that this was a
+good range bet spot. In fact, we really
+didn't have the terminology to even
+explore it in those terms. We didn't
+really talk about range betting back
+then. And I say this as somebody who's
+been around in poker for 15 years and
+remembers what strategy discussions were
+like back then. I can guarantee you the
+idea of range betting did not exist
+simply because the idea of a range was
+still pretty new. So overall something
+like this where we can range bet and in
+fact we can use a range bet for half
+potentially even here because there is a
+good chunk of half potting in this sim
+that would be something that was
+completely unfamiliar until the advent
+of post flop solvers allowed us to
+discover that concept. So our third GTO
+discovery that changed how pros played
+poker is overbedding. Now, as solvers
+became more widely used, what happened
+is players were more aware of what the
+most important later street strategies
+were, and over betting was by far the
+most significant of these because in a
+span of 1 to two years, overbs went from
+a very rare occurrence to being
+extremely common place. Now, today, we
+recognize that over betting is central
+to our ability to maximize EV in many
+spots, but back in the day, we simply
+didn't. If you go back to 2010, 2012,
+that kind of era, if you watch live
+streams from that time period, you won't
+find a lot of overbedding. You'll find
+certain players that embraced the power
+of overbedding and understood how it
+could benefit their strategy, but you
+won't find it being that common. But of
+course, as solvers became more widely
+used, it then became a crucial part of
+anybody's strategy. So, let's take a
+look at an example. So, this right here
+is an example from our GTO Wizard
+archive. It's a cash game spot. We open
+in the cutoff at 100 bigs. Big blind
+calls. We bet 33% on the flop and we get
+called and then we see the turn. And
+what we can do here is look at aggregate
+reports for the turn. And as you can
+see, there is a pretty good chunk of
+overbedding being done here. 175% at
+some
+frequency, 125% at a pretty reasonable
+frequency. And there's going to be
+certain specific turn cards where the
+overb is quite prevalent. It's quite a
+significant part of the strategy. If we
+filter for frequency here, we can see
+that the most common cards for the over
+bet are going to be a jack, a 10, an
+eight, a queen, cards like that that are
+pretty much just a turn brick. And the
+over bet by extension then is going to
+be a pretty important part of the
+overall game tree for this player in
+position on the turn. It's going to
+really help to maximize EV in many
+spots. If you do eliminate overbedding
+from your strategy altogether, there's
+plenty of situations where it actually
+does cost you quite a bit of EV. And
+back in the day, this is something we
+didn't really know about until we
+started working with solvers. We didn't
+really understand that not overbing in a
+spot that is an overb spot costs a lot
+of EV. So this was a big discovery that
+really influenced the way that basically
+anybody who really studies poker
+seriously was approaching and uh
+reflecting upon the game in very
+specific scenarios. Now our fourth GTO
+discovery is blockers and unblockers.
+Now while PLO players have been pretty
+aware of blockers for a long time, the
+concept only really arrived in no limit
+hold within the 2010s. solvers have
+taught us that certain specific
+combinations of hands have very powerful
+bluffing properties in some spots and of
+course bluff catching properties as
+well. They've also taught us that
+unblocking our opponent's folding hands
+can also be valuable, especially when
+we're choosing our turn and river
+bluffs. There are plenty of spots where
+the solver will choose to barrel the
+turn with a certain hand just because it
+unblocks all the folds. Let's take a
+look at a spot where blockers are very
+relevant. So, this is the same board
+texture that we just looked at. And in
+this case, we didn't over bet the turn.
+We bet 75% of pot. Now, we get to the
+river and the river is a three of
+hearts, which puts a straight and a
+flush up on the board. Now, when it
+checks to the in position player here on
+the river in the cutoff, you can see
+that a pretty decent chunk of bluffs
+here are going to contain the ace of
+hearts. In fact, the Ace of Hearts Jack
+or the Ace of Hearts King, for example,
+actually has the power to go as big as
+an all-in shove here. And if we look at
+the construction of the range here in
+this spot for the Inosition player, if
+we go to filters and we go to trash
+hands and we take a look at the hands
+that are bluffing at the highest
+frequencies, well, take a look at how
+they're constructed. The ace of hearts
+or the king of hearts is a high
+frequency bet here. In fact, these
+combos actually even have the ability to
+bet way bigger than you might expect at
+some frequency. Ace of hearts king is
+over betting a pretty good chunk of the
+time. It's betting the 87% fairly often.
+And in fact, if we look at Ace of Hearts
+Jack, there's actually a little bit of
+all-in shoving going on here. Something
+like Ace of Hearts Jack of Diamonds
+wants to jam all in for 4x pot at some
+frequency here. So clearly this is
+something that is greatly affected by
+the blocking properties of the hand.
+Being able to block the nut flush and
+being able to block the back door
+straight is very very powerful here. So
+that ace of hearts blocker even though a
+PLO player and even most no limit hold
+players would be able to identify that
+this is a pretty good card to have. We
+didn't really know before we had solver
+techch available how powerful it could
+be. We didn't really know that there are
+certain spots where if you have that not
+blocker, you can really just make a huge
+bet and put tons of pressure on your
+opponent in certain kinds of spots. A
+great advantage of studying with solvers
+right there. So, our final GTO discovery
+here is the concept of equity denial.
+Now, it's only really been in recent
+years, the last 5 years or so, that
+we've really been able to flesh this
+concept out in the right way. What we
+see is that frequently solvers are going
+to prioritize value betting larger on
+earlier streets with vulnerable value
+hands. And in the past, players might
+have done this for protection. But while
+we know that protection is strategically
+relevant, these days we recognize that
+it's more about overcards than it is
+about draws. Pricing out the draw,
+giving them a bad price with a flush
+draw, it's not really something we can
+do because they're just not likely to
+fold the flush draw one way or the
+other. They're not supposed to. But they
+are supposed to fold their overcard
+hands sometimes. And quite often that
+makes a big difference. Let me show you
+what I mean. So this is another cash
+game sim just like the one we looked at
+previously. It's cut off big blind 100
+big blinds and the flop is 1085. But in
+this case what I've done is I've run it
+with GTO Wizard AI and I've simplified
+the flop strategy to two sizes of half
+pot and full pot. And what we can do is
+if we hone in on, for example, an
+overpair hand, we can see that pocket
+jacks has a significantly stronger
+preference for betting here than any of
+the other pocket pairs. Jacks is going
+to never check, while queens is checking
+a little bit, kings a little bit more,
+and aces maybe almost half the time. And
+in addition to that, Jax is more
+inclined to bet bigger than any of the
+other pocket pairs as well. Jax is
+actually favoring maybe a 50/50 split of
+these two sizes judging by uh what we
+can see here. Now, if we look at the
+equity of these hands, it's not that
+different. Equity reading, jacks 76.9,
+aces 80.2. So, they're very similar
+strengths of hands, but if we look at
+how they fit into the overall strategy,
+there's a good chunk of hands that are
+favoring this larger bet, and it's a lot
+of vulnerable value. It's ace 10, king
+10, pocket jacks, hands like that. Even
+pocket fives as well, although that's
+mostly just for pure value more so than
+because it's vulnerable. But you can see
+that the vulnerable value, the ace 10,
+king 10, pocket jacks, that type of hand
+actually has a bit of a preference for
+betting bigger. This is to deny the
+equity to some of those overcard hands.
+Because even though those overcard hands
+are not drawing very live against our
+hand, what happens is when we narrow
+down the calling range on the flop, it
+actually allows us to have a little bit
+more leeway to value bet more liberally
+on later streets because we're less
+concerned about our opponent turning top
+pair. So it actually creates a
+circumstance where certain turn cards
+that would otherwise be making us a
+little bit cautious no longer do make us
+cautious because we bet bigger and all
+their overc cards actually folded. So
+this is kind of an interesting concept.
+It's not an easy one to apply in a lot
+of detail, but it is one that we really
+understand now that we can run solver
+sims that have multiple sizes and
+particularly now that we can use GTO
+Wizard AI to very rapidly run sims that
+can test different sizes against each
+other. We can see these trends emerge in
+terms of the sizes that the solvers
+prefer in various spots. So, that's
+going to be it for this video. Those are
+the five GTO discoveries that changed
+how pros play poker. I can only imagine
+what GTO discoveries are going to exist
+in future that we'll figure out once we
+have even more advanced solver tech
+available. And you can be sure that when
+that tech is available, GTO Wizard is
+going to be right at the forefront of
+putting that technology out there and
+making it accessible for you guys. So, I
+hope you like this video. If you do want
+more content of a similar nature, please
+check out my own channel, Poker Fluency.
+I'll be doing daily coaching sessions up
+on YouTube every weekday going forward.
+and I hope to see some of you there.
+Please do check out this video right
+here that you can see linked if you'd
+like to see some other content of mine
+here on our YouTube channel. And in the
+meantime, I'll be back soon with another
+video. Thanks everybody and good luck.

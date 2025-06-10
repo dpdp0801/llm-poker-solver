@@ -1,0 +1,78 @@
+### TOPIC: turn probe bet
+The Turn Probe Bet
+What, No C-Bet?
+Imagine yourself defending as the BB caller vs BTN preflop raiser in a 100bb cash game pot. After calling the raise, the flop is dealt: T72r. This board is neither particularly good nor bad for either player. We start with a check, expecting a continuation bet. Against this bet, we can choose to fold, call, or raise, depending on our read on the situation.
+Instead of c-betting, our IP opponent elects to check back the flop. In HUD
+terminology, you would see this statistic labeled as ‘Missed C-Bet.’ This is unfamiliar territory for many players, given c-betting too often is the norm nowadays. Thus, if you see someone toning back on the c-bets, they could either be too passive or someone who has studied with solvers and has a somewhat balanced check-back range.
+The fourth community card hits the felt, and we, as the OOP player, make a bet on the turn. (this is known as a ‘Turn Probe
+‘ in HUD terms). What information should we use that could help us construct a +EV betting strategy in terms of size and frequency?
+Before we make our decision, let’s rewind to the flop. When our opponent checks back, we now have some additional information on them without needing to look at a solver solution.
+
+Range Deficiencies
+We can say that our opponent’s range is somewhat capped. It contains very few nutted hands because they like to see the pot grow, and so would’ve made a c-bet most of the time. If the postflop betting action doesn’t start immediately at the flop, building a big pot by the river becomes much harder. Thus, we can confidently exclude many combos of hands, such as overpairs, sets, and top pairs. We can see this by looking at BTN’s c-betting strategy. We always c-bet KK, QQ, JJ, our sets, and many of our better top pairs.
+BTN’s detailed c-betting strategy on T72r
+In many live games, you could almost say with 100% certainty that overpairs or sets won’t be checked back on a T72r flop when in position, although sometimes tricky players will know that checking back top set makes some sense since they block a lot of our top pair combinations that continue against a bet.
+For draws, there aren’t that many on this board, but I expect most players to always c-bet their straight draws. Intuitively, it feels awkward to check back a hand like 98 or J9 and face a bet on the turn since calling with a draw feels quite bad, and raising doesn’t seem to represent a good hand credibly.
+As such, most players choose to take the easier route out and always continue betting the obvious draws. On boards with many draws like J86tt, most people will always c-bet when they are the preflop raiser and have a frontdoor flush and/or straight draw. Do observe for yourself if this is true at your games.
+In terms of hands that do check back, we might expect some pocket pairs below top pair, some Ace-highs like A8s and AJs that have reasonable showdown value, and the weakest hands that are essentially giving up on the pot like 54s, K5s that don’t have good enough barreling equity to work with.
+
+What Turn Cards Do We Want?
+BTN’s simplified (see ‘action grouping’ setting) c-betting strategy on T72r
+Indeed, the solver c-bets overpairs, top pair strong kickers, and straight draws at a very high frequency. So when our opponent checks back the flop, we should be able to take a guess at what turn cards are good and bad for the BB.
+Straight-completing turn cards should be extremely good for the BB as BTN c-bet most of their straight draws. So, not only does BB have more straights but also more pair+draw type hands when not improving to the nuts on the turn. On a straight-completing card, we can expect a clear equity shift in favor of the Big Blind.
+Turning an Ace should be quite bad for the BB. I can think of two reasons why this might be the case:
+BTN should have checked back quite a fair amount of Ace-highs on the flop that have decent showdown value and don’t want to build a big pot or start ‘bluffing.’ These include their best Ace-highs like AK and AQ.
+BB lacks the stronger Ace-highs because they would have 3-bet with them preflop.
+Let’s look at the solver to see if our evaluation is valid. We’ll be inspecting three (offsuit) turn cards: an 8 (completing a straight), an A (new overcard to the board), and a bricky 4.
+Turn Reports
+BB’s performance (measured in EV) on different turn cards (flop checked through)
+Turn Reports help us see immediately that the Ace is by far the worst for BB in terms of both equity and EV. The above-average cards for OOP include 9, 8, Jack, and 6 (the straight-completing cards), as well as 4 and 5, which are clear bricks for IP.
+Turn Reports help us see immediately that the Ace is by far the worst for BB in terms of both equity and EV.
+The board-pairing turn cards such as 2, 7, and Ten are actually below average for BB; BB still has a lot of air, and IP still has a fair amount of decent equity hands like unimproved pocket pairs and Ace-highs that can withstand some pressure.
+Some of you may think that the Ten is a very good card for BB—while BB certainly has a slightly higher percentage of Ten-x, we don’t have much of anything else. Also, the GTO solution sees BTN check back a fair percentage of Ten-x with weaker kickers.
+BTN has more incentive to c-bet Queen-highs than King-highs since Queen-highs have less showdown value.
+Turning a King is not great for BB because BTN still has quite a few K-highs that didn’t c-bet and backed into top pair.
+Turning a Queen is a bit better. BTN has more incentive to c-bet Queen-highs than King-highs since Queen-highs have less showdown value. As such, there’s more EV in c-betting than checking back with Queen-high, and thus, BTN will have fewer top pairs on the turn card Queen.
+We can see this trend more clearly when comparing the K6s–K2s with Q6s–Q2s. There’s a clear difference in c-bet frequency;
+Q6s continuation bets almost ⅔ of the time, while K6s only continues with a bet ⅓ of the time.
+Now that we know what cards are good and bad for BB in terms of EV, let’s look to construct our betting strategies. Should we use a small or large size when we probe bet, and how often can we do it? When is checking better? For these examples, I selected offsuit turn cards that don’t bring a backdoor flush draw.
+Probing an 8: A Light Nudge Does The Trick
+BB’s probe betting strategy on T728r
+The solver likes to use a small and medium size on the turn when probing the 8. There’s also some larger betting with hands like AT, KT, and K9, but these hands could use a half-pot sizing just as well.
+On this turn, we have an incentive to deny equity to random overcard hands in our opponent’s range, such as Ace- and King-highs. Most of our Ten-x and better are betting, and we have many good high-equity bluffs such as Jack-x, 9-x, and 6-x that can improve on the river when called. Our objectives here are value betting, denying equity, and semi-bluffing with decent draws.
+A hand even as weak as third pair top kicker (A7), can do some small betting on the turn. This hand doesn’t want to face a big bet, gets called by worse like lower pocket pairs such as 55 and even KQo sometimes, so it gets a lot done with just a small bet.
+Finally, the reason why a smaller size is preferred over a larger size is that our opponent’s range is simply very weak and behind a majority of BB’s range, with a lot of marginal hands that have a difficult time defending to even a small bet. For example, third pair top kicker (A7o) has 66% equity against BTN’s range.
+In addition, remember that our opponent lacks a lot of ‘strong’ bluff-catchers here. If our opponent’s range had a lot of overpairs and two pairs while we had a lot of straights, we could actually see some overbetting being done since this would be a polarized
+‘nuts-or-air’ situation. Instead, this is a situation where BB is more incentivized to construct their betting strategy linearly
+One analogy appropriate for this situation would be that we don’t need to exert much pressure to push down a flimsy door.
+One analogy appropriate for this situation would be that we don’t need to exert much pressure to push down a flimsy door. Instead, a light nudge is enough to get the job done. We could, of course, bet large and take down the pot very often, but that wouldn’t be the most +EV size for most of our betting range.
+BB vs BTN on T728r
+Around 73% of BTN’s range has less than 50% equity against BB’s range on the turned 8. Thus, a linear betting strategy is preferred from BB’s perspective.
+Finally, betting small also gets us a bit of thin value from hands that don’t really want to call but have to, such as KQo, 66–33, and A2s.
+Probing an Ace: The Kitchen Sink Or Nothing
+Some players, when seeing an Ace on the turn, will make a small probe bet with a hand like A4 or try to make a ‘blocker bet’ with weaker hands like T9 so that they don’t have to face a big bet.
+This is a big mistake. The turned Ace is extremely damaging to our equity, meaning we must play defense. Making a small blocker bet here doesn’t make sense because we’re bogged down by an equity disadvantage (BTN has 57% equity). BTN also has top pair 30% of the time here, so why are we continuing to put money in when the situation is so poor for us?
+One thing that is true, however, is that BB has the nuts advantage with more two pair and set combinations than BTN. This gives us something to work with, even if our overall equity is at a disadvantage.
+BB vs BTN on T72Ar
+BB has 2% of sets and 5% of two pairs. Despite having fewer combos in most of the one pair departments and an overall equity disadvantage, BB can still make this situation work for them.
+The way to do this is by using an overbet strategy. By polarizing their range between two pairs or better and air, BB maximizes their EV. They get more value from their nutted hands, and they force BTN into an uncomfortable bluff catching situation even with a hand that we would ordinarily consider strong, like top pair third kicker (AJs).
+BB’s probe betting strategy on T72Ar
+The actual size recommended by the solver is 13.7bb into a 5.5bb pot—that’s a 250% pot bet! While we don’t necessarily have to use this size in a real-life game, it’s good to know that a bigger bet is much better than a small bet here.
+BB’s 250% pot probe betting range
+Hovering over the 250% bet option, we can see the range composition of this bet size. As expected, we have the ‘nuts’ (two pair or better) or ‘air‘; we sometimes use 2-x like Q2 and K2 as a bluff. Otherwise, our bluffs are mostly sourced from straight draws like 53, 43, QJ, 86.
+This bet is designed to make our opponent’s bluff catchers, such as AJ and A8, indifferent between folding and calling. It gets folds from everything else; KT and JT won’t even consider defending. In theory, our opponent also needs to defend hands like 54s and K2s sometimes to a 2.5x pot-sized bet!
+If our opponent is a calling station and always calls our big turn bets with Ace-x, we can just bluff less. I would guess that most human opponents would over-fold here to this intimidatingly big bet. Thus, it might be reasonable to bluff a bit more than equilibrium. For example, GTO only bluffs about 25% of our J8, but we could start bluffing half of our combos. Just be aware that you’re deviating from the theoretical baseline and make sure you’re deliberate about it by having the reason why you’re deviating front of mind.
+Probing a 4: An Assortment Of Sizes
+The turned 4 is a brick for BTN that BB should feel happy about. Equities are fairly close, with BB holding 49% of equity. In terms of hand breakdowns, BB is doing slightly better, with more sets and two pairs and slightly more top pair combinations as well.
+BB vs BTN on T724r
+On one side, making an overbet is reasonable because we do have a slight nut advantage. Spontaneous thought might land at bottom set 22. On the other side, there are a lot of hands in our range that want to bet for thin value and protection but don’t necessarily want to bloat the pot. Hands like T9, 88, and 7-x come to mind. It doesn’t really make sense to start overbetting with second pair, so we need to consider having both a small and a large bet size.
+BB’s probe betting strategy on T724r
+
+Conclusion
+Given how frequently people c-bet as the preflop raiser, it can be confusing when an opponent instead chooses not to. In a GTO context, we’ve learned a few things about the probe bet:
+Draw-completers are usually great for us. Since our opponent lacks a lot of strong hands, we generally gain more EV by forcing them to continue with hands they really don’t want to. A big bet would work, but a small bet wins more.
+The turn being a big overcard, such as the King or the Ace, is very poor for the BB and very good for the BTN. If we do bet, we want to tell the story that we can beat whatever top pair they have made. This situation calls for a big bet and a big bet only. If we don’t have a value hand that can beat a turned top pair or a good bluffing candidate, we should just check.
+A brick on the turn allows us to choose a few sizes. We have some marginal hands like weak underpairs that are likely good and are interested in betting for protection to deny equity to overcards. At the same time, we also have strong value hands like top pair top kicker that want to build a bigger pot. Since our bet sizes are driven by our value hands and we have different sorts of value, we use a variety of sizes.
+Feel the urge to practice turn probe betting as BB against BTN with 100bb stacks in the app? Say no more, we already set up this drill for you.
+The conclusions in this analysis were drawn under the assumption of a BTN using a GTO c-betting strategy. In real life, I expect that people always c-bet all their draws; so, on straight/flush-completing turn cards, it usually makes sense to be more aggressive than the solution suggests. Generally, people do still check back Ace-highs a fair bit on these lower flops, so the strategies we outlined for a turned Ace should still be effective.
+Finally, against people who c-bet too often and so rarely allow us to probe the turn, we should simply check-raise them on the flop to infinity and beyond!

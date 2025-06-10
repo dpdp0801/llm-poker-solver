@@ -1,0 +1,98 @@
+### TOPIC: cbet as oop preflop raiser
+C-Betting As the OOP Preflop Raiser
+Position is an extremely valuable advantage in poker. Most players would describe the comfort zone as being in position (IP) coupled with having the stronger preflop range. This situation, known as the ‘bread-and-butter’ of poker, occurs when we raise from late position and are called by one of the blinds. Once our opponent checks, we then have the option of c-betting or checking back for a free turn card.
+However, the pokerverse expands far beyond this comfort zone. We will inevitably find ourselves in uncomfortable situations, like when we raise from early position and we’re cold-called by late position. We must now play an entire hand out of position (OOP).
+Despite retaining the advantage of having more nutted preflop hands, what GTO suggests we do may be counterintuitive. In this article, we’ll explore which flops we can continue to be aggressive on, which flops we should be checking often, and some useful rules of thumb to take into your games. For this article, we will use the solutions for NL50 rake, 100bb, UTG raises 2.5bb, BTN flat-calls.
+Preflop Begets Postflop
+Before running through our postflop strategy, it’s paramount to understand in what condition we arrive there. We must gauge our opponent; what does BTN’s preflop cold-calling range look like?
+BTN flats 4% of their playable hands. The better hands, such as AJs–ATs, 99–JJ, and KQs–KTs, are mostly indifferent between raising and calling. Overall, it is a narrow, condensed range that is particularly heavy in lower suited broadways and middling pocket pairs.
+When we are the BTN in this scenario, it’s easier to implement a solid strategy of 3-betting or folding. But when we are the UTG player, we have to be prepared for our opponent to take us to a different part of the game tree.
+Something to be mindful of is that in a real-life situation, an opponent that flat-calls you from the BTN is likely playing wider than this range, which will impact optimal postflop strategy. You will probably encounter players flatting all their Ace-x suited, and the lower pocket pairs 22–55, which the solver suggests are very low-frequency flat-calls.
+Having played around with the different rake parameters, a couple of general guidelines apply when the rake structure is changed: At NL500, the BTN is allowed to flat 6% of hands. At NL50, assuming no preflop rake, there’s more incentive for the BTN to 3-bet and instantly take down the pot without having to pay a fee to the house.
+First Flop Decision: Bet or Check?
+It’s time to test your intuition with a quick pop quiz before we show the solutions. Here we go:
+UTG opens 2.5bb, BTN calls (100bb deep).
+What is UTG’s c-betting strategy on each of these four flops?
+Flop#1: Q♠9♥6♦
+C-bet 100% of our range for ⅓ pot size
+C-bet 33% of our range for ⅔ pot size
+C-bet 33% of our range for ⅓ pot size
+Check our entire range
+Reveal solution
+Flop#2: 4♠3♥2♦
+C-bet 100% of our range for ⅓ pot size
+C-bet 50% of our range for ⅓ pot size
+C-bet 25% of our range for full-pot size
+Check our entire range.
+Reveal solution
+Flop#3: K♠Q♥6♦
+C-bet 100% of our range for ⅓ pot size
+C-bet 100% of our range for ⅔ pot size
+C-bet 33% of our range for ⅔ pot size
+Check our entire range
+Reveal solution
+Flop#4: K♠4♥3♦
+C-bet 100% of our range for ⅓ pot size
+C-bet 100% of our range for ⅔ pot size
+C-bet 33% of our range for full pot size
+Check our entire range
+Reveal solution
+If you got a perfect score, kudos to you! Let’s now find out if you chose the answers for the right reasons.
+If you did not get all four, there’s no need to worry since we will dive into the analysis. Vamos!
+Q96 rainbow
+At first glance, this looks like a decent flop for UTG. We improved with KQ and AQ, and our broadways have some sort of draw equity. Thus, we might expect UTG to c-bet quite often, which would certainly be the case if we were the preflop raiser (PFR) in position.
+Yet, the correct answer is actually for UTG to check their entire range.
+BTN holds an equity advantage of 53% and has a higher percentage of sets. With clear disadvantages in equity and strong hands, UTG has to be more conservative and try to limit the pot size while out of position.
+When facing a check, BTN will stab small about 40% of the time.
+UTG will not check-raise super aggressively, as we can see above, just 10% of the time. Even a hand like AQo, top pair top kicker, will generally be played as a check-call most of the time with a small percentage of check-raising. Protecting the weaker parts of our range and bluff-catching becomes a larger priority than outright going for value with our good-but-not-great hands.
+The takeaway from this flop study is that we should prefer to take a more passive route and keep the pot small when out of position, even with hands that are ordinarily clear value bets in position.
+432 rainbow
+Once again, UTG’s optimal strategy consists of a range-check.
+This is somewhat counterintuitive as some of you may have correctly reasoned that now both players don’t have many sets, so why doesn’t UTG’s preflop advantage in AA–QQ translate into being more aggressive on the flop?
+The answer was foreshadowed in the opening sentence of this article: “Position is an extremely valuable advantage in poker.”
+Playing OOP as the preflop raiser and playing IP as the preflop raiser are two fundamentally different ideas.
+When we are IP with the preflop range advantage, there is very little value in trapping with our strong hands because if we take the action of checking back, we have immediately removed one street from the game tree and given up a good chance to build the pot with a strong hand.
+Conversely, when we are OOP, we actually gain more EV by allowing the in position player to bet their middling hands as value/protection/bluff and then attack with a check-raise.
+What do I mean by betting middling hands as value/protection/bluff? Well, let’s look at BTN’s stabbing hands when we check as UTG here:
+BTN stabs a wide range, including pure bluffs (QJs, JTs), medium-value hands that need protection (77–TT), nut hands (sets, A5s straights), and hands that don’t really fit anywhere (AJs actually has some showdown value but still mostly bets).
+With this range-checking strategy, UTG manages to win more from BTN’s middling and weak hands taking a stab. If UTG simply made a continuation bet, BTN would have just continued with their strong enough hands and folded their air hands.
+That said, BTN still needs to take a stab at the pot here. The BTN’s range is essentially condensed into what I would call ‘decent’ hands, with a good percentage of nut combos. UTG has a lot of hands that will just fold but have a chance to improve on a free turn card, such as KQo/ATo, that could hit an overcard and be very comfortable heading to the river.
+Thus, BTN has a good incentive to stab when UTG checks, but UTG also has a good incentive to check-raise once BTN stabs.
+UTG check-raises 18% of the time when BTN takes a small stab at the pot.
+UTG would check-call hands that aren’t quite strong enough to check-raise, like 99, TT, AQs, and AK. Essentially, these are hands with sufficient showdown value but have poor equity when the check-raise is called.
+UTG would also check-raise with a polarized range of strong hands and high-equity bluffs. UTG’s strong hands feature AA, KK, straights, and sets. Our high-equity bluffs include semi-bluffs like 55 and 66 as well as Ace-highs and King-highs with backdoor flush or straight playability like A7s, A6s, and K6s. These are hands that have some potential to improve to something big by the river, like an emergency exit in case we get called.
+Facing a check-raise, BTN is forced into an indifferent situation with hands as strong as 88–99, which now have to consider outright folding on the flop. BTN would fold their worst bluffs like KJs, QJs, and AQo and continue with hands like TT and JJ, which are now bluff catchers.
+In summary, on a low flop neither player improved, it’s a theoretically sound play for UTG to start with a check. The reason is that UTG wins more with their value hands by forcing BTN to take a stab with their middling and weak hands, to then check-raise with a polarized range. Check-calling with hands that aren’t quite strong enough equity-wise is also higher EV than betting and trying to take down the pot.
+KQ6 rainbow
+UTG enjoys several advantages on this flop, with more sets, two pairs, and top pairs. UTG has 57% equity. Even having the disadvantage of being out of position, this is such a good flop that UTG can still attack freely when enjoying both the equity and nut advantage.
+The expression ‘with reckless abandon’ comes to mind, but a more apt description here is to take a ‘free shot’ at the pot that our opponent can’t do much about.
+On this high card heavy flop, UTG gains more EV by simply betting themselves.
+Since UTG holds the majority of strong hands here, they gain a lot more EV by doing the betting themselves. BTN has very little reason to start putting money in the pot of their own volition when they have a lot of weak marginal hands in their range, so the previous strategy of checking and going for a check-raise wouldn’t make sense here.
+Finally, a small rather than a large bet is good here because it’s very difficult for BTN to defend well, even against a small bet, since they have so many weak one-pair hands that could be drawing to two outs. The idea is to make our opponent’s life as difficult as possible, so a small bet that forces our opponent to either defend some really poor hands or fold a ton works better here than a big bet.
+A small bet is appropriate when it forces your opponent to either start defending really poor hands or start folding a lot.
+K43 rainbow
+Another King-high flop. What’s the key difference between this K43 and KQ6 that we saw earlier?
+First, consider that BTN’s range consists of two broad categories and a bit of everything else: Suited broadways and middling pocket pairs. The pocket pairs have a slightly higher representation due to blocker and combo effects (6 pocket pair combos to 4 suited broadways). Furthermore, when the board comes with a high card, BTN’s King-x combos are, of course, fewer due to card removal. That means a large percentage of the BTN’s range on this K43 flop are pocket pairs below the King.
+A large percentage of BTN’s range on a K43 flop are unimproved pocket pairs between K and 4.
+37% of BTN’s range consists of underpairs from QQ–55.
+On a KQ6 flop, a hand like 88 has an easy time folding. But on a K43 flop, there are fewer things for a pocket pair to worry about. Since we anticipate that our opponent has an easier time calling, we should actually start betting bigger. Even against a 75% pot bet, 88 still has to defend half the time. On the previous KQ6 flop, 88 defended only about a quarter of the time, even against a smaller bet!
+KQ6 rainbow: 88 defends roughly 25% of the time against a 33% pot bet.
+K43 rainbow: 88 is forced to defend about 50% of the time now, even against a 75% pot bet.
+Since our opponent has to call more with these types of hands, our value hands win more by choosing a larger bet size on the K43 flop. Since our value hands want to bet bigger, our bluffs can also use this size.
+Aggregate Flop Reports
+I’m a big fan of these reports. They allow us to see at a glance what a solid OOP c-betting framework should look like.
+From here, we can see global averages for every action across all flops. As UTG, we should be checking 72% and thus c-betting just 28% of the time here! Most human players are probably c-betting more often than that in this position.
+Here, I’ve sorted by ‘Bet 33%’ pot, and we can immediately see that flops like AAK, KQQ, AKx, and KTT are flops that hit a lot of UTG’s opening range; thus, UTG can always start with a small bet. From here, I can choose to either filter by high card or study, for example, paired boards or monotone boards in further detail.
+Via sorting by ‘Check’, I’ve learned that any time there are 3 middling cards on the flop, it’s correct to start with a check. If I am playing as the BTN and see someone c-betting often in this spot, I will know my opponent is likely to be making a mistake, and I will exploit accordingly by raising or floating in position.
+Exploitation
+With the insights outlined above, how can we apply our newfound knowledge to a real-life game against human opponents?
+Firstly, our opponents may be flatting wider than GTO on the BTN when we raise preflop. This may also mean that they are less aggressive with hands they should 3-bet like suited Ace-x, which makes them flat-calls instead. This just means we will get 3-bet less preflop. And they will have a higher percentage of suited Ace-x and pocket pairs postflop, which we will have to account for, mainly on medium and lower boards.
+Second, we don’t always need to be super conservative on a less-than-ideal flop if our opponent is not aggressive and stabbing enough. Starting with a check is the best way for us to earn more from our opponent’s stabs. Even better, if our opponent is very passive and only bets with strong hands, we don’t need to start attacking their stabs with bluff-heavy check-raises and should instead fold a bit more.
+Third, if our opponent is a calling station and will simply call all the way down with medium-strength hands, it’s reasonable to take a hand like a set or overpair and play bet/bet/bet rather than go for a check-raise when there’s more EV to be had from our opponent calling. The other thing we should not do in this spot is to start barreling airballs and run a big river bluff on a calling station!
+Finally, without any reads on our opponent, it would be a good idea to follow GTO-recommended strategy by checking when we need to check, and bet big or small depending on how good the flop is for us. There will also be situations where we mix betting and checking; it’s good to practice these situations with the Trainer. In this drill, you’ll play OOP as the UTG preflop raiser against the BTN cold-caller.
+Conclusion
+An IP cold-caller has a more condensed and stronger range than a caller from the BB who has many weak hands that call because they get a discount. This range is particularly strong in middling cards and the smaller suited broadways. As such, flops with a few middle cards are particularly dangerous for UTG.
+Continuation betting as the preflop raiser against a caller when IP and OOP are two fundamentally different things. The disadvantage of being out of position for the entire hand means that we now need to play many flops very carefully.
+Even on a flop where UTG seems to connect relatively well, such as Q96r, we would be best served starting with a check. The BTN’s range is more condensed which means they actually hold a higher percentage of strong hands than us on such a flop. Even a hand like top pair top kicker is preferred to be played as a check-call.
+UTG can still be aggressive on high card heavy flops that are very bad for BTN’s pocket pair heavy range. King-high flops without middling cards, particularly, are excellent for UTG.
+In terms of bet size, a larger bet size is good when we perceive our opponent to have an easier time calling, and a smaller bet size is better when we perceive that our opponent will have a difficult time finding enough good bluff catchers.

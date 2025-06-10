@@ -1,0 +1,1925 @@
+### TOPIC: 5 biggest leaks people are making compared to gto
+i thought i would do
+something a bit more general and
+something that probably all viewers are
+going to be able to
+take something from i hope at least
+and the idea today will be to discuss
+in my view at least in my opinion what
+are the five biggest leaks or five
+biggest deviations that i see
+people making compared to gto okay so
+if you're here it means that you study
+focus seriously maybe you are already a
+professional
+maybe you're trying to become a
+professional and here at gta wizard
+obviously we have this amazing platform
+that helps us study gto
+but obviously gto is hard right it's not
+something that is
+easy enough that you can just browse
+some sims and learn everything
+that's why we also thought that having
+this time here the weekly coaches would
+be beneficial for you guys things you
+could
+maybe wake up to maybe you haven't paid
+attention to this
+and some things that could be could
+already be a leak for your game
+okay so the idea is going to be to be
+very practical very straight to the
+point
+and show you guys some things that i
+believe you could be doing better
+and things that are of course that are
+hard at gto land uh but should be our
+job to try and become better and try and
+do better
+all right
+all right some guys muted themselves
+okay we have some other people joining
+we have 35 people at this moment
+and so we can begin
+so i'll be trying to interact with you
+guys through the chat if you want to
+unmute yourself
+and ask a question that is no problem
+okay
+i know that sometimes uh it can be a
+little bit intimidating
+to talk but if you are ready for it if
+you're up to it i think it can be even
+more
+interesting in terms of interaction to
+have you guys talking instead of just
+typing
+but feel free to do whatever you like i
+would just
+ask that you don't speak at the same
+time
+someone else is speaking okay but feel
+free to unmute yourself
+and talk to me at any given point okay
+so i'll start by asking you guys uh
+what are you what do you guys think is
+maybe one or two leaks you think that is
+present in most people's games uh
+that you would like to to to maybe
+discuss a little bit or
+in your vision what do you think is a
+common leak that people have
+compared to gto what is something that
+solvers do
+that humans struggle to do a lot of the
+time
+let's see if anyone has some ideas and
+if those ideas
+match with what i have in mind for today
+you guys can type you guys can kind of
+mute and talk
+uh what what do you guys think are
+common leaks that population has or
+poker players professionals have
+compared to gto
+funky monkey said not enough aggression
+is a huge one
+in my opinion when you say aggression
+are you talk because aggression can be a
+lot of things right it can be
+frequency of bats it can be thin value
+bets
+you can be raises right it can be bad
+sizing maybe people use lower bet sizes
+than solver does
+aggression is a little bit too big i
+think but it's
+it's a good point and i think it's a
+correct one
+charlie said not check crazy enough
+single race part and three bet
+not raising line versus blind enough
+cool
+so not play aggressive enough when
+facing a bet
+right so the ability to raise and check
+raise versus that
+cool very good then set overfolding
+absolutely we're going to we're going to
+discuss that today
+sosan 91 said under check raids versus
+tiny bets
+so another similar one to to charlie the
+ability to raise your small bags
+benjamin the data set value betting what
+exactly in terms of value betting
+benjamin
+do you think it's like hand selection
+people often check because if you shoot
+that
+or you think it's related to bet sizing
+funky monkey said taking advantage of
+your initiative
+raising overbatting okay cool
+israel rodriguez said over folding turn
+hands
+gob said not three betting pre enough
+from the big blind
+very good one very good one we're not
+gonna get into this one today
+but it's certainly a a real one
+dog z said playing wide ranges in late
+positions
+i think this is is more going to be
+a thing for recreational players i think
+regulars don't make that mistake too
+often i'm playing
+two widely positions but certainly
+recreation was played way
+way way too wide raphael said
+not calling enough and not bluffing
+enough in general
+okay jackkoff said be unbalanced not
+bluff
+enough luciano said one very interesting
+don't protect or range okay
+and myogen doesn't check all
+and call enough with the top range
+okay so maybe something like slow
+playing the top of the range sometimes
+right is what you mean
+i think i would have to agree with with
+you on that one
+as well so we can see that you guys have
+a lot of things on your mind already
+that at least you sense that
+you have a trouble doing this sometimes
+yourself or maybe you perceive this on
+other players
+but pretty much everything that you guys
+said makes a lot of sense
+and most of these are real leaks i'm
+going to go through some that i've
+listed here
+and i'm going to use hand examples to
+show you guys what i mean
+obviously this is not an extensive list
+i'm not going to be able to list every
+single lead that i think people have
+when it comes to applying gto strategies
+but i think
+at the top of my head those are the most
+significant ones that
+you could also be having a trouble
+yourself and i think you should
+implement into your game okay so the
+first one and i have
+some notes here in my second monitor
+that you won't be able to see but it's
+fine
+maybe in a later moment i can put the
+notes
+as well
+let me get it ready here
+here i put the notes on the right and
+i'm gonna put the chat
+on the left all right
+so the first one that i think is really
+really important i feel like
+even even highest even some high-stakes
+players can have this leak
+okay which is the lack of depolarized
+strategies in your game okay so
+one thing that i see a lot with my
+students
+and even when i study high stakes
+players
+so a common common study for for
+for someone playing high stakes is to
+study the other great players
+and what i see a lot of times is that
+there are a lot of nodes where people
+lack depolarized strategies
+and i'm going to explain what i mean by
+this by using this example here
+of a three bad pot out of position so in
+this hand
+we have a three by part of position
+small blind versus button so the button
+opens 2.5 x
+with three bet the usual 11 big blinds
+with around 15
+enhance i'm not going to go into the
+pre-flop ranges but if you guys want to
+take a look at that
+just let me know and
+then we get this ace 10 4 board
+in here most people do what also the
+software does
+which is blocked bad very frequently you
+see the solver using here some bigger
+bats as well
+a lot of players are just going to
+simplify to using one sizing on the flop
+and i think that's totally fine you're
+not going to lose much
+at all by removing one of the sizes that
+is
+not used too much and then they block
+that the flop
+and then they get to a random turn and i
+i selected the specific
+eight of hearts turn here and
+what we see from the solver is a very
+depolarized
+batting strategy you see that the solver
+continues to back very frequently
+around seventy percent of the time and
+the most frequently used sizing is this
+blocked bed here it also uses a lot of
+the half box sizing
+and i believe if we allowed it to use a
+three-quarter sizing
+it would use it sometimes as well but we
+see that it really wants to place
+another tiny bat with many parts of the
+range
+so you're going to see stuff like 10x
+betting super often for a tiny bed
+pocket jacks that is super often almost
+never check
+pocket queens pocket kings and then
+pocket aces also betting with the small
+size
+very often a lot of people even people
+like 500s and rags and even some some
+high-stakes rags
+are going to play a very polarized
+strategy on this note they're just going
+to
+check the middling hands and then bat
+recorders with ace queen plus
+so the problem with this is that you're
+going to be playing a strategy that is
+always checking very very frequently
+and allowing your opponent to realize
+they're angry by checking behind
+okay so this is something that a lot of
+the times you see the server avoids the
+solver avoids having these super high
+checking frequencies
+by playing depolarized strategies and
+when the server plays depolarized
+strategies
+with a protected range okay so you can
+see that
+just because it's a depolarized strategy
+it's not a capped range so you're going
+to see ace is going to that range
+even a scheme going to that range very
+frequently
+so you play a strategy where you prevent
+your opponent from
+uh having both things the opportunity to
+check behind if he wants
+and the opportunity to polarizing
+himself against you
+and driving the view of their bluff
+catchers towards zero
+okay so this is something
+someone [ __ ] among somebody who would
+post they had links and chats we can
+have to manually do so we don't have to
+manually do that
+just like this you mean
+let me know if that works yeah that
+makes sense you guys can
+follow along on your browser as well
+so this is something that is very common
+to see at low stakes so you can very
+rarely see someone playing
+these kinds of strategies on lower
+stakes it has become more common at
+higher stakes
+but even at high stakes i feel like
+people are still not
+doing it enough okay and this introduces
+obviously this introduces a level of
+complexity to your strategy
+right and this is something that
+generates a lot of debate
+for people who are trying to become
+professionals or are trying to improve
+in poker
+do i simplify my life by playing a
+simplified strategy
+and then making it less likely that i
+will make mistakes
+or do i increase complexity into my
+strategy
+with the hopes that i'll make less
+mistakes than my opponents
+so i think this is a fair debate and i
+think
+depending on the level you are right now
+depending on which stage you are in your
+career you're going to have
+different answers for this question uh
+but ultimately i think if your goal is
+to continuously
+move up mistakes you have to be ready to
+add complexity to your strategy
+okay so complex simplicity is very nice
+when you still haven't matured in your
+knowledge when you still feel insecure
+about certain place but you got to be
+ready to increase complexity
+and thankfully for us we have this
+amazing platform
+that is gta wizard where we can practice
+right we can drill the spots we can
+study the solutions
+so don't be afraid of adding complexity
+to your strategy
+then ask does the people are strategy
+added in the spot if people aren't going
+to call
+wide enough on the turn so
+so you seem to be making an assumption
+that your opponent could be overfolding
+is that it
+yeah so there are many ways to answer
+your question
+one thing one way to answer this would
+be that
+gto is never going to have a strategic
+option that doesn't add ev to the
+strategy
+it may not add too much but if it's
+being used it's because it adds
+some okay so first of all is to
+understand that this adds a v2 strategy
+against gto opponent
+if then your opponent is uh
+in balance in a way he's not responding
+correctly to this back sizing
+then you're certainly gonna add ev to
+your strategy with some parts of your
+range
+okay so what would be the parts i'm
+gonna revert this back to the chat
+what parts of our range here would have
+their ev increased
+if the ip decides to fold more
+than the buttons holding here what do
+you guys think which hands are going to
+have their ev increase
+if the ip let's say starts over 40
+pocket knights
+starts folding seven spear instead of
+calling sometimes
+what else uh maybe he's going to lack
+razors as well his hands like pocket
+twos pocket threes raising a lot but
+you're guessing
+no one wants to take a step the sensor
+the merge part like 10x and bluffs
+bluffs and all vulnerable hands
+over folding third pair worse
+yeah so the first obvious answer would
+be the air right so
+the air component of your range
+obviously makes much more money when
+feeling checked that when phil unfolds
+then when he calls so pretty much any
+air type hand that is betting here is
+going to have their easy increase
+so we're banning hands here such as jack
+knight we're betting hands here such as
+king queen jack queen jack so all those
+hands are going to have their
+v increase every time the button decides
+to fold more than he's supposed to
+at equilibrium and then very well put by
+some people
+uh some vulnerable hands some marginal
+hands will also have their ev increased
+okay because you would rather get a fold
+when you bet with the hand like let's
+say
+some hands that were betting here pocket
+sevens so if you're betting here with
+pocket seven
+you would rather get a fold than to get
+a call okay so
+all of these uh relatively marginal
+hands that you're putting into your
+blockback range here
+will also have their ev increased if
+your opponent decides to
+miss some calls okay obviously the top
+of your range
+might lose a little bit of ev but every
+deviation
+that villain makes compared to
+equilibrium will increase in your very
+strategy
+okay so uh you don't have to worry about
+that
+if he makes a mistake of holding too
+much you will make more money than you
+should
+and that's already enough reason for you
+to
+not be concerned too much obviously this
+might cause you to want to play
+the top gear range in maybe some
+different ways
+but the point is if you stick to that
+strategy you will make more money than
+you should
+right so uh this is just one example
+where you're going to have these depolar
+strategies this is
+mostly happens out of position so auto
+position is really costly for you
+to always keep polarizing your ranges
+and checking super often
+and allowing your opponent to polarize
+himself okay so
+uh if you're playing and we're we're
+going to be playing our position a lot
+of the times
+so we're going to be playing three bad
+parts of the position super often
+we're going to be playing singer it's
+not our position very often
+so every time you play a super polarized
+charities and you fail to include these
+people rs charges
+you will have your ev decreased okay and
+sometimes you might even
+you might you might even end up making
+more mistakes because of that one common
+mistake that people do when they don't
+play
+depolarized strategies is that they also
+in the process
+end up capping their checking range so
+you're going to see that here
+even with the strategy that includes the
+block by sizing
+you still have to check a screen at some
+frequency
+you still have to check its jack very
+often you have to check
+10 super often you have checked aces
+sometimes
+so it's very easy for someone to
+construct a strategy where they just
+pure bat a speed plus
+and then have all these kings queens
+jacks in their checking range
+so if you do that you definitely can get
+exploited by a lot
+by the opposition player okay
+dragon super s so is the turn the main
+street
+we can depolarize i would say in all
+streets you're going to see a lot of
+depolarized strategies on the flop we
+obviously see a lot
+the block bed size is the most frequent
+one when it comes to c-bending on the
+flop
+you see that on the turn a lot pretty
+much any line double barrel line the
+lacy bed line
+and you see that a lot on rivers as well
+uh
+the only line on the river where you're
+not going to see too many people are
+aspects
+is when your range construction is very
+polar which usually happens on
+continuous aggression lines so when i
+say continued aggression i just mean
+that you
+made an aggressive action on the
+previous streets so imagine you back
+flop and turn
+generally gonna get to the river with a
+very polarized distribution you have
+some very strong hands and some very bad
+hands then in those cases it's very rare
+that you're going to have
+a deep polarized charity because you
+simply don't have middling strength
+hands
+in your range okay but pretty much any
+other line
+you're going to see the solver playing
+very deep polarized
+okay you're going to see some other
+examples as we go through today
+with the other links all right so this
+would be an example here i think
+turn double barrel is where people use
+the least
+uh as i mentioned you're going to have
+some depolarized bats in the lacy beds
+as well
+so let's imagine let's take a different
+board here
+let's imagine the flop board was
+jack no jack h6 okay jack h6
+so all the swap we're going to see that
+we size up more often than not
+so we're going to be even using some
+over bats in the swap
+let's imagine the turn goes jack jack
+and let's say we get a king turn okay
+off suit king
+so we're going to see that on the off
+suite king we also play
+a very deep power ride strategy we're
+going to have a lot of over bets of
+course because the king
+hits a range we're also going to have a
+lot of half
+pots and a lot of blocking bats as well
+and i think on this line a lot of people
+are already aware
+they have to play a more depolarized
+batting strategy
+but a lot of people still are just
+polarizing to king x plus and checking
+the rest
+that's certainly going to be a mistake
+and you're going to lose
+some ev by doing that all right so you
+see here for example
+even a head as weak as pocket nines rock
+batting super often
+you have a hand like uh nine eight
+so third pair here going for the block
+that 10
+8 then you have all sorts of hints like
+intense
+and then also some unique jackets and
+then you also get to have the portion of
+the range that wants to pour rice so
+these things are not mutually
+exclusively exclusive
+uh you can definitely have some portions
+of a range that benefit from polarizing
+and supporting
+the range the benefit depolarized but
+the point is that
+if you keep just checking seventy
+percent of your range
+you just make your opponent's life very
+very easy
+okay so that would be the first thing i
+want to point out
+when you're studying with gto make sure
+you give yourself time to study these
+strategies and implement
+them into your game and one very good
+bonus you're going to have
+with these content strategies is that
+it's really hard for upon us to react
+properly
+we saw that previous example i'm going
+to come back to it
+because it's even more illustrative of
+this point
+which is that when you play that
+strategy you force your opponents to
+develop significantly
+while raising strategies okay because
+if if the imposition player here makes a
+mistake of
+not raising too much price or polarized
+bets again you're going to have very
+increased and you're going to be able to
+exploit that opponent
+by shifting all those mixed strategies
+to pure strategies
+okay so we see head the imposition
+player is making our 10x
+difference between blocking and checking
+but you're going to see that this this
+strategy flight ap player
+is not very easy at all he has to find
+uh 30 of raises with the smallest sizing
+and this includes some non-intuitive
+plays like
+taking a random 10 and raising uh
+raising a lot of asex even once
+with not very strong kicker like ace
+nine
+and a bunch of bluffs with the pocket
+parrot region like deuces threes
+fives and some five four so you're going
+to put your opponent in a tougher spot
+than if you just keep checking 70
+of your range okay and every time he
+makes a mistake of not raising enough
+here
+you increase the view of your strategy
+with this part that
+is being made different by the gto
+player okay and i believe
+this will happen very often in practice
+let's see if there's someone else
+waiting to be accepted thanks for a
+heads up
+yes there are eight people on the limbo
+here
+thank you thank you match
+uh the gto keep depolarizing the river
+after depolarized times sea bass the
+lazy bats
+very good question from benjamin and
+this is usually going to be true
+and it's going to be true because you
+have
+a you have a depolarized range
+construction here so you have a bunch of
+middling strength hands padding
+so if you have a river that doesn't
+change the equities too much
+then you again you have a situation
+where you have a bunch of building
+straight hands that benefit from getting
+small
+and you can still do that so let's
+imagine you bet this
+guy called and what would be a perfect
+blank
+here
+guess i guess a2 would be blank enough
+so if you have a two and
+here's a strategy graduate player we
+have 38 percent of blocks
+again on this river so the reason for
+this is of course
+again you have a range composition and
+we can take a look
+at the accurate distribution graph here
+and
+blue is the small blind green is the
+button so if we go from
+here this would be roughly
+i guess these numbers are the equities
+so this is maybe something like 30 from
+35
+of a range maybe i would say 35
+to 35 of a range to let's say something
+like
+60 percent of a range you have middling
+strain hands you have hands that have
+middling equity
+that benefit from very small so you're
+going to see the solver
+putting those small bands there okay so
+whenever you have
+this range construction where you have a
+bunch of feeling straight hands
+and you have good hands as well as to
+not be exploited
+right this is important you can't just
+be putting a lot of clean value bats in
+a spot where you can't
+okay because your opponent is just going
+to martyr with artery with raises
+but this is a spot where you still get
+you with a bunch of aces
+you still get here with some tens even
+though you're checking because you
+belong
+check back range but you have it in your
+range
+you have a bunch of two pairs you have a
+bunch of these sex so you're very well
+protected in a sense that
+feeling can't just be super aggressive
+against your blocks
+otherwise he's going to run into the
+nuts too often okay so
+this is going to happen very good
+question by my benjamin
+is hayao asks when you start to
+depolarize in the turn see that hands
+like queens the next name for eight
+if you're going online on the river with
+the strong hands and you check
+our bad small river your check and small
+bed range would be weaker to
+exploit with well this is basically on
+what i'm saying here right so you're
+going to add complexity that's in fact
+and you're going to be able to include
+heuristics in your game
+that allow you to not be super
+exploitable so for example
+one very good heuristic you're going to
+have is that very good hands that block
+your opponent's check back range
+will often go to the checking range so
+here yes you have a bunch of hands that
+want to check
+which are the 10x combos and then if you
+only check 10x you would be exploited by
+the ap
+player but here you see that the solver
+places 10 as a pure jack on the river
+because if you take a look at the
+checkback range by the ap
+player pretty much all of the position
+players check back range
+are going to contain a 10 not all but
+very frequently
+a 10 is going to be a part of your
+opponent's jackpack range
+so when you have tense you get back into
+more often which increases
+and then with aces for example ace is
+going to be indifferent between betting
+have fought and betting and block sizing
+and it never gets to go
+in because it has heavy blockers to
+quality range this is heuristic that you
+can use as well
+if you block your opponent's calling
+range when you size up too much
+then that's probably a reason why you
+should size down so here if you apply
+those heuristics you're going to be very
+well protected from getting exploited
+you have ac your broadband range and you
+do that because you block too much of
+the calling range when you size up
+and you have tens in your checking range
+because that blocks your opponent check
+behind range
+okay so two simple but very effective
+heuristics
+that you get to use on this spot okay
+creatine set do you recommend to start
+using these 20 percentage sizes on
+ace and four eight boards i'm used to do
+33 flop and turn
+yeah so pretty much let's say i'd say
+like ninety percent of pools on low
+stakes use the 30 sizing
+that's the sizing that became mainstream
+let's say four years ago
+when i was moving up in stakes i saw
+that that was being used a lot there was
+a lot of
+a lot of hype to that sizing but if you
+solve a lot of flops and run a lot of
+negative reports you see that the 33 is
+not really
+the preferred by the solver okay the
+server does use much more often than 25
+which is one that i use a lot and the
+solver even uses
+as small as ten percent of the pot a lot
+of the time okay so
+uh if you want to be super accurate and
+super precise
+i would say you should drop the 33 and
+use
+uh 125 and maybe even have a
+10 bad size in your arsenal uh
+but of course tvs are going to be
+similar okay if you played that 33
+sizing with the right frequencies you
+should be able to retain
+99 percent of the ev okay but
+when it comes to exact software
+solutions solver does like to size down
+a bit more right i'm gonna move on
+because i spent 30 minutes
+on just the first and we have
+more things to talk about but hopefully
+this one
+was an interesting one for you guys so
+you can start implementing into your
+game
+make sure you make a lot of drills all
+right it's not like you're going to be
+able to implement this correctly
+from night to day you have to deal with
+these spots you have to try and make
+sense of
+the things that are happening so make
+sure you use the practice mode
+to prepare yourself for these spots
+michelle parmentier
+[Music]
+that's probably french i don't know how
+to pronounce it so i'm sorry
+how do you differentiate between spots
+where
+you should depolarize between spots
+where you should equalize and those
+rates matter to polarize
+how often does it happen op versus
+that's a really good question but also a
+a very complex one answer there are
+going to be some
+some let's say criteria or let's say
+circumstances that favor
+one strategy or the other it definitely
+happens way more often out of position
+than in position because in position you
+don't really
+need depolarized strategies to increase
+our heat you can just check behind
+when you're out of position the problem
+of checking so often
+is that you still need village check
+behind for you to realize you're acting
+so it's a better way to realize your
+acne by betting small then check
+okay there are many reasons for this
+that i won't be able to get into this
+today
+but the point is out of position it
+happens way more often
+than in position okay but it does happen
+in position sometimes
+uh and one point that you should keep in
+mind for out of this to be polarizing
+is that first of all you need to have
+really straight hands in your range
+right so if you don't have middling
+straight hands in the range
+then there's no point in playing a table
+or a strategy you just want to
+that big with your hands and then
+balance with gloves so first of all you
+have to have milling straight hands in
+your range
+uh you have to have some nuts in your
+range otherwise you can get exploited so
+you're never going to see silver
+or very rarely going to see solar
+depolarizing when it lags
+nuts okay because then you can just you
+just get marked by the ap
+player so these these two things are
+necessary conditions for you to find
+those depolarized strategies
+okay uh
+all right so let's move on to the second
+leak
+[Music]
+the second link i think is one that
+people have become increasingly better
+at at reducing loosely i would say but
+it still happens a lot and i would say
+even
+at higher stakes certainly at 500 new
+and certainly summer eggs at high stakes
+which is the lack of over best okay
+so you're going to see that
+well this is no limit holding right and
+for a lot of years
+uh looking back now from the years i
+started obviously it was times where
+people were still not using solvers too
+much and
+there was not too much knowledge around
+what optimal strategies look like
+but looking back now it felt like
+it felt like this is spot limit holding
+oh yeah
+very rarely you would see people over
+betting and putting people in tough
+spots
+and going all in for massive bets and
+then this has increasingly become more
+common
+uh as the solvers became popular and at
+high stakes i would say you see it a lot
+uh but at mid stakes and lower you very
+rarely see it
+and it's something that can have a
+significant impact to your dvd
+okay so uh lack of over bets i would say
+is a very significant leak that most
+mid stakes all the stakes players have
+so i have two examples here
+of some situations where you can start
+implementing
+bigger the first one is a c bad spot
+so we open 2.5 here on the button and
+we get called by the big blind the flop
+is ace king 7
+if we went back 3 years from today you
+would see
+99.9 percent of people see betting range
+for one third of this board
+right but then solvers start to become
+more popular people
+started to investigate a little bit more
+and get more curious
+and make different sims and people start
+to see oh wow
+we should really be getting our hands on
+these kinds of boards and we should
+actually be putting
+lots of pressure to the big blind scouts
+these double broadly two-tone boards are
+ones in which you're going to see
+the button playing a lot of over bats as
+the flops
+okay and it makes perfect sense you have
+a composition of ranger
+you have an advantage and you have a ton
+of hands that have
+no interest in increasing the size of
+the pot
+so if you take a look at these they
+absolutely
+want to check they have no reason of 40
+months to put
+and the reason for this is that first of
+all some of these
+don't require any protection let's take
+a look at queens for example queens
+there are no over cards to queens on a
+skiing board
+there's no weak hands that you would
+like him to fall
+and once you bat small and get called
+villain
+has a lot of asacs and king accents
+range so every time you put one into the
+pot with these hands
+you decrease your accurate versus
+continuing range okay so
+you're going to see the solver just pure
+jacking back to his hands
+and then of course mixing some checks
+with asak's hands
+but mostly pure betting with ace queen
+plus
+and then some other hands okay so
+uh i would say the second link i see a
+lot for people is just
+uh not sizing up enough when their range
+allows them to
+so flop is uh is one of the examples
+where you can place overlaps where
+people
+normally don't and there are many
+tactics where you can do this
+one example is uh double broadly
+two-tone
+another example are lower textures
+where you have ex insane advantage on
+over pairs
+so let's say you have a board like this
+1083
+[Music]
+and villain checks you go ahead and
+fire 80 percent of your range with the
+overbet sizing uh you see there are a
+lot of
+three-quarter bats as well if you want
+to simplify just the over bet i think is
+totally fine
+and you're going to see some very
+frequent bets here in a spot where
+if you bend small you just allow your
+opponent to continue with
+a super wide range and you get raised
+quite frequently which reduces
+the realization of many other middle
+extreme hands so you don't want to get
+here
+and bat fold with pocket sevens you know
+that would be stupid
+so you just go ahead and check behind so
+you just polarize your betting range and
+start placing bigger bets
+okay so flop is one instance where you
+can start doing this
+and putting more pressure to your
+opponent's cap range
+and another very significant example is
+double barrel strategies as well
+when you rip you can be ipo oop whenever
+you have a very high spr
+and you have a very significant
+advantage you see the solver
+placing very frequent over best okay
+uh is over bad 3e
+sizing i think on these simulations you
+three for people that don't know
+is just a how do i say this
+nomenclature is is a word it's just an
+annotation that
+pl solver uses to refer to the geometric
+bad sizing
+so three is geometric sizing for three
+streets
+uh i don't think the seven here's the
+geometric size but it doesn't matter all
+that much okay
+all that matters is that you should be
+betting bigger than the size of the pot
+in these situations the eight nine three
+two tone has more of a bet than this one
+yes that should have a little bit more
+but it's all very similar anyway
+okay so imagine you have a king seven
+deuce rainbow board now you're at the
+bottom of your speed blind
+you're going to be see betting most of
+your range on this texture
+as it's a very favorable for you so we
+have you even gto just
+put batting the sport okay call and the
+turn is a queen
+so now when the turn is a queen you have
+a very significant advantage
+in the top equity heads so we're taking
+a look again
+at the graph here you see that pretty
+much
+any part of the top end of hands you're
+going to have a significant
+advantage in equity here any amount of
+hits
+so your range is just strong enough to
+start placing something that's
+here we have 160 percent of the pot i
+would guess
+that if you would allow even a bigger
+bank it would be used here
+and then you put a lot of pressure to
+the big bite range
+and you make sure you capture uh
+the most amount of value with the top of
+your range okay and
+not getting the most value at the top of
+your range is going to be
+a very costly leak for your ring rate
+okay so if you're constantly betting two
+thirds three-quarters half part
+when your range one's too bad to xbot
+that's certainly gonna add up
+to your uv okay so make sure you
+are squeezing the most value possible
+out of your strongholds
+yes the size used by two is slightly
+greater than three for the spot yes it
+is
+but it doesn't really matter too much
+okay you don't the the geometric sizing
+is not necessarily the
+highest tv sizing it's just a easy to
+use one
+okay so make sure you're placing your
+bats and there are going to be many many
+spots
+where you can be including over that's
+including river spots
+okay so flap spots turn spots river
+spots
+whenever you can identify that your
+range has significantly more strong
+hands than your opponent
+you should be sizing up with your range
+okay so put tons of pressure
+whenever you can identify that your
+opponent lacks
+the strong hands in his range
+and you know this is gto land
+in practice land against humans you're
+going to see that
+this opportunity is going to open up to
+you way more often than it should
+because there are a lot of players that
+play unbalanced
+strategies on prior streets which make
+the
+which makes their range capped more than
+they should
+on the further streets okay so
+here we see uh the solver software's
+already playing a very aggressive
+strategy with
+check raises uh it's check raising pure
+almost all of the two pair plus uh but
+imagine the solver
+wasn't doing this and the population is
+therefore
+villain gets to the turn with the more
+capturing than you shoot
+and you get to size up into a range
+because you have more equity
+okay so in practice i would say you have
+even more opportunities to do this to
+put more pressure to opponent's range
+than the solver because people are not
+very good at playing mixed strategies
+they're not very good
+at protecting their range as i think
+someone said in the beginning
+right when i was asking i think two or
+three people said that people are not
+very good at
+protecting their range or check calling
+the top of the range
+that's absolutely true so if you can
+have high confidence that your opponent
+is doing this
+then you have incentive to be even more
+aggressive in the solver
+when it comes to your bad sizing okay so
+that's the second leak i would like to
+tell you guys
+the third one is also one that i think
+some of you mentioned when i asked
+which is let me get this in a sec
+how the recreational generally reacts
+over best is it common for people to
+wrongly call more
+versus over that's than pod bats because
+they believe you're more
+poor uh fab you i know okay for
+i've done research population tendencies
+for years and i've never seen
+people over calling versus older vets
+okay i've never seen people calling more
+of our silver vets compared to what the
+solver does
+so i would say this it's pretty much
+never gonna happen
+well never is a very strong word right
+so let's not say never but i would say
+very difficult yeah
+guys again i'm talking a lot here if you
+want to interrupt me and ask a question
+just feel free okay if you want to see
+something in the simulation as well
+just let me know uh
+now to the third one the third one is i
+think is a massive one
+massive one and
+it is one that funny enough
+gets naturally exploited
+by how population plays when they are in
+the opposite
+situation and i'll explain you guys
+understand
+so the third one i think is lack of
+raises
+okay lack of raises and when i say
+raises
+it is general just as i'm saying it
+raises everywhere
+but i selected a particular spot but
+this is going to become very evident for
+you guys
+how aggressive gto is with raises and
+how population
+and even yourself most likely is leaking
+a lot in this spot okay
+so now we are on the same board so king
+seven deuce
+and then the turn of the queen but
+instead of double barreling we decided
+to check behind
+so we decided to check behind and this
+is the strategy for
+the opposition player on the river and i
+selected a very blank river like defined
+here
+it's not necessarily the most blank
+possible because interacts with some
+ends
+but it should be should be blank enough
+and first thing you're going to see is a
+very deep polarized strategy here with
+the 7x region
+which a lot of people don't do so a lot
+of people just take the 7x and put in
+their checking range
+uh and you see the solver is just pure
+batting these hands with the block
+sizing
+so again an evidence of the lack of
+depolarized strategies that we mentioned
+in the first place and then
+against the sizing this is a one-quarter
+part size bed the button should be
+playing a very aggressive rating
+strategy of
+almost 26 percent raising frequency here
+with 15 of small raises and 11 of big
+bases
+and even a hint like queen jack which is
+second pair here
+and not the strongest kicker is pure
+raising small
+against the block size and then you're
+going to see a bunch of kleenex
+asmix strategy raises and of course
+you're going to have
+all these uh air combos being played
+as raises as well so for humans i would
+say even for high stakes players
+it's really hard to get this such an
+aggressive raising strategy
+with with all these hands like taking
+all these errors and mixing into raises
+and most importantly i feel taking these
+second pairs
+and mixing into raises now you have to
+do this
+unless you become exploitable by the big
+blind and he can start block betting
+first of all shifting these big
+strategies towards pure strategy bets
+because you're not punishing them enough
+with raises and even start blocking some
+even weaker hands
+so i've take a look at pocket six in
+here take a look at the evs
+so the view of block betting six is
+already quite close to checking
+uh if the ip player starts not raising
+enough
+then very quickly these hands are going
+to become pure block bets for a
+definition player
+and you guys to squeeze more ev out of
+the pot
+okay so i would say people really really
+struggle you probably really really
+struggle with this
+and you have to start implementing more
+raising your strategy making your
+opponents
+life a little bit harder right just and
+there are even some people that just
+call
+top pair in the spots like the guy takes
+king three
+and just pure calls that would be a very
+significant mistake
+uh we're going to see here the
+differences is point final big blind
+here
+of course isolated in one combo in one
+spot is not going to be much
+but if you take that 0.5 big 0.5 oblique
+blind per hand
+across multiple combos in a range across
+multiple different spots
+this is going to add up very quickly to
+your strategy
+okay so make sure you also understand
+your necessity
+for finding raises in spots and
+punishing people from betting too much
+and as i was saying i think this leak of
+the player pool
+gets exploited by itself in a natural
+way because people tend to bet or
+that they shoot a lot of spots so if
+you're not punishing people with
+raises you are going to be naturally
+exploited by what your opponents are
+doing
+we saw in that in that hand with the ace
+where this is this is another example
+where let's say you're playing versus a
+very strong opponent
+who identifies that he has depolarized
+on these asex boards
+if you all of a sudden start missing all
+those mixed charity races
+then the v for him to be banning all
+those building hands
+skyrockets okay so make sure you
+study these grids and get more
+comfortable with
+playing more aggressive strategies i
+know this is this can be hard because
+sometimes it
+it conflicts with some beliefs that we
+have that
+make us play more needy so
+we have some preconceptions that you
+know second pair is not worth the raise
+so you never raise that even though it's
+pure raised gto end
+so get rid of some free misconceptions
+and start studying these grids so that
+you can play more aggressive
+if we assume the field is not
+depolarizing enough isn't a good exploit
+to raise or polarize ourselves
+yes if you have absolute confidence
+let's say
+that this player never blocked that 7x
+then for sure the exploit for you would
+be to start just calling with
+the queen x combos but again we're
+talking about here
+you attempting to find the proper gto
+plane
+if your opponent is making a mistake and
+you are
+and you are playing the gto strategy you
+will make more money than him
+now if you want to play max exploit
+that's a different thing
+okay so if you want to counter your
+opponent's imbalances
+then i would say you have to study
+population tendencies and you have to
+use the proper models to
+to get to the right conclusions okay
+because it's very easy to make wrong
+assumptions
+it's very easy to justify explanative
+place
+that are not necessarily backed up by
+data
+okay so yes you are correct in your
+assumption but first of all
+try to understand how you should play
+yourself correctly in theory
+and then if you want to dig deep into
+explorative poker
+then make sure you're gathering data
+about how your opponents are playing
+okay but good question
+all right this is one so you're going to
+see this happen in a lot of different
+situations i think some people mentioned
+raising blind versus blind versus
+seabeds i think i have one hand here
+where we can cover this yeah so for
+example we have here
+king 83 board this is small blind versus
+big blind
+so you're going to be opening the small
+blind getting caught by the big blind
+you're going to be spending a lot of the
+small size in here the suburbs do check
+yet third of the range here
+a lot of people are going to be just
+betting range on this board
+giving that it's a dry key high board
+and then when they bet the big blind has
+to come up with
+16 of raises if we sum up the total
+frequencies here
+and it's going to have a lot of mixed
+strategies in the top pair region and
+even some big strategies with the second
+pair region so you have a lot of 8x
+raising and a lot of random air as well
+with backdoors
+so imagine you're playing against an
+opponent that
+wants to simplify their life in their
+betting entire range
+so they're betting entire range they're
+betting more than they should
+and you're making their life even easier
+by not
+finding the proper gto raises so if you
+play that strategy you're certainly
+giving out pv to report
+okay all the hands that he has that
+would be mixed strategies at equilibrium
+now suddenly become very clear bets and
+make much more money by betting because
+you're just
+not punishing them enough with raises
+okay so the first step for you should
+be to always at least find the amount of
+ways that gto
+finds if later you want to study your
+population you'll see that they're doing
+something differently
+that incentivizes you to maybe uh
+counter them a certain way
+that's great but first of all you have
+to get familiar
+with the grids in the in the sovereign
+land
+to to at least be able to be meeting
+these frequencies
+okay and it's not easy at all you're
+going to see some hands like
+four deuce suited raising a bunch of 3x
+raising uh what else a bunch of
+asex obscu cans raising here so
+if you have never studied these grids
+it's very easy to play these hands
+as pure calls and all of a sudden
+instead of raising 16
+you're raising 10 and then your opponent
+just gets to that 82 cards into you
+okay so make sure you're uh
+polishing your game in a direction of at
+least finding
+the proper amount of raises that the gto
+strategy
+uh requires all right
+awesome the fourth one
+that i would like to point out is lack
+of bluff catches
+so someone pointed this out i think the
+beginning
+uh by using the term overfolding right
+and when we say overfolding which is me
+that
+the situation in which we believe people
+are folding a bit more than what the
+solver solution
+suggests and i picked up an example here
+where we open the button for 2.5x
+we get three back of the small blind and
+then we call
+and then we have a low board on the flop
+something like 10 74
+it could be in a little work because
+you're going to see similar defense
+strategies on
+these little boards so we have a 10-7-4
+board
+villain is mostly going to size up uh
+block batting on the sport is going to
+be
+really terrible because your opponent
+gets to float everything
+so you don't make you almost don't make
+any hand in different
+when you size this much any hand is a
+plus if you continue for your opponent
+so make sure you size up and
+while you do size up uh you do about
+half pot you could even have some two
+thirds but i believe here on this board
+and then you call a feeling that's you
+call
+i think the turn i had here was
+blank i think yeah something like three
+[Music]
+uh here we have this uh 67 bet
+you're going to see some raising
+strategies here so again
+it could be a node where you're lacking
+raises you're going to see sovereign
+pure shopping 76 uh pure shopping 10
+9 push up ace 10. so it's a spot where
+the pot is already very big and you want
+to deny
+realization to some of the over cards
+that your opponent has
+uh that has two overs to pretty much all
+your bluff reactions here
+so you just go ahead and shove so let's
+say you call
+and let's say the river i put the queen
+i think
+yeah and then there's just like
+44 percent of the pot behind villain
+gems
+and then you're going to be forced
+calling down with some hands that
+most people consider very weak in terms
+of absolute strength
+and they are indeed very weak but the
+thing is that
+you don't really have a super strong
+range on a low
+disconnected board and of course the bed
+sizing is small enough
+that if you start overflowing here all
+of the air in their opponent's range is
+going to have very
+increased so you're going to see six is
+calling
+two thirds of the time or sixty percent
+of the time i would say
+uh forty percent of the time calling
+pocket fives pure calling down pocket
+nines
+almost and then a bunch of seven x also
+calling the spot with eight
+seven being a pure call so it's very
+easy for a lot of players
+to just go ahead and say okay oh he's
+really strong
+my hand is really weak i'm just going to
+fold
+but you could also be getting naturally
+exploited by your opponents okay because
+it's very easy for people to just
+barrel on these little boards with their
+high cards
+so if you play a strategy that is over
+fooling in a spot where your opponent
+could be potentially bluffing a little
+bit too much
+then you're going to lose a lot of vb so
+make sure
+you are finding these calls don't be
+afraid of pressing the call button
+there's a lot of people that have this
+speaking section that
+everyone under bluffs so i have to fold
+everything
+that's not true okay that's not true uh
+of course there are some situations in
+which people can't find the proper
+bluffing frequencies
+but from my experience even at low
+stakes
+you're not going to find many people
+they are just playing
+completely valued strategies that they
+don't have bluffs
+okay so make sure you're finding the
+calls that you have to make
+because you could be getting naturally
+exploited
+by your population and this this comes
+with
+experience and again i heavily encourage
+you guys to use the practice mode
+the practice mode is to me
+one of the best possible ways for you to
+improve at poker
+when trainers came up i think the first
+trainer to come up
+was uh um
+yeah i think it was super tricky trainer
+back in 2000
+2018 19 maybe
+um and then i was i was really hyped
+about it because we never had those twos
+where we could just
+drill spots over and over until we
+understand how it works
+and then i think gto wizard makes this
+extremely easy for us
+you can drill any spot that you want you
+can practice the entire hand or
+practice specific spots and this helps
+you build your intuition around how to
+play certain spots
+because let's be honest if you're just
+grinding you're not going to have too
+much experience in some very
+specific notes they're just not going to
+happen very often so it's
+extremely extremely important that you
+use this function
+to get more familiar with the spots and
+to
+tune your intuition right to to get
+better at identifying
+how the gtl solution plays out okay
+funky monkey said how much would you be
+adjusting the spot on a high rank
+environment
+where the amount of the pot you will be
+winning is smaller so this is a very
+good question
+and rake does impact defense frequencies
+okay because whenever you win the pot
+you know when the full pot
+however the way that most sites seem to
+work is that they
+keep uh they keep charging the rake
+per street so you go from pre-flop to
+the flop
+they charge five percent you go from
+flop to the turn they charge five
+percent
+if the cap hasn't been hit and you go
+from the turn to the river
+they charge by a percent if the cat
+hasn't been hit
+okay so by the time you get to the river
+that cap has been hit
+way long before okay so in these big
+pots on the river i don't think
+it's much of a concern but it does
+impact let's say flop defense strategies
+swap defense frequencies
+uh if you go from 5k and l to 50 now
+you're certainly going to have
+very different defense strategies okay
+but for these spots i don't think it's
+going to matter much
+uh how about the if you have these hands
+which we should be calling shoe
+should be should be us looking for
+some specific eevee
+i mean more than one ev five eight zero
+b
+something like that um
+okay so
+of course the biggest mistake you can
+make is folding a hand that is pleasing
+right so if you pull the hand that is
+plus cv because poker is a zero sum game
+every ev that you fail to win goes to
+your opponent
+so let's say you have jack 10 here so
+the view of calling jack then is 30 big
+lines
+if you somehow fold jack then that's 30
+big blinds that's going to our
+opponent's direction
+okay so obviously don't make the mistake
+of folding
+pure strategies that would be insane but
+even if you fold
+zero ev hands that are mixed strategies
+uh
+you're still going to be losing a v if
+your opponent adjusts okay if your
+opponent plays a fixed strategy
+where he's just playing his thing he's
+playing gto let's say and you over fold
+the mixed charge region
+then you're not going to be losing much
+uv but then the exploit for your
+opponent is very easy he just fires all
+his blocks
+and at the time he starts doing that you
+start losing a lot of evil
+and i think that's a way that a lot of
+people play okay they
+they don't control their frequencies
+with their over cards and they're going
+to end up over bluffing so if you over
+fold the mixed strategy region
+you're first you're going to be giving
+rpd okay
+so that's about it
+what about 3-betting in gg with pre-flop
+rate guys don't
+make random questions about very
+specific
+situations okay because then i would i
+would need to have
+five hours of of coaching here to
+address
+everything let's try to to to discuss
+what we're we're trying to see here okay
+uh the final one i'm not gonna have time
+to get into it
+uh it's an important one so i may leave
+this for
+for a future future lesson uh but i
+believe these four ones
+are very relevant and you can start
+paying you can start paying more
+attention to this in your game okay so
+just recap
+depolarized strategies it's very clear
+to me that
+most people lack this in their game so
+make sure you
+study how to depolarize your range in
+spots where
+the gto strategy requires you to do so
+okay so this is going to be
+very frequent in most automation modes
+flop
+turn and a lot of times on the river
+depolarized strategies over backs make
+sure you put pressure
+into your opponent's range whenever you
+have nut advantage
+okay so this is going to be double
+barrel ranges triple barrel ranges
+and even flopsy bat ranges depending on
+the board
+okay lack of raises make sure you're
+finding the proper raises otherwise you
+could be naturally getting exploded by
+the population
+by the profiles that that too much so
+make sure you study the grids
+to find the proper raising strategies
+and lack of bluff catchers make sure you
+also don't over fold
+okay don't be afraid of clicking the
+call button
+sometimes this is very psychological you
+feel like
+you click call with sixes villain shows
+king queen
+and then you think you got owned or then
+you think you just lost the stack
+okay it's very difficult for this car to
+be very minor cd
+you have decent blockers so even your
+opponent plays a slightly unbalanced
+strategy
+it's not like you're losing your entire
+stack okay you might be losing
+one big line with your call maybe two
+big lines you're never going to be
+losing your entire stack with your call
+because people do have bluffs even if
+they under bluff by a little
+it's not like you're losing 50 big
+blinds 40 big blinds with their call
+okay so make sure you find the proper
+defense frequencies
+on the river all right guys
+uh hopefully this was insightful for you
+guys
+i'm gonna leave maybe one two minutes
+for you guys to ask questions if you
+have any
+and then we can wrap it up right what
+did you
+think of this format did you guys enjoy
+it did you like it
+um please leave feedback on the gto
+words of discord so that we can come up
+with more ideas for future
+future coachings this was the last one
+that was free for
+everyone to join next time we're going
+to be doing
+[Music]
+the session is going to be only visible
+for
+premium users okay so please leave your
+feedback
+leave your suggestions of things you
+would like to see things we'd like to
+cover
+formats and so on okay i'm open to
+any suggestion
+all right sounds like people liked it
+very happy about it guys very happy
+then asked what would you say the best
+way to integrate these upgrades
+is using gto wizard using the reports to
+understand frequencies
+and then drilling or just drilling and
+learning from mistakes
+or some other technique awesome awesome
+question by dan
+so i talk a lot about this in my very
+first video for what it once
+it was a very well liked video let me
+show it to you guys here
+i think one of them is one of the most
+liked videos on where it was
+for the past few years and
+obviously maybe you don't have a
+subscription there
+but if you do i would strongly suggest
+you watch that video because
+i think it's a it's basically what
+you're asking
+so i'm just going to bring it up here to
+talk about it
+so in this video it's called a
+systematic process for strategic
+development so here at the bottom
+where's my very first video we run it
+was back in 2019
+and basically i tried to
+to to give the viewers a very clear idea
+of how i think
+a very good process for integrating gto
+looks like
+and for sure i would say use aggregated
+reports i can get reports i want the
+best
+ways to integrate gto concepts
+because it gives you a very clear idea
+of what the highest euv strategic
+options are
+for any given spot okay so if you can
+study with aggregation reports
+you're definitely going to improve much
+faster because you're going to be able
+to identify
+which nodes what are the most
+uh the highest tv studio options and
+you're going to see for example
+i think i'll get a report for the turn
+are soon to come
+right match if matt is here he can tell
+us when
+turn and video reports are going to come
+uh this is an awesome way to study
+for sure you're going to be able to see
+weak spots you have to depolarize your
+range for example
+so i would say static negation reports
+get a feel of which nodes play
+weeds to precautions and then drill a
+lot i would say
+drilling is the best thing that you can
+do for your game
+to really quickly integrate how to play
+different spots
+and drilling with immediate feedback is
+the best thing
+possible because you get to know right
+at the moment
+what mistake that you made what was the
+frequency all this and that
+in our brains our brains are really good
+at uh
+identifying patterns right so if we can
+use your brain
+for for what it for it does well which
+is identifying patterns we're absolutely
+awesome at identifying patterns
+then this is going to be a very good
+format for you to learn okay
+of course i also i also always suggest
+students to study a lot with toy games
+to to understand why if you don't do
+something
+then why is it bad for you that you're
+not doing that so i would say a mix of
+both things should be really nice
+so again reports with drills should be
+a very practical way of improving and
+then
+studying toy games as well so that you
+can understand
+why you have to do the thing that the
+solver is telling you to do you know
+because i think
+both things need to need to happen for
+you need to understand the why
+and the how it's basically the y and the
+hub
+okay
+so matt said that turn reports are top
+priority for us
+but they're going to be soon awesome
+awesome is going to be
+amazing and we're going to have a lot of
+types of new solutions
+amazing as well and we introduce guides
+on how to study and detail some plans
+for you so it's easier for you
+you don't have to think what i should be
+doing today that's a very common
+struggle
+for for most even professional players
+and like what i'm going to do today they
+sit in front of the computer and they're
+like okay like what do i do now
+and yeah so gta wizard is awesome in
+that regard
+you have this entire platform built for
+you to not have to waste
+any mental energy deciding how to do or
+where to do
+or when to do you just sit and you have
+all this platform for you
+all right so if you haven't yet
+subscribed
+for the love of god why are you waiting
+and i'm not just saying this because
+i am a partner of gta wizard proudly a
+part of part of gta wizard
+i'm saying this because this platform is
+insane
+okay if you still haven't subscribed you
+are making a mistake
+i have total confidence in saying this
+you are making a mistake
+if you're still not a premium user all
+right
+all right guys that's it for today hope
+you liked it and
+if you are a premier user i see you next
+week
+all right bye bye guys thanks for
+watching

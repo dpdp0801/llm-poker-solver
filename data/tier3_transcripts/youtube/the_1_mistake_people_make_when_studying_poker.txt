@@ -1,0 +1,1505 @@
+### TOPIC: the 1 mistake people make when studying poker
+all right i'm really excited to present
+to you today the big picture let's dive
+right in
+so the reason i've made this lecture is
+because i think people
+tend to focus on the wrong things when
+looking at silvers and really the
+question of today's lecture is how do
+you get the most out of gto wizard or
+any solver for that matter a lot of
+people they're going to spend time
+looking at minutia studying noise
+focusing on the small things rather than
+trying to absorb the bigger picture and
+i think the best way to use a solver is
+to be looking for broader heuristics
+focusing on the overarching strategy
+rather than zoning in on inconsequential
+noise so today's lecture is going to be
+teaching you various strategies and
+tools that you can use in your own game
+to try and find the bigger picture and
+stop focusing on noise
+and this process of finding the bigger
+picture is what i call seeing the forest
+through the trees now instead of
+focusing on you know why does this suit
+do this but that suit does that instead
+you should be looking at the broader
+strategy pair you can use certain
+methods such as focusing on thresholds
+looking at the entire range strategy
+instead of hand strategies analyzing
+villains response considering exploits
+trying to find the overarching picture
+so before i begin i'd like to explain to
+you guys why you shouldn't be focusing
+so much on trying to memorize a specific
+strategy rather you should be focusing
+on the larger strategy so i'm going to
+show you this interesting experiments
+i've run this is an under the gun versus
+big blind spots cash game jack 10 5.
+let's take a look at this solution
+so
+under the gun is opened
+big blind calls flop is jack 105.2 tone
+and here's the strategy now we can see
+it typically is going to mix somewhere
+between 75 33 and 50 checking back about
+40 percent of the time this is one
+strategy this strategy is solved to less
+than 0.3 percent nash distance what do i
+mean by that well i mean that if you
+play against this strategy the best
+possible counter strategy the ultimate
+god strategy against this solution will
+gain at most
+0.3 percent of the pot
+what does that come out to
+well the pot is 5.5
+0.3 percent of that is
+0.165 pip lines
+that is the entire strategy
+can beat it for that much so let's go
+take a look at the experiment now i took
+this
+specific spot and plugged these ranges
+and the bedding tree and the rake and
+everything else into different silvers
+to see the results here's one i did on
+gto plus and it comes up with a
+different strategy this one's using a
+smaller bet more often checking a little
+less often i also tried it with piyo and
+pio seems to never use the 75 percent
+pot-sized bet
+and at the end we get three completely
+different strategies that all have the
+same accuracy the same expected value
+same rake but completely different
+strategies for example we could see that
+gta wizard which uses g-solver or just
+solver i'm not sure how to pronounce
+that is mixing 33 50 and 75 percent
+pot-sized bets you can see that pio
+solver is only using 33 and 50 never
+using 75 and we can see that gto plus
+well they're leaning more heavily
+towards the smaller bets and not so much
+using the half pot bed so three very
+different strategies all resulting in
+the same exploitability so i want you
+guys to just type in the chat why do you
+think this is why is it that three
+completely different strategies can
+result in the same expected value
+solving algorithm yeah they're using
+different algorithms to approximate
+equilibrium this is true multiple local
+maximums absolutely well said elgato
+there is not just one gto solution there
+are often multiple mixed strategies yes
+it's possible to achieve the same dash
+distance with different types of mixed
+strategies and so
+realistically different solver
+algorithms can yield different results
+madman asks so if you note locked two of
+those different solvers to fight each
+other each would still capture the same
+ev yes but you'd have to note lock the
+entire strategy not just the flop but
+turning a river as well fighting each
+other and so different silvers can yield
+different solutions all three of these
+solutions converge to the same
+exploitability and there is not just one
+solution there are multiple and so it
+doesn't make sense to obsess over trying
+to memorize one specific strategy or to
+obsess over this exact frequency of that
+exact frequency because as we saw
+earlier maybe you have ace queen here
+that's using this strategy but if you're
+looking at a different silver algorithm
+perhaps ace queen
+starts using an over bet
+or mixing all three and so
+the actual frequency which with you mix
+a specific hand is inconsequential what
+actually matters is the way you
+construct your entire range
+you see
+and so this is why it's important to
+look at the broader picture look at the
+overarching strategy rather than zoning
+in on inconsequential frequencies what
+ace queen here what ace queen does here
+in a vacuum
+does not matter without the context of
+its broader strategy so what strategies
+can we as humans look for to find the
+larger picture how do we find the forest
+through the trees how to study sims i'm
+going to go over a number of concepts in
+this lecture we're going to talk about
+memorization versus intuition we're
+going to talk about finding thresholds
+hand class patterns aggregate trends
+polarity and equity analysis blockers
+looking at villains strategy and how to
+consider counter exploitability so this
+first one is going to be contentious
+there's a lot of debate in the silver
+community over the simplicity or
+complexity of the sims you look at and
+the truth is that there are trade-offs
+between a complex sim and a simple sim
+you see a complex sim one that has many
+sizes throughout the tree will better
+represent the true game tree it is going
+to be more flexible whereas a simplified
+sim is obviously easier to implement and
+more human playable per se but it's not
+going to truly represent the game space
+so you're going to get noise so let's
+first look at the pros of simplicity
+versus complexity now a simplified sim
+is easier to implement there are you're
+going to make fewer mistakes because
+there's less mixing it's just an easier
+strategy and fewer mistakes is already
+going to add a lot to your win rate
+simplified strategies are obviously
+better for multi-tabling and autopilot
+it's better for spots where you're not
+trying to adapt your strategy so much
+you're just trying to play a default
+strategy and the main argument for a
+simplified memorization strategy is that
+pretty much every strategy is very close
+anyway as long as it's relatively
+balanced the ev gain between an
+extremely complex strategy and a very
+simple strategy is quite small there are
+marginal decreasing marginal returns to
+adding complexity to your strategy and
+as the saying goes a simple strategy
+implemented well will invariably
+outperform a complex strategy
+implemented poorly i'm sure you've heard
+many coaches talk about this i know solo
+has covered this topic along with pretty
+much every other coach now i'd like to
+talk about the pros of a more complex
+sip now a complex sim gives you
+flexibility it creates adaptable
+strategies for example if you just node
+lock your sim or if you just only give
+it a one-third bet size on the flop how
+do you know how to respond against
+different sizes studying complex sims is
+better for building your intuition it
+gives you the ability to improve how you
+think for yourself to find the
+underlying reasons which can ultimately
+build a better theoretical understanding
+and finally a more complex sim has less
+artificial distortion what do i mean by
+this a sim that does not correctly map
+the actual game space or at least
+approximate it is going to have
+artificial distortion because the solver
+will try and exploit the limitations of
+your game tree if you don't give it the
+right sizes perhaps it can bet a little
+thinner if you can't donk well then
+perhaps in position checks back more and
+there's all sorts of examples like this
+where oversimplified simulations lead to
+artificial distortion that look easier
+to implement but are solving for a toy
+game version of poker that is less
+applicable to the real game and so there
+are always trade-offs so we can look at
+the cons so a simplified strategy has
+its own cons simple sims of course have
+a lot of artificial distortion from the
+solver exploiting them with the
+limitations of the game tree they tend
+to be very rigid
+and you won't really learn how to adapt
+different lines because you haven't
+given it very many lines you can't
+really learn too much about the
+underlying principles because you can't
+see for example what bet sizes are
+preferred how to react what your price
+elasticity is against different sizes
+this ultimately leads to worse
+exploitative capabilities because you're
+just trying to memorize a strategy
+rather than understand it and
+furthermore memorization is just not
+effective for some learning type some
+people simply cannot memorize well they
+need to learn through intuition now
+complex sims of course are simply
+impossible to memorize even a two sizing
+strategy you will never implement
+correctly that's not the point you
+shouldn't try to memorize a complex
+strategy rather your goal is to intuit
+the overarching strategy behind it now
+this approach of course will lead to
+many more blunders at first and that's
+going to cut into your win rate it takes
+longer to see the benefits and you're
+going to spend more time looking at
+noise if you don't know what to look for
+furthermore this intuitive study method
+where you're looking at complex sims and
+trying to find the underlying strategy
+the big picture is simply not an
+effective strategy for some learning
+types some people simply must memorize
+they're not good at abstraction and so
+realistically you need to find a hybrid
+approach between memorization and
+intuition
+now let's talk about the limits of
+memorization how many strategies would
+you need to memorize just to know your
+big blind defense in single raised pots
+well okay the the tightest formation of
+a big blind defense in a single raised
+pot is about 230 combinations sometimes
+double that on each flop there are 49
+times 48 200 2 352 runouts per flop 1755
+strategically distinct flops and at
+least five positions to memorize utg
+through small blind versus big blind and
+if you multiply this out we get a lower
+bound for the number of things to
+memorize which is about 4 billion and
+this does not include memorizing your
+opponent's strategy how to respond to
+different betting lines this is assuming
+there's like you know only one betting
+line doesn't include three bet four bet
+pots cold calls different opening sizes
+right structures or anything outside in
+position versus big blind single race
+pod as you can see trying to use a pure
+memorization approach
+is completely impossible there are way
+way too many things to try and memorize
+so you cannot
+become an expert poker player through
+memory alone you need to use a hybrid
+approach between building intuition and
+memorization how do we do that well you
+memorize spots that appear more often so
+for example pre-flop strategies can
+often be memorized especially in games
+with stable stack sizes such as cash
+games it's much easier to memorize
+pre-flop
+spinning goes also involve a ton of
+memory even though there's variable
+stacks it's going to involve a lot of
+pure memory now
+you can also memorize for example flop c
+betting heuristics not the exact flop
+strategy but you can memorize for
+example value thresholds what is
+appropriate to bet for value on one or
+two streets and you can memorize common
+betting lines you know if you're playing
+100 big blinds deep 33
+and then over bet turn and then that
+river now on the other hand you do need
+to develop that intuition so use
+intuition for further away straights
+like you're not going to be able to
+memorize rivers there's way too many
+rivers you need to be able to use your
+brain solver for this intuition serves
+your exploitative capabilities better
+intuition is better for understanding
+the underlying reason behind theory
+intuiting patterns intuiting value and
+continuation thresholds in lines you
+haven't seen before and of course trying
+to imagine your opponent's response and
+so realistically anyone that says it
+needs to be one or the other
+oversimplified or over complex hasn't
+considered the trade-offs you do need
+both you need a combination of
+memorization and intuition to truly grow
+as a poker player so before i continue
+do you guys have any questions about the
+trade-offs of simplicity versus
+complexity feel free to type in the chat
+okay no questions there you guys are
+great so far let's talk about thresholds
+oh hold on we got a question why don't
+we start at the river and work our way
+back because a lot of our opponents
+study flop asks johann johann very
+interesting question why don't we start
+at the river i would say the biggest
+thing to prevent you from starting at
+the river are that there are 2 352
+rivers per flop now that said i've heard
+a lot of very strong players say that
+the thing that sets them apart from
+weaker players is that they focused on
+follow-through they focused on how to
+continue on turning river rather than
+just trying to memorize you know the
+best flop sizing whatever that means so
+there is a there is some truth to this
+that
+playing later streets better playing
+them more effectively can actually be a
+huge boost to your win rate
+but starting at the river and working
+backwards is difficult because there are
+simply so many rivers to work backwards
+from
+that said
+you can do things such as learning value
+thresholds to learn what is appropriate
+to river bet what value classes can go
+for two or three streets on what runout
+what hands are appropriate to defend
+versus different lines and this is the
+study of thresholds thresholds are lines
+of indifference within your range so
+mixed hands are indifferent if you see a
+hand that's mixing between fold and call
+that is a mixed continue meaning this
+hand is zero ev it's the same value as
+folding if you see a hand that's mixing
+between a call and a raise and the raise
+if called is still ahead of the calling
+range that's a mixed value continuation
+and so one of the shortest and easiest
+ways to improve your poker is simply
+studying thresholds this is something
+you should be looking for anytime you
+look at a sim you should be asking
+yourself
+which value hands are appropriate to bet
+or raise here which hands are
+appropriate to continue with versus this
+size on this board you should always be
+looking for these value and continuation
+thresholds now furthermore why is this
+important well continuation thresholds
+that is to say which hands are
+appropriate to continue with versus some
+size these tell you what the bottom of
+your range is so instead of trying to
+memorize everything separately if you
+have an idea where the bottom of your
+range is you can sculpt your entire
+strategy upwards from there and
+similarly value thresholds tell you
+what hands you are representing for
+value
+you're of course going to balance that
+with some bluffs some semi bluffs some
+draws but you should know what you're
+representing because that's going to
+guide your bet sizing strategies on
+later streets does this run out help my
+value and so on so these thresholds
+sculpt your overall strategies and make
+it easier to understand
+how you should be playing
+not just now but on later straights now
+thresholds are blurry at first so this
+picture here is from a flop we can see
+that it's mixing calls with a lot of
+different hand classes and that's
+because some of these second and third
+pair are draws
+they are blurry at first especially
+pre-flopping on the flop but
+these thresholds tend to crystallize
+towards the river as there's less draw
+equity i'm going to show you guys how we
+can go about studying these thresholds
+and using these to improve our own play
+mainly we're going to be looking at the
+filters and breakdown tabs so let's take
+a look at an example so here we have
+a 500 nl cash game
+button versus big blind queen 94 now we
+can see that it's mixing all sizes here
+right and when people look at this
+they're going to feel a little
+overwhelmed uh sorry i have this on
+horizontal mode which shows every
+combination separately this is my
+preferred way to study sims i'm going to
+change it to vertical for this board
+because i think people are more familiar
+with this view so first thing you should
+be doing
+is looking at the filters tab i use the
+filters tab constantly when i study i
+don't think there's a better tab to be
+using now
+let's say we bet some size here 75
+percent we'll take a look at big blind
+here when i look at big blind's response
+i'm not looking at what individual hands
+are doing my eyes are going straight
+to the filters tab
+this is the first thing i look at so
+let's find the continuation threshold
+for mate hands
+it's going to be right about here third
+pair how do i know that
+because there's a little bit of blue
+there
+right that tells me that this is where
+it's mixing okay
+and so this is the cutoff point now
+here's a question that i'm sure the
+advanced players will know but just to
+test you guys why is it that facing a 75
+pot size bet we're always continuing
+with a four but we start folding five
+sixes sevens and eights does anyone want
+to take a guess blocking bottom set
+robust equity more outs better blocker
+yes yes yes yes five outs versus two ah
+this is
+this is the main thing more outs
+because
+you want to be able to outdraw villains
+value and of course blocking sets is
+important
+but what's
+probably much stronger
+is
+the fact that you can outdraw their
+value more easily you see buttons
+betting range doesn't actually contain
+all that much all that many sets right
+in fact we can see this in the actually
+we can just do this we can hover over
+this icon
+and we can see that sets only account
+for 2.6
+of their betting range in this line
+so blocking sets will certainly is part
+of it also blocking two pair and such
+being able to outdraw the top of their
+range with out to
+two pair
+and trips has value because you'll more
+easily be able to get paid off now
+conversely these hands here
+they only have two outs
+so always consider
+how you can outdraw value anyway back to
+thresholds here
+third pair
+is the line of indifference particularly
+these
+pocket pairs with poor equity
+realization these under pairs always
+folding you can also look at
+these
+draw thresholds for example you're never
+folding an open ender and you're just
+starting to fold some gut shots here
+particularly gut shots without a
+backdoor flush draw
+sahaj asks why top two and bottom two
+pairs raise on flop but not top and
+middle okay that's a question
+take a look at the two pairs here and
+we can change that to equity
+we see it's very close between the two
+and this might just have something to do
+with the equity threshold now
+realistically you could probably design
+a strategy where
+you for example
+check all of these
+and raise all of these and achieve
+pretty much the same exploitability
+however if you start moving the
+thresholds around such that
+for example top and middle or top and
+bottom
+is always raising but top two is always
+calling
+well perhaps your thresholds will be off
+and your strategy becomes more
+exploitable perhaps you start over
+playing some hands for example anyway
+the important thing to realize here
+isn't
+per se the exact hands that you're
+raising rather it's the overarching
+strategy so something you can look at
+for example is bluff value ratios how
+many sets to two pair how many value
+hands am i raising
+and this is something i'm going to go
+into a bit more detail later just to
+finish up on thresholds whenever you're
+going through this take a look at the
+filters tab and always look at which
+hands are mixing
+you can also do this in the breakdown
+tab
+now here we can see blue and green
+and we can see immediately the third
+pair starts to fold
+right around here
+right we can see exactly where the mixed
+continues are and we can also see the
+value threshold so it's about two pair
+is right about where it starts mixing
+and the weakest 2 pair we have is queen
+4 no backdoor flush draw
+how would the thresholds compare on
+different solvers you tested would they
+be about the same they can be but you
+always have to put it in context of the
+overarching strategy if the solver
+starts preferring a larger size that can
+move the thresholds around and
+realistically as long as you're using
+appropriate value for the size you've
+decided to use on some flop then it's
+going to make sense for example you
+can't just start
+raising
+a bunch of top pair no kicker against
+the large size but you might be able to
+do it against a smaller size so it
+always comes down to pricing now i could
+go into a lot more about how i analyze
+this hand but there's other stuff i want
+to cover here so let's go back to the
+presentation and we'll get back to that
+flop in just a moment so something else
+we can try here is comparing hand
+classes on different boards now focusing
+on one hand class and changing the
+boards to extracting betting patterns is
+a fun way to try and build heuristics
+once we find these heuristics we try to
+break them and once we break them we try
+to understand why our heuristic stops
+working on a certain board so let's take
+a look at some examples here so here we
+have king queen two and again it's
+mixing mostly preferring an overbet now
+a strategy to see what you should be
+doing rather than trying to memorize
+everything in particular is to try and
+understand how different hand classes
+play so for example if we just look at
+this value portion of our range the over
+pairs plus we can see that
+they're rarely checking
+almost exclusively over betting
+mixing in some other large sizes as well
+and we can see that for example when we
+block
+top pair
+queens for example it's going to start
+to size down a bit
+now conversely we can say just look at
+the third pair these are going to be the
+under pairs below the queen and above
+the two
+and we can notice the bedding pattern
+here typically the more vulnerable
+pocket pairs are betting more often
+that's because
+when you put these into a large bed line
+they're not going to have much equity
+against the calling range
+and so the most efficient way to do it
+would be to take the ones with the least
+amount of value the ones that block the
+least folds and to put those into your
+overbet line now what happens if we
+change the board for example let's make
+this an ace
+we see the same pattern emerge here okay
+well what happens if we keep changing
+this for example let's say it's going to
+be i don't know jack ten two
+we see the same pattern emerge the more
+vulnerable ones betting more often
+i'm just focusing on these under pairs
+here
+and this is ignoring the broader
+strategy but it is just a method to try
+and find
+general heuristics i'm studying one hand
+class at a time
+and now we're going to try to break it
+so here we'll look at jack jack four
+filter
+for these
+under pairs here
+and here we see that it is well i mean
+obviously tens are betting less often
+than fives
+just a smidge but realistically this
+board is betting so wide that you can
+put more marginal value into this
+betting range the other boards we looked
+at
+were over bets and for that reason these
+acted more as semi bluffs
+and so here
+we're more pushing our equity it's
+different strategy
+so like i said you can do this with
+different hand classes second pair third
+pair try and find common patterns by
+changing the board type and then try and
+break your heuristic and figure out why
+by putting it in the context of the
+larger strategy
+another way to utilize to find the
+strategies here is to utilize filtering
+i think a lot of people they don't they
+either don't know or they don't use a
+lot of the different analysis tools that
+are built into gto wizard and one of my
+favorite parts of gto wizard is the
+advanced filtering so for example we can
+use equity buckets to separate value
+from bluffs we can group similar bet
+sizes together and see how that range is
+constructed we can exclude and include
+suits as needed so let me show you
+another example here
+so here we have button versus big blind
+on jack 10 6. again we're looking at a
+cash game
+we've been 75 on the flop they've called
+actions on us on the turn now first
+thing to look at where are the
+thresholds what hands are appropriate to
+bet for value well we see there are
+eight different actions going on here
+that's a little complicated but if we
+look closer
+realistically
+this is an over bet or check spot right
+realistically this is over bet check
+and so when we look at it this way it
+becomes a little simpler
+if we look at the overbet strategy we
+can see that top pair specifically top
+pair with a kicker above the jack
+is going to be the bottom of our value
+bet range we can confirm this
+by
+selecting the over bet
+and using these equity bucket filters
+this is isolating our value range right
+so on the turn we want to isolate our
+value range we would do this maybe this
+as well maybe the best hands in the good
+hands
+and here we've isolated the very top of
+our range that is betting for value and
+conversely we can select these bottom
+two and say these are the hands that are
+betting as bluffs
+right
+and now we can see for example that most
+of our bluffs are going to involve these
+over card gut shots
+draws
+i'll change that to horizontal
+lots of diamonds
+and let's go ahead and just exclude the
+flush draws because those are very
+obvious
+and here we can say that over bets that
+don't have diamonds either need
+uh to have a direct draw like eight
+seven or they need over cards to the
+board in other words you need to be able
+to outdraw your opponent's value range
+and so instead of trying to memorize the
+exact hands i'm memorizing these
+patterns right i'm saying what do the
+over bed patterns look like you really
+want some over cards that draw their
+value and that's how i analyze this is
+by just looking at various filters
+right so again
+use equity buckets something else you
+can do is use the ranges tab
+as a filter you can go to advanced
+buckets
+and here
+we can study
+the distribution
+we can also say for example just isolate
+the very strongest hands this is 80 plus
+whereas these equity buckets here are
+coarser this is only 75
+50 or 33. um
+now i was going to present this in my
+powerpoint later on but i might as well
+show you here
+you can press this button to toggle full
+screen mode
+and i really like looking at the equity
+bucket distributions
+to get a glimpse of the polarity of the
+strategy
+do you guys notice this curve right here
+this
+little curve in the equity bucket
+analysis
+we'll notice that button
+has most of these 80 plus equity hands
+that represents 18 percent of their
+range it only represents 4.8 percent of
+big blinds range
+button also has more trash they have
+more hands down here at the bottom right
+that's like 65 of their range and they
+have fewer middling hands in between
+that's only 16. so buttons range is can
+anyone tell me what this word is
+this
+shape
+that's right they are polarized and when
+they're polarized upon the range is
+trash
+no sir they are polarized polarized so
+when when they're polarized
+you're going to see more big bet
+strategies that is to say they have an
+advantage near the top
+and they have more trash
+whereas this blue line has more middling
+hands
+now when they're polarized you already
+know that the strategy is going to be
+close to geometric
+that is to say
+you're going to bet in such a way as to
+try and get stacks in by the river why
+do we do that well this is okay i'm
+getting a little outside my lecture
+today but
+the reason that you bet geometrically
+when you're polarized is because that is
+the way to maximize the amount of money
+that goes into the pot
+and so
+betting an equal fraction on each street
+such that you get stacks in by the river
+is the optimal strategy when you're
+perfectly polarized furthermore this is
+compounded by the fact that the
+polarized player is more or less
+clairvoyant when they over bet the turn
+the button will pretty much know if
+they're head or behind whereas the vast
+majority of big blinds range is guessing
+they are not clairvoyant
+anyway
+that's that's going more into theory
+land i want to keep this more focused on
+the practical implications of studying
+gto so we've talked about this a bit
+we've already seen that you can use the
+ranges tab to observe polarity you can
+also of course use it to compare
+different hand classes now i see this
+all the time in the discord people are
+constantly asking questions why does
+this hand do this why do we want to take
+this strategy and pretty much
+universally if you're asking anything to
+do with blockers why does this hand
+prefer this well that hand prefers that
+you need to be looking at both ranges
+particularly you need to be analyzing
+villain's response and so utilize the
+ranges tab go through not just equity
+buckets but hand classes try and see
+where the advantages lie try and see who
+has proportionately more of what hand
+class in fact let me go back here in the
+ranges tab here
+we can also take a look at hands
+and we can say who has proportionally
+more of what hand class okay
+well of course we have more sets that's
+because
+they don't have jacks or tens in range
+or over pairs because they three bet
+those pre
+they have more top pair though we can
+see that top pair
+accounts for 28 of their range and only
+15 of our range
+you can do the same thing with looking
+at second pair or third pair
+so
+let's go back to the flop here
+here's
+an interesting method i'll show you guys
+here we bet 75 on the flop
+we'll take a look at their strategy here
+strategy
+and here i'm going to isolate their
+calls
+so this is just their calling range and
+we'll notice that this updates the hand
+classes
+so against the range that calls our bet
+we can see exactly how this range breaks
+down
+they still have way more top pair
+they still have way more second pair
+and so
+what do you guys think will happen on a
+jack or a 10.
+like here we have a two of club's turn
+but what happens if it turns a jack or a
+10. yes that's right we start donking
+big blind starts leading okay that's a
+good prediction
+well let's take a look at draws next
+if we just select the flush draws
+these are about equal okay
+well we'll ignore flush draws for a
+while
+so let's take a look at
+this the jack or the 10 after they call
+now instead of selecting a specific turn
+card i'm going to select
+turn reports
+there we go
+we can see
+on a jack or a 10
+it starts leading and we already know
+why it's leading and that's because of
+course we've looked at the range
+distribution we've looked at who has the
+advantage in what hand class and from
+there we can extract the strategy now
+sometimes you'll see this without having
+first looked at the range and you'll see
+well that's weird why is it donkey on a
+jack isn't the jack better for the
+aggressors range well not in this exact
+formation because
+button's 75 pot size bet
+has fewer top pair than big blind
+defends with that's because big lion's
+defending range is more condensed
+towards these strong mate hands
+whereas buttons
+larger bet size
+is going to contain more over pairs and
+such and fewer of these top pair hands
+so that will give the trip's advantage
+to the defender on a jack or a 10. admin
+says however check could still be better
+if villain bets too often on these
+run-outs yeah so this is going into
+exploitative land so for example
+if you think that villain is going to
+dunk
+huge on any 10 or jack well perhaps in
+that case you want to start checking
+back more tenor jack as an exploit to
+capitalize on their ambition that's a
+very specific read but it is
+exploitatively sound
+what is the in position response after
+we check on a jack return good question
+so let's take a look
+we check
+and i'm just going to group this by
+cards
+and we can see that the jack or the 10
+is still bet the least often
+and typically when we do bet it's going
+to be a large bet in fact i'll just
+ungroup those and i'm going to change it
+to percentage pot so roughly a pot sized
+bet
+is the preferred sizing but still
+checking back the vast majority of the
+time something else you can do here is
+for example we can change this to
+default
+and change this to the button expected
+value
+and we can see that the jack or the 10
+are among the worst boards or the worst
+runouts for our range even after they've
+checked to us even after they've
+weakened their range
+and so
+if we start ripping in a bunch of money
+on these boards exploitatively big blind
+should never donk they should range
+check wait for us to over aggress on the
+jack or ten turn and then hit us with a
+lot of aggressive check raises
+so
+again
+why did i go into the turn reports
+rather than just clicking jack or 10
+here guys
+i realize not everyone has a premium
+subscription some people have starter in
+which case you have to do that actually
+i think in this formation button versus
+big blind you have turn reports even in
+starter but
+anyway the reason i went into reports
+rather than a specific flop
+or sorry a specific turn card is because
+i want to find those broader heuristics
+right i want to find
+the overarching strategy
+so let me
+change this back to chart mode
+here after we've bet 75 percent on the
+flop we can find
+the general
+uh turn strategy now we can see we're
+very rarely going to go 2x pots and
+we're very rarely going to go with a
+small size the vast majority of the time
+we're going to be using something in
+this range of 75
+to 175 a larger bet size i would say
+probably simplify this to something near
+a pot-sized bet as your continuation bet
+on the turn
+so any questions about this so far guys
+looks good so i see a lot of people that
+have asked questions in the discord but
+they're not looking at their opponent's
+response i think analyzing how your
+opponent responds to different
+strategies in the gto solution is
+fundamental to any kind of analysis ask
+yourself if their response is human is
+it realistic what kind of bluff catches
+do they need to fight
+how would you exploit mistakes in a
+deviation of their strategy and as i
+said analyzing your opponent's response
+is also just absolutely required to
+understand blockers
+you cannot understand blockers without
+looking at their response we do have the
+blocker tool the blocker score of course
+for premium members but even then you
+still need to look at their response to
+understand what's going on so let's say
+we bet 175 here
+now again we want to start looking for
+thresholds in big blind's range most
+people's eyes are drawn towards uh this
+and they just see a mess
+i'm looking straight here this is the
+first thing i see is this little
+indifference threshold here at the top
+pair
+and this one here
+as the value arrays my eyes go straight
+here to see
+where these thresholds are and then i
+start analyzing okay top pair okay king
+jack plus always continuing we start
+mixing with a lot of other hands queen
+jack is very close to folding versus
+this over bet
+okay second pair again completely
+indifferent
+regardless of suit
+with an over card to the jack
+and pure folding otherwise okay
+what about third pair well third pair
+can also be a flush draw and so we see
+these diamond combos you see this is why
+i like this view here this horizontal
+view because i can just see the diamond
+combination right in here without having
+to hover over it you can see these
+diamond combos always continuing and the
+rest of the third pair always folding
+what about the draws
+well
+okay there's still quite a few draws
+here draws account for
+oh
+a huge part of your range about a third
+of your range overall
+so you can't continue with every draw
+especially against such a large size but
+for flush draws anyway we can see that a
+combo draw something that contains a six
+and a diamond always continues so again
+i'm looking at hand classes i'm looking
+at thresholds
+i'm noticing that for example
+the
+nut flush draw without any other type of
+combo draw is just going to be
+indifferent flush draws without some
+sort of other equity are pure folds for
+example king five king forking three
+flush draws
+that are in combination with other types
+of draws for example queen eight here is
+a gut shot
+and a diamond draw
+same with k9 these hands can start
+raising
+right these are our combo draws
+so these
+again four two here
+you know you've got the pair of twos
+you've also got before these combo draws
+are continuing more
+and so i'm looking for where the
+thresholds are and i'm analyzing
+villain's response to see if this is
+realistic
+now
+what do you guys think do you think that
+villain is ever folding
+queen jack
+do you think they're finding calls with
+queen 10
+no to both well that's difficult this
+one is perhaps not a great example
+because uh responses to over bets are
+somewhat straightforward
+because
+you're narrowing the ranges so quickly
+so perhaps we say that big blind calls
+and we put an ace
+on the river
+here we'll put in a shove again what's
+the shoving range
+well it's about two pair plus
+okay
+so let's say they put in the shove here
+now
+who here thinks they find calls with
+a7
+ace eight
+ace nine
+six four
+six five
+queen jack zola says people are going to
+snap fold these hands okay
+fair enough six four easy call
+[Laughter]
+yeah and again this is going to depend
+how you view your opponent
+of course
+any one of these hands six four has the
+same amount of equity as a7 we can do
+this in the summary tab
+facing just over a pot size bets you
+need just over 33 percent equity to call
+so 6'4
+and
+a7
+have about the same equity here these
+are both in different bluff catchers
+taking a look at the thresholds here
+we can see that
+i'll show you a little trick here
+instead of selecting everything
+separately you just hit this up arrow
+and then we hit this down arrow
+and here i've selected all these in
+different hands these hands that are
+kind of right on the line
+low pair to top pair kind of hands
+and here we can see where the thresholds
+are
+so again you need to be looking at the
+response and you need to judge for
+yourself
+if
+the opponents in the games you're
+playing
+will find these bluff catchers if their
+response is realistic if they'll find
+the correct value raises if they'll find
+the appropriate amount of bluffs now
+just to go back into theory land here
+we've noticed that a lot of these
+indifferent bluff catchers
+are mixing so you know it's not going
+according to hand strength rather it's
+going according to blockers in this
+polarized line
+and realistically what actually matters
+is that you're calling often enough
+overall in order to not be exploited too
+hard
+by bluffs obviously if they're not
+bluffing you should overfold and if
+they're over bluffing then probably most
+of these become a pure call
+and so the reason it mixes is to try and
+make their bluffs indifferent
+i'm sure most of you guys understand
+that now admin says not at the correct
+frequencies though yeah now even if
+they're not finding for example
+a call with six five eighteen point
+eight percent of the time no one is
+getting that
+spot on or even close
+that doesn't matter specifically
+looking at the individual hands here
+is not what matters what matters is
+their overall calling frequency relative
+to our value are bluffs the reason that
+the silver is going to mix with various
+hands is to avoid creating exploitable
+blocker weaknesses because keep in mind
+button knows exactly which hands big
+blind will defend with and if big blind
+for example just calls the asex and
+folds the 6x all of a sudden that
+creates an exploitable block weakness
+and big blind strategy that can be
+exploited a human
+probably isn't going to find that
+right
+and so realistically what matters is
+finding the overall calling frequency
+right
+now you can try and approximate this
+with mdf that's a little messy it's a
+little cleaner here on the river but
+you need to understand that finding this
+exact frequency is not important
+finding an overall calling strategy that
+isn't going to be exploited by over
+bluffs or you know value owning you
+that's more important it's about the
+overarching defense rather than
+finding a 12 call with jack 7.
+right
+in fact the human could redesign this
+strategy such that we fold this hand in
+this hand and call that hand in that
+hand
+and that's probably going to be just
+fine
+maybe pure fold queen jack pure call
+this hand um you are creating some
+exploitable blocker weaknesses but it's
+going to be very hard for your opponent
+to exploit that so don't worry so much
+about the inconsequential
+mixing hands
+mix frequencies with one hand rather
+focus on the overall strategy okay let
+me go to some questions here drz asks
+obviously we deviate versus different
+villains
+if nitty overfolding a lot versus more
+laggy
+calling wider right yes of course you
+obviously want to deviate if you think
+that villain does not have the
+appropriate amount of bluffs in this
+bet that bet triple barrel stack off
+line if you think they're too value
+heavy then all of a sudden
+you see this long flat line here
+all of these hands which are right on
+the line
+become pure folds they'll shift down
+slightly
+and they'll become pure faults and
+you'll only start calling with all the
+hands
+that are
+actually decent value right
+matthias asks why does jack 10 sometimes
+check back if we on the river shouldn't
+we always bet the good hands okay that's
+an interesting question let's take a
+look
+jack 10 here so we can see the jack 10
+is perfectly indifferent between a bet
+and a check and i suspect this hand is
+very close to the line
+if i select all here
+we can see that these hands have 80
+percent equity against villains range if
+we go all in
+we can see that we're going to hard
+block villains calling range
+so we block
+all of these hands we block these hands
+in these hands
+we block
+these hands in these hands and so
+realistically
+um
+you're getting called by a6 ace two
+uh sixes tens you know maybe some 10 6.
+um
+if you block too much of their calling
+range all of a sudden you just start
+folding out worse and getting called by
+better and even very strong hands
+uh lose incentive to bets even though
+they're way ahead
+because you simply won't get paid off by
+worse hands
+nobody is clairvoyant
+right so
+we cannot be called by worse enough yeah
+exactly
+exactly
+so
+let me go over to the conclusion here uh
+oh you know what we should cover this
+real quick building wider heuristics
+with reports
+this is important so
+let me pull up
+this one here
+now something else that people under
+utilize
+our reports
+now i've just selected
+like a random spin and go button versus
+big blind spot i don't even really play
+singles myself but i know how to analyze
+reports to find data
+i suspect most of you guys are cash game
+players um regardless
+reports can be used as a method for
+basically
+finding overarching trends and i think a
+lot of people what they'll do is they'll
+scroll through and they'll sort by big
+bet and small bet and which boards are
+checked most
+and checked least
+which boards are bet big
+and bad small
+and that's one way to go about it for
+sure
+but i think a lot of people under
+utilize this grouping function so you
+can group by for example high card
+here we can see these are all the ace
+high flops king high flops queen high
+flops and so on
+you can also
+filter
+for example we can apply just flush draw
+or just paired and see how that changes
+and here we can see how it changes the
+overall betting frequency so a flush
+draw period board in this spin and go
+setup typically prefers a smaller bet
+someone asks
+how can we make the colors different so
+that the reports are easier to visualize
+okay that's an easy enough question you
+can change that here in settings
+and here you can change the exact colors
+or you can go to themes and select from
+some pre-made themes
+that will have different colors
+so again when you're looking at reports
+utilize
+this grouping function and these filters
+and compare how the strategy changes as
+you apply filters so here we can see the
+default strategy
+and of course we can apply filters so
+connected monotone for example
+we can see that the strategy starts
+using
+betting quite often and checking more on
+these lower cards
+and never using the big bets
+you can also use this table mode
+here we can see that 21 of all flops are
+ace high
+and now for example if we just apply
+paired
+you can see that 16.9 percent of flops
+are paired and we can see how different
+hands play out so ace high boards
+through nine high boards end up betting
+much more often
+as you scroll through the game tree
+this will also update
+so here we've said button bets 33
+actions on us
+and we can see in the big blind that
+we're basically just going to continue
+more often
+when the
+high card is lower and of course that
+makes sense because the big blind should
+have more advantage on lower cards and
+less of an advantage on ace high
+and that's because in spin and goes
+you raise most of your
+or a lot of your ace high
+preflop so you're going to have less of
+an advantage
+on ace high boards
+so
+try and use these reports to build
+broader heuristics
+something else you can do for example is
+let me just pull up a random one here
+let's pull up this one here king queen
+two
+instead of studying the exact strategy
+on king queen two this is back to a
+cache game by the way
+you can use reports
+and we can say
+apply filters so we have king queen two
+but perhaps we want to spread that out a
+bit maybe it's
+something like this
+flush draw not paired
+so how does the strategy look like when
+the highest card is ace through queen
+second card is king through jack low
+card is six through two flush draw and
+here we can see that
+it's almost always going to be utilizing
+an over bet as the most prevalent sizing
+and checking back a decent portion of
+the range
+and so instead of studying just one
+board
+you can apply filters such that the
+filters represent a variety of boards
+that look close to what you were
+that are somewhat similar to the flop
+you were already studying so i had some
+other examples to go through but i think
+we've covered this in a fair amount of
+detail already today's lecture was
+mostly about just showing you guys
+different methodologies and tools you
+can use to better find the overall
+strategy studying poker requires
+combination of memory and intuition
+there are far too many spots to memorize
+so you do need to learn broader
+heuristics now tools we can use to do
+this are studying thresholds comparing
+hand classes on different boards
+utilizing filters to separate value from
+bluffs comparing ranges looking at
+villain's response using those reports
+to really try and find broader trends
+creating a hypothesis and then trying to
+break that hypothesis anyway i hope you
+guys enjoyed my lecture i hope you found
+it useful i'll take any questions you
+guys might have now dan says i learn
+best from the big picture should i start
+using complex solutions now i'm a bit
+new side to the solvers and use in
+general would it be better to wait until
+i'm more advanced to switch well dan
+that is uh something of a subjective
+question i most people hate the complex
+reports because they're so complicated
+personally i kind of like them because i
+really like finding those interesting
+counter-intuitive lines the complex
+reports are really great when it comes
+to
+finding bet sizing trends in aggregate
+reports finding new strategies they're
+not so good for pure implementation
+because of course they take a lot of
+mixing and so i think the complex
+reports are best for looking at broader
+trends whereas the simpler solutions are
+better for studying specific strategies
+so if you're leaning more towards the
+intuition side if you're trying to get
+some broader heuristics complex reports
+are reasonable if you're looking more at
+the
+just a simpler implementable strategy or
+you just want less data to deal with you
+can use the simpler general solutions
+both have their purposes a lot of my
+hands are out of line so i have to look
+at complex fair enough sir fair enough
+well i'd like to thank you all for
+coming to my lecture uh if you have any
+follow-up questions feel free to send me
+a message in the discord either
+privately or publicly in the weekly
+coaching section camilo asks if
+threshold calling range from the flop
+depends mostly on bet sizes as we know
+is it okay to use an mdf approach to
+approximate our calling range
+considering we have to overfold flop for
+a bit yeah um
+absolutely i've done some other lectures
+on how mdf correlates to the actual gto
+strategy
+it's not a direct correlation
+the more value check backs they have the
+less mdf seems to apply but typically
+out of position will overfold a bit on
+later streets mdf seems to be a much
+closer approximation to the actual gto
+strategy and overall just continuing
+wide enough versus certain sizes
+is a good way to create a balanced
+strategy that's not going to be too
+exploitable to bluffs or value bets
+well i'm gonna end it here guys thank
+you all for coming and have yourselves a
+great day
+happy grinding

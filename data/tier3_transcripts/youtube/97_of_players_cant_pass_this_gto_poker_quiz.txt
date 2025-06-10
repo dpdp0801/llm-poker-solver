@@ -1,0 +1,214 @@
+### TOPIC: gto poker quiz
+hello Wizards today we've prepared a GTO
+quiz so you can test your skills let's
+face it GTO can be complicated that's
+why we've prepared 10 questions so you
+can test your knowledge and rate your
+results at the end of the quiz tally
+your correct answers and see how you did
+first question your opponent chubs five
+into a pot of 10 chips what do your pot
+odds tell you
+[Music]
+the correct answer is a you need at
+least 25% Equity to call Pot odds at its
+core just say that if you put in five
+chips you need to win at least five
+chips out of that new pot right you put
+in five the new pot will be 10 + 5 + 5 5
+/ 20 is 25% so we need to win at least
+25% of the time in order to break even
+on a call second question your opponent
+bets five chips into a pot of 10 what is
+your minimum defense
+frequency the correct answer is a
+67% what is minimum defense frequency
+MDF simply says how often you need to
+defend in order to make your opponent's
+zero Equity Bluffs break even so in this
+case if we defend two 2/3 of our range
+the expected value of bluffing is zero
+making their Bluffs indifferent between
+Bing and
+checking question three you make a half
+pot bed on the river let's assume you're
+perfectly polarized what percentage of
+your range should be
+Bluffs the answer is B
+25% that is to say 25% of our betting
+range should be Bluffs this range lays
+the correct pot odds for a half pot bet
+bluffing 25% of the time means that they
+have exactly the right pot odds to call
+and their Bluff catchers are perfectly
+indifferent between folding and calling
+if we were to Bluff more often they
+could simply always call their Bluff
+catchers and if we were to Bluff less
+often they could simply always fold so
+this range construction is the most
+efficient question four you bet five to
+10 on the river how often does your
+opponent need to fold for you to have a
+break even
+[Music]
+Bluff the answer is C
+33% that is to say if they fold at least
+a third of their range you'll break even
+on a bluff this quantity is called Alpha
+and it's simply 1 minus MDF Alpha can be
+calculated toing doing a simple risk
+reward calculation multiply the
+probability that they fold times the pot
+that's your reward and subtract the
+probability that they call times the bet
+that's your risk if they fold 33% of the
+time your EV with a bluff is zero so how
+does one handle all of this math in
+actual play well the truth is that once
+you've worked with these numbers for a
+while it just kind of becomes automatic
+but in the meantime you can use a simple
+bet sizee chart so for example take this
+chart you know that for pot siiz bet pot
+odds are 33% the minimum defense
+frequency and Alpha are 50% and the
+value to Bluff construction on the river
+is 2/3 value 1/3 Bluff question five
+indifference what does it mean to be
+indifferent in
+[Music]
+poker the answer is D when different
+actions have the same
+EV indifference doesn't mean zero EV and
+it doesn't mean you don't care
+indifference simply means that two
+actions have the same EV now this is
+pretty important in poker because a lot
+of Game Theory comes down to the
+principle of indifference for example
+when we bet half pot while bluffing 25%
+of the time we're making villains Bluff
+catchers indifferent between calling and
+folding that is to say the EV of a call
+is the same as the Eevee of a f fold now
+they defend 2/3 of their range to make
+our Bluffs indifferent between betting
+and checking that is to say our Bluffs
+have the same EV with a bet that they do
+checking back question six range
+morphology how would you describe the
+difference between these two
+[Music]
+ranges the left side can be considered
+polarized while the right side is linear
+now in poker it's often easier to talk
+about the overall shape of a range
+rather than trying to describe each and
+every combination the term polarized
+denotes a range that consists of very
+strong value and Bluffs linear describes
+a range that's top down value to medium
+strength hands without Bluffs a
+condensed range or sometimes a
+depolarized range consists of mostly
+middling hands without many weak hands
+or many strong hands a merged range
+describe something that's somewhere
+between polar and linear consisting of
+very strong hands a very weak hands and
+a few midling strength hands as well
+question seven how does solvers
+calculate
+GTO the answer is B players take turns
+exploiting each other until they reach
+an equilibrium solvers have no idea what
+the word poog mean they don't know what
+balance is they never heard of MDF
+solvers are simply EV maximizing
+algorithms the thing is you can't find
+Nash equilibrium in one go you need to
+iterate back and
+forth start with two players A and B fix
+player A's strategy and let player B
+exploit them now fix player B's new
+strategy and let player a exploit them
+repeat this process back and forth and
+the strategy will become less and less
+exploitable until it reaches and
+equilibrium question eight how does the
+GTO strategy gain
+EV the answer is D GTO gains when the
+opponent takes a minus EV action that
+should never be played now this is a
+contentious question some people believe
+GTO gains anytime the opponent deviates
+but that's simply not true for example
+GTO won't punish mixing mistakes if your
+opponent mixes incorrectly you need to
+adapt your range to exploit that in
+theory mixed actions always have the
+same EV against the fix GTO strategy
+similarly just because the opponent
+takes an action that is never used in
+the solution does it necessarily mean
+that action is lower EV GTO only gains
+when the opponent takes a minus EV
+action that should never be played it's
+what we call a blunder or a pure
+mistake question n when is the following
+statement true your ranges strategy
+affects your hand
+[Music]
+strategy see this is only true when
+villain can adapt their
+strategy your hands EV is a function of
+your opponent's strategy if they can
+adapt then that means that if you change
+your range they can change their
+strategy which changes our hands evv as
+a consequence if your opponent is unable
+or unwilling to change their strategy
+for example playing against a fixed GTO
+bot then changing our range has no
+impact on our individual hands EV we can
+simply maximize each hand in a vacuum
+against that fixed strategy this is why
+a bot doesn't punish mixing mistakes
+those kind of mistakes can only be
+punished by adapting your strategy which
+a fixed bot won't do the 10th and final
+question which of the following
+statements about blockers is false
+B blockers change how often you'll be
+dealt different hands in your range
+which changes your frequencies is simply
+not correct think about the way blockers
+work you're using your whole cards to
+gain information about your opponent's
+range blockers don't interact with your
+own range you can't block your own range
+no instead you block your opponent's
+range now that's why whenever you're
+working with blockers or working with a
+solver you should go into your
+opponent's range to see how holding or
+removing certain cards from that range
+changes their strategy so how many
+questions did you get correct if you got
+Z to three questions right you're a
+muggle you're not magical yet keep
+grinding you'll get there four to six
+questions you are an apprentice 7 to
+eight questions you're a mage if you got
+nine or 10 questions you are a GTO
+wizard that's it for the video guys
+please join our Discord if you'd like to
+discuss the theory there some more I
+know that some of the later questions
+were a little contentious we' be happy
+to discuss it there and as always like
+comment subscribe hit the Bell let us
+know how we did and if you want to see
+more of these questions going forward
+that's it and take care

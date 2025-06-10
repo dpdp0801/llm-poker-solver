@@ -1,0 +1,496 @@
+### TOPIC: how rake impacts your poker strategy
+how does rake impact your strategy in poker 
+most players don't realize that their strongest  
+opponents are not the other players at the table 
+but rather the house itself in today's lecture  
+I'm going to show you how to minimize how much 
+break you pay how to adjust your strategy for  
+different rate structures and how rake impacts 
+your win rate theoretically and in practice
+hey everyone before we start the video 
+we'd really appreciate it if you could  
+hit the like And subscribe buttons your support 
+means a lot to us thank you and enjoy the video  
+in today's video I'm going to show you how to 
+conquer the rake first and foremost I'll show  
+you where to find free pre-flop charts for your 
+specific rake structure we'll cover how rake  
+impacts your strategy as well as your win rate 
+we'll visualize rake as a utility function and  
+then I'm going to show you some general post-flop 
+adjustments you can make to improve your play at  
+different rank structures the first question you 
+should ask yourself is how can you find the best  
+possible pre-flop charts for your rake structure 
+luckily for you GTO wizard has just added a ton  
+of different rake structures you can see we have 
+solutions from Chip EV that's reckless all the  
+way down to nl25 which is pretty high rake and 
+everything in between see these Solutions open up  
+the solution selector in the top left corner and 
+select where you flop only solutions from here you  
+can see we have various stack sizes complexities 
+and rake structures to suit your needs you can  
+even study different opening sizes if you're 
+curious about the break percentage in cap select  
+this preview icon you can see the rake is shown in 
+this panel here the next question you should ask  
+is how does rake impact your strategy to answer 
+this question we're going to start reflop now  
+generally speaking rake Hertz calling ranges but 
+opening frequencies and raising frequencies stay  
+about the same overall as we increase the rake we 
+see more folding and less calling which should be  
+obvious because well the rake cuts into your win 
+rate but let me show you some examples of what I  
+mean in this chart we're showing the opening 
+frequency by position from under the gun at  
+the top to small blind at the bottom now you'll 
+notice that the opening frequencies stay about  
+the same so for example under the gun is opening 
+18 of their range at nl25 and they're opening  
+19 of the range in chip EV and so it's very very 
+close there's not a huge difference between chip  
+PV and microstake solutions here there are some 
+small changes as we get to the later positions  
+of course but only about two percent or so and so 
+okay if opening frequencies don't actually change  
+that much then what about defense well defense 
+changes a lot and this is what I mean when I say  
+rake Hertz calling ranges this chart displays 
+big blind strategy versus a 2.5 x button open  
+at different rake structures at the top we have 
+nl25 which has an 8 big blind cap at the bottom we  
+have chip EV you can see as it goes from nl25 to 
+nl100 nl500 and Chip EV are overall folding range  
+increases and we're calling less often meanwhile 
+our three bidding frequencies stay approximately  
+the same in each spot let me show you an example 
+I'm going to select these pre-flop Solutions again  
+and we're going to use a 2X opening size and 
+select chip EV cev so this means again Reckless  
+here we're looking at under the gun's opening 
+strategy in a reckless cash game and we can  
+see that they open about 18.8 percent of hands 
+how would their opening strategy change at 25 ml  
+where there's a lot of rake 18.2 percent we can 
+see there's really not a big difference between  
+these two strategies the hand selection changes 
+a bit but the overall frequency is very similar  
+okay so what happens when under the 
+gun opens and it folds the big blind  
+well here we can see that they're defending 
+about a third of their range at 25 in l  
+but if there were no rake they would descend more 
+than half their range it's a very significant  
+difference there are two reasons for this the 
+first is that rake is generally more leveraged on  
+the player that's closing the action due to the no 
+flop no drop rule so when big blind calls they're  
+guaranteed to get raked whereas when under the gun 
+opens they are not guaranteed to get raked because  
+it can fold pre-flop right the second reason is 
+that the big line just has more close decisions  
+right many many more close decisions and this 
+means that small changes to the expected value of  
+their hands can have big changes on their overall 
+defending frequencies here's another example so  
+the button opens action folds the big blind and 
+we can see again that the jpv solutions that is to  
+say the rateless solutions will defend much wider 
+compared to these high rake nl25 nl50 solution  
+but something else changes you'll notice that the 
+three-bed construction becomes much more linear  
+in chip EV and much more polarized at nl25 the 
+reason for this is because it's optimizing for  
+different things at nl25 it's raising hands 
+that are at the very bottom of your range  
+that have good blockers and want to generate some 
+fold Equity Queen Deuce king deuce asex these are  
+all hands that are kind of crappy calls but they 
+can generate a lot of folds if you three bet them  
+and indeed when they do three bet you expect the 
+button to fold quite often almost 70 percent now  
+compare that to chip EV in a reckless game the 
+button is expected to defend much wider facing  
+a three bet and for that reason instead of 
+optimizing for fold Equity it's optimizing for  
+hands that do reasonably well when called suited 
+connectors suited Broadways strong pocket Pairs  
+and such now perhaps you're worried that this 
+rebate size doesn't work for you well keep in mind  
+you can always try these research Solutions which 
+have many more three bet sizes and so you can see  
+how the button responds to a range of different 
+sizes again at various rake structures alright  
+we've touched on some pre-flop strategy and I'll 
+Circle back to strategy later in this presentation  
+but first I think it's important to show you how 
+rake impacts win rates so what I've done is I've  
+graphed how much rake you pay at different stakes 
+from GTO against measured hand history data the  
+very top of this graph we see nl500 which has 
+lower break you expect to pay approximately 3.3  
+big blinds per hundred the very bottom of this 
+graph we have nl10 with high rake and here you  
+expect to pay about eight big blinds per hundred 
+the blue lines represent your theoretical rake  
+or how much a GTO solver thinks you ought to be 
+paying overall whereas the red line represents  
+how much rake you are actually paying according 
+to measured hand history data so why is there such  
+a big discrepancy at these lower Stakes it seems 
+like players are paying much more rake than they  
+ought to be paying according to what GTO thinks 
+and I think the reason for this is that at lower  
+Stakes players are not folding enough and just 
+in general there's going to be more recreational  
+players that are putting in too much money seeing 
+too many flops and just pumping up the total  
+amount of rake paid by the overall population 
+whereas at the higher Stakes there are fewer  
+recreational players players are a bit stronger 
+and therefore the theoretical and actual rake  
+get much closer the next most obvious question 
+to me anyway was how did you to win rates vary  
+by position how much should each seat win from 
+under the gun through big blind and how do these  
+vary by stake so I calculated these win rates from 
+Chip EV nl400 and nl10 from under the gun through  
+big blind first thing you'll notice is that the 
+later positions pay a larger proportion of the  
+rake on average and this is simply because they're 
+playing more hands and therefore paying more rake  
+for example under the gun we see that the win rate 
+changes from 11 big blinds per 100 in a reckless  
+scenario to eight big blinds per hundred micro 
+Stakes whereas on the button we see that the win  
+rate varies from 25 big blinds per 100 all the way 
+down to 17 big blinds per hundred so there's a lot  
+more variance here but all of that is dwarfed by 
+how much more the blinds pay it appears that the  
+blinds end up taking the runt of the rake I 
+suppose because they are defended to continue  
+the widest and play the most flops out of all of 
+these positions the measured rake data from my  
+previous graph was taken from this site Prime dope 
+which is a great free online poker rate calculator  
+I recommend checking this out they're not paying 
+me to tell you this it's just a great little free  
+tool so first of all you can see how much rake 
+you would expect to be paying in big blinds per  
+100 across different stakes and different formats 
+at the very bottom here I particularly like this  
+table which shows stakes from 10 NL all the way up 
+to 500 NL and you can view this either as formal  
+rake net rake or big blinds per hundred and here 
+you can see that some sites are going to offer way  
+better deals than other sites so it's important to 
+scope out your competition even if you're limited  
+to what sites you can play on you should scope 
+out at what point you start to get a significant  
+break on the rake in order to plan your bankroll 
+management we can arm ourselves with knowledge  
+all we want but to be honest the most direct way 
+to pay less rake to pay less money to the house  
+is just to get a good rate back and so rakeback 
+allows you to reclaim a percentage of the rake  
+paid typically contingent on putting in a certain 
+amount of volume Scout could rig back deals online  
+network with your poker friends and see what's out 
+there don't just take the default amount learn to  
+use some of the online tools like what I've just 
+shown you and importantly I recommend looking for  
+good deals before you create an account with the 
+casino you can often get a better deal this way  
+it should be noted that many casinos will try to 
+obfuscate how much the rakeback is and sometimes  
+it's hard to measure because it'll be in the form 
+of loot boxes or Splash pots or whatever but in  
+general you can usually figure out how much 
+rake overall you're paying if you're tracking  
+your hands it's important to realize that not all 
+players will pay the same amount of rake generally  
+speaking we can categorize how much rate you pay 
+according to three factors one is your rate back  
+deal two is how many flops you see and three is 
+average size of the pot you're involved in and  
+so payers to pay less rate will typically have 
+a better rate back deal they'll play fewer flops  
+which just means folding pretty more often 
+or acting aggressively pre-flop and they'll  
+Place smaller pots on average that means they're 
+putting less money into the pot overall inversely  
+here's the pay more rake might have no or a bad 
+rate back deal they'll generally play more flops  
+and just play larger pots on average so loose 
+aggressive players generally are going to pay a  
+lot lot more rake than titanity players which is 
+why a lot of the winning regs at microstates are  
+using kind of nitty strategy now with that said 
+it's not always dependent on what strategy you're  
+using if you're playing a GTO strategy against the 
+maniac that Maniac can cause you to put in more  
+money than GTO would otherwise just due to how 
+your strategies interact and that can lead you to  
+paying more rake overall just in general it's also 
+important to realize that exploits against these  
+types of players aren't fully benefiting you some 
+of the ads you gain from exploiting a maniac goes  
+to the house in the form of rake rather than in 
+your pocket Okay so we've discussed how rake can  
+impact your win rates but now I'd like to return 
+to strategy let's focus on pre-flop Rake versus no  
+flop no drop you play on a site like GG you get 
+charged pre-flop rake if you play on most other  
+sites there is a no flop no drop rule meaning 
+you only get raked on parts that see a flop this  
+creates different incentive tubes do three bets or 
+call more pre-flop for example if there's no flop  
+no drop you have more incentive to try and take it 
+down immediately pre-flop before you get charged  
+rake on that pot whereas in GG games there's 
+typically a little bit less incentive to three  
+bet pre-flop doesn't mean you should never three 
+bet there's just less incentive because there's no  
+longer that incentive to take it down immediately 
+so to demonstrate this I'm going to show you two  
+rake structures they're both five percent capped 
+at three big blinds one is raked pre the other  
+is not and we're gonna see how that changes your 
+strategy in GTO wizard so here I've selected these  
+pre-flop only research Solutions the research 
+Solutions are kind of useful because they give  
+you a ton of different race sizes so you can see 
+what size the silver prefers given many options  
+first I'm going to select these GG Russian 
+cash Solutions and again these have a five  
+percent rake to a three big blind cap we're 
+going to compare this to nl100 which also has  
+the same rake structure the only difference is 
+that at nl100 no flop no drop rule is in effect  
+whereas in GG Russian cash that is not the case 
+now these look pretty similar but there's one  
+huge difference and that is three bet sizing 
+so here nl100 and then no flop no drop rule  
+is in effect solver prefers much larger three bet 
+sizes 12 13 14 big blinds even compare that to GG  
+Russian cache where the solver prefers smaller Ray 
+sizes nine big blinds 10 big blinds 11 big blinds  
+and again the reason for this is that when the 
+no flop no drop rule is in effect the solver will  
+absolutely exploit that rule to try and pay less 
+Rick it'll adjust its strategy to something that  
+free bets large and often in order to take down 
+the pot pre that can be difficult to visualize so  
+I've made this chart to help you visualize it in 
+blue we see GG pre-flop break and the other one is  
+no flop no drop and we can see again a very clear 
+preference for the no flop no drop solutions to  
+three bet much larger out of the big blind facing 
+a button open compared to GG rake and this is just  
+kind of a general Trend you'll see in GG Solutions 
+some of the marginal raises become calls and the  
+reason is that they're simply less incentive to 
+try and take it down pre through a three bet and  
+so therefore they'll just call a bit more often as 
+opposed to raise whereas with the no flop no drop  
+rule the solvers will often prefer very large 
+three-bed sizings out of position and kind of  
+maneuver their strategy in such a way that it's 
+largely focused on three better fold strategies  
+facing an open next I'd like to visualize utility 
+Theory now utility functions are something that  
+alter the value of chips so in a cash game we 
+can talk about rake in a tournament you could  
+talk about ICM pressure these are both examples 
+of utility functions that alter the value of what  
+a chip is worth in general rake tends to lower 
+the reward rather than the risk and so what we  
+could do is we can see how rake percentage and cap 
+changes our utility function by graphing our risk  
+reward ratio at different stack depths let me 
+show you what I mean in this chart I visualized  
+your risk reward ratio against the size of the pot 
+so this is The Rake utility function that's this  
+area in green here now you don't have to worry 
+about all of this math on the side that's just  
+to make the chart interactive essentially the 
+way you read this chart is the horizontal axis  
+represents the size of the pot the vertical axis 
+represents your risk reward ratio for example here  
+the rake is five percent and this means that while 
+you're in this region you're going to get about  
+90 cents on the dollar now that may be confusing 
+why are you getting 90 cents in the dollar when  
+it's only five percent uh ten percent well it's 
+because you risk for example in this case 20 big  
+blind pot you and your opponent each put in 10 big 
+blinds if you win that pot your net gain is nine  
+big lines if you lose that pot your net loss is 
+10 big blinds and so you're getting 90 cents on  
+the dollar and this continues you keep getting 
+90 cents on the dollar until you hit the cap  
+and once you hit the cap you can start getting a 
+discount when it comes to the risk reward ratio  
+but we can see how this changes as we increase or 
+decrease the rake structure for example if there  
+was no rake you'd just get one to one you get 
+one dollar on one dollar chip EV it's perfectly  
+Fair now what happens is we increase that rate 
+percentage so this is fifteen percent ten percent  
+five percent and lower and we can see that it 
+uh increases in this nice smooth geometric way  
+okay so let's put that down to ten percent let's 
+see how this changes as we vary the rate cap now  
+this of course will change when we start getting 
+that discount and as we increase the rate cap  
+it becomes harder and harder to make a pot 
+big enough that starts getting a good discount
+so anyway if you want to try out this graph I'll 
+link to it in the description the parameters are  
+P for the percentage of rake paid and C for the 
+rate cap in big blinds as shown in the middle of  
+the graph here oh one thing to mention about this 
+is that in general rake tends to be front loaded  
+and what I mean by that is that um generally 
+speaking you're going to get a better deal in a  
+cash game when more of your stack is invested as 
+opposed to you know down here when you're paying  
+the full amount however in for example some of the 
+micro Stakes places so for example this will be  
+your average micro Stakes region you're just going 
+to be paying the full amount either way all right  
+that's enough utility Theory going forward I'm 
+going to concentrate on how rake affects your  
+strategy and win rate post flop here we see a 
+button versus big blind single raised pot and  
+I've graphed the rakes EV the expected value of 
+the house at NL 500 nl50 and GG nl50 as a higher  
+cap we'll notice something interesting here first 
+of all the rakes win rate is is kind of absurd so  
+the house is making 66 big blinds per 100 in this 
+scenario that's a lot of big blinds okay so don't  
+underestimate the rake probably a better way 
+to view this a fair way is to craft the pot  
+share rather than the big blinds per 100 because 
+you know everything looks big when you multiply  
+it by 100 so here we see the big blind's expected 
+value as a percentage of the total pot on the left  
+hand side and we can see it's 36 percent at all 
+three rig structures on the right hand side we see  
+buttons expected value and the rake is red in the 
+middle and it looks like big blinds EV stays the  
+same whereas The Rake is kind of eating into the 
+buttons win rate and so one way to understand this  
+is that the big blind is actually playing tighter 
+at these high rake structures and so they're kind  
+of Defending in such a way that they'll have 
+exactly enough pot share post flop and so in  
+exchange the button is going to take down more 
+of these pots pre-flop and so we're not really  
+seeing buttons pre-flop EV here we're only seeing 
+Eevee when they get called by for example a tight  
+range at these high rake structures perhaps it'll 
+be clear with an example let me open GTO Wizard  
+and show you how I generate these so from the 
+solution selector again I'm going to select Bots  
+that have post flop included because I'm doing 
+a post-flop analysis and we'll just look at 100  
+big blinds General Solutions comparing different 
+rake structures all right so firstly let me show  
+you how I get these values that I've shown you in 
+the previous chart uh we'll go button opens big  
+blind calls and I'll just select the Flop reports 
+now flop reports are great because you can see  
+what the overall strategy looks like but you can 
+also see what players expected value looks like  
+for example here we see big blind's expected value 
+buttons expected value and we can toggle that  
+between EV and big blinds and as a percentage of 
+the pot using either hotkeys or by changing your  
+settings now let's go over here and take a look 
+at the betting note so this shows how often the  
+button should be c-bedding across all possible 
+flops and in general we're going to notice that  
+at NL 500 we're going to be betting a bit wider 
+than for example at nl50 and conversely you  
+notice that at nl50 the big plane donks more 
+often than an nl500 so what's going on here  
+well again this is just um a buy factor of the 
+fact that big blinds range is tighter at nl50  
+right they call fewer hands at nl50 their ranges 
+therefore stronger when they do call and therefore  
+we see bet less often as the button at an l50 
+inversely at nl500 the range is wider and so we  
+get to see that a little bit more often and we'll 
+notice that you know even facing a bet for example  
+the overall raising and calling frequencies are 
+very similar and this is because the solver will  
+adapt how wide and what type of hands it bets to 
+the rake structure to achieve a new equilibrium  
+and notice for example across all possible flops 
+we're folding a third of the time versus a third  
+pot bet at nl50 and the third at a time facing 
+a third pot that at NL 500 really doesn't change  
+too much the only thing that maybe changes a bit 
+is the three betting frequency and even then uh  
+it's it's very close I did a similar analysis for 
+under the gun versus big blind single race pot and  
+we see all the same things the big blinds EV is 
+stable across all three so in all cases they're  
+getting about 29 of the pot The Rake tends to eat 
+into the under the gun players EV post flop and  
+this is a function of big blinds range getting 
+tighter as you increase the rake analyzing the  
+reports in GTL wizard we don't see very much 
+of a difference between the aggregate betting  
+strategies at NL 500 compared to nl50 you'll 
+notice that it's very very similar putting in  
+more money at NL 500 as the end of the gun player 
+because you're playing against a wider calling  
+Rich they're the same as before we're going to 
+open up GTR Wizard and here we're looking at  
+cut off opens small blind three bets action back 
+on cut off this is 500 NL we can see that they're  
+calling a good quarter of the time or betting 
+maybe 10 of the time overall defending a pretty  
+decent portion of their range at nl50 however 
+uh even with the same size you're folding a lot  
+more often uh defending less often and overall 
+against this size you should basically be four  
+betting more often than you're calling and 
+so this means that when cutoff does call they  
+have a much stronger range in general which is 
+why we saw the patterns observed earlier chart  
+let's take a look at the Flop reports so I'll open 
+this up and take a look at the flops here we see  
+that at nl50 we're checking about 37 percent of 
+the time and typically preferring a good mix of  
+sizes anywhere from 20 to 75. at NL 500 you 
+can see very similar overall distribution in  
+our frequencies but certainly Majors change the 
+biggest change is in our expected value in terms  
+of total pot share see that up here as well so 
+anyway the main takeaway here is to be cognizant  
+of when you hit your raid cap as a reminder 
+you can calculate when you hit the right cup  
+by taking the cap in this case it's four big lines 
+and dividing it by the percentage or divided by  
+five percent is 80 big blind so at nl50 you only 
+hit the rake once the Pod exceeds 80 big blinds  
+but for example at NL 500 you'll hit the rake much 
+sooner so here it's 0.6 that's the gap divided by  
+the five percent rake so you hit the rate cap once 
+the pot exceeds 12 big lines and so it's important  
+to pay attention to that specific threshold 
+because that's going to tell you a lot about how a  
+solver wants to maneuver its pre-flop strategy all 
+right I think we'll wrap it up here if you guys  
+have any questions about anything feel free to 
+reach out in our Discord server it's a great place  
+to ask Theory questions or just drop a comment on 
+this YouTube video I hope you guys enjoyed I hope  
+you got something useful out of it and I hope you 
+pay less rake and as always happy grinding foreign
+[Music]

@@ -1,0 +1,48 @@
+### TOPIC: implied odds
+Implied odds are one of those concepts that you often hear being thrown around in poker conversations but that many players don’t fully understand. In fact, it could be said that a vast majority of casual poker players don’t know how they work, often overestimating or underestimating their significance.
+More importantly, actual calculations needed to get to the bottom of implied odds remain a mystery even to many players who play the game seriously, which is why it is an important topic to cover in more detail.
+If you have mastered your outs counting and pot odds, it is time to master the idea of implied odds as well and learn how to calculate your implied odds once and for all.
+Implied odds are an extension of basic pot odds that factor in the money you can potentially win on future streets if you hit your draw. Instead of evaluating whether a call is immediately profitable, implied odds help you assess whether calling now can lead to a bigger payoff later, particularly when you expect opponents to put more chips in the pot if your hand improves. For example, drawing to a flush or straight may be unprofitable based on pot odds alone, but becomes worthwhile when implied odds are considered. Good implied odds require deep stacks and opponents likely to pay you off, making player tendencies and bet sizing key considerations.
+Implied odds in poker represent the amount of money you stand to win on further betting streets if you hit one of the outs you were chasing.
+Good implied odds mean that you stand to win a lot of extra money on further betting streets if your hand improves, with draws like gutshot straight draws offering some of the best opportunities.
+If there is a good chance you will win more money on future streets when you improve, your implied odds are favorable.
+On the other hand, if it looks like your opponent will get out of your way when you improve, your implied odds are not looking so great.
+Of course, this is all just a simplification. We will discuss how to calculate implied odds in your poker games in more detail.
+Calculating implied odds to an exact number would be impossible because there are too many variables at play and no exact poker math. You cannot predict exactly how your opponent will react to certain cards, bet sizes, etc.
+However, we can calculate the minimum amount of money we need to win on future streets to make our play profitable despite the pot odds being presented at the moment.
+When playing live poker it is easy to get distracted, especially if you are playing in a fun, lively game! That said, being able to focus and calculate pot odds and implied odds is critical to success.
+We have just explained that the exact probability of winning certain amounts of money on the futures betting street is impossible to calculate because there are too many variables in play.
+Implied odds calculations, for that reason, focus on calculating the minimum amount of money we need to win in the future to make our call profitable.
+This is useful in situations when direct pot odds don’t allow us to proceed with our hand, as we don’t have enough equity with our draw.
+Yet, if there is more money behind in our stack and our opponents’ stacks, making a call can still be profitable if there is a chance for more money to go into the pot.
+So, let’s use an example scenario to explain the implied odds calculation. We will start with a hand from the $2/5 Texas Hold’em cash game.
+Sitting on a $500 stack, you are dealt 9♠8♠ on the BB. UTG opens to $15, you make the call, and all other players get out of the way.
+With $37 in the pot, you check the K♣7♠2♦ board, and your opponent decides to bet small for $10. You make the call with your backdoor draws, and the turn reveals the 6♦, giving you an open-ended straight draw.
+You check again, and your opponent now bets $40 into the $57 pot. A quick pot odds calculation tells the following story:
+$40 (needed to call) / ($40 bet + $57 pot + $40 call) = $40/$173 = 0.218
+This means we need 21.8% equity to make this call profitable. A quick look at our odds against some possible hands, such as K♥10♥, tells us that we only have about 15% equity against many of them. Our equity against our opponent’s entire range isn’t that great either since we will almost surely lose if unimproved.
+However, we do have an open-ended straight draw, giving us eight cleat outs to the nuts, all of which means we win the hand.
+Having a slight equity deficit in this situation, we will need to make some extra money on the river to make our call now profitable, but how much exactly?
+To determine that, we will use the following implied odds formula:
+Amount to Call / (Opponent’s Bet + Pot Size + Amount to Call + Money We Need to Win on River) = Equity
+In this case, the calculation would look like this:40 / (40 + 57 + 40 + X) = 0.1540 / (137 + X) = 0.1540 = 137 * 0.15 + X * 0.1540 = 20.55 + X * 0.15X * 0.15 = 40 – 20.55X * 0.15 = 19.45X = 129.6
+Using this calculation, you can see that we need to win an extra $129.6 (let’s call it $130) to make our call on the turn profitable.
+Considering the pot will be $137 when we make this call, we would need to extract a full pot-size bet on the river to make this call profitable.
+With only one betting street left to go and our opponent not likely to have a monster hand right now, making the call would probably not be justifiable in this particular situation.
+However, if the bet was slightly smaller, we could probably argue for making the call, even if we still don’t quite have enough equity to make it in relation to pot odds.
+For instance, if the bet was $30, you would need to win about $83 on the river to make the call profitable, which would be a more realistic number.
+In either case, this same formula can be applied in any situation in which pot odds alone are not enough to justify a call but in which your hand could improve and get you paid on the remaining streets.
+However, maybe there is a way to use this situation to your advantage. Let’s explore the alternative option.
+Implied odds tell us how much money we need to win in the future to make a current bet profitable and can help us make calls that are not justified by pot odds alone.
+However, implied odds can also help us make good bluffs with a number of drawing hands that don’t really justify a call regardless of implied odds.
+In our previous example, we saw a situation in which a call was perhaps not a great idea, as the amount of money we needed to win on the river was pretty high, and our opponent’s range was not super strong.
+These kinds of situations make it ideal to turn our hand into a bluff and represent having a monster hand instead.
+For instance, if we raised it to $150 in our previous example instead of calling the $40, we would put our opponent in a very difficult situation.
+They would be forced to fold hands like underpairs and strong A-highs that simply can’t handle the pressure on the board in question and would have a hard time even with hands like Kx.
+What’s even more, we could apply further pressure by following our bluff with an all-in play on the river, and we could also make our straight 15% of the time.
+Let Jonathan Little teach you how to bluff like the pros!
+There are quite a few extra things you need to take into consideration when thinking about making a call or turning your hand into a bluff on account of implied odds.
+We will now look over a few of these considerations, so make sure to think about these the next time you are put into an interesting implied odds situation:
+Implied odds are an important part of the game of poker and can often be used to make the correct play in a situation that doesn’t seem to warrant it at first glance.
+However, it is also incredibly important not to trust implied odds too much and to make the right calculations before you decide to go against the pot odds.
+Take all the considerations we mentioned into account and learn how to calculate implied odds in poker, and you will become a better poker player for it, guaranteed! If you are new to the concept, make sure to play with our poker odds calculator and get a grasp of the basic math behind it.

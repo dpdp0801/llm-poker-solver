@@ -1,0 +1,62 @@
+### TOPIC: check raising single pair
+Check-Raising a Single Pair
+In this article, I will address a question raised by Twitter/X user ’Matt Riley’, who asks, “In what scenarios is it ok to check-raise one pair in cash games (100 bb deep)?” I believe the answer contains important insights into game theory and incentives that will be of interest to many others besides Matt.
+Thanks for sending in the question! And to any of our readers, if you or anybody you know has a burning poker strategy question that you want our authors to look into.
+Feel free to tweet @GTOWizard or pose your question in Discord. Without further ado, let’s dive in!
+When Not To Check-Raise a Single Pair
+To begin with, let’s establish why it is generally not optimal to check-raise one pair with 100bb effective stacks, whether you are playing a cash game or a tournament.
+Check-raising is an aggressive action that sets you on course to play a large pot.
+Check-raising is an aggressive action that sets you on course to play a large pot. There are two main reasons you’d want to take such an action:
+Your hand has the potential to win a large pot at showdown
+Your hand can benefit from fold equity
+These reasons are not mutually exclusive. Indeed, the best hands for check-raising often benefit to some degree from both factors.
+When you check-raise an open-ended straight draw, for instance, you are representing that you already have a hand that can win a large pot at showdown. Most of the raise’s profitability comes from your opponent’s folds. But if they do not fold, your hand has the potential to win a large pot at showdown by improving to a straight.
+Similarly, when you check-raise with two pair, you are mostly hoping to grow the pot against weaker hands you expect to beat at showdown. But you are also benefiting to some degree from fold equity, as you may drive backdoor draws and other hands with outdraw potential out of the pot.
+The higher the SPR, the stronger a hand you need to commit all your chips. This is the main reason why one pair hands check-raise more often in tournaments. The shallower stacks make it profitable to stack off with just one pair.
+With a low SPR, a good one pair satisfies both of the above conditions:
+Strong enough to get all-in
+Benefits from protection because of its vulnerability to live overcards and/or backdoor draws (so the value of fold equity is significant as well).
+With higher SPRs, one pair rarely satisfies these conditions. Only the best one pairs meet the first requirement but struggle with the second:
+Strong enough to risk a big portion of their stack to contest a big pot.
+But tend not to need much protection. For example, when you have Aces or top pair with an Ace kicker, overcards are not such a concern.
+Weaker pairs, on the other hand, find themselves in the inverse situation:
+They mostly lack the potential to contest a large pot.
+But would enjoy a bigger benefit from protection.
+This makes them poor candidates for raising. You will have other hands, such as straight and flush draws, that gain more from fold equity while also having more potential to improve to a hand strong enough to win a big pot.
+The simple answer to Matt’s question is that the best spots to check-raise one pair in a 100bb cash game are:
+Preflop betting action: In a 3- or 4-bet pot, where the SPR is lower.
+Positions: When both players are in late position, so the ranges are wider, and the threshold for what counts as a strong hand is lower.
+Board texture: On low flops where hands like top pair and overpairs have the most to gain from protection.
+And Yet…
+With all that said, solvers do still recommend occasionally check-raising one pair even when none of the above conditions hold. For example, here is BB’s response to a 50% pot c-bet from UTG on a Q♥7♦5♦ flop in a single-raised 100bb cash game pot:
+BB response vs UTG 50% pot c-bet on Q75tt
+Notice that there are some check-raises from top pair, second pair, and third pair. Even though these hands are generally poor check-raising candidates, there are a few cases where check-raising them works out well. For example…
+Unexpected Monsters
+The simplest case is when the board pairs on the turn after you check-raise. Precisely because your opponent should not expect you to turn trips very often in this scenario, you are incentivized to show up with them every now and again. This keeps your opponent indifferent to bombing the pot with a wide, polarized range.
+As shown on the chart below, board pairing cards are relatively bad turns for you even when you hold a balanced range that occasionally turns trips on them. Without these hands in your check-raising range, your EV would be even lower on these turns (though it would be higher in other scenarios).
+BB performance (in EV) on the different turns after check-raising Q75tt
+Inducing Bets on Bad Turns
+These hands serve other purposes as well. The very worst turn cards are offsuit broadways that don’t improve any of your obvious draws. The strategy shown below in case of a J♠ on the turn is typical of how you play these turns, with a lot of checking.
+BB turn-strategy vs UTG on Q75tt Jo
+After you check, your opponent can bet into your weak range and force you off draws as strong as 86 and T♦6♦. This incentivizes them to bet their own weaker pairs for thin value/protection and couple them with bluffs to balance the range.
+UTG strategy vs BB check on the turn
+BB response vs UTG 50% pot turn-bet
+Value Betting Rivers
+Even though they were a little thin as flop check-raises, you can bet your top pairs for value on blank rivers if the turn checks through:
+BB river-strategy vs UTG on Q75tt Jo 2o (turn checked through)
+Finding Bluffs
+As for the weaker pairs that check-raise the flop, they can morph into bluffs on turn cards that are good for your range, most notably straight-completing cards in this spot.
+BB turn-strategy vs UTG on Q75tt 8o
+These are turns on which you’d otherwise struggle to find bluffs, as they improve the weakest part of your check-raising range. That these weaker pairs are pure bets implies they are profitable as bluffs, not indifferent. Anticipation of that profit is built into the predicted EV of the flop check-raise.
+But Which Pairs?
+In the example above, BB’s one pair bluffs are hands like 54, 65, and 97, which picked up straight equity on the turn. This is not a coincidence.
+Because one pair hands are generally poor check-raising candidates, you must be selective about which combos you raise.
+We have seen that BB has some incentive to show up with Queen-x, 7-x, and 5-x after check-raising the flop, enough to make them indifferent to check-raising certain combos of these hands. But because these are otherwise poor check-raising candidates, BB is selective about which they check-raise.
+Remember those criteria we laid out at the beginning? BB prefers to check-raise hands with “the potential to win a large pot at showdown,” which in this case means straight and flush draws along with strong made hands.
+When BB check-raises one pair on the flop, they usually have at least a backdoor draw to go along with it. Here’s the QT they check-raise:
+With Q6, they still prefer diamonds, but they don’t require them because they also have a backdoor straight draw:
+As for the lower pairs, 97, 87, and 76 sometimes check-raise because they have backdoor straight draws, but the bigger kickers do not (except for T♥7♥, which is a backdoor flush draw).
+Conclusion
+Solver strategies are efficient and precise. Nothing happens without a reason, and often, there is more than one reason.
+One pair hands are generally poor check-raising candidates, which is paradoxically a reason to check-raise them occasionally. Your opponents may not expect you to have them in a check-raised pot, which can enable over-realization of their equity if you do manage to show up with them. However, because of the significant tradeoffs involved, you need additional sources of value—at least backdoor draws—to justify raising them.
+Finally, let’s recognize that these check-raises are only worth making if you understand why you are making them. If you don’t take advantage of the opportunities you’re creating to bluff when the straight draw comes in or check your top pair on the J♠ turn, you’d be better off not raising at all. You’re getting the downsides of raising without the upside…

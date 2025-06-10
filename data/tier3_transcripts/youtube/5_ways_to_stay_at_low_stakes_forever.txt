@@ -1,0 +1,327 @@
+### TOPIC: 5 ways to stay at low stakes forever
+[Music] today we're going to dive into the 
+ultimate guide on how to waste time buckle up  
+as we unfold the secrets to ensure your study 
+sessions are as inefficient as possible let's  
+shuffle through these gamechanging tactics 
+together and discover the five cardinal sins  
+of Poker study habits that are guaranteed to 
+prevent you from making progress because why  
+aim for improvement when you can Master 
+the craft of standing still let's Dive
+In
+[Music] tip number one memorize frequencies the 
+most efficient way to waste your time studying  
+poker is to try and memorize GTO frequencies 
+so I want you to keep in mind that there are  
+billions and billions of decision points in poker 
+and so your goal is to try and rote memorize all  
+of that if you can't do that how can you even call 
+yourself a g wizard you need to know exactly how  
+often each hand takes each action in every spot 
+and whatever you do do not try to extrapolate  
+larger ideas do not look for the bigger picture 
+just focus on memorizing frequencies without  
+understanding the strategy that is how you will 
+stand still tip number two for wasting your time  
+is to justify your spew when you look at a solver 
+you shouldn't be thinking about what your range is  
+doing you should not be focusing on the overall 
+strategy instead you should review your hands  
+look at only your hand in the solution and if 
+it happens at any frequency good enough right  
+focus on how your hand is supposed to play ignore 
+your range and hey if you get cooler taking some  
+wild line just justify it by calling it a lowf 
+frequency play that is how Silvers were meant  
+to be used tip number three focus on minua if 
+you want to make the least amount of progress  
+possible it is crucial that you spend hours 
+studying tiny blocker effects and trying to  
+figure out why calling is 0.01 big lines better 
+than raising you should definitely spend all day  
+trying to figure out why the silver raises 1.5% of 
+the time in this River spot with this very strange  
+combination ignore threshold analysis don't do 
+any Global takeaways only focus on these minutia  
+and that will ensure that you waste the maximum 
+amount of time studying tip number four wander  
+aimlessly do not try and prioritize spots do not 
+try and figure out what spots are more important  
+to study just study random hands you need to avoid 
+developing some sort of study plan at all costs  
+that will only help your progress if you want to 
+stagnate in poker study routines are the enemy do  
+not let yourself fall in the Trap of studying on a 
+regular basis without going crazy tip number five  
+is confirmation bias you already know how poker 
+ought to be played there's nothing left for you  
+to learn you should use the solver to confirm 
+your own worldview rather than trying to learn  
+new Concepts and hey you know what if the solver 
+disagrees with your play it's probably not worth  
+paying attention to make sure that you use the 
+solver exclusively to feed your ego rather than  
+try and learn new Concepts okay so you've learned 
+the five cardinal sins of studying poker let's  
+snap back to reality and assume that you actually 
+want to improve and not waste your time I'm going  
+to go through some GTO wizard examples and I'll 
+show you the right way and the wrong way to study  
+different spots all right so hijack opens cut 
+off three bets they call flop is 9752 tone and  
+then checks to you in position now let's say 
+you're studying this spot the least efficient  
+way to study it would be to Mouse over each of 
+these combinations individually Ace 9 what is  
+Ace 9 doing okay we're checking 37.9% of the time 
+we're betting small a lot sometimes we're betting  
+medium okay what about Ace 10 Ace Jack Ace Queen 
+10 Jacks like guys this takes for every it's not  
+a super efficient way to go ultimately if you want 
+to study more efficiently you need to start with  
+big circles and work your way down to smaller 
+circles so big circles is like the big picture  
+analysis and then only once you've got a handle 
+on that do you work your way down to the smaller  
+combinatoric stuff the easiest way to do that is 
+to use this filters tab I love the filters tab  
+the reason I like this is because it allows me to 
+start thinking of hands in terms of hand classes  
+grouping similar hands together so for example 
+if I select sets now my strategy at the top  
+shows just my strategy for sets and you can see 
+they're mostly betting I can do this for any type  
+of hand class or Draw or any combination thereof 
+again the idea is to minimize the amount of stuff  
+you have to think about so that you're getting 
+more for your study time we're trying to group  
+strategically similar spots together strategically 
+similar hands together and try and take away as  
+much information as possible with the least amount 
+of time now let's say you want to study turns cut  
+off bets hijack calls and what most people do is 
+they'll just enter a single turn card here perhaps  
+the turn card that was played in game but the more 
+efficient way to study this is to start again with  
+turn reports if I click turn reports hijack checks 
+here I can see cutoff strategy with their entire  
+range across all these different turn cards right 
+and so this is going to be the quickest way that  
+I can gain value from my study time because I 
+can already develop heris like okay when the  
+turn card brings a connecting card like a six an 
+eight or a 10 here I should probably slow down  
+quite a lot meanwhile I can start over betting on 
+some of these board pairing cards and even some  
+of these bricks and I should probably be pretty 
+aggressive on these Broadway cards Jack queen or  
+King something does pique my interest though why 
+are we slowing down so much on an ace after all  
+we're the three better that's odd let's go check 
+the ranges I'm going to go back to cut off's range  
+again going to use this filters tab to filter for 
+ace high and we'll notice that most of the ace  
+high are checking 63% of the time what that means 
+is that when you bet you don't have these hands  
+in range and therefore an Ace isn't actually that 
+good for you another way you can use this imagine  
+you're studying some particular hand in game Let's 
+say you had Jack here for example what you can do  
+is you can filter the turn reports for just this 
+hand and instead of studying the exact turn card  
+that came in game you can use these reports to 
+study how Jacks should play across all of these  
+different turn cards and again we can see very 
+similar heris a seven and a nine okay we can  
+even start over betting on this an overcard to the 
+Jack okay now we're slowing down a lot I've done a  
+lot of other videos on studying more efficiently 
+but you guys get the idea the goal is to start  
+with big picture analysis and work your way down 
+rather than trying to memorize individual hands as  
+a lot of newer players would all right so we've 
+addressed number one now let's address number  
+two justify your spew again one of the cardinal 
+sins of studying is to focus on how your hand is  
+supposed to play rather than your range and if you 
+make a mistake but the solver is taking this line  
+at some minute frequency you just say oh it's 
+a low frequency play it's fine guys that's not  
+how you should use a solver you shouldn't use 
+it to justify bad play just because it's taken  
+at some frequency doesn't necessarily mean your 
+strategy was any good let me show you what I mean  
+all right let me demonstrate this cardinal sin to 
+you guys imagine you're reviewing a hand history  
+and in this spot you add Ace three of Spades as 
+the cut off you bet one/ third pot they call on  
+the turn you think to yourself hey you know what 
+I've just hit Top pair they've got lots of draws  
+that'll probably call me let me put in another bet 
+you bet and they get called Rivers is the nine of  
+hearts and here you decide to go all in with Ace 
+three you look at the silver and you realize oh  
+okay it's mostly checking this hand but you know 
+what it's shoving at a low frequency we'll call  
+this a low frequency play move on nothing more to 
+see here right meanwhile if you actually normalize  
+your range you'll notice you never get here with 
+ace3 what actually matters is it necessarily what  
+ace3 is doing here in a vacuum it's how you're 
+constructing your overall beding shoving frequency  
+this informs the exploitability of your strategy 
+let's imagine that ace3 shoves here what actually  
+happens well let's examine what calls you so quads 
+full houses flushes Straits trips and better top  
+pair okay so the majority of hands that call you 
+have you beat so is this really a value bet I mean  
+maybe maybe you get like a merge call from some 
+Jacks and tens I don't know if many humans find  
+that what about folding okay well you fold out 
+hands you beat such as low pairs low pairs low  
+Pairs and you actually fold out a few better top 
+pairs interestingly enough so you were maybe just  
+overplaying your hand thinking it's a value 
+bet in reality you were bluffing without even  
+knowing it right and unless you stop to actually 
+analyze your strategy you won't notice that and  
+you'll just continue on playing the same way over 
+playing your top pair in these types of spots the  
+third cardinal sin focusing on minua and I see 
+this all the time in the Discord server on the  
+public forums people are not paying attention to 
+what actually matters and spending too much time  
+focusing on what basically comes down to Silver 
+noise or inconsequential blocker effects returning  
+to our River example imagine you get here with 65 
+of clubs and you decide to turn your hand into a  
+bluff and shove good for you but you'll notice 
+that it's Bluff with 6 five of Spades 6 five of  
+hearts and it's checking with 6 five of clubs in 
+the summary tab we can even see that the EV when  
+you have Spades is much higher than the EV when 
+you don't have Spades what's going on here what  
+is this to do with Spades is this like something 
+important guys I have done more card removal  
+analysis in my life than anyone should do if you 
+actually go and calculate how holding each of  
+these suits changes your opponent's frequencies 
+it's minute it's not even a consider it's not  
+worth thinking about at all this does not matter 
+even a little bit this is not important here's  
+a Block C effect that does matter let's take 
+a look at king queen here in the summary tab  
+you'll notice that King Queen of Diamonds is 
+bluffing king queen without a diamond is not  
+bluffing simply because you block the flush right 
+that's as simple as you really need a lot of the  
+stuff a lot of the times that you're spending on 
+figuring out why one suit does this why the other  
+suit does that first of all the effect is much 
+smaller than you think it is secondly it's built  
+on Range assumptions that are not realistic by the 
+river that is to say like 3.7 big PL gain here is  
+based on assumptions that aren't realistic about 
+your opponent's range in reality there's so much  
+more variance to their range that this is just 
+basically goes out the window thirdly it's not  
+important right spending a bunch of time trying 
+to figure out like which combination of 65 is  
+the best one to bet or 76 it doesn't matter what 
+matters here is your overall range construction  
+your value to Bluff ratio for this shove 
+that matters a lot what doesn't matter is how  
+often you're bluffing or what combinations you're 
+bluffing with this particular hand that you rarely  
+ever get here with now similarly let's say you 
+shove and you're studying the opponent's response  
+here and you might ask well why is it that Ace 
+five of Spades calls more often than Ace five of  
+hearts and again the answer is it doesn't matter 
+it doesn't matter at all I promise you that the  
+card removal effects are so negligible this isn't 
+even a real consideration there are no look don't  
+get me wrong there are times where blocker effects 
+are important and have a big impact on your real  
+EV this is not one of those times at all the only 
+takeaway when you hold ace5 here is that your hand  
+is indifferent that's the only consideration here 
+right your hands the expected value of calling and  
+folding are both zero your hands right on the 
+line and you should decide whether or not to  
+call not based on your suits but rather based on 
+your opponent's Tendencies if you think they maybe  
+over bluffing or under bluffing in this line and 
+that's going to be true for basically all of your  
+top pair they're all indifferent facing this again 
+my advice is to not focus on these minute blocker  
+effects but rather overall range construction 
+things like what hand class is appropriate to  
+shove here right so when cut off shoves they're 
+mostly representing flushes full houses and  
+quads for value they're very rarely representing 
+anything worse than a flush for value returning to  
+number four wandering aimlessly this one's really 
+common it's really easy to just study random spots  
+when you feel like it and have basically no plan 
+preparation or sense of priority but it's a very  
+inefficient way to study you can imagine you learn 
+a little bits in pieces but you're not trying to  
+pick the lowest fruit first you're not maximizing 
+your study time now instead of studying random  
+spots you can use one of the many free resources 
+we have on GTO wizard to study more efficiently  
+for example you can open up these study plans 
+and try the mastering the basics of GTO this is  
+a free study plan open to anyone with a GTO wizard 
+account it's filled with articles guides videos as  
+well as many drills that will teach you all about 
+how to start studying in poker and how to master  
+the basics of A game theory optimal strategy you 
+can also watch some of my previous content where  
+I've shown you how we can use math to break down 
+what the most important formations are and what  
+the most important textures are this is again 
+just a nice simple way to prioritize the most  
+important spots first and develop an actual 
+quantifiable system for what spots you should  
+be studying first lastly confirmation bias now I 
+don't have a GTO wizard example for this because  
+it's more psychological but let's take a look at 
+the ironic slide you already know how poker ought  
+to be played and you use the solver to confirm 
+your own worldview rather than trying to learn  
+new Concepts and if it disagrees with you it's 
+not worth paying attention to just feed your ego  
+this is subconsciously how a lot of people study 
+I think in particular this is a common trap that  
+regs fall into these are people who have studied 
+have perhaps found a slightly winning strategy  
+and then they just get stuck right they start 
+playing the same way in the same spots without  
+ever reassessing their strategy and mostly what 
+they're using a silver for for that point on is  
+just fine-tuning a very Break Even strategy 
+rather than trying to learn new ideas again  
+it's not very efficient when you see an outlier 
+hand in GTA wizard when you see the solver doing  
+something doesn't make sense to you is outside 
+your worldview don't just dismiss it as oh it's  
+crazy GTO nonsense there is a reason for that and 
+if your opponent if you think that's weird it's  
+probably because there's a deeper strategic idea 
+that you haven't thought of before that perhaps is  
+actually applicable not necessarily the play but 
+the underlying concept if you can't look for ways  
+to improve your strategy well you're just going 
+to plateau and that's why it's really important  
+to keep an open mind and remember that poker is 
+far more complex than you give it credit for all  
+right everyone that's my video let me know down 
+below what bad study habits you're going to break  
+after watching this video and if you found it 
+helpful if you found it useful the best way  
+you can thank me is to like And subscribe 
+that's all for now happy grinding [Music]
+yeah

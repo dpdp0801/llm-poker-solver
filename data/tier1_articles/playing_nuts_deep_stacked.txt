@@ -1,0 +1,70 @@
+### TOPIC: playing nuts deep stacked
+Maximizing Monsters in Deep-Stacked Scenarios
+With a monster hand, you’re virtually guaranteed to win the pot, so the question of just how big a pot you win can feel secondary.
+But don’t get complacent! The question of how big matters enormously, especially when you’re playing with 200bb+ stacks.
+Deep-stacked No Limit Hold ‘em is a game of big pots. Really big pots. Failing to make the most of a monster hand is a much bigger mistake than a bad preflop call, but it doesn’t always feel like a mistake when the pot is getting pushed to you.
+After all, you won a pretty big pot. Maybe you won 50 or 100bb, several hours’ worth of win rate. Feels good, right?
+Failing to make the most of a monster hand is a much bigger mistake than a bad preflop call.
+For an elite poker player, no pot is “big enough.” You can never afford to rest on your laurels. Even when that big pot is getting pushed to you, you should be asking yourself, “Could it have been bigger?” It feels great to win 100bb. But if there’s 100bb still in the effective stack, that’s 100bb you’re missing out on.
+Of course, you can’t win it all with your monsters every time. But if a different line could have won that last 100bb, then you made an enormous mistake. That alternative line doesn’t have to result in you winning the other 100bb anywhere near 100% of the time to be the superior line, since the payoff is so big the times it does work out.
+It pays to get ambitious and consider all your options before you settle for “big enough,” so let’s consider those options now…
+
+Geometric Betting
+Geometric betting—where you bet the same fraction of the pot on each remaining street such that the final bet is all-in—is a robust default option. It’s the best way to bet the nuts in a toy game where there’s no card removal and hands never change value, and it’s a strong contender for how best to play the nuts in many real poker situations as well.
+With 200bb on a static flop like AK7r, the solver recommends quite a lot of geometric continuation betting, even though it’s a significant overbet. This is from a BB vs BTN single-raised pot (SRP), but this holds true for SRP configurations where the preflop raiser is in other positions:
+BTN c-bet flop strategy for range vs BB on AK7r: 200bb starting stacks
+In fact, it will bet even larger than geometric when given the opportunity, though this does not meaningfully affect the EV.
+The point is, when you’re deep, it’s worth considering some really big bets as early as the flop, especially when the flop is one that gives you such a significant nuts advantage.
+We will use this flop as an example of how to play monster hands on static boards where you have a significant nuts advantage. On more dynamic boards, it is harder to generalize because what counts as a nut hand is likely to change from street to street.
+
+Other Options
+That said, geometric betting and overbetting, in general, are not essential on the flop. In our AK7r example, the solver mixes checks and smaller bets with its monster hands. In fact, with the literal nuts, it almost never overbets:
+BTN c-bet flop strategy per hand vs BB on AK7r
+A strategy of c-betting quarter pot with your entire range loses just .02bb in theory and is much simpler to execute. The flop in general is quite forgiving of bet size choices, provided you make up the difference later.
+Let’s get into the details of how you make up the difference later.
+
+Compensating for a Small Flop Bet
+For this example, we’re going to assume you went for the simple strategy of range-betting small on the flop, though it wouldn’t make that much of a difference provided your ranges were properly balanced. Small bets are a more appealing means of slow-playing monsters than checking is, because even a small bet on the flop facilitates less dramatic overbetting on later streets and re-opens the action for your opponent to raise.
+Inducing a check/raise is your best-case scenario when you bet small with a monster. Unfortunately, you can’t expect it often on a board like this. At such a high SPR, BB flops very few hands with which they are eager to play for stacks. This means they have few value check/raises and even fewer bluffs. The solver check/raises less than 7% of the time, preferring a large size:
+BB response vs BTN’s 25% pot c-bet: custom solution (BTN’s options = X or B25)
+In position on a static board against what ought to be a polar range, there’s no need to raise. Even against a smaller raise, 3-betting is not terribly appealing, though it is worth considering with your monsters:
+BTN response vs BB’s small (33% pot) check/raise
+If you do call, you’re likely to face a turn bet, and at that point, you should strongly consider raising your monsters. Even on a very blank turn like 5♣, BTN’s strongest hands raise quite consistently.
+Raising is even more important on a coordinated turn like the 8♦, which introduces several new draws:
+The concern is not just that you may get drawn out on but that a scary river card could discourage further action from hands with which your opponent is currently ready to go the distance with.
+This is a geometric raise, setting up a 128% pot shove on the river. Remember what we said on the flop:
+It’s ok to c-bet small with your monsters as long as you make up the difference later.
+It’s later! With the board getting more coordinated and your opponent continuing to show interest, it’s time to reel in your fish before it wriggles off the hook.
+We see this even more dramatically if your opponent just calls your flop bet. Assuming they check to you on the turn, it’s time to back up the truck and start offloading those chips into the pot, and with so much remaining to be wagered, these bets need to be large. Geometric is roughly 3x pot, and that’s the solver’s most used size:
+BTN double barrel strategy on blank turn (after flop went X-B25-C)
+
+Compensating for a Turn Check
+The exceptions here, which mix some checks, are mostly AA and A5, which block many of the hands likely to give you action. When you check these, you are resigning yourself to not winning a very large pot with your monster hand. Even facing a 66% pot bet on a blank river, the solver’s raise isn’t putting anywhere near the full stacks in:
+BTN response vs BB’s 66% pot probe-bet on blank river
+This very passive line targets weaker hands in BB’s range, which isn’t generally what you want to do with your monsters. It makes sense in these cases only because, when you’re holding two of the Aces and one on the board, you are unlikely to get big bets paid off anyway. Even then, the solver does not expect this less ambitious line to outperform geometric betting (on turn and river), only to be competitive with it.
+
+Compensating for a Flop Check
+AA is also a candidate for checking the flop if you choose to use the lower-frequency, polar c-betting strategy. If you’re lucky, you’ll face an overbet on the turn, in which case you should abandon the pretense of slow-playing and start reeling in what’s on your hook with a geometric raise:
+BTN response vs BB’s 158% pot probe-bet on blank turn
+Aces never slow-plays against this bet. Interestingly, it is turned bottom set that sometimes just calls (BTN never checks Kings or Sevens on the flop). On many rivers, a set of Fives will be borderline not strong enough to raise another overbet:
+BTN response vs BB’s 125% pot bet on blank river
+
+Facing a Turn Check
+More commonly, your opponent will check to you a second time on the turn. When that happens, it plays out similarly to the line where you c-bet small on the flop and check the turn: your opponent has shown no interest in the pot, so you’re mostly settling for winning a small pot from your opponent’s weaker hands rather than shooting for the stars.
+This is especially true when you block strong hands. On a 5♣ turn, BTN overbets a set of Fives (but stops short of geometric betting) but mostly checks again with a set of Aces:
+BTN delayed c-bet strategy on blank turn
+There’s a stronger case for betting a more coordinated turn, but even then, Aces sometimes continues slow-playing:
+BTN delayed c-bet strategy on wet turn
+
+Compensating for Two Checks
+You’re holding a monster, the pot is tiny, and you’ve got just one opportunity remaining to bet. Unfortunately, your opponent has repeatedly declined to show interest in the pot, so you can’t get too ambitious. Aces mixes between 65% and 125% pot:
+BTN double-delayed c-bet on blank river
+At this point, your blockers aren’t really working against you anymore. An opponent who checks all three streets is unlikely to hold top pair anyway, so a set of Aces plays just like any pair of Aces, betting an amount that can get picked off by lower pairs.
+
+Conclusion
+Winning big pots with your big hands is essential to your win rate, especially in deep-stacked poker, where the difference between “big enough” and “the maximum” can be as great as the difference between “the maximum” and “the minimum” in a 100bb game.
+When you have the nuts advantage, it’s mostly on you to grow the pot, and the most reliable way to do that is with geometric betting.
+Geometric betting is not the only option, however. Especially on the flop, you can create deception and/or simplify your strategy without loss of EV as long as you make up the difference later.
+The purpose of slow-playing is to give your opponent the opportunity to develop a hand they are interested in. Once they show interest, that’s your signal to change gears and start reeling them in with geometric bets and raises.
+Even if they don’t show interest, you should seriously consider a geometric bet on the turn, no matter how large. If they fold, you probably wouldn’t have won much anyway. When the reward for winning the maximum is so large, that reward is worth pursuing at the expense of missing out on the occasional smaller bet from weaker hands.
+The only time extreme, multi-street slow-playing really makes sense is when your opponent shows no interest in the pot and you block a lot of the hands likely to pay off large bets. In those cases, you resign yourself to the likelihood that your opponent is so unlikely to pay off large bets that it makes sense to hunt for smaller game with less ambitious bets.

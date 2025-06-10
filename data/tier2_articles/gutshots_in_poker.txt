@@ -1,0 +1,59 @@
+### TOPIC: gutshots in poker
+Gutshot straight draws, also known as inside straight draws, are among the least valuable drawing hands in poker. Yet, they are also a lot more common than other draws and are high in the poker hand rankings when you do hit your card, making it imperative to know how to play them the best way possible.
+Just because a gutshot straight draw isn’t as likely to hit as an open-ended straight draw or a flush draw does not mean the hand can’t be made profitable in certain situations.
+Before you can learn how to play your gutshot straight draws the best way, let’s take a step back and learn more about what a gutshot straight draw is and what the difference is between a good and a bad gutshot straight draw.
+The first thing we need to do is teach you what a gutshot straight draw is in poker. If you already know this part, you can skip to further sections, although reading this part won’t hurt either.
+In essence, anytime you have a hand that needs one particular card rank to come to complete your straight, you have a gutshot straight draw.
+For example, on a board of Ks3d4c, holding 6s7s gives you a guthost straight draw, as any 5 on the turn or river makes you a straight.
+Similarly, on a board of QcJdTs, holding Ah7h gives you a gutshot straight draw, as hitting any King would make you a straight.
+This kind of draw is much weaker than an open-ended straight draw that can be completed on both ends, such as holding 6s5s on the Ks3d4c board, where any 2 or 7 would complete the straight.
+Yet, you will find yourself holding nothing but a gutshot straight draw on quite a few boards, so it is essential to understand the math and make the best of these hands.
+Before we can discuss any strategy, we need to figure out how likely a gutshot straight draw is to land and how our pot odds look with such a hand.
+According to the Texas Hold’em Odds calculator, holding 7h6h against AdAs on a board of Kc4d3s, we have 18.69% equity.
+The majority of this equity comes from the chance to hit a 5 on the turn or river, but some of it also comes from the off-chance of making two pairs or trips by the river.
+To make things simpler, we can use the rule of 4 and 2, which tells us to multiply our number of outs by 4 on the flop or by 2 on the turn to calculate our equity.
+When holding a gutshot straight draw against a made hand like a pair or two pairs, we will have exactly four outs, which means we will have about 16% equity on the flop and 8% equity on the turn.
+Of course, any additional options we may have, such as runner-runner trips, two pairs, or flush, may give us additional equity.
+On the flip side, if we have a gutshot straight draw on a board with two or three cards of the same suit, some of our straight outs may not be clean, as they could make our opponents a flush.
+For that reason, it is important to be careful when trying to calculate your equity with a gutshot straight draw and mainly only consider the outs that give you a clean straight.
+A gutshot straight draw is technically any straight draw that can be completed by a single card rank in the deck, but not all gutshots are created equal.
+Let us consider five different scenarios in which we flop a gutshot straight draw:
+We start with scenario 1, which is one of the best possible gutshot straight draw scenarios. We have two overcards to the board, a backdoor flush draw, and a chance to make the nuts with any 8.
+A gutshot straight draw like this gives you many options depending on the exact scenario, from calling bets to using the hand as a great bluffing candidate.
+In scenario 2, we also have a gutshot to the nuts, but one that will often end up in a split pot if a Q does hit and a lot of money gets into the pot.
+Still, we also have a backdoor flush draw and blockers to the nuts, which makes this hand a great one to bluff with and get our opponents to fold a wide poker range like JX, TX, and even KX on some runouts.
+Scenario 3 gives us a much weaker gutshot straight draw. The 5 gives us a straight, but not the nuts, and we have a backdoor draw to a very weak flush.
+This kind of a gutshot straight draw is often a good candidate for a fold to even a single bet, as it is not a hand you want to get too involved with.
+The fourth scenario gives us a similar example of a hand that can only make the bottom end of a straight with one card but can’t even make a backdoor flush.
+With two undercards and little hope of making anything good but a straight, this hand makes for an even easier fold in many situations and is not a great bluffing candidate.
+Finally, the last gutshot scenario gives us two undercards with a gutshot to a straight that will often not be good, as any Ace will beat us if we do hit the Ten.
+This kind of a gutshot straight draw is the least worth pursuing, and you should not value the fact you have a gutshot much when a scenario like this arises.
+Generally speaking, you will make a gutshot straight draw either as the last preflop aggressor or as one of the defenders against the aggression.
+When you make a raise or a 3-bet and go to a flop that gives you a gutshot, you have the initiative and can play your gutshot as a part of your overall betting strategy.
+For example, imagine holding Th9h on the button in a $2/5 cash game. You raise it up to $15, and the player in the big blind makes the call.
+With $32 in the pot, the flop comes Kd 7h 6s.
+Your opponent checks to you. You have a gutshot to any 8, a backdoor flush draw, and most importantly, you have the initiative.
+On a board like this, you can represent all the strongest hands, such as AA, KK, AK, 77, and 77, as well as K7s, K6s, and 76s, all of which you would have opened from the button.
+Your opponent, on the other hand, can also have quite a few of these hands, but not AA, KK, or AK, as he did not re-raise your late position raise.
+The board does hit your opponent’s defending range reasonably often, but many of the hands they make here are second pair, third pair, or a straight draw.
+For that reason, you can start applying the pressure and fire out a $20 bet on this flop, with the intention of firing further barrels on later streets.
+Your opponent calls, and you go to the turn card of 2d.
+Your hand does not improve to a flush draw, but you still have the straight draw and can still have all the best hands on this board.
+Your opponent checks once again, and this time, you fire $55 into the $72 pot. What can your opponent realistically do with a hand like 87, 86, 55, and many other hands in their range that only have a straight draw?
+In most cases, this second barrel will work and get your opponent to fold everything but a King. If not, you may be able to continue telling your story on many rivers and even get players to fold a hand like KT.
+The slight equity your gutshot straight draw gives you is enough to barrel off at boards like this.
+On the flip side of the scenario, you will often find yourself as the defender holding a gutshot straight draw, and you will often be out of position when you do.
+For example, imagine the same scenario from the last hand. This time, you are in the big blind, and the player on the button raises to $15, and you defend with 8s7s.
+The board comes  5d6hQs, and you check to your opponent.
+The player now fires a small bet of $10 into the $32 pot, which they would likely do with both their strong hands and many draws in their range.
+You have enough equity and implied odds to make the call with your gutshot straight draw here, but this is also a great spot that a GTO poker strategy loves to start raising.
+Try PeakGTO for FREE and up your game!
+Your gutshot is not very likely to come in on the turn, and you will likely face further bets if you check the turn when you miss.
+On the other hand, your opponent may very well have nothing more than an A or K-high and will be in a tough spot facing a raise on this board.
+Hands like Q6, Q5, and 56 make a bigger portion of your range than they do of theirs, which means you can start repping those hands right here on the flop.
+Putting in a raise to $45 on this flop will win you the pot more often than not, and even when it does not it will give you the initiative and a chance to steal the pot on later streets.
+Every once in a while, you will face a 3-bet on this flop, and you will have a very easy fold, as your hand has very little actual equity against such a play.
+The topic of a gutshot straight draws in poker is a long and extensive one, as there are many scenarios in which you make such hands on the flop or turn.
+For that reason, it is worth spending quite a bit of time perfecting your play with gutshots, finding the best spots to use them as bluffs, and understanding how they work on different board textures.
+If you want to be a master of Texas Hold’em Poker, practicing with simulations and hand examples of the many different gutshot straight draws is a must and something you should spend a decent amount of time doing.
+Start with some basic examples and build yourself a basic strategy for a gutshot straight draws as aggressor and defender to begin with, and build upon that strategy as you gain more knowledge and confidence in the different possible scenarios.

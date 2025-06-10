@@ -1,0 +1,653 @@
+### TOPIC: what is pot geometry in poker
+let's talk about one of the most
+influential theories when it comes to
+bed sizing in poker I'm speaking of
+course about the geometric bet size in
+this video we're going to talk about the
+concept of pot geometry we'll talk a
+little bit about Clairvoyance why this
+matters we'll put Theory into practice
+and then we're going to say why this
+doesn't always happen in GTO without
+further Ado let's talk about pot
+geometry
+so the geometric bet size is a really
+fascinating theoretical Concept in poker
+in this video we're going to discuss
+what is pot geometry we're going to talk
+a little bit about Clairvoyance and
+polarization
+we're going to talk about why this
+matters following that we're going to
+put some Theory into practice so you can
+learn how to actually implement this in
+your game
+and lastly we're going to look at
+non-geometric strategies
+so what is pot geometry well in poker
+this refers to betting an equal fraction
+of the pot on each Strait such that
+you're all in by the river for example
+sixty percent pot sixty percent pot
+sixty percent pot Chef now why does this
+matter why is it that you would want to
+bet an equal fraction on each Street
+well like I said this concept is
+fundamental to bed sizing Theory a
+geometric betting strategy maximizes
+your opponent's overall defending range
+this theoretically forces them to put in
+the most money into the pot therefore
+when we have a perfectly polarized range
+in other words we have the nuts are
+nothing we want to use a strategy that
+maximizes how much money they put into
+the pot the best strategy is then to bet
+the same pot percentage on every street
+such that we're all in by the river so
+before we go on let's just go over some
+Basics what is perfectly polarized well
+perfectly polarized means we either have
+the nuts or a bluff and villains range
+is Bluff catchers relative to our range
+so they always beat a bluff and they
+always lose to our value now given that
+we're perfectly polarized
+we are clairvoyant
+now Clairvoyant is a fancy word outside
+of Poker you might think of it as
+psychic having outside knowledge that
+you shouldn't have but in poker or in
+Game Theory it refers to a situation
+where you know whether or not you're
+ahead or behind you know if you have the
+winning hand or the losing hand
+conversely villain who has a bluff
+catcher does not know if they are ahead
+or behind and that information
+dissimetry is fundamental to why you'd
+want to use this strategy so enough talk
+let's actually show you this concept in
+practice now like we said the core idea
+is that it will maximize how much money
+villain puts into the pot let's go take
+a look at the spreadsheet so we can see
+that in action
+so here is a cool tool that I've made to
+help you visualize and better understand
+this concept so here we can see
+we can enter the pot stack number of
+bets and it's going to calculate a
+geometric sizing so for example let's
+say it's a button versus big blind
+single race pot the pot is five and a
+half stacks are 97.5 and we want to get
+in over three streets
+well if we bet
+115.8 percent of the pot on flop turn
+and River
+we're gonna get Stacks in smoothly such
+that we're all in by the river villains
+final calling range is about 10 of their
+original starting range
+how do I know that well it's an
+estimation based on the minimum defense
+frequency
+on each Street
+so 46 times 46 times 46 percent equals
+about 10 percent
+now there's two interesting things you
+can do here for one you can play around
+with this to try and see
+for example how wide their final calling
+range is based on different sprs so
+imagine a button open versus small blind
+three bets let's say they three bet to
+11 big blinds so the pot will be
+22 plus 1 23 and the stacks are 89. well
+now we see that they need to defend just
+over a quarter of their range as the spr
+decreases their stack-off range
+increases
+so for a single raised pot
+here we can see if we bet an equal
+fraction on three streets
+they're going to defend about 11 of
+their range whereas
+if we just open ship they only defend
+about six percent of their range
+according to minimum defense frequency
+whereas for a three bed pot where the
+spr is maybe closer to three four
+they have to defend significantly more
+of their range
+and we can estimate that their final
+stack off range is somewhere between
+this blue line and this uh green line is
+it green or yellow I'm colorblind anyway
+the idea is
+the shallower the stacks the less money
+behind the more they have to call and
+that has a direct effect on your
+strategy right because they're going to
+have to defend more When there's less
+money behind and that dulls the value of
+the nut Advantage whereas in like a 200
+Big line Depot
+the nut Advantage counts for so much
+more because by the time you get all the
+money in you're only looking at like a
+tiny fraction of their original starting
+range anyway back to the geometric
+sizing we can take a look at this tab
+here
+now what I've done is I've just entered
+a bunch of arbitrary betting strategies
+that happen to get it all in
+by the river so you can go like 10 20
+percent and then you know 900 percent
+or you can use maybe something a little
+more reasonable like 120 170 60.
+something like this
+and what I've done is I've graphed
+or I've calculated how much money they
+tend to put in so this here is just
+their final calling range based on MDF
+times the pot
+and then on the right here we have
+villains total contribution that is to
+say The Times They fold the Flop or call
+flop and then full turn
+or call flop and turn and then fold
+River or call all three and see a
+showdown
+and then subtract the original starting
+pot so
+this is how much money villain
+contributes to the pot based on our
+betting strategy
+and what you'll find is that ridiculous
+jagged
+strategies such as you know check check
+1600 ship
+are going to cause them to defend
+as tight as possible and therefore put
+in the least amount of money into the
+pot
+conversely
+smooth betting strategies such as 110
+110 110
+caused them to put in more money into
+the pot
+and if you're a theory nerd like me you
+can do some math and calculate the
+standard deviation that is to say how
+similar are these numbers and the more
+similar these numbers are flop bet turn
+bet and riverbed the smoother the
+betting strategy is so we can say that
+smooth betting strategies
+tend to do better or tend to cause
+villain to put in more money than rough
+betting strategies
+and of course I had to graph this
+because graphs are fun
+and so here we see the amount of money
+villain puts into the pots based on how
+smooth it is and as it gets smoother and
+smoother the more money they put in
+lastly I wanted a way to visualize all
+three bets and the total money going
+into the pot
+so it's difficult to do this well
+because it's hard to visualize four
+dimensions on a two-dimensional screen
+but here's what I came up with
+so this top line here is the total
+amount of money they put into the pot
+and these
+here are the sizes of the bets so for
+example
+you get this massive River bet
+and like smaller flop and turn bats when
+you use these Jagged rough strategies
+there's less money going into the pot
+but as the strategies get smoother and
+smoother
+that is to say
+you're betting a similar portion on each
+streets to get Stacks in by the river
+they're going to put more money into the
+pot
+anyway if you want to play around with
+this a little more uh link to this
+spreadsheet is in the description also
+in the presentation
+and you'll just need to make a copy
+to play with it yourself
+next we're going to look at some GTO
+wizard Solutions and reports to see how
+you could implement this into your game
+so here's a really common example of the
+geometric bet size in practice
+let's say you're playing the big blind
+against button single race parts and for
+this example I've selected Queen four
+four but to be honest you'll see this in
+a lot of spots where the button checks
+back the flop
+let's take a look at turn reports
+the most common sizing when we do bet on
+this type of texture is going to be
+either block bet
+or an over bet and it's 250 percent
+what is special about 250 percent
+well that just so happens to be the
+geometric size for this spr over two
+streets
+so
+let's pick I don't know an ace looks
+like a pretty good example
+now you don't want to do a lot of
+betting on an ace you want to be
+checking quite a bit but when you do bet
+you're basically representing trips
+or a bluff maybe a little bit of top
+pair but for the most part trips
+or a bluff we can see how this is
+constructed
+and
+will note that
+once we met 250 percent
+button doesn't have a raising range they
+don't need to when we bet this large
+let's just pick some Brick River and
+again it's the same fraction of the pot
+on the river so we get to go
+250
+250 to get it all in this is a nice
+smooth betting strategy that's going to
+maximize the efficiency
+of
+how much money goes into the pot
+conversely if you use something like
+I don't know a 75 percent here
+well
+now it's almost impossible to construct
+the realistic shoving range because it's
+like 700 pot and if you do go for this
+villain's overall calling range is gonna
+be so much tighter that it's just not
+realistically
+a great strategy
+so turn probes are by far one of the
+most common spots where you'll see
+geometric sizes in practice
+um
+particularly I think a lot of people
+over Probe on the turn with small sizes
+or medium sizes but realistically if
+they're checking back a reasonable range
+you want to use
+a lot of turn over bets and in
+particular
+stuff that's closer to the geometric
+size which is about 250 percent in this
+case
+here's another example
+so this is a cut off versus pipeline
+single race pot the Flop is A7 deuce
+we start with a one-third bet
+and I know what you're thinking Tom why
+aren't they using the geometric size
+here
+I'll talk more about this later but
+essentially you can't construct the
+perfectly polarized range on the flop
+your range is not perfectly polarized
+in fact it's quite merged there's plenty
+of medium hands in there so in practice
+instead of starting with this extremely
+nuts or Bluff strategy
+it starts with a smaller size which has
+the effect of clarifying your opponent's
+range
+after making this bet it's going to be
+easier to construct a more polarized
+range on turn and River
+blind calls and let's give this King of
+Spades now the reason I've chosen a King
+of Spades is because this card is
+gives you the least incentive to one a
+bet small and that's because
+your king X has literally nothing to
+gain
+by making another batch here
+realistically it just folds out worse
+and gets called by better and there's
+already an ace on board so you're not
+worried about being outdrawn by over
+cards
+so when your middling hands have no
+incentive to bet that just leaves your
+strong hands
+and in that case you usually want to
+construct something that consists of
+extremely strong hands and Bluffs
+which is perfect for the geometric bet
+size
+so here we see for example
+we use a range of two pair very strong
+top pair
+and gut shots and some other
+very weak draws
+or just complete air as Bluffs
+so the geometric bet size here is
+something like 195 which is something in
+between these two sizes maybe closer to
+175.
+and so the idea is that we can construct
+this very strong polarized betting
+strategy
+again
+big blind does not need to raise very
+much at all facing these big over bets
+that's because we're putting in so much
+money into the pot that it's not
+required
+the check raise
+and I've just given some Brick River
+here
+we can construct
+the shoving strategy
+so now that we've seen some examples
+let's look at some big data here I've
+got a flop report that contains
+strategic information from every
+possible flop
+for this example I'm using the complex
+Solutions
+these Solutions are useful because they
+have a ton of bad sizes and I can graph
+those bad sizes and zoom in to get a
+bigger picture
+so
+when I first
+when I was first exploring this
+I was quite surprised to see this
+bimodal distribution that is to say in
+this spot which is button versus big
+blind single race pod
+we see plenty of small sizes not a lot
+of medium sizes
+and then over bets why is that well it's
+largely because you either start with
+these small medium block bet sizes which
+help clarify the ranges these are used
+with less polarized strategies more
+merged in these cases you typically
+polarize on turn or river
+or
+on some occasions
+you can construct polarized strategies
+right from the Flop and these are going
+to be closer to geometric remember the
+geometric size here is about 116 so
+somewhere between these two
+however we see even larger sizes than
+geometric and you might ask yourself
+why is that you know you can't get more
+polarized than perfectly polarized
+and the answer to that question comes
+down to draw Equity so instead of trying
+to maximize villain's defending range it
+may actually be worth it to
+it may be more profitable if they
+overfold on earlier streets when that
+fold Equity is more valuable right you
+can blast them off some draws
+and that's why we see some really big
+over bets in here
+and in fact we can switch over to table
+mode
+and I'm just going to sort by
+oh you know what I'm actually going to
+group the actions together
+sort by over bets
+so Ace Queen 8 for example should be a
+good one
+and I'll ungroup these now
+maybe I'll even graph them yeah I like
+the graph here
+so Ace Queen 8 is a fun one because we
+can construct an extremely strong range
+with very strong top Air hands
+two pair
+uh sets however there's also a ton of
+draw Equity right there's flushes there
+are straight draws there are gut shots
+and so what the silver prefers instead
+of a geometric size is something
+slightly larger like 150 size bets or
+even a 200.
+and these are fun
+because they have the effect
+of blasting the big blind off a number
+of their draws
+maybe I just expand these for a second
+you can see they're even folding some
+flush draws off the bat
+um
+holding most of their gut shots
+folding like
+for example most of their second and
+third pair and even some top pair which
+all have outs against us
+so
+in practice you're never really
+perfectly polarized or you're rarely
+perfectly polarized
+but you can still create very strong
+hands and very weak hands and construct
+the betting range like that
+and instead of using a geometric size we
+see it sometimes go even larger than
+geometric for the purposes of denying
+Equity early on
+let's take a look at another example
+so for example we can say uh
+cut off opens
+button
+three bets cut off calls
+so the geometric bet size here is about
+65 percent
+and if we take a look at what bet sizes
+are preferred we note that everything's
+kind of spread out here but it drops off
+drastically after the geometric bet size
+um this is a function of the lower spr
+right like you're never going to see
+these 150 over bets
+on in like a three bed pot
+because they're overkill for the spr so
+we can use the geometric bed size to
+gauge what is an appropriate bet size
+for this spr and in this case it's you
+know about two-thirds pot is close to
+the maximum again we do see some larger
+sizes to deny some of that draw equity
+but for the most part
+it's going to be about two-thirds spot
+as a maximum so let's let's go ahead and
+sort by that
+find some examples
+Ace Queen 10 is a good one
+yeah so Ace Queen 10 is another similar
+situation where
+you have enough of a nut advantage that
+you can construct very polarized ranges
+it does go a little bit bigger because
+there are again a lot of draws here
+but if you go about 61
+on each Street
+then that's going to maximize
+how wide cutoff calls
+in the end
+here we can see the geometric size would
+be maybe 70 here and it's basically
+splitting between these two
+so
+again you could kind of explore these
+graphs
+these flop reports
+and you'll notice that the geometric bet
+size is present in all of them
+so now that we've discussed the
+geometric sizing at length let's talk
+about the elephant in the room
+non-geometric strategies
+why is it that hijack doesn't just bet
+125 percent change why don't they just
+try and make a perfectly polarized range
+I mean if we look at the ranges tab
+and check out the equity distribution we
+can see they have a massive range
+advantage throughout hijack has all the
+strongest over cards they've got the
+over pairs they've got the strong Jack X
+but they don't have one important factor
+that all important not Advantage you see
+big blind
+actually has the nuts they have all the
+trips here and so if hijack were to use
+this super polarized geometric betting
+strategy right from the Flop that end up
+narrowing themselves against this
+extremely strong range where they're way
+behind instead a much more effective
+strategy is going to be using a smaller
+size from the start and polarizing on
+later streets so for example a 33
+percent bet on this board forces an
+interesting response
+we can see that because the board is so
+dry
+big blind has to overfold a ton they're
+folding 50
+whereas MDF says they should fold
+something like 25.
+and in order to prevent hijack from
+betting with impunity from just betting
+any two cards
+a big line needs to discourage them with
+aggressive Check Racing
+we can see them check raising 20 of
+their range here
+this has the effect of giving us
+information right
+when they check raise that's where
+they're going to put most of their trips
+some top pair and some Bluffs
+and when they call their range is much
+more condensed towards medium hands
+right pairs made hands Ace highs stuff
+like that
+so we become more Clairvoyant when they
+call
+and that only happened because we forced
+them to split their range by starting
+with a small bet which forces this uh
+check raise response
+for that reason it's not always
+effective to start with geometric
+strategies sometimes it what the silver
+will prefer is to start with smaller
+bets on earlier streets and only
+polarize on like turn and river or
+sometimes it'll wait until the river
+before it starts polarizing at all
+something else to consider
+and someone's definitely going to point
+this out if I don't is that
+the term value and Bluff is not well
+defined on the flop if we take a look at
+the equity
+for example
+top airtop kicker only has about 75
+percent here
+um even trips only about 90 so the value
+is in pure value and the Bluffs aren't
+pure Bluffs
+you're not perfectly polarized
+however in general
+as you approach Showdown
+your value will become closer to Pure
+value and your Bluffs will become closer
+to zero that is to say the equity tends
+to crystallize on later streets that's
+why in general
+uh on the Flop you're gonna see smaller
+sizes more merge strategies at first
+because your ranges are naturally less
+polarized
+and your ranges will naturally become
+more polarized on later streets
+therefore geometric strategies and in
+general just over bets you know nuts or
+nothing betting strategies are more
+common on turn and River than they are
+on the flop
+all right let's wrap this up so in
+conclusion the geometric bet size is the
+idea that you bet the same percentage
+the same fraction of the pot on every
+street in order to get Stacks in by the
+river this has the effect of maximizing
+villains defending range which maximizes
+how much money they put into the pot
+this strategy works best when your range
+is polarized that's because your nutted
+hands want to extract the most value
+possible which happens when they defend
+as wide as possible
+I also noted that you can use the
+geometric bet size to approximate stack
+off ranges
+and I've covered this in some of my
+previous mechanics videos but
+essentially if you compare their
+defending range versus just shipping it
+on one street versus spending an equal
+fraction in all three streets
+multiply the mdfs out
+and you can roughly approximate how wide
+they'll defend in total which can be
+used to gauge the optimal strategy and
+gauge the relative value of the nut
+advantage
+non-geometric strategies are used
+because your betting range is not always
+perfectly polarized these strategies are
+best for pushing your middling equity
+and gaining information Equity tends to
+crystallize as you approach the river
+that is to say your value becomes closer
+to Pure value and your Bluffs become
+closer to zero as you get further and
+further towards Showdown we also saw
+that betting larger than Geo is
+sometimes used to fold out draw Equity
+this is typically the case when
+immediate folds are more valuable than
+maximizing their calling range however
+it is fairly rare in practice anyway
+that's it for the video guys I hope you
+enjoyed it hope you got something out of
+it and if you want to see more of this
+type of content like subscribe and leave
+a comment if you have any questions
+about this or about GTO wizard please
+join our Discord that's the best place
+to post comments and ask questions Link
+in the description as always I thank you
+guys all for watching happy grinding

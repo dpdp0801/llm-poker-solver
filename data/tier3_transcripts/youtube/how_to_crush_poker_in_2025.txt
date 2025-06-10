@@ -1,0 +1,813 @@
+### TOPIC: how to crush poker
+winning at poker in 2025 isn't about luck 
+it's about staying ahead the best players  
+aren't just studying the game they're 
+evolving with it they study smarter  
+adjust faster and make better decisions 
+Under Pressure this video is your road  
+map to mastering the three cornerstones of 
+Elite Poker performance strategy study and  
+mindset you'll learn how top players 
+fine-tune their approach refine their  
+study process and develop the mental Edge 
+needed to crush highle competition let's dive
+in well this is different hi everyone I'm Tomos 
+21 head coach for GTO Wizard and I don't normally  
+show my face on screen personally I prefer to be 
+behind the mic and concentrate on what I'm showing  
+on the screen but I've been told that people 
+might like my videos better if I put a webcam on  
+there so I figured let's try it now if you've 
+been around DT wizard you might have seen my  
+work before if not welcome uh now you can finally 
+put a face to the voice but that's enough of that  
+let's get into why you're really here how to 
+actually Crush poker in 2025 let's get into
+it what makes a Crusher in 2025 it's not just 
+about knowing a good strategy or studying more  
+or tilting less the Reales they've mastered 
+three things how they play how they study and  
+how they think see it's not about the outcome 
+it's about refining the process that leads to a  
+better outcome they know how to apply Unstoppable 
+strategies at the table adapting exploiting and  
+making Fearless decisions secondly they approach 
+study like an engineer breaking the game down  
+sharpening The Edge and studying efficiently and 
+third they've built an indestructible mindset  
+one that can handle tilt manage emotions and 
+stay sharp Under Pressure these are the three  
+cornerstones of a winning poker player and today 
+we're going to break them down all right quick  
+pause if you're seeing this congrats you found 
+an Easter egg you're here watching this video  
+because you want to crush poker in 2025 so here's 
+your challenge what's the biggest change you're  
+making to your game this year drop your answer in 
+the pin comment and I'll randomly pick 15 of you  
+to win a one month premium GT wizard subscription 
+on February 12th good luck applying Unstoppable  
+strategies there are four key things you need 
+to become a dominant poker player the first  
+is strong fundamentals so you need a rock solid 
+foundation because without that everything else  
+crumbles secondly you need an adapter die mindset 
+if you've been playing the same strategy for too  
+long maybe it's time to update that if you don't 
+adjust and try and exploit your opponents Maybe  
+may this is the year to try poker is a game where 
+you either sink or swim so adapt or die thirdly  
+you need to be willing to face hard decisions head 
+on many players kind of avoid difficult decisions  
+and they'll adjust their strategy in such a way 
+that they won't have to make difficult decisions  
+on future streets which is often going to be a 
+mistake lastly you need to have the discipline  
+to break free from autopilot which is the seame 
+curse that most people suffer from when you're  
+just button- clicking all right let's get into it 
+Master the fundamentals if you don't have a strong  
+Foundation nothing else matters now I'm not saying 
+that you need to be some math wizard you don't  
+need to calculate everything at the table and try 
+and what's the EV of 66 no you don't need to do  
+any of that but you do need to at least understand 
+the basic Mis Mission critical Concepts first what  
+do I mean by that there are certain mathematical 
+Concepts in poker such as if your opponent bets  
+bigger you are not obliged to defend as wide to 
+prevent their blust from profiting right so if  
+they bet big you can fold more you don't have to 
+but you can you can get away with that without  
+being exploitable another example is if you bet 
+bigger you're supposed to Bluff more often you  
+need to have some basic grasp of combinatorics 
+like roughly what percentage of my opponent's  
+range is going to be trips on a paired board 
+you need to have it even if you don't know that  
+number you should have a feel for that right um 
+and so without kind of these basic fundamentals  
+you just can't master the game so this is what I 
+would argue is one of the first steps next next  
+let's talk a little bit about GTO and exploitative 
+principles so most coaches will tell you that uh  
+you need a GTO baseline from which to recognize 
+and attack exploits so like oh I know my opponent  
+is not playing GTO here's how they're deviating 
+here's how I'm going to attack them um but the  
+truth is it goes both ways like it's very hard to 
+look at a solver output and understand what the  
+heck the solver is doing without having some sort 
+of exploitative training um because GTO solves  
+are built out of exploitative simulation and so 
+the potential exploits in the position actually  
+inform the Nash equilibrium strategy and so what 
+I'm saying is don't study GTO and don't just lean  
+on exploits you need both together two sides of 
+the same coin next think in ranges not just hands  
+now the thing to keep in mind is that poker is a 
+game of beian updates so what I mean by that is  
+that when your opponent makes some action they're 
+representing a range of hands with that action  
+and so their range represents your belief about 
+what they're doing here and similarly your range  
+in a silver represents what they believe about 
+you right so that's all ranges are they're just  
+beliefs really and whenever you or your opponent 
+make an action you're updating those beliefs so  
+the best players in the world every last one 
+of them are thinking in terms of ranges non  
+onstop and they're very very good at narrowing 
+down ranges based on the action sequence most  
+novices either just play their hand or they 
+get to the point where they can think about  
+the range pre- flop but they can't really update 
+it based on the post flop action but if you want  
+to get really good you absolutely must learn 
+how to think through and do a range analysis um  
+all the way to the river and lastly textures so 
+textures dictate strategies what I mean by this  
+is that the the board text will determine how 
+you can play based on things like range and not  
+Advantage um based on what hands are available 
+and what hands will probably come up on future  
+streights so you need to kind of break it down 
+by different types of Textures in order to make  
+studying more efficient because if you try and 
+study every single board at once you're going  
+to go crazy right so monotone boards play very 
+specific way paired boards play very specific  
+way ace high dry boards play very spefic spefic 
+way like you know midc connected boards play  
+a very specific way so there's different types 
+of textures and if you've ever played poker you  
+probably already have a pretty strong intuition 
+for this but you need to kind of Chunk it out like  
+that in order to make your study more efficient 
+adapt or die poker is a very quickly evolving  
+game and if you don't evolve with the times you 
+will be naturally selected out of the player pool  
+lucky for you there are exploitative opportunities 
+everywhere everyone's imbalanced there's money to  
+be made if you're looking to make it the issue 
+is that most players either don't study or if  
+they do study they're trying to approximate 
+some very bad version of a Nash equilibrium  
+strategy that's actually still quite exploitable 
+and in doing so missing all of the actual EV by  
+failing to exploit their opponent's mistakes hear 
+me I'm not saying GTO is bad I'm not saying trying  
+to play a Nash equilibrium strategy is bad I 
+explained earlier it's two sides of the same coin  
+what I'm saying is the number one mistake I see 
+most like mid Stakes players making even low  
+stakes is that they're trying to play this like 
+fixed pseudo equilibrium strategy and then just  
+not thinking about all of the ways their opponent 
+is screwing up and that's the wrong mindset which  
+brings me to my next Point play the player not 
+just the spot learning the spot is good learning  
+the GTL strategy for spot is better but learning 
+that you shouldn't play against a nits the same  
+way you should play against the manum back is 
+probably even more important right and adjustments  
+are in arms race right so poker's Dynamic when you 
+adjust smart opponents in fact most people will  
+start adjusting back to you unless you're playing 
+like Anonymous games they're going to counter you  
+can't just expect your opponents to sit there and 
+and not change what they're doing against you so  
+you need to kind of pay attention to what your 
+image says about you and how your opponents might  
+be deviating to attack their perceived version of 
+what you are if that makes sense and lastly use  
+node locking to engineer exploits uh now this is 
+the hard part because it requires learning how to  
+use one of the more advanced solver tools luckily 
+we have a couple great videos for it I'll show  
+it here and here on the screen and that way you 
+guys can go check those out and learn more about  
+how to use node locking to create a very powerful 
+strategy face hard decisions head-on many players  
+kind of avoid tough spots all the time like I knew 
+this one guy that would just always fold flush  
+draws and straight draws like even combo draws 
+in three bet pots to a second Barrel um because  
+he just didn't want the variance and he didn't 
+want to make that really difficult play on the  
+next street the truth is guys that most people are 
+avoiding tough decisions because they lead to pain  
+later on and decision fatigue and while avoiding 
+decision fatigue is a very natural response if  
+you always Dodge these tough spots you're going to 
+cap your growth right you need to be able to take  
+on these difficult challenges sometimes in order 
+to grow as a player and discomfort is a sign of  
+growth now I'm not saying you should take every 
+difficult spot time EV matters so I would rather  
+have a better hourly than big blinds per 100 um 
+so you got to pick your battles wisely but the key  
+here is to eliminate fear-based avoidance right 
+you want to avoid a spot based on a strategic  
+Choice rather than out of a fear-based habit 
+hope that makes sense break free from autopilot  
+autopilot is probably the number one reason most 
+players hit a skill ceiling they learn a decent  
+strategy it's a solid strategy but then you know 
+you start multi-tabling and then you're just kind  
+of playing the same strategy all the time and 
+again autopilot isn't the enemy it's kind of a  
+natural response that uh reduces decision fatigue 
+and so everyone autopilots to some degree but the  
+important thing here is that you need to learn 
+how to come out of autopilot for those important  
+like critical spots and really think through 
+those spots uh so Pros use kind of a selective  
+autopilot to slow down in critical spots and 
+really focus in on their play whether or not  
+sure now as a beginner there's going to be 
+a lot more spots where you're unsure and so  
+you generally should be slowing down just all 
+around right another way you can tackle this  
+is to Mark important spots for review later on 
+because even if you can't think through the spot  
+right now even if you don't have enough time or 
+stamina to do that marking it and then thinking  
+through it later will still help you right and 
+so if you're not marking spots in your session  
+you're probably just leaving money on the table 
+because it's a really important part of your
+growth chapter two engineering a winning approach 
+Improvement isn't random it's a structured process  
+and the best Pros they're not just optimizing 
+what they're studying they're optimizing how  
+they're studying now there are five key things 
+I've noticed every Pro does firstly they focus  
+on why rather than what and the reason is that if 
+you don't know why a play is happening then you  
+don't know why you should be playing it right 
+so rather than trying to memorize outputs you  
+want to learn why the solver is saying you should 
+bet this hand here uh secondly gamify your study  
+routine now GT wizard is chocked full of amazing 
+study tools but let's face it they're work it  
+feels like work and the truth is that it's not 
+sustainable longterm to try and practice every  
+day you need to find ways to make studying more 
+fun to make it more efficient uh to gamify the  
+experience a bit and make it enjoyable because 
+if it's not enjoyable you won't be able to do  
+it consistently third invest in your Edge whether 
+that be through a coach learning the latest tools  
+buying the latest book or just watching the rest 
+of this YouTube video investing in your Edge is  
+the most plus EV thing you can do if you plan to 
+play a lot of Poker in your lifetime fourth focus  
+on what matters there's a million spots to study 
+a million Concepts and a million blocker effects  
+but the truth is that only a handful of these have 
+a big impact on your win rate and in this video  
+I'm going to show you how to identify those spots 
+and how to quantify and prioritize what spots to  
+practice next lastly learn where your eveve comes 
+from you see I don't actually care if ace5 is  
+betting cure or what Deuces is doing or King 6 the 
+strategy is not as meaningful to me as the idea of  
+how these hands are making money right and if you 
+can't figure out how they're making money then do  
+you really understand why they're making those 
+plays in the first place but it's not that easy  
+right like a silver is not going to just tell you 
+oh it's making money because of this and that you  
+have to go look and figure it out I would argue 
+number five is is the hardest part but also one  
+of the most critical steps to understanding solver 
+outputs and creating Unstoppable strategies learn  
+why not what focus on principles not just solver 
+outputs I want to know why the silver is making  
+this play now it's not always obvious but if 
+you only focus on memorization you won't get  
+anywhere because there's too many spots there's 
+too many hands you can't memorize it all you're  
+just human right it's much more efficient to 
+figure out oh it's doing this because reason  
+and then apply that puristic to a wide variety of 
+spots right that's a far more efficient studying  
+routine than oh I bet ace5 in this three bet 
+pot in this check check double barrel line  
+you need to go wider right especially when 
+you're newer so ask why the silver makes  
+certain plays don't just copy it try to figure out 
+the underlying reasoning one of the best ways to  
+do this is to experiment with the inputs and see 
+how the outputs change so we have cause we have  
+effect right and you want to try and map cause to 
+effect together understanding what changing these  
+inputs does to these outputs lets you build up an 
+internal model of how to play poker and so when  
+you're examples of this would be changing the 
+ranges uh changing the BET sizing changing the  
+rake node locking all of these are examples 
+where we are changing the input parameters  
+and seeing how it affects the output strategy 
+right and so just by experimenting with those  
+inputs and those outputs you can build up a much 
+stronger internal model and kind of build your  
+brain solver as it were gamify your study routine 
+many coaches myself included have made the mistake  
+of suggesting overly ambitious studying routines 
+to our students you know you got to do 500 drills  
+in a Range Builder and review your hands and all 
+this you know 100 push-ups 100 sit-ups 100 squats  
+and a 10 kmet run every single day it's too much 
+we have very limited bandwidth as humans like the  
+truth is that it's much better to build a routine 
+that you can actually stick to for many years and  
+a long time than it is to study your ass off for 
+like a week and then never again right so the  
+best way to do this is to learn how to gamify your 
+study routine uh most players use some mixture of  
+reviewing their hands practicing drills um going 
+through the solver reviewing with friends Etc  
+the best ways I found are to kind of track your 
+progress to stay motivated to see like okay I'm  
+improving in this spot do things like compete with 
+friends set goals structure challenges anything  
+with your poker friends is going to be more fun 
+so I suggest checking out our Discord we actually  
+have a bunch of study groups in there that can 
+make it a much more enjoyable experience to learn  
+together you can do things like create a drill 
+send it to your poker friends and see who does  
+better in these spots or just review hands and 
+laugh at the crazy plays you make together poker  
+can be lonely so it's important to try and do it 
+with friends and try and make it more enjoyable  
+rather than going at it as a lone wolf invest 
+in your Edge a lot of players will tell me well  
+I don't know if I want to hire a coach or get a 
+GTA Wiz subscription or buy this latest book or  
+this course because my bank rooll is this uh and 
+here's where I am but this is kind of a very naive  
+mindset right think about how many more hands of 
+poker you're going to play in your lifetime is  
+it a thousand 100,000 a million 10 million like 
+how many more hands do you want to play at this  
+current level of skill when you could be playing 
+at this level of skill so why wouldn't you invest  
+earlier on rather than waiting until you're 
+already playing high stakes to start investing  
+you're intentionally choosing like the slowest 
+possible path if you want it like streamline and  
+get the quickest progress possible you need to 
+invest as early on and possible into your own  
+Edge now how do you do this well there's lots of 
+free material check out our blog or our YouTube  
+page I'm very proud of our writers and the people 
+making YouTube videos for us I think we build  
+some of the highest level poker content on the 
+internet for free I mean like Bar None now we  
+also have some structured study plans again those 
+are free you can just go check them out and if  
+you're a premium member you can go check out our 
+highle coaching seminars every week we have a ton  
+of recordings at some point in your life you might 
+want to hire a coach I'd recommend checking out  
+this two plus two page there's lots of coaches 
+here you can kind of see what their rates are  
+what other people are saying about them what they 
+specialize in you can kind of find a coach that  
+fits your need and at some point you'll probably 
+want to learn how to use a solver like GTR wizard  
+right so that's kind of the service we offer a 
+One-Stop shop to take you from amateur to Pro um  
+and so we've got GTO Solutions we've got node 
+locking tools we've got trainers and coaching  
+seminars you can upload your hand histories uh you 
+can practice building your entire range or playing  
+one hand at a time there's a ton of features 
+and it's all designed to kind of take you from  
+beginner to expert that said the biggest thing 
+you can do is just start investing in your Edge  
+today rather than waiting until you're already 
+a highle player right just by tick focus on  
+what matters there are a million things to study 
+and not enough time to study them so one of the  
+biggest challenges with building modern poker 
+tools is figuring out how to prioritize what's  
+important the truth is that not all studies 
+created equal and spending time on the right  
+things is what separates El players from the rest 
+you need to prioritize high impact areas of the  
+game because the truth is that some spots occur 
+far more frequently and have a far bigger impact  
+on your win rate than many other spots so there's 
+tons of spots that are like barely important and a  
+few spots that are very important and so learning 
+to quantify that and saying this is the spot you  
+should study next then this spot is just going to 
+have a much bigger impact than your win rate right  
+a very simple example of this is the fact that AI 
+boards occur way more often than monotone boards  
+on the Flop and so if you're starting out and 
+you're like well I don't know how to play either  
+maybe start with one that occurs more often so 
+I'll show you a simple spreadsheet application  
+that I've built here to help you prioritize post 
+flop spots and kind of Chunk them together in a  
+way that they're somewhat strategically similar 
+all right guys this is my spot importance  
+spreadsheet now you might have seen the V3 version 
+of this um this one is specific ly designed for  
+six Max cache players but here's how it works 
+right we've got all of these formations button  
+versus bitland single race pot uh small blind 
+versus big blind four bet pot under the gun  
+versus hijack three bet pot cut off versus button 
+cold call single race pot like there's all of  
+these different spots that can occur in a six Max 
+cach game but how do we know which one to study  
+well one approach is to figure out which spot is 
+more frequent so as you can see like button versus  
+big blind this is way more frequent than under 
+the gun versus big blind for bed pot right so  
+the frequency of a spot matters but also so does 
+the starting size of the pot yeah this one down  
+here is way less common but the average pot size 
+and the starting pot size are both much bigger  
+and so you can kind of multiply the frequency by 
+the pot size to figure out the the expected value  
+of some spot as in you can think of this like an 
+importance metric as in how much it matters or how  
+much it affects your EV and then for each of these 
+what you can do is type in your GTO Wizard score  
+or your EV loss as a percentage of the pot per 
+hand whatever metric you like and based on this  
+it's going to update the practice priority so let 
+me give you an example let's say you go and study  
+some single race pots and you get pretty good and 
+you bump all of these up to let's say 80% right  
+80% 80 not 800 t go and just type in my GT Wizard 
+score and what this does is it says okay you got  
+pretty good at these single race pots let's change 
+our priority so I'm going to change this up okay  
+now it's time to be practicing some button versus 
+blind three bed pots right and so we'll bump those  
+up a little bit say we get 80 and 80 and it's 
+like okay what's the next most important spot  
+well again I'll just sort by practice priority 
+uh it's blind versus blind forb pots right and  
+you just keep going like this and slowly improving 
+one step at a time now I guess some feedback I had  
+about the previous version of the sheet I made is 
+that this is too many spots right there's just so  
+many different spots so what you can do instead 
+is kind of group them into like grouped drills  
+so for example here we have late position versus 
+blind three bit pot so given my current priorities  
+this is my highest priority and so this would 
+be like cut off and button versus some of the  
+blinds and you can actually change this like 
+there's a there's a settings tab in here I've  
+got hidden somewhere but yeah you can like Define 
+what group name is assigned to each position um  
+for to create these group drills and you can also 
+change these up to get like to create new types of  
+drills and so if you change these parameters it 
+will automatically create new drills for you and  
+the cool thing is you can actually just click this 
+and it's going to open up a GTO wizard solution  
+that allows you to just go and directly trade 
+in this spot and so you can go right from this  
+to this and similarly if you want to drill down 
+on each of these particular formations the drill  
+and the aggregate report is right next to it so 
+it's very convenient in that sense but here for  
+example we can see the aggregate report across 
+all flops for this blind versus blind for bed  
+pot spot by having that immediate access to go 
+from like this is what needs work to here's the  
+drill here's the aggregate report you can build 
+some really efficient study you know I need to  
+improve blind versus blind forb bet pots here's 
+the aggregate reports what are some patterns I  
+notied right let's start filtering for for example 
+paired boards how are we playing paired boards  
+right what about monotone boards and so you can 
+start building your big hero sticks this way and  
+then you can dive in and start practicing that 
+spot directly and so this is my attempt to try  
+and make studying as easy and as intuitive as 
+possible for all post flop formations now a lot  
+of people have asked what about like other formats 
+you know straddle and anti MTT Etc and those are  
+things I'd like to come out with um eventually 
+but since six Max cash is my specialty I figured  
+this is the one I want to release first so anyway 
+I've also got these charts here these are kind of  
+fun what these do is they they show you the 
+the sum of practice priority as it were and  
+so for example let me focus on this one here most 
+important spots uh when we're grouping them by the  
+aggressor position and pre- flop action so IP SRP 
+means in position single race pot so the aggressor  
+is in position and we're playing a single race pot 
+this grouping is going to be uh the most important  
+when you're just starting out right so this is 
+like button versus big blind single race pot cut  
+off versus big blind single race pot Etc then we 
+have out of position three bet pot why would it  
+be out of why is out of position more important 
+well because generally uh you you three bet more  
+out of the blinds and you three bet bigger out of 
+the blinds so that tends to be more important than  
+in position three bet pot which is down here uh 
+then out of position four bet pot as well and so  
+you you can kind of see these different groupings 
+and see which formations are the most important  
+to study position wise keep mind I've reset all 
+of these so that it's the same thing so every  
+spot is now we're getting an equal score on it so 
+the just kind of reset the the practice priority  
+but down here we can see like most important 
+positions unsurprisingly big blind is is the  
+most important and this kind of aligns with modern 
+poker Theory this is where you lose the most money  
+this is where you make the most plays so getting 
+that right is important followed by button one of  
+the widest positions but also kind of makes up the 
+majority of your win ratees then small blind cut  
+off hijacking under the gun um so you get kind 
+of some some surprising orderings out of here  
+um a lot of people ask like what's more important 
+single race pots three bet pots or four B pots  
+well by going through this method I found that 
+three bet pots are less important individually  
+but there are more formations of three red pots 
+than there are formations of single race pots  
+so perhaps too many people are over invested in 
+single R pots and haven't developed their strategy  
+in three bit pots enough and then just kind of 
+however you slice it for by pots are just going  
+to be less important overall until you've like 
+you don't want to dive into four bed pots until  
+you've spent a decent amount of time in single 
+race pots and three pots uh but the beauty of  
+this method is that it'll make it kind of obvious 
+like when one of these needs to improve and then  
+over here we have the most important spots grouped 
+so like these are your own groupings that you can  
+create um you can change these by the way like 
+you can change the group name so that they make  
+more sense to you in settings so let's say that 
+it's kind of weird to group small blind and big  
+blind into one group because play so differently 
+so I might just write them out like that uh in  
+which case you'll get like different groupings 
+here right anyway that's the new spot importance  
+sheet I think it's a really cool study tool I hope 
+you guys like it if you have any suggestions for  
+improvements let me know in the comments down 
+below um to use it you can just go file make a  
+copy and then just start typing in your own 
+GTR wizard scores or alternatively again you  
+can type in your EV loss as a percentage of Pop 
+hand which is a standard metric uh you can find  
+in GTO wizard as well learn where Eevee comes 
+from the best players know exactly where their  
+Edge comes from and how to maximize it and this 
+is true for every hand class so the truth is that  
+it's not important how you play a hand it's 
+important that you understand how your hand  
+makes money right now how do you see that it's not 
+obvious in a solver if you go look at the expected  
+value for some hand you'll see how much money 
+it's making but you won't see how to make that  
+money that makes sense right so in practice what 
+this often involves is zoning into some particular  
+hand class and navigating from flop to River in 
+a bunch of main lines and seeing how it plays  
+out and how this hand actually wins and where you 
+end up folding doing this will teach you how your  
+hand makes EV in standard lines but along the way 
+you'll probably notice things like wait would my  
+opponent actually do that are they going to find 
+this hero call or make this massive fold probably  
+not and when that happens maybe you should go node 
+loock those mistakes and see how your hand class  
+changes its strategy to exploit that in general I 
+recommend applying the scientific method to Poker  
+and the weakest like the most basic version of 
+this is just change the input see what happens  
+to the output right input output cause effect if 
+you understand cause and effect you understand  
+what drives good strategy I have a a coaching 
+video on this it's called applying the scientific  
+method to Poker if you want to learn more about 
+hypothesis building and a more rigorous way to  
+approach poker but in general I recommend just 
+being playful change the inputs change the rake  
+change the BET size see what happens along the 
+way and really don't just focus on one street try  
+and go all the way to the river because that's 
+how you're going to learn how your hand drives
+money that brings us to chapter 3 the men game 
+forging an indestructible mindset the truth is  
+that you can have the best strategy and the best 
+study routine and none of that matters if you fall  
+apart Under Pressure poker's a game of decisions 
+and the biggest Edge comes from those who make  
+the best decisions when the pressure is high most 
+people don't do this the best players don't just  
+think clearly when things are going well they know 
+how to stay composed and unshaken when everything  
+is going wrong so first we'll talk a little bit 
+about setting goals you want to set goals you can  
+control uh this is because when you focus on 
+execution over results you get a much better  
+more stable mindset secondly you need to learn 
+how to regroup when your game slips and everyone  
+tilts that's fine learning how to take it from a 
+mistake to snowballing out of control is a really  
+important skill every poker player needs to learn 
+don't suppress your emotions right in general  
+emotions are data and that's not a bad thing they 
+just tell you things about yourself about how your  
+mind operates it's better to process rather than 
+suppress your emotions level up your lifestyle the  
+truth is that your brain is your most important 
+asset as a poker player and if you're not doing  
+kind of like the soft skills that are needed to 
+make good decisions like sleeping and eating well  
+you're not going to make good decisions right 
+if you live like crap you're not going to be  
+able to think straight simple as that right and 
+lastly leave ego out of the equation ego's kind of  
+like the silent bankroll killer Um poker has this 
+weird sense of punishing entitlement uh punishing  
+stubbornness and punishing Pride so the sooner you 
+learn to let go of ego the faster you'll improve  
+okay let's get into it set goals you can control 
+in poker you can't control the outcome of a hand  
+but you can control how you played the hand so 
+what you really need to do is learn to detach from  
+the results so that you can focus on execution 
+this comes down to like things like control theory  
+and focusing on your inner circle of influence um 
+rather than obsessing about oh this was such a bad  
+run out or I got so unlucky try to focus more 
+on how did I play the hand did I make the best  
+play with the information I had at the time and 
+this is going to shift your mindset from winning  
+to Mastery right you want to be focusing in on 
+like I played this really well um I'm really  
+proud of my discipline and my consistency those 
+are the things that are going to affect your win  
+ratees in the long run you can't control whether 
+or not you get cooler but you can control uh how  
+well you played before you got it all in you 
+know so control what you can and just let go  
+of the rest your job is to try and execute at 
+the highest level every hand every session and  
+everything else is up to chance regroup when 
+your game slips everyone tilts the key is to  
+recognize tilt before it takes over one bad 
+decision doesn't have to lead to five you also  
+should recognize that there are different types 
+of tilt tilt isn't just about getting unlucky  
+there's also such a thing as like winners tilt 
+for example where you're on such a hot streak  
+that you start making terrible decisions Revenge 
+tilt where you're just out to like punish some  
+player we've got a whole video out about it but 
+in general what you want to do is learn to step  
+away and reset at the right time if you're not 
+thinking clearly take a break now if you're not  
+on gorilla tilt but you're just kind of you've 
+sense that you've lost Focus maybe you feel  
+like you just got too oued and you can feel the 
+anxiety flaring up what you can do is something  
+called a little micro reset these are things 
+like a deep breath a quick break uh just the  
+way to kind of mentally reframe and get back to 
+your standard State you don't want to let that  
+pressure kind of build up and up and up and just 
+sit there and fester what you want to do is kind
+of okay I'm back right little Motions like this 
+can help your session out and will prevent small  
+mistakes from snowballing and avalanching 
+into like terrible sessions don't suppress  
+your emotions a lot of poker players will go 
+into kind of a zombie like States in order to  
+prevent the anxiety from becoming overwhelming 
+or or just because maybe maybe they've played  
+a lots and they're trying to multiable and 
+autopilot the truth is that with tilt it's  
+much better to allow yourself to feel the 
+Tilt allow yourself to feel the emotion and  
+then let it go than it is to try and not feel 
+the emotion at all so let the let the feeling  
+come in and then let it subside rather than 
+pushing it away right because that's that's not  
+going to help remember guys emotions are data 
+not threats emotions are information that you  
+can use to identify what needs fixing in your 
+game um so acknowledge the emotion process it  
+and then move on everyone will experience these 
+but you don't have to let it control your play  
+lastly reduce decision fatigue so poker is kind 
+of like an endurance sport similar to let's say  
+Esports or golf or chess where you're making a 
+lot of like mental decisions very often and that  
+is fatiguing it's actually quite tiring even like 
+ESPN proof that like world champion chess players  
+burn a bunch of calories because it's like a 
+really high mental energy thing so what your  
+mind will naturally do is find ways to reduce 
+decision fatigue by autop piloting by zombieing  
+by button- clicking what I recommend is that 
+you you allow yourself to play automatically  
+in most standard spots but you got to be able to 
+like bring it in and really focus when you're in  
+important spots right so it's okay to reduce 
+decision fatigued but don't let that autopilot  
+your game level up your lifestyle your mind 
+is your most valuable asset so invest into it  
+like you would your Edge and protect it like you 
+would your bankroll things like sleep diet and  
+exercise directly affect your ability to make good 
+decisions at the poker table at the end of the day  
+poker is a mental game and you need to optimize 
+your mind as you would your strategy generally  
+energy management is greater than time management 
+when it comes to poker your focus endurance and  
+tilt resistance come from how well you take care 
+of yourself off the table a balanced life leads  
+to balanced play as they say anecdotally I don't 
+know if you guys have seen that ESPN article about  
+highle chess players there was something in there 
+about like World Championship level chess burning  
+6,000 calories a day or something absurd like 
+that people don't understand how taxing it is  
+to play a highle mental game for many many hours 
+continuously it takes a lot of energy it takes a  
+lot of effort so there is some level to you can 
+call it like a thinking stamina if you would but  
+it just goes to show like many of the highlevel 
+Esports players high level chess players high  
+level poker players they are actively investing 
+in their health because they understand that  
+good health leads to better decisions leads 
+to healthier brain and therefore sharper play  
+leave ego out of it ego is the enemy of 
+improvement it makes you justify bad plays instead  
+of learning from them when frustration hits follow 
+this process feel it process it then detach from  
+it your emotions are real but they don't have to 
+change the EV of your decisions remember you're  
+not entitled to win variance doesn't care how well 
+you played and I don't care if you have a range  
+advantage that doesn't entitle you to the pot 
+generally poker tends to punish ego and rewards  
+adaptable players if you can stay objective while 
+other players would tilt in your shoes you'll have  
+an edge even before the cards are dealt that was 
+a lot of material and if you guys are still here  
+I'm proud of you if you skip to the end because 
+you wanted the Keynotes well here they are play  
+dynamically and bravely you need to adapt exploit 
+and make Fearless High e plays and you can't be  
+afraid to change your style or get exploited you 
+have to be willing to change in order to improve  
+study smarter not harder memorization doesn't make 
+you a great player understanding why plays work  
+understanding how to use solvers correctly and 
+how to make study engaging is what accelerates  
+your growth as a player and lastly Mastery mental 
+game tilt fear and ego are your biggest enemies  
+you need to stay composed detach from the results 
+and focus on execution and making the best best  
+decision every time rather than obsessing over 
+the outcomes of the hand this video was adapted  
+from an article written by Vana Vana is one of 
+our writers a young German upand Comer and as  
+soon as I read it I thought to myself wow I would 
+like to make a video about this um I think he did  
+a great job and I might have added my own flare 
+here and there but overall it was largely based  
+on his work so if you want to read more go check 
+out how to become a winning poker player in 202 5  
+Link in the description he goes into more depth of 
+like examples with solvers and such yeah I think  
+you guys would enjoy it if you like this content 
+so far uh he's also got a coaching session coming  
+up don't miss it for more on that I go to vano 
+hey guys I'm Ana and this is just the beginning  
+if you want this video helpful I would love to 
+have you join me for my free coaching session on  
+February the draft I will go over three Advanced 
+plays every player needs to implement into the the  
+strategies that can instantly level up your 
+game this is my debut session and that's open to  
+everyone so don't miss out thanks for featuring 
+My article and I will see you there bye-bye

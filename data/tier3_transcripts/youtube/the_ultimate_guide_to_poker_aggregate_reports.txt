@@ -1,0 +1,1166 @@
+### TOPIC: the ultimate guide to poker aggregate reports
+hello Wizards today I'm going to show
+you how to find Trends and build
+heuristics using data analysis with GTO
+Wizard's most powerful tool aggregate
+reports
+what are aggregate reports well in my
+opinion these are the most underutilized
+features in GTO wizard so an aggregate
+report contains data from all 1755
+strategically distinct flops they're
+used to build bet sizing Trends and
+heuristics in today's lecture we're
+going to go over how to use aggregate
+reports we're going to look at how to
+play different flop textures how to
+break it down by different textures how
+to follow through on the turn and this
+lecture is applicable to all formats
+whether you play cash MTT Spin and go
+heads up you name it this lecture is for
+you aggregate reports are some of the
+most powerful Tools in GTO wizard now
+back in the day if you wanted to do
+aggregate reports you'd have to run all
+the flops yourself compile the data
+yourself export it to a spreadsheet and
+build an entire interface just to try
+and extract data GTO Wizards interface
+makes it much easier to find Trends and
+look for the bigger picture in today's
+lecture I'm going to start off with a
+guide how to use aggregate reports we're
+going to show you how to get the most
+out of it how to use these tools
+including all the niche features that a
+lot of people don't know about from
+there I'm going to teach you how to find
+flop heuristics we're going to go over
+systematic approaches that involve
+writing stuff down and lastly I'm going
+to teach you how to focus on follow
+through and turn those heuristics into
+practical skill let me take you through
+my four-step plan the first step is to
+master the tools we're going to learn
+how to use all of the interesting and
+Niche features that you may or may not
+know about already we're going to go
+over everything from flop to turn
+reports how to use it how to filter and
+how to group so that you can become an
+expert with this tool step two we're
+going to talk about how to find Trends
+now when you're searching for big trends
+you are trying to optimize two goals one
+find filters that result in
+strategically similar flops and two we
+want those filters to apply to a wide
+range of flops if you get too Niche then
+all of a sudden you know you end up with
+just hundreds or hundreds of filters
+that are impossible to apply and if you
+get too broad then the boards aren't
+strategically similar enough so our goal
+is to group boards together that are
+strategically similar so that we can
+learn more easily going forward step
+three we're going to write it down
+remember kids the only difference
+between screwing around and science is
+writing it down quote by Adam Savage so
+I'm going to show you a systematic
+approach to studying flops by recording
+your observations in a spreadsheet or
+document I'll provide you with a
+template you can use but the important
+thing is that you're trying to build it
+yourself I'm not going to give you the
+heuristics rather I'm going to teach you
+how to find them yourselves because
+let's face it most of the learning
+actually occurs with the discovery
+process in doing this yourself lastly
+we're going to learn how to focus on
+follow through so step four is practice
+practice now playing turns and rivers
+accurately is more important than
+optimizing flop sizing right we can use
+turn reports to get a sense of the
+strategy on how to continue on some
+board in some line and similarly we can
+take our discovered heuristics plug them
+into the trainer and then use those
+settings to practice strategically
+similar boards so that's the four-step
+plan let's start with step one mastering
+the tools I'm going to now walk you
+through everything there is to know
+about aggregate reports let me dive
+right into the reports
+and start with a tour of the software
+all right so
+how do we use aggregate reports so first
+of all you need to select some spots and
+I'm just going to choose simplest spot
+some button versus big blind thing in
+there
+going to go flops
+and check
+now
+what we're looking at here contains data
+from all 1755 strategically distinct
+flops
+in the top right here we can see the
+global betting frequencies so this
+contains data for how button should bet
+across all different flops we can see it
+contains about 50 checking some small
+betting some medium betting some large
+betting some overbedding
+at the bottom here we see a breakdown
+of all the possible flops and right now
+it's sorted by high card so ace high
+flops King High flops Queen High flops
+and so on you can click this and drag
+through or just use your mouse wheel to
+scroll
+and you can see the strategy on
+different flops
+if I hover over any one of these
+it's going to show the individual
+strategy for this specific flop in the
+corner here so 1075 we can see the
+overall betting strategy for button in
+this spot I can also click all and
+that's going to show me things like the
+overall expected value equity and Equity
+realization
+if I want to study particularly this
+flop I can hit this button and that's
+going to open up a new tab that shows me
+how to play 1075.
+but remember this lecture is about
+finding the global betting frequencies
+so I'm not so much interested in one
+board as I am interested in finding
+trends
+now at the top here we can see different
+groupings so for example I can Group by
+high card
+now I'm looking at all of the ace high
+flops grouped together King High flops
+Queen High flops Jack High flops and so
+on
+you can also Group by suits
+and here for example we could see that
+monotone boards tend to use a smaller
+bet and check a lot more often compared
+to Rainbow or flush chart boards
+there's also pairing
+so here we can see that paired and
+triple flops
+tend to be bet a lot more often and
+again typically using a smaller size on
+these paired boards
+and of course connectedness
+so I should mention connected means a
+straight is immediately possible
+open-ended straight draw possible and
+disconnected meaning no open-ended
+straight draws or straights are
+currently possible
+now there's two ways to view reports you
+can either view it as a chart or as a
+table
+and they both have their pros and cons
+now the table acts very similarly to a
+spreadsheet you can sort by any column
+so for example I can find which boards
+use this over bet size the most or which
+boards check the most which ones are the
+highest expected value for in position
+or out of position
+now personally I prefer chart mode for
+most uses but I do like the table mode
+sometimes when I'm trying to look at
+exact numbers
+next we can group actions together and
+this is one of the advantages of table
+mode I'll show you so let's go back to
+table mode
+and here let's say I want to find
+let's put in some bet we'll say 33
+percent and
+we want to find the most check raised
+flop now I could sort by the most 50
+Checkers flop or the most pot sized
+check raise flop but what if I want both
+of these together well I can group these
+together
+and now it's split up into fold call and
+raise and I can sort it this way to find
+the most check raised flop which in this
+spot
+appears to be nine nine deuce
+so something else you can try
+are filters filters are great
+filtering
+and I'm just going to go back to button
+here
+this is what we're going to be focusing
+on most this lecture
+when it comes to the study of flop
+textures there's various ways you can
+break it down
+most systematic approaches can break it
+down by suits pairing connectedness and
+rank so for example
+here we could choose flush draw
+Broadway card low card low card that is
+one filter you can apply
+and here we can find
+a set of flops that only fit those
+filters and notice that these Global
+betting frequencies up here
+update to reflect our filtering
+and this is what most of the lecture is
+going to be about finding strategically
+similar flops
+like this one now
+in here I'm going to switch it back to
+table mode and you can always hit W so
+I'll be using W from now on just as a
+hotkey
+and I want you to pay attention to one
+little number in here that's quite
+useful this is the filtered percentage
+what does this mean
+this means that within the filters we've
+applied
+4.8 percent of flops meet those filters
+right and so again remember our goal one
+is to find strategically similar flops
+the other is to find filters that apply
+to a relatively wide variety of flops
+now how specific or how wide you want
+your filtering to be that's up to you
+so I'm going to switch back
+now something else you can try is
+instead of looking at strategy you can
+look at expected value or Equity or
+Equity realization so for example
+here we can look at buttons expected
+value across various flops and let's
+group those Together by High card
+I'm going to clear these filters
+and of course we can see that ace high
+flops are going to be among the highest
+DV flops for buttons range
+next to only two high flops which is
+like
+just 222 right
+we can also look at big blind at the
+exact same time so again
+big blind tends to have higher AV
+with these middling flops now sometimes
+it can be a little hard to tell what's
+going on with this because a lot of
+boards run close so again
+we can just switch
+to table mode right
+and here we can see highest EV flops in
+position at a position
+and note that I've got this sorted by
+high cards right so a cyclops King High
+flops Queen High flops and so on
+and something else I want to point out
+are these numbers in this column here
+a lot of people
+when they three bet for example King
+King they'll think oh I always see an
+ace on the board when I have King King
+and something to realize here is well
+yeah that's because ace high flops are
+more common than King High flops are
+more common than Queen High flops and so
+on in fact the chances of getting a
+seven High flop is only four percent and
+the chances of getting an ace high flop
+is 21 right
+so let's go back
+like I said
+you can sort by expected value equity
+for one or both players as well as
+Equity realization
+now I'll show you the one feature that I
+think most people use a ton and that is
+the Sorting feature so for example let's
+try and find
+the most checked flop
+so from this drop down sort by I'm going
+to click check
+and I'm going to drag it to the right
+and here we can see these are among the
+most checked flops so it appears to be
+ace high monotone is where buttons
+should be checking for most presumably
+because your fold Equity is just
+terrible on these boards
+and we can also do stuff like for
+example which boards are betting the
+most now you can for example use a
+smaller size here
+and I can click this again to reverse
+the order
+and it appears that paired boards
+specifically paired boards with a
+Broadway card are bet that a high
+frequency using a small size
+what if we want to see the most over bet
+flops okay well I'm going to now sort by
+that 125 percent
+and here we can see that Ace Broadway
+brick tends to be an over bet or check
+strategy
+right so let's test that heuristic
+I'm going to plug in Ace Broadway
+brick
+and it's not going to be monotone it's
+not going to be paired
+now note the top right
+we're seeing a lot more over bets
+high frequency checks and not a lot of
+these middling sizes right so this is
+what I would classify as a set of
+strategically similar boards I'm going
+to dive more into that in just a minute
+first I want to show you the rest of the
+features in these reports
+so again you can use a combination of
+sorting
+filtering and grouping to find
+Trends and heuristics that are going to
+make your flop strategies much easier
+and it doesn't just have to be for the
+initial C bet it can also be for example
+for the Rays right it can be for how
+often you should check raise how big you
+should check rates which boards you
+should just be over folding a ton on as
+the defender
+so remember it's not just about the
+initial bet here we can also for example
+look at which boards are dunked the most
+right
+now
+that's mostly it for the
+aggregate reports right that's
+basically all of the features in there
+there's a few more smaller features I
+could show you for example here in this
+table
+you can click this little s
+small medium large to expand these rows
+this is better if you have for example a
+smaller screen or just terrible eyesight
+like me
+and again any filters you apply for
+example you could look at paired boards
+we're going to update the filtering
+criteria now this first row
+button versus big blind we can see the
+global betting frequencies so this is
+everything now the second row are only
+the filters we've applied right so we
+can see just by comparing these two
+boxes
+that when I've applied paired flops
+we're betting more often checking less
+often and typically using a smaller size
+almost never over betting paired flops
+right
+so again this is a nice easy way to see
+how the strategy changes compared to
+Baseline when you apply some filtering
+you can also see at the bottom here
+16.9 percent of flops fit our criteria
+which are paired so this many flops are
+paired
+all right so next I'm going to show you
+how to use turn reports
+so
+they're very similar to flop reports
+I'll just put in some random flop here
+plug in the strategy
+all right so let's put in some small bed
+big blind calls
+and I can select the turn card or I can
+simply press turns
+again I love using turn reports because
+I want to get that global view of what's
+going on rather than uh just clicking
+through cards one at a time
+all right so here's the turn reports now
+given that we have this flop and we've
+taken this line
+third-pot that call
+this is the follow-up strategy
+and so
+the first thing I do when I look at this
+is I try and sort it in a way that makes
+sense so here you could sort it by suits
+actions or cards
+actions meaning you know bet the most
+about the least and cards I think is
+going to make the most sense for a
+rainbow board right
+here we can see that for example
+on a seven or an eight it's typically
+over betting and again on the right hand
+side we can see the global betting
+frequencies all right so here we could
+see that for example we're going to
+follow this up with a large bet quite
+often and I can just group these
+together for example
+group like this over bet bet large bet
+medium rarely ever using another small
+bet except for example on a paired
+second card
+now in the turn reports there are a
+couple other interesting things you can
+try so for example
+the filtering Works a little bit
+differently here instead of filtering
+for some flop you can filter for a
+specific hole card so how should we play
+when we have Ace King of Diamonds as an
+example
+and here we can see the strategy for Ace
+King of Diamonds as well as the EV
+equity and Equity realization
+as you can see Ace King is tends to
+check a lot on any 10 Jack or queen and
+we tend to bet a lot on most other cards
+sizing down on paired cards like a nine
+or three and over betting on the rest
+try and get the most value
+again you can view the strategy
+the expected value for one or both
+players the equity or Equity realization
+you can also group turn cards together
+so I've got this on turns but we could
+put it on cards for example and now we
+just see two three four five six seven
+this is probably easier for rainbow
+boards but less effective for flush draw
+boards
+we can also use suits this is quite
+useful for flush draw boards and pairing
+so again we can see that it starts
+sizing down on many of the paired cards
+right
+now there's an extra view here that a
+lot of people don't know about so with
+turn reports again we've got the table
+view we've got the chart View
+and this operates just as any other
+spreadsheet would same as before but
+then we've got this default view which
+is very similar to what other products
+you might have seen like uh for example
+po or GTO Plus
+and I like this view particularly for
+looking at numbers and I'll show you why
+if I wanted to see for example what is
+the highest EV turn card in buttons
+range not a trick question guys I'm just
+I just pulled up a random spot here it's
+probably Ace right so let's find out I'm
+going to click button
+and what I'm going to do now is Group by
+cards and I'm going to sort
+by cards and here we can see Ace is
+indeed the highest EV turn for button
+and we can see the actual expected value
+here rather than a graph right
+and again I can view this for one or
+both players
+we can also look at for example the
+highest Equity card the bottom being
+button the top being big blind
+and of course Equity realization
+so I'm going to be using a combination
+of almost every feature I've shown you
+so far
+in order to move on to the next part so
+let's go back here okay
+so how do we find
+Trends how do we find heuristics how do
+we actually use all these features
+to accomplish our goals
+a few examples of how we can use these
+reports to find Trends
+and I'm going to show you some simple
+ones that a lot of you will already know
+and some more complex ones
+all right so again I'm going to choose
+the nl500 solutions you can choose
+whatever you like now sometimes for
+example you'll run into a spot where you
+just don't have reports at the moment
+right so I don't think these have
+reports right now and you'll get this
+message
+now not every spot has a report but some
+do so what I recommend you try is switch
+between the type of solution and the
+rake structure in order to find a spot
+that works now we're always adding
+reports on the go and we're always
+adding more solutions and sometimes
+updating those Solutions the end goal is
+to have Solutions or reports for every
+possible spot but it does take time guys
+so
+just so you know about that let's dive
+into the simplest spot
+button versus big blind again and we'll
+look at some more complex spots later
+so
+let's go over how you can find very
+simple trends for example we see that
+across
+all flops big blind is donk betting in
+this spot about 4.1 percent of the time
+let's try to isolate this
+so what are we trying to do we want to
+isolate the Donk bet heuristic
+so our goal is to find a set of filters
+or big blind donks a ton so how do we do
+this well
+let's find the most best spot so click
+that once twice
+all right so what do we see here
+six five three seven five four five
+three two
+seven five three okay so lots of low
+cards now the first thing you can try
+for example is just looking at high
+cards
+and we can see that
+all of these low cards here
+are where we bet most often
+okay what about connectedness
+oh so we see that connected boards tend
+to be high frequency donk bets okay okay
+so we're starting to get an idea here
+let's try a filter
+so I'm going to filter
+starting off with
+just low cards right
+and we're going to make this more
+precise as we go
+Okay so we've already increased this
+from like
+four point something percent twenty
+three percent so this is already a high
+frequency dock but we can make it
+cleaner so notice that this includes
+some tripled boards which are never
+donketh some paired boards which are
+very low frequency dog bed so okay let's
+get rid of that so we're going to say
+not paired
+and we've increased this further so now
+it's at 28 right
+and there's still some low frequency
+stuff so something else we can try is
+making it connected
+now most of these boards are already
+kind of connected because they're close
+together
+now we've increased it to 32 so we've
+got a pretty strong heuristic at this
+point
+if you wanted to make it even stronger
+you could throw out these monotone
+boards at the bottom which are low
+frequency dunk bets right
+so we can throw that out we can say all
+right it's not monotone and any
+connected board or any connected flop
+cannot be paired so that doesn't
+actually matter so again the heuristic
+is
+all the cards are less than a seven
+there's a straight possible and it's not
+monotone that's our heuristic that's the
+thing we have to try and remember and
+that's the thing we want to practice
+now we can see here that this is a
+pretty strong heuristic
+most flops are not donked but this set
+of conditions is a high frequency dock
+bed right
+if we go over to the table mode
+we can see that we're getting a little
+specific here so about 4.3 percent of
+flops this applies to but
+the Donk bed is already low frequency so
+this is to be expected right
+now this is a pretty strong heuristic
+so ultimately the goal
+is to
+maximize the amount of flops this
+applies to and again keep in mind that
+if it's a something that doesn't happen
+that often you're not going to get that
+many flops but at the same time you want
+strategically similar flops now a lot of
+you guys will already know this it's
+fairly straightforward for example if
+you want to find the most overbed boards
+like we did earlier just click this once
+twice
+oh
+and you can see the most overbat boards
+and just guesstimate a heuristic from
+here right
+you can also do the same thing for for
+example
+if you just want to look at pairing we
+can say oh look at that
+paired boards that at a very high
+frequency you could do the same for
+tripled boards but this accounts for
+very few flops so let's try a new filter
+I'm going to go with paired flops
+as we can see
+paired boards
+tend to bet quite often and typically
+using a smaller size not a ton of
+overbedding going on lots of small sizes
+right
+high frequency bet small size
+now something to keep in mind whenever
+you're making heuristics is that just
+because it applies in one spot does not
+mean it applies in all spots for example
+in a button versus small blind three bit
+pot paired boards are often larger bets
+as opposed to smaller bets because
+you're targeting a different portion of
+their range if you're looking at for
+example just these over bet boards
+that's going to change if you're looking
+at early position versus big blind where
+big blind actually calls things like Ace
+King right and so
+keep in mind that your heuristics do not
+universally apply to all position Pairs
+and pre-flop actions this is
+specifically for button versus big black
+now that said you can often group stuff
+together so for example hijack versus
+big blind and under the gun versus big
+blind play very similarly because the
+ranges are very similar
+and so well it doesn't have to be
+perfect you do have to try and test your
+heuristics against different positional
+pairs for it to make sense
+now that said I want to show you guys
+how we can take a more systematic
+approach rather than just sorting by
+some size and guessing right
+and this is perhaps the most important
+thing because
+well looking at the actions is Maybe
+one part of it actually starting to
+write it down and building yourself a
+system is the difference between just
+slacking off and really intentional
+practice that's going to improve your
+game so
+the next step is to record your
+observations in some sort of spreadsheet
+or document now how you do this is not
+that important what actually matters is
+just that you are recording it
+so I'll show you a spreadsheet here
+looks like this I can share this
+template with you guys
+one of my students actually improved on
+it and I kind of took theirs a little
+bit and modified it so
+shout outs to him he knows who he is so
+in here
+basically what happens is I've broken
+down
+all of these so on this side we've got
+positions pre-flop action stack depth
+here we've got the filters now I should
+mention that
+GTO Wizard's next update will allow you
+to save filters and that's going to be
+really useful because once you build
+your heuristics you'll be able to save
+all those filters and reuse them in
+different spots
+for now I'm just writing it down so high
+card middle card low card the suits
+pairing and connectedness and there's
+just little drop downs here for example
+if you want it to be not monotone you
+could just pick rainbow plus flush draw
+if you want it to be connected you can
+hit connected
+on the right hand side we've got a spot
+where you can take notes
+so here I've noted down the trainer now
+you can save your filters as a Trill in
+the trainer and then paste that link
+here
+here I've just exported the actual drill
+so that for example you can share it
+with friends but you could also paste
+the URL if you just want to dive in
+yourself
+I've noted the filter percentage so this
+indicates what percentage of flops this
+applies to and
+this indicates the primary flop strategy
+and some notes Here
+and again this is flexible if you want
+to find a different way that's fine
+now things like stack depth become a lot
+more important for example in mtts where
+the strategy can change quite a bit
+between 100 big blinds and 10 big blinds
+right so it's important to note stuff
+like this down
+and similar story in spins now note that
+sometimes I'll put something like early
+position versus big blind and sometimes
+I'll use exact spots like small blind
+versus button three bet parts right
+there's a ton of different heuristics we
+can try out here now again I'm going to
+share this spreadsheet with you guys uh
+just as an empty template so you guys
+can fill it out yourself and build your
+own heuristics this lecture is about
+teaching the man how to fish rather than
+giving them the fish
+I'm not going to tell you how you should
+simplify right that's up to you I've got
+a whole video on the trade-offs between
+complexity and simplification you can go
+watch the efficient studying video if
+that's interesting to you but the truth
+is that a lot of these heuristics we've
+covered so far they are one sizing or
+check right very very basic but your
+heuristics can get much more complex and
+so something I've added here are called
+textures to try out and this is based on
+Monker generated textures the way Monker
+does this is it looks for flops that
+result in strategically similar hand
+categories based on their their Equity
+distribution by the river
+at least that's how my colleague
+explained it to me
+and you can choose how many different
+textures you want and so for example all
+of these flaps would be considered one
+texture all of those flops would be
+considered one texture and this is based
+on a range of any two cards
+some of these are really strong some of
+these will produce very strategically
+similar strategies some of them not so
+much right it really depends on the spot
+you're looking at because these monkey
+textures just assume a range of any two
+cards they're not designed for some
+specific set of ranges right and that's
+why sometimes it can be
+really strong and other times not so
+much
+so I've got three of them here 30
+textures which are quite coarse 60 and
+then 100 which are quite fine so you can
+scroll through these play around with
+them and use them as inspiration to look
+for new heuristic again I want to make
+sure that this lecture is available for
+all users so it shouldn't just be for
+cash as I said if you play mtts if you
+play spins you can also use this method
+so let's start with a few empty tea
+Spots I'm going to switch over to MTT
+now Gotta Give the 20 players some love
+can't all be cash
+right
+and let me go look up some heuristics
+I've already found here
+just to be a bit lazier so
+let's for example apply
+early position versus big blind so we'll
+say maybe under the gun first big blind
+now the first thing to note actually is
+that under the gun and under the gun
+plus one strategy very similar you know
+two percent difference and the same with
+big blinds calling range very similar so
+you can group some of these early
+positions together and just call it you
+know most of your heuristics for one
+will apply to the other right
+um you don't have to be that exact
+again I can just click reports or press
+four to go to the reports tab
+check
+Okay so
+in tournaments due to the ante big blind
+must call much wider and that's going to
+result in a huge range inequality on
+most flops that causes under the gun to
+range bets right we can see here across
+all flops under the gun only checking
+about 12 percent of the time but that's
+a little misleading because on a lot of
+flops it's a range bet and on other
+flops it's a high frequency check so
+let's try to isolate where we should be
+checking a lot right I'm going to start
+by just sorting by high card and okay
+okay so we can already see
+I know these five through nine boards
+are the ones that are just checking a
+ton right
+so let's apply a very simple filter
+right
+again I'm noticing that
+these boards are all range bets Ace
+through ten
+so very simply
+I'm going to plug in Ace through 10
+and we can see the betting frequency is
+already up to almost 100 percent right
+let's go look other heuristics in here
+and okay we noticed that there are some
+spots where
+not range betting so let's organize this
+by the most checked boards
+and notice that in this spot it's all of
+these paired boards
+specifically
+no just mostly paired boards all right
+well let's go back to grouping
+and let's sort by pairing
+and again we can see paired boards in
+this spot are doing the most checking
+right so this is kind of backwards from
+what you might see that's an MTT as a
+cash player I should say so let's play
+another filter here again we've got one
+Broadway card and not paired
+or tripled I guess you can also plug in
+tripled
+okay
+and now
+very very high frequency range bet
+and I would already say that these
+boards are strategically similar at
+least for the first node right at least
+in the sense that you basically range
+betting
+now you can get more specific you can
+break it down by which boards will be
+betting large run which ones are we
+betting smaller on
+um but for at least the C bet node
+you've already identified a very simple
+heuristic
+unpaired with a Broadway card
+early position versus big blind
+essentially a range bet
+for the first note right that's a very
+easy heuristic to remember and if we go
+to table you can see that this applies
+to 66 percent of flops so two-thirds of
+the time you already have your first
+action just automated right
+so let's go back here
+and again
+we're going to type this in so we've got
+early position versus big blind 30 big
+blinds effective Ace through 10 and not
+paired 66 and let's type in what our
+primary flop strategies are so it's a
+range bet in position right so let's go
+on to spins and do one more example
+there and then to end off the lecture
+I'll show you uh how you can create your
+own drills using these filters so
+got to give the spin players some love
+I'll just use the 25
+big blind Stacks we'll say button opens
+big blind calls
+and we'll just click flops to open up
+the reports
+I'll go to chart mode which is how I
+prefer to look at stuff and let's
+ungroup this so
+now we see all the batch sizes right
+all right so
+let's go back action
+not a whole lot of donk bedding we could
+do something that
+captures the Donk bets but we've already
+done something like that so let's try
+something else let's try for example
+which boards are large betting more
+often
+so we'll check
+here we can see that button splits up
+their strategy with lots of small sizes
+and sometimes sometimes using these
+bigger sizes so
+what I want to do instead of splitting
+it up into eight things is group it
+together a bit so I want to isolate
+these larger bets right
+and again in order to sort group sizes
+you need to switch over to table mode
+and here I'm going to sort by bet large
+which boards are betting large all right
+well it appears that 9 and 10 high flops
+rainbow Lush draw and we'll notice that
+all of these have an open Ender by the
+looks of it right
+openender middling cards
+not really seeing any monotone boards in
+here okay let's go over the grouping to
+see if we can find some patterns there
+so connectedness
+connected boards tend to be betting
+large more often same with openenders
+dry disconnected boards tend to bets use
+a smaller bet size okay good to know
+what about pairing
+well
+paired boards size down so we don't want
+it to be paired and what about suits
+monitoring boards size down we don't
+want that all right so we already got
+some filters here so let's make it kind
+of draw heavy
+something like that so again
+a flush dry helps open-ended or
+connected helps
+and let's take a look
+at the charts
+and just scroll through the flops here
+all right so already we're seeing a lot
+more larger bets within our set of
+heuristics but it's not super clean
+right
+like Jack ate Deuce even though you know
+an open Ender is possible it's actually
+quite try
+so let's try
+something else
+let's try
+filtering by putting more middling cards
+in there so
+I'm going to take
+I want to make sure that the bottom two
+cards are kind of middling right
+just as an idea
+these actually result in more medium
+boards okay okay
+I'm going to sort this by high cards and
+this is basically my process right like
+I am actively discovering these Trends
+with you as we go through this right
+and so it looks like for example Ace
+Jack high so let's apply
+those two and we've got kind of a
+heuristic here for larger bet sizes
+right we're betting medium or large more
+than we're betting small in these spots
+so very simply when the board is more
+draw heavy more connected you've got
+some more of these mid-ling cards open
+Enders maybe flush draws possible that's
+when you want to start sizing up right
+and of course you can improve this and
+make it cleaner you can make it more
+strategically similar but remember the
+goal is often times to abstract the
+larger Theory and when you do this
+enough you start to develop your own
+ideas of which boards want to size up
+for what reasons so it's not just about
+memorization it's about trying to find
+those underlying uh cause effect
+mechanisms that make the thing want to
+size up now I've already done a video on
+my theories behind seabed sizing and why
+certain textures prefer certain sizings
+you can go watch that video on YouTube
+this one's more about how to find these
+Trends so for example you can group a
+lot of these ACE middle middle cards
+together these boards are very
+strategically similar you can do the
+same thing for a lot of these King High
+boards right very strategically similar
+despite the fact that it's splitting
+between small and large sizings they're
+still very strategically similar
+I want to go over one last thing before
+I wrap this up
+and that is
+how to take these heuristics that you've
+built and train so firstly you want to
+use the turn reports right now let's try
+something here I'm going to open
+ace86
+and so our heuristic now is going to be
+ACE middle middle card right these
+boards typically start sizing up the
+deny draw equity
+but they're also mixing smaller bets now
+in order to get good at this you can use
+a combination of finding thresholds
+through filtering you can also use turn
+reports so instead of picking one turn
+if you have premium click turns and you
+try and find reports
+here we can already see that for example
+an eighth or a six or even an Ace any
+paired card really we just look at
+pairing going to be a high frequency
+dock bet by the big plane and that's
+because big blind has more pairs in
+range after they call this large bets
+right
+okay so let's say bicline checks action
+on button
+and we can kind of break it down here so
+oh we're noticing that we're kind of
+sizing down a little bit on a lot of
+these flush completing boards right
+so let's take a look we're going to
+filter by suits
+and again we see the heart
+when the flush completes instead of
+using another big bet we go from 76 to
+like 32 or 50 percent right
+but when it doesn't complete we're often
+going to use something closer to a
+geometric size so right 72 percent 50
+percent
+and so you can use turn reports in this
+manner
+to figure out how to proceed overall
+again I'm just going to change this back
+to the view I prefer
+so again look over here to see how your
+overall strategy should be and then use
+a combination of grouping and sorting to
+find turn cards where the strategy
+shifts you can also look at Equity
+shifting runouts using the equity
+distribution and I've already gone over
+a lot of how the turn reports work
+earlier
+now
+that's how you look at turns for follow
+through but how do you actually play it
+out
+well aside from actually studying
+the solutions
+the other thing you need to do is
+actually practice them right
+so let's go ahead and practice this spot
+now in the trainer what you want to do
+is plug in your heuristic and let's go
+change it up so let's make it cache
+again
+and we'll do six Max General
+nl50 this time sure
+and let's apply some betting filter that
+we're familiar with right so
+hero can be say button
+the opponent can be big blind
+and here's where you plug in your filter
+so
+what's one filter we remember well this
+one I have memorized it looks something
+like this so Ace Broadway brick
+not monotone and again this can't be
+paired this type of texture if you
+recall results in high frequency over
+bets and so we can practice
+strategically similar textures by
+plugging in these filters
+and furthermore you can save these
+filters so I'm going to click save
+I'm going to call this over bet check
+and type in some description here so
+button versus big blind
+over bet boards civilized pot something
+any description so you can remember
+what's going on
+right I've got this saved as a drill now
+and I can practice specifically over bet
+sports right
+and oh you know what I better change
+that to a post-flop spot because I
+forgot to do that
+flop single race pot
+there we go
+now we're starting on the Flop on over
+bed boards right
+Ace Ace will often check in these spots
+um sometimes not
+but
+either way the goal is to find
+strategically similar boards
+plug those textures into the trainer and
+then actually practice from flop to
+River to get a sense of the
+follow-through in summary
+firstly learn how to use the tool next
+optimize to try and find strategically
+similar flops that apply to a wide
+enough array of flops next use some sort
+of system to write it down and record
+your observations and if it's not
+necessarily the fact that you have a
+giant spreadsheet filled out it's the
+actual process of filling it out
+yourself that is helpful right lastly
+focus on follow through optimizing flop
+sizing is not as important as actually
+getting a sense to how to follow up on
+tournament River a strategically similar
+flops tend to play somewhat similarly on
+later streets especially when they're
+very similar so focus on follow through
+all right that's it for the video guys I
+hope you enjoyed this content let us
+know down below what you'd like to see
+next if you have any questions about
+aggregate reports or how you can use
+them feel free to join our Discord and
+ask us there Link in the description
+that's all for now happy grinding

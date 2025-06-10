@@ -1,0 +1,391 @@
+### TOPIC: gto analysis
+what's up guys this is tom for gto
+wizard today we have a hand played
+between two 500 nl streamers matt
+roberts and cg we're gonna analyze the
+hand view the replay get their thoughts
+and then compare their ideas against the
+gto solution let's get started
+joshie you're probably not running the
+same you probably don't have the same
+sims that i do i use a gto wizard 500
+basic sims
+so if you want to look at the
+frequencies of my plays you can check
+out gta wizard
+leed's not terrible i'm probably
+supposed to mix phrase and call
+hey so this is an interesting hand that
+i played with cg the other day the first
+thing to mention is 109 suited is
+probably a mix pre i would fold this
+sometimes if not most of the time versus
+a three bet in these positions now the
+flop comes eight five four rainbow and i
+thought this could be a board that i
+potentially want to donk on the reason
+is because we'll have eight eight five
+five four four seven six at likely a
+higher frequency than button but i think
+it's really dependent on the range in
+your sim and also the size that you used
+i use 33 in game but honestly maybe a
+smaller size might be better and
+obviously the smaller you bet the more
+often you could bet so maybe potentially
+using a 33 this hand might not even fit
+into that range but
+we did it anyways
+this is cg and i wanted to give my
+thoughts on the hand with mn roberts so
+this is me reviewing myself it's a
+little meta but um i think at the time
+you know when you're playing a hand you
+don't always get a lot of your thoughts
+through clearly so i just wanted to
+elaborate on something maybe i said uh
+in the hand
+so the three bet is a pretty standard
+spot button versus under the gun
+we've played a lot together
+in the pool
+and i don't have any solid reads so far
+as to
+have a reason to deviate from
+what i think is close to the equilibrium
+so i generally play as as close to the
+equilibrium as i can when i'm playing
+against him
+so he takes a lead line here and um
+i think that is
+a pretty good thing to do
+how i'm supposed to respond to it i
+wasn't really sure
+i knew that i was at least supposed to
+call it a frequency so if i do know that
+something is a mixed strategy i tend to
+lean towards potentially the more
+passive
+side of it if i feel like maybe
+they're
+leading
+a disproportionate amount of
+hands that they're gonna fold
+so you do hear that from me where i
+i decide to mix i rolled um i rolled the
+rng
+and i did get a 92 so that kind of
+reinforced my thought of just calling
+that being said uh there might be an
+exploit here that i might not find
+so matt opens under the gun cg three
+bets on the button with kings and matt
+calls with ten nine of clubs
+lop is eight five four rainbow a very
+interesting flop this is the kind of
+flop that's better for the defender than
+the aggressor we can see in the ranges
+tab that matt actually has more equity
+despite being pre-flop defender this is
+because they have more straights sets
+and a little more two-parent range
+in the equity distribution we can see a
+reasonable range advantage throughout
+and that's mainly owing to the fact that
+under the gun will have more middling
+made hands
+whereas the three better will have more
+ace high kind of air
+near the top we can see that nut
+advantage owing to the extra straights
+and satin range
+the next question to ask is how can we
+extend this analysis a bit further how
+can we find some underlying trends well
+if we take a look at the aggregate
+reports we can see that these middling
+cards
+do tend to be bet a bit more and in fact
+if we apply a filter for example
+rainbow connected and somewhere between
+five and nine high
+we can see that the donking range
+increases to almost 40 percent
+indicating that these kind of boards are
+excellent docking boards i'm sure matt
+uses a very similar heuristic which is
+why he found this dog bet at this point
+i'm going to switch over to the general
+solutions because these ones don't
+actually have matte size
+the general solutions button is using a
+smaller three bet under the gun is using
+a smaller open and we use a 33 dog bath
+instead of 18. because you're using a 33
+dog bet it doesn't actually choose the
+dock very often nevertheless the range
+is there
+and matt did dock so he also mentions in
+his analysis that perhaps a smaller donk
+bet would mean you can dock more often
+which would be theoretically correct but
+i think it's going to be very close
+either way and i think this dog bet is
+playable so action's on cg and he
+indicates that he knows this is a razor
+full spot we can see that kings in
+particular are one of the best hands to
+raise
+and that's because
+kings is one of the few over pairs
+that's stronger than matt's strongest
+over pairs which is queens
+of course it does mix calls and in the
+basic solution it is also calling at
+some frequency overall we can see that
+button is raising very aggressively here
+using well of course mostly overpairs
+for value and this is to compensate for
+the fact they have to overfold in
+position
+or theoretically they need to give under
+the gun a worse price on a dunk bluff
+and they do that by compensating for
+their overfolding by raising quite a bit
+now calling is also playable so matt
+finds the call see this is this is
+exactly what i'm talking about he leads
+and the nut card comes for him he's
+gonna have sevens he's gonna have six
+seven suited he's gonna have sixes he's
+gonna have some threes and twos
+um but overall like we're not gonna have
+a lot of this board we're not gonna have
+a lot of 6x to call with
+so we're going to be forced to call
+turn is the seven of clubs which is
+really good for my flop donkey range so
+i think if i bet flop i'm probably
+continuing likely my full range here for
+a small size again i think maybe you
+could entertain a check raise but i
+think betting is probably just better
+the turn is
+is decent for him he's gonna have some
+uh seven six type combos that's pick up
+a pair he's gonna have some eight seven
+suited maybe
+uh he might have sixes or sevens
+and against that range i don't think we
+can really raise anymore
+so we turn the seven of clubs both
+players recognize that this is a really
+good card for under the guns range matt
+concludes that he's going to continue to
+bet for a small size with most of his
+range as is a common strategy after
+you've dog bit the flop cg indicates
+that this is such a strong card for matt
+that he doesn't think he'll do much
+raising against this size if we check
+the turn reports
+we can see that sixes and sevens are
+among the most barreled cards
+they also give under the gun a pretty
+significant ev advantage as compared to
+most turns
+let's take a look at the ranges tab to
+see how the ranges break down here we
+can see that under the gun has many more
+straights sets two pair and
+proportionally more over pairs
+than button that may be surprising
+because button was the pre-flop
+aggressor but
+under the gun's range is tighter
+conversely a button has more trash
+particularly more ace high trash
+and that's reflected in the equity graph
+where we can see a pretty big range
+advantage
+for under the gun throughout
+let's see how the solver constructs its
+range
+in the breakdown tab we can see that the
+one-third range
+is actually mainly used by over-pairs
+particularly jacks and queens whereas
+the larger 75 size as well as the 50
+percent size
+are typically centered more around sets
+and straights
+regardless
+matt decides to bet small again
+and cg makes the call with his kings we
+can see the solver isn't really raising
+too much here a little over 13 percent
+but most of its range is middling equity
+so it can't get too out of line
+so we make the call
+yeah
+i mean the most intuitive bluffs here
+are deuces and threes
+and then
+maybe some like broadways
+what do we want to have to call
+i don't have enough time to think here
+i don't think he's gonna bluff enough
+here river is the jack of
+hearts and i think this is where the
+hand gets really interesting so when i'm
+in a situation like this i ask myself
+how do i maximize my ev with my hand or
+my range so what are my options
+number one we could check and hope that
+imposition bluffs or value bets enough
+and then get value in the check raise
+line we could maybe bet small again
+hoping for a value raise or bluffs or
+three just bet a size that i think my
+hand can get enough calls with in game i
+use shove which i think is fine in
+practice however in theory land i don't
+know if it's a thing because i'm likely
+folding all the over pairs with the size
+which is my main value target so maybe i
+would prefer a bet still but maybe
+smaller or maybe going for
+a check raise
+as well that that could potentially be
+an option i guess it depends on how you
+want to play do you want to play more
+theory oriented style are you trying to
+play more exploitative when you get to
+the river what's my perception of
+villain here will he open enough if i
+bet like will he bet all those over
+pairs that he probably should i think
+it's a fair question to ask and honestly
+i'm not sure and i think it's an
+interesting spot and i think it's worth
+looking at in solver even though it's
+not a high frequency spot i think we
+could potentially
+learn a few lessons
+so that if i ever do face a spot like
+this again i'll be better prepared
+um so just pausing in my thought process
+i didn't think that he would have led
+109 suited or that he would raise call
+it from out of position
+um my thought was ten nine suited was a
+a pure fold if you were to open it from
+lojack versus a button three bet
+uh that being said i think it's probably
+okay to call it a frequency i looked it
+up after and it is a call at like a
+quarter third of the time frequency but
+it wasn't a hand that i was particularly
+like afraid of
+because if it was
+a call versus a three bet it wasn't a
+very high frequency one
+so when it came to having a blocker for
+this run out it's kind of hard to have a
+10 in our hand unless we have tens or
+nines but i'm thinking about it now it's
+probably significant to have a 10
+if we can as a blocker so when he does
+inevitably jam here
+i'm not happy clearly
+so i think that
+i use the term intuitive bluff because a
+lot of the times there's some difficult
+bluffs to find
+in an equilibrium and this is one of
+those boards that i don't think um
+people are generally
+leading queen 10 suited
+very often although it would be good it
+is a hand in
+lojax range here for leading
+so
+in those scenarios i tend to fold more
+against players
+where if i think that a lot of the
+bluffs that they need to have here at
+the equilibrium are unintuitive that
+they'll be under bluffing and they'll be
+more geared towards value so
+in this spot i think i
+knew it was a very close decision for me
+because uh we're not gonna have too many
+really strong hands to call down here
+with but um
+i did think that he was probably
+a little light with his bluffs here
+so the river's the jack of hearts this
+is a very interesting card because it
+completes matt's exact straight draw
+which is very disguised but it's not
+fantastic for his overall range
+in the equity distribution graph we can
+see that under the gun has a pretty
+significant equity advantage
+throughout the middle but they don't
+have the nut advantage near the top and
+whenever you see this pattern you can
+expect that solver will use
+lots of small sizes pushing its middling
+equity advantage
+matt wants to get the most value with
+his hand and there's a few ways to go
+about doing that of course you can check
+raise you can block bet hoping for a
+raise or you can just bet large yourself
+we can see that the blockbed here is
+mostly constructed using top pairs and
+under pairs for value
+disguising and protecting itself with a
+few sets and straights
+larger bets in fact let me just group
+some of these together
+are mainly used by straights
+and sets with very little top hair in
+there
+so matt decides he wants to go for a
+shove
+actions on cg who has a very difficult
+decision with kings
+now cg indicates that the natural bluffs
+here are not so easy to find and that
+may indicate a value imbalance if so you
+should be over folding so let's take a
+look what are the natural bluffs or the
+silver bluffs in under the gun's range
+let's start by filtering for the all in
+we can see it's using king queen as a
+bluff and six is for value and in this
+exact case of course
+king's blocks can queen so
+probably want to fold but this is quite
+a narrow range so let's expand this
+we can see that the trash hands are all
+these over cards king queen king 10 ace
+queen queen 10 whereas the value range
+are all the lower cards
+so here's a hand that blocks most of the
+bluffs but doesn't block most of the
+value for that reason facing a large bet
+kings is mostly folding we can see that
+kings should be a zero ev call or very
+close to it because it's mixing folds
+cg snips it out and correctly lays down
+his cowboys what a great hand by both
+players
+all right that's it for the video guys
+we hope you like and subscribe feel free
+to comment and of course join our
+discord if you'd like to discuss the
+theory further that's all for now
+[Music]

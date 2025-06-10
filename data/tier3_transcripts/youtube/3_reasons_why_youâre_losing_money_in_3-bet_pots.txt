@@ -1,0 +1,1033 @@
+### TOPIC: 3 reasons why you are losing money in 3-bet pots
+these three mistakes could be costing
+you a ton of money in three bad parts
+almost everyone is making them and even
+high stakes players are often guilty of
+the last one
+so make sure you watch till the end for
+a quick and easy way to boost your
+rhetoric
+betting too small on low boards so when
+you look at a bar like seven five to use
+rainbow it looks pretty dry and also
+given that you're in position with a low
+spr it's pretty tempting to be using a
+small size right a big size might not
+feel especially effective on such a
+dryboard but it turns out that if you
+look at what the solver wants to do on
+this in this kind of situation it
+actually wants to bed pretty big so
+somewhere around like two-thirds to
+three quarter spot is uh turns out it's
+the optimal size on the board like 75 to
+suitable and the main reason for this is
+that our range is actually pretty
+polarized on the sport right unlike in a
+single race quad we're not really going
+to have pants like 7x 5x uh probably not
+gonna have pocket Paris like uh three
+seven fours so at least hopefully not
+right and because of that our batting or
+bad size is really driven by our over
+pair region so let's take a look at an
+example of this case so this over here
+is button button three bet versus cutoff
+right so cut off open on 103 bits and
+cut off calls and we get this 75 juice
+rainbow board and you can see the
+preferred size uh that the solver lights
+is actually three quarter spot and uh
+when you look at the composition of
+buttons range it's actually pretty clear
+why we want to size up because besides
+over pairs button actually just has a
+bunch of uh High cars like East High as
+well as king height there's really no in
+between ends like top pairs under pairs
+second pairs so his ranges is pretty
+polarized and the question we need to
+ask ourselves is how big do over pairs
+went to bed so overcast you know being
+pretty strong of course they're gonna
+want to be sizing up right there's they
+have like plenty enough equity right it
+says Kings they have in excess of 80 and
+Equity so there's no need to be making a
+small uh like one third part size bed
+that's usually reserved or hence that
+have around uh maybe 60 or 60 something
+percent equity that are not able to uh
+bet such a big size because they're just
+going to isolate themselves against
+stronger hands but Aces and Kings
+clearly it's not going to have this sort
+of uh problem where you can see
+the effect of a big bag like three
+quarters file right is that we're still
+able to get plenty of value against
+hence that that are way behind us right
+this entire region or One Pair of Hands
+and stuff like read over Paris as well
+you know it's a pretty good result to be
+if you better have like Asus or Kings
+you get called by like tens right the
+sentence basically drawing did again too
+so of course you you want to win as big
+of a bet as possible against hands like
+these like even stuff like Ace five six
+seven but they only have uh five or five
+hours against you so
+it's the benefit of sizing up where you
+definitely get to extract more value
+from this part of your opponent's Ridge
+right and you'll you'll see that this
+also applies to low pair boards right
+actually doesn't really matter that much
+whether uh the board is paired or
+unpaired the shape of our initial shape
+of our opponents range it's pretty
+similar no matter whether the board is
+7-5 years or like 755 for example oh
+you're always gonna see
+that our range is pretty much like over
+Paris and over cards right and let's
+discuss before and over Paris mostly
+when to go big so 755 for betting around
+half mostly half pot right
+um so not quite as big as before but we
+definitely don't want to go like a third
+of the park again looking at the
+composition of orange it is pretty
+similar right we just have a bunch of
+over Pairs and a bunch of doves right
+and the natural bed size for all of
+these open pairs is a slightly bigger
+one okay so the question then is why do
+you guys think that in the single
+respite on the board like five five
+three we clearly want to be going for
+his smaller side so again this is
+something that we can take a look at
+later with the GTO result reports right
+about third Parts in general we want to
+be sizing down so why do you guys think
+this doesn't apply for three bad parts
+the caller probably has like a similar
+amount of not into it's probably going
+to be around like five or six percent
+right that five or six percent actually
+matters much more when the spr is high
+Paris series ranges are wider which is
+really true as well okay
+um because ranges are wider
+what we what we actually see is that big
+line is of course calling way wider
+since this is a civil Race part and it's
+getting like a good discount in the big
+time right so the the result is that if
+button has a hand like async so first of
+all you can kind of see our range is not
+quite as polarized right it's not just
+uh like very strong hands and and air
+hands are just quite a bit of uh like
+top pair as well right stuff like uh
+small pocket errors a slightly higher uh
+proportional details and of course most
+of these have no one too bad quite as
+big right and on top of that something
+really important to understand here is
+that when you have a headlight is king
+or a squid right this actually falls
+into the category of a marginal head
+right previously in the three bed pod it
+was more updated because it's quite
+um it's not that realistic to be bathing
+like three quarters pot with uh Ace King
+or not that realistic could be bad thing
+like any size with async and do extra to
+have my really good Equity when call
+right but in a single race plot
+especially if we bet small enough we can
+get called by plenty of worse aside
+where opponent is calling with pretty
+much every ASI quite a bit of King green
+and King Jack as well and this allows us
+to get quite a bit of thin value and of
+course we're only able to get distant
+value if we use a small and a size right
+imagine if we start potting it with a
+headlight escaping we're going to be
+folding out quite a lot of the hands
+that we would much rather get called by
+okay so if we the point is that if we
+want the better headlight is King then
+the only size that makes sense to bet is
+the small one so this has the effect of
+driving or bed sizing downwards right
+the over pairs themselves would probably
+want the better bigger size on their own
+but because we're also pretty interested
+in betting hands like Ace King as well
+and some of these smaller pocket pairs
+that need quite a bit of protection if
+you better hand like Forest you know and
+your opponent votes something my queen
+Jack right you're basically following
+out night outs over for faculty because
+you can hit a query in the Jag as well
+as a seven and it's all of these
+marginal hands that are driving our bed
+sizing downwards because once again the
+only way that we can bend them is to use
+a small bed size so this is reflected in
+the equity of the headlight is King as
+well right 62 63 in a single respawn and
+if we go back to uh the previous
+three-pot you can see that Ace King only
+has uh barely like less than 50 percent
+so clearly you know every bet like a
+third of the part your opponent calls
+your Equity is going to drop like way
+below 50 right so this hand actually
+doesn't really affect our bed size in
+any way it's pretty much a block at this
+point so with gloves it third sizing
+just as a photo uh whatever your strong
+hands were to go for which of course is
+the big size so quiz question number one
+on the board of seven five views rainbow
+we saw that the solver mostly was the
+battery for the start how do you guys
+think the sizing is going to change if
+the board was 2068 should we size down
+since I over pair us up a little bit
+less Equity B maybe we should size up to
+charge our opponent's clusters or C do
+you expect there to be not much of a
+change
+foreign
+[Music]
+is just because your over pairs are
+worth a slightly smaller BET right so
+well done to everyone who got it correct
+let's take a look at some of these
+two-tone bars right basically if we
+let's say if we change this to the deuce
+of diamond immediately you're gonna see
+the bed sizing [ __ ] downwards or barely
+uh pretty much never using the three
+quarters but now we're only going for
+the half flat band and uh let's also
+take a look at some of these uh reports
+so let's filter
+load disconnected parts
+let's say a Thai and below and if we
+filter by bit size what do you see is
+that the pretty much only boards where
+where the big bet is getting used
+they're all exclusively rainbow boards
+and then most of the two-door boards
+were betting half bought uh sometimes
+even a little bit smaller than that
+right and the main reason is that your
+overtime soldiers were a slightly
+smaller size right if the board was
+seven five loose rainbow what we saw
+previously was that there's not much of
+an issue in sizing up because even if
+you bet like pretty big your opponent
+still has to call with that time or a
+very weak laugh catches right even hands
+like it's nice they don't look weak but
+I would still consider them with black
+catches because the times that they are
+behind they're only drawing to two outs
+okay so it's really nice that uh you can
+put in such a big bed and still get
+called by plenty of defense and of
+course getting caught by 7x and five
+exit so it's not dead as well right it's
+not quite as good but it's definitely
+not a bad thing on the other hand if you
+change this to the deuce of diamonds
+right and now let's say we try that
+thing three quarter spot right
+immediately you see uh you can kind of
+see why this size is not that efficient
+because you use quite a bit of value
+from all of these uh like we pocket pair
+of black catchers so I didn't eat some
+nights that you really need to get
+caught by decent so ideally you want to
+get a call by as many of them as
+possible because they're only drawing to
+two outs against your value region right
+and the main reason why these cells
+don't need to depend I guess there's two
+different ways of looking at it like
+probably a more accurate way of thinking
+about it is to say that these hands are
+now the value given the presence of the
+pressure right when the board is
+two-tone and every single one third hand
+is going to go down in the equity so if
+you're betting the same size your
+opponent is getting the same products
+but his Equity is lower naturally he's
+going to be more inclined to default
+because something like lines uh now your
+Bluffs are going to have so many more
+out so you're gonna have stuff like
+getting rid of diamonds King jack of
+diamonds and this is basically flipping
+with those hands at this point so that's
+one way of looking at it right or you
+can also say that we don't need to
+defend so many of these weakest black
+catches because we have plenty of
+better candidates to defend right so
+stop like uh you know King Queen of
+Diamonds basically all of these
+Threshers that have so many outs even
+the times that they are behind right so
+they're doing much better uh Equity
+rights against your overpass so we tend
+to prefer calling the descents instead
+of uh pocket Paris and you know if you
+were to call like pocket Paris or top up
+after us we'll probably be calling a
+little bit too much right and ultimately
+the effect that this has on buttons that
+size right is that it just makes it a
+lot less attractive to be going for such
+a big size because you are now taking
+away a lot of the weakest block catches
+in your bonus calling range and you're
+replacing them with hands that have a
+ton about against your value imagine if
+your Apple has like queens or Jacks
+right and uh instead of calling with
+bucket Force you know your opponent is
+now calling with hands like Ace 10 of
+diamonds and that's quite a disaster for
+your specific hand because this hand is
+essentially flipping with you right so
+to solve this problem what we do is we
+just size down a touch if we bet half
+part of the set then a lot of these weak
+left catches are going to start calling
+again right and that's more or less the
+reason why we say stuff right just to
+make sure that all the pairs up a little
+bit better Equity recall and they're not
+just isolating themselves against all of
+these high Equity heads in your
+opponent's range so I'm gonna draw a
+diagram now right just to further like
+illustrate this point okay so imagine if
+we have a grid right and now what I'm
+gonna do is I'm going to light up all of
+our opponents various Holdings okay and
+I'm going to plot the graph of uh like
+how much how much Equity queens has
+against every single hand in the colors
+range so I'm going to start off with uh
+the rainbow board so on the Regal board
+you know your opponent is going to have
+some sets for sure right it's not that
+big of a proportion but you're gonna be
+joined it like some percentage of the
+time right against like sevens and then
+five so this represents like the very
+strong hands in your opponent's rage and
+that besides that you can imagine
+there's not really that many hence that
+you're worried about right most of your
+bonus black catches they're gonna have
+like at most like five hours against you
+and then a lot of them are just going to
+only have two outs as well okay so the
+graph part in The Joint right but the
+the graph of
+um like the amount of equity that greens
+has to be plotted according to every
+single hand in your opponent three intro
+it's gonna look something like this
+right and that's exactly the reason why
+we were able to bet such a big size
+because let's say if we
+if we as we increase our bed size is a
+bit bigger and bigger and bigger so
+opponent is going to call a tighter
+range for sure right at some point you
+know we don't want to go so big that we
+just isolate us begins all of the very
+strong hands right but you can still bet
+pretty big and have really decent Equity
+by call or even when you reach this
+point you can see as a whole like on
+average right we're still getting a lot
+of very thick value from our opponent's
+uh dark catchers right so that's the
+reason why we're okay we're sizing up uh
+these lower rainbow boards okay on the
+other hand so I'm also going to plot the
+graph of uh let's see if the ball was
+too tone instead okay so similarly
+Queens is going to uh or rather your
+opponent is also going to have some
+Regional tense that are in a really good
+shape against you okay
+um so this this again would be like has
+access and maybe some two pair on
+certain boards but a side stack
+there's also going to be a bunch of
+um like zastros that have a significant
+amount of outs against you and a
+significant amount of equity
+against your overpass and of course he's
+still going to have like a bunch of five
+out Terrors and and two Alters so the
+overall effect you can see that if we
+start going for too large of a bit
+okay so as this bar starts shifting
+towards the left
+right uh previously on the rainbow box
+so if you look at the blue line that
+this is still uh like pretty okay right
+because we're getting a really big value
+for all of our opponents uh weakest
+black catches but if you do this on a
+two-tone board then you know at some
+point the equity of your overpowered
+attempts that you get call is going to
+be quiet for right because you're
+basically like forcing out all of the
+hands that have zero outs against you
+and then you're getting called by hand
+side you're basically flipping against
+so to solve this product right what we
+do is we go for a model of an
+intermediate size right not too too
+small but not too big as well so if you
+bet like half plot you can still get
+called by a bunch of hands that like
+don't have that many outs against you so
+it's kind of like a healthy
+media break you're not losing too much
+value but you're also not just like
+isolating yourself against all of the
+high Equity heads so this brings us to
+the second mistake mistake number two
+betting we go over Paris too often so
+this is something that uh I'm sure we
+all do a lot in single response like
+button versus big plane especially it's
+really natural you know on the low bar
+to just bad hands like nice intense and
+then if you want to use some over pairs
+to protect your checking range get
+really natural to use hand side Aces and
+perhaps Kings but turns out that this is
+a pretty big mistake in true bad parts
+like of course the reason why we do this
+as single response is because they're
+lower over pairs are more uh vulnerable
+okay so again in a single Race part
+if you look at buttons uh buttons over
+pairs are doing we're definitely betting
+like it's nice more often than 80
+Seconds right but you need to understand
+that the reason why we're allowed to do
+this is that the big blind it's not
+really going to have that many hands in
+between Asus and it sorry it has like a
+little bit of lines but that's about it
+so Asus IDs are pretty much the same
+head like they have a I guess it's just
+a little bit more Equity right because
+your end is not as vulnerable but in
+terms of the proportion of your
+opponent's ratio you're behind right uh
+they're pretty much behind like the same
+percentage of your opponent's rate so
+naturally you know we if our hand is
+worth about the scene is about the same
+strength of course we prefer to bend the
+one that's more vulnerable right but
+it's a little bit dangerous to apply
+this to a three bed especially you know
+in position through that power where
+radios are so tight and you know as you
+go early and earlier in the position so
+let's take a look at cutoff versus
+cutoff tree bet versus hijacked already
+you start to see a trend where it is the
+settings are betting way more often than
+stuff I eat tonight and the reason for
+that is because the hijack is going to
+have plenty of checks and tensile
+Knights so so when you compare a
+headline Asus web apps they're really
+not the same hand at all and this is
+reflected in the equity difference Asus
+84 Equity it's 59 Equity okay so it's
+more or less a module at this point and
+if you look at the frequency of the
+various uh over pairs I think this makes
+a lot of sense as well right like queens
+and Jacks uh betting all the time Queens
+especially right it makes sense about
+all the time because it's somewhat
+vulnerable and there's not much of a
+difference between Asus and queens right
+since your opponent is not going to we
+have these sensor often okay so that's
+why uh like Queens you can see is
+batting just a tiny bit more than Aces
+but once you go down to tens and knights
+and each there's too big of an equity
+difference like there's two big drop in
+equity because not only does your
+opponent have a bunch of tracks and
+Tents right Jackson tents are all so
+quite a large proportion of your
+opponent's range given how tight is
+calling right so even though the
+absolute number of combos is not big but
+you know ultimately big blind is only uh
+sorry the color is only going to have
+like 63 combos total like so it makes a
+huge difference whether you have Aces or
+nine in this case and the effect only
+gets more and more Extreme as we go
+earlier and earlier in the in the
+positions so let's say hijacked
+treatment versus utg right again you see
+the same Trend I think it's just a
+little bit more extreme right tense is
+actually quite a high frequency check
+now eights and ninths interestingly the
+types that you bet these ends right they
+actually have a little bit of uh Bluff
+element today because your opponent is
+supposed to fall like tens and nines
+sometimes right so you can really
+understand like why Aces and kings are
+better way more often than the weaker
+over pairs so the next question is how
+can we exploit someone who's making this
+mistake they say of your opponent in a
+situation like this is uh you know is
+playing it a little bit more like a
+single Race part but it can say nice
+intense and drags uh and then checking
+his ideas and things like what kinds of
+adjustments do you think we can make
+against his C bet I would say the main
+adjustment right is really to be a bit
+more aggressive with hand slide uh
+queens and Jack specifically right if I
+had like quiz is originally indifferent
+to track racing and check hauling you
+know it's a different given the fact
+that your opponent is batting Aces that
+kicks a lot and then not batting Jackson
+tells that opted right so if someone is
+doing the opposite right then uh surely
+Queens is going to become much higher EB
+as a check result right so if this
+handle is previously in different above
+options I would imagine against an
+opponent who is like batting objects
+sometimes and checking Aces and Kings
+like Queens should just become like a
+pure check race now so that would be the
+mean adjustment that I would make it by
+suspected that my opponent was making
+this mistake and in a way it actually
+makes it even more important as the tree
+better to be betting hand side Aces and
+kicks right because in my own experience
+as uh as a live player so I played a lot
+of soft games right people really like
+to track race and side queens and Jacks
+I guess the top process is something
+like you know if I have queens and I run
+into Asian stockings I'm just gonna get
+stacked anyway so I might as well just
+get the money now protect my hand
+against uh SK so if I had to guess that
+that's probably why they really like to
+check race this type of head so can you
+imagine if you now meet the mistake of
+um like bad thing nice and tense and
+then checking Aces and Kings even though
+technically against a static GTO
+opponent it's not really a serious error
+right since ultimately Asus is a
+different dependent check right
+intensive Knights are different
+depending and checking and but against
+uh specifically against an opponent with
+track raising queens and Jacks all the
+time he's actually going to
+unconsciously be exploiting you right he
+might not be trying to exploit any
+specific mistake in in your game where
+you might not have the right reasons to
+chat raise the hand like greens but he's
+still going to be exploiting you at the
+end of the day because ultimately you're
+making this mistake that makes the EB of
+raising with Queens much higher than
+before okay so I think in practice
+especially it's pretty uh important to
+get this right especially for inside
+Kingston basically PR bets so I think
+there's even some
+EB difference between uh like betting
+and checking
+does it
+I mean as it seem like it's huge right
+but uh yeah with this kind of plan
+usually you don't want to be like
+checking it too much right because it uh
+you're up against a good opponent and
+your opponent sees you check a headlight
+decisions of Kings uh it can be pretty
+sure that you're making this mistake and
+then you know you should be able to come
+up with the appropriate adjustments as
+well yep so even more important to to
+bad hand side Aces uh to fire dye sensor
+Isis over the week of a person in
+practice quiz question number two how
+should we address our probing strategy
+against someone who is betting all of
+the over pairs on the top right so not
+just the we go over parents are they
+actually better no vehicle repairs as
+well as a stronger over pairs so option
+number one block all of our air right
+and option number two that bigger and
+more often with one pair handset of
+course I'm referring to the Turner after
+the [ __ ] was check check if the turn is
+a low card right what kinds of
+adjustments should we make so I'm gonna
+pull up the poll
+foreign
+[Music]
+but the point is to choose the one that
+you think is the most correct uh it
+turns out the most precise answer would
+be big or it's a bit bigger and more
+often with one pair heads so let me
+justify my my answer why is it not
+technically correct to just be popping
+all of your air so let me pull it up
+like an example of the situation or
+let's say the thought is uh like nine
+seven tree right this is uh hijack
+versus a kind of tree bed if the thought
+goes check check and again you know the
+assumption is that your opponent is not
+checking enough of these uh over pairs
+okay uh if you look at the composition
+of his uh checking range it needs to
+have like about 17 over pair which is
+quite a big uh percentage
+right
+um so let's say he completely lacks all
+of these open pairs like if we were to
+play a strategy where we overdraft on
+the on the turn right with the idea that
+our opponent you know it's kind of kept
+at Ace iron you cannot really be calling
+us that often right that that's a little
+bit of a logical leap in a week right
+just because your opponent is Cap
+doesn't necessarily mean that he's over
+voting imagine if you block all of your
+air or a small size or the same sizes
+that the solver is using and mostly
+bathing like 20 and 30 but even if your
+opponent doesn't have over pairs to
+defend with right it's still going to
+have plenty of hand side is killing his
+Queen Asia okay and it's actually really
+easy to uh imagine an opponent who's
+calling too much in this scenario right
+on the board of
+9733 especially you know the turn is
+really good for for your opponent's a
+size where they now have like a little
+bit more shoulder value than before
+someone might even reason that the board
+being double tutorial and you're gonna
+have like plenty of gloves right so
+people might start to get a little bit
+stickier with hands like asking any
+screen right and now it's going to kind
+of backfire right you just Bluff like
+everything for for a small size in a
+situation where your opponent is
+potentially calling too much yeah no no
+it turns out that we are the ones who
+was getting uh who are getting exploited
+so instead of just bluffing all of your
+air a much better adjustment is to first
+of all understand that all of these one
+pair hands in our range right top pair
+under pair second pair they're going to
+have much more Equity than before the
+reason why a headlight each only has 64
+Equity is because of just 17 of over
+pairs uh in your opponent's checking
+range right once you take that away
+right each is going to be pretty close
+to the next and hence that has more
+Equity they simply just want to be
+bigger I know it sounds kind of
+counter-intuitive right knowing that
+your opponent is kept at Ace King you
+might imagine that you know these hands
+should go uh smaller you know to try and
+induce a call from Ace King right but
+that's not quite the way that it works
+in theory okay if we think our hand is
+strong enough the bad big then we just
+it doesn't matter if it can is calling
+or folding because even if let's say we
+bet three quarters and in a situation
+where our opponent doesn't have any over
+pairs for sure he needs to depend with
+more Ace King but let's say if he's not
+willing to do that he's not willing to
+call with his Queen right he would just
+like quite literally be folding well not
+quite everything I guess it's going to
+have stuff like flashers but it's going
+to be massively over folding right and
+then now our blasts are going to go up
+easy because for sure we're gonna have
+plenty of Buffs that are also going to
+size up along with our value and that's
+a much better adjustment than just
+bluffing Olive air for the same size
+that the solver was using uh previously
+so it's kind of a catch-2 situation for
+your opponent right as long as you are
+betting like quite big with your winter
+hands or you're mixing in the
+appropriate amount of gloves it doesn't
+actually matter whether he calls with
+his king or he falls with this is if he
+wants to call it then of course you're
+pretty happy in the sense that he's
+paying off all of your value hands right
+even having like seven eggs or pocket
+success you can get quite a bit of value
+if your opponent will call at least give
+me a screen versus like a three-quarter
+spot size bed if you want to fold these
+hands and that's fine as well obviously
+your one by hands are going to get less
+value but that's going to be more than
+compensated for by all of these gloves
+that are just going to go up in GB okay
+last common mistake right not turning
+enough one power into so in position
+three bets like I mentioned previously
+they're really strong they're really
+linear right and imagine if the board is
+like ace high or King High especially
+we're going to absolutely smash the bot
+and even if we make a really small bet
+very often what you see is uh on like a
+double probably bar out of position just
+folding like every single mid pocket
+pair versus a 20 bet or something
+ridiculous like that and it's really
+just because our range is way too strong
+it connects way too well with the board
+okay so as a result of this if you
+imagine in the lines where out of
+position check call positive thought
+right from the tree batters perspective
+a lot of his vampire hands are actually
+not going to have that much Showdown
+value right so let's take a look at an
+example of this this ace10 High board
+for example like hijacked three bet
+versus Under the Gun so hijack he's
+expecting something like 20 pot on the
+top right on the board on the flop of
+Ace 10 news and look at utg's uh
+defending Bridge right you cannot even
+call hence like nice and eight and seven
+so if it's such a tiny bed even like Jax
+is folding uh most of the type okay and
+one of the results of this is that when
+you go to the thread from the hijacks
+perspective from the crew battles
+perspective a hand light 10x is actually
+not going to have that much uh Showdown
+value I don't think it's an end as
+that much uh sorry let's say I mean like
+like most of your middle patterns King
+then without the flash roll is only
+going to have 31 Equity so it looks like
+a marginal n looks like it has a little
+bit of shutdown value
+but actually it's just as good as like
+any other block then we arranged okay
+and as a result right this is one of the
+reasons why esans are getting blocked so
+after that it's not even like a low
+frequency even King 10 is actually
+pretty close to a job before without the
+flash draw in fact it seems like without
+the threshold we are even more inclined
+to uh go for the the turnback I think I
+think this is happening because we don't
+block like some of the hints that we're
+trying to get value from
+because our opponent probably still has
+to call as like Jack 10 or cards right
+so we don't really want to have the
+heart right yes you get a little bit
+less value from the install object 10 as
+well as uh n9k but that's not not the
+main point where the main point is is
+just that to understand a lot of these
+one by hand whether whether it's uh
+second pair whether it's some of the
+lower pocket pairs they actually don't
+have a lot of photo value so there's no
+reason like why we shouldn't be turning
+them into uh and what I've noticed is
+also that especially when there's a big
+gap between the ace and the 10th there's
+even more reason to be blackpink with
+hands like King dead right because when
+you look at your opponent's response
+right there's actually this region of
+like greens and Jacks right that uh you
+can Target with bad you know these hands
+are pretty much always holding the turn
+right so in a way when you bet something
+like King 10 it's almost like uh like a
+value block where you're folding queens
+and Jacks for sure you're folding out uh
+even some of the weaker asacs right and
+then at the same time you can even get
+uh
+uh little bit of value from some of the
+worst uh 10x and then your opponent's
+range right so it's not like a lot of
+value I think because that's because our
+bed is a little bit bigger right but
+there are like some situations
+situations where we're betting a little
+bit smaller right for three quarters
+part uh again you see the same kind of
+trend whenever we're betting
+spot here uh same logic but we fold out
+greens drags uh in this case I guess we
+we don't fold out like that much uh top
+there okay but uh the good thing is that
+we actually get a little bit more thin
+value right probably and slide checked
+in and 109 that are calling a little bit
+more often now okay so that's uh just a
+neat little mechanic that I noticed
+right when there's a big gap between the
+top and the middle card like middle part
+is a really nice and good bluff with uh
+if you take away the scap that's it this
+is king queen G6 so I really doubt we
+would be that uh interested and laughing
+hence Queen
+all right or a list of frequency is
+going to be much uh lower than before
+right because it just doesn't have like
+the same kind of
+um effect whereby you maybe get call I
+guess you still get caught by like
+something worse pre next but the problem
+is that there's no pocket press below
+the the king and the queen that are
+folding so it really hurts the
+efficiency of the span right so same
+thing you know at the board was
+something like Ace King height I really
+doubt the king queen would be uh that in
+here I can maybe rip the threshold where
+we can still afford to buffer this
+anyway but you know middle pair with no
+draw is pretty much a pure check at this
+point right so the bigger the Gap right
+it is 10 High King 10 high you've been
+something like green 10 higher I would
+imagine like middle pair should get bad
+uh pretty often so let's return to this
+uh seven five reduce point and I think
+earlier on I touched on the fact that
+when you better hand like eight or nine
+on the thumb it has a little bit of a
+blood element in the sense that utg is
+supposed to pull a little bit of nice or
+tense so this should also kind of tell
+you that you bet any sense and you get
+call right there's no reason why you
+shouldn't uh continue buffing on on the
+third which is not to say that you want
+to block the turn all the time obviously
+that depends on like what exactly the
+turn is but you should at least consider
+uh turning your hand into a bluff right
+and should at least understand that your
+hand no longer has that much for no
+value so that say if the turn is at
+three I mean it's actually again pretty
+interesting to see that eights and nines
+are now just uh pure bets and again it's
+I wouldn't say it's a pure block where
+there's actually a little bit of a value
+element as well because when you better
+handle like three quarters per you're
+definitely folding out a lot of better
+hands right so just me or meal happen in
+practice right so important to to keep
+that in mind and to know like when not
+to do this against but in theory our
+opponent is supposed to fall with a
+bunch of checks and dance and then he's
+actually uh calling us
+with some of these ends like pocket
+Sixers and five six or Ace five that all
+of them have now picked up a street draw
+so it's quite quite a nice option to
+have with knights where just to bet
+three quarter spot on the turn and then
+check back most of the rivers and take
+your Showdown against hence like 5x and
+then pocket sixes yeah okay so let's see
+if you think that your opponent is not
+turning these kinds of pants into a
+block right
+um I would say the main adjustment is
+just to on the one hand you can see that
+it's more likely to not
+be bluffing enough especially on I think
+the effect is maybe a little bit
+stronger on a high bar and because he's
+naturally going to be lacking gloves in
+the the first place so if we go back to
+the previous Ace telling U6 board where
+we saw that hijacked and always turning
+stuff like uh middle pair I'll get pairs
+into a bluff if he's not blapping these
+hands it's quite difficult to imagine
+that he's going to be able to find
+enough loves right because the syringe
+already interacts so well with the bar I
+even though he's blocking like most of
+the Kingpin and King drag he still needs
+to throw in a lot of this pocket pair
+has to be balanced right so the most
+obvious exploit would just be to fold
+all of the hands that are indifferent
+especially against the sort of very big
+bet uh you're getting like pretty poor
+products so your opponent has to throw
+in even more Bluffs to make you
+indifferent and it's quite difficult to
+achieve if he doesn't realize that hence
+I can't then I need to be duffing a lot
+of the time all right so that would be
+the main adjustment and I think it all
+also does
+affect the types of Love catchers that
+you prefer to depend with so let's say
+this was a king 10 hybrid instead
+okay so hijack here is going to be
+getting a little bit smaller so
+technically a lot of your 10x hands and
+your queen some Jacks are all going to
+be indifferent okay uh but the reason
+why they're different is because your
+opponent is playing like this exact
+strategy where he's turning he's
+standing into a kind of uh value plan so
+if he's not lapping hands like he said
+and then let's say he's increasing the
+frequency or some of the more natural
+gloves like green Jack I um not not that
+he has like that many of them but let's
+say if he's somehow still able to
+achieve the appropriate value Bluff
+ratio it's just that it's black
+selection the next hence like second
+okay I think this is also going to
+affect the the kinds of hands that we
+prefer to call right because part of the
+reason
+why we defend something like queens and
+Jacks like part of the EV is coming from
+hand slide A10 they will bet the turn
+and then check back the river if our
+opponent doesn't have a analyzation and
+his range is a little bit more like
+polarized right to very strong hands and
+pure Bluffs and then uh for sure we
+would prefer defending hands like Jack
+tank over hands like queens and Jacks
+right but uh I would say there's quite a
+minor point but the main thing to take
+away from this as a whole is just to
+understand that if the board is high
+especially if ranges are really tight my
+hijack versus utg it's pretty difficult
+for people to be finding enough glass so
+you always want to err on the side over
+folding okay so in conclusion right
+three main mistakes that tend to see a
+lot are people betting too many week
+over pairs so we definitely want to
+favor batting the the stronger ones and
+true bad pods when ranges are so tight
+especially as if you're true betting
+versus early position early position is
+definitely going to have stuff like uh
+queens and Jacks at some frequency so
+quite quite a big Equity difference
+whether you have Asus online a second
+called in the sink betting to small or
+low boards so what you can do is BET a
+little bit bigger right if the board is
+Rainbow probably I would go for
+something like about two times to three
+quarters right and then for two Zone
+boards especially the more connected
+ones you need to be sizing down a little
+bit okay and then finally as Rangers get
+director right the line between value
+and Bluff tends to get observed right
+whether you're betting something like
+middle pair as whether it's a value bed
+whether it's a blob it tends to not be
+so clear right but whatever the case is
+we definitely need to bet more of the
+sensor at least in theory where
+otherwise it's pretty difficult to find
+enough gloves and the way to exploit
+players we don't find enough of these
+glasses of course is just too over full
+okay so that's all I have for you guys
+today uh yeah thanks everyone for
+joining us today and I hope to see you
+guys in the next webinar

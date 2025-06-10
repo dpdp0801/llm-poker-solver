@@ -1,0 +1,809 @@
+### TOPIC: simplifying poker strategy
+should you study a complex poker strategy 
+with many different sizes or should you  
+use a simplified strategy that's easier 
+to learn in today's lecture I'm going  
+to go over the trade-offs between 
+complexity and simplicity and I'm  
+going to show you how you can get 
+the most value from your study time
+hi everyone before we begin please 
+hit those like And subscribe buttons  
+your support helps us create more 
+content thanks and enjoy the video  
+in today's video I'm going to cover the trade-offs 
+between a complex and a simplified strategy we'll  
+also go over custom solving best practices and I'm 
+going to show you how to use GTO wizard to build a  
+simplified strategy then I'm going to show you a 
+way you can prioritize spots so we can figure out  
+what are the most valuable spots you should be 
+practicing for your current stage in your poker  
+development and finally we'll look at how you can 
+practice against your own custom built Solutions  
+did you know that more than 95 percent of GTO 
+wizard nodes have never been observed by the  
+human eye that's wild to think about in fact 
+the vast majority of the GTO wizard library  
+has never been viewed not once and the reason is 
+that if you look at any typical GTO solution from  
+flop to River there can be tens of millions of 
+decision points tens of millions considering all  
+of the different possible runouts and batch sizes 
+and lines that can occur and so it goes to show  
+that as a human thinking about poker you really 
+don't need the world's most complex strategy in  
+order to develop strong poker skills as a human 
+you're not trying to memorize you're trying to  
+learn in heuristics so how do we navigate the 
+tightrope between complexity and simplicity  
+well let's start by examining the trade-offs the 
+simplified strategy is easier to implement it's  
+less noisy because it's easier to solve easier to 
+study because you're using fewer bet sizes and it  
+less accurately represents the game Space this is 
+the main trade-off if you give a solver one bet  
+size for example it may exploit the limitations of 
+your bedding tree so that can make it less robust  
+if a solver wasn't expecting to see for example 
+an over bet or some pot sized rays in some spot  
+the strategy it outputs isn't necessarily going 
+to be good when you map it to the actual real  
+game however complex strategies also have some 
+problems so they're harder to implement right  
+good luck implementing a four sizing split on any 
+flop that's crazy it's a lot more noisy harder to  
+study but it does more accurately represent the 
+game Space and it's more robust that is to say  
+it is less exploitable to bet sizes and raise 
+sizes outside of its abstraction now each of  
+these have some use case complex strategies are 
+great for examining for example bet sizing Theory  
+or seeing how you should defend against uncommon 
+lines and simplified strategies in my opinion are  
+better for practicing against better for trying 
+to find something really implementable but ideally  
+we want the Best of Both Worlds and that's why 
+we invented Dynamic solving so Dynamic solving  
+is our algorithm that automatically simplifies 
+and optimizes bet sizes at every decision point  
+it's easier to study it finds optimal batch sizes 
+it's easier to solve and it's robust meaning it's  
+less exploitable than a simple strategy when you 
+use Dynamic sizing you're not telling the solver  
+to choose one size in every spot you're telling 
+it to choose the optimal bet size in every spot  
+according to the ranges the stack the pot and 
+the specific cards on the board that you're  
+currently looking at so the natural follow-up to 
+this question is what happens when you simplify  
+your strategy to one size how does the GTO 
+strategy change as compared to something more  
+complex that's using many sizes and what you'll 
+find if you play around with this tool is that  
+the solution will often bet more than usual when 
+you lower the average bet size and it's going to  
+bet less often when you increase the average bet 
+size you will also typically see that when you're  
+putting many different hands into the same batch 
+size you have less of an opportunity to polarize  
+and therefore the defender typically calls just 
+a little bit wider however the total amount of  
+money going into the pot is often very similar and 
+moreover the expected value is almost identical  
+so people think that there's a huge EV loss from 
+simplifying your strategy the truth is not really  
+it's very very minute the real benefits to a more 
+complex strategy are like things like you can  
+study batch sizing Theory and perhaps your line 
+makes a bit more sense for your hand class but as  
+far as the expected value of complications go you 
+would be amazed how small they are so the easiest  
+way for me to show you this is to Simply dive into 
+some GTO wizard examples and going to show you how  
+to set this up and we'll compare one spot for my 
+first example I've selected a cut off versus big  
+blind single raised pot on 1095 two-tone action 
+checks to the aggressor and here you can see  
+they're using many different sizes now if you want 
+to follow along I'm using these NL 500 General  
+Solutions these are highly accurate Solutions and 
+they're sold with many different sizes so they're  
+quite robust and a little complex and we'll see 
+here that the solver in this spot wants to split  
+all different sizes it likes some over bedding 
+it likes the 75 percent it likes the half pot  
+even a little bit of 33 percent the solver has no 
+qualms splitting four different sizes now you may  
+be wondering why on Earth would the silver want to 
+choose four different batch sizes well you have to  
+keep in mind that a GTO solver doesn't care about 
+your feelings and it doesn't care how complicated  
+the strategy is the only thing it cares about 
+is maximizing expected value at all costs right  
+and if it's going to take four sizes to do that 
+then that's what it's going to choose even if a  
+one sizing strategy is you know only loses like 
+point one percent it doesn't care it's going to  
+use the more complex strategy so I'm going to 
+show you how we can simplify this down to one  
+size and then we're going to compare how much EV 
+that loses and how the opponent's response and  
+how our strategy changes so I'm going to go build 
+a new solution that only uses one of these sizes  
+hit the solution selector in the top left corner 
+and then select the custom Solutions tab from here  
+we're going to build our own brand new solution so 
+the first thing we're going to do here is figure  
+out the ranges bot size and stack size and instead 
+of filling all of this out manually I'm just going  
+to import it so I'll hit this little pre-fill 
+button I'm going to select cut off versus big  
+blind single raised pot okay and we can see that 
+this is populated both the players ranges stack  
+and pot size next we're going to build the bedding 
+tree now if you don't want to do this you can just  
+hit automatic that's fine I'm going to model 
+it so that it's using the same sizes that we  
+had in the general solution so we had a 33 bet we 
+had a half pot bet we had a 75 and a 125 and the  
+raised sizes are always half pot full pot and 
+all in one Eid is just a geometric sizing that  
+just means get it in over one bet or in this case 
+shoving I could customize it further but this is  
+enough to make a simple example so we'll go ahead 
+and create this new solution and we will select  
+10 9 5 2 Tone same situation same ranges same 
+boards the only difference now is that the  
+solver has automatically simplified my strategy 
+to use one bet size so the first thing to note  
+is that I didn't tell it's 275 percent the 
+dynamic sizing algorithm says here are four  
+or five or six different sizes to choose from 
+choose me the size that makes the most money  
+and in this case on this board given these ranges 
+that happens to be about 75 pot however if we go  
+ahead and change this board so 987 it's going to 
+prefer a different bet size so here it actually  
+prefers the half pot size on 987 what if we pick 
+something dry for example uh King five five well  
+now it's probably gonna down bet I expect it'll 
+use a small bat size here and indeed it does now  
+it wants the BET small 33 percent okay well what 
+if we give it something like Ace King six rainbow  
+well now it's probably gonna over bet because 
+this is a very good board's over bet and indeed  
+it does so depending on what parameters it's 
+receiving it will change and optimize the BET size  
+automatically simplifying between whatever sizes 
+you've chilled it to choose from okay so now that  
+we understand the dynamic solving algorithm let's 
+go back to my original solve here so what would  
+happen if we were to change this bet size what if 
+we simplify to something else instead for example  
+perhaps you prefer a smaller bet on this board 
+what you're going to notice is that it's going to  
+bet more often and this should be kind of obvious 
+to the more advanced players but here I've told it  
+to bet third pot and we'll give it a second and 
+you can see that the BET sizing increases we're  
+almost betting two-thirds of the time now this is 
+because we're putting in less money into the pot  
+with this third pot bet and therefore it wants to 
+bet more frequently and conversely we could do the  
+opposite test what happens if we pump this up like 
+a pot sized bet we're going to see that now it's  
+betting less often okay and so the the amount 
+you can bet is closely tied to what's called a  
+betting volume which basically indicates the total 
+average EV of money you're putting into the pot so  
+if you want a bit larger you have to bet less 
+frequently if you want to bet smaller you have  
+to bend more frequently and so on and so forth 
+now that said some boards are going to have more  
+efficient sizings than others so for example if I 
+change this to like something like King 4 4 what  
+ends up happening is that it wants to use a very 
+small size and the larger size just isn't going to  
+be super efficient here so for example here's 
+uh you know about 61 percent for a small size  
+if I put this up to like a pot sized bet we're 
+going to find that it can't fit very often at all  
+so it's only betting 22 percent of the time 
+this is a very inefficient sizing given how  
+polarized big blinds range is big blinds range is 
+mostly going to be uh nuts or air at this point  
+and in fact we're betting so little that they 
+even are going to start to develop a docking  
+strategy conversely if we change this to something 
+that prefers an overbed like Ace King six again  
+could see that the default GTO strategy is to 
+over bet bet 125 pot here now what happens if  
+we were to give it a small size I know a lot of 
+players like to just range bet these boards for  
+a small size well we're going to find that 
+it's just gonna range BET right this is such  
+an advantageous board that you can just bet super 
+wide this is a playable strategy you're not going  
+to get as much money with your knotted hands for 
+example but it's still a playable strategy and so  
+overall the goal is to put in approximately 
+the same amount of money uh overall now I'm  
+going to change this back to I'm going to 
+change this back to my original solution  
+and here we're going to compare this strategy 
+against the general Solutions so first thing  
+we'll notice is that it's betting a little bit 
+less often compared to the general solution here  
+we can see the original pre-sold solution which 
+used many different sizes and it's only checking  
+44 of the time if we simplify that we can see it's 
+betting 55 of the time and in our simplified case  
+it's betting less often and this is because 
+again we've averaged up we've uh increased  
+the amount of money we're putting into the 
+bot with this one bed size so it's gonna bet  
+a little little less frequently but it's pretty 
+close to Optimal next I'm going to show you how  
+to compare EV properly in GTO wizard so the way 
+to do this is to select the ranges Tab and this  
+is a really important step always select the 
+root node that is to say the very first decision  
+point in the solution and the reason for this is 
+that the ranges can change if you change the the  
+BET sizings and so it's best practice to always 
+compare at the root over here we see the expected  
+value of both players 1.88 for big blind 3.22 
+for the cutoff and these numbers in white here  
+this is the EV as a percentage of the pot so 
+cutoff's expected value is 3.22 big blinds all  
+right let's go ahead and just write that down 
+so simplified strategy wins 3.22 big blinds now  
+let's see what happens if I amend cutoff strategy 
+I'm going to give them small size a medium size  
+larger size some over bet and you know what let's 
+go ahead and just give them an all in as well how  
+will that change the expected value now I could 
+compare to the general Solutions but keep in mind  
+that these GTA wizard AI solutions for now don't 
+have any rakes so I'm using this to get a fair  
+comparison and what you'll notice if we go back 
+through node is that the expected value doesn't  
+really change at all uh it's still 3.22 big blinds 
+so more complex strategy 3.2 to it the EV change  
+is basically non-existent on this particular flop 
+now some spots it's definitely going to change so  
+for example if I give them an inappropriate batch 
+size so let's say third pot here it's not a great  
+sizing for this board we're going to see that 
+the EV at the root node will definitely decrease  
+okay so instead of 3.22 now it's 3.2 so we lost 
+0.2 big lines again it just doesn't feel like  
+we've lost much at all right uh you know it's 
+less than a percent loss but you really need  
+to put this into perspective guys because EV on 
+the Flop even if you give it the worst possible  
+betting tree which is no betting tree so I'm 
+just going to get rid of I'm gonna force it to  
+check back everything and you'll see here like 
+it's not allowed to bet well notice that the EV  
+oh what's this what's this the Eevee's gone up 
+no again this is why you compare at the root  
+note because big blind now that they know cutoff 
+won't bet has a donking strategy and so if you  
+want to compare fairly you have to compare at the 
+root node so cutoff CV has become 3.04 in this  
+case this is our lower bound the worst possible 
+betting strategy we could give it winds 3.04 and  
+so realistically typically speaking if you give 
+your solver a really bad tree the expected value  
+as a percentage of the pot will just approach 
+the equity and if you're doing this on earlier  
+streets like a flop you can always make up for 
+that on turn and River it can kind of compensate  
+for whatever terrible betting tree you've given 
+it by you know betting more on later straights for  
+example now that said we can see here that Eevee 
+loss of complex versus simple strategies really  
+there's there's not a big difference guys and 
+anyone who's telling you like you know you need to  
+play a more complex strategy to win more money I 
+don't really buy that anymore to be honest I just  
+don't think that there's going to be a huge EV 
+difference one caveat I should warn you guys about  
+is that GTA wizard AI uses neural networks to 
+estimate the expected value so this is not going  
+to be accurate to like 0.0001 accuracy whatever 
+right you have to always consider that there's  
+some margin of error in here typically about point 
+two point three percent of the pot is is going  
+to be the margin of error now with all that said 
+let's talk a little more about complex strategies  
+a lot of people they think that you know it's 
+one or the other it has to be either super simple  
+super complex but realistically there's there's 
+quite a lot of room to adjust and those complex  
+strategies still have their place because they 
+could take your opponent out of their game tree  
+and in chess you might call this a Gambit in 
+poker we often see Pros like Stefan doing this  
+for example and it reminds me of a famous chess 
+player Michael tal who said Sometimes you have  
+to take your opponent into a deep dark Forest 
+where one plus one equals three and the path  
+out is only wide enough for one uh his quote being 
+that sometimes you got to take your opponent off  
+their game in order to win anyway that's enough 
+chess theory for now let's get back to Poker so  
+something I've done to try and double check this 
+is uh graph the expected value of just a ton of  
+different boards and spots here depending on 
+what size we chose and in this case we can see  
+that well 25 percent 42 71 percent 100 125 we 
+can see that it the expected value change that  
+is to say the difference compared to having no 
+bet size uh Max is out to round this 70 Mark  
+right uh and on some boards that's what happens 
+on other boards you're going to see it's a little  
+more flat so you'll see like many different 
+sizes are fine on some boards we get more of  
+a hump where one size is best uh depending on how 
+many different playable strategies there are but  
+overall uh the EV difference is not huge right 
+it's a you know this one scales between zero and  
+3.6 percent between the worst and the best size 
+so simply put simplifying doesn't lose a whole  
+lot of EV on the Flop anyway uh because it can 
+course correct later straights so a concept I've  
+referenced throughout this video is what's called 
+betting volume and this is just a fancy way for  
+saying how much money you're putting into the pot 
+right now you might as well just call it average  
+bet size it means the same thing so the way you 
+quantify this is to take the sum of the sizes  
+times the frequencies that means bet size 1 times 
+frequency one plus bet size 2 times frequency two  
+and so on until you get some average bet size now 
+if we do that with our original strategies we're  
+looking at this is the general solution which had 
+a more complex strategy four different batch sizes  
+four different frequencies uh here I'm showing 
+it in big blinds rather than percentage of pots  
+just for clarity works out to two big blinds so 
+in this case we were betting on average between  
+all four of these sizes two big blinds into a 5.1 
+big blind pot okay now let's go take a look at the  
+simplified strategy well again here we can see 
+3.8 big blinds times 51.7 percent and that works  
+out to about two big blinds again it is a very 
+small difference here but essentially the solver  
+is going to try and fight to use approximately 
+the same betting volume in a lot of cases not  
+always but in a lot of cases if you bet bigger 
+it's going to bet less frequently if you bet  
+smaller it's going to bet more often depending 
+on the efficiency of the BET size so generally  
+speaking even when you simplify it's still going 
+to be putting in the same amount of money overall  
+as long as you're using some reasonable sizes 
+so going back we answered all of these questions  
+already we can see that how often we bet is 
+largely dependent on whether or not we're sizing  
+up or down and it's going to try and make it so 
+it's a similar betting volume overall and we saw  
+that simplifying well on the Flop especially 
+doesn't lose much EV at all so the reason to  
+play a more complex strategy is not to make more 
+money let's just admit that right off the bat the  
+theoretical gain from a complex strategy is well 
+basically below the margin that we can accurately  
+measure EV all right it's that small so the 
+reason to play a more complex strategy has to do  
+with things like bet sizing theory has to do with 
+whether or not you want to take your opponent off  
+their game whether you think you can exploit some 
+sort of bet sizing elasticity tendency of those or  
+if you just like to mix it up right what is not 
+a real argument is saying that you play a more  
+complex strategy because it's higher EV because 
+frankly it's just not really much higher EP okay  
+so let's move on to another test that we can do 
+and this is something we did to Benchmark our  
+Dynamic solving algorithm and to do this we tested 
+500 heads up River spots to find out why River  
+spots well because on the river you can't course 
+correct later streets and the solver will lose the  
+maximum amount of money so we wanted to deliver 
+the most pain possible to our simplifications uh  
+really just just punish it as hard as possible as 
+it turns out compared to playing a very complex  
+strategy on the river our Dynamic solving 
+algorithm loses about point three percent  
+pot as compared to playing a very complex strategy 
+with like six or seven different sizes and we also  
+tested against the single best size so that is to 
+say our Dynamic algorithm tried to find the best  
+size and then we solved all the sizes manually 
+and compared turns out uh yeah also barely losing  
+an EV so it's a pretty accurate algorithm so my 
+point is simply that Dynamic solving by itself is  
+is pretty accurate as far as it goes it's not 
+going to lose much EV compared to playing any  
+other one size strategy and compared to playing 
+some impossibly complex strategy that you have no  
+chance of implementing uh it loses maybe a third 
+of the pot so simplifying down to one size really  
+doesn't lose much EV on the Flop and even on 
+the river if you want to learn more about these  
+benchmarks we have an article I'll link that in 
+the description something else I want to show you  
+guys is what is the optimal bet size so we didn't 
+just compare the dynamic sizing algorithm we also  
+tried to find the best possible bet size on the 
+river if you're going to simplify to one size  
+and so what we did is we measured the EV loss 
+of playing for example half pot bats in every  
+single spot compared to the more complex strategy 
+so out of position we can see that out of position  
+prefers about a half pot bed this uh had the 
+lowest median loss rate of about 0.39 so if you're  
+going to simplify to one size out of position on 
+the river about a half pot bet should do it in  
+position preferred a larger size so we can see 
+the the size that lost the least was about 75  
+percent now that said there are some boards that 
+really wanted to go pot or a little bit bigger  
+but if you're going to go one size everywhere 75 
+percent to 100 percent in position on the river is  
+the way to go and I'll be honest I was a little 
+surprised to see how little simplifying to one  
+size loses and we could see Dynamic of course 
+had the best performance because it's going to  
+use a smaller bet when appropriate and a larger 
+bet when appropriate but hey if you really want  
+to simplify here's the numbers for you so you can 
+have a look at this play around with this graph  
+and let me know what you guys think let's talk 
+about custom solving best practices so I've shown  
+you how to experiment with it a bit but the very 
+first thing you should do if you're new to this  
+is read the guides we have built an extensive 
+database of guides that teach you everything  
+there is to know about custom solving we've 
+got these videos we've got this overview page  
+we've got this article that'll walk you through 
+how to build custom Solutions all right so you  
+can see how to get started building the bedding 
+tree saving loading organizing everything you need  
+to know is in these guides you want to learn how 
+to train against your Solutions how to practice  
+against them we have a guide for that as well 
+right here how to train against custom Solutions  
+okay it's actually pretty straightforward if you 
+have just some common questions and you want to  
+try and find a quick answer well we've got that 
+here as well so the very first thing to do is to  
+read the guides and master the tools that way you 
+can get the most value from your subscription the  
+next thing to do when you're building a betting 
+tree is to space your bet sizes far apart  
+realistically a solver is going to have a very 
+hard time distinguishing between the trade-offs  
+of a 55 and a 67 pot size bed you really need to 
+space those bet sizes further apart don't try and  
+use like a million sizes and Clump them close 
+together it's not a good idea what I typically  
+suggest is to have three sizes your small medium 
+and big bet but you should also pay attention  
+to the stack to pot ratio for example if you're 
+studying a four bet pot where there's only like an  
+spr of two uh you're not going to need an overbed 
+right maybe your biggest size would be like you  
+know maybe use like 20 percent fifty percent all 
+in that's plenty good enough for like a four bed  
+pot but in a single raised pot for example you 
+might want to spread it out a bit more you know 33  
+75 125 spread your bat sizes out a little bit and 
+that brings me to my next point which is to reuse  
+the bedding trees okay you don't need to remake 
+the bedding tree each and every time if you've  
+gone and customized sizes for your specific spot 
+you can reuse those and let me show you how so I'm  
+back in my custom solution here I'll hit edit 
+here and here we can see that we've built this  
+specific bed sizing scheme this one's not overly 
+complicated but what we can do is just save it  
+and we'll call this my betting tree okay and save 
+this as a new bedding tree and we can also go and  
+load old ones so here we see I have all of these 
+different bedding tree schemes and I can go and  
+reuse these for different spots something else I 
+can do is I can choose to only load the BET sizes  
+right so for example here's my more simplified 
+one that I use for practicing against the solution  
+this is again this is same ranges same stack same 
+pot but now I'm using my pre-loaded bedding tray  
+which has three batch sizes and is uh pretty 
+easy to to play next you'll want to make sure  
+that if you're doing any sort of EV comparisons 
+always always compare at the root node of the  
+solution rather than the current node and that's 
+because players can change their strategies on  
+earlier streets if you give them different sizes 
+or node lock something so you want to be careful  
+to compare the root node and finally uh just 
+experiment right some people they don't want to  
+experiment they just want to learn and study and 
+memorize uh me personally I love making graphs and  
+trying different things and giving it wacky sizes 
+and trying to break it I love experimenting with  
+silver because I can learn new ideas from changing 
+the parameters and studying those underlying cause  
+effect principles so don't be afraid to mess 
+around with it and try something new if you've  
+made it this far congratulations you're about to 
+get the little pot of gold that I left at the end  
+so one of the most common questions we get at GTA 
+wizard is how do I prioritize spots what do I know  
+what to study next and how do I quantify this 
+that's what we're going to cover now so a spot  
+in poker is like a button versus big blind single 
+race pot cut off versus small blind three bed pot  
+it's a configuration and so what we want to know 
+is what configurations are the most important as  
+in how much do they contribute to your win rate 
+how do we quantify this and how do we figure out  
+what we should practice next so I spent some time 
+trying to quantify this now what most coaches and  
+Stables are doing is they're calculating a sort 
+of spot EV which is to say how often does the spot  
+occur multiplied by how big the starting pot is so 
+we're going to do just that let's figure out what  
+configurations are the most valuable and how we 
+can figure out what you should be practicing next  
+so let me show you what I've done I have looked at 
+42 different configurations starting from button  
+versus big blend single raise pot all the way down 
+to some of these three bad four bet pots and I've  
+used special software to calculate the frequency 
+that each of these spots occur accounting for card  
+removal and bunching effect and all of that and 
+then we have we know the starting pot size and we  
+can calculate the expected value of that spot so 
+for example a button versus big blind pod single  
+raised pod occurs about five percent of the time 
+in a GTO six Max game and I'm using um nl500 rake  
+structure with GTO sizes here that means that this 
+spot contributes significantly to our win rate  
+because it occurs very frequently but we'll also 
+see for example a button versus small blind single  
+raised pod occurs infrequently it's not very 
+common but because the pot is much bigger it has  
+a larger impact on our win rate which we can see 
+down here and so this EV column is basically just  
+frequency times the pot size and that tells us how 
+important different spots are to practice if we  
+sort this from A to Z we'll see that most of these 
+single raised pots these are going to be the most  
+important followed by some of these three bet and 
+four bed pots and if you're new to Poker what I  
+would recommend is just take for example like the 
+top five or ten spots here and just practice these  
+first because these are going to have the most 
+significant impact on your win rate now that said  
+I clearly admit that for different formats for 
+example if you're like a full ring live player I I  
+kind of doubt that blind versus blind is the most 
+common spot in a live cash game probably people  
+are opening too wide so you get more of this 
+stuff under the gun versus big blind kind of stuff  
+or maybe you get more cold call spots like this 
+regardless it gives us a nice starting place to  
+figure out what the most important spots are 
+now I wanted to improve on current methods  
+that people are using so something else I 
+did was to calculate the average pot size  
+right on a button versus big line single race 
+pod we start at five and a half big plans on  
+the Flop but chances are people are gonna bet 
+and put more money in and so I also calculated  
+how big the average pot is going to be in GTL and 
+you can change the EV calculation here so average  
+pot size and this reorders uh the EVS a little 
+bit but we still see very similar Trends overall  
+and here we can see again which spots are going 
+to be more important to us now I wanted to take  
+it a step further because sure maybe we know 
+like the top five 10 most important spots but  
+um what if you want to practice certain spots what 
+if you spend a lot of time practicing for example  
+single race pots and so you're getting a decent 
+score there in in our practice mode and this is  
+just the GTO Wizard score so you can create like a 
+drill for these single race pots and type in your  
+score then what we're going to see is that there's 
+a practice priority column and this indicates what  
+you should practice next the way this one works is 
+it looks at your GTA Wizard score and it says okay  
+how much EV can we gain from practicing 
+this spot next the way this works is by  
+taking 1 minus your GTA Wizard score and then 
+raising that to some power in this base I've  
+chosen three and this just kind of reflects the 
+fact that it's much easier to go from 70 to 80  
+than it is to go from 80 to 90 or from 90 to 
+95 so it respects the fact that spots are doing  
+worse in like for example if I put in like an 
+atrocious score in these four bed pots let's say  
+50 or 50 it's going to say no you really ought to 
+practice this next even though it's uncommon you  
+can easily up your score here and gain a lot of 
+win rate right uh so you can adjust this parameter  
+I recommend a value between two and four uh 
+and this just basically determines how much  
+um it's gonna weigh your current GTR Wizard 
+score and how much that should affect your  
+practice priority so let's put that up to 70 
+let's say for example that okay we know we're  
+doing pretty good in single race pots what 
+should we practice next okay well let me so  
+sort the practice priority and okay we should do 
+some button versus blind three bet pot stuff so  
+let's say we practice that a bit and we bump our 
+score up to let's say 80 and 82 percent okay now  
+these are looking pretty good what should we 
+do next well again I'm just going to sort this  
+table and okay so now it's time for some cut 
+and cut off versus button three bet pot stuff  
+so we keep going like that uh slowly operating 
+our score and improving one step at a time and  
+again the goal of all of this is to just know 
+where you should focus your attention next and  
+how you can get the most value for your training 
+time so that way you're not practicing spots that  
+are going to add very little to your win rate 
+you're practicing spots that are more important  
+um now something else I wanted to do here was to 
+look at the aggregated stats so I've grouped these  
+in three different ways uh on the left hand 
+side here what we see is pre-flop aggressor  
+in position three bet pot or pre-flop aggressor 
+out of position three bet pot so on and so forth  
+we can see this is just the expected value that 
+single race pots um by far in position single  
+raised Parts is going to add the most to your 
+win rate followed only by out of position so this  
+includes blind versus blind and some cold call 
+spots uh and Then followed by some three bad pots  
+next I wanted to look at the you know just three 
+bed pots four bed pots and single race pots now  
+you may be tempted to think that um you know 
+it's all Singularity spots but the fact is that  
+uh single raised pots add a lot to your EV but 
+sort of three bed pots there's more three bet  
+pots in total so if we go take a look at the data 
+we can see that there's a whole lot of red stuff  
+here three bet pots there's they're much more 
+there are many more of them exist than single  
+raised pots so uh they account for almost as much 
+easiest singular spots and then four bed pots are  
+basically not as important lastly I categorized 
+Eevee by position and now this isn't win rate by  
+position this is the size of the Paw times the 
+frequency so if you're gonna get really really  
+good at one position in particular I'd recommend 
+it be the big blind and this kind of makes sense  
+because this is where the majority of your losses 
+should come from from trying to defend your blind  
+being forced to put in money and the rest of it 
+just kind of follows what you might expect button  
+next small blind after that and so on and so you 
+can use this to get a sense of the the overall  
+group stats I'll make a copy of this spreadsheet 
+and put it in the description again if you want  
+to play around with it please do not request 
+access I'm not going to give it to you guys  
+select file make a copy file make a copy don't try 
+and request access thank you very much okay so to  
+wrap up this way you quantify the value of spots 
+is to take frequency times the pot size times some  
+performance metric that tells you what you should 
+practice next and the idea is very simple we're  
+going to measure the performance of different 
+spots and practice practice until you slowly  
+improve so the very final part of this lecture 
+is showing you how to practice against custom  
+Solutions now we just put out a video about this 
+so I'll keep it brief so you want to get started  
+training next now if you just have a starter or 
+premium subscription eat this spot importance  
+method will still work just fine for you what 
+you need to do is open up your drills page and  
+go and make different drills for different spots 
+uh so we have some pre-made drills here you can  
+try if you don't want to set it up yourself 
+but you can also customize your drills so for  
+example this is a button versus cut off three bed 
+pot test that I made using the dynamic algorithm  
+and there's my GTA Wizard score after 50 hands 
+not a fantastic score I will say that I find  
+the dynamic algorithm is a little more punishing 
+than the one where it just mixes every size and  
+lets you get away with weird lines when you're 
+simplifying to one size not quite so forgiving  
+however it's very good practice but if you want 
+to test something a little more broad you can do  
+that as well and you can always find your detail 
+Wizard score in these tables here uh just select  
+your format your drill and practice it that 
+way now to make your own new drill what we're  
+going to do is we're going to create a new drill 
+here so first of all we'll select our solution  
+let me change that over to cash and so if you're 
+practicing pre-made Solutions of course you just  
+want to select one of these but I want to show 
+you how to make custom Training Solutions so we're  
+going to go ahead and set up a new solution and 
+let's go and pre-fill some spots let's say it's  
+going to be a hijack versus cut off three bed pot 
+all right it's filled in the ranges it's filled  
+in the stack and the pot size and let me go and we 
+could use automatic trees that's fine if you want  
+to do that I have my own Dynamic bed sizing tree 
+that I want to use for these types of spots so  
+let me go and find something that's good for 
+three bed pot and this one will work great  
+so these ones have 25 50 75 and so three batch 
+sizes three raised sizes at each decision Point  
+uh these are my optimized sizes for a three bed 
+pot these are the sizes I choose to practice okay  
+you can choose your own sizes make it as simple 
+or as complicated as you want I'm gonna go ahead  
+and create a new solution all right and let's go 
+ahead and just give it a name so let's I'm going  
+to save this I'm going to call this um what 
+is this hijack versus cut off three bat parts  
+okay save and you know what let's go ahead 
+and just limit the session to 50 hands  
+um we'll save it again hijack versus cut off three 
+bad pots 50 ands sure all right and so we're gonna  
+go ahead and find that drill just a sec and here's 
+my new drill you can see I've given a little new  
+drilled tag so I can find it easily because I have 
+many different drills but from here we can just  
+simply practice it we'll just hit start training 
+and just like that we are diving into a practice  
+session with our Dynamic sizing tree just the way 
+we want it and what do you know we flop top set  
+let's check to the aggressor if they lead 
+out we'll go ahead and slow play this one
+check they bet again oh beautiful we're 
+just gonna slow play no need to rush check
+all in oh wonderful wonderful and we take it down 
+so some tips and tricks for practicing against  
+custom Solutions uh first of all see our guide 
+again if you have Elite try using Dynamic it's  
+a totally different experience when it simplifies 
+down to one bet size it doesn't quite let you get  
+away with as much nonsense so you're kind of 
+forced to learn like good lines save spots in  
+advance so like I like to make different drills 
+for different spots and something else you can  
+try if you're lazy like me is to kind of merge the 
+ranges in some spots so for example I don't want  
+to practice like you know low Jack versus hijack 
+and LoJack versus cut off and hijack versus cut  
+off I just kind of all simplify this to early 
+position versus middle position three bet pot  
+and so what I do is I just kind of average the 
+the ranges out a bit and that just means I have  
+less things to practice and they're strategically 
+similar enough that I don't care enough to learn  
+the difference but if you want something more 
+nuanced you do you I'm just being a little lazy  
+okay guys that's my lecture now if you have any 
+questions leave them down as a comment below or  
+reach out to our Discord server we're always happy 
+to talk theory there that's my video guys I hope  
+you enjoyed it I hope you got something out of it 
+thanks for watching and as always happy grinding

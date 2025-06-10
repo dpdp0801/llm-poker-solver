@@ -1,0 +1,70 @@
+### TOPIC: suited connectors
+Suited connectors are some of the most overplayed hands in poker, with many players often saying things like “I’d rather have 87s than AK” and playing their suited connectors as if they were the nuts.
+Suited connectors have their place in the game of Texas Hold’em and can be very profitable hands, but only when played correctly and at the right time.
+On the other hand, these hands can also be extremely expensive when misplayed on a regular basis, which is a trap novice players fall into.
+If you want to build a strong game and consistently win, you will need to learn how to play your suited connectors. In this article, we will share the best tips on how to play suited connectors correctly and stop leaking chips in unprofitable situations.
+This may seem like a very basic question to ask, but before we can talk about how to play them, we need to clearly define suited connectors.
+Suited connectors are connected cards of the same suit, which include card combinations such as T9s, 87s, and 54s. Hands like T8s or 64s are not suited connectors, and this is an important thing to keep in mind.
+When playing, players often forget about this very important concept and play the various suited gappers like suited connectors, which causes them to play way too wide of a poker range.
+For example, opening a hand like 98s with a 100bb stack from an early position is acceptable in terms of theory, but opening 97s in the same spot is too loose.
+If you take a look at the optimal preflop charts, you will notice that suited connectors are some of the first hands added into various opening and 3-betting ranges, while suited gappers only come into play when the ranges are significantly wider.
+So, keep in mind that when talking about suited connectors, we are only referring to hands that have no gaps between the cards, which is a fairly condensed range of card combos.
+Just like there is a difference between suited connectors and suited gappers, there is also a difference between high and low suited connectors.
+There are many reasons that high suited connectors are better to play in almost all scenarios than low ones, and this is clearly reflected in the optimal ranges across the board.
+Whether you look at opening, 3-betting, or calling ranges, you will notice that solvers prefer higher suited connectors over lower ones in all situations.
+Some of the reasons higher suited connectors are preferred include:
+Small suited connectors like 65s or 54s may have the same chance to flop a pair or a draw as the higher ones, but the pairs and draws they make are much weaker.
+For example, 54s has only a 1% chance of flopping top pair. On most boards, flopping a pair with such a hand means very little, as such a pair is rarely the best hand by showdown.
+What’s even more, straight and flush draws that low suited connectors make sometimes run into higher draws, which can lead to costly coolers.
+Higher suited connectors like JTs and T9s, on the other hand, flop top pair a portion of the time and make straights and flushes that can end up being on the winning side of those same coolers.
+Low-suited connectors are not very valuable, especially when playing loose and splashy games. They lose much of their fold equity and can put you in difficult situations.
+One of the most common mistakes poker players make is that they treat their suited connectors the same regardless of table position.
+However, there is a huge difference in your ability to profitably play suited connectors from early position compared to late position.
+In fact, only the best of suited connectors are fit to be played from early position, almost regardless of stack depth and game type.
+You will still want to open your QJs, JTs, T9s, and perhaps 98s from UTG and UTG+1 at almost all stack depths, but all lower suited connectors should be discarded.
+The chances of getting 3-bet and being forced to fold your hand or play it out of position are too high with baby suited connectors, which is why the safest course of action is to simply fold them and only play when your hand has a reasonable potential to flop top pair along with all the drawing possibilities.
+As your position gets better, so do the prospects of playing suited connectors if you are not facing a raise from one of the earlier positions.
+A quick glance at our deeper stack tournament preflop opening charts will show you that the optimal course of action is to raise nearly all suited connectors from the button and very close to all of them from the cutoff and hijack.
+When raising first from one of the late positions, you have a very reasonable chance of winning the blinds or getting heads up with the big blind, both of which are favorable scenarios.
+Even hands as weak as 54s can do reasonably well in such scenarios, as they will flop enough equity on the flop, while your preflop raise will allow you to represent a big hand on a variety of flops.
+In fact, GTO poker solvers recommend playing a ton of suited gappers as well from later positions, especially the button, for the same reasons.
+If your cards are suited and reasonably well-connected, they are good enough to open for a raise from the button or the cutoff, as long as you have some chips left behind to work with.
+Try PeakGTO for FREE and up your game!
+So far, we have discussed how to play suited connectors as the first player into the pot. Now, it is time to think about what to do when we are facing a raise.
+The way to continue with suited connectors against a raise should depend on your position, the effective stack depth, and the game type you are playing.
+Tournament and cash game strategies differ quite a bit in this particular area, as chip conservation is much more important in tournament poker, while cash games are played purely for cEV.
+Looking at solver outputs, you will notice that the optimal strategy in tournament poker recommends a lot of calling with suited connectors against a raise, while cash game strategy prefers 3-betting or folding the majority of suited connected hands.
+Low suited connectors such as 65s or 54s are almost always to be folded in cash games, while some of the higher ones like JTs and T9s act as great bluffing candidates in some spots.
+Playing from the small blind, cash game strategy recommends only playing T9s+ in terms of suited connectors and always 3-betting when you decide to continue with these hands.
+In tournament poker, lower and middling suited connectors can act as good bluffing candidates, while higher suited connectors can be called against early position raises.
+The strategy changes completely in the big blind, regardless of the game type, as suited connectors become obligatory continues, with your only dilemma being whether to call or raise them.
+For a more detailed look into the particulars of how to play your suited connectors against a raise, we recommend having a look at the preflop charts for your game of preference and examining how calling and 3-betting ranges change based on position and stack depth.
+We have discussed how to play suited connectors as the original raiser and when facing a raise in different positions. However, there are many different scenarios to discuss, and it would not be possible to teach you all there is in a few short paragraphs.
+If you want to truly master playing suited connectors in different scenarios, you should refer to our preflop charts and study how your ranges should change based on position, stack size, and action.
+But even before you master all the ranges and know exactly how to play your suited connectors in every situation, here are a few tips you can keep in mind to make your decisions easier and get better results with your suited connectors:
+Position is crucial in any poker situation, but it becomes even more so when playing suited connectors.
+A good chunk of suited connectors’ value comes from their potential to flop draws and implied odds. Both of these things are best utilized in position.
+Playing suited connectors out of position too often will cause you to bleed chips and fall into many uncomfortable situations that you simply can’t make profitable, no matter how hard you try.
+For that reason, you should limit yourself from getting too involved with such hands when out of position and even fold them until you feel comfortable with your ranges and understand how you will proceed postflop on various boards.
+Whenever you raise or 3-bet with suited connectors, remember that part of your goal is to leverage your fold equity to get players to fold better hands.
+This means it is essential to play suited connectors in spots where your opponents are capable of folding their cards, and this is especially true when you choose to 3-bet.
+If you are playing against particularly splashy opponents who don’t like to fold to 3-bets, re-raising with suited connectors makes little sense, as you won’t be able to make them fold, and you won’t have the best hand going to the flop.
+If you want to get aggressive with suited connectors, do so against players who are capable of folding a better hand to your raise, as well as those who will not continue enough on the flop.
+Making a low straight or trips in a 3-bet pot may sound like the optimal scenario to stack your opponents, but the truth is it simply doesn’t happen that often.
+What’s even more, even when you do make a big hand with low suited connectors, your opponent will often simply not have a big hand and decide to give up on the flop or the turn, and you won’t be getting all of their chips.
+Instead of dreaming of the perfect cooler setup where you win all the chips, you should be thinking about how your hand plays long-term across different boards that could come.
+For this reason, high suited connectors that have the potential to flop top pairs, overcards, and high straight and flush draws make for much better hands to play before the flop.
+The next time you look down at 54s UTG in a splashy cash game, fold your cards and wait for a better spot to come along.
+Depending on position and stack sizes, you will want to raise at least some suited connectors in almost all situations. However, that does not mean you have to get married to them.
+If you end up facing a 3-bet after opening the pot with your suited connectors, it is perfectly acceptable to fold your cards and move on to the next hand.
+It can be very tempting to take your suited connectors to the flop against a 3-bettor and try to win a big pot, but the truth is you won’t get that chance often enough.
+Your opponent will usually continue with a c-bet after a preflop 3-bet, and you will not hit the board often enough with your connectors to be able to continue past the flop.
+If facing an extremely small re-raise, you may be priced into a call, but unless the stacks are very deep and you know your opponent is extremely likely to pay you off when you make a big hand, try not to get too involved with suited connectors when you face resistance.
+When you play a pot with suited connectors and get action, you are usually not a favorite against your opponent’s range.
+However, by playing your suited connectors aggressively, you will be able to make players fold better cards before the flop and continue to fold their cards on flops and turns even when you don’t improve.
+Suited connectors have a high chance of flopping various draws, which makes them just good enough to keep barreling with on a lot of flops and turns.
+If you are not ready to be aggressive and make those bigger bets on later streets, don’t bother opening suited connectors in the first place, as you simply won’t be able to make a big hand often enough.
+Playing suited connectors may seem simple enough, but the truth is they are one of the most complex hand groups in all of poker.
+While you will definitely have to include suited connectors into your ranges across the board, knowing which of them to use in which spots is a whole science in itself.
+You will learn how to improve your selection of suited connectors as you advance in your poker strategy, but for the time being, remember that high suited connectors are almost always worth playing, while the lower ones only work when you can maximize your fold equity with them.
+If suited connectors sound a bit scary right now, ease into it, play only the best combinations, and expand your ranges to include the weaker ones as well as your comfort levels rise. This way, you will learn how to maneuver the streets like the pros.

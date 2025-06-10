@@ -1,0 +1,48 @@
+### TOPIC: 4bet pot oop as preflop caller
+4-Bet Pots OOP as the Preflop Caller
+4-bet pots are often uncomfortable to play. Some of the reasons include:
+ A lot of chips are already in the middle early on in the hand
+Ranges are tighter than the more commonly occurring spots
+Any postflop mistakes are more costly due to the preflop action
+The most difficult configuration of this type of spot involves playing as the preflop caller from out of position (OOP), as your range will be weaker and you will lack the inherent advantage that position gives you.
+To study these spots, we’ll be using a 100bb SB vs BTN cash game example. Looking at the flop report, something intriguing immediately sticks out:
+Manhattan plot of all 1755 Small Blind first in flop strategies
+
+Ace-High Boards
+While the vast majority of boards receive a range-check—as we might expect from the preflop caller—quite a few Ace-high and Queen-high boards have the SB donking for 20% pot, particularly where the other two cards are middling.
+A98tt is the prime example of this phenomenon, where SB donks nearly all the time with most of its range.
+SB donk-bet flop strategy vs BTN (preflop 4-bettor) on A98tt
+The only exception on this board is King-x hands that don’t contain a flush draw, and the rest of the range checks a minor amount to compensate.
+But why does this happen at all? Intuitively, leading into the preflop aggressor on an Ace-high board seems suicidal, especially in a 4-bet pot where they are more likely to hold an Ace compared to when they have a wider range.
+The answer lies in the fact that the SB’s range has been quite condensed as well by the preflop action:
+SB makes many top pairs on Ace-high boards (about as many as BTN does, though BTN holds the strongest Ace-x combinations).
+And when the two lower cards are middling, they can also make sets and two pairs that BTN does not have.
+Additionally, BTN’s range contains a decent amount of KK and QQ that dislike seeing an Ace-high flop, while the SB does not contain such underpairs as they would’ve been shoved preflop.
+Since SB does not have a significant disadvantage on top pair hands, and has flopped a significant nut advantage, leads play very well.
+
+King-High Boards
+These boards are where the most concessions are made to the IP player. The majority of King-high boards will give IP a massive range and nut advantage, as they will have top pair, top kicker and sets where we do not have any. For this reason, the solver recommends a range-check strategy for almost every single King-high board. Afterward, IP is allowed to play a range-bet strategy, splitting between 10% and 20% pot-sized bets depending on the texture.
+As a trend, IP prefers 10% when the flop is monotone and/or disconnected, adjusting to both the equalizing factor of flushes in range, as well as the lack of easy continues for OOP on highly disconnected boards.
+When facing these range-bets, OOP must still play aggressively despite the large disadvantage; Our example flop here is K84tt, where IP splits almost perfectly evenly between 10% and 20% in theory.
+BTN c-bet flop strategy vs SB on K84tt
+Against 10%, OOP defends around ⅔ of the time, close to half of which is done by raising to a small, non-all-in size. These raises come largely from King-x combos, nut flush draws, and AQo combinations that contain a heart.
+SB response vs BTN’s 10% pot c-bet
+Investigating this response tells us something else about 4-bet pots; since ranges are so tight already, blocker effects are magnified much earlier than they’d usually become relevant. AQo without a heart is a pure fold, while AQo with a heart always continues. Additionally, AQo is used as a bluff as it has removal to BTN’s strongest top pair combinations.
+To see an example of this, we can look at the same board but in an SRP and compare using the “Blockers” tab.
+SB’s frequency adjustments when BTN holds certain cards: single-raised pot
+SB’s frequency adjustments when BTN holds certain cards: 4-bet pot
+We can see that in both scenarios, the cards that generate the most folds from the OOP player are very similar, with the A♥ being the most critical card for generating flop folds. However, in our 4-bet pot, the value of holding the A♥ has over doubled.
+Practically, this means that having a concrete understanding of the ranges that arrive in 4-bet pots is critically important because it is very easy to drift from theory in ways that become very expensive over time.
+
+Lower Boards
+Since ranges in 4-bet pots are concentrated heavily around both players holding high cards and strong pairs, it’s hard to intuitively navigate boards that do not connect strongly with those ranges.
+When viewing GTO strategies on these textures, the big takeaway is that both players’ strategies begin to focus on how to exploit the unimproved high card region of the other’s range. For example, T98r boards see OOP donk-jam for 140% pot with half of their range! This is because OOP has a large concentration of top pair plus straight draw combinations that currently beat hands like AK and AQ, and donk-jamming these hands alongside a range of high card bluffs is the best way to maximally realize equity against these high card hands.
+SB donk-bet flop strategy vs BTN on T98r
+Facing this donk-jam, IP has to call off any pair, and still must dig deeper and call AKs combinations almost pure to reach the calling frequency to remain unexploitable facing SB’s surprising action.
+BTN response vs SB’s donk-jam (140% pot)
+When boards become even lower, both players begin to use this flop-jam strategy with some regularity, as draws become nearly nonexistent and the emphasis on how to realize equity with overpairs is heightened.
+
+Conclusion
+When playing in 4-bet pots, mastery begins by fully understanding the ranges that players reach the flop with. A typical feature will be how narrow the ranges are due to the explosive preflop action.
+As a result of the above, blocker effects tend to magnify sooner, and we must already choose carefully on the flop which combination we use for certain actions.
+Aggression is mandatory! Even in large pots against strong ranges, we must be able to find aggressive lines (including with bluffs) to profit.

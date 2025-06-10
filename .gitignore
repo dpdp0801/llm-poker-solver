@@ -1,0 +1,67 @@
+# Large model directories
+stageA/stageA_bf16*/
+stageB/*/
+
+# Solver outputs
+scripts/solver/solver_outputs/*
+scripts/solver/solver_test_outputs/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large model files and outputs
+*.safetensors
+out/stageA/stageA_bf16*/
+out/stageB/
+scripts/solver/solver_outputs/
+scripts/solver/solver_test_outputs/
+scripts/solver/example_solver_outputs/*.json
+
+# Training data
+scripts/training_data/**/*.jsonl
+texas_solver/resources/compairer/card5_dic_sorted.txt
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

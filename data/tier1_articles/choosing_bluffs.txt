@@ -1,0 +1,53 @@
+### TOPIC: choosing bluffs
+From Gutshots to Airballs: Choosing Your Bluffs
+Whenever you’re running a bluff, it’s reassuring to have a backup plan like some draw equity that could enable you to win the pot even if your opponent stubbornly refuses to fold. But is it a good strategy? As it so often is in poker, the answer is “It depends.” This article will deal with the questions of when and why it may be best to bluff with draws versus extremely low-equity “airball” hands.
+
+The GTO Approach
+GTO poker strategy is all about giving your opponents tough decisions (as opposed to exploitative strategy, which is about predicting what your opponent will do). So, let’s start by looking at things from the perspective of the player facing a bet. What is the dilemma you are trying to present them with when you bet a weak hand?
+If your answer is that you’re trying to give them a tough decision between calling and folding, you get partial credit. There is one region of their range—their medium-strength or “marginal” hands—which face this sort of decision as a result of your bluffs. Here’s the complete answer:
+Marginal hands, as discussed above, must choose between:
+Calling to beat bluffs, and
+Folding to avoid paying off value
+Strong hands must choose between:
+Calling to further induce bluffs, and
+Raising to deny equity to and get value from draws
+Weak hands must choose between:
+Folding, and
+Raising to pressure your own draws and marginal hands
+When we frame the problem in this more comprehensive way, we can see why it is often important to barrel with both equity and air.
+Marginal Hands
+A range consisting of only value hands and strong draws doesn’t offer much of a decision to marginal hands. They would rather fold than put more money in when they are, at best, a small favorite. The risk that you might be barreling with very little equity is what gives these marginal hands tough decisions.
+Strong Hands
+Conversely, strong hands would have little incentive to raise if you never barreled with draws. Against a perfectly polar range consisting only of very strong value hands and very weak bluffs, there would be no point in raising. Your value hands would keep betting later streets anyway, and your bluffs would never pay off the raise. The risk that you might be bluffing with equity (or betting for thin value, planning to check later streets) is what gives these strong hands tough decisions.
+Tough decisions are the result of different types of hands working in concert to prevent different parts of your opponent’s range from having obviously correct options at both current and future decision points.
+Asking whether you should barrel with draws or with air is a bit like asking whether you should use a hammer or a saw to build a house. Building a house is not a single job; it is the final product of many smaller jobs, each of which requires different tools to complete. The same goes for giving your opponent tough decisions; it results from different types of hands working in concert to prevent different parts of your opponent’s range from having obviously correct options at both current and future decision points.
+Board Coverage
+Barreling isn’t just about giving your opponent tough decisions on the current street. It’s also about ensuring you’ll have the tools to do the same thing again on future streets, no matter which cards come.
+This is why you can’t just calculate a bluffing frequency and then build out a range by starting with your best draws and working your way down from flush draws to open enders to gutshots to airballs until you hit that frequency. If you were to do this, you wouldn’t have much to bluff with on rivers that completed your flush draws (nor would you have flushes in your checking range on these same rivers). Your range would consist almost exclusively of hands that were already strong enough to value bet on the turn and hands that rivered flushes, and your opponent could exploit you by not paying off your value bets.
+Barreling isn’t just about giving your opponent tough decisions on the current street.
+This is what makes K♠J♦ a nice bluffing candidate. It may not have much equity when called, but it has a surprising amount of EV because you can anticipate profitable bluffs when you hold the nut flush blocker on spade rivers. Essentially, this hand has implied odds on flush rivers just as a flush draw would. Rivering a blocker is not worth as much as rivering a flush, but both will result in a hand over-realizing its equity with a profitable bet. Setting up for that possibility makes both good candidates for barreling the turn.
+Not All Folds Are Created Equal
+If you bluff this turn and your opponent folds, how much do you win? Guess what: it depends!
+That’s right, the answer isn’t as simple as the 9.1bb that are in the pot getting shipped to you, because you would have won that pot some percentage of the time if you checked as well, either by improving on the river or by bluffing. So the real answer is that taking the pot down immediately is worth more to some hands than others, depending on how they interact with the opponent’s folding range.
+Flush draws have a better chance than airballs of winning if their bluff is called, but by the same token, they gain less from folds. When you successfully bluff a flush draw on the turn, you win a pot that you would have won about 20% of the time on the river anyway. When you take down the same pot with a hand like 6♣4♣, it’s worth more because that hand was never going to improve to a winner.
+Taking the pot down immediately is worth more to some hands than others.
+K6 is an especially poor bluffing candidate because it will sometimes win after checking, whether by rivering a pair or occasionally even showing down an unimproved King-high. If it were to barrel and get called, however, it would have virtually no chance of winning against a further strengthened calling range.
+Not All Draws Are Created Equal
+If you’re going to semi-bluff, it’s important that you’re drawing to a hand that will be strong enough to keep betting if you get there on the river. This is the problem 5♠4♠ faces. BB also has flush draws in their calling range, so after betting 125% pot on the turn, betting a 6♠ river with 5♠4♠ is worth barely more than checking it.
+Betting this hand, no matter the size, gains less than 2bb in EV. Compare that to K♠5♠, which gains nearly 20bb by betting in the same scenario!
+If stronger draws are better barreling candidates than weaker ones, how do we explain 65—the low end of a gutshot—purely betting, while JT—the high end of that gutshot—purely checks? The answer comes back to how much each hand gains from fold equity. There are two major factors at work here:
+Overbetting the turn causes BB to fold lots of 9x and 7x. While both JT and 65 benefit from that to some degree, 65 benefits more because it can’t beat those hands by checking and rivering a pair. Although JT would still love to make those hands fold, it doesn’t value those folds as highly because it retains equity against those hands by checking.
+Overbetting also causes BB to fold JT, which actually improves the value of rivering the low end of the straight! Unlike flush draws, the gutshot is a weak enough draw that you can actually make your opponent fold stronger ones, clearing the way for you to value bet with confidence should you river the straight.
+Semi-Bluffs Aren’t the Only Hands With Equity
+When we talk about bluffing with equity, we usually think of semi-bluffing with a flush or straight draw and perhaps some live overcards. But sometimes, a weak pair can have the same effect, causing better hands to fold while having equity against the opponent’s calling range. Some of that equity comes from improving on the river (which also provides board coverage in the form of unexpected strong hands on rivers where draws miss), but some of it comes from showing down unimproved on blank rivers.
+When you overbet K♣2♣ on this A♠9♣7♥2♠ board, you sometimes cause better pairs to fold and sometimes get called by draws you’re ahead of or even dominating (K♠J♠, for instance). On a blank river like the 3♦, you can either check and take some showdown value or leverage your blocker to 22 and A2 to keep bluffing with a 264% pot shove.
+Barreling this hand also gives you something to bluff with on a river card like the 8♠, which completes many of your semi-bluffs:
+Shoutout to Uri Peleg, who first explained this concept to me on an all-time great episode of the Thinking Poker Podcast.
+An Easy, Exploitative Answer
+All of the above is important theory to understand, not just for this situation, but for thinking about early street range construction in general. That said, if you’re currently playing in weak fields and want a quick-and-dirty guide to barreling, here you go:
+Bluff with draws when you expect your opponent to respond mostly by folding or calling, and bluff with air when you expect them to respond mostly by folding or raising (which occurs most commonly when they could comfortably raise all-in).
+
+Conclusion
+The key to barreling effectively is to think beyond your own hand to your opponent and their range. How can you serve up tough decisions to their marginal hands? To their strong hands? To their weak hands? How can you set yourself up to do the same on as many rivers as possible? The best bluffing candidates will tick more than one of these boxes at once.
+Such planning is essential to playing rivers effectively as well. When you think deeply about the reasons why you are including various hands in your turn barreling range, you can make better decisions about whether to triple off on various rivers.
+Ready to practice your barreling skills? Import this drill to play more 100bb cash game scenarios like the example from this article.

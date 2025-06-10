@@ -1,0 +1,33 @@
+set_pot 5.5
+set_effective_stack 97.5
+set_board Kc,Js,4c
+set_range_ip 44,54s,55,65s,66,76s,77,87s,88,97s,98s,99,A2s,A3s,A4s,A5s,A6s,A7s,A8o,A8s,A9o,A9s,AA,AJo,AJs,AKo,AKs,AQo,AQs,ATo,ATs,J7s,J8s,J9s,JJ,JTo,JTs,K4s,K5s,K6s,K7s,K8s,K9o,K9s,KJo,KJs,KK,KQo,KQs,KTo,KTs,Q6s,Q7s,Q8s,Q9s,QJo,QJs,QQ,QTo,QTs,T8s,T9s,TT
+set_range_oop 65s:0.5,76s:0.5,87s:0.5,98s:0.5,A3s:0.5,A4s:0.5,A5s:0.5,AJs:0.5,AQo:0.5,J9s:0.5,JTs:0.5,KJs:0.5,KQo:0.5,KTs:0.5,Q9s:0.5,QJs:0.5,QTs:0.5,T8s:0.5,T9s:0.5,TT:0.5,22,33,43s,44,53s,54s,55,64s,66,75s,77,86s,88,97s,99,A2s,A6s,A7s,A8o,A8s,A9o,A9s,AJo,ATo,ATs,J7s,J8s,JTo,K4s,K5s,K6s,K7s,K8s,K9s,KJo,KTo,Q5s,Q6s,Q7s,Q8s,QJo,QTo,T7s,T9o
+set_bet_sizes ip,flop,bet,33,50,100
+set_bet_sizes ip,flop,raise,75
+set_bet_sizes ip,flop,allin
+set_bet_sizes oop,flop,bet,33,50,100
+set_bet_sizes oop,flop,raise,75
+set_bet_sizes oop,flop,allin
+set_bet_sizes ip,turn,bet,33,50,100
+set_bet_sizes ip,turn,raise,75
+set_bet_sizes ip,turn,allin
+set_bet_sizes oop,turn,bet,33,50,100
+set_bet_sizes oop,turn,raise,75
+set_bet_sizes oop,turn,allin
+set_bet_sizes ip,river,bet,33,50,100
+set_bet_sizes ip,river,raise,75
+set_bet_sizes ip,river,allin
+set_bet_sizes oop,river,bet,33,50,100
+set_bet_sizes oop,river,raise,75
+set_bet_sizes oop,river,allin
+set_allin_threshold 0.67
+build_tree
+set_thread_num 16
+set_accuracy 0.6
+set_max_iteration 301
+set_print_interval 10
+set_use_isomorphism 1
+start_solve
+set_dump_rounds 2
+dump_result /Users/davidpark/Desktop/llm-poker-solver/scripts/solver/solver_test_outputs/KcJs4c_CO_BB_SRP_tt_np_bh_dry.json

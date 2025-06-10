@@ -1,0 +1,53 @@
+### TOPIC: river value bet decision
+I’ve got another hand that came from the PokerCoaching cash game Discord channel. But in this case, it was one of my hands. Here’s a link to the entire discussion if you want to dive down the rabbit hole. But I’ll warn you it’s 30-odd posts, some of them quite long. Here are the Cliff Notes…
+I’m playing in the local $5/$10 Texas Hold’em game. Actually, it’s a $3/$5 game with a $10 “rock,” meaning that whoever wins the pot puts out a $10 straddle, and the action starts to their left. In this particular case, the rock was either UTG or UTG+1, so it looked like a fairly normal preflop configuration.
+There are three limps to me on the button, and I find K♥10♦. I made it $60, but before we could go any further, some controversy erupted in the discussion. Among the comments:
+As you can see, we have Team Fold, Team Limp, and Team Raise. Poker is hard.
+I could easily be persuaded to join Team Fold, but there was no universe in which I was throwing in with Team Limp. I wrote:
+“There’s no way on God’s green earth that I’m over-limping. I wouldn’t need more than a whisper of an excuse to fold – anything would do. But if I’m VPIPing, I’m raising. I have the button, they don’t. Somebody 3bets me, they win, fine. But they don’t 3bet me enough. They call and then play a pot out-of-position with a capped range. Poor them.”
+Anyway, I’m driving the bus, so I raise, and only Don, a regular in the game who had limped from UTG+2 or so, calls. Don started with about $1200 and I cover by a little. Don and I have played a lot together – he’s one of the better regs in our pool, and I’m pretty sure he respects my game. Also, we had tangled in a big pot just two nights earlier, which plays into what happens later. Stand by.
+With $160 in the pot, the flop is 10♥-4♥-4♣. He checks. Pretending this was me opening the button and Don defending in BB; poker solvers bet about 70% of the time, but I think there’s a 0.01 BB difference across all bet sizes and checking.
+I bet $60, Don calls without much hesitation.
+Fortunately, the assembled multitude in the Discord was comfortable with this choice.
+There’s $280 in the pot, and the turn makes the board 10♥-4♥-4♣–8♠. Don checks.
+Now, the Machine checks my hand 95% of the time. Wow, I certainly didn’t expect that. I suspect that’s because it fears the Evil Anti-Machine will check/raise it some amount and put it in a tough spot. But it thinks the EV of checking and B75 (betting 75% of the pot) are just 0.01 BB different, so it’s not like I’m losing EV by betting. If this opponent check/raises me, he just has it way more often than I can call, so in my world, it’s a classic bet/fold spot.
+My targets are worse tens (I think he has JTs and T9s a lot) and heart draws. I B80 ($225), Don thinks briefly and calls.
+Again, the Discord crew was on-board with this play. And I wasn’t the only one who was surprised by the frequent checking. Dilly wrote:“The solver checking turn very frequently is interesting. I don’t think Don is supposed to have too many turn check/raises because they should check/raise the small flop bet fairly aggressively. In any event, I expect you to get checked/raised less frequently than the solver, no matter which way you look at it.  Often when the solver is checking a lot with hands as strong as this, it really wants us to polarize and go for big overbet sizes, but I’m not sure that makes sense here given the paired flop. B75 seems fine, though.”
+I need to do some study about why the Machine checks back so much.
+With $730 in the middle, the river misses the flush draw, but does pair the turn eight: 10♥-4♥-4♣–8♠–8♣.
+Don pauses briefly, and checks for the final time. There is about $850 behind in the stacks.
+As is good etiquette in such discussions, I paused the narrative and asked what I should do. But before I did, I added the information that I had alluded to earlier:
+Two nights prior, Don and I had played a big pot. It ended up with me shoving the turn with a flush draw. Don had a strong hand and called, so he got to see that I was willing to make such a play.
+Now what do you think I should do in this spot? I’ve got top pair with a king kicker. The obvious draw has bricked. Here’s what the Discorders thought:
+“The SPR is awkward, but I’m gonna go with shoving. I don’t actually like the sizing but because of [the big pot you played earlier] I think it’s more excusable.”
+“It’s wild that I spent the time writing up all those combo possibilities and didn’t include ATo. I’m fairly confident ATs raises preflop, but ATo is definitely possible.”
+Don doesn’t have JJ+ because he certainly would have raised those pre-flop. He folds his busted heart draws (unlike Dilly, I don’t think he’s going to hero-call with AhXh). I don’t know if he’ll find a hero call with 77 or 99.
+I don’t think he has a four or an eight, and there are two reasons for that. First, I expect him to check/raise a four at some point in the proceedings because he fears the dreaded third heart coming out. By the time we reach the river, he just doesn’t have a four.
+Could he have an eight, such as 9h8h or Ah8h? Absolutely. However, I expect that he will never check those on the river. Why? Because nobody in my position is foolish enough to bet the river in a spot like that with a hand like QQ when they’ve been checked to. Now, I think that QQ is actually a great value bet in my shoes, but very few people in my player pool believe that, and I’m pretty sure Don agrees with them.
+So I have ruled out overpairs and monsters. What does that leave that’s worse than my hand that can call?
+Tens. Lots and lots of tens.
+One better ten (AT) and some worse tens. JTs, T9s. Now, all of these are clearly bluff-catchers, but wait – Don just saw me run a big bluff 48 hours earlier. Will this be the extra push he needs to call?
+What I am sure of is that, if I’m going to bet, I need to polarize my sizing. Sell the idea that I have a monster (TT, Ah8h, etc) or busted hearts. By doing that, I put all of his bluff catchers in a tough spot. If I make a really value-y bet (B50, B70), then his weakest tens will fold without much thought (goes my thinking). But if I shove (B109), then it merges all of his tens into a single isomorphic team of bluff catchers.
+If I jam, I am telling him that it doesn’t matter if he has AT or T9 – both are good, or neither is good.
+For a river bet to be profitable, it has to win >50% of the time that it is called. You have to adjust that for the danger of getting raised, but if I jam, I can’t be raised.
+I think that, based on our history earlier in the week, he may be tempted to call with his JTs and T9s. If he calls with those, then he’ll certainly call with AT, but I hoped that he would have open-raised some of his ATs preflop. I see more combos of worse tens than better ones.
+I jammed for the remaining $850.
+The immediate good news is that Don doesn’t snap-call, removing all the fours-full and eights-full (and one single nasty TT) from his range.
+After 30 seconds, I begin to think I wanted a call, unless I had just value-owned myself against AT.
+Around one minute, Don slides in calling chips and I turn over my hand.
+Don shakes his head, and shows queen-ten. “You really owned me there.”
+The table was in shock that I would make such a thin value shove. They asked me all kinds of questions, such as, “Weren’t you worried he had a full house?”
+They forgot how I play Sixth Street.
+This was a new, and unnerving play for me. I like to think that I frequently go for thin river value. But this idea of polarizing a medium-strength hand to gather all of his bluff-catching tens together – that was a new one.
+I was proud of myself for exercising that new skill, and getting an extra $850 from Don.
+“But Lee, what if Don had tank-called with ace-ten?”
+Boy, did I ask myself that question. Would I have felt stupid for value-owning myself? All the best teachers tell us: “If you don’t occasionally value-own yourself, you’re not value betting thinly enough.”
+Remember, for a bet to be profitable, it has to win >50% of the time that it’s called. Suppose a specific bet you make is good 60% of the time that it’s called. You’d be crazy not to make it. However, you also get called by a better hand 40% of the time. Thin value bettors need to be prepared to frequently be shown a winner.
+I ran this hand by my friend and poker buddy, Tommy Angelo, and mentioned my concern about running into ace-ten. Because Tommy was a poker pro for many years and thinks carefully about such things, his response was insightful:
+“I have used this on myself approximately a million times, so I’ll put it in first person. This is my standard internal dialogue…
+“If he had turned over ace-ten, would I still be congratulating myself? After all, if my play was correct, it was correct against his range, and ace-ten is merely one of the hands in his range. So really, I should feel exactly as proud when I lose a hand like this as when I win, but that is never the case, not even close, so, what gives?”
+I imagine “what gives” is that we humans are constitutionally unable to divorce results from satisfaction, no matter how clear and correct the process was. At least, humans Tommy Angelo and Lee Jones find it difficult to do so. This means that Tommy and I are still growing as poker players, and that is the most exciting takeaway from the entire experience.
+So we closed the email thread with this:
+Me: “How about we agree, coffee mugs raised, that we’d both be just as proud of me if he’d turned up ace-ten?”
+Tommy: “Absolutely! There’s much to be proud of about this hand, and also excitement about what it says about the future.”
+I promise that the next time I value-own myself in a hand such as this, I will post an article about it here. And try very hard to be proud of myself.

@@ -1,0 +1,1822 @@
+### TOPIC: the mechanics of donk betting
+all right all right hello everyone
+welcome to the mechanics of donk betting
+my first webinar here at gto wizard
+i'm gonna start off with a couple of
+slides and afterwards we'll dive into a
+couple of examples for the people that
+don't know me
+the weko played online poker for
+i'm playing i think over 10 years now
+probably even longer but i would say
+over 10 years professionally for the
+last two three years i've been
+transitioning more into coaching making
+content i'm sure some people
+who have already seen me maybe on twitch
+street youtube etc i got approached by
+gto wizard if i was interested in doing
+some webinars for them and in general i
+think gto wiz is a great product i use
+it myself a lot i think also the guys
+behind the scenes they're doing a lot of
+great stuff so uh yeah i was definitely
+enthusiastic to do a couple of webinars
+i also saw a lot of solos webinars he
+laughed quite a high standard
+uh so we're gonna do our best i'm sure
+the other coaches will feel the same
+thought there was a lot of goodness in
+there so
+i'm sure
+some of the people here have seen some
+of his webinars he already explained a
+lot of knowledge so that's good so i can
+just focus a bit more on something
+specific like for example dunk betting
+all right let's get it started so with
+the first slide you should check the
+words the razor if you don't you're a
+donk okay this is
+a very classic quote that people
+especially back in the days would use
+right you would always check towards the
+razor and if you would bet out people
+would laugh at you point say ah donkey
+donkey he dunks out and that's where
+kind of the term donk betting came from
+now
+my question to you guys is
+why
+do we indeed usually check towards the
+razor because like you know this is a
+term that is
+you know people people kind of
+labeled it like this people say the
+range is stronger range disadvantage
+range disadvantage razor generally has a
+stronger range all right and what
+happens
+if someone has a stronger range betting
+into an unkept range is generally not
+great yes so indeed poker is a game of
+equities if you want to make money you
+invest in
+moments or you start building pots in
+moments where you have an equity
+advantage
+in case of deeper stack poker like cash
+games that i specialize in also
+sometimes you might have an equity
+disadvantage but still in the future you
+have a big another advantage so
+therefore you might still want to invest
+in the pot but that's usually a little
+bit about how poker works right we're
+trying to invest in equities
+build some pots and then yeah make a lot
+of money was another very important
+point because we expect him to bet a lot
+and then our goal for our good hands is
+to gain evie by check raising instead of
+betting yourself that's a very important
+point right we have some strong hands
+but we still check because we cannot
+start dunking out a couple of hands and
+then leave her check reigns very weak no
+we check towards the razor the razor
+does the betting and from there we can
+start doing a lot of raising that would
+also make us way more money than dunking
+because if we can check he puts money
+away the hand that he's going to fall to
+a check race that he would have also
+followed to a donkey for example we
+would prefer to check he bets then we
+raise we make more money so we bet based
+on equities also for example solver
+doesn't know who is initial razer right
+you don't have an
+initial razer button in the solver it
+doesn't care it just wants to know what
+are the ranges what is the board who is
+out of position who's in position and
+from there based on the equities we just
+do betting now why does the initial
+razor in position in a single race pod
+often see but a lot for a small sizing
+so i gave an example here button opens
+big night calls flop comes something dry
+rainbow disconnected big blind checked
+in position c that's a lot for a small
+sizing now imposition does a lot of c
+betting because indeed we check the
+words in because imposition has the
+range advantage but why does he often
+that small that's like second most
+important point because often when we
+don't bet it's small why do we do that
+value of fault equity is high says
+matthias so basically
+in other words value volatility is
+higher like to deny equity i like
+betting there's a lot of need for
+protection which basically means you
+have a lot of hands
+that if you bet and let's say you have
+seven six and he has eight nine eight
+nine has a lot of equity versus your
+seven six therefore we do a lot of
+betting right we deny a lot of equity
+the more air that it has in this range
+that has equity versus your hand the
+more you usually want to bet to get that
+air out in this case how can we make
+eight nine fold well that's by just
+betting one third and since the board is
+very disconnected a lot of one-third
+betting gets the job done right this is
+also the reason why when the board
+becomes lower we often want to increase
+our bet sizing because versus a
+one-third c bet people can still realize
+a lot of equity and in general in poker
+the main objective is you realize your
+equity while trying to deny your
+opponent from realizing his equity okay
+this is a constant battle in strategies
+so knowing this okay we bad base on
+equities and we bet
+a lot for small sizing when we want to
+when our range or our hand benefits a
+lot from protection what do we achieve
+with dunking how does it generate ev aka
+what are the reasons we dunk we already
+named one right equity denial it was
+very important we dunk because we have
+an equity advantage aka we're gonna try
+to invest into the pot so we talked
+about deny equity spoiler that was one
+and i i'm already looking at my next
+sheet you guys can see it but it says to
+extract value out of our equity or not
+advantage this applies to all streets we
+are investing in our equity by betting
+to prevent him from checking back and
+realizing equity for free so that's the
+deny equity we allow villain to still
+see that by weakening our own range on
+boards that we crush so basically you're
+saying because we already dunked a
+proportion of our range then the range
+that still checks towards the razer is
+significantly weaker and therefore he
+can do more betting is that what you're
+trying to say
+weaken our checking range to incentive
+to bet more aggressive into our stronger
+hands when we check same point from
+andrew actually i didn't write that down
+that point but it's a good point as well
+but to be fair i would say that the
+range that checks is basically you know
+we will bat a lot of hands not at 100
+frequency so
+we sort of still have the same hands if
+we check then if we bet right only
+obviously the frequency is different but
+it is true that for example if you allow
+the big blind to donk imposition will do
+more c betting because we have already
+done better a proportion of a range so
+this is also more of the reason why we
+don't always bet certain hands right it
+tries to take in consideration that both
+lines generate the fee so in the
+checking range indeed we can still find
+quite a lot of check raise so the last
+point that i was looking for
+is to realize equity
+okay we might sometimes dunk certain
+hands
+that if we check and villain bats we
+have to fall to a bet okay this is a
+very important strategic advantage of
+donking so we can deny equity which is
+mainly on flop and turn we realize
+equity flop and turn to prevent freedom
+from crotch controlling which applies to
+all streets and to extract value out of
+our equity or not advantage all supplies
+on all streets we are investing in our
+equity by betting so i'm sure everyone
+knows about dunking and as i asked all
+the way in the beginning we have some
+dunk bad fanatics love to see it
+everyone has probably considered it but
+what are the main arguments for not
+doing it i'm sure there's some guys that
+are here that like ah you know i don't
+really feel like dunking why wouldn't
+you dunk why are you currently not
+dunking
+capping our range complicates our three
+oh the three the three i like are three
+i would have a comment on but the tree
+is not necessarily that bad because if
+you complicate the tree you complicate
+it for both players versus aggro players
+chris says why versus aggro players why
+wouldn't you don't bet versus aggro
+players population c bets too much
+anyway okay this goes hand in hand with
+the coffee set getting blown off our
+equity hmm
+that's an interesting point why would we
+get blown off our equity if we don't
+like he's going to raise less than if we
+check then and he's going to see that
+himself for example so we would get
+blown over equity either way finland has
+not advantaged yet so we're not going to
+bat long bet on the board wherever has
+another advantage on
+because if he has an advantage he's
+gonna do a lot of the betting and
+therefore has no incentive for us to
+don't bet anymore because if we check
+he's just gonna bet and then we can
+check race in all spots where are you
+dunk
+okay for example look at gto wizard
+where you see dunks if you would remove
+the dunk you would see that in position
+we'll do a lot of uh very little betting
+and therefore we want to take over the
+bedding lead by betting ourselves if it
+bets too much or strong hands want to
+dunk less that's a very good and people
+also indeed say population see that's
+too much anyway i do have an example of
+a board where i think that's true in
+certain situations that's true so we
+don't want a donk bet for example four
+bad pods is a good example there is
+definitely some boards and four web bots
+where if you called out of position you
+want to do quite a lot of dunking
+however in four by pods is a very
+classic spot that is often a bit
+understudied given the frequency of the
+spot people usually just start with
+quarter pot at a high frequency and
+there's then a lot of spots where you
+want to just do almost range check
+raising spoiler alert so then you go
+from bunking to range check rating okay
+we know not to see that too many boards
+i like the uh i wanted to go a little
+bit into the complication of the tree
+like
+complicating the tree you have to
+realize this for both players so if you
+think the dunking implementing a dunking
+strategy is complicated the response
+versus the dunking strategy is also
+quite complicated because
+imposition has to do
+still quite some calling first gta
+opponent dunking usually does not add
+much ev to the strategy so a lot of
+beginners don't want to complicate the
+strategy without much av now that's this
+is the one that i was also looking for
+because this is a very common one
+in the solver okay especially on the
+flop if these
+don't really change that much if you
+give certain options if you don't give
+certain options now the main reason why
+that is because it's a solver a solver
+will play optimally versus the dunk will
+play optimally versus the check if you
+for example don't allow it to bet very
+big on the flop sometimes that will
+lower your fee that doesn't really
+matter because he will have the turn and
+the river to make up for that mistake by
+not having a big bet on the flop for
+example we should always try to look at
+in practice
+does is this going to work that's
+basically the question right it is
+solver everything all the evs will
+always be closed because it's a solver
+and it's going to play perfectly i'm a
+big fan of trying to get into lines
+that for example you can study you can
+study the dunk bed line and if the
+population doesn't really don't bet a
+lot the imposition player that has to
+respond doesn't really have a lot of
+experience in that line okay i think
+nowadays especially poker people stay a
+bit too stuck into the common gto lines
+and then you play lines that everyone
+plays so everyone is familiar with those
+lines however if you start racing to
+sizings that people are not used to for
+example if you start memorizing the
+small blind you know the strategy
+doesn't really matter it will not
+have a very big impact on the ifv to
+give this argument of the solver because
+the way you execute your strategy will
+always determine the actual ev of your
+strategy this is very important so
+just as donk betting just as
+doing weird stuff
+okay if you put your opponent in spots
+that he's not very familiar with and you
+have studied that spot there is a very
+big opportunity for ash and i think
+dunking for example is one of those
+examples okay i would say on the flop on
+the river actually there's a lot of
+spots where i think don't not dunking is
+a very big mistake on the flop i can't
+understand it but i think especially in
+practice it's a missed opportunity turn
+the mistake becomes bigger river the
+mistake becomes very big okay so let's
+look at some examples in the solvers i
+wrote down a couple of points what to
+look for in the solver this is in
+general if you're going to look at
+strategies you always want to look at
+what are our highest frequency dunk and
+check hands basically if you find a hand
+in a dog bed strategy that never wants
+to dunk
+that says something about that hand that
+we can learn what are the
+characteristics of this hand
+that it never wants to dunk
+then we look at the hand that wants to
+dunk most frequently and we look at the
+characteristics of those hands
+okay
+this is how you want to think about
+donking and then we can start to build
+our range in our head like oh does this
+hand have similar characteristics to the
+hand that always dunks or does it have
+more characteristics of the hand that
+rarely don't
+okay and then in game if you understand
+these characteristics you can estimate
+if your hand is a dunk or not we don't
+have to memorize the the
+the sim same for the boards which board
+slash cards do we dunk the most least on
+and why
+okay we don't have to memorize boards
+but we have to start understanding hey
+on this board we never dunk why is that
+well usually because imposition has
+more of an equity advantage and is still
+going to do a lot of betting if we check
+and on boards that we don't very often
+those will have characteristics where we
+usually have a very big equity advantage
+now
+and in the future and then when boards
+become closer together we start to dunk
+less and then we will we could still for
+example people then say yeah okay on a
+board that only gets dunked five percent
+or ten percent there's we can just
+forget about it i completely disagree
+that's actually a board where it's quite
+interesting to still see okay which
+hands
+still have a clear preference for
+dunking
+okay and that's where we can learn from
+this especially true on turn a river
+where you will have like five percent or
+ten percent dunking frequencies and you
+see a couple of hands it's like yes that
+exact hand makes a lot of sense
+and we can learn something from that
+exact hand it doesn't mean that we have
+to find it in the game but the
+characteristics of that hand are very
+important to understand so you can
+understand like why is that hand
+specifically wants to still dunk so we
+can look for a couple of hands that fall
+in that category what are hands the
+solver still finds in low frequency
+don't spots oh that's what i just
+explained
+i repeat it myself
+so
+this applies not only to dunking this
+applies to when you study sims in gta
+wizard in general all right so let's go
+to the first
+example this was a board that i think
+was
+already mentioned a low
+board where out of position will have
+a slight
+equity advantage but the biggest
+difference is here
+the nut advantage
+and can we look maybe a breakdown in
+general we will have more draws and
+gutters
+and open-enders that even on run-outs on
+754 in the future there will be a lot of
+run-outs where we will have an increased
+not equity advantage compared to the
+imposition so if you want to know
+something about
+betting frequencies based on equity it's
+not always just the raw equity
+then not equity is very important in
+deep stack poker the deeper you become
+the more we bet based on not equity the
+shorter shallower we are the more we can
+just base better on raw equity so if
+there are some tournament players
+listening this is an important
+strategical adjustment you have to make
+when playing deepsea compared to playing
+in a shallow stack spot
+okay
+so looking at a hand
+that
+never wants to dunk
+quote quote
+okay most probably
+if we would run the sim out to an even
+higher accuracy and i would recommend
+that
+if you want to apply some of the things
+that i just mentioned you will probably
+see king queen basically
+almost never betting anymore why does
+king queen and ace queen
+want to bet the least
+that's my question for you guys we
+already know we're gonna bet this board
+because of the equity advantage if we
+check towards the imposition imposition
+will not do much betting therefore we
+cannot get the check raise in therefore
+we want to bet ourselves
+why does king queen and a screen not
+really wanna bat
+they're blocking the folding range falls
+out's worse hand that are dominated like
+queen jack all right we we got the right
+answers here how much do you guys think
+in position should fall to our donk
+roughly who can give me an estimation so
+we dunk out 33 of the pot
+the button opens we go on the big blind
+how much should imposition fault around
+20 25
+raising frequencies may be also
+interesting okay people have people have
+watched this spot i think it's i think
+we fold i would say roughly 20 as well
+so i will go for the i will join mr
+joshua for the 20
+and race i haven't looked i would say
+also fifth not 18
+okay so the race was a bit too high
+so 13 percent race 18 falls 80 folds
+guys it's quite funky i have to say
+if you have just two raw overs
+yeah it it it is a little bit optimistic
+don't you think like if i see a dunk or
+if most people see a dunk on this board
+they're like okay yeah the guy has quite
+a lot of strong hands therefore he dunks
+then just floating your ace jack no
+backdoors whatsoever uh or even your
+king crack king queen without backdoors
+is quite unintuitive what we will also
+see in general is that the population
+tends to overfall versus the dunk bat
+okay obviously if you would look at
+data there's also dunks involved of
+actual dunks
+but i would say versus actual bunch you
+probably even want to fold less than
+versus a guy who dunks a bit more of a
+balance range so in general it's very
+hard to defend properly versus the dunk
+right yeah and and quite massively as
+well top of my head they're
+folding over 30 like 500 ml plus so
+imagine on on lower stakes
+i imagine that people would just
+fold their king queen with a heart
+because yeah this is this is what this
+is quite good
+no but i'm talking about versus a small
+dog
+so
+first a small donk population falls over
+30 so usually quite incentivized to dunk
+that
+so king queen we talked about why would
+for example what is a hand that bets at
+a very high frequency
+let me see i want to pick out okay what
+is the difference between
+ten five
+and five deuce so five dudes wants to
+bet around seventy percent of the time
+and nine five maybe that's even a better
+example
+nine five and ten five let's pick spades
+so seventy percent
+and only
+basically nothing
+and only twenty four percent what is the
+difference between ten five nine five
+and five deuce
+five
+ten five blocks folds
+folding range again exactly so these are
+characteristics around why we want to
+bat certain hands and why we want to
+check certain hands and this is going to
+help you construct your donk bedding
+range because as you can see i can
+imagine
+you would be here like hmm
+okay
+this sounds this seems quite complicated
+right because everything wants to do
+something at a certain frequency
+usually if a hand gets dunked maybe
+let's say less than 25 of the time you
+could just
+mainly check it and if a hand gets bad
+over 60 70 percent of the time you
+should just mainly bet it now obviously
+in a solver this is not a great strategy
+because you know it's a solver the other
+both players know exactly the strategies
+of the other player and if you lack
+certain hands on certain run-outs and if
+you always bad certain hands and always
+check certain hands that
+the solver will punish that uh quite
+hard in practice it doesn't work like
+that so what i recommend doing
+okay if you want to start implementing a
+dunk
+is to grab a board like this and
+actually i believe let me
+go out of
+this mode for a second
+if we go to range builder
+range builder
+and we say button opens bitcoin we go
+flop is
+754
+confirm
+what i would recommend doing
+is starting to build your range
+basically from here so we already
+concluded that
+for example five deuces great hand to
+bet
+and oh actually it's already on checks
+why do we then bet for example
+i wanted to say h5 because we never so
+why would we for example then that ace
+five
+and not the 95 or the 10 5 that we saw
+earlier
+what is the difference so if we go to
+the example again
+we saw that 10 5
+for example i had like h5
+we bet very high frequency but it also
+blocks some of the folding range or not
+what's the difference
+ace high still calls nine high faults
+but he is
+he is a smart guy smart guy he keeps on
+nailing all the answers indeed so we
+could say we could make a rule if we
+have the pair with the top kicker with
+the ace
+if we bat most ace x i assume are
+calling so ace ten is sometimes folding
+but a lot of the asex are folding but
+indeed it's mainly the 9x that's folding
+and the 10x that's folding so if we have
+a pair
+with a nine kicker a 10 kick or a jack
+kick or even a queen kicker we could
+decide to check and if we have the ace
+kicker we could decide the bet or if if
+we have cards that are on the lower side
+okay
+that's kind of how you construct a donk
+betting range
+allows us to cool cooler in position as
+well exactly
+any more questions on this board before
+i move on so i hope not everyone
+understands why
+because for example if we check
+i will show you
+it's checking 47 however that's after
+we
+have already done better 41 so if you
+remove this imposition will maybe only
+bad 20 30 percent
+um
+say maybe a little bit more
+which means that if we have strong hands
+it goes check check too often then we
+allow our video to pod control we don't
+get the check raise in which is all very
+bad why do we always bat one third by
+the way in this sim you could actually
+also implement some bigger sizings i
+would mainly say that's nice versus ep a
+big one for epmp
+but i personally don't really mess
+around with that too much i mainly just
+stick with one third the one third is
+mainly right equity denial is top of the
+list like when i gave the examples they
+were in order you want to deny equity of
+these hands
+because we also implement a lot of
+strong hands imposition cannot raise and
+therefore we can realize a lot of equity
+the two main drivers behind all
+strategies equity realization equity
+denial that's why we just start with a
+one-third bet
+and then he's still going to raise some
+of the time and then we can kind of
+unleash the true power of our hands as
+you can see we can re-raise around 21
+and i think
+most candidates are quite intuitive
+right if you have a strong draw in an
+open ender you re-raise a lot if you
+have a weaker draw on a gutter you
+re-raise weight less probably also
+because it's raised folding range
+especially in practice has gone going to
+contain an eight quite often i would say
+yeah 25 does a good job with all in
+general uh if you bet dunk by 20 25 of
+this board or 30 35
+i think your opponent is going to
+respond to it quite inelastic so if you
+think
+i mean if we've concluded that
+overfalling is going on smaller is
+usually better so yeah if you want to be
+a bit nick picky uh 25 is probably going
+to be better than 30 percent does
+imposition ever raise as a bluffer as a
+small donk
+yes for sure in practice though
+the raising range is going to look a
+little bit different
+what you usually see in practice
+is again
+there's frequencies a little bit of
+everything which in practice it's not
+really going to work like that what you
+usually see is that people will raise an
+over pair a bit too frequently and their
+raising range will contain a bit too
+much equity so they will choose
+8x more often over queen 10. okay
+now what would then be a correct
+adjustment
+if we see a bit more overpass and a bit
+more equity we overfold and we
+re-raise
+exactly the more equity venus bluffing
+range contains the more we respond
+by
+playing back aggressively okay let's say
+you have a set you would much rather
+slow play versus queen jack than versus
+queen eight
+because in general if people's ranges
+are constructed around more equity you
+want to do more fast playing
+um i wanted to go on to the next
+example
+which was
+um
+this one
+it's a bit less intuitive an h3 do sport
+i think these boards because i also
+wanted to uh to add a point on boards
+like this
+we don't
+if we look at the equities we actually
+have an equity disadvantage this holds i
+think this holds especially two maybe we
+should have done it under the gun versus
+big blind brown under the gun doesn't
+really have deuces and threes and we do
+same with force same with three four
+suited same with four or five suited so
+this is actually a board
+that we can start actually building a
+pot on as well
+even though
+protection is a little bit less
+important this is dunk a lot for this
+underground exactly i should have
+probably used under the gun as an
+example because there we have a bigger
+equity advantage but i wanted to show
+maybe also this one because here the
+button has a range advantage however we
+still have the nut advantage
+and the future not advantage enhanced
+like three five five twos okay
+so this is also a board that we can
+start implementing dunking on however if
+you look at a data ace high boards aside
+two ton boards do get cbd at a very high
+at a way higher frequency than for
+example the low connected boards i think
+most initial races in position perceive
+754 two-tone as indeed a dangerous board
+whereas an aced reduce as a less
+dangerous board therefore they're gonna
+usually see that a bit more therefore i
+personally prefer to not dunk here but
+to actually go for check raises in all
+the real world will be possible yes
+and all the we will be possible in
+position shoot lower is betting
+frequency
+usually what i see is that betting
+frequency remains high so therefore so
+now you understand mechanics why we
+don't however
+and this is why it's always important to
+focus on the mechanics of a certain
+strategy because if we understand why we
+don't we also understand when not to
+dunk okay this goes for all strategies
+try to understand the mechanics then you
+know
+when or why to do it and you also know
+the adjustment exploitative adjustment
+okay in all theory you want to
+understand the drivers behind the
+strategies so you can then estimate if
+this also applies in practice okay how
+does a solver generate ev
+and do we in practice generate ev in a
+similar way that the solver does okay
+i will give you guys
+i will actually move on to a turn
+example i think we talked enough about
+the flop
+maybe even though there's only one
+percent straight it is because there's a
+lot more draws that dunking becomes a
+thing
+so yeah it's draws
+because draws especially also if they
+connect in the lower end we have more of
+those draws so it's not necessarily that
+mainly for example now
+are we have such a great advantage
+however in the future we if for example
+on the 754 let's go quickly back to that
+because i want to quickly look at some
+turns as well
+if a three rolls off a six or an eight
+it again gives us an advantage
+all right and this is also why
+imposition cannot raise relentlessly if
+you have jacks here and you race
+yeah we're gonna fold most of our shitty
+hands and we're gonna continue with our
+equity hands and then there's gonna be a
+three a four a five a six a seven and
+eight possibly also in heart
+that you're a little bit [ __ ] on if
+you have checks so usually like i said
+equity-wise you want to invest in a pot
+that you're often going to win not not
+just because you're ahead now but that
+you're often going to win so include
+future play and consideration that's why
+we don't want to raise a lot of
+overpairs if we are the imposition
+player i want to quickly look at some
+turns
+and try to apply a similar strategy
+in terms of
+how turns play out
+because
+we now kind of know
+i would say already if you construct
+your flop range
+in the way that i explained
+naturally
+the way your your hands are going to
+play out in both check
+and bat
+if you choose the right characteristics
+of hands it's going to play quite
+intuitively we will usually see quite a
+high continued frequency on boards that
+connect and the lowest betting frequency
+on boards on turns that connect with him
+mainly the ace and the king so let's
+look at the strategy
+on for example a deuce
+how i personally approach this spot is i
+will play a mix between one third
+and 150
+because again there are certain hands
+that do benefit still from some denial
+as we saw we only had to fold around 20
+percent
+and that want to sort of realize its
+equity for a cheap price let's say we
+have four six for example i think that's
+a great example if i had that i could
+bet for a small sizing again maybe four
+six you can actually see it's already
+starting to bet some very big sizing so
+maybe that's an option
+seven eight great hand to just want to
+bet one third
+in general if you want to slow play
+don't slow play and with slow play i
+mean or downsize or check
+you usually don't want to slow play a
+straight
+why don't you usually want a slow player
+straight
+this probably actually applies in all
+scenarios i don't have
+so far i didn't really have to give all
+the answers because we have some smart
+people here in the chat basically
+they're doing my work for me much
+appreciated unblocks the calling range
+the paris all right it's mainly mathias
+maybe uh gto wizards can reach out to
+matthias to come give a webinar that's
+indeed true
+usually
+if you have a straight you're unblocking
+all the board therefore that's the hand
+that wants to play
+uh most aggressive whereas for example i
+had like pocket sevens we still see a
+bit more lower frequency betting because
+it blocks more of the board
+five four
+i think or even four dues made for this
+is a better example
+if i would implement a check it's
+probably gonna be something like five
+four or four deuce or five deuce because
+especially button big man first button
+they're blocking a lot of the hands
+that villain can hero call with most
+important thing is hero call because
+first the jacks it doesn't really matter
+if we check it's most likely betting if
+we bet he's most likely calling or
+raising right so we have to then see
+okay if we check what hands do we lose
+value from well it's usually a five or a
+four because they're going to check
+behind whereas if we would bet again
+they can call so then if you have five
+four
+that's the hand that if we check has the
+leads the least downside because he will
+have less 5x and 4x so if you want to
+slow play a hand on the turn quote quote
+slow play uh some a hand like that does
+make sense like five four five four
+should maybe also still wants to dodge
+some reverse like a seven a deuce is not
+great a six and eight so i think five
+four is a fine check
+um
+your straights then get accompanied by
+almost traits so
+in general as well
+uh an open ender usually goes in the
+same line as your straight someone said
+pretty insane how every hand that your
+reigns can bet and for any size pretty
+hard to even make a mistake by the looks
+of it exactly and again let's say we
+follow it up with again so we started
+with the one-third and we followed up
+with the one-third again still some
+people always hate highs full twenty
+percent
+i'm i'm gonna tell you guys that's
+that's hard to do if people throw the
+one third one third
+on the board that was already favoring
+them
+most players are not going to be like
+hey yes 754 dudes good board for you but
+hey i have ace jack
+so
+let's see what happens no that's usually
+not really the way people play poker
+okay
+so and again we see the same
+characteristics right if we did dunking
+queen or ace queen we check
+and for example hand like 5'3
+needs a lot of protection has a lot of
+equity therefore it should still bet and
+then these hands in the middle yeah
+they're in the middle they can go either
+way so they have some characteristics of
+the ace queen and they have some
+characteristics of the five three okay
+but at some point it's very important
+that you do want to start building a big
+pot now we can still do that by 1 30
+because at some point these over pairs
+will all race okay if you keep on one
+turning on three streets an over pair at
+some point will race however
+now is also a good time to start
+building a pot so i think it's very
+important to have a big bat and a small
+bet here on the turn
+okay any more questions on turnplay i
+think
+in general another reason why we do a
+lot of blocking and probably even on
+three streets
+uh i think it was solos one of sato's
+first webinars where he was talking
+about the five biggest mistakes
+uh
+and i think
+there was
+one that i completely agree on a lack of
+depolarization when you're out of
+position that's a very important one
+that's why we want to do a lot of
+blocking and even on the river let's say
+the river is a 10
+we're still gonna do quite a lot of
+blocking
+as you can see 34 we can basically bet
+our range
+okay with a mix
+uh but actually mainly one third because
+all the hands
+that will
+call an overbet for example
+our hands that will probably now also
+race and therefore then we can come over
+the top and usually in this kind of
+situations your small bet becomes your
+big bet by bet three betting and this
+way we can also still implement a lot of
+thin value that's like king five queen
+five check five for example
+uh actually i also want to maybe show a
+term where we're gonna bet a little bit
+more polarized
+protection becomes less a thing of for
+example a king
+yes you could still
+like obviously you could always make an
+argument for still betting for
+protection with five deuce i think there
+was a hand right or five three that was
+a full frequency bet in the other
+example yes you can still bet it however
+you will often get called by a king and
+that's not great
+right so i would much rather for example
+maybe move five three to a check raise
+or something is that something that goes
+on
+yeah that sometimes happens that makes a
+lot of sense
+especially i would say the
+okay the hard one because it has a lot
+of equity no actually both so if we
+would make this a king
+maybe that's a better example than
+probably five three
+of clubs
+yeah a little bit more than spades
+because we're blocking some king five
+button versus big blind so on the king
+last need for protection because he has
+binked a lot of the kings
+and on a deuce
+we still have a lot of need for
+protection therefore we keep on betting
+but we also have another attendance for
+we have a big bet and a small bet all
+right
+so let's look at turn
+i think i picked out a five
+so i have three turns actually three
+turn examples
+but i will start with the most common
+one
+and then with at least uncommon one also
+because we're running out of time
+surprise surprise i kind of knew this
+would happen board pairing
+is
+is another one of these very common
+examples where we do quite a lot of
+dunking we can use similar
+characteristics for example you see here
+if we have pocket knights we do very
+little dunking whereas if we have pocket
+threes we do quite a lot of dunking and
+that again has everything to do with
+equity the folding range has versus your
+hand aka how much protection does my
+hand need if we have threes and he folds
+910 that's a great result if we have
+nines and he folds 910
+not necessarily that great of a result
+right so again in practice i would
+definitely recommend to
+[Music]
+bet a bit more pure based on certain
+characteristics of your hands
+instead of
+every time following frequencies but i
+think this holds true for all spots in
+practice no one will know
+unless you guys now if you play against
+me that someone always has pocket threes
+here and never has
+uh what is the hand king jack for
+example okay aboard power xcd i remember
+when dunking first became popular long
+long time ago six years ago maybe on
+turns it was pair per the board turns
+you have to dunk again it's people
+didn't really understand the the drivers
+behind it because for example
+let's say turn is a six i can
+imagine some dunks going on here as well
+and then again it's because we have an
+equity improving turn for our range and
+again not only now but if the reverse of
+three four five six seven eight nine all
+cards that we will connect better with
+than in position another very important
+point here
+for dunking turns
+after so yeah xavi let's let's go
+straight to the next point because i
+think
+turn pairing is already quite common
+right however actually if you want to
+re-exploit the population people overdo
+it in my opinion on turn sparing
+uh
+on for example the five we didn't see
+such an insane frequency right oh [ __ ] i
+messed it up five
+i mean it's only 22 i think people
+easily reach 60 70 percent here so this
+is actually something that you can
+punish savvy says after c but bigger
+increased the dunking frequency
+so
+oh actually for that i will go to my
+next example yeah exactly jsa so that's
+actually uh um
+a no doc that you should run to see what
+the optimal response will be
+this excellent example
+uh button opens big bad calls 953 in
+position over bets we call and turn is a
+six but actually not only on the six let
+me show you guys reports
+even on a three even though you know
+it's not like the three
+the three is not necessarily that great
+right if you look at for example the
+range
+the strategy and we're at our position
+we should actually already fold a couple
+of three x and it's not like we have
+that many three x all right so mainly
+the nine very important we hit the top
+pair but also on let's say
+actually i i put it the six as an
+example so let's just say with a six and
+this is not necessarily of course it's
+also because it's improving but in a lot
+of scenarios we will also dunk by the
+turn
+even if the turn only improves us a
+little bit
+um for the main reason that in position
+if imposition uses a very big bad sizing
+he will still have a lot of air in his
+big betting range as we can see here on
+the flop he will bat queen jack off we
+will fold queen jack off okay we will
+basically only
+continue with pairs
+some of these king jack suited that's
+basically the only air that we have
+then on the turn because we have already
+folded all our air imposition will have
+a lot of air and sometimes you don't
+even need an improving card but just the
+fact that we already folded all his air
+he still has a lot of air that we want
+to implement a small bunk bedding
+strategy okay
+um similar characteristics here
+a hand like four deuce which is a
+straight
+we should just dunk bet whereas maybe if
+we have two pair let's see
+i would say maybe like a six three or
+something six three
+more incline to slow play six five even
+more inclined to slow play then for
+example the straight so that's
+definitely again a main takeaway again
+this is a general heuristic you can use
+in various scenarios
+um
+the
+the king queen i would say again low i
+would say the queen 5 again is a good
+example queen 5 wants to check
+whereas 5 4 wants to bet so again in
+range construction this is a very clear
+check check 5 and queen 5 for the same
+reason it was a check on the flop on the
+754 board
+now flush turns with a big yes there's
+definitely so let's say for example we
+make this a flush because
+what's being said is definitely true so
+let's say it's a jack 7 deuce
+and the turn is say three
+we still see indeed some dunking again
+because
+so this is a bit more common on let's
+say the flop is ace broadway x there if
+the turn is a flush it's a very common
+uh
+dunk spot proud position because we
+suddenly have like 60 equity or
+something but yeah so the main concept i
+wanted to to show you guys
+is after we check called in spots where
+villain has better big we have already
+followed all his air he still has a lot
+of air and then if the turn is low
+we can implement quite a lot of dunking
+and i have another example i think it
+was three bed pots
+and that was probably
+this one
+this is a three-bed pod
+hijacked versus cutoff
+check in position that's half pot we
+call
+and turn is a six
+and we basically don't bet range
+okay
+and again
+it's not like the six is is necessarily
+that great for our range right however
+again he still is always air we have
+folded most of our air
+and the six does improve our range with
+six five also pocket sevens is now has a
+lot of equity therefore we can suddenly
+invest in the pot with a small donk bet
+and basically there is not much he can
+do about it
+uh he will have to suddenly find some
+races with king queen ace jack i wish
+people a lot of luck by fighting these
+hands and also
+i think especially
+um when you're out of position retrieve
+a pot on these kind of boards if you
+just go and check call mode
+what you usually will see on the river a
+lot of these over pairs at some point
+will start checking behind so you need
+to find a way to fast play that can
+either be by check raising however
+therefore in position versus the bet
+or
+by dunking and then usually dunking is
+the preferred line again also because a
+lot of your hands benefit from
+protection
+right let's say you have pocket tents
+pocket tents to be honest if you're in
+this spot hijack versus cutoff you check
+off flop you check turn and imposition
+barrels pocket tents you're not happy
+it's probably even a fault actually let
+me see
+three quarters
+yeah pocket tens is just folding
+so however if we don't bet ourselves we
+can get thin value
+and we can deny a lot of equity okay
+versus the betting range we do very bad
+however if we dunk
+versus the folding range while folding
+range often had two overs so that's
+great for pocket tents and we now get
+called by for example pocket sevens
+which is a hand that would have
+otherwise checked behind
+unless there's some weird merging going
+on okay pockets is doing that but
+parkinson's you do usually checks behind
+so here
+in three bit pause especially it's a
+good example of trying to prevent your
+opponent from pot controlling which was
+another reason that we decide to dunk
+and to continue on that note i want to
+go to the river
+before we run out of time
+because i wanted to ask one more
+important question
+uh i kept going on with the 953 here
+over bat turn is a queen
+obviously we don't dunk because we
+expect in position to do a [ __ ] on the
+bedding it's a very good board for him
+the turn improved him quite a lot
+uh he's gonna better mix between three
+quarters and over bet let's say he bets
+three quarters
+our a big proportion of our calling
+range is gonna be a nine and he's often
+going to check behind
+with a nine
+a's nine sometimes betting but that's
+about it so when the river is in this
+case a nine as you can see
+we do want to do quite a lot of betting
+okay
+for example i had like six seven you
+might be on a turn like yeah okay i have
+a shitty open-ender but then big bang
+calls
+shitty open-ender but we do see it
+sometimes calls well that's also because
+it sometimes has the option to dunk bed
+the river so in this case i'm six seven
+is just pure bluffing okay
+another card that we could dunk on is a
+five it's probably going to be a bit
+less common as we probably thought more
+5x than 9x on the turn
+not even
+maybe it has something to do with the
+suits
+queen five
+queen five exactly wants to dunk that's
+interesting because that's not really
+the first hand that i would have
+let me see if we have a queen he doesn't
+have a queen
+okay now actually it does make sense
+four deuce yeah four deuce doesn't
+really win much right
+so that's the first hand remember this
+is a spot where basically nothing dunks
+but four twos it's exactly four do's
+four that's about to throw out a little
+bet and that makes a lot of sense
+because he has six seven he has jack ten
+so if you ever get into this spot with
+four deuce
+if you bet
+how big does he bet
+ten percent of the pot
+excellent excellent okay this is just
+you have air the five
+or at least perceived for example if
+someone would now lead to me on the
+river i would be like that makes sense
+you have a fight go go big mind go to
+reports
+no it doesn't work reports
+i was pretty sure actually on a fight we
+would dunk in the example that i used
+ah so it is the suit that was it
+then you get the ace high heroes but
+that's fine if you have four deuce
+you're not trying to bluff ace high for
+10 that's not the goal four deuce is
+trying to bluff six seven
+that's why he's betting ten percent if
+it wanted to better ace high it would
+have been a little bit bigger if you get
+what i mean
+okay
+because six seven cannot go versus ten
+percent
+right
+check ten thank you
+check eight why in that suit and not the
+others probably has something to do with
+the fact that we mainly have suited five
+acts
+and this one in somehow connects better
+and again like for example if if i would
+be the imposition someone dunks on the
+five that's the heart and not the spade
+it's on the space apparently you
+shouldn't dunk because of the suits
+probably has something to do with how
+much pair we make with that suit
+i would still give it credit so actually
+i i would like
+to dunk but more on the five spades
+because it's a boar it's a card that i'm
+not allowed to dunk on
+in position has to know that and
+therefore adjust accordingly which is
+probably then to to not do much to any
+folding whereas on this card i'm
+actually allowed to dunk because this is
+also an important thing right if you
+dunk
+let's say you make an exploitative dunk
+you don't bet or too much or you don't
+get on a cart that is actually not
+supposed to be dunked
+then imposition needs to know that then
+in position also need to know the
+correct counter strategy which is
+usually to do very little folding which
+is very hard as we concluded right now
+on the turn to go back to one of two to
+the same
+i think it was the same actually uh i
+personally in one of my youtube videos
+actually i gave this exact example as
+well this is a clear term where it's
+easy to over barrel if if your
+population
+um
+with a lot of the hands like 10 8 for
+example mainly checking
+check eight right check eight check
+eight mainly checking so on the turn
+exploitatively i would not be folding
+the five it's not a great idea
+so this is another good example of
+especially i think board pairing rivers
+in this kind of scenarios the five and
+the nine
+maybe even
+no i don't think actually a straight
+card makes a lot of sense because again
+if the river is a nine to make to bring
+the point home if we check
+uh again if we would remove the dunk
+then we carry our 9x to the river when
+we check then imposition is no longer
+incentivized to bat his queen axe for
+example to bet anything to be honest
+so then that the main reason why we dunk
+on reverse it's not equity now not
+accurate realization but it's to prevent
+film from pot control okay because if
+you have a nine and we check and
+imposition checks behind kings that's
+not great so
+let me go back now to my last slide
+which is a little interactive slide
+knowing what we know now
+so the reasons why we dunk which were
+nigh equity on flop turn realize our
+equity flop turn
+to prevent film from both oh actually by
+the way we didn't really talk about this
+one
+to realize equity but let's say indeed
+the flop was 754 right and let's say we
+have a hand like seven five four let's
+say we have ten nine i think ten nine is
+a good example on seven five four if we
+check any bets we have to fold
+where if we bet ourselves i really like
+ten nine because on eight and a six you
+you your perceived range connects very
+well right we make a lot of straights
+and then you have an equity bluff so i
+would say any 9x hand is a very good bet
+on the flop right not the 95 as we
+remembered but for example at like 910
+which is a bad hand that otherwise
+should check and fall to the bet now
+people say yeah we can also check race
+but the problem is if you check and
+imposition only bets a low frequency
+okay then his betting range is a bit
+strong and then you're suddenly putting
+in a check race
+against a stronger betting range whereas
+if we don't we don't bet and try to
+bluff the air proportion of winning's
+range okay he's still a lot of shitty
+hands
+and that's the hands that we're trying
+to
+fold out
+okay
+so same with the with the four dudes we
+were dunking ten percent on the river
+not to fall out good hands we're just
+falling out air fully not [ __ ] okay so
+tonight realize equity to prevent film
+from pot controlling this is true on all
+streets especially as we saw on the
+river and three by pots out of position
+that example they gave on a six there
+it's very important to extract value out
+of our equity or another tenants all
+streets we are investing in our equity
+by betting so taking these points in
+consideration who can give me an example
+of a spot that we haven't discussed
+where dunking
+would be a great idea
+given the like the mechanics of dunking
+yeah do we also don't get very big on
+survivors yes for example we saw that on
+that five if i go back to this example
+actually i would say on a nine
+check bat call no wait
+on the five it was
+i mean here actually we're already
+betting three quarters huh so it's it's
+not a small bet you usually want to
+again we want a bet small in spots
+where we still want the bat a bit of a
+merge range which on the river is less
+common now there are scenarios
+maybe a bonus one if someone can point
+it out let me see motor boards big blind
+three bat versus small blind
+that's actually true one of the i like
+this guy one of the small spots where we
+can lead small reverse big light this
+opposition caller three pot is indeed
+mona boards
+if you can tell me why because i
+personally don't really know to be
+honest i mean
+don't really know obviously it's it's
+because of the reasons we we just
+explained but
+so and then for example on the five
+where was the five of hearts
+i saw some owens 1.9 percent o in
+whereas for example in the let's say we
+remove ace 9 from the betting range from
+in position then probably we can dunk
+that bit actually we can do that
+because a is 9 i would say if you remove
+ace nine from this barreling range on
+the turn and then make the river a nine
+we do have big bets but now you know we
+still have to be a little bit careful
+because
+first of all
+he sometimes has ace nine right and
+jamming into a range that that's h9 is
+is not a great idea
+um
+check
+i want to see the ranges
+yeah you see button still has the 90 to
+100 equity advantage
+but which probably shifts on a five and
+therefore we have some big bets
+yeah so on the five it shifts to us
+and therefore we do have big bets on the
+five
+and therefore we have more the sixty
+percent which is
+a sizing that these 80 to 90 equity
+hands once a bet and therefore we have
+60 and not and not bigger
+because also if you jam
+and you're in position let's say you go
+check all check call
+jam and you're in position
+let's say you better yeah i mean i would
+just fault right i would just fall the
+less i have a nine because you're
+jamming one
+one of them spots on a great river for
+you it's very hard to carry enough
+bluffs to the river so i would say if
+you just over bet here
+like in this spot
+yeah imposition can just overfall
+especially in practice
+so that's not a great strategy with
+tribal preflop out of position check off
+flop turn ace i like that one so
+let's try to mimic that example
+so indeed if you check all the flop as
+initial razor you have the same small
+buffers big blind you also sometimes
+lead on an ace turn
+it's it's a similar example also again
+small
+all right
+so let's say we three bet
+go
+and let's say what would be an example
+the board should probably not be too
+connected
+i would say this and then an ace turn
+could maybe be a good example
+let's say he bats
+off but we still call if the ace five is
+four that's why i picked exactly 105.4
+turn ace
+we don't bad range so well thought
+i i helped you a little bit by trying to
+give the ideal board but this is a good
+example so we check out the flop turn is
+an ace
+and we bat range on turn for a half pot
+and again that's because if you look at
+in position imposition
+was betting quite
+quite some hands are on the flop
+probably if we bet
+he better one third a bit more often so
+he bets a lot of these pairs as well now
+actually we even call probably more his
+highs so the turn is even greater
+yeah and then we can put quite a lot of
+pressure
+because he his range has so much like if
+we look at the top pairs
+uh now
+i mean look at this
+now this seems like a range to invest
+the money in right
+this this seems like a range that we can
+put money in and it since other position
+also imposition also sees that the age
+is very good if we check how will
+imposition respond oh hey it's very good
+card i have a 10 oh i have pocket sevens
+oh i have
+king queen i king queen maybe could
+bluff as his blocking day's king his
+queen but he's like i will check behind
+we want to prevent film from pot
+remember one of the
+one of the main reasons
+so we come out dunking
+retrieve it out of position check our
+low board turn ace we have a lot of
+asics yes there was a very nice river
+dunk today from very sweet versus stefan
+quite advanced move comp oh could you
+maybe post it in the chat
+if i mean if guys
+very sweet does something you know we
+have to uh we have to think about it
+explosively a flop or turn spot where
+villain is too passive and will split
+their range poorly when check 2.
+exploitatively a flop or turn spot where
+tombow is putting me on the spot here a
+follow up or third spot where a villain
+is too passive and will split their
+range poorly when checked too but if you
+split this range poorly when checked we
+get a lot of information could you maybe
+give
+give a little bit more information small
+right has more suited hands big blind
+three bed range contains quite some
+unsuited trash
+some 109 hi nice i found the spot today
+was kind of shocked
+but it makes so for for hot
+uh it makes sense now right very sweet
+and stefan the two most fun players in
+poker yeah it's true but if if you
+the thing is there's so much going on
+that
+they're they're definitely playing over
+the line of uh
+they're
+they're so creative that at some point i
+don't follow it anymore i would rather
+have someone who some destroyed a more
+creative place so you can understand it
+but now there's just so much stuff going
+on that at some point is very hard to to
+learn from all right let's close it off
+with uh with some dunking action of very
+sweet and stefan oh my god what a game
+what a game guys what a game any poker
+fan would love this game stefan opens
+the button various three three bets from
+the big blind stefan four bets okay so
+four web bots quite a lot of dunking as
+i think i explained earlier
+also four robots is one of these
+scenarios where i said that if you
+sometimes check all the flop and even
+the turn is sort of a blank because we
+have already overfolded we can suddenly
+do quite a lot of donking especially if
+the checkback range of imposition will
+realize quite a lot of good equity
+bearish with calls bear spree check
+raises the big blind versus button on
+knight five four stephen calls bear
+sweet checks
+stefan betts king air suite calls and a
+front bet of barry on a five so
+basically saying he has ace five suited
+or something five six suited
+um or in general you could just have a
+very strong hand i'm looking at it in a
+way that i cannot see yet the whole
+cards below or he has a very
+strong hand that just thinks that stefan
+will put control on a fight even though
+i don't think that's very likely so
+maybe this is just
+i have aaron i hope you have error bluff
+that's what i'm going for
+very sweet has a four yeah okay
+obviously we're playing very sweet and
+stefan i should have obviously included
+the four as well right versus king six
+yeah so if we now go for our points i
+don't think i mentioned this spot right
+yeah sometimes these guys do things that
+are a bit uh above my pay grade i would
+say i mean it is a merch but i mean he's
+betting
+he's spending
+stefan is getting a very great price he
+only has to call 5k to win 34. stefan is
+not a big fan of folding stefan would be
+capable of hero calling here maybe with
+ace queen or something no spades i would
+definitely see that as a scenario or an
+ace high in general
+but the problem is with this bat said
+don't really think we make better hands
+fault and usually if you want to merge
+making better hands fault is usually
+part of the strategy nacho probably yeah
+nacho is uh yeah
+he he he's a poker fanatic playing in
+this game but i mean you have to be a
+poker fanatic a lot of their plays seem
+to resolve around spots that are
+uncommon people have not studied and
+aren't certain how to approach so that's
+good that jay mentioned this because if
+you remember all the way in the
+beginning of the seminar i rambled about
+how playing unconventional strategies
+put your opponent in parts of the tree
+that they're not used to and there's big
+room for error especially if you
+have looked at that tree for example
+dunking okay
+yeah when the card is really bad for
+stabbing in position it would just check
+back out
+we should definitely dunk exactly so hot
+got it
+to real wizard i just realized i'm
+damning myself everyone my bad for the
+dms i'm an old man doing this no problem
+yeah he only has straight listen if he
+had a lot of money behind then i could
+then i could have found this play
+because like i said i definitely think
+stefan uh
+has made time has made thinner calls
+than ace jack here on the river for
+example or his queen
+uh and then maybe he would fold
+uh let's say he has
+nine eight of spades or something maybe
+he folds that but uh i don't think we
+should ask stefan to fold something but
+that's somebody saying oh actually yeah
+i haven't even mentioned i mean stefan
+man it's standard for stefan the value
+bluff
+all right so to wrap it up i have no
+[ __ ] clue what's going on here so
+sorry this is probably not the in in in
+my reasons to dunk right
+uh he prevents the a high check back and
+check calling is zero v against a good
+range stefan could make the mistake of
+never folding ace high
+good point actually from steve here he
+is so i do think he's going to make the
+mistake of never folding ace high so
+then the question is does he have more
+eight highs than bluffs because if we
+start value of
+the valuable effects double called it
+you should call with more ace highs
+then if we check assuming we're not
+folding
+then that that then that he has bluffs
+plus there is some hands now that we're
+betting for protection on the turn like
+maybe a nine
+that
+would check behind the river and
+therefore we don't lose our stack so
+okay but let's not try to understand
+this spot because then we probably
+need another hour but i do steve i think
+makes makes a good point here
+so coming back to the webinar i think we
+are going to close it off as we've
+passed the one hour mark i want to thank
+everyone for tuning in
+i hope you guys uh learned something
+do we dunk the flop more versus ep tight
+range or button wide range both yeah the
+range so dan actually makes an important
+point there at the end obviously if
+someone opens 4x okay and the flopcon
+754
+we didn't really defend a lot of hands
+that connect on that board
+right we're dunking from an advantage so
+if someone opens 4x 754 is not our board
+okay
+same if someone opens three x from ep
+and you go on the big blind but if
+someone opens memories from ep you can
+on the big blind it's a very good port
+for you so always look at how your range
+connects with the board
+all right guys thank you muchos gracias
+da nada take care guys
+[Music]
+you

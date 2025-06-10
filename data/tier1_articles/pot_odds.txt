@@ -1,0 +1,111 @@
+### TOPIC: pot odds
+What are Pot Odds in poker?
+Pot odds tell you what portion of the pot you need to win to justify a call. This metric is easy to calculate and is a tool every player should have in their tool belt.
+In this article, we’ll review the fundamentals of Pot Odds, how to calculate them, and the limitations of this metric.
+Why should you learn this?
+Pot odds are a fundamental calculation in poker. In the simplest terms, pot odds tell you that if you want to call, for example, a $5 bet, you better recoup at least $5 from the pot (in the long run).
+It doesn’t make sense to put money into the pot if you don’t recoup it later. We’re referring to the long-term expected value of a call rather than the immediate result. Sometimes you’ll recoup the call and then some; other times, you’ll lose entirely. But on average, you need to recoup your investment. That’s why pot odds are a fundamental staple of poker theory.
+Pot odds are essentially a Risk/Reward calculation. By examining the size of the bet relative to the pot, you can calculate exactly how often you need to win to justify calling. We weigh the risk against the reward to find the breakeven point.
+Calculating Pot Odds
+Pot odds tell you what percentage of the pot you need to win in order to justify calling a bet. To calculate pot odds, all you need to know is the size of your opponent’s bet relative to the pot.
+For example, let’s say our opponent bets $10 into a $20 pot. We need to recoup at least $10 out of that new pot after calling. So what percentage of that new pot do we need to win?
+For simplicity, let’s imagine there’s no more betting on future streets, and this bet is a shove. In that case, the portion of the pot we’ll win is simply our equity.
+Click here to learn more about equity!
+Calculating required equity as a percentage
+Required Equity to call = (Call amount) / (Pot size after we call)
+Required Equity to call = $10 / ($20 + $10 + $10) = 25%
+If we win 25% of the time after calling, we’ll recoup our $10 investment. So we need to win at least a quarter of the new pot, on average, to get our money back. Obviously, we’d want to win more often than that, but we cannot justify calling if we win less than 25% of the time.
+Calculating as Odds
+Some players prefer to calculate this using odds rather than percentages:
+We are risking $10 to win the pot and our opponent’s bet ($30). Therefore, we are getting 3:1 on a call. That means we need to win at least 1/(3+1) = 25% to break even on a call.
+Cheat Sheet
+Players who are less mathematically inclined may simply want to use a cheat sheet. We’ve created just such a sheet! Simply look at the first column, select your opponent’s bet size, and then look at the second column to determine how often you need to win.
+Pot Odds Calculator
+You can also simply use a pot odds calculator for off-table analysis. Many of these exist online, but we’ve made our own here using a simple Google Sheets application. Make a copy for yourself and play around with it!
+Pod Odds Calculator
+Preflop shove example
+CO vs SB shove
+100BB Cash Game. 50NL Rake structure.
+CO (Hero) opens to 2.3BB, SB 3bets to 11.5BB, CO 4bets to 25BB, SB shoves for 100BB total.
+Check this spot out in GTO Wizard.
+Action on CO with this range:
+CO range facing SB 5bet shove
+What hands should call? Well, in order to find the correct calls, all we need to do is calculate our pot odds and call with any hand that has at least that much equity.
+Amount to call: 75BB more
+Total pot after we call: 201BB – rake (4BB) = 197BB
+Required equity to call: 75/197 = 38% minimum
+Next, we need to look at the SB’s shoving range to calculate our equity against it.
+SB 5bet shoving range vs CO 4bet
+I’ll copy SB’s range (Using the Ranges Tab) in GTO Wizard and paste it into an equity calculation tool like Flopzilla.
+Here we can see our equity against this shove:
+CO Equity facing SB shove
+Now, remember, we need at least 38% equity to call. So we should call any hand with at least that much equity. In other words, we call (TT+, AK).
+Let’s check our assumptions against the GTO Solution. Hands in green are calls, and blue are folds.
+CO strategy facing SB shove
+As you can see, it only calls hands that have the correct equity to do so, according to our pot odds.
+But my opponents are nits!
+That’s fine! The beauty of understanding Pot Odds is that you can adjust to their strategy. For example, let’s imagine SB only shoves QQ+, AKs.
+Nit SB shove
+What is our equity against that range?
+Again, we need 38% to call. Only KK and AA are profitable to call facing this nitty shove. AKs is close to breakeven but just below the line. Hands like QQ are significant losers facing this nitty shove.
+Pot odds when future bets are possible
+Pot odds are not always so clean when future bets are possible. The percentage of the pot we’ll win is not necessarily equivalent to our equity when future betting rounds exist. However, if you measured equity as your actual expected value divided by the pot, Pot Odds would always hold true. We call this metric your “Pot Share”.
+We cover this topic in more depth in our Equity article.
+Remember the fundamentals. If your opponent bets $5, you need to recoup at least $5 (in the long run) to justify calling. However, because there are future betting rounds, we may over or under-realize our equity.
+A naive pot odds calculation would have BB calling a 2.5BB BTN open with any two cards. For example, 72o has about 30% equity against a standard BTN opening range, so it would have “direct” pot odds to call. However, this hand will not realize enough equity and therefore not recoup the 1.5BB call investment.
+This is where the concept of implied odds, reverse implied odds, and equity realization come into play. A “naive” pot odds calculation assumes equity = pot share. In reality, equity only equals pot share when no more betting occurs after the call.
+Read this article to learn more about implied odds!
+Pot odds limitations example
+8Max MTT, 40BB effective, 12.5% ante
+BTN opens 2.3BB, BB calls.
+Flop: KsQh3d
+BB checks, BTN bets 2BB into 6BB.
+A “Naive” pot odds calculation would tell us to continue with any hand that has at least:
+2 / 10 = 20% equity.
+Let’s use GTO Wizard to look at BB’s equity facing this bet:
+Now let’s compare that to the optimal GTO strategy:
+We see the solver folding hands like A7o with over 40% equity, and calling with hands like 42s which has only 18% equity. So what’s going on here?
+Just because a hand has 40% equity doesn’t mean it wins 40% of the pot! A7o likely has to fold to any future bets if it doesn’t turn an Ace. A7o has 0EV facing this bet. 42dd has much less equity, but it has better implied odds drawing to many backdoor flush/straight draws. 42s also has 0EV.
+Lastly, in the Breakdown tab, this Manhattan graph shows the entire BB strategy, sorted by equity. We’ve marked the 20% threshold below:
+Pot odds and Expected Value
+Pot odds are just a shortcut for calculating the breakeven equity required to call a shove. The shortcut we’ve outlined earlier (call/pot after you call) can be derived from an expected value equation.
+Call EV Example
+Learning how to calculate the expected value of a call is important because it tells us more than the breakeven point. It tells us exactly how profitable a call is!
+To calculate the expected value, we set up an EV equation like so:
+EV (Call) = (Win% x Win$) – (Lose% x Lose$)
+Win% is our equity
+Lose% is 1 – equity
+Win$ is how much we gain (relative to folding) when we call and win
+Lose$ is how much we lose (relative to folding) when we call and lose
+Note about Win$/Lose$: These are measured relative to folding at the decision point.
+Using the CO vs SB shove first example, how much does a call with AKs yield?
+Win$ = Amount we win when we call (197BB) subtract our call (75BB) = 122BB
+Lose$ = The amount to call = 75BB
+Win% = 48.4%
+Lose% = 51.6%
+EV (Call) = (48% x 122BB) – (51% x 75BB) = 21BB
+Or about $10.50 playing 50NL.
+Deriving the pot odds formula from expected value
+EV (Call) = (Win% x Win$) – (Lose% x Lose$)
+Let’s replace win/lose% with Q (for equity) and 1-Q. We’ll also replace Win$ with W, and Lose$ with L.
+EV (Call) = (Q x W) – ((1-Q) x L)
+Set EV to 0 to find the breakeven point, and solve for required equity (Q):
+EV (Call) = 0 = (Q x W) – ((1-Q) x L)
+0 = (Q x W) – ((1-Q) x L)
+QW = (1-Q)L
+QW = L – LQ
+QW + LQ = L
+Q(W+L) = L
+Q = L / (W+L)
+Recall that L is the amount we lose, which is equal to the amount we call.
+W is the amount we win, minus our call.
+So the final equation gives us:
+Required Equity (Q) = Call / (Pot after we call – Call + Call)
+Required Equity (Q) = Call / (Pot after we call)
+Conclusion
+Pot odds are a fundamental tool in poker. This essential risk/reward calculation tells us what fraction of the pot we need to win after calling to recoup our investment. Therefore, calculating pot odds is fundamental to your poker strategy. (You can practice these calculations in GTO Wizard Play Mode, which allows you to test yourself during the flow of a game for randomly selected scenarios in a practical, risk-free setting, turning theoretical knowledge into actionable skills.)
+Let’s recap:
+Pot odds are a risk/reward calculation that tells you what portion of the pot you need to win to recoup your investment.
+If you call $5, you need to recoup $5 in the long run
+Using raw equity doesn’t always work if future betting is allowed
+Pot odds can be derived from an expected value equation

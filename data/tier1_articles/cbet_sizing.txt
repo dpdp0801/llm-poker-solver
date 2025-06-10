@@ -1,0 +1,86 @@
+### TOPIC: cbet sizing
+The Mechanics of C-Bet Sizing
+What factors influence c-bet sizing on the flop? Is it fold equity, SPR, draw equity, polarity, protection, nut advantage, or range advantage?
+Range advantage tends to influence the frequency of bets. The greater our range advantage, the more often we bet.
+Nut advantage, however, along with fold equity, are the primary (but not the only) drivers of bet sizing.
+The following rules around bet sizing are useful to follow:
+Bet Bigger
+Villain has few nutted hands
+You have sufficient nutted hands
+Villain has many hands with reasonable equity against the top of your range
+The value of fold equity is high
+You have fewer middling hands to protect
+Bet Smaller
+Villain has many nutted hands
+You have insufficient nutted hands
+Villain has few hands with reasonable equity against the top of your range
+The value of fold equity is low
+You have more middling hands to protect
+
+If you have a lot of nutted hands and your opponent does not, but they have lots of hands with reasonable equity against your nutted hands, you bet big. You can extract more value from the reasonable-equity hands and are not worried about getting reraised because they don’t have enough strong hands to 3-bet.
+If your opponent has lots of nutted hands but few hands with reasonable equity against the top of your range, you bet small. Betting larger leaves you vulnerable to exploitation when there are so many nutted hands out there, and you will fold out the hands your value is ahead of.
+You also bet big when the value of fold equity is high. Getting a high-equity hand to fold is a great result, so we bet larger when that is a possibility. If the only hands you get to fold are low on equity anyway, the value of fold equity is low, so it would be overkill to bet a medium or large size.
+If you have a lot of middling hands in your range, your nutted hands have to bet smaller to protect the middling ones from exploitation. You do not have this concern if you have few middling hands in your range and so can bet bigger for value.
+We can explore this further with a concept called “the wetness parabola.”
+On what we would call a typically dry board like 7♥2♦2♣, the bet sizing tends to be small from the preflop aggressor. On a wet board like K♣Q♦8♦, we will see a lot of big bets and overbets. However, when a very wet board like Q♦8♦7♦ is dealt, the bet sizing comes down again.
+On dry boards, we have no incentive to bet big because of the low value of fold equity (we only fold out the misses) and the lack of draws that threaten the top of our range. If there are also lots of nutted hands that you might be drawing dead against, then that will put you off betting bigger even more.
+We have a stronger incentive to bet big on wet boards because fold equity is so valuable. There are more draws that have equity against our current value range and not many nutted hands that have us already crushed.
+Very wet boards tend to create a lot of nutted hands in both ranges, which prevents either player from overextending by betting big. Most hands with a draw will call anyway and only the complete misses fold, so the value of fold equity is low.
+Let’s test this out. The following spots are all BB vs BTN in a single-raised cash game pot, 100bb effective.
+
+The Dry Flop
+Let’s start off dry with Q♥Q♣6♦. The BB checks 100% of the time and this is the BTN response:
+BTN c-bet flop strategy vs BB on QQ6r
+There is a high frequency of betting, most of which is for the 33% pot sizing.
+When the BTN bets, the BB folds 37% of the time. These are the hands they fold:
+BB folding range vs BTN’s 33% pot c-bet flop
+The highest-equity hands that fold are just Ace-high, which all have between 43 and 46% equity against the betting range. Most of the hands that fold, however, are trash hands like 43s or T8o that have well under 25% equity. Betting anything larger than 33% pot would be overkill against this portion of the range. The value of fold equity is low here as these are hands most of our betting range wants calls from because most of our range is ahead of them.
+Now, let’s look at the hands that call or raise our small c-bet. The BB raises 24% of the time and calls 39% of the time. Below graphic depicts their combined continuation range:
+BB continuation range vs BTN’s 33% pot c-bet flop
+16.8% of hands in the continuation range are Queen-x or 66. This is why we do not bet bigger, villain has many nutted hands and we are exploitable if we use anything but a small sizing. However, there are no hands between 70 and 90% equity, so villain has few hands with reasonable equity against the top of our range. The top of our range consists of Queen-x for trips and it is very hard to outdraw that on this dry board.
+We bet small with our value because any other sizing folds out the weak hands we want to get called by. Plus, we are not really concerned with protection.
+Another reason why we bet small is that our BTN range has many middling hands that need protection. On this flop, the middling hands are Ace-x, underpairs, and 6-x, all of which can get folds from currently worse hands that have a reasonable chance of becoming better hands. If we, as the BTN, overbet nutted hands, then bet smaller with their medium-strength hands, this would leave them open to exploitation. The smaller bet size with overpairs, Queen-x, and 66 protects these middling hands.
+Hand distribution of the range BTN gets to the flop with (QQ6r)
+
+The Wet Flop
+Now, let’s dive deeper and get wet with K♥J♥7♦. Once again, the BB checks 100% of the time. The BTN proceeds as follows:
+BTN c-bet flop strategy vs BB on KJ7tt
+The predominant bet sizes are 75 and 125% pot for the overbet. When we make the overbet, this is the range that BB folds:
+BB folding range vs BTN’s 125% pot c-bet flop
+62% of hands fold here. We obviously fold out all the trash, but there are some much stronger hand classes that fold compared to the previous example. 15% of BB’s folds come from hands with between 50–60% equity.
+Some top pairs fold—K9s and K8s, for example, when they are not diamonds. K8o folds when it doesn’t have the 8♥. These hands have almost 60% equity!
+We also make some strong second pair hands fold like QJo.
+Lots of gutshots like AT, Q9, T8, and 98 wave the white flag.
+Most of these hands would call smaller bets.
+The value of fold equity is high; it is a significant success for our bluffs to fold out hands with almost 60% equity and not the worst outcome for our value to fold out gutshots and Ace-x.
+Looking at the BB’s combined calling and raising range, we can see that they call 32% of the time and raise just 5% of the time:
+BB continuation range vs BTN’s 125% pot c-bet flop
+The key thing to note here is that villain has few nutted hands in the calling range. This is one of the reasons why the BTN can overbet; they are not concerned with getting 3-bet or running into a monster. However, villain has many hands with reasonable equity against the top of BTN’s range, which is comprised of sets that are potentially vulnerable to any Ace, Ten, 9, or heart on the turn or river.
+The reasons to overbet are diverse, depending on the opponent’s hand class:
+It allows for loads of value extraction, with little fear of being played back at by nutted hands or bluffs.
+The stronger draws are charged a high price to attempt to suck out.
+The weaker draws (e.g., gutshots) can not profitably call to see if they can hit a miracle card.
+The BTN does not have a great deal of middling hands to protect in this range. They have lots of strong hands, which on this flop is top pair to a set. They also have a lot of junk, which is low pairs or worse on this board. The second to third pair department is where they’re relatively less represented. This is a classic polarized range that loves a bigger bet size.
+Hand distribution of the range BTN gets to the flop with (KJ7tt)
+
+The Super Wet Flop
+It’s time to fully immerse ourselves into super wet flops like Q♦J♦T♦. The BB checks 98% of the time, and when they do, this is how the BTN responds:
+BTN c-bet flop strategy vs BB on QJTm
+We have a close to a 50/50 split of betting and checking, with the predominant bet size being small. When that bet is made, this is the BB’s folding range:
+BB folding range vs BTN’s 33% pot bet
+The BB folds 37% of the time, mostly mucking suited unpaired hands that have missed like 8♥5♥ and offsuit hands without a diamond in them like A♥5♣. Second pair and below fold, but top pair and above, and any hand with a diamond continue. The best hands that fold are combos like J♣7♣, which has 39% equity, but most hands have under 25% equity. The value of fold equity is low; the majority of folds here are complete misses we dominate.
+Now, let’s look at the BB’s combined continuation range. The BB calls 53% of the time and raises 9% of the time:
+BB continuation range vs BTN’s 33% pot bet
+We run into a lot of strong hands again. 29.4% of hands that continue are straights or flushes with at least 60% equity. So, villain has many nutted hands. The middle hands in this range are top pair or two pair, which have shrunk in value on this board and perform poorly against the top of our range, which would be flushes in this case, so villain has few hands with reasonable equity against the top of your range.
+We bet small in these spots because we can run into so many strong hands and only fold out the trash. To keep weak hands in, we have to bet smaller.
+Finally, the BTN has a lot of middling hands that need protecting. On a board like this, the middling hands are lots of one pair hands that are well ahead of the BB’s overall range but are in bad shape against flushes and flush draws. They find it still worthwhile to go for thin value, so we bring our bet sizing down with our nutted hands to protect them.
+Hand distribution of the range BTN gets to the flop with (QJTm)
+
+Conclusion
+The theory of optimally sizing bets is relatively simple, but the execution in practice gets tougher fast. On a theoretic level, the incentives of bet sizing largely relate to nut advantage and the value of fold equity. So, if you understand how these two factors influence sizing, you’ve already come a long way in theory. The bigger difficulty lies in evaluating how strong or weak these incentives are in practice, in all the different spots of poker and how that then translates into specific strategic implementations.
+Nut Advantage
+If you have a significant nut advantage over your opponent, you are incentivized to bet large or even overbet to extract more value with little fear of getting reraised. This is especially true if your nutted hands have relatively low equity and are vulnerable on most runouts.
+When your opponent has the nut advantage, but you have the range advantage, you are incentivized to bet small with value. You don’t want to overbet pots where you could be close to drawing dead, nor do you want to bet big to then get bluffed off a strong hand. You also bet small to extract value from hands with reasonable equity against your range that would fold to any other sizing.
+Fold Equity
+Fold equity also determines bet sizing. The value of fold equity is low if you mostly fold out hands with low equity against your range. The value of fold equity is high if villain folds hands with good equity against your range, which is why we are motivated to size up.
+Lastly, it’s important to be aware of the relationships within a range. For example, the middle of your range acts as an anchor, which the top of your range must defend. When there are lots of medium-strength hands in a range, it brings down the sizing for the nutted hands. When there are few medium-strength hands, a polarized big betting strategy is favored.

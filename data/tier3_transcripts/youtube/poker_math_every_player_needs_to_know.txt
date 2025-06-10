@@ -1,0 +1,572 @@
+### TOPIC: poker math every player needs to know
+welcome to Poker math 101 in today's 
+video we're going to discuss the poker  
+math that every player needs to know 
+you don't need to be a mathematician  
+or a genius but if you want to succeed 
+at poker you need to have a grasp on  
+these basic mathematical principles 
+that guide your strategy let's dive
+in before we start the video we' really appreciate 
+it if you could hit the like And subscribe buttons  
+your support means a lot to us thank you and 
+enjoy the video let's start with a question  
+what do these five things have in common prop 
+bets pot odds minimum defense frequency Alpha and  
+value to Bluff ratios most coaching material out 
+there will teach you that these are five separate  
+things they all have their own equations they all 
+represent different concepts blah blah blah but  
+they all share one thing in common what is that 
+the answer is that they can all be expressed as  
+a simple risk reward calculation in fact to me 
+these aren't five different things this is one  
+thing expressed five different ways in today's 
+video I'm going to equip you with a powerful  
+mathematical tool that you can use used to solve 
+a wide variety of different poker math spots very  
+easily and intuitively we're first going to cover 
+why this matters we'll help you build intuition  
+so that you're not memorizing formulas rather 
+you are building this from an intuitive place  
+then I want to teach you the basic risk reward 
+calculations how you can use those in things like  
+expected value Edge Break Even calculations Etc 
+and along the way we're going to have interactive  
+quizzes to help drill this knowledge home so why 
+does this matter I mean at its heart poker is a  
+game of intuition it's a game of guesswork but 
+you need something to guide your intuition and  
+this math guides it right for example if you're 
+calling a bet you need to have some idea of how  
+often your call needs to work to succeed even 
+if you don't know your exact Equity you need  
+to have some idea of okay it needs to work 20% 
+of the time or oh crap it needs to work a lot  
+more often than that math is also very useful in 
+off table analysis reviewing your hand histories  
+reviewing your play and building that intuition 
+during your study time it helps you ask the right  
+question so if you don't know how to reframe this 
+in terms of the basic mathematics that guide your  
+strategy then you don't know how to ask the 
+right questions about your own strategy or  
+how to improve most importantly risk and reward 
+weight your incentives if you don't understand  
+how these waiting work then you don't understand 
+the incentives of your play let's build up your  
+intuition you're getting 3 to one on a call how 
+often do you need to win to break even right now  
+this problem seems kind of abstract if you're 
+familiar with poker math you might know the  
+answer but let's break this down to something 
+a little more fundamental let's reframe the  
+question in terms of concrete objects that you can 
+understand a gin and tonic recipe uses three parts  
+tonic to one part gin what percentage of the 
+drink is gin hopefully just by looking at this  
+you can see oh one out of four is gin therefore 
+25% of this drink is Jin right and this is just  
+another way of saying there are three times as 
+much tonic as there is gin therefore 25% in and  
+this is just how you transform a ratio into a 
+percentage right all right so let's go back to  
+our previous example you're getting 3 to one on 
+a call how often do you need to win to break even  
+okay well we imagine three plus dollar signs and 
+one minus dollar sign all this means is that the  
+reward is three times greater than the risk so 
+to break even you need to win one in four times  
+or 25% we'll try another example you wager $100 
+against your friends $400 that there will be an  
+ace on the flop so if there's an ace on the Flop 
+you gain 400 but if there's no Ace on the Flop you  
+have to pay your friend 100 how often do have to 
+flop an ace to break even okay at the moment this  
+seems a little vague but let's reframe it in terms 
+of something more concrete a basket contains four  
+green apples and one red apple what percentage 
+of apples are red in this basket well hopefully  
+just by looking at this picture you can say well 
+it's one in five apples 20% there are four green  
+apples for every one red apple 1 over 1 + 4 and 
+1/5 is 20% so you can just think of it in terms  
+of simple things like this right going back to 
+the previous question it's your 400 against their  
+100 how often do you have to flop an ace well 
+you're getting 400 to 100 or 4 to1 therefore  
+you need to get an ace at least 20% of the time 
+to break even now for a quick quiz is this a  
+profitable bet will you make money or lose money 
+doing this take a moment to consider your answer
+well if we use GTO Wizards reports we can see that 
+ASI flops actually occur 21.7% of the time so this  
+is a profitable bet because you're going to flop 
+an ace more than 20% of the time risk and reward  
+ratios are to me the most fundamental equation 
+in gambling they answer a huge number number of  
+Poker math questions throughout this video we'll 
+be referencing a term called implied probability  
+or the break even point and this is just a fancy 
+way of saying how often does the thing need to  
+happen for the BET to be fair in our previous 
+example if the ace flopped exactly 20% of the  
+time no one has the edge it's exactly a fair 
+Break Even bet and whenever you ask something  
+like what are the pot ODS in poker or what's 
+the bluffing frequency all of these things  
+can be expressed as just calculating the break 
+even Point once you know this Break Even points  
+you can then start to estimate whether the thing 
+happens more or less often than that and there's  
+how you start building your intuition let's 
+start with a breakdown so the way we express  
+stuff as odds is reward colon risk you're getting 
+three to one you're getting five to one all this  
+means is here's the reward it is this much 
+bigger or smaller than the risk it's a ratio  
+right that's how you express something as odds in 
+order to convert this to a percentage we use this  
+formula first of all risk is what we stand to 
+lose when we're unsuccessful reward is what we  
+stand to gain when we are successful the implied 
+probability or break even points is risk divided  
+by risk Plus reward which is just how you convert 
+the odds at the top of this page to a percentage  
+to the implied probability you can also use this 
+to calculate the expected value of something so  
+if you want to know exactly how much money you 
+expect to make well you can just multiply what  
+you think the win percentage will be times the 
+reward subtract the lose percentage times the  
+risk EV equals that equation right there again 
+you can understand basically all of Poker math  
+if you understand basic risk reward calculations 
+let's see an example and really drill this home  
+we'll start with pod ODS the most common one 
+and pod ODS fundamentally asks what is the risk  
+reward of calling so if you're facing some 
+bet the risk is that you call and lose the  
+amount you called the reward what you stand 
+to gain is the pot and their bet if I give  
+you this and I say okay you're on the river in 
+the big blind here button is just bet 2.7 into  
+5.4 so they've made a half pot bet what are big 
+blind's pot ODS could you figure it out take a
+moment all right let's walk through it remember 
+we're trying to calculate the break even point of  
+calling the risk is 2.7 so we call and lose we 
+stand to lose 2.7 big blinds the reward is how  
+much we gain if we win so we call we gain their 
+bets of 2.7 big blinds and the existing pot of  
+5.4 big blinds for a total of 8.1 the PO odds 
+or the break even point of calling could then  
+be expressed as risk divided by risk Plus reward 
+or more succinctly this fraction which comes out  
+to 25% which is exactly what you expect for a 
+half pot BET right but you may have seen pot  
+odds expressed as a ratio instead so we know that 
+okay they need to win 25% of the time but what if  
+I asked you this question differently what if I 
+said okay here's the reward and the risk calculate  
+it big blind is getting 3 to one right or 8.1 to 
+2.7 the reward is three times greater than the  
+risk because you get a full pot and a half pot bet 
+if you win and you lose a half pot bet if you lose  
+so 3 to one risk divided by risk Plus reward 
+we can convert this from odds to percentages  
+again just using this equation you need to win 
+25% of the time and finally we can express this  
+as an expected value equation so maybe you don't 
+just want to figure out the break even percentage  
+you want to know hey exactly how much money am I 
+going to make if I win let's say 30% of the time  
+20% give me some exact numbers well you can plug 
+this into an eveve equation pretty easily again  
+we know the risk we know the reward therefore we 
+can plug it into a simple EV equation here's how  
+often we win times the amount we win subtract how 
+often we lose times the amount we lose plug this  
+in and there you go so you can plug in any win 
+and lose percent that you like and figure out the  
+exact expected value of calling now remember if we 
+set the expected value of calling to zero then big  
+blind will win 25% of the time or in other words 
+if we set the win percentage to 25% and the lose  
+percentage to 75 well then the expected value of 
+calling is exactly zero or put another way it is  
+a break even call so fundamentally the takeaway 
+here is that pod odds is just asking you to find  
+the break even win percentage when you call that's 
+all it is right so you understand pod odds but do  
+you understand value to Bluff ratios a very handy 
+trick to know is that the bluffing percentage on  
+the river so how often someone should be bluffing 
+is just equal to the pot odds that they're laying  
+similarly the value percentage is just one minus 
+this amount now keep in mind this is only on the  
+River on flop and turn value to Bluff ratios kind 
+of compound I have a whole other video about that  
+called Leverage go check that out if you want to 
+learn how this stuff works on earlier streets but  
+on the river anyway we can pretty easily express 
+well hey they ought to be bluffing this often  
+because here's the podt odds they're laying let me 
+try an example we'll go back to the previous one  
+button has bet 2.7 into 5.4 so they've made a half 
+pot bet how often should they be bluffing on the
+river imagine that you in the big blind have 
+a bluff catcher you beat all of their Bluffs  
+but lose to all their value bets well if you're 
+exactly breaking even that would mean you have  
+25% % Equity right because that would mean that 
+they're bluffing 25% of the time so you know the  
+break even bluffing frequency as the big blind you 
+could then start to think oh there's no way they  
+have 25% Bluffs here or oh they're definitely 
+bluffing more than a quarter of the time here  
+you can start to rephrase it in terms of these key 
+thresholds and start thinking about your strategy  
+let's talk about Alpha next Alpha describes the 
+risk reward of bluffing imagine you put in some  
+pure Bluff on the river how often does it need 
+to work in order for you to break even the risk  
+of bluffing is that they'll call you and then you 
+just lose whatever amount you bluffed the reward  
+what you stand to gain is the pot and this happens 
+whenever they fold so let's calculate the alpha of  
+this spot here you're in the big blind you've just 
+put in six and a half so you've overb the pot into  
+a five big blind pot how often do you need small 
+blind to fold in order for your bluff to break
+even
+well we know we're trying to calculate Alpha we 
+know our risk is the amount we bluffed 6 and2 we  
+know the reward what we stand to gain is the pot 
+five big blinds we know how to calculate a break  
+even percentage that's just risk divided by risk 
+Plus reward yes it's the same formula as pot odds  
+again and we can just plug this in and figure out 
+hey in order for our Bluff to break even we need  
+them to fold 57% of the time if they fold more 
+than that hey we're making money if they fold  
+less than that ouch we're losing money but how 
+much are we making or losing exactly well let's  
+find out we can also plug this in to an expected 
+value equation so the expected value of bluffing  
+again we know the risk we know the reward it's 
+the win percentage times the reward subtract the  
+lose percentage times the risk if you want to 
+figure out exactly how much money you're going  
+to make and you have some estimates for win and 
+lose percentage well you can plug this in now in  
+the case of bluffing you win whenever they fault 
+and you lose whenever they call so I'm going to  
+replace those terms and then we'll plug in the 
+reward and the risk and from here you can plug  
+in whatever percentages you like and you'll notice 
+that if we plug in the break even percentage the  
+expected value of bluffing becomes zero but 
+if you think they're folding more than that  
+well now we're making money if they fold less than 
+that well now we're losing money so again if you  
+understand risk and reward you understand Alpha 
+and you understand how to calculate the EV of a  
+bluff EV of bluff equals z when small blind folds 
+57% of the time let's talk about minimum defense  
+frequency MDF is your Shield against bluffers 
+it's how you prevent people from running you  
+over and exploiting You by over bluffing so 
+how often do we have to call to prevent our  
+opponent from profitably bluffing well wait 
+isn't this what we just calculated it is MDF  
+is just 1 minus Alpha and Alpha is just 1 minus 
+MDF so going back to our previous example if we  
+want to calculate how often small blind should 
+defend or the MDF of small blind in this spot  
+how wide they should defend well okay we already 
+know the alpha it's 57% therefore MDF is one minus  
+that number or 43% small blind should defend 
+at least 43% of the time now they can defend  
+through calls or raises but all that matters 
+is that they're folding no more than 57% cuz  
+if they fold more than 57% of the time then big 
+blind has a profitable Bluff with any two cards  
+so knowing that key Break Even point is crucial 
+to determining whether or not you're going to  
+have a profitable Bluff or how often you ought 
+to defend to prevent your opponent from having  
+a profitable Bluff and as usual it can all be 
+expressed as a simple risk reward calculation  
+all right so you probably think you have a 
+handle on the basics now let's put that to the  
+test we're going to put all of these Concepts 
+you've just learned together into one example  
+in this spot the pot is five big blinds on the 
+river big blind checks small blind bets 2 and  
+a half into that pot and big blind makes it 12 
+and a half I want you to find two things first  
+how often should big blind be bluffing when they 
+raise and secondly how often should small blind  
+defend versus that rise take a moment to think 
+about your answer pause the video if you need
+to
+we'll start with the first question find big 
+blind's bluffing frequency so recall that the  
+bluffing frequency is just equal to the pot odds 
+laid in other words we need to find the risk  
+reward of calling on the river anyway again this 
+does not apply to earlier streets so what is the  
+risk reward of small blinds call how often do we 
+need to be bluffing for small blind to be exactly  
+Break Even when they call a bluff catcher their 
+risk of calling is the amount they're being asked  
+to call so they've already put in two and a half 
+we've raised to 12.5 so 12.5 minus 2.5 equal 10  
+that's the risk we're saying hey small blind would 
+you please put in another 10 chips the reward if  
+they call us successfully is that they'll gain the 
+pot of five plus their previous bet which is now  
+a sunk cost like they they don't get this if they 
+fold of 2.5 plus our raise of 12.5 so it's all of  
+these things together and that adds up to 20 pot 
+odds again can be expressed as simple risk reward  
+calculation 10 divided by 10 + 20 10 over 30 1/3 
+so big blind should be bluffing a third of the  
+time because the Pod odds are 33% and if we want 
+to find the break even point of a bluff catcher  
+well it's 33% step two we're going to find how 
+often small blind should defend so recall that  
+their defend defending frequency is just equal 
+to the minimum defense frequency and MDF is just  
+1 minus Alpha now there are some formulas that 
+calculate MDF immediately I recommend you don't  
+use those because they just don't work with 
+arrays So Pro tip always find Alpha first I  
+want you to find think about what we're actually 
+asking here we're saying hey big blind might be  
+over bluffing how often does small blind need 
+to defend to prevent them from profitably doing  
+that so we rephrase the question what's the risk 
+reward of big blind's Bluff they're risking 12.5  
+this is what they stand to lose if they Bluff 
+unsuccessfully and the reward is the pot plus  
+small blinds bet of 2.5 this is what they stand 
+to gain if they Bluff successfully Alpha again is  
+just a risk reward calculation so risk over risk 
+Plus reward in this case comes out to 62.5% in  
+other words big blind has a break even bluff if 
+small blind folds at least 62 and a half percent  
+of the time so big blind's really hoping that 
+small blind folds more often than this bringing  
+that back to small blind's defending frequency 
+MDF is just one minus that number so small blind  
+should defend at least 37.5% of the time in 
+order to prevent big blind from profitably  
+bluffing therefore we have our answer simple 
+as that okay that all sounds good and well but  
+here's a question does the solver agree with our 
+math let's take a look this is a simple cash Game  
+Spot it's checked all the way down to the river a 
+98 five King so lots of different hands get there  
+right uh there's Straits there's flushes there's 
+two pairs all kind of different hands but not a  
+lot of action so far so we check and because there 
+hasn't been much action small blind puts in a nice  
+thin value bet half po mostly representing like 
+kingx second parai pants action back on us in the  
+big blind and you can see they're raising pretty 
+aggressively 16.2% of the time but what are we  
+representing when we check rais the river well 
+some flushes some Straits some sets and a whole  
+lot of two pair right these are hands that like 
+maybe they slowed down because the flush completed  
+on the turn but hey then we didn't see any action 
+so now we decid to check raise the river so we  
+can also see that there are low pairs in here 
+and the low pairs represent the Bluffs and hey  
+wouldn't you know it we're bluffing 32.9% of the 
+time that's exactly what we expect with the pod  
+ODS another way we can view this is to click 
+overview put in the Rays and here we can see  
+pod ODS we just zoom in pod ODS 33% right exactly 
+what we expect another thing we can do is take a  
+look at the ranges Tab and check out this Equity 
+distribution now this long flat line here this  
+represents small blinds Equity facing arrays and 
+the reason it's so flat is because most of their  
+hands are indifferent right so all the hands along 
+this line have 33% Equity give or take facing our  
+Rays they Equity facing our rays and you can see 
+that they're going to be indifferent with all of  
+these hands here these are their this is the 
+bluff catching region all the way through here  
+we can also examine this blue line and so let's 
+just take a look and see how this is divided we  
+can see that 1/3 so these you know from here to 
+here this is is Big blind's bluffing frequency  
+and then this section over here this represents 
+2/3 2/3 of this is big blind V for Value right  
+is the value betting percentage and again it's 
+just going to be equal to whatever pot odds are  
+laid so if we hover our Mouse directly over this 
+blue line and you scroll down to the bottom this  
+will tell you the frequency if I line that up 
+you can see it says 33 at the very bottom here  
+which tells us that a third of big blinds range 
+or Bluffs and 2/3 of value bets which is exactly  
+what we expect in this scenario finally we can 
+take a look at small blinds defending frequency  
+now if you recall 62.5% of the time they're 
+supposed to fold so you can see that's pretty  
+much what's happening right they're folding just 
+very slightly more than this break even frequency  
+and they're defending so calls plus all the 
+raises group together about what we expect  
+a little more than 32.5% now it's not always 
+going to be perfectly accurate because we're  
+turning some maid hands into Bluffs here right 
+but you'll see that it's going to be pretty darn  
+close in a lot of these scenario so we know the 
+fold percentage we know the defending percentage  
+and therefore this toy game math is going to 
+work so we've only really covered the basics  
+today and the truth is you can use risk reward 
+for like a bunch of different things you can  
+use it to calculate implied odds like how much 
+extra money do I need to make on the river for  
+my draw to be good uh you can use it to calculate 
+uh like bubble factors in tournaments you can use  
+it to calculate risk premiums and you can also 
+use it to calculate edges I'm not going to have  
+time to go through all of those examples but 
+I'll share a fun one with you that was posed  
+to 2 plus two a few weeks ago so a colleague 
+of mine was digging through his database and  
+he noticed this really interesting spot villain 
+bets Pawn on the river and he has a bluff catcher  
+now he knows according to his database that in 
+this particular spot villain seems to be over  
+bluffing 10% of the time by villain I just mean 
+the population tends to be bluffing 10% more than  
+the Pod outs would dictate we also know that 
+they F to AR raise 10% more than MDF H okay so  
+our options are we can call or we can shove for 
+three times the BET should you call or should you
+raise all right so I'm going to show you two 
+methods the very first method is what we'll  
+call the hard way this is the way most poker 
+coaches would approach this problem is to First  
+calculate the breake even percentage of you know 
+the bluffing frequency and the folding frequency  
+then add the extra 10% over Bluff and over fold 
+plug that into an EV equation and then see which  
+is bigger okay it's straightforward it's just 
+tedious I'll walk you through that real quick  
+I'm not going to spend a lot of time on this 
+here's the hard way on the left hand side we  
+have the EV of calling we can calculate the 
+reward and this is the only thing I care that  
+you understand is the risk reward in this spot 
+the reward is they've put in a pot siiz bet if we  
+call correctly we gain the pot plus their bet two 
+pots the risk is we call and lose one pot you can  
+calculate the break even points you can calculate 
+their actual bluffing frequency you can then plug  
+that into an expected value equation and you can 
+calculate the expect Ed value of calling this over  
+bluffing bet is 0.3 Pots if you don't like pots 
+you can put in big blinds or dollars or chips  
+or bananas or whatever other units you prefer 
+it's the same process now EV of bluff raising  
+again we're not going to go too deep into this 
+all I really care about is that you understand  
+how to get the risk and reward if you raise three 
+times the BET and you're successful well they've  
+put in a pot siiz bet so you gain the pot plus 
+their bet two pots if you're unsuccessful if your  
+bluff race gets called you lose three pots three 
+times the BET again you can calculate the break  
+even fold percentage the you know add 10% you get 
+the actual fold percentage plug all that into an  
+expected value equation and you can find that the 
+EV of bluff raising is 0.5 pots so obviously Bluff  
+raising is better than calling right but this 
+was pretty tedious this is like a lot of math  
+so there's another equation you can use that's uh 
+actually a little bit easier here I'll show you  
+the easy way and this one is just EV equals Edge * 
+risk Plus reward where Edge is the actual success  
+rate minus the break even success rate so in our 
+example we know they're over bluffing and over  
+folding by 10% that's our Edge right we can plug 
+this in EV of calling again we know the risk we  
+know the reward we know the formula EV call equals 
+our 10% Edge times risk Plus reward 0.3 pots EV  
+Bluff raay we know the reward we know the risk the 
+expected value of bluff raising is just equal to  
+our Edge times the risk plus the reward it's 10% * 
+5 or 0.5 pots so we get the same answer either way  
+I find this formula is just a lot easier because 
+you don't have to calculate like the break even  
+percentage and this and that you can just you know 
+it's like three numbers it's really quick and easy  
+either way we get that the answer is that bluff 
+raising is more profitable than calling but this  
+leads to another question should you raise bigger 
+or smaller smaller than three times the pots  
+imagine you could raise larger if you wanted to or 
+you could raise smaller if you're shorter stacked  
+what would be optimal and again we're assuming 
+that they fold 10% more than MDF no matter what  
+and that they are bluffing more than 10% more 
+than pod ODS would dictate so take a moment to  
+consider your answer do you want to go bigger 
+or do you want to go smaller to optimize your  
+expected value the answer is that bigger is better 
+and the reason is that overfolded by 10% is simply  
+a bigger mistake than over bluffing by 10% and the 
+reason that's the case is because both of these  
+can be expressed as 10% times some amount the BET 
+plus pot that's a reward the only difference is  
+that AR raise is always bigger than a call right 
+so the expected value of bluff raising is going  
+to be higher always than the expected value of 
+calling and therefore even if it's a m click or an  
+all-in EV raise is better the ACT actual intuitive 
+takeaway is that in order for this to be true our  
+opponent needs to be bet folding some value hands 
+in addition to those pluss so this doesn't work if  
+they never fold a value hand right if they're 
+perfectly polarized obviously your assumption  
+that they're folding 10% more than MDF is wrong 
+and this just doesn't work but the assumption is  
+that they'll bet fold some value in addition 
+to their Bluffs and that's where your actual  
+Edge comes from let's summarize what we've learned 
+today once you understand risk reward calculation  
+you know the fundamental math that drives poker 
+strategy risk is just what you stand to lose if  
+you're unsuccessful reward is what you stand to 
+gain pot odds is just the risk reward of calling  
+or alternatively you can think of this as the 
+break even River bluffing frequency Alpha is just  
+the risk reward of bluffing which is equivalent 
+to 1 minus MDF and a break even calculation  
+can be expressed always as risk divided by risk 
+Plus reward you could we can also think of this  
+as converting odds to a percentage we have some 
+ratio of reward and risk and we want to convert  
+that over to some implied probability finally we 
+have expected value if you know your reward you  
+know your risk and you have an idea of the win and 
+lose rates well you can plug that in and calculate  
+exactly how much money you'll make or lose and if 
+you have an idea of your Edge that is to say how  
+much more successful you'll be than the break even 
+percentage you can use this equation instead which  
+is just a little bit easier to work with that's 
+my presentation guys hope you liked it hope you  
+got something out of it if you have any questions 
+hit our Discord down below and as always happy
+grinding

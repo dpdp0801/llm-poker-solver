@@ -1,0 +1,75 @@
+### TOPIC: range morphology
+Range Morphology
+A natural step in the thought process from novice to advanced player is the ability to think in ranges. This can often seem like a daunting task, but it becomes much easier when you start thinking of ranges as structures rather than trying to visualize all 1326 combinations of starting hands in your head.
+“Morphology” is the study of form or structure. You’ve probably heard terms thrown around such as “linear”, “polarized”, “merged”, “condensed”, “capped”, or “uncapped”, but what do these even mean?
+Capped / Uncapped
+The simplest way to describe a range is in terms of “capped” and “uncapped”. This gives us an idea of who has the advantage (typically the preflop aggressor), and how we should conduct our play accordingly.
+The term “capped” simply refers to a range that does not have the strongest hands. For example, a BB calling range usually doesn’t contain premium hands like QQ+ AK, since these hands typically raise preflop. This puts a “cap” on the strength of the range.
+Conversely, “uncapped” simply means a range that has the strongest hands. A standard opening range should contain all the strongest hands, so it’s therefore uncapped.
+Something to note is that just because a range started as capped or uncapped doesn’t mean it will stay that way. Your A♠A♦ is not that impressive on a 7♣8♣9♣ flop. A capped player can become uncapped on the right board, and vice-versa.
+Range morphology: Polarized, Linear, Condensed, Merged
+As you progress as a player you will run into more advanced terms to describe ranges such as polarized, linear, condensed/depolarized, or merged.
+Linear
+Linear: Means top-down value, strongest hands to medium hands. In theory, we see linear ranges anytime you only have one action to continue. For example, opening ranges usually raise or fold, EP 3bet ranges usually raise or fold, and facing a shove you can only call or fold. So when you only have one continuation action, it becomes logical to continue with the best hands and fold the rest. These spots are linear by definition.
+Linear ranges can also be found postflop. Typical examples are situations when you’re facing a large bet and don’t have much of a raising range. For example, on this AK6r board BTN vs BB SRP, BTN overbets the flop 125% pot. BB’s defense has very few check-raises, so they simply call in a top-down linear fashion with their strongest hands. Note that most 2nd and 3rd pair are about the same value (indifferent). Although, due to blocker effects, a hand like 6♣3♣ has slightly more value than a hand like KQo.
+Polarized
+The word “polar” means to separate into opposing groups. In poker, a polarized range is one constructed of very strong hands and very weak hands, nuts/bluffs.
+The most common place you’ll see polarized ranges are in position, on the river. This is the only spot in poker where you don’t need to worry about protecting your check-back range, so you’re free to simply bet value hands and bluffs and check back the middle.
+For example, on this Blind vs Blind A♠A♥A♦2♣3♦ board, BB polarizes their range with quads/boats for value, and their weakest hands as bluffs, checking back the middle of their range.
+We can see this reflected in the equity distribution. The betting range consists of the “Best hands (with more than 75% equity), and trash hands (less than 33% equity). This strong/weak distribution is the definition of polarity!
+It becomes harder to define “bluffs” and “value” on earlier streets. Ranges tend to become more polarized as they approach the river as equity crystalizes. The most common example of a polarized preflop range is a BB 3bet vs a SB open. This is one of the rare times that you’ll have position both preflop and postflop, and the option to close the action.
+BB strategy facing SB open
+To the untrained eye, it might not be obvious which of these hands are “value” or “bluffs”. We can visualize this by viewing the expected value of the 3betting range.
+Expected value of BB’s 3bet range
+Why does polarization exist? Why not just bet linear?
+This may seem like a simple question, but it’s quite important to understand. Many novice players (and even strong players who are used to playing against calling stations) have grown accustomed to betting linearly. However, this is not an effective way to organize your equity unless your opponent calls too wide.
+The value of betting is always relative to checking.
+Imagine we shove linearly, in position, on the river. Without bluffing, we bet all of our strongest hands and some middling hands. This works well if our opponent overcalls, but it’s easily exploited if they overfold. Our weak check-back range rarely wins, our middling hands fold out worse and get called by better, and our nutted hands get called less. This strategy is exploitable!
+This linear strategy is an inefficient way to organize your equity. You need bluffs to get your value hands paid off, and (on the river) the most efficient bluffs are those that can’t win through checking. This is the cause of polarization.
+The problem can be solved by using a polarized range. This incentivizes villain to start calling wider in order to avoid being bluffed off the best hand too often. Moreover, we extract more value with our nutted hands and stop losing value with our middling hands.
+Optimal river bets in position are almost always polarized. This is the only spot in poker where you have the option to guarantee a showdown with your middling hands.
+Perfect polarization and bet sizing
+Polarized ranges are generally associated with larger bet sizes. But why is this? The oversimplified answer is that you want to play for stacks as your value range gets more nutted.
+A range is “perfectly polarized” when all the value hands have 100% equity against the opponent’s range, and all the bluffs have 0% equity against the opponent’s range, although this rarely occurs in practice.
+A perfectly polarized range will always use the “geometric bet size”. This simply means that they will bet an equal pot% on each street in order to get all the chips in by the river. This betting pattern maximizes the width of the defender’s range (see MDF), which is a concept we’ll explore more in later articles.
+Perfectly polarized ranges are a theoretical concept that rarely applies in practice. It’s quite uncommon for an opponent to have nothing but static bluff-catchers relative to your range. There are situations where you want to bet larger than the geometric size with an imperfectly polarized range on flop/turn in order to fold out draw equity early on. There are many situations where you want to bet smaller if they have traps or stronger value in range. Poker is complicated, but you need to learn to walk before you can run.
+Condensed / depolarized
+A condensed (sometimes called depolarized) structure refers to a range that has many medium hands, with few nutted hands and few weak hands.
+A common example of this is a GTO SB calling range, which consists of mostly pocket pairs, suited AceX hands, and medium-strong broadways. This kind of range can actually be quite strong on many boards, despite being capped. The lack of air changes the way you should play against this range.
+SB strategy vs HJ
+SB cold-calling range vs HJ 2BB open
+This range is “condensed” because it doesn’t have many super strong or very weak hands. The range is condensed towards middling hands. HJ’s postflop strategy should change to target more made hands and less air, and they’ll need to play more cautiously as a result.
+Merged
+So far what we’ve seen has been pretty straightforward and clean. Definitions seem simple enough. However, poker is a complex game. Range morphology is more of a spectrum than a well-defined structure.
+Merged ranges exist somewhere in-between a polar and linear range. They typically contain some bluffs, some nutted hands, and some medium hands with reasonable implied odds.
+Here’s an example of a merged range on 992r BTN vs BB. BTN c-bets for ⅓ pot, action on BB. As you can see, BB check-raises quite often, with a very merged range consisting of nutted hands, medium hands, and trash.
+BB merged check-raise strategy on 992 vs BTN
+We can see this reflected in the equity distribution. The raising range includes many middling “weak” and “good” hands (33%-75% equity) such as medium pocket pairs. Compare this distribution to the more polarized one we saw earlier.
+Why merge?
+Merging exists as a natural consequence of the complexity of poker. Perfectly polar ranges are often exploitable and not as effective or robust over multiple streets in the real world.
+For example, let’s imagine that BB simply check-raises trips and the worst trash they can continue with. The problem with this ultra polar strategy, other than the glaring blocker weaknesses on a 2/9/A turn card, is that BB will have to give up a lot more often on turn/river (or start drastically over-bluffing) because they won’t improve often enough. These bluffs have poor visibility.
+Furthermore, extremely polar ranges are often susceptible to very small probing bets or min-clicks. These kinds of attacks are not a problem so long as you have natural calling hands in your range, but they can be hard to defend against if you’re too polar, as they force you to split your strong value from some of your bluffs.
+Lastly, merging gives your opponent worse equity compared to polarized ranges, which means you can barrel more and they can’t call as wide. It’s a more efficient construction under the right circumstances, which allows you to raise wider. In short, merging takes the best of both worlds from polarized and linear ranges.
+Let’s take a look at how BTN continues against the check-raise:
+BTN vs BB range comparison after check-raise
+BTN needs to float with hands that our medium-strength hands beat, such as overcards, Ace-X, and double-backdoor type hands. We can outdraw their value, continue bluffing on later streets and fold out a significant chunk of their equity that can outdraw our non-nutted hands.
+Visualizing the linear-polar spectrum with preflop ranges
+A merged range can be thought of as something between a linear and polarized strategy. We can see this change by observing patterns in BB vs BTN 3betting ranges.
+Typically, smaller 3bet sizes and lower rake result in a strategy that’s closer to linear, whereas larger 3bet sizes and higher rake structures tilt more polarized. This has to do with the proportion of BTN’s calls:4bets facing our 3bet.
+If BTN calls more and raises less often, we want to use a more linear range that can outdraw their calls. This is exactly what happens when there’s less rake or we use a smaller 3bet size.
+Conversely, if they often raise and don’t call much, we’re better off using a polar range of value that’s happy to face a raise, and snap-fold bluffs, rather than getting blasted off our medium hands with high call EV.
+Since everyone has different subjective ideas of what constitutes a “value” or “bluff” raise, we’ll simply look at the expected value of the 3betting range.
+Merged-Linear 3betting range: (11BB raise @ 500NL rake)
+Merged 3betting range: (11BB raise @ 50NL rake)
+Merged-polar 3betting range (13BB raise @ 50z rake)
+All three of these ranges are “merged” however they can lean linear or polar as we change the variables.
+Recap
+Let’s summarize:
+Capped – Does not have the best hands in range (e.g. a BB preflop calling range does not have AA).
+Uncapped – Has the best hands in range (e.g. a BTN opening range has AA).
+Linear – Top-down value to medium hands (Used when deciding between a fold and a continue without a third action, or as an exploit against calling stations, uncapped).
+Polarized – Strong and weak hands (Used when representing the nuts or nothing, often with very large sizes).
+Condensed – A range consisting of medium hands without many weak or nutted hands, (e.g. a BTN flatting range vs EP open).
+Merged – Strong, weak, and some medium hands (more robust, less exploitable, often used with smaller bets/raises).
+Linearity and polarity exist on a spectrum.
+This kind of terminology is crucial to range analysis when studying poker. Thinking of ranges as structures can help identify the strengths, weaknesses, and incentives of different plays. Hopefully, you are now ready to take your analysis to the next level!

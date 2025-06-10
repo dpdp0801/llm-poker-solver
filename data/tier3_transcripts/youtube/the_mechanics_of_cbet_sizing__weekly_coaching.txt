@@ -1,0 +1,1463 @@
+### TOPIC: the mechanics of cbet sizing
+all right how are you guys doing today
+good i hope let's begin so this lecture
+is about the mechanics of c-bet sizing
+and
+this is
+kind of a contentious subject because
+people have very different opinions
+about what's correct what reasons you
+should bet and why you should size stuff
+i'm going to go over some general
+heuristics
+as well as
+some of my own personal research
+now
+before we get started i want to run a
+poll
+what do you guys think dictates bet
+sizing
+okay i've just launched that feel free
+to select multiple answers
+let me know what you guys think
+[Music]
+[Music]
+okay we've got some mixed results here
+so
+nut advantage here's a lot of people
+agree there range advantage
+polarity spr
+yeah and the truth is everything does
+factor in to some degree
+some more than others and it's not
+always clear why or how it works
+let's start with some very basic
+heuristics so
+a nut advantage indicates an advantage
+near the top of your range you have all
+the strongest hands they have mostly
+bluff catchers relative to that range
+range advantage is more like an equity
+advantage throughout
+the top half of your range is stronger
+than than the top half of theirs and so
+on generally speaking nut advantage
+dictates sizing range advantage dictates
+frequency that's a very rough indicator
+it's not always correct
+but we're starting with the basics right
+now when most people learn
+they
+go about something like this right
+they'll start by just range betting
+every flop for a small size
+as they study more they'll learn okay
+dry board equals a small flop bet a wet
+board equals a big bet
+and a lot of people just stop here and
+if you study with a silver a bit more
+you'll learn okay well if it's too wet
+then we have to size down again right
+you can't just go bombing all monotone
+boards right
+and as you go on you develop more
+advanced heuristics based on texture sbr
+position
+and all of that is fine
+but none of it actually explains
+why certain bet sizes are preferred it's
+just something you can glean from
+studying solvers
+so i want to start with
+this
+we'll call the wetness parabola
+this is a very basic sizing heuristic
+there's some truth to it but it's
+obviously oversimplified so
+very dry board for example
+typically you'll bet small
+as the board becomes more dynamic
+there's more draws typically you'll
+start to size up
+and then as it gets too wet you'll start
+to size down again
+does anyone use a similar heuristic to
+this or have they when they were
+learning
+so
+let me ask you guys something
+why do you think it is
+that we start sizing down when the board
+becomes
+too wet
+and again i'm going to launch a poll
+here this time it's single choice you
+can select one
+why does the bet sizing decrease when
+the board becomes too wet
+too many equity changing runouts that's
+a popular one too many middling hands in
+range
+too many nutted hands to contend with
+interesting so we're going to explore
+exactly why that happens
+and i think
+the answer may surprise some guys so
+let's go over some of the the basic
+factors that influence sizing again the
+biggest factor comes down to a relative
+nut advantage in each range right if
+villain has very few nutted hands that
+can make your value range indifferent
+then you are allowed to bet bigger right
+because their value range their nut
+nutted hands are their main defense
+against over bets and
+extended aggression and converse is also
+true they have many nutted hands in
+range for example maybe a monotone board
+or
+you know a paired board
+well in that case they can make your
+value range indifferent
+and that prevents you from
+being too aggressive a villain
+may have
+many hands with reasonable equity
+against the top of your range
+this may be an indication that you
+should bet bigger or they may have
+you may have a lot of fold equity
+if you saw my last lecture i don't
+define fold equity is how often they
+fold rather i define it as the value of
+fold equity which is to say
+how much value did you actually gain
+folding out those hands right if those
+hands have no value against you did you
+actually gain anything by making them
+fold
+so
+lots of draw equity lots of equity
+against the top of your range makes you
+want a bet bigger
+and if those same hands have no equity
+against the top of your range you'll
+typically bet smaller of course you have
+to consider if you have sufficient
+nutted hands or even value hands in your
+range
+and the number of middling hands in your
+range you have fewer middling hands to
+protect
+well
+you're allowed to bet bigger because
+less of your value range is devoted to
+protecting the middling hats
+of course the opposite is also true
+so before we
+proceed please reach out to me with any
+questions you may have
+feel free to type in the chat or just
+speak up but if it's all going well
+let me know
+all right
+let's proceed
+so let's go on with bet sizing mechanics
+villains nutted hands prevent you from
+overbetting them to death this is why
+nut advantage is such a strong indicator
+of bet sizing range advantage actually
+isn't a huge indicator of how big you
+should bet
+dry boards tend to have low incentive to
+bet big due to low value fold equity and
+lack of draws against the top of your
+range as we discussed the last one if
+you get them to fold a hand that has
+literally no equity against the value
+portion of your range
+it's not actually such a huge win
+um
+so wet boards tend to have a higher
+incentive to bet due to a larger higher
+value of fold equity and more draws that
+have equity against the top of your
+range
+extremely wet boards tend to have a wide
+variety of nutted hands in both ranges
+which prevents you from over extending
+the top of both ranges get dragged down
+towards the middle
+and if you start bombing like a very wet
+board you can become quite exploitable
+the middle of your range
+drags down your nutted hands as these
+hands need to be protected the more
+middling hands you have the more
+protection is required
+and this of course relates to polarity
+so
+let's start with just an over bet
+indicator one of the most prominent
+indicators that i could personally find
+are situations where a large portion of
+your range is currently ahead of most of
+fill ins range but your equity with
+these hands is not reflected in that so
+for example you are currently ahead of
+98 of their range but you only have 80
+equity this discrepancy between being
+ahead now and not so much later
+creates an incentive to bet very
+aggressively it doesn't really have a
+name so i'm just going to call it the
+vulnerable nut theorem and
+let me show you guys a few examples of
+this
+so we have the classic ace king 5
+board these are very commonly known to
+be over bed boards but let's take a look
+so
+let's take a look at a hand like ace
+jack
+ice jack is ahead of
+pretty much all of big blind's asex it's
+82 percent equity
+and
+big blind's
+only hands that beat it
+are two pairs and sets and they only
+have about three percent of those in
+range so you're ahead of 97 of their
+range with ace jack yet you only have 82
+percent
+uh similar story with ace queen
+so
+what do you do when you have a hand
+that's way ahead of most of their range
+but
+doesn't have that much equity
+well
+the overbet
+show you another example here
+so this asymmetry means two things
+buttons strong top pairs a lot of
+incentive to play aggressively
+more importantly big blind doesn't have
+the nutted hands to prevent us from over
+betting so here's another one we have
+it's small blind versus big blind single
+raised pot
+and we can see here that
+small blind has nines
+and
+big blind only has about two percent of
+hands in their range that are currently
+ahead of nines
+yet this hand only has 77 of equity
+so
+if we look at that
+nines is currently ahead of 98 of their
+range yet it only has 77 equity again
+this discrepancy this vulnerable nut
+theorem whatever you want to call it
+is an indicator that
+these hands want to play very
+aggressively
+not only because the value of fold
+equity is quite high
+but also because they can't fight back
+and so we'll see here that for example
+nines prefers a 300 over bet
+if given the choice
+same with tens jacks ace eight all of
+these hands are currently ahead of like
+98 of their range
+and lastly we have
+jack 10 8 this is a small blind versus
+button three bet part
+we can see for example a ham like ace
+jack on jack 10 8
+is currently ahead of about 90 percent
+of their range
+uh
+yet it only has 62 percent equity
+ace is ahead of 93 percent of the range
+only has 69
+and again these kind of spots where you
+have hands that are just way ahead of
+most of their range but
+are actually
+have a lot less equity well
+that will indicate
+that it wants to take a very aggressive
+line such as just shipping it
+on the flop
+so what questions do you guys have about
+this
+anyone
+what drives middling sizes eg 75 that's
+a good question and to be honest what is
+a middling size
+is
+kind of
+related to the spr
+i'm actually going to explore that very
+soon though
+so keep that question in mind
+sorry is it fide i'm going to
+get back to it
+so anyway this vulnerable nut theorem
+it's something you can use in game if
+you know you're going to be ahead of a
+large portion of their range
+and you also know that you don't have
+the equity that to reflect that
+that creates a huge incentive to bet
+aggressively because the value of fold
+equity is quite high
+your nutted hands
+can't be countered because they don't
+have better hands in range or enough
+better hands in range and therefore
+you want to bet aggressively
+let's move on to the geometric bet size
+now some of you may already know what
+this is but the bet geometrically means
+to bet an equal fraction of the pot on
+each street to get all the chips in by
+the river this is the ideal bet size
+when one player is perfectly polarized
+in other words if you have
+only the absolute nuts or stone cold
+bluff and nothing in between and your
+opponent has bluff catchers you'll want
+to bet an equal fraction on each street
+to get ranges in by the river the reason
+for this is that
+this strategy
+maximizes villain's calling range
+so here's what we might call a polarized
+range right the defender has middling
+hands we have a polarized range
+i'm not going to go over the exact math
+here but
+in general if you just run a simple mdf
+calculation you can find
+that betting the same size on each
+street causes them to defend wider than
+if you were to vary your bet size
+now in game of course you should vary
+your bet size
+but we need to be aware of this mechanic
+to make sense of a lot of other spots
+let's talk about stack depth and felting
+ranges
+so a felting range or we call it a
+stack-off range is the portion of their
+range that can play for stacks
+right if you get all the chips in
+uh versus whatever they defend with
+hands that are ahead in that case would
+be the part of the felting range now it
+should be fairly intuitive that
+deeper stacks
+lead to tighter felting ranges and
+shorter stacks lead to wider felting
+ranges
+why is this well you're putting in more
+money when stacks are deeper
+and therefore
+a range of hands you could stack off
+with needs to be able to put in more
+money and
+your range is tighter
+conversely you could also say that
+the amount of hands that have to defend
+versus all that extra money is a tighter
+range overall so
+this seems obvious to most people
+but
+how can we measure this how can we
+actually get a sense for what that
+percentage of range might be
+well again we can use minimum defense
+frequency calculations to get a rough
+idea of how wide felting ranges should
+be
+according to stack depth
+so
+here's a situation uh
+there's a graph i made where i've
+charted the stacked pot ratio on the
+bottom
+and the call down or the felting range
+on the y-axis
+generally
+the defending range is going to be
+somewhere between the mdf against a
+shove and the mdf against three streets
+of betting an equal fraction of the pot
+so
+that's a little complex to look at
+here's maybe something easier
+or a single raised pot say button versus
+big blind
+the stack off range is somewhere between
+five and ten percent
+or
+like a medium-sized four-bed pot it's
+closer to 36 43
+and we can see as the spr goes down
+more and more of the range has to be
+defended because there's less money to
+put in
+relative to the size of the pot
+so for most single raised pots you can
+say okay how well am i doing against the
+top 10 percent of their range
+so here's an example we have
+king queen 9 button versus big blind
+single raise pod
+in general
+this flop prefers a smaller bet
+so
+here's a question for you
+let's say you
+could open shove just ship it
+and you knew they would defend
+the big blind would defend with the top
+10 of their range
+knowing that
+what's the weakest hand you stack off
+with
+[Music]
+some people are saying king nine king
+queen nines
+i don't know it seems close right but we
+can uh
+we can try and measure this
+so
+here's the top ten percent of big blinds
+range
+and here's our equity against that top
+ten percent
+for
+your hand to be a value bet against that
+range
+it needs to have at least fifty percent
+equity
+so
+would say king queen is ahead of that
+range king 9 is slightly behind king 9
+could still maybe call as a bluff catch
+in a series of races but king queen
+would be
+ahead if you got it in so this would be
+about
+the line of your stack off range
+given that they're defending 10
+again this is all kind of abstract so
+far but
+let's imagine that
+we remove all the jack 10 from big
+blind's range
+right they still have everything else we
+just removed the jack 10. how badly
+would that affect the strategy
+no more straights
+right we're taking away maybe
+somewhere between 12 and 16 combinations
+of straights from their range
+well
+here's our equity against the top 10
+percent of their range this is the image
+you just saw
+and here's that same image
+if we calculate the top ten percent of
+their range after removing jack 10.
+and we can see now that many more hands
+uh fit into this category of
+you can stack off with this right
+queen 9 is almost there king 9's there
+even ace king and king jack are almost
+close enough
+so
+how does this affect the actual strategy
+though
+well
+just removing that one nutted combo
+shifts
+the bet size dramatically
+these blue lines
+are a baseline solve
+the red lines are with
+jack 10 removed from big blind's range
+as we can see
+the bet size increases drastically we
+even start throwing in this massive 160
+over bet at some frequency
+and that's the power of just a few
+nutted hands in range
+now many more hands
+can play for stacks
+so by removing the nutted hands we open
+up the option to implement larger bet
+sizes because
+they'll be less exploitable big blind is
+less able to counter those sizes
+notice that
+in the original one we're mostly going
+somewhere between 25 and 40 small sizes
+only
+just a little bit of 80 percent
+so what about 200 big lines deep
+well let's go back to gto ranges
+and let's see how it plays 200 big
+blinds deep
+as you can see
+mostly
+checking 67 of the time
+um in this case these are the simple
+ranges so big lines forced to check
+but we can see that
+as
+the stack size increa as the stack
+increases as the spr increases uh
+those nutted hands count for so much
+more
+and that alone is going to make it much
+harder to implement a wide strategy
+the nutted hands are the only defense
+against over bets removing too many
+nutted hands gives the opponent the
+option to over bet and apply a lot of
+pressure although that won't always be
+their best option they'll have that
+option
+and as stacks get deeper the nut
+advantage becomes more important right
+that top three percent of their range
+counts for so much more when you're 200
+big blinds deep because the stack off
+ranges are so much tighter
+let's move on to the question of
+how the middle of your range influences
+sizing
+here
+we've got a funky spot
+cut off versus small blind four bed pot
+flop is ace 10 9 two tone
+why is small blind donking on ace 10 9.
+shouldn't that be better for the four
+better
+very strange
+well let's take a look
+what do you guys think that is i haven't
+prepared a poll for this one so feel
+free to just type in the chat
+there we go
+why do you think it is
+that small blind likes the donk on ace
+10 9.
+nut advantage for out of position okay
+interesting interesting all right sam g
+can you see the ranges now
+yes so it is interesting to see that
+they're donking here
+about 40 of the time
+and
+let's go back to the ranges for a second
+small blind
+well
+they have less ev
+and significantly less equity overall
+we look at the equity graph
+we're the blue line we do not have a
+range advantage
+we don't really have a nut advantage
+either
+maybe
+a fraction of hands up there but not
+really ahead
+in any meaningful sense
+we do have yeah nines tens tens nines
+that's important to note
+we just note
+these two pair hands
+that's right of course they have more
+aces ace ten and ace nine
+uh
+so
+slightly more sets in two pair but keep
+in mind the spr is quite low here so we
+have to consider for example
+top half of the range top 50 or so
+and
+even then we're not doing fantastically
+so
+the main reason
+why it's donking here has to do with the
+middle of the range rather than the top
+or bottom
+every hand in our range
+is kind of worthless it's either very
+valuable or completely worthless right
+like eight seven sixes these are
+worthless
+nines
+tens ten nines ace queen ace jack very
+valuable
+king ten no hard worthless kingdom with
+a heart very valuable right we don't
+have a whole lot of middling in between
+hands worth protecting it here
+so wouldn't the nut advantage exist more
+for in position than out of position
+donking because we have middle strength
+hands
+that can extract defend value
+right so we actually don't have the nut
+advantage not really um maybe a tiny bit
+definitely not the range advantage and
+we're definitely behind
+so
+the reason
+it's betting here has more to do with
+the fact the middle of your range simply
+isn't worth protecting
+let's see what happens when we check and
+they bet i don't know
+say 25.
+you barely have a calling range most of
+your range is folding we're way
+overfolding here
+rest is raising
+um
+it's important to keep in mind that
+part of the reason
+you check a lot
+is to defend your middling hands right
+if you don't really have a middling
+range then you're
+you're kind of naturally polarized right
+and so
+when all of our ev is split between very
+strong hands that want to put in money
+and completely worthless hands even if
+we don't really have a range advantage
+you still want to bet sometimes
+so the moral of the story is that no
+middling hands
+equals not really worth defending your
+checking range
+now you won't see this often in single
+race pots maybe on the river it's a lot
+more common in four bed pots and
+situations where ranges are much tighter
+typically you're going to have a few
+pocket pairs that are very valuable
+a few over cards that are very valuable
+and then a lot of trash so
+this mechanic does pop up
+in
+tighter ranges more often than not
+what questions do you guys have about
+this
+are middling hands turned into dunk
+bluffs
+usually here
+well you don't really have
+a bunch of middling hands here right
+you have
+nothing hands
+and strong hands what's the advantage
+for the range to donking
+let's go back here for a moment
+so
+you do have a lot of hands that
+are ahead right ace queen ace jack tens
+ten nine nines
+the reason is if you don't
+um
+if you just range check here
+adolf will be incentivized to check back
+most of their range
+um
+and moreover we have the option to bet
+while we opt for donk not check yeah
+yeah you can see everyone is uh
+let me put it another way when the
+middle of your range is not worth
+defending you have the option to lead
+the reason you're used to range checks
+in almost every situation where you
+check the pre-flop aggressor is because
+your
+the middle of your range needs to be
+defended if you lead out too much value
+all of a sudden your checking range
+becomes very exploitable in this case
+most of our checking range is worth
+nothing it's zero ev even before they've
+made a bet
+so
+it's not worth defending
+now the advantage to leading out is that
+if you don't they can just check back a
+lot and we lose some value
+how not to over bluff here once we dunk
+well that's a matter of implementation
+continuum versus bit
+continuum versus bet polarized right is
+this related to mid low connected boards
+in
+raise pot button versus big blind
+so
+i'm not sure what you mean by continuum
+to bet polarizer continuing to bed
+polarized i think is what it says on the
+turn
+uh sure we can take a look there the sbr
+is very low so he can essentially shove
+some turns or try and drag it over three
+streets
+looks like he prefers dragging it over
+three streets in this case
+uh now you guys can research this spot
+some more on your own but you will
+notice this quite a bit in your if you
+ever study four bet parts
+um or after very polarized lines
+so you would continue docking on turn as
+well based on the logic you shared for
+the flop strategy
+yeah i mean by
+by leading the turn it's not really a
+donk anymore it's more of a c bet
+because you've already bet the flop but
+yeah
+um
+take a look at turn reports if you like
+here
+it is leading on most and then on flush
+completing turns it is shipping it a lot
+if we develop a docking range since we
+don't have a middling range worth
+defending can't imposition bet any two
+cards versus a check what confuses me is
+that imposition still ops the check back
+yeah and that's because we're not
+donking all of our value right
+um our dunking range is our checking
+range is very polarized here
+we could take a look right we are
+checking some aces we're checking some
+sets we're checking all of our 10 9
+some strong top pair so we're not
+dunking all of our value we're just
+docking some of it and what's left in
+our checking range is a mixture of hands
+that have
+very low ev against their range and
+hands that have quite a bit of ev so our
+checking range is naturally polarized
+now in this case
+if we
+check they're gonna bet and they're
+gonna bet small right most of the time
+they're for 10 maybe 25 percent
+and the thing is that even if they bet
+extremely small they're still going to
+overfold massively versus this size
+right like what's the mdf against the 25
+bet maybe 20 folds
+we're folding 50.
+and you can see that reflected here
+we don't really have much of a calling
+range some weak asex lots of raising
+so
+yeah interesting spot always be aware
+that the middle of your range drags down
+your nutted hands the middle of your
+range makes
+your value portion less aggressive
+because it needs to be defended
+can you pull up
+ace king seven
+complex what's the reason behind betting
+three percent
+okay sure
+ace king seven
+complex
+you mean in uh small blind versus
+was this spot anyway
+small blind versus
+cutoff yeah
+small blind versus button okay
+ace
+ace king seven
+let's graph that
+interesting
+so it looks like
+this is a spot where every single size
+is somewhat playable
+um if we just take a look at say the
+expected value
+you do have a fair amount of everything
+in here
+uh sorry are you looking at a three bed
+part or a four bed pot
+i guess a four bed part is
+what i was looking at
+three percent bet
+interesting
+so
+this looks more like the situation we're
+reviewing before
+lots of zero ev hands
+and lots of stronger hands
+in general the theory behind any block
+bet is
+that
+it's an equity realization play
+um because typically
+they're going to you're going to face
+less aggression leading out than you
+would checking and facing a bet
+the reason you don't normally implement
+it is again
+uh the fact that your checking range can
+become more exploitable
+your range is a little more exposed when
+you split right on the flop out of
+position
+but
+when that's not the case often the
+option becomes available to start
+developing a leading range
+all right let me get back to my
+presentation here
+now that we understand how the middling
+part of your range relates to the rest
+of your range
+let's keep going i want to talk about
+paired boards for a moment
+throughout this lecture we've been
+talking about dry or wet boards
+is a flop like ace a6
+rainbow dry
+i mean it should be sounds like a pretty
+dry board but what exactly does dry mean
+can anyone tell me
+is it uh
+does it mean there's not a lot of draws
+does it mean
+something else
+perhaps it means there's not a lot of
+nutted hands
+most range low equity less equity change
+on future streets equity is unlikely to
+change turn river
+polarized
+little to no connection hands in range
+yeah and the truth is people have
+different definitions of this stuff
+um
+i think i really like the idea that
+there's
+equities are less likely to change our
+turn river you could also say that
+fewer parts of the range can outdraw the
+top of the range
+or little to no connection to hands in
+the range that's also good so
+what about a6 rainbow
+this is
+pretty much a ranged bed board
+but
+why is it arrangement board why do you
+bet small
+unpaired boards in single raised pots
+and launch another poll here just want
+to get your guys
+ideas
+and
+you guys have mentioned some good
+options that i haven't included in this
+poll but gotta start somewhere
+risk reward ratio is high that's an
+interesting one actually
+okay so what do we have here i think
+most people think big blinds has many
+weekends and will under defend versus
+bet okay interesting
+so
+let's test some of these theories
+now i noticed that no one picked too
+many nutted hands to contend with
+and we don't feel that way because a6
+should belong to the button after all
+the range betting shouldn't we
+get a massive advantage here
+i mean it looks like we are right most
+of our range is ahead we have
+a big range advantage
+but we don't have that nut advantage
+right and that's because
+big blind has a ton of asexual range so
+what ends up happening is
+it's hard to get
+too aggressive with anything that's not
+trips here because as soon as you over
+extend and start betting huge with say
+pocket kings
+you know five six stuff like that well
+all of a sudden they can start
+countering you with
+a huge portion of their range which is
+trips but okay let's run some
+experiments
+i'm going to run four experiments on
+this flop
+what happens if we remove all the trips
+from both ranges
+what happens if we remove some trash
+from big blind's range
+i'm going to measure the value of fold
+equity
+and from there i'm also going to reverse
+the positions and see if the trends
+remain the same
+so the idea behind this
+is just to run a battery of tests
+just kind of test a few of our
+assumptions about why this small bet
+so go ahead and make some predictions
+here this time there's a few different
+questions and
+we're going to see
+how the strategy changes as we tweak the
+parameters
+two people responded so far
+well i'll keep this open oh we got a
+third one interesting so
+let's take a look at the first one what
+happens if we remove trips plus from
+both ranges
+that is to say all the sets and the
+boats are removed from both ranges and
+we resolve with that structure and so
+far
+people have guessed basically throughout
+the board here right some people are
+saying check small check more smaller
+size range bet small size range by
+bigger size over bet
+so the full range of predictions are
+here let's take a look
+so
+again the blue line is just my original
+solve that's the baseline
+and the red
+are is button strategy with trips
+removed
+and as you can see
+it sizes up drastically
+right it's still
+checking about the same amount but now
+we're using 80 and 120 bets
+um
+so
+a massive increase in uh
+in sizing
+and that's mostly due to the fact that
+these trips prevent the rest of our
+range from getting too aggressive
+once you remove that barrier once you
+remove
+these nutted hands up here
+all of a sudden all of that becomes a
+massive nut advantage that allows you to
+implement
+a big bet strategy
+so
+would we say then that it's because the
+board is so dry or more that
+we can't get too out of line with huge
+bets because there's so many trips in
+range that can counter anything that's
+not trips in our range
+okay so next
+we remove some trash from big blinds
+range basically i've gone on to gto
+wizard i've selected uh i've removed the
+trash range anything with less than 25
+equity how will this affect our strategy
+on the button and again we're kind of
+split down the middle here
+some are saying check more smaller size
+some are saying check more bigger size
+obviously you should check more because
+their range is stronger
+but the question of sizing
+then becomes an issue
+should you
+check or bet more now that their range
+is tighter should you size up or size
+down
+well
+you should size up
+so here we can see
+we're checking more now that the range
+is tighter that makes sense
+and i'll also point out that they do
+dunk about 30 of the time for one third
+size i gave them that option
+but when they check to us we're betting
+bigger
+much bigger
+and this is because we've increased the
+value of fold equity and we're now
+targeting some stronger hands
+right before we were targeting these
+very low value
+very weak hands
+but now that we've made the range
+stronger we're targeting higher equity
+hands we're targeting 6x we're targeting
+king x we're targeting these pocket
+pairs
+and you see this again uh you'll see
+this in three bet parts and four bed
+parts a lot unpaired boards it'll often
+size up because the target is shifted
+away from air and towards medium strike
+fans
+and that causes us to use a larger bet
+size
+so next
+i wanted to measure the value of fold
+equity the way i do this is i simply
+measure
+the equity with the made hands in our
+range
+against their folding range
+so on the left here
+that's our equity against hands that
+will fold versus 125 percent pogba
+according to gto wizard right
+so we'll notice that for example a hand
+like ace deuce has 97
+against the range that folds
+almost 98. so
+when this hand over bets
+it's not doing so for any protection
+right it gains almost nothing from those
+folds because the hands that fold had
+almost no equity against us and like for
+example 6x will gain more but
+surprisingly not that much even had like
+kings right you overbet huge kings gains
+you know it has the hens that fold have
+maybe four percent against kings
+this is the same thing except against
+the 33 percent pop that so again we can
+see that the value of fold equity is not
+very high we have massive equity against
+their folding range which means the
+hands they fold were very much dominated
+by us in the first place so
+ace a6 the value of fold equity is quite
+low
+that's why
+when
+we removed part of these trash hands
+from their range
+it started to size up because the value
+of fold equity is higher now we're
+targeting stronger hands these hands
+have more equity against the top of our
+range
+lastly i just reversed the positions
+mostly just out of curiosity
+most people predicted it would size up
+which
+is correct
+you can see it shifts from mostly a
+small bet strategy
+using some slightly bigger bets
+and the reason for this is because in
+positions range which remember this is
+now but big blind's range i've reversed
+the positions
+in general in position has more ev which
+increases the value
+gained from faults
+interesting experiment experiments i ran
+a few others with some other flops i can
+show you guys
+i guess we should summarize first though
+ace a6 what happens when we remove trips
+plus from both ranges we size up
+significantly
+what happens when we remove some trash
+sizing up again but also checking a lot
+more
+what's the value of fold equity very low
+for most made hands
+the hands that fold have virtually no
+equity against the value portion of our
+range
+and if we reverse the positions we size
+up slightly because
+the ev of their hands goes up a bit in
+position therefore the value of fold
+equity increases slightly as well
+all right that was a lot to take in uh
+before i proceed
+let me hear your questions
+okay no questions
+so i ran similar test for queen 83 mono
+again it's button versus big blind
+so
+we'll launch a similar poll here make
+some predictions
+firstly
+we have to take a look at the ranges
+what happens if we remove mate flushes
+from both ranges
+what happens if we remove some trash
+from big blinds range
+what's the value of fold equity what
+happens if we reverse the positions
+toolsboy asks a great question am i
+mistaken but i thought there is no
+incentive to size up bets if the fold
+equity is low am i wrong
+oh you are correct sir you are correct
+um
+i wouldn't say no incentive i would say
+that there is less incentive
+let's go back here for a moment
+so
+for example here you're not betting
+so much to gain fold equity as you are
+to get called in this case
+and the reason it sizes up so much
+when we remove trips from both ranges
+is because of this massive nut advantage
+that will stack the top of their range
+so
+bold equity is certainly a big part of
+it
+uh the other half of the equation is
+getting called by worse
+perfect so let's go back here for a
+second
+now
+monotone boards are interesting um i
+feel like
+many
+beginner players
+they're using that level one heuristic
+you know wet board bit big and they'll
+just start potting it on these monotone
+boards
+um
+the reason you don't do that of course
+is that if you're over playing you're
+overextending on these boards you're
+going to narrow their range too quickly
+your own ranges are going to be quite
+exploitable you're going to be
+overextended with stuff like top pair
+and two pair
+and if you play too aggressively
+they can counter you and really destroy
+most of your value with raises
+people associate monotone boards with
+very small bet sizes not much raising
+small raises but the truth is that
+if you get unbalanced in these spots the
+silver will just start you know 5x
+potting it it'll just start over betting
+like crazy if you cap yourself too badly
+so
+these kind of boards are very precarious
+uh highly exploitable if one player
+slips up
+so
+with that in mind
+take a look at the range distribution
+here you can see that because of the
+abundance of flushes in both ranges no
+one really has the nut advantage
+button has a slight range advantage
+throughout
+but no nut advantage
+now because of that it's typically going
+to prefer a smaller size
+so what happens if we remove made
+flushes from both ranges
+more betting and sizing up seems to be
+winning
+let's find out
+yeah so
+it's a little bit less betting
+but massively sizing up right
+i keep in mind i've gotten rid of both
+players flushes
+not just one player
+and that's about six seven percent of
+each range but now instead of betting
+you know
+25 percent it's preferring something
+between 80 and 120
+in fact this when you remove the flushes
+it plays closer to queen eight three two
+tone
+which the silver will over bet at a
+reasonable frequency
+so
+again
+the amount of nuts in each range kind of
+dictates
+how large you can play in this case when
+we got rid of all these
+nutted flushes
+well now you're up against an extremely
+draw heavy range
+um
+you have an advantage and so
+because they have very few hands you
+know there's only like three percent two
+pairs and sets
+now they don't have a whole bunch of not
+enhanced to counter you with and you
+have a lot of incentive to bet
+uh well when that's the case
+you typically want to size up
+so
+here's the same one removed trash from
+big blinds range
+now
+what happens if we remove some trash
+kind of
+everyone kind of agreed size up less
+betting
+um in this case
+i guess i didn't really give you the
+option for the same amount of betting
+but
+about the same amount of betting overall
+but definitely sizing up and it's the
+same reason as last time right remove
+trash all of a sudden our target shifts
+to stronger hands
+the value of fold equity is higher so we
+bet bigger to target these stronger
+hands
+here i've measured the equity against
+their folding range on the left is
+versus an over bet on the right is
+versus a 33 bet
+i'm just showing buttons
+made hands excluding flushes because
+flushes have almost 100 against the
+folding range
+so
+we can see that there is some decent
+fold equity here right like no hand is
+really that safe
+um
+every hand gains something
+even if using a small size and more so
+with a large size
+so there's definitely some reasonable
+fold equity to be gained on queen eight
+three
+lastly i reverse the positions again
+just kind of out of curiosity
+now most people predicted sizing up
+less betting
+in this case
+there is significantly less bedding and
+kind of sizing down
+and this is related to the
+exploitability
+of
+of your range again i mentioned at the
+start that queen 83 highly exploitable
+if one player gets out of line if one
+player caps themselves
+um and moreover the value of implied
+odds withdraws
+uh goes up
+where was i
+yeah the value of implied odds goes up
+tremendously in position which is a
+major advantage on monotone boards
+so
+experimental outcomes
+if we remove flushes again we size up
+significantly if we remove trash we size
+up again but also checking more
+value fold equity is kind of low to
+medium depending on the size
+but it's still a reasonable amount of
+fold equity and
+checking a lot more if we reverse the
+positions
+okay last one no pull for this one
+i think you guys have the gist
+so jack nine five two tone
+uh now at the beginning of this lecture
+i told you there was dry boards super
+wet boards and then these kind of
+in-between boards that just make for the
+perfect large bets right if queen a3 was
+on the right super wet and ace a6 was on
+the left super dry
+this one's just in between there's many
+draws there's no made flushes or
+straights
+um
+why is a large bet preferred on this
+board
+well
+you could say a lot of reasons i think
+part of it's related to that heuristic i
+shared earlier
+the board is somewhere in between
+just draw heavy enough to want a bit big
+we have enough of an advantage
+to try and bet big it does implement an
+over bet range as well as a 75 bet range
+let's explore this a bit in gto wizard
+right so we can see we do have
+you know a small equity advantage
+reasonable ev advantage
+um
+we look at the equity graph
+we're not you know we have a range
+advantage
+but importantly
+what i want to point out here
+is that
+big blind only has 3.4 percent of hands
+that are two pair plus right that means
+if you have ace jack
+you're ahead of like 97 of their range
+right now
+doesn't mean you have that much equity
+of course
+but you are currently ahead of that many
+hands
+right
+and whenever you see that heuristic
+typically the strategy is going to be to
+bet big
+and indeed it does prefer an over bet or
+at least a large bet
+with most of its value range
+so i ran some similar experiments what
+happens if we remove all the two pair
+plus from both ranges what happens if we
+add a bunch of draws the big blinds
+range
+what is the value of fold equity
+removing all the two pair plus
+we see again it sizes up significantly
+uh
+even this small range is enough to
+counter
+too much over betting and here we start
+to implement this 160 size
+extra draws
+we can see that um
+we are betting less often because
+basically what i did was i gave them
+all the flush draws 10 8 and queen 8 in
+full sorry 10 8 in queen 10 full so they
+have all the draws
+uh which increases
+our incentive to bet large
+but decreases our advantage so we check
+more often and when we do bet
+we use a larger size
+value of fold equity
+um
+well
+on the left we can see that it's quite
+high right even our very nutted hands
+you know even something like ace jack
+only is 85 percent
+and that's against the hands that fold
+right so there's some pretty reasonable
+fold equity going on with this one
+but not
+as much if we bet small
+just recapping it here
+so
+in conclusion bet sizing is complicated
+the incentives around bet sizing largely
+relates to nut advantage
+and the value of fold equity the spr and
+the portion of nutted hands in each
+range dictates which hand can play for
+stacks which ultimately controls bet
+sizing the middle of your range acts as
+an anchor which the top of your range
+must adequately defend it's dragging
+down some of the value hands because the
+middle of your range must be defended
+fold equity acts as an incentive to bet
+if you only fold out hands that have no
+equity against the value portion of your
+range
+then the value of fold equity is quite
+low and the opposite is of course also
+true anyways that's it for my lecture
+guys uh please bring on any questions
+you may have i'd be happy to answer
+middling sizing what would make us
+choose it in general fide asks
+that's a good question i didn't put this
+in my presentation although i thought
+about it but typically
+when you have a large
+range advantage throughout the middle of
+your range you have a lot of middling
+hands that are incentivized to put money
+in typically that's going to indicate
+more of a smaller sizing sorry you're
+asking not middling hands but link
+sizing i would say that mid link sizing
+is what happens when the incentives are
+somewhat balanced between a larger size
+and a smaller size yeah i suppose i only
+really showed extreme examples here but
+perhaps in the future i can demonstrate
+some more of the middling sizes
+thank you for coming everyone i really
+appreciate your support and of course if
+you have any questions just let me know
+we got some more questions here do you
+recommend simple solution of 3366 and
+130 or general i find it difficult to
+know how to use 50 size uh personally i
+like the general solutions but it to
+each their own um really depends what
+you're trying to do if you're going for
+implementation then simpler is often
+better if you're trying to find trends
+then often you'll want more sizes to get
+a better idea of how the spot works and
+changes but that's a subjective question
+really to each their own
+all right guys i think we can end it
+here uh have yourself a great thursday a
+great night or friday morning wherever
+you are and good luck on the grind

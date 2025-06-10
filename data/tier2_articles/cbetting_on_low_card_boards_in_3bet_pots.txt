@@ -1,0 +1,25 @@
+### TOPIC: cbetting on low card boards in 3bet pots
+We already covered what hands to c-bet in single raise pots both on low-card boards and ace-high flops, and now we will dive deeper into 3-bet pots.Today, we will use the PeakGTO solver to analyze strategy on low-card boards in 3-bet pots.
+We will cover both dry and connected boards when tackling these situations to illustrate strategy differences, and will wrap it up with core takeaways for each situation.
+In Position (IP) on Dry Boards (e.g., 9♠5♥2♣): C-Bet approximately 53% of the time and prefer larger bets around 70% of the pot. Focus on betting strong hands like overpairs and include bluffs to balance your range.In Position (IP) on Connected/Wet Boards (e.g., 8♥6♥4♦): C-Bet approximately 27% of the time and mix between 30% and 70% pot-sized bets. Employ a mixed strategy, checking most hands to control the pot and avoid being check-raised.Out of Position (OOP) on Dry Boards (e.g., 8♠6♦2♣): C-Bet approximately 49% of the time and use larger bets around 60% of the pot. Bet overpairs for value and include overcards with backdoor draws as bluffs; mix checking and betting with other hands.Out of Position (OOP) on Connected/Wet Boards (e.g., 8♥7♥5♠): C-Bet approximately 27% of the time and use larger bets around 60% of the pot. Bet strong hands and good draws; prefer checking with the majority of your range to control the pot size.
+We will use an example of a wide poker range where our opponent opens from the cutoff, we 3-bet from the button, and he calls.
+Key assumptions:
+Let’s start with a dry flop and take an example of 9s5h2c to see how we should be playing this spot after 3-betting preflop.
+Our opponent will be checking to the player who 3-bet preflop all the time, and we will be c-betting around 53% of the hands and checking around 47% of our range.
+It is essential to note that we will stick to the big sizing of 70% of the pot in almost all cases, which makes our strategy much easier to follow.
+As always, we will follow a mixed strategy when picking the actual hands. We will mostly c-bet strong holdings like overpairs that might lose equity with unfavourable runouts and add bluffs to balance it out.
+The strategy for disconnected boards is fairly straightforward, but things change significantly on wet flops. Let’s look at a different example of 8d6d4d.
+These are the flops where our c-betting frequency will be the lowest, at around 20% to 30%, since it clearly favors the callers’ range.
+In this exact spot, the game theory optimal strategy suggests c-betting just 27% of the hands and checking with 73% of your holdings.
+While you should still prefer larger bet sizing two-thirds of the time, we should now employ a mixed strategy, varying between 70% and 30% pot size bets.
+The c-betting hands a spread almost equally between all holdings, meaning we will stick to a truly mixed strategy with pretty much all of our hands by checking them most of the time.
+By checking back, we control the size of the pot and deny them the opportunity to check-raise us on dangerous textures, while still being able to extract value from our strongest hands on future streets.
+Now let’s break down some examples when we are playing OOP. We will analyze a spot where our opponent opens from the button, we 3-bet from the big blind, and he calls.
+Key assumptions:
+Let’s firstly see how our strategy looks on a dry board of 8s6d2c.
+The solver suggests betting around 49% of the hands and checking 51% of the time with a fairly even distribution between the hands. That said, we should be betting overpairs more often than other holdings and balance it out with some overcards containing runner-runner draws.
+We are employing a fairly mixed poker strategy with the rest of the range by checking and betting the same hands at nearly equal frequencies.
+As for sizing, we should mostly stick with the larger one and use a 60% pot size c-bet when we decide to continue our aggression after the flop.
+Since wet flops featuring low cards are not ideal for the preflop 3-bettor, we will often check to control the pot size and avoid difficult spots. Let’s see an example of 8h7h5s.
+We should be checking a lot OOP, and in this exact spot, we are only betting 27% of the hands and checking the rest.
+The hands that we bet most often include overpairs and good runner-runner draws, but even in these cases only bet half of the time. With the rest of the hands, we are only c-betting some of the time and checking as our preferred play.

@@ -1,0 +1,1517 @@
+### TOPIC: btn vs co 3-bet pots
+[Music] hey guys I'm excited to introduce our 
+latest GTO wizard Pro the legendary Joey Ingram in  
+this video Joey and I study button versus cut off 
+three bet pot strategies in cash games we hope you
+[Music] enjoy all right what's up guys I'm Joey 
+Ingram and uh welcome to a journey that I'm taking  
+down the two card poin Omaha rabbit hole and 
+a lot of people out there know me for for card  
+for PLO but a few people know that I actually 
+played millions of hands of hold them before I  
+got into the beautiful great game of mon Omaha and 
+recently once I started watching the live streams  
+and seeing hold them start to make a rise and high 
+stakes make a comeback and I started to see how  
+these players played I uh started developing more 
+of a passion for Learning holdom and um along the  
+way GTO wizard trainer and their program has 
+been one of my main tools I've used and I've  
+loved their content and especially this guy I'm 
+collaborating with today I'm sure you guys have  
+loved his content too if you've seen it some 
+of his stuff really blow me away as I've been  
+learning holdom so we've done a few lessons 
+before this and we're going to do an official  
+Series where me and T boss 21 here are going to go 
+down the rabbit hole and uh yeah man it's going to  
+be a pleasure I appreciate you uh you collabing 
+with me and you and uh I'm ready man I'm ready  
+to I'm ready for whatever kind of Wizardry you 
+got to teach me buddy absolutely and Joey I am  
+so psyched to have you on I think this is going to 
+be a really fun series you bring up great energy  
+to this I really admire your enthusiasm and 
+dedication as he said we're going to be stating  
+Mr Joey Ingram's Journey Through the technical 
+game of no limit hold them and we're going to  
+be studying spots one at a time starting with the 
+button now just prior to this call Joey was making  
+a point that you have to be a God on the button 
+and the reason is if you just look at theoretical  
+win rates by position the button accounts for a 
+huge huge portion of your win rate and that's true  
+regardless of whether or not you play micros 
+Stakes or high stakes the button matters and  
+so nailing these spots nailing spots for you're 
+playing the button is going to be crucial to your  
+long-term win rate and we can see here that in 
+a no- ra game the expected value or the win rate  
+of the button is about 25 big blinds per 100 and 
+trust me you'll need that to make up for the eeve  
+loss of playing in the blinds now studying earlier 
+positions and such mle position that's useful too  
+but you have to pick the low hanging fruit first 
+and that's why we're starting here now in today's  
+video we're going to be covering button versus 
+cut off three bet pots so we're talking about  
+spots where cut off opens button three bets cut 
+off calls they check to us in position and now we  
+take a flop Joey I suppose maybe you could start 
+me off by telling me a little bit about how you  
+think about this spot now that you've been putting 
+in so much study time yeah I mean you know I'm  
+kind of converting over from this heads up mindset 
+and as people know I mean not a lot of people play  
+heads up but heads up you're playing 80 some per 
+of your hands pre- flop on the button and you know  
+so I'm trying to say how do I play as many hands 
+as possible on the button how do I go crazy and  
+I've had to really re myself in so now that I've 
+been reing myself in and not three betting every  
+single King ex suited not three betting every sort 
+of suited you know 85 eight I've always wanted  
+three bet all these hands to me they make sense 
+as natural three bets and they still really you  
+know if I'm going to open up my threshold at three 
+betting I'm going to start including some of those  
+hands especially against a lot of weaker players 
+but I think right now I'm trying to get a really  
+understanding of just you know sort of visually 
+how the hand is going to work across three streets  
+and how I can just set up a really rock solid 
+pre flop default flop strategy so I'm finding  
+that you really can't go wrong betting a third and 
+then you have these couple different structures  
+where there's basically two types of structures 
+where one structure you're betting small on one  
+structure you can bet bigger on you know like the 
+3 three fours and the the de duu F and stuff like  
+that these low boards where you're just going to 
+have a bigger overpair Advantage so you can kind  
+of go crazy with those Ace so I'm trying to find 
+that threshold with the with the ace Queens what  
+are the combos I Barrel why am I barreling them 
+you know sort of like build out this deeper level  
+understanding of why I can automatically bet a 
+third on you know any mono board and all these  
+AI boards all these King High boards these Queen 
+High boards you can just basically you're printing  
+betting a third you know yeah I'm basically trying 
+to take it to that next level the turn and the  
+river and try to get it more better understanding 
+of that I guess you could say yeah absolutely  
+and so I think any part of building a strategy is 
+starting from the big picture strategies first and  
+then slowly building down to the more the smaller 
+parts of the game tree if you will and so one  
+of the best ways to start is by examining these 
+aggregate reports what these reports do is they  
+show the aggregate strategy across all possible 
+flops there's 1,755 strategically distinct flops  
+22,100 unique flops and so there's a lot of 
+different flops how do we kind of simplify this  
+and start building a strategy from all of this 
+data right I think one of the very first steps  
+to do is to just figure out what type of boards 
+you want to have a big bet strategy a small bet  
+strategy and what type of flops you mainly want 
+to play defense on right so what I'm going to  
+do is I'm going to group this by high card and 
+let's just take a look at some trends that we can  
+infer here so what this is showing us is that for 
+example on Jack High boards you almost always want  
+a bet in a button versus cut off three bet pot 
+but on something like a seven High board you're  
+checking back half the time here so we want to try 
+and develop these thresholds so Jack for example  
+almost always going to be a bet low cards we're 
+mixing big bets but lots of checks and so I guess  
+before we just start roote memorizing this stuff 
+we should maybe ask why is it that we want to bet  
+more often on these big cards and less often but 
+with a larger sizing on these low card flops what  
+do you think Joey pretty much range Advantage so 
+you're going to have more Aces More Kings more  
+Queens more Jacks more tens and they're going to 
+be for betting Aces pure theoretically right Aces  
+pure Kings pure Queens P pure even like their best 
+Ace King suited they're going to be orbiting those  
+pure as well so I feel like you can uh you know 
+you know maybe as as simple as you can put in yeah  
+exactly so it all comes down to the difference 
+between the ranges and so what I've done here is  
+I've opened up the ranges Tab and I've filtered 
+for the call so this is really useful because it  
+kind of gives you an idea of who's going to have 
+the advantage on different boards right and in  
+particular we'll note that these King High aside 
+flops are going to be great for the aggressor no  
+surprise there Queen high is about the bottom of 
+the cut offs calling range offit calling range and  
+the reason I always pay attention to the offsuit 
+calling range is because even though these look  
+smaller like Ace Queen off accounts for many 
+more combinations than Ace Queen suited so one  
+technique that I like to start with for just 
+developing a sense of how I should categorize  
+flops is to look at a range breakdown so what I 
+do is I say I copy these ranges into some software  
+and then I just use card removal to figure out who 
+has the advantage or who has more of what type of  
+card by rank so that's how I make these charts 
+here so what this does is what is this yeah yeah  
+so this is a a little private analysis technique I 
+like to use so basically I just type in the number  
+of combinations of cards and then I take a little 
+side by side and a difference thing and so what  
+this shows on the left hand side is that generally 
+speaking cut off is going to have more of the 2x  
+3x 4X 5x all the way up to about 9x and button 
+in position as the pre- Flop aggressor will of  
+course have more jackx Queen X King X and acex and 
+so by just starting with this card distribution  
+difference we can already find a nice Line in the 
+Sand and that is the 10 if the Flop is above a 10  
+you're typically going to be betting often for a 
+small size because you have a big range Advantage  
+if the Flop is less than a 10 you can no longer 
+range bet and you need to start considering a more  
+polarized strategy you can also take a look at a 
+side by-side view again we have cut off and button  
+and if we take a look at where this threshold is 
+this 10x and just compare that with the aggregate  
+reports over here we can see that the trend 
+follows very clearly flops that are greater than a  
+10 high frequency bet pushing your range Advantage 
+flops that are lower than a 10 low frequency bet  
+about half the time and these darker squares 
+indicate that we're using larger bet sizes so just  
+by studying aggregate reports like this I think we 
+can already start to develop some heris discs can  
+I ask you okay so when we have a range Advantage 
+why why do they like you to bet smaller versus  
+bigger that's a great question Joey often the 
+reason is uh the types of hands you're interested  
+in betting so for example let's take uh a low bet 
+board cuz most people would think if you have Aces  
+if you have Kings like I want to get max value 
+I'd want to bet bigger I'd want you know that's  
+I think a lot of players think about poker like 
+that if they go oh I'm going to check I'm going  
+to bet smaller with Ace five but I'm going to bet 
+bigger with Aces because I want to get paid when  
+I have a big hand so and obviously you know this 
+isn't necessarily the way G wizard thinks about  
+it but I think it's understanding the answer to 
+that question helps you to better understand what  
+the idea of balance and the idea of exploit and 
+and uh you know kind of build in like a baseline  
+yeah great question so on a board like king93 it's 
+very dry it's disconnected your opponent's gonna  
+have a hard time defending the important thing to 
+realize is that the amount of money you put in on  
+the Flop is not the amount of money your Aces 
+will get right if you bet big on the Flop sure  
+maybe you can get more money immediately but less 
+money all the way by Showdown whereas by betting  
+small by keeping your range wide you incentivize 
+them to put in more money which is going to be  
+great for the top of your range uh furthermore 
+a lot of the hands in your range are going to  
+benefit from Equity denial when your advantage 
+is so big that you can just bet everything right  
+so for example if you imagine you have a hand 
+like 108 or queen 10 lots of these hands have  
+some type of equity but they're definitely going 
+to benefit from folding out for example all of  
+these pocket pairs in the opponent's range now 
+compare this to some sort of low cardboard let's  
+say something like uh 9852 tone 9852 it's going 
+to be very difficult to range bet and the reason  
+is our opponent they still have pock pocket 9es 
+they still have pocket eights they've got pocket  
+fives they've got 98 they've got a bunch of draws 
+they've got Ace 9 King n so we no longer have the  
+nut advantage and because we don't have that nut 
+Advantage we cannot just range bet everything we  
+don't have that overwhelming Equity Advantage so 
+in this case what you'll want to do is develop  
+a checkback range start pushing your Equity with 
+a more polarized range I mean I got ask ask some  
+questions about that you know what I me I mean 
+that's a whole other rabbit hole right and know  
+I guess when you when you thing about studying 
+this because to me there's such different boards  
+you know I'm studying an Ace King five board it's 
+going to be such a different way to think about it  
+than on a 985 board to me it kind of makes sense 
+to study the a high boards first because we do  
+have such a range Advantage so when I'm when I'm 
+thinking about this lately I've been saying you  
+know why don't I focus on those AI boards because 
+those are going to basically be my wheelhouse  
+whereas on those boards you know 985 theoretically 
+when I see B big with Kings and I get check raised  
+you know if I'm 100bb like you know I'm hanging 
+on tight then I got to start making some reads  
+I got to decide if this is the kind of player 
+who's going to be bluffing me or not and you  
+know maybe you could say most people aren't going 
+to be bluffing you so you can maybe get away from  
+some of those hands but even then if you end up 
+putting in 100 BB with overpair on 985 like you  
+could say it is what it is especially if there's 
+a fruster out there too so it's kind of like you  
+know I'm developing you know your focus on my 
+study right our focus on that so it's I find that  
+something interesting to think about I'm curious 
+how you kind of would approach that or you would  
+recommend approaching that well I definitely 
+agree with studying AI flops first and not  
+just because of the way they play simply because 
+they're more common what I'm showing here is the  
+aggregate report for all possible flops and on the 
+left hand side we see these little percentages now  
+these represent the proportion of high card flops 
+so 21.7% of flops are ace high 18.3% are King High  
+15.2 or queen high when I show this to a lot of 
+novic they get confused because isn't a queen just  
+as like as an ace well yes but we're looking at 
+it by high card right so Ace king queen is an AI  
+flop right now given that these flops are more 
+common you can get more value for your time by  
+studying them compared to for example seven High 
+flops which are far less common basic principle of  
+my teaching method is to focus on things that are 
+going to be have a bigger impact on your win rate  
+immediately and one of those would be taking into 
+account the frequency of the type of textures you  
+like to create now speaking of textures Joey let 
+me ask this is a crazy this is this is a really  
+interesting screen because this is I've never seen 
+this screen before yeah I mean it kind of It kind  
+of ties in with the you know with kind of your 
+predicted EV and it even shows you you know why  
+like you it's just way to see the BET sizes right 
+because you can see 75% you know there's a drop  
+off there six and Below you are betting that big 
+size pretty often and then once once it gets above  
+a six you're really not betting that size often at 
+all right you're kind of going more half pot so I  
+find that kind of fascinating where on that seven 
+to 10 it's more half pot as you get past the 10  
+you start going really small right so you can kind 
+of see the progression from the 20 to the 75 and  
+then you know that that part to me really stands 
+out the bigger the smaller the smaller the bigger  
+yeah exactly and I think uh just looking at this 
+section here as you were pointing out you can see  
+a very very common Trend where these cardboards 
+you're checking a lot but you're also betting  
+bigger big sizes and then at these high cardboards 
+you're checking rarely but you're betting smaller  
+and this is a a typical Trend you'll see in Holdem 
+GTO strategies is that there's a rule of thumb  
+not like a hard law of Game Theory but generally 
+speaking when you want to bet most of your range  
+you want to bet small because you've got a lot 
+of mergy hands in there and when you're forced  
+to develop a significant checkback range you'll 
+want it bet bigger in this case it also happens  
+that on for example nine high and Below boards 
+part of the reason a larger more geometric sized  
+bet is preferred is because the value of fold 
+Equity is higher so for example if we bet half  
+pot on 985 with let's say you have ace9 here or 
+Jack n or queen n or something uh there's a lot of  
+value to folding out these overcards the nine even 
+though those hands are technically behind a top  
+pair for example folding out that Equity has a lot 
+of value now if you compare this to for example an  
+AI flop let's say you bet top pair here Ace Queen 
+Ace 10 something like that for like a medium size  
+uh well congratulations you're folding out a lot 
+of hands that you already dominated like Ace Queen  
+is not thrilled to be folding out king Jack or 
+king queen or queen Jack so you have to think  
+about not just range and not Advantage but the 
+value of fold Equity as I call it the the value  
+of denying Equity given what the top of your range 
+wants now that said I do want to just show you one  
+more technique that I use for studying aggregate 
+reports uh because I think once you've got your  
+game planed down it's going to be easier to 
+focus on follow through I recommend keeping  
+this relatively simple break take some sort of 
+spot like this so here we're looking at again  
+cut off versus button three bed pod break it down 
+into something like four to eight different types  
+of boards however many you feel that you should 
+be studying and these types of boards should be  
+somewhat canonical meaning like monotone paired 
+uh dry disconnected high card stuff like that  
+and then study and practice those types of flops 
+separately now for example uh if we the way I like  
+to just learn about these textures is by going to 
+the aggregate reports and just applying filters  
+until I find strategically similar spots so we 
+have all the low flops High flops now one thing  
+I've noticed is that in particular disconnected 
+rainbow flops are almost always going to be a bet  
+and so what I do is I just pick some filters here 
+and then I take a look at the aggregate betting  
+frequencies here and we can see that the vast 
+majority of these flops are just going to be range  
+bets usually for a small size if it's a lower 
+board then even more for a medium size so that'  
+be for me one type of category of flop rainbow dis 
+disconnected another one that I would choose would  
+perhaps be ace through jack High uh unpaired not 
+monotone we've seen before with that chart that  
+typically the through Jacky again are going to be 
+the boards you bet the most and again we can see  
+that these boards are typically range bets right 
+surprisingly the boards where you might choose  
+not to range B are Ace wheel wheel boards so these 
+are boards that have some potential wheel straight  
+draw and in particular like if you look at Ace 
+54 there's not a ton of incentive to generate  
+fold equity on these types of flops because you as 
+the button don't really have much second and third  
+pair like you don't have a whole lot 5x or 4X 
+so your incentive to kind of go for like a small  
+mergy bet is reduced and you're not folding out 
+any overcards because there are no overcards so  
+there's not a lot of incentive to um deny Equity 
+either for that reason sometimes the amount you  
+bet isn't just about the strength of your range 
+because for sure button has an advantage on as54  
+sometimes it's about the incentives to deny 
+Equity as well and the incentives to to bet  
+with more middling strength hands if you compare 
+that to something like uh Ace 104 Ace 104 we have  
+a lot of 10x that would happily get some money in 
+we have enough of an advantage that we don't need  
+to be too worried about facing aggressive check 
+raises and again we can see that the cut off  
+where it goes from like betting half the time to 
+betting a lot is again around the 10 as we noted  
+earlier the critical threshold card if you will 
+right the 10 the 10 is very the very it is the  
+threshold here it's pretty interesting to see that 
+yeah once you get to the nine you're just checking  
+a lot more yeah and we'll we'll notice the the 
+same pattern on a lot of other spots too so here's  
+Queen 8X Queen 9x Queen and then boom Queen 10x it 
+shoots up right because all of a sudden we start  
+having a lot of 10x relative to cut off and I I'll 
+mention that the the critical threshold card tends  
+to change depending on spots you study in this 
+spot usually it's going to be around there and  
+then of course we have paired boards so this would 
+be like another major canonical type of texture  
+again you want to bet often on paired boards but 
+the main thing to focus on with paired boards is  
+not whether or not it's paired but where the 
+pair is so if we go down here we can see that  
+for example seven do du 633 8 D this all of these 
+cards where the pair is a low card that you know  
+a spot basically where we can't represent many 
+trips but those are the types of par cards where  
+you don't want to range bets anymore and it's 
+often going to be better to start polarizing wow  
+interesting I would I would think on like five new 
+du you could you'd want to be just betting all the  
+time in position because you have such a big range 
+Advantage I mean I guess because I mean you're not  
+going to have trips but at the same time I don't 
+you know they have a Duce but they're going to  
+fold a du sometimes too so they don't necessarily 
+have the trips as well you know they're they're  
+going to have more fives because fives is pure 
+pre- flop but and you probably won't have fives  
+you're probably not three bitting fives so I would 
+just imagine that you would just bet bigger hair  
+so that's pretty surprising to see that it does 
+like to five de duu no one really has any trips uh  
+but I will say that at some point the pocket pair 
+categories start to count for more like in this  
+case they still have a lot of overcards or over 
+Pairs and that definitely counts towards something  
+here but we'll also notice that the button often 
+likes to size up and so a lot of people will look  
+at something you know I'll even get rid of the the 
+flush draw make that like five clubs or something  
+people will look at this and say oh this is a very 
+very dry texture but I think one of the problems  
+with a small bet here is that it's just not super 
+effective like look at the hands you're folding  
+out Queen Jack Queen 10 Jack 10 like the types 
+of hands you fold with a small bet here aren't  
+really the types of hands you want to be folding 
+so what what the solver likes to do instead is it  
+likes to start targeting some of the pocket pairs 
+like a 75% size here some of the ace high King  
+High he wants to start targeting these hands for 
+indifference so we can see like for example here  
+40% of the time we're going with this big size 75% 
+is Big at the SS spr it's weird because in single  
+raise pots typically you see paired board small 
+bet but in three bet pots paired boards often  
+means bigger bet because the idea is to challenge 
+these pocket pairs if not on this straight then  
+on following Straits and the 20 20% bet I mean 
+they're folding hands that are so that like like  
+when you bet 20% and they're folding some of these 
+hands here 10 n these are worse than your Bluffs  
+it's hard to Bluff someone off a worse hand so so 
+then how do you think about checking back because  
+according to you know it's basically saying and 
+the as the button you want to be checking back  
+more on these low boards so you know it's checking 
+back Aces it's checking back you know it seems  
+like it's basically checking back of is high and 
+I think feel like people are kind of afraid to to  
+check back these spots but to be honest the way 
+I look at it is that the buttons Equity tends to  
+appreciate here because we benefit from most high 
+card runouts are going to benefit us whereas like  
+the medium card runouts would benefit the cut 
+off but the medium strength runouts for example  
+if we go check check we can just take a look at 
+turn reports here what I'm going to do is just  
+show you the the expected value of run outs for 
+the button the higher this line the greater the  
+expected value and so of course we're going to 
+be benefited when the turn card is 10 or higher  
+and the cutoff is going to be benefited when the 
+turn card is nine or lower but even if the turn  
+card is nine or lower the River card again be 
+a high card so generally when you're in a spot  
+where you have a lot of overcards and not a lot 
+of maid hands relative to the Flop the reason you  
+want to check back range is because first of all 
+there's not a lot of incentive to fold out worse  
+overcards secondly even if if you do fold out wor 
+over cards sometimes it can be better to keep your  
+opponent's range wide let their Equity depreciate 
+like let their you know an ace run off and hurt  
+their Queen high or whatever and have your hand 
+appreciate and value just by letting some more  
+cards run off so sometimes just being patient is 
+is a it's a good weapon in poker yeah Mak that  
+that makes sense yeah yeah especially because you 
+know the turn the turn in the river I feel like  
+that's where people start to go crazy their brain 
+starts to break if you check back the Flop on five  
+du duu and and uh you know they're not really 
+going to know what to make of it necessarily so  
+it's nice to have some some of those Aces and it 
+also makes your hand seems like easier to play on  
+the turn and on the river often times too because 
+if they bet you can call and if they bet you can  
+fold or you can call so it's kind of like it seems 
+like an easy position to play as the button when  
+checked and facing a turn decision too it is yeah 
+it's way easier to play for example Ace King is a  
+check here in my opinion because I don't gain 
+anything from folding out Queen 10 Jack n like  
+what do I care if these hands fold when I have 
+Ace King that's not great I would rather keep  
+those hands in range on the turn it becomes much 
+easier to play a hand like Ace King and one of the  
+techniques I like to use to do this is by taking 
+a look again at the turn reports and then using  
+the strategy here so here it's gone check check 
+turn is any card check action on us in the button  
+and here I'm just going to filter for example for 
+Ace King now what this does is it shows me how I  
+should play my Ace King across all turn cards on 
+this flop first thing I'll notice is okay if turn  
+goes check check and I hit a pair bet it right uh 
+and for a big size too like we're we're playing  
+for Stacks like so here's a question to you Joey 
+why do you think it is that we want a bet pretty  
+big on a king in fact it's over betting here like 
+175 uh but on an ace it's betting bit smaller like  
+75 when we have Ace King it's a good question I 
+mean I guess for the the king so it likes us to  
+bet a lot bigger on the king well we've already 
+kind of saw from that previous report that  
+it just loves a king right it barely checks back 
+the king so I think that we're going to have a  
+lot more Kings than they're going to have and um 
+they're probably going to forbit most of their  
+Ace Kings they might have king queen suited maybe 
+some King Jack suited and maybe we're just going  
+to have a lot more Kings in our range and we're 
+also going to potentially have Aces too and we're  
+going to have more pocket kings so I don't know 
+something to all things to consider I guess but  
+what what what do you think it is I think what 
+you said is is pretty spoton uh we're definitely  
+going to have an advantage on ASX and kingx turn 
+cards uh and I think one of the the main things is  
+that on a kingx turn card a lot of our for example 
+king queen king Jack King 10 a lot of these hands  
+are going to want to try and fold out some of cut 
+off's ASX hands right so imagine you check back  
+some sort of top pair here and an ace comes on 
+the river that kind of sucks for a hand like King  
+eight right whereas there's lots of value to here 
+I I like a pot siiz bat generally but it wants a  
+nice big bat here but there's a lot of value to 
+folding out these overcards right I couldn't care  
+much about folding out most of these but folding 
+out the a high is quite useful and I can still get  
+a decent amount of value from these worst pocket 
+pairs generally in three bet pots especially on  
+when it comes to turn and River what I'm thinking 
+about is a few main factors first of all is how  
+does my hand play against the pocket pair because 
+this is going to comprise usually on most runouts  
+the majority of their call down range so I want 
+to think about how my hand is doing against these  
+types of pairs and secondly I want to think about 
+what their overcards to top pair are doing and  
+here if I bet big I know I can fold out a lot of 
+equity let's try uh something else here Joy what  
+do you do when let's say flop goes check check and 
+out of position Pro bets how do you like to handle  
+these spots yeah how do I like to handle these 
+spots um usually you know usually some mixing  
+some calling some folding I mean probably just uh 
+depending on what the turn is you know if I'm have  
+my Ace highs I check back I have my Ace Queens I 
+have my Ace Jack like some of my my pairs that I  
+mixed and checked back I'm just going to call the 
+turn and call some raise some um I'll probably  
+fold like my you know for some reason if I didn't 
+see that I mean I don't know why but if I didn't  
+see at my like 78 suited here if I didn't see at 
+like my queenex suited or my jackx suited or 10x  
+suited and depending on the card I might just 
+start folding some too so but versus like that  
+size bed I don't think I'd fold many a SI on you 
+know if I got two overcards on a 10 I'm probably G  
+to call at least one street and then maybe try 
+to get a showdown maybe sometimes turn into a  
+bluff so I'm probably staying versatile at this 
+point in time but if it's against someone I feel  
+like is you know crushing me I might just start 
+folding here too and make my life a little bit  
+easier I think you've got the right right idea 
+here generally against this small like 33% prob  
+B you don't really want to be folding a whole 
+lot of ace high most of the time especially on  
+a board like this right can't fold ace high here 
+got to call that down uh so one thing that I like  
+to do to try and develop my strategies here is to 
+test out some random text and just get a sense of  
+my thresholds so first thing I'm going to do is 
+I'm going to press s a couple times SS and what  
+this does is it just groups these actions together 
+and what I want to do here is just kind of develop  
+threshold so what am I raising for Value if I 
+hover over this little icon here I can see how the  
+raising range is constructed across all of these 
+different sizes that we've given it and we can  
+see that on a board like five de de four typically 
+going to be raising over pairs Straits and boats  
+for Value not so much top pair on this board 
+and then lots of ace high King High these types  
+of hands some gut shots for example as Bluffs now 
+what I'll do is because this is just one spot I'll  
+randomize it bam Ace 1065 imagine we went check 
+check here I don't think we would this is kind  
+of a range bet spot but just to develop a sense 
+of what's folding in this case we can even see  
+pocket kings is folding a little bit these pocket 
+pairs start to fold we have a lot of hands here  
+and what's raising for Value I guess two pair sets 
+maybe a little bit of Ace Queen but again we don't  
+get here too often then I just keep randomizing 
+like this and I try and develop a sense of what  
+can I raise for Value what's the strongest hand I 
+fold in this case the strongest hand I fold is low  
+pair on Ace Queen five jack what I raise for Value 
+typically we're going to be looking at I think in  
+game I I would go with Ace King like I I don't 
+think I would have the konas to to raise A6 here  
+you know but okay so I just keep going through it 
+like this okay flush completing turn what are we  
+raising for Value sets what are we starting to 
+fold here a high these flush completing turns  
+can start folding Etc and this is just kind 
+of a I'll randomize it a few more times let's  
+try and get like a low card board I love how you 
+randomize the board textures too you're a you're  
+a master you're a master randomizer Rand I don't 
+know I don't know you come up with the strategy  
+start randomizing I don't know how you go with 
+this idea but you could in theory just prepare a  
+subset of turn cards to look at but there's a lot 
+of turn card this is interesting yeah I mean this  
+is pretty interesting way to think about it yeah 
+to go through again once you I think once you do  
+this for like 10 minutes you're gonna start to see 
+the patterns emerge um so again we see typically  
+strong top pair plus is Raising for Value 
+typically ace high sometimes low pair if it's a  
+very connected run out it's going to start folding 
+but everything in between your maid hands your  
+flush draws your open Enders these hands cannot 
+be folding against this size and I think just  
+you spend 10 minutes going through that all of a 
+sudden you start to feel a lot more comfortable  
+in these check check lines where you face a proth 
+100% that's definitely something the spot one of  
+the spots I need to work a little bit more on 
+because I I feel like I got my uh SE betting  
+strategy no down but the checking back one is also 
+very powerful too so you need to be prepared for  
+both and you need to be practice for both in my 
+opinion so that's that's for me my strategy it's  
+going me my plan people underestimate the the 
+power of just pressing the check button on the  
+Flop there's a back in the day very few people 
+were developing their delayed bets and their  
+check check lines and so the first people who kind 
+of took advantage of that had a big Edge in the  
+game let's move on to different topic here now 
+Joey can you tell me a little bit about how you  
+like to structure your bet sizing across multiple 
+streets sure I mean normally if I'm going to start  
+off betting big on the Flop and like a big board 
+texture then often times I'm going to be betting  
+pretty big on the turn this is kind of assuming 
+100bb if I'm betting small on the turn then on  
+certain board textures then most times once again 
+I'm probably going to going to go like small plop  
+66 turn and then most times just shove River you 
+know if I have a hand for Value in my in my bet  
+strategy is going to be 33 then I'm probably just 
+going to go bigger and that's going to be my like  
+default value get in for the most part and I feel 
+like you can't really go wrong with that 100 BB  
+in terms of for the other big bets I would say 
+my issue comes in is when I'm on the river and I  
+have to decide what I follow through with because 
+I let's say I bet big on that flop I bet big on  
+that turn on the river I'm I'm going to need some 
+Bluffs so deciding what the Bluffs are has been is  
+kind of where I would say I'm I'm challenged at at 
+that line right now just you know identifying and  
+having like a horis to think through that process 
+that one's a tricky subject so let's start there  
+and I'll talk a little bit more about the the game 
+tree later let's pick some sort of flop here we'll  
+go bet call and turn let's put it like a 10 here 
+I this is like the easiest just big big beted spot  
+ever you know like exactly these these Bo you know 
+these boards are just they they play themselves  
+almost to me you know it's just like if you're 
+going to better check here you're betting big  
+or you're checking yeah exactly just play a nice 
+geometric size here I wish they had 66% that would  
+be perfect here we can of course uh Su that in 
+but very easy you've got low low and then double  
+Broadway where again this is pretty common because 
+you're going to be C betting you're going to be  
+barreling with Ace Queen Ace Jack ace7 pretty much 
+all Ace like a lot of ace high here you know the  
+better aces are going to mix but the better the 
+worse aces are going to be pure here for betting  
+you can see like A6 A7 so that board's interesting 
+because then once you get called twice your River  
+Bluff is you know I feel like you do have to 
+mix in some of those hands as Bluff sometimes  
+too it's just like hitting the right hitting the 
+right frequencies and um because on the flush draw  
+board you know they're going to have some flush 
+draws they're going to have some suited you know  
+seven eight suited they're going to have some King 
+Queens King Jacks some slow played sets some you  
+know Ace Deuces maybe that you know a is probably 
+actually going to fold fold the turn but so it's  
+interesting to think about you know how does our 
+range interact with their range and then coming  
+to some understanding of that strategy yeah this 
+is where the the power of the ranges tab becomes  
+really apparent using this comparison here where 
+you're looking at the ranges side by side and  
+inferring okay given these range a symmetries what 
+does my range want to do and then just clicking  
+the strategy button and observing the strategy 
+making those connections is going to be really  
+powerful so yeah ranges tab severely underutilized 
+for sure so you had mentioned a little bit about  
+bluffing and like choosing the right Bluffs this 
+is a spot where there are many playable strategies  
+um not this board in particular but in position 
+River Bats typically it doesn't matter so much  
+what you're bluffing with as long as it's like 
+bottom of range stuff it's more important how  
+often you're bluffing overall and so the first 
+thought that crosses my mind when I would get to  
+a river spot after a double barrel isn't uh what 
+type of Bluffs should I use it's how many Bluffs  
+do I get here with in the first place in this case 
+it's gone King 10 43d so lots of bricks and of  
+course we have a whole lot of random a high trash 
+right and that's of course going to mean that it's  
+going to want to turn some of that a high trash 
+into a bluff but let's what I like to do sometimes  
+is just iterate this River card so here's the 
+three and again I'm just going to highlight trash  
+hands same concept for yeah so here's actually a 
+problem to I had when I first started this spot  
+was that I didn't realize how bad the A7 A6 that 
+those Aces were and I didn't realize how bad ace  
+high hand in general was on for no Showdown right 
+like in my mind those hands sometimes will have  
+Showdown but it doesn't matter that they have 
+Showdown those are the hands that become the  
+pure Bluffs that was something that took me a 
+little bit of time to get comfortable with like  
+when I see King 43 I know if I have A7 or A6 like 
+we got to go all in you know what I mean so I and  
+I and and that that took a while and and like 
+here's the thing it has let's say seven eight  
+maybe 10% Equity maybe more if your opponent's 
+a station and so these hands do have some some  
+Showdown value and if you were to instead give the 
+silver complete garbage here stuff that cannot win  
+he would bet those instead right it's it's but 
+it's doesn't have enough low Equity trash so if  
+we just go to the summary tab sort by equity and 
+I guess click again you can see that we really  
+don't have like these hands are barely at range 
+like we basically never have these low card hands  
+and so a lot of the time it has to turn some of 
+these ace high hands into Bluffs simply because  
+you're running out of Bluffs right I just filter 
+for the lowest like less than 25% garbage in our  
+range we really don't have much right so I'm 
+showing the strategy and the equity here A6 is  
+one of the worst hands you can even get here with 
+not to say it's like can never win but that's why  
+I say you got to think about what Bluffs do you 
+actually arrive here with and if the answer is  
+not many you got to start turning stronger hands 
+into Bluffs and so sometimes what I'll do is is  
+I'll just um shift left or shift right is is the 
+hot key for this is I'll just cycle through all of  
+the river ranks and start to see what happens with 
+different parts of my range so on most of these  
+low cards we're still going to turn lots of a high 
+to lefts but if I go up to let's say say we go to  
+a 10 what happens to our strategy now like we'll 
+notice that something happens right around the  
+this range a jack I think which also completes 
+some straight draws is that a lot of our top pair  
+stops going all in here what do you think Joy 
+would you ship it with Ace King here no I used  
+to ship it with Ace King until I kept getting 
+a bad Mark of shipping with Ace King and then  
+I realized that I would have to go think about it 
+differently because so if I feel like if I have a  
+dynamic develop with you and you know you know I'm 
+bluffing and I feel like you're just going to be  
+overcalling then I'm going to be I'm going to be 
+shipping in here I'm pray you don't have I'm going  
+to pray you don't have King Jack I'm going to hope 
+that you have king queen because also like at some  
+point in time if you see an opponent God forbid 
+they start calling you down with ace4 God forbid  
+they start calling you down with like 910 suited 
+here or something like that then you know to me  
+those are the people that I want to identify and 
+I want to be betting my asking for value and if I  
+undercut myself 100 big blindes deep that kind 
+of is what it is so as a standard I wouldn't I  
+would say as a default I would just check back 
+but I mean once I know that you're calling me  
+more in this situation I'm 100% betting for Value 
+something to pay attention to in three red pots is  
+in particular how Ace Queen is affected because 
+Ace Queen is going to be the most prominent hand  
+in the pre-f Flop colar range generally speaking 
+Ace queen or king queen that makes sense and and  
+this is true in most three bet pots Ace Queen is 
+is like the one spot you want to pay attention to  
+so when the board comes King 10 Jack and Ace Queen 
+all of a sudden becomes the nut straight you could  
+have start being a little more careful here but if 
+I change this Ace Queen to let's say change this  
+jack to a queen feeling we're going to be a little 
+more aggressive right so now we can start shipping  
+it with Ace King simply because Ace Queen is no 
+longer than nut straight we're not worried about  
+our opponents having those hands as much and now 
+you can start shipping it right so always think  
+about especially in a triple barrel line where you 
+know their range is going to be quite tight when  
+they call down think about that that distribution 
+I mean look at those blubs look at that look at  
+that's a real interesting card so check this out 
+every ace high every B high and low pair just goes  
+off here even your reverse blockers your sixes 65 
+you know those are going crazy here that's pretty  
+that's pretty fascinating to me yeah I think 
+part of it is like we just take a look at top  
+pair plus there are so many hands here that want 
+to just get the money and joy and when you want to  
+Value bet more you also have to Bluff more and so 
+for that reason it starts turning even hands that  
+have some reasonable Showdown value low pairis 
+a high all of these hands into Bluffs and it has  
+to Bluff more because we're Valu betting more the 
+only hands that have a strong incentive to check  
+back would maybe be our second pair here queenex 
+yeah I wonder what their calling range is here  
+that good question let's see looks like they're 
+calling with two pair plus always which isn't  
+like sure they have king queen and some top pair 
+just a little like the silver is going to merge in  
+some of these second and third pair hands just to 
+avoid having too many blocker weaknesses but yeah  
+for the most part we're looking at so they don't 
+have any they don't have anything to call with  
+here yeah it's it's pretty hard to call I think in 
+reality most people are just going to be calling  
+down with like top pair plus probably folding 
+most of these second and third pair yeah I would  
+say like they're going to be over ambitiously 
+calling with Ace Queen and then you know once  
+what depends on like this is why you got to show 
+them down some bad hands sometimes is okay so  
+now if I if they start turning all some of these 
+hands into pure calls where they're always calling  
+with all their King highs and you know you can 
+kind of run it differently and then if you look  
+that look at that strategy then you might be able 
+to you know you might realize your play here as  
+in position might be a little bit different 
+so it's kind of interesting to to think about  
+if that would affect your strategy at all in 
+terms of you know those Ace highs being pure  
+Bluffs well sometimes if they're over calling you 
+then some of those Bluffs actually don't become  
+GTO anymore they become bad Bluffs indeed a lot 
+of these Bluffs here will stop making sense if  
+they're not getting enough fold Equity especially 
+on the river right like it still makes sense to  
+Bluff a lot of these hands on earlier streets 
+because you're denying but by the river if you're  
+fairly confident that your opponent is going to 
+station you down well don't Bluff a station got  
+said if they never see you show up with any of 
+those hands maybe they stop calling down light  
+yeah exactly I mean it go it goes but you know 
+you can make a justification for either either  
+thing that that's what's great about what's great 
+about 100 big blinds tombos is like you know you  
+can just like bet just bet on the river just bet 
+you know what I especially three bet pots he can  
+just play yeah three bet pots I mean you don't 
+really got lot lot of things to worry about at  
+that point in time just start betting and uh 
+say your prayers so so so let's let's try one  
+experiment here we're going to change that 10 to a 
+10 of Hearts which completes the flush and I think  
+something we'll notice here is that I think a lot 
+of players are a little too aggressive on flush  
+completing runouts so if I go over to the turn 
+reports here I don't want any so I'm not filtering  
+for anything I just want to show this spot I'd 
+say this spot's pretty pretty a little bit more  
+tricky for me too because um just visualize it 
+and flush firsts flush ranges and you know how to  
+value top pairs here how to value your Ace King 
+no hard how to value your king queen no heart and  
+then how to decide the combos of that you want 
+to Bluff with in terms of their side cards and  
+and reverse blockers and stuff like that so this 
+this is way different spot even though would seem  
+pretty similar it's actually a lot different it 
+is yeah it's a tricky spot I think and part of  
+the reason for this on flush completing boards 
+is that you don't necessarily want to have a big  
+bets anymore or not on a lot of flush completing 
+runouts and the reason is that you start to bet  
+too big on for example the T of Hearts here then 
+you're not getting enough value with hands like  
+top pairs over Pairs and you're narrowing their 
+range too quickly towards flushes and such so what  
+ends up happening go to the strategy here is that 
+playing a little more passively but we're also  
+typically going to start lowering our bet size a 
+bit so you'll see a lot of 50% a lot of 33% these  
+smaller sizes and we'll even see that and this is 
+like a nice tactic to to know about on a lot of  
+these runouts uh is that maybe I can make it even 
+more obvious with something like uh Native hearts  
+a lot of the under pair cards will go for a second 
+small bet so there's like a sneaky play that a lot  
+of people like to use let's say you have Queens 
+here flop comes King 43 you're thinking oh crap  
+I hate life I've got Queens the BET small on the 
+Flop they stick around you're not happy but you  
+can actually just put in another small bet on the 
+turn on these flesh completing runouts especially  
+when you have flush card blocker I should add 
+that this is a good question to you Joey and  
+the rest of the audience why do we think it is 
+that Queen of Hearts Queen of Diamonds wants to  
+bet here but for example let's say queen without 
+a heart does not one this spots actually another  
+this shows up a lot in singer race pot in position 
+as well where you can start like small bat small  
+bat the Flop and turn with these like second pair 
+hands so it's kind of interesting it shows up here  
+too I would imagine in this spot with the Queen of 
+Hearts you can cooler some hands and you have some  
+implied odds in terms of getting to the river 
+with the heart so I I would imagine that you're  
+kind of like it's like a merge in some ways 
+where you're have the implied odds you also  
+can get called by worse worse pairs that have 
+a hard to and then even if it's a king then you  
+could potentially yeah draw that hand absolutely 
+spot on you know and so the important thing to  
+realize is that if we're going for a double small 
+bet strategy or like a small medium bet strategy  
+they still have to call down with a bunch of 
+pocket pairs you know like look at all the  
+low pairs that they have to call you down with 
+you're still extracting like some super thin value  
+when you bet van like Queens here and so that's 
+going to be a big part of it obviously you don't  
+want to bet like huge on a flush completing run up 
+but the nice part about this is also it's kind of  
+an equity realization play to bet with thin value 
+here because if you bet twice you get some value  
+from these static Bluff catchers and then you can 
+just kind of check back the river and enjoy life  
+right I mean that that's why that's why I like 
+that that small bit on the turn like kind of  
+once you bet the turn here your River decision is 
+real easy right just check back or bet for value  
+or Bluff I mean it's like it's it kind of like 
+takes away some I guess like uh problem spots  
+I see you know what I'm saying I see some hands 
+like I don't I don't want to have to check back a  
+hand here and then the river you know the guy goes 
+150% or something like that I'm like oh my God you  
+know I just I'm I'm kind of avoiding a spot by 
+the river against all players right I wouldn't  
+say it's is doable against everybody but you know 
+against those people that are really coming after  
+you really putting pressure on you and they're 
+maybe maybe they're going kamakazi with some  
+of their Bluffs on the river River and you just 
+don't want to have to force yourself to make that  
+decision kind of just betting a turn taking the 
+initiative away and kind of even having on these  
+these flush completing boards uh you know maybe 
+just going small small as your only strategy is  
+like an easy way to play it you know you don't 
+really got to think much about it you know check  
+like okay once we once we bet a third on this 
+flop and if we say okay like let's not complicate  
+things let's just bet a third or about half on 
+the on the flush completing turn this board is  
+very common and that spot is very common so then 
+you kind of need to just plan your River strategy  
+to have a good understanding of what you want to 
+do and then you kind of win that spot you win that  
+hand this is a nice way to develop a game plan 
+right we started thinking about what sizes we'd  
+like to use on different types of runouts then we 
+started assigning some sort of value thresholds  
+to those sizes and develop that game plan uh and 
+I think that's really an effective way to study  
+because what a lot of people will do instead Joy 
+is instead of developing a game plan like you just  
+did what they'll do is they'll look at only one 
+particular hand that they played oh I played fives  
+here oh I folded fives here okay call when it has 
+the the flush draw blocker otherwise not it's not  
+an effective way to study you want to get like 
+a nice Global game plan going yeah EXA exactly  
+and you want to understand the the thresholds 
+right I mean you T I think you I think you're  
+the one taught me this really was once you start 
+to understand understand the thresholds then you  
+can start to understand why you're deviating you 
+know it's you're building your threshold strategy  
+to exploit and understanding okay well what does 
+an exploit mean on this runout against this player  
+I might be doing this because of of that and I 
+against this player I might be doing this because  
+of that so that's ideally where I'm personally 
+trying to get to that understanding where you  
+know I just know what to do against every player 
+type and um I'm just making my decisions easy I'm  
+trying to make all my decisions easy no blunders 
+and then that's what's great about these trainers  
+is you can drill all these spots to test your 
+knowledge and wherever you're making your blenders  
+now you know okay I got to like ask my coach I got 
+to I got to ask somebody like what what am I doing  
+wrong here so that's something I've been doing in 
+my training is to identify where am I blundering  
+how am I blundering and then okay what's going on 
+here so that's been real helpful for me because  
+now think about it we can just play this spot 
+a hundred times and test to see if we know what  
+we're talking about or not so I guess the the 
+final thing that I wanted to chat about with  
+you Joey how one can go about kind of Designing 
+drills and practicing their skills against the  
+silver and honing their intuition of course we 
+have our GT wiard trainer here but I want to  
+show you kind of a special method because lots of 
+people want to train with all of these different  
+bat sizes so what we can do instead is create a 
+custom solution using GTO wizard Ai and what this  
+allows us to do is we can pick our own bat sizes 
+we can design for example and I'm just gonna click  
+this is the one I use too I I I would use this 
+one too as a start and then also you can edit  
+you can edit these ranges pre- flops so if you 
+think if you say okay well I think my opponent's  
+ranges are different then you can edit these ones 
+right so if you say okay well they sometimes show  
+but theying suited you know Lord willing then you 
+can start to add those in this is what I really  
+love about I don't I don't personally know how to 
+use this that well but I am definitely excited to  
+learn more how to use this this part right and so 
+this is all just about uh learning how to build a  
+s so I think a lot of people will just pure call 
+Ace Queen off here some some people are really  
+good at forting it but some people just love to 
+pure and then a lot of these like millon pocket  
+pairs in the GTO Sim eights nine sevens these will 
+actually Four bets at a low frequency but I think  
+in practice most people just pure call these so 
+you can you know plug in your own forbit strategy  
+you can plug in your opponent's pered range or 
+just use the GTO ranges Etc and there's your  
+ranges right you can set the rake all of that 
+and then here's the hard part now most people  
+when they first use like a proper do-it-yourself 
+solver they have no idea how to construct a game  
+trait they don't know what sizes to give it on 
+flop turn and River they don't necessarily know  
+it's appropriate but what I like about GTO wizard 
+is that it's got these automatic bet sizing trees  
+and so just to give you guys a tour of what this 
+might look like if I click automatic it's going  
+to automatically reduce it down to one bet size 
+per flop per turn per runout and that's going to  
+change depending on the runout right so instead of 
+having to learn these complicated mix strategies  
+I can just say click automatic let it tell me 
+what size the silver prefers in different spots  
+obviously we're going to get a lot of 40% here 
+here 773 likes a big size Etc and then I even  
+take it a step further and what I can do is plug 
+in my own sizes and let's say I like to choose  
+on the Flop let's say I usually go here like 25 
+75 and then you you know you're really not over  
+betting so you know sometimes if I'm experimenting 
+I'll put a check or overb here too just to build  
+my overb strategy as well but I I probably 
+would go like 25 75 and then check I think  
+that's pretty good sometimes what I like to do if 
+I'm making like a more General tree is I'll use  
+it's called geometric sizing and so this little 
+e here is why do you like to do that why do you  
+like to do that instead because now it's going to 
+automatically adjust to the stack tot ratio so if  
+I want to come and reuse this beding tree 200 big 
+blinds deep it's going to adjust that 3E sizing so  
+that I have a bigger bet when we're deeper and a 
+smaller bet when we're shallower makes sense right  
+so as you get deeper then you're going to start 
+wanting to bet bigger here right and so to any  
+people watching this video later who don't know 3E 
+just means betting an equal fraction of the pots  
+in all three streets call that pot geometry uh and 
+It's featured within most of our Sims very useful  
+concept to understand within any three bet pot is 
+pot geometry and why is that yeah great question  
+essentially pot geometry let's take a toy game 
+take some sort of polarized toy game where you  
+have the nuts or Bluff and you want to figure out 
+how can I get the most money out of my strategy  
+like what bet sizings should I choose to make the 
+most money in a perfectly polarized toy game it's  
+always going to be betting geometrically and the 
+reason for that is that if you bet geometrically  
+your opponent is obligated to put the most money 
+in the pot like for example you can imagine that  
+we just ship all in on the Flop here our opponent 
+is allowed to fold quite a bit and we can imagine  
+maybe we go 10% pot 10% pot all in on the river 
+again we want to get the chips in but we want  
+to do it in a way that causes them to call down 
+as wide as possible and it turns out that if you  
+just take a look at the minimum defense frequency 
+over all streets Bing geometrically will cause the  
+to defend or obligates them to defend as wide 
+as possible that said you don't always want to  
+bet geometric sometimes there's competing 
+incentives to bet small or B a little bit  
+larger than geometric for more fold Equity but 
+what I like to do is just start with a simple  
+geometric calculator there's a formula uh we 
+have a whole blog about pot geometry and the  
+theory behind it but what I like to do is just 
+plug in I thought you have all these like random  
+R sheets of IDE like youve showed me youve show me 
+every time there's like a then there's like a more  
+impressive one down next one you show it's like oh 
+my God and there's like four tabs and it's it just  
+gives you I don't know it's a i I'd love me a good 
+spreadsheet Joey there I can tell like it inspires  
+me to make more spreadsheets I've been making 
+more but not when I see all yours I'm like man  
+what I like to do in any three bet pots is to do a 
+little bit of spr analysis so here for example the  
+starting pod is 92.5 or sorry 16.5 the stack is 
+92.5 and so we can calculate the stack tot ratio  
+16.5 2.5 and this will vary a bit depending on 
+sizing but uh essentially if we bet 65% pot on  
+all three streets we're going to get it in by the 
+river 2/3 is going to be the recommended big size  
+100 big lines deep now if we were deeper let's 
+say for example we are 200 Big L Steed You're  
+Gonna Want a bigger standard big you still want a 
+small size but your bigger size ought to be bigger  
+because now we're say 191 and 18 now your big 
+size is close to parts right and so this is how  
+I like to think about how to plan my bet sizes is 
+I generally want one small size and one geometric  
+size that's going to be especially powerful on 
+later streets like on the turn where you have  
+to start planning how do I get Stacks in uh and 
+so when I'm building my game tree what I'll often  
+do is I'll use those geometric sizes in order 
+to adjust to different spots so maybe I'll just  
+load one up here these are some parameters that 
+I've I've built and saved and so what I'm going  
+to do is I'm going to have in position have a 25% 
+small bet and a 3E geometric size big bet in that  
+other the turn instead of having 50 80 Etc I'll 
+have uh I'll just simplify to something like I  
+don't know 40% and 2E seems reasonable and then 
+on the river I don't want a bet size less than  
+half the pot in position one e is just all in 
+so I can create this solution and I can plug in  
+whatever flop I want take a look at the strategy 
+and it's going to automatically tell me what size  
+are preferable here so King Jack 7 especially 
+since we've reduced it down to one size we can  
+range bets a lot more let's go take a look at 
+like a low paired board something like this 886  
+886 is going to be pretty bad for us actually I 
+guess not I thought it would be worse for us to  
+be honest but betting big here you can see it's 
+it's one size but the size is dynamic right and  
+it's true for like that for the entire tree so at 
+every decision Point I've set it to simplify down  
+to one bet size and that bet size is automatically 
+generated the nice thing about this is that I can  
+take this tree and I can go practice against it 
+this has the added effect of teaching me what  
+bet sizes I should be using in different spots 
+allows me to customize my betting plan and once  
+like it'll automatically tell me what sizes to 
+use but then I can start actually practicing a  
+strategy for those sizes and so the the old adage 
+occurs clear that it's not so important what size  
+you use it's more important how you implement 
+that size so Joey here's our trainer now I know  
+you like multi-tabling so in the controls panel 
+you can choose between one and four simultaneous  
+tables if you want to multiable a bunch of spots 
+and get feedback about your play you can do it  
+here uh thought so far is that um I mean this 
+makes it a lot simpler right I mean a lot of a lot  
+of complaints people have is they they don't want 
+to memorize multiple sizes so you know to me this  
+makes things easier it's either going to about 25% 
+or you're going to bet like 70% so you basically  
+just have two sizes and then check I mean it 
+becomes a lot easier to to do right I mean you  
+know even here we already know you know top like 
+I already know all all these spots just from kind  
+of like right you know bet bet bet all of them you 
+know what I mean so it's kind of the those are all  
+pry interesting Joey says bet them all bet them 
+all he says bet bet they're all it's all it's all  
+GTO and this is where the trouble this is where 
+the trouble happens oh oh oh and here we're facing  
+check Rays bottom left with Aces but we have the 
+Spade obviously you can't fold this yet k comes  
+along so here here it's interesting because they 
+you know you wonder what they check rais you with  
+sometimes they check rais you here with like Ace 
+Queen Ace Jack like tens and nines and they're  
+very balanced when they check the turn the wizard 
+is so sometimes they're going to be checking here  
+with even Ace King and kings and I guess they 
+don't have Kings but they have Ace King offsuit  
+here sometimes too yeah yeah let's actually take 
+a look at that so what are they representing and  
+again I the way I open this is I click This Little 
+Light pul it's an info button and now what I can  
+do is I can just either jump to the solver or just 
+open this up in a new window and so now what I can  
+do is let me take a little peek at what they were 
+check raising me with so King 10 n King hand class  
+distributions well they've got a lot of boats 
+a lot of straits lot of trips so this is what  
+they're they're representing when they hit me 
+with this and then if I think I go over to the  
+draws yeah yeah lots of flush draws lots of combo 
+draws tons of gut shots and then of course if I  
+want to go study this spot in some more detail I 
+can hit this little hat bam open it up here we can  
+see like this is a hard this is a real hard spot 
+combo right here this this a this is a tough spot  
+from either either either way because once you 
+check race here with the with all those hands  
+and misss you're like oh my God what do I do now 
+like I know any no matter which spot I'm in here  
+on this turn I'm I'm like uh like Aces I'm like 
+check and prey I mean but then sometimes you might  
+want to bet so you know it's it's this is this is 
+a dicey I think at this spot they they're raising  
+so often and that's partially because we've we 
+put the BET sizing down like when you bet quarter  
+pot they are obligated to check raise you a lot 
+I I don't think people are hitting this I don't  
+think I don't I don't think like a recreational 
+is hitting this at all I don't think most people  
+are hitting this at all they're no no for sure for 
+sure people are not check raising this much no way  
+right um and so like but again we're basically 
+range betting anyway so typically the way You'  
+exploit someone who's not check racing enough is 
+you would just bet more bet wider but here we've  
+already kind of capped out and this is one of the 
+maybe drawbacks of a really small size is that you  
+don't have even more room to exploit you could 
+maybe start sizing up I guess but yeah anyway  
+on the turn like we already know that when they 
+check raise us their their range is too tight  
+but on the turn it's still getting tricky here 
+I think what's really gross and like I actually  
+don't mind fing another bed here but when they 
+check to me I I'm lost here Joy like check rate  
+and then check a three pot is is like a hard 
+line to to figure out to be honest yeah I mean  
+here here I'm probably like I I wouldn't just mind 
+just checking everything back and then you know if  
+the Spade misses I'm just going to Bluff catch the 
+river with most of my hands if they go all in then  
+I'm going flip a coin and make my decision if I 
+think they're bluffing me too much and if I don't  
+think they're the kind of person that's going 
+to be bluffing me too much here I'm just going  
+to fold if I think that they might be getting a 
+lot out of line here and over bluffing with some  
+hands and I'm going to click call and prey yep 
+you know I I don't think I don't think you can go  
+really wrong with that approach here and you can 
+maybe start to get more gusa build the turn Strat  
+like we're looking at here it says with trips and 
+you know maybe mixing some Queens I don't mind  
+like mixing mixing some of those hands and then 
+pray you don't get check raced again and then get  
+just check back on the river unless you have you 
+know trips are better even even trips are better  
+I mean you know king queen suited maybe but you 
+know if they're the type of person that's going  
+to have a potential nine or 10 here because we are 
+going to be turning hands into Bluffs we're going  
+to be turning Ace Queen into a bluff we're going 
+to be turning Ace Jack into a bluff we're going  
+to be turning our flush draws into Bluffs here so 
+we really do need to start to find some value in  
+my opinion otherwise if you know what I mean we 
+just we're not not balanced enough and you could  
+maybe you don't need to be balanced enough here 
+maybe just you know play it safe and check back  
+and kind of wait on the river but I think against 
+an aggressive player here I want to start putting  
+pressure on them I don't want them to get to 
+Showdown with a a nine you know their n98 and8  
+n 10 n you know stuff like that so I think one 
+of the tricky Parts about this spot is actually  
+finding the Bluffs because when they check raise 
+you you're already folding out a lot of your air  
+and so you have to start turning some of these 10x 
+and 9x hens uh with a draw into a glove yeah and I  
+don't I don't pick that up easy you know because 
+I'm like I'm just saying oh let me let me check  
+back let me get a free River card but I I wouldn't 
+even consider someone normally thinking about  
+bluffing with some of these combos but you really 
+got to get nasty here with your Combos and like  
+you kind of have to this is the this is what's you 
+got to take it to the streets to the river all in  
+yeah like you have to like blast off with some 
+of these hands that you wouldn't think on this  
+flop you got to go all in with but and you know 
+that that's when it get scary and but I feel like  
+that's where the best players are going to thrive 
+is they're going to be able to put you in that  
+position here yeah absolutely you got to be able 
+to do it you got to just be ready to blast off  
+especially when you're this deep I think studying 
+three bet pots check raises and three bet pots is  
+something most people don't do but it's a springly 
+common strategy I mean we're still pretty deep in  
+like a cut off versus button through bed P you're 
+deep enough that check race strategies are still  
+very very much a thing this is what this is 
+what you what you just told me was that this  
+is where the edges yeah yeah studying these these 
+weird spots especially like spots that are more  
+common than people know and spots where the pot is 
+typically bigger those two factors and again spots  
+where the population does not study that's where 
+you're GNA have a lot of edge assuming that you  
+don't have gaping holes in your game elsewhere 
+this is like a nice uh side path to to go down  
+to get become an experts in these I think one 
+thing thing to pay attention to here is maybe  
+we can find a good word for this but spots where 
+the aggressor shifts so where it goes from one  
+player to another in this case the Flop the outer 
+position play cut off becomes the the aggressor  
+and then on the turn in position retakes betting 
+lead here and so in swots like this where you've  
+kind of both had your ranges narrowed like we've 
+both faced a bet at this point both of you have  
+folded out a lot of your air and the bottom of 
+your range is now closer to very strong hands and  
+when your Bluffs are stronger when The Showdown 
+value is stronger you need to adjust your value  
+thresholds and you need to start turning some 
+M hands into Bluffs because you folded most of  
+the natural Bluffs on earlier Straits this one 
+this one's gonna be making people's head hurt  
+combos yeah I guess maybe just to simplify they 
+they these this is where when I start when I'm  
+when I'm coaching with you usually during the 
+session you start really blowing my mind start  
+crack cracking open ideas and all of a sudden the 
+like my body like starts lighting up and and this  
+is one of those spots where you where you're I'm 
+like I might I might have got a little let me let  
+me see if I can rephrase that thing is you you you 
+got like the deepest levels of this explanation  
+and um I know you're even you're simplifying 
+it for me so I you know we appreciate that I  
+appreciate that sometimes I can get a little bit 
+rambly Joey so no no that's what I I that's what  
+that's what I love I'm like you're you're getting 
+me excited you know you're like yeah you're right  
+like out of I position did take it I mean it's 
+pretty interesting spot I mean I don't know I  
+like this is real this is a real interesting spot 
+to me just to yeah this is a fun spot I guess  
+just in summary when you faced the BET and folded 
+your trash now you have to start turning stronger  
+hands into Bluffs because you already folded the 
+trash so now we have to start turning nine High 10  
+or you know second pair third pair Etc strong ace 
+high into Bluffs so keep in mind the the previous  
+action when you're thinking about Bluff selection 
+a lot of players will back their strong hands and  
+draws here but they might not be thinking about 
+turning pair of tens pair of nins into a bluff  
+as they should you're saying basically you always 
+got to be thinking about what the hands are going  
+to be turning into Bluff and on a check raise node 
+when theoretically you're going to be continuing  
+with a stronger range you have to start to get 
+creative and pick non-intuitive Bluff stat yes  
+under normal circumstances you would not say hey 
+I need to go all in with Queen n on King 109 but  
+in a check race spot you have to visually think 
+ahead with that part of your range to understand  
+that those hands are your Bluffs versus The Flop 
+you wouldn't see that all yeah it's my bluff right  
+three streets I'm in so you just got to be very 
+selective on understanding how the node shifts  
+your shifts your bluff Bluff threshold right 
+and like the value thresholds are easy enough  
+to understand on this front up trips plus betting 
+for Value makes sense but finding the right Bluffs  
+like a lot of players will neglect that part of 
+their game is like okay my range is tighter I got  
+to find new types of Bluffs that aren't intuitive 
+to me uh and then they end up massively under  
+bluffing stuff to pay attention to stuff like that 
+means you can fold yeah paying attention to some  
+earlier streets and thinking how the population 
+might be play play that spot Etc so did you have  
+any other questions for me while we're at it Joey 
+questions for you I mean listen I got I got a  
+million questions but I I guess my main takeaways 
+today's are you know just better identifying how  
+the 10 is that threshold card getting better at 
+identifying you know checking back more on those  
+low cards and kind of building that check strategy 
+I would say turn you know I think we covered some  
+pretty like interesting points I'd say to to 
+the river being able to once again kind of just  
+understand those Bluff spots I think that's going 
+to be the thing that I got to really focus on and  
+I think a lot of people got to focus on too so I'd 
+say for me that's the one street I'm going to put  
+a lot more thought into and just having a a better 
+personal understanding of why to be bluffing the  
+river with what hands outside of just like people 
+are over folding here so I've got a natural Bluff  
+because I have a big range Advantage you know like 
+we saw that King tenan where I saw the A6 a7s know  
+some of the other boards I would say the lower 
+boards where you size up flop and size up turn  
+like we saw that you saw dece 55 right 75 flop the 
+turn once again that's a big bet on the river you  
+know those textures to me are the ones where I'm 
+saying okay once I bet my Ace King once I bet my  
+Ace Queen like those are my natural Bluffs right 
+I'm blocking Aces I'm blocking Kings I'm blocking  
+Queens so just getting the proper understanding 
+in those spots but I'd say in general the spots  
+that we covered today you know a lot of great 
+information a lot to digest kind of go back  
+and and play around with and then come back with 
+different questions in my end amazing well Joey  
+it's been a pleasure studying with you today and 
+I'm really looking forward to the progress you're  
+going to be making in the near future here and 
+seeing your journey as you become a GTO wizard  
+oh yeah I'm I'm excited once again you know 
+shout out to GTO wizard for for the partnership  
+and obviously much love to you as always for all 
+the advice you you know you help me out so much  
+and I'm glad that you'll be able to help out the 
+legion the Le the fans out there are going to be  
+excited so yeah thanks a lot man I appreciate the 
+lot appreciate you preparing all this information  
+for me now I'm ready to [ __ ] battle you know 
+so uh so yeah I'm excited I'm hyped up it's my  
+honor Joey good luck in the streets man thank 
+you sir I appreciate I'll see you soon [Music]

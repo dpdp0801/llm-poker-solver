@@ -1,0 +1,454 @@
+### TOPIC: where does ev come from in poker
+where does expected value come from  
+in this video I'm going to show you how to 
+think ahead so you can get ahead in poker
+hey everyone before we start the video 
+we'd really appreciate it if you could  
+hit the like And subscribe buttons your support 
+means a lot to us thank you and enjoy the video  
+so where does expected value come from this is 
+the most important question you can ask yourself  
+in poker if you don't understand how your hand 
+makes money then how do you expect to make money  
+with your hand right it's a very simple yet 
+deceivingly complex question and we're going  
+to tackle it today so first of all why is this 
+important well consider this the expected value  
+of early Street actions depends heavily on how you 
+play Future streets that is to say you know maybe  
+it's a an indifferent pre-flop decision but if 
+you're butchering it on turn and River well it's  
+no longer a zero EV call now is it future mistakes 
+May well cost you more value than the recommended  
+earlier Street action is predicted to earn you 
+in theory right like some hens you're expected  
+to find these counter-intuitive Bluffs or very 
+thin calls or thin value bets lays that you might  
+have trouble finding but if you don't find those 
+plays then are these hens actually going to pay  
+off as much as the solver says they will for more 
+information about this I reckon recommend reading  
+this counter-intuitive calls article by Andrew 
+brocos it's fantastic Link in the description  
+this has inspired my video today so we'll start 
+with a simple outline first of all we've chatted  
+about why this is important now we're going to 
+look at Redline versus Blue Line analysis and  
+then I'll show you a few simple techniques I'm 
+going to use a combination of run out analysis  
+as well as just some basic look ahead techniques 
+to show you how you can think about where your  
+hands value actually comes from expected value 
+in poker can be categorized as coming from one  
+of two sources blue line which is money won 
+or lost that Showdown or Redline which is  
+money won or lost before Showdown those are the 
+only two ways to win in poker right so which of  
+these two is more important should you be 
+a blue line knit or a Redline Maniac well  
+ultimately it's the green line that matters but 
+this has been a common question since well since  
+Huds came have come out so let's try and give it 
+a definitive answer today we're going to start  
+with a baseline six GTO Bots play a reckless game 
+for millions and millions of hands they're all  
+rotating seats they all play the same strategy 
+so what's the end result if you take a look at  
+any one of their graphs would their blue line 
+be higher than the red line would the red line  
+be higher than the blue line or would the lines 
+be the same take a moment to consider your answer
+foreign
+ly the answer is a the Blue Line would be higher 
+than the red line why is this well the answer is  
+that it's a multi-weight game there are six of 
+them playing in a six Max game If This Were heads  
+up these two lines would be the same because well 
+they're playing the same strategy but multi-way is  
+not quite the same as heads up now is it let's 
+take a look at this graph this was sent in by  
+my dear colleague Matt Roberts what he did is he 
+ran just an ungodly amount of pile Sims and then  
+using custom Code E exported those hands into 
+hand to note which is a hand tracker and showed  
+what the win rate for a GTO bot would be playing 
+against other GTO Bots and as you can see the Blue  
+Line the money one at Showdown is much greater 
+than the red line You'll also notice a few other  
+things about this graph one is that it's not quite 
+at zero I think this is because there's a little  
+bit of rake included the other is that it's it's 
+very patchy and this is because the Sims were run  
+as reports and then shipped out in batches but 
+it's very interesting to see just how much more  
+the blue line is than the red line now let's ask 
+some simple questions Showdown versus non-showdown  
+winnings we need to ask how one can transfer 
+from one to the other now Blue Line cannot be  
+transferred to redline without mistakes however 
+Redline can be transferred to Blue Line without  
+mistakes and this is the key difference any 
+two set of strategies as long as everybody at  
+the table is playing the same strategy doesn't 
+even have to be GTO the blue line should always  
+be higher than the red line unless you're playing 
+you know some absurd rake structure and this for  
+the simple fact that you're going to steal the 
+blinds a lot right so for example button opens  
+small blindfolds big blind calls the button in 
+the big blind go to Showdown and the button wins  
+at Showdown we have just provided a very simple 
+and very common path for the red line to go to the  
+Blue Line multi-way pots allow this transfer from 
+red to blue very simply however there is no path  
+from Blue to Red unless some player is making 
+a mistake unless players are playing different  
+strategies there's no way to go from Blue to 
+Red not when you average it out over the long  
+term that is to say playing the same strategy in 
+every spot in every position there's no way to go  
+from Blue to red but there is a way to go from 
+red to blue just due to multi-weight Dynamics  
+okay so why am I telling you this well we now 
+know that in a GTO solution in a multi-way game  
+GTO Bots will have a blue line win rate right 
+most of their weddings will come from Showdown  
+value and this is just due to the fact that 
+the blinds cost them a lot of money to keep  
+folding right this is to be expected now does this 
+mean that everyone should be a blue line player  
+absolutely not no that's not what I'm saying there 
+are plenty of Crushers out there who are Redline  
+winners these are guys that they take it down in 
+a lot of spots they pick their spots wisely they  
+know in the population's over under bluffing 
+there's plenty of Redline Warriors out there  
+and similarly there's plenty of very strong Blue 
+Line players out there I think most people playing  
+micro to low stakes pretty much all the winners at 
+that stake are going to have a very high Blue Line  
+reason I'm telling you this is because we need 
+a baseline from which to adjust from if you're  
+playing six Max poker and you see a Redline player 
+they're typically doing something special because  
+this doesn't occur if everyone's playing the same 
+strategy right it all right let's set aside the  
+theoretical implications of red versus blue line 
+it's a really interesting topic but it's not what  
+I want to focus on today I want to give you more 
+practical advice in general we want to know where  
+EV comes from and to do this you must examine 
+future streets can't understand how your hand  
+derives money unless you look ahead I'm going 
+to show you a few simple techniques for looking  
+ahead to understand where that EV comes from I'm 
+going to teach you a simple technique you can use  
+to visualize how your hand makes money step one 
+choose one hand focus on step two is to graph that  
+hand's expected value across different turn cards 
+step three is to compare how the expected value of  
+that hand changes across different turns to how 
+the strategy changes so what turns does our hand  
+make the most money and what turns are we being 
+the most aggressive and you'll find that those  
+two do not always coincide lastly we're going to 
+investigate Rivers whenever we run into something  
+kind of weird or counterintuitive so the purpose 
+of this method is to start on the Flop and look  
+at head to Future streets in order to understand 
+where our value comes from all right that's enough  
+talk it'll become more clear with an example let's 
+open GTA Wizard and see how the solver applies  
+these concepts for the first example I've chosen a 
+button versus big blind King 852 tone flop checks  
+to us on the button and we have a fairly mixed 
+strategy here so again the way this works is we're  
+going to focus on one particular hand and hence 
+I want to focus on are three three what sticks  
+out to me about three three are that we're betting 
+three three with a club not so much without a club  
+now why is that it could it be because we blocked 
+flash draws or potentially maybe we have cleaner  
+outs maybe it's because we can at a club turn 
+and then we have a chance to hit a backdoor  
+flush draw well let's find out which of these 
+factors actually matters we'll start with the  
+blocker hypothesis you go to the ranges tab you 
+can see how many combinations each player has  
+we're looking at 500 combinations in the buttons 
+range 350 in the big lines the ranges are far too  
+wide here for these blocker effects to have any 
+real meaning you block maybe six combinations  
+of flush draws it really doesn't matter at this 
+point ranges are too wide right maybe it becomes  
+important later probably not that much blockers 
+matter when ranges are tight because then they  
+have the most effect in terms of card removed 
+when Rangers are wide blockers don't matter them  
+okay so if it's not blockers maybe it's to do 
+with our hand hits turns and rivers back door  
+flush draws or cleaner outs for example so the 
+way to test this is we're gonna bet get called  
+and open up turn reports so here I'm just going to 
+select reports and we're going to apply a filter  
+okay I'm going to select three 
+of clubs three of diamonds  
+and I want to look at the buttons expected value 
+with three of clubs three of diamonds so you  
+can look at one player or the other or both at 
+the same time I'm just going to look at button  
+and you know what let's just go ahead and sort 
+this by isdv to lowest D so here on on the left  
+hand side I'm looking at the expected value of 
+button when they hold pocket threes across all  
+of these different turn cards and obviously you 
+know hitting that beautiful beautiful two outer  
+is going to be the highest EV followed 
+only by hitting a backdoor flush draw  
+so here's the thing what happens if instead of 
+three of Clubs we have for example let's say three  
+of Hearts three of diamonds so we don't have that 
+club anymore no more backdoor flush draws uh well  
+let's see what happens well notice the most 
+interesting change is well first of all these  
+clubs are now very bad for us but second of all 
+look at what happens to our two major outs three  
+we just lost half our value on the three of clubs 
+turn I know it's weird to think of a pocket pair  
+as a draw but realistically an enormous chunk of 
+your value with this hand just comes from hitting  
+that two outer right so when one of our outs 
+is poisoned in this case hitting our set also  
+completes our opponent's flush draws that's 
+going to severely detract from how much value  
+we can get from this and so that's why if we go 
+back to the flop yeah you can see why the silver  
+is more inclined to build a pot with the types 
+of hens that when they actually hit a big hand  
+and play for Stacks right let's do something else 
+here I'm going to change this to horizontal View  
+and all this does is it shows each combination 
+separately and I'm going to focus on in particular  
+pocket pairs so I want to look at these low pairs 
+maybe these under pairs Maybe these third pairs  
+so let's take a look at some of these now you 
+may be a little confused as to how to read this  
+the combinations in red here on the right hand 
+side these have a club as shown down here left  
+hand side do not have a club so we'll notice that 
+all of these pocket pairs seem to prefer to bet  
+with a club and it's the same heuristic right some 
+of them have more or less blocker properties some  
+of them have stronger back door flush draws but 
+the analysis is the same the biggest Reason by far  
+is just that you have cleaner outs to a set the 
+second biggest reason is having a backdoor flush  
+Trail now how much this impacts you is largely 
+dependent on how deep stacked you are if you're  
+200 Big lines deep well the back door flush for 
+Equity might actually become more valuable not by  
+itself but in aggregate across all turns anyway 
+that's just a simple example of how you can use  
+simple run out analysis to understand where your 
+hands value comes from and why the silver might  
+prefer putting certain cards in some lines in 
+certain cards in other lines okay for our second  
+example I have chosen a cut off versus big blind 
+single race pot King 76 rainbow checks the cutoff  
+who bets half pot and this is a reasonable size we 
+can see that they're doing this with good portion  
+of their range actions on us in the big blind 
+now again for this technique to work you really  
+need to focus in on one card before you try and 
+extrapolate anything and I've chosen Ace 8 suited  
+why have I chosen this hand well because it's kind 
+of interesting it's check raising almost half the  
+time here right so how does a state of diamonds 
+actually make money through a check race line  
+let's take a look so we'll raise cut off calls 
+and let's go take a look at these turn reports  
+now again what you want to do is Select expected 
+value this is big blind's expected value and  
+filter for the hand that you want to mess with 
+okay and you know what let's simplify this further  
+for a second I'm going to sort by cards here so 
+this represents all the two turns three turns four  
+turns five turns and so on and we can see that 
+some cards have greater EV obviously hitting an  
+ace is fantastic we just made top pair we just out 
+Drew villain stop pair what about an eight though  
+we check raise a state Suited we hit an eight no 
+this is one of the worst possible turns for us we  
+would rather have a brick the reason is that we 
+didn't check raise this hand try and make second  
+pair we didn't check raise an a to try and hit it 
+eight we check raised it because we wanted to hit  
+a draw we wanted to hit an open Ender a gut shot 
+we wanted to hit for example a backdoor flush draw
+these are where our hand actually makes money  
+actor flush draws turns that give us some 
+straight draw potential or hitting an ace when  
+you check raise you're essentially saying to your 
+opponent that you are wanting to play for Stacks  
+you're representing a very polarized range that's 
+ready to play aggressively on a lot of runouts so  
+you don't really want to flop a bunch of medium 
+strength ads here all right let's take a look at  
+Aces here we check raise we hit Top 
+pair what does our strategy look like  
+well notice that we're mostly just checking on an 
+ace right this is the highest EV turn card for us  
+and yet we're mostly just checking this is an 
+important thing to keep in mind the highest  
+EV turn card is not the one you should be the 
+most aggressive on the ones you should be the  
+most aggressive on in a check race line anyway 
+are the boards where you can build a pot are  
+the boards for you and potentially brought to the 
+nuts and out draw the top of your opponents range  
+backdoor diamonds backdoor straights and such 
+so it's important to recognize where this EV  
+comes from before you start playing a check raise 
+with Ace 8 because if you don't know what cards  
+you're supposed to barrel with if you don't 
+understand the idea that you're playing for  
+a polarized Equity well then you probably don't 
+really understand how to play this spot and if  
+you check raise it anyway you're just gonna 
+set money on fire right so this is why it's  
+really important to think about how does my hand 
+generate money now we can extrapolate this further  
+for example take a look at ace5 here this one's 
+Check Racing a bunch seems like a weird check  
+raise but I guarantee you it's the same heuristic 
+check raising here because the 5 connects with the  
+six and the Seven because the Spade connects with 
+the King of Spades so you can hit that backdoor  
+flush draw those backdoor straight draws and 
+you're going to see this heuristic come up a ton  
+right so anyway hopefully that makes sense for 
+this next example I've chosen a button versus  
+big blind single race pod on Ace 76 rainbow 
+checks to us on the button and we've got an  
+interesting mixed strategy going on now one 
+hand that sticks out to me in particular is  
+king queen both off suit and suited you notice 
+that these King X hands are checking back a lot  
+is that well first of all you know it's a medium 
+strength hand but there's more to it than that  
+what happens if we bet I think a lot of players 
+just by habit would range bet this board but what  
+does king queen actually came by betting uh well 
+first of all you fold out a whole lot of these  
+King X and queen X hands and I would ask the 
+viewer is this a good thing do you want to fold  
+out these hands probably not right why do you want 
+to fold out the very hands you dominate imagine  
+you hit a king or a queen you can extract value 
+from these hands secondly you just hard block the  
+folding range so you don't get nearly enough fold 
+Equity but okay let's challenge this assumption  
+what happens if we check back how does our hand 
+actually make money in the checking line so what  
+I'm going to do is I'm going to select a button 
+check and again we're going to go to turn reports  
+so I'll say big blind checks and again let's 
+apply a filter for let's say King Queen of Clubs  
+no back door plus draw equity on King Queen 
+of Clubs okay so here I'm showing the expected  
+value of the button across all the turn cards and 
+obviously you know a king or a queen are going to  
+be high and stuff that gives us a draw like a 
+tenora jack also decent cards something else to  
+realize is that a six or seven any board pairing 
+card actually pretty good for king queen and  
+the reason for this is simply than you might 
+imagine it's just that we were already beaten  
+by a six a seven or an ace so when that pairs 
+it just reduces the amount of combinations  
+our opponent can have and doesn't add an extra 
+board card that our opponent can connect with  
+so we reduce the number of combos that already 
+beat us and don't add any more cards that can  
+potentially now beat us so board pairing cards 
+for all completing cards or Draw giving cards  
+obviously a king or a queen and some bricks at 
+the bottom now what cards do we really hate to see  
+stuff that adds more draws or connects with the 
+middle of the range so a four a five eight or  
+nine all of these cards connect with this seven 
+and the six uh which is going to benefit big  
+blinds range quite a bit and these are not the 
+type of cards we want so these are the lowest EV  
+cards okay let's compare this to the strategy 
+so I want you guys to take a moment and think  
+do you think we bet more on a king a queen 
+or some other card which turn card should  
+we delay C bet the most often take a moment to 
+consider your answer king queen or something else  
+let's take a look at the strategy again 
+I'm filtering for King Queen of Clubs here  
+on the turn the answer is a jack we Barrel 
+most often on a jack right and this is because  
+okay yeah we're barreling on a king but it's like 
+a really small size we're you know over betting on  
+a jack a lot more money goes in on some of these 
+draw completing cards so tenor Jack comes in these  
+are the type of turns that give us polarized 
+Equity these are the type of turn cards that  
+mean we now have the option to start playing for 
+big Stacks we can't do that on for example a queen  
+or King because we have second pair you don't 
+play for Stacks with second pair right maybe you  
+can bet for thin value but you certainly don't 
+over bet so the highest Eevee turn card is not  
+the turn card that you want to bet most often okay 
+so you might be asking yourself given that we're  
+checking back the turn 95 of the time what was 
+the point of checking flop well now we need to  
+examine this a bit more deeply let's choose a 
+brick just for fairness sake I'm going to select  
+this card this is uh the deuce of whatever 
+the deuce of brick and you can see here that  
+big blind they're gonna check a lot on most turn 
+cards checks to us and we could see king queen  
+is peer checking right so we're not checking 
+we're pure checking flop for Pure checking  
+turn how does our hand actually make money then 
+let's just go to some random River Card eight  
+is not a great card for us by the way I chose 
+that at random let's say that it checks to us
+we're checking down in Queen is a fine hand 
+checkdown right fifty percent equity here what  
+are you talking about that's great and let's 
+say that for example we Face a block bet king  
+queen is now indifferent but we can still Bluff 
+catch okay what happens on for example a queen
+so let's say it's a queen it checks 
+we can now go for some Thin value  
+with our king queen suited and what 
+happens for example if we now face  
+some bad sales I'm going to choose 73 here well 
+now we can pick off a bunch of Bluffs right  
+so king queen is going to generate most of its 
+money by just checking down to be honest then  
+the vast majority of lines can queen off 
+suit on this type of board will check down  
+so why did we want to check 
+back the flop in the first place  
+it's because there's already an ace on the board 
+when we bet we're not folding an ace there's no  
+other over cards to fold out right so what was 
+the purpose of trying to bet a hand like king  
+queen suited other than to fold out hands you 
+already Dominate and get called by better right  
+instead take this medium strength hand and check 
+it down and the way we discovered that was through  
+simple turn reports all right that was a lot to 
+take in but hopefully you guys got something from  
+it if you have any questions or need something 
+clarified please feel free to ask questions in  
+our Discord server Link in the description it's a 
+great community and a great place to ask questions  
+anyway that's my video guys hope you enjoyed it 
+thanks for watching and as always happy grinding

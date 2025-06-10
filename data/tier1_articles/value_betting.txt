@@ -1,0 +1,36 @@
+### TOPIC: value betting
+Reasons for value betting in poker
+
+Sources of Value
+You’re probably accustomed to thinking of bets as either value or bluff. In this taxonomy, value bets are hands whose value comes from getting called, and bluffs are those whose value comes from getting folds. There are also semi-bluffs, hands that bet to make better hands fold but also have a substantial chance of improving to a winning hand. And there are thin value or protection bets, modest made hands that do reasonably well when called and also benefit from causing live equity to fold.
+While this terminology can be useful, these categories are ultimately human inventions designed to help our puny brains simplify the true spectrum of value. It is more accurate to say bets derive their value from some combination of the following sources:
+Growing the pot – Value derived from winning the pot if the bet is called (or raised). The most important measure of this value is how much equity a hand has against the opponent’s calling range, but as we will see, there are other considerations.
+Denying value – Value derived from causing other players to fold. The most important measure here is how much equity the bet causes to fold, but again, this is not the only consideration.
+All bets derive their value from some combination of growing a pot they are likely to win and denying value to opponents.
+
+Simple Examples
+Let’s take a look at a simple cash game scenario. This is a single raised pot, BTN vs BB, 100BB deep:
+After BB checks their entire range, the BTN mostly chooses between a large bet or a check. For our purposes, we’ll look exclusively at the 125% pot bet, which is the most commonly used option. As is usually the case with a large bet size, the BTN employs a fairly polar betting range, preferring to bet mostly very strong and very weak hands and check many medium-strength hands.
+The chart below shows a few example hands from BTN’s range along with how often they bet and what value they derive from the 125% pot bet:
+AK is a straightforward value bet; almost all its value comes from calls. It gains only 6% of the pot in equity when BB folds, but with 84% equity against BB’s calling range, it earns a very nice return on every dollar that goes into the pot.
+At the opposite end of the spectrum, 9♣6♣ is a virtually pure bluff. It does terribly when called, retaining only 8% equity, but it can cause the Villain to fold 74% equity.
+In between the two are some semi-bluffs like 9♥6♥, which derive their equity from both sources. 9h 6h has 36% equity against BB’s calling range, so it’s not as pure a bluff as 9♣6♣, but it still folds hands that have, on average, 46% equity against it.
+Pocket 22s lies somewhere between a semi-bluff and a pure bluff: it gains more from folds than the flush draw but has better equity when called than the pure bluff.
+The nut flush draw, on the other hand, is much closer to a pure value bet, though it’s thinner than AK. A♥4♥ gains very little from folds, but, between the chance of already having the best hand and the chance of improving to a flush or even two pair, it has a respectable 73% equity when called.
+BTN doesn’t bet QQ at all because it cannot derive significant value from either calls or folds. Hands that fold don’t have much chance of drawing out anyway, and hands that call are mostly better pairs which QQ does poorly against. Some players are reluctant to check QQ in spots like this for fear of getting bluffed, which is a reasonable concern. However, it’s essential to understand that the reason to check QQ is not so much that checking is an appealing option as it is that betting is even less appealing. This is simply a lousy flop for QQ, and checking is the least bad option.
+
+A Complicated Example
+Not all BTN’s bets map so intuitively onto this spectrum. Q♥9♠ is a high-frequency bluff, for example, despite having only 12% equity when called. It gains far less from folds (only 52% equity) compared to other bluffs like 9♣ 6♣. So what makes it such an appealing bluff?
+Here’s a hint: not all combinations of Q9 are candidates for betting. BTN only bets with a heart, and even then, they bet Q♥9x more frequently than Qx9♥. Some of this is a blocking effect–BB never folds Q♥X♥, so knowing the Q♥ is not in her hand increases the likelihood she will fold – but that’s not all there is to it. Note that the EV of betting Q♥9♠ is much higher than the EV of betting Q♣9♦, even though they have similar equity when called.
+To understand why we must understand the benefits of growing the pot. The BTN benefits from making the pot larger if they are likely to win it. Equity is a rough approximation of what it means to be likely to win, but it only considers wins that result from the hand going to showdown. The other way for the BTN to win is by successfully bluffing on a subsequent street.
+Showdown equity is only a rough approximation of how likely you are to win the pot.
+Take a look at BTN’s barreling strategy with Q♥9♠ across all possible turns:
+Note that betting again is appealing if BTN turns a draw. Of course, this reflects potentially improving to a straight or flush, but even on many blank rivers, this hand can continue to bluff. Once three hearts are on the board, the Q♥ is a powerful blocker. Anticipating this possibility, BTN can start bluffing with it as early as the flop, even though it has poor equity when called. Getting called is not as bad as it seems because this hand will not have to rely on its equity at showdown on many runouts. It will be a strong candidate for bluffing at a large pot, and that EV is built into the flop bet.
+Something similar is going on with AK and A♥4♥: these hands benefit from growing the pot not only because they have good equity when called but because they anticipate value betting many turns and rivers as well. This is why they have EVs greater than their pot equity.
+BTN has less incentive to bet immediately with weaker Aces. A hand like A8o will value bet eventually, but growing the pot immediately is not crucial because they’re unlikely to bet all three streets. Furthermore, they may make more from bluff-catching turns or rivers. They can pot control on the flop without missing value later on.
+
+Conclusion
+Poker is complicated. Fold equity and showdown equity are appealing metrics because they are simple and precisely calculable, but this is also their limitation. The actual value of betting on early streets depends not only on how it changes the immediate equities but on the opportunities it creates for later street play.
+Flopping well or holding a likely best hand does not oblige you to bet. Nor does holding a very weak hand on a flop that favors your range. You will want to bet these hands eventually, but it does not have to happen on the flop.
+The heuristic to take away here is that when you can anticipate continuing to bet, whether for value or as a bluff, on later streets, you have additional incentive to bet the current street. If you are not likely to bet multiple streets, there is more reason to start with a check.
+When you can anticipate continuing to bet, whether for value or as a bluff, on later streets, you have additional incentive to bet the current street.

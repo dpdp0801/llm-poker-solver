@@ -1,0 +1,274 @@
+### TOPIC: the fundamentals of gto poker
+if you're intrigued by poker you probably 
+come across this term GTO a game theory  
+optimal strategy touted as the ultimate unbeatable 
+playing style but what exactly is a GTO strategy  
+in poker what does that actually mean and how 
+are these strategies generated what makes them  
+unexploitable what makes them so good do they work 
+against opponents that aren't also playing GTO and  
+how does GTO actually generate money in poker 
+we'll cover all this and More in today's video
+first of all what is a game theory optimal 
+strategy GTO is defined as being unexploitable  
+meaning your opponents can take advantage of 
+any mistakes that you're making it's defined  
+as the best possible strategy against the perfect 
+opponent so if you can imagine that you're playing  
+against someone who knows how you play your 
+range in every spots on every board and will  
+perfectly adapt to counter any of your mistakes 
+the best possible strategy against that player is  
+GTO it's defined as being in a Nash equilibrium 
+a state of balance and we'll talk about that in  
+just a minute at its core GTO is a defensive 
+strategy designed to minimize your leaks it's  
+the most robust playing style as it can perform 
+well against Maniacs nits calling stations you  
+name it the goal of any poker strategy is the same 
+maximize your profit GTO is just a scientific way  
+to achieve that to understand GTO we must first 
+understand the concept of Nash equilibrium this  
+is a state where no player can do better by 
+unilaterally changing their strategy let that  
+definition sink in for a moment what this means 
+is that if you're playing against GTO players you  
+have no incentive to play anything but GTO and 
+if everybody is playing GTO well no one has any  
+incentive to change what they're doing they've 
+already made as much money as they can in the  
+spot and any change to their strategy would 
+be detrimental this is where the term balance  
+comes from and this is why GTO is such a powerful 
+strategy that's all good and well but how exactly  
+are GTO strategies generated well we use software 
+called solvers and solvers are basically just EV  
+maximizing algorithms that is to say given a set 
+of strategies it can calculate how much money each  
+strategy will make it knows how much money every 
+hand will make in every spot at every decision  
+point so given all this information here's our 
+recipe to achieve GTO first of all we're going  
+to start with two players player a and player 
+B initially using completely random strategies  
+then we're going to fix player A's strategy by 
+fix I mean lock it in place prevent player a  
+from changing and then we're going to let player 
+B exploit them or find a higher EV strategy next  
+we're going to fix player B's new strategy and let 
+player a exploit them and then we're going to fix  
+player A's new strategy and let player B exploit 
+them we go back and forth and back and forth  
+iterating thousands of times until neither player 
+can do any better we repeat this process until we  
+achieve Nash equilibrium this is something of an 
+oversimplification there are other implementations  
+or recipes if you will to achieve GTO but all of 
+them involve pitting eveve maximizing algorithms  
+against each other until no one can improve 
+further this process of repeated exploitation  
+is what makes GTO unexploitable at some point 
+neither player can improve their strategy and  
+that point is Nash equilibrium and so this goes to 
+show that the most exploitative strategy against  
+GTO is GTO throughout this video we've been using 
+terms like equilibrium and exploitative but before  
+we go further we really need to break down what 
+that means an equilibrium strategy is at its  
+heart defensive it's the optimal strategy without 
+information on your opponents and defined as a  
+Nash equilibrium balance strategy that minimizes 
+the risk of exploitation an exploitative strategy  
+on the other hand is offensive it's the optimal 
+strategy with information about your how your  
+opponents play and it is imbalanced this type 
+of strategy can maximize profit by capitalizing  
+on your opponent's mistakes but it carries a risk 
+of counter exploitation meaning it might backfire  
+now that you understand how GTO works we need to 
+address one of the most common myths surrounding  
+this topic does it work against non- GTO opponents 
+this is a very important question because all  
+of your opponents are imbalanced no human can 
+actually play Perfect GTO so this needs to be  
+able to actually make money against imbalanced 
+opposition recall the definition of Nash  
+equilibrium a state where no player can do better 
+by unilaterally changing their strategy if you're  
+playing GTO your opponent's best response their 
+optimal counter their maximum EV strategy against  
+what you're doing is to play GTO themselves but 
+since they're not doing that they're imbalanced  
+they're leaving money on the table therefore 
+by the very definition of Nash equilibrium a  
+GTO strategy will always outperform an imbalanced 
+strategy in the long run heads up to really drive  
+this point home let's take a look at a heads up 
+cach game you will open 2.5x in position here's  
+Big blind's GTO response all of these hands in 
+red are supposed to be three betting raising to  
+10 big blinds but let's imagine for a moment that 
+the big blind is some massive knit and they only  
+ever raise Ace Ace now this is obviously not a 
+great strategy but let's imagine that you in the  
+small blind don't adapt you are just playing a 
+fixed GTO strategy you're going to respond as  
+if they were raising all of those hands they were 
+in the last thing and you're going to play Future  
+streets as if they were had a GTO range you may 
+be tempted to think to yourself that hey wait a  
+second aren't we going to get destroyed as the 
+small blind GTO player here aren't we just going  
+to get completely value owned and I would say you 
+need to reverse your perspective to understand  
+why this is not the case here I've taken a look at 
+the strategy plus EV of the original GTO strategy  
+let's examine ASAS by raising to 10 it makes 12.9 
+big blinds that's the value of three betting this  
+hand now question to you does ASAS make more money 
+if it's the only hand that's three [Music] betting  
+the answer is no it makes exactly the same amount 
+of money because you haven't changed your strategy  
+think about it this is how much money you can make 
+against GTO you're still playing GTO so it can't  
+make more money against you right even if it's the 
+only hand in range it's still making exactly the  
+same amount that's the best it can do what about 
+all of these other hands what about King King well  
+king king would have made way more money three 
+betting than calling but in our hypothetical it's  
+calling it's leaving money on the table losing 
+about four big blinds what about Ace King suited  
+again leaving money on the table this hand would 
+much rather three bet than call in fact we can use  
+the compare EV function to get a nice graphic here 
+I'm going to compare the expected value of call in  
+against raising and filter for the raised hands 
+everything in red here would rather three bet  
+than call you can see the call loses money hence 
+these hands are red meaning that these hands would  
+rather raise so Queens for example would make 
+8.32 big blinds with ar raise 5.52 as a call  
+in summary what this means is that ASAS is making 
+exactly the same amount of money no more despite  
+the fact that you're just treating it like a GTO 
+player you're not adapting and every one of these  
+other hands in red is losing money because they're 
+calling instead of three betting so going back to  
+this that's why this strategy is obviously not 
+crushing GTO in fact it's losing a huge amount  
+of money even against the player that's blindly 
+playing GTO now we can imagine that if small  
+blind is sharp they'll notice that big blind 
+is a complete nit and they can further adjust  
+their strategy by obviously folding to arrays 
+and this in turn has the effect of decreasing  
+the expected value of Asa significantly further 
+lowering big Line's value obviously this is not a  
+good strategy and this is why you shouldn't be 
+afraid of things like oh my opponent is doing  
+this and that there is a minimum EV guarantee in 
+place that said against an imbalanced opponent the  
+optimal strategy with that information is to play 
+exploitatively to take on some risk in order to  
+punish their mistakes however this always carries 
+some risk it might backfire you need to know what  
+they're doing and you need to know how to adjust 
+to exploit that and if you're wrong if they  
+counter you either accidentally or intentionally 
+you will lose more money than you stood to gain  
+with the initial exploit that said the counter 
+exploit always gains exponentially more than the  
+initial exploit speaking as a poker coach a lot 
+of players who tout themselves as exploitative  
+players realistically they only look at I think 
+my opponent's too value heavy or not value heavy  
+enough true exploitative analysis is far more 
+complex than studying GTO by like an order of  
+magnitude it involves heavy use of Statistics 
+it involves Mass data analysis node locking  
+plugging this in into solvers setting incentives 
+there's a whole science to it that I'm not going  
+to cover in this video but take it from me that 
+true exploitative analysis goes very deep and  
+most people haven't even scratched the surface 
+this is where the draw of a balanc strategy  
+comes into play you don't need any reads with a 
+Balan GTO strategy you just need to try and play  
+approximate GTL and this carries a certain minimum 
+guarantee that is to say regardless of how your  
+opponents are playing you're guaranteed to make 
+at least this much if not more let's talk a bit  
+more about this minimum EV guarantee one of the 
+most alluring aspects of playing a GTO strategy  
+is that it guarantees a certain minimum expected 
+value what this means is that if you're playing  
+GTO you'll win at least this much money or more in 
+the long run the best your opponents can do is to  
+play GTO themselves and give you your minimum EV 
+but if they're not playing GTO and recall no one  
+actually is then they're making mistakes and your 
+expected value increases this is the Allure of  
+playing a GTO strategy however there is a caveat 
+to this this specifically applies to heads up  
+pots in Zero Sum games this guarantee does not 
+exist in multi-way pots in fact no strategy is  
+unexploitable in a multi-way pot because two 
+or more people can simultaneously change their  
+strategy finally let's discuss how GTO actually 
+generates profit this was a subject that was  
+filled with misconceptions up until previous years 
+and I think it's only recently that people have  
+started to truly understand this topic you see 
+there are two types of mistakes in poker mixing  
+mistakes and pure mistakes a mixing mistake means 
+that you're taking the appropriate actions but  
+you're not doing it with the correct frequencies 
+for example if a GTO strategy says you should call  
+half the time fold half the time but you're always 
+folding that's a mixing mistake conversely a pure  
+mistake is one that you should not be taking 
+at any frequency so if the GTO strategy says  
+you should always call this hand but you're always 
+folding well now you're actually losing EV take a  
+look at this spot we're in the big blind facing a 
+third pot CED from the small blind board is Queen  
+Jack 5 and we have a gutshot now you can see that 
+the GTO strategy here wants to call 97% of the  
+time and we can see that it's plus EV this gains 
+0.34 big blinds or 34 big blinds per 100 if we  
+were to fold this hand in this spot we're leaving 
+34 big blinds per 100 on the table this is where  
+the GTO strategy makes money when the opponents 
+fold hands like 98 here and make a pure mistake  
+however we can also see that raising seven or 
+raising 12 turning this hand into a bluff is  
+playable at a low frequency about 3% of the time 
+the GTO strategy wants to raise this hand and this  
+makes about as much money as calling would however 
+if you were to always raise this hand then your  
+rays might be too bluffy and that is exploitable 
+now the GTO strategy won't necessarily make money  
+against that however an Adaptive opponent might 
+notice that your bluff raising too much and adjust  
+their strategy to exploit you in summary a mixing 
+mistake involves using the incorrect frequencies  
+GTO does not gain against mixing mistakes and 
+a mixing mistake will only lose value if the  
+opponent exploits it conversely a pure mistake 
+means the take an action that strictly loses EV  
+against your opponent's strategy GTO gains versus 
+p mistakes so the answer to how GTO makes money  
+is that the GTO player gains any time the opponent 
+makes a pure mistake Game Theory optimal poker is  
+a vast topic I'm going to link several articles 
+in the description of this video if you want to  
+learn more about Nash equilibrium in poker we 
+have an extensive blog outlining everything you  
+need to know if you have any questions or need 
+something clarified feel free to ask questions  
+in our Discord server or leave a comment on this 
+YouTube video anyway that's all for now I hope you  
+you guys enjoyed this I hope you got something 
+out of it and as always thanks for [Music]
+watching

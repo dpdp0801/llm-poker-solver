@@ -1,0 +1,577 @@
+### TOPIC: fundamental preflop theory
+hello wizards today we're going to
+discuss the fundamentals of pre-flop
+theory we're going to start with some
+basics range morphology the shapes of
+ranges and whatnot and then we're going
+to move on to some more advanced stuff
+for example we'll answer should you open
+larger or smaller in early position and
+why and how you can adapt your sizing
+strategy and your range construction to
+different metas stick around to the end
+and i think you'll get something out of
+this
+okay let's start with some basics the
+fundamentals of morphology now what on
+earth is a morphology ah it's just a
+fancy word for the study of shapes in
+poker morphology refers to the shape of
+your range and instead of thinking about
+each and every combination in range it's
+often much more efficient to just try
+and get a sense of the general shape
+so there are four main types of ranged
+morphologies you have polarized hands
+that is to say your range is very strong
+hands and very weak ends and few
+middling hands we've got linear which is
+just top down value we've got condensed
+which contains mostly medium not a whole
+lot of super strong or super weakens and
+then we've got merged now merged is
+something in between a polarized and
+linear range it's more of a spectrum
+typically you have some very strong
+hands some very weak hands and some
+stuff in between so understanding these
+general shapes will help you strengthen
+your concept of free flop and help you
+play post flop better as well let's move
+on to some examples so here's the quiz
+match each of these preflop spots to the
+correct range morphology you can draw a
+line from any of these to any of these
+take a moment and see what you come up
+with
+so the correct answers are as follows
+big blind three bet versus a small blind
+open is polarized that is to say strong
+hands and weak hands cut off open is by
+definition linear button calls hijack
+open is condensed and a big blind three
+bet versus a button open is merged why
+are these the answers well the big blind
+three bet versus the small blind open is
+polarized since they raise very strong
+and very weak hands and we're going to
+take a look at all these ranges in just
+a moment the cutoff open is by
+definition linear top down value since
+you only open good hands and fold bad
+hands it doesn't make sense to include
+anything but the best hands right a
+button call versus a hijack open is
+condensed or sometimes called
+depolarized right because button is
+typically going to three bet their
+premium hands and they're only going to
+call with strong middling hands like
+pocket pairs suited connectors strong
+asex some suited broadway stuff so it's
+mostly middling hands and that's why you
+would consider it condensed the big line
+three bet versus the button open is
+merged since it uses a mixture of nuts
+bluffs and medium value draws so let's
+dive into range morphology and what this
+looks like in practice preflop let's
+start with linear because it's the
+easiest to understand again linear just
+means top down value so for example a
+cutoff opening range you're just opening
+the best hands and folding the worst
+hands it doesn't make sense to open
+seven two off suit while folding jack 8
+suited right so it by definition this
+must be linear
+and it's the same with for example you
+know what let me switch over to the
+simple solutions which use a three bet
+fold strategy
+anytime you're just three bet slash
+folding it only makes sense to continue
+with the best hands and fold the worst
+so by definition your range is linear
+it's uncapped it's top down value when
+you're playing against someone with a
+linear range it means they can have all
+the strongest hands that means you need
+to play relatively cautious against them
+right
+so think about the shape of the range
+before you attack it next up we have
+polarized ranges and you know what i'm
+going to switch to
+maybe 50 and l for this one so small
+blind opens action on big blind and here
+we can see they have very strong hands
+at the top and a lot of zero ev trash
+now people have different definitions of
+this stuff like is queen nine a value
+raise or a bluff phrase what about six
+five suited what about ace four city the
+easiest and quickest way to settle this
+debate is to view the expected value of
+the three betting range now we can
+visualize this color coded so
+very weak value all of these zero ev
+hands and very strong value
+it's true there are some you know mergy
+hands in here
+but the bulk of the range is quite polar
+and this is about as polar as you're
+gonna get when it comes to three bets
+nutted hands and trash now because of
+that
+small blind adjusts their for betting
+strategy in most spots
+when you face a three bet and you're out
+of position you want to raise larger the
+idea is that you know you want to force
+more folds out of position but blind
+versus blind in particular is different
+because big blind's three betting range
+is super polarized therefore the most
+effective strategy is to raise small out
+of position that's because
+you don't need a huge bet to fold out
+10 2 suited and king six off right
+doesn't make sense to race to like 28
+big blinds to blast them off these hats
+it's much more effective to use a
+smaller four bet
+because these zero ev hands fold to
+pretty much any size while you donate
+the least amount to their nutted hands
+now
+in practice you're going to use
+polarized ranges pretty much any time
+you have a fold a call and a raise and
+you're going to go more polarized in
+position than out of position so for
+example
+let's say small blind three bets and you
+know what i'm going to switch to 500 nl
+just because it's maybe easier to see
+the polarization when ranges are wide
+so button opens small blind three bets
+action back on button we can see the
+four betting range is comprised of
+very low value hands and very strong
+hands and some people are like well you
+know is ace jack a value raise or a
+bluff phrase
+it's a bluff phrase
+right
+weak
+bluffs
+and strong value and not a whole lot of
+in between
+and everything in between
+goes into the call so very polarized
+when you're in position conversely when
+you're out of position you tend to
+merge a bit more so for example cut off
+opens button three bets
+here we can see that
+cut off is for betting with hands like
+queen suited king jack suited jack 10
+suited you know it's not really bottom
+of range stuff it's more like the bluffs
+have shifted inwards a bit
+maybe one way to visualize that is by
+the expected value there's more of these
+inward bluffs they're not all zero ev
+hands
+and the reason for this is twofold first
+of all
+the value of calling is just going to be
+lower
+when you're out of position facing a
+raise so you have less incentive to call
+and furthermore when you do raise
+you need some stronger hands to
+disincentivize
+button from continuing
+if you were to raise too polarized out
+of position button would be incentivized
+to continue most of the three betting
+range
+and this is true everywhere out of
+position tends to polarize less than in
+position in position tends to polarize
+more than out of position mainly due to
+the incentives for calling
+versus raising okay so let's move on to
+condensed ranges now condensed ranges
+are kind of fun
+picture this you open hijack
+and oh i better switch to the general
+solutions because these have calls on
+the button
+you open early position and you get
+called
+by the button bad situation you don't
+like this happening to you
+well a condensed range consists of
+medium strength hands right buttons
+calling range here doesn't have the
+premium hands it also doesn't have many
+weak hands it's mostly going to be
+medium strength pocket pairs you know
+suited aces to the connectors strong
+broadway hands stuff like that now in
+general
+when you do get cold called by someone
+in position you mostly want to check to
+them on the flop i think a lot of people
+will bet too often in that scenario but
+even though this range is relatively
+capped
+just to take a quick look at the reports
+here
+we can see that
+over
+every possible flop
+hijack despite being the pre-flop razor
+despite having all the strongest hands
+in range checks 71 of the time across
+all possible flops
+and that's because
+button's calling range here
+despite being somewhat
+capped is still quite strong they need
+to make their range strong enough so
+that when they call they don't get
+abused and squeezed out of the pot too
+often by the blinds and so when both
+blinds fold buttons range is actually
+pretty strong relative to hijacks range
+which has
+lots of high card air so you see
+condensed ranges pretty much anywhere
+where people are going to call
+um
+for example
+you know you could call maybe but big
+blind is a bad example because it's
+quite wide but a small blind calling
+range for example is quite condensed
+because it contains lots of medium hands
+but not a whole lot of trash so in
+general condensed just means medium
+hands you're condensed towards the
+middle of your range you don't have all
+the nutted hands you don't have all the
+weekends you have mostly middling hands
+something to keep in mind though is that
+you know you may start as a condensed
+range but then if the board comes like
+789
+well all of a sudden this range might be
+much stronger than this range
+something to keep in mind okay so we've
+covered linear polarized and condensed
+the last topic is merged and merged is a
+complicated one that's going to take a
+little more explaining so the last
+morphology is merged now merged is a
+difficult concept that people tend to
+struggle with it's usually
+not well defined on the internet so
+realistically merged can be thought of
+as something in between a polarized and
+linear range let me show you what i mean
+here we have a big blind facing a button
+open
+again i can isolate this three betting
+range i'm gonna change that to ev so
+it's color coded so
+we have
+very strong hands
+we have like zero eevee bluffs
+and then we've got the merged stuff
+these suited connectors lower pocket
+pairs offsuit broadways stuff like that
+so merged contains strong hands
+bluffs and middling equity but it's not
+necessarily one shape it can lean more
+linear or more
+polar depending on the situation
+and let's dive into exactly what that
+means so
+the best way to study this is to compare
+different structures i'm going to change
+this over to the heads up solutions
+here small blind opens a wide range in
+heads up you open like 80 percent
+and in this solution big blind is using
+a 10 bb 3 bet and we can see a lot more
+middling hands in there right
+a lot more yellow green
+fewer bluffs
+so this three betting strategy leans
+more towards the linear side of the
+mergy spectrum
+and now let's compare to
+the
+50nl
+general solutions
+now 50 l you pay more rake and at the
+same time big blind is using a large
+three bet here it's 13 bigs
+so
+this one
+is going to lean more towards the polar
+side of the mergy spectrum right we've
+got more of these zero ev hands
+and very strong hands and fewer of those
+middling equity hands
+now why is this
+you know you can make theories but
+the
+best theory the easiest way to
+understand this is always to look at
+villains response let me show you what i
+mean when big line 3 bets what you want
+to do is look at the ratio of
+four bets to calls you'll face when they
+continue in this case
+we expect to face a four bet about as
+often as we expect to face a call in
+fact let's map this out just to get some
+exact numbers here
+we expect to face a 4-bet
+14.6 percent of the time
+divided by the 32 percent of the time
+that they continue
+so almost half the time forty five
+percent we expect to face a four bet
+and what does that mean for the hands in
+our range
+well
+a hand like jack four doesn't mind
+folding to a four bit this is a zero ev
+hand it was almost worthless as a call
+to begin with i mean yeah you you do
+lose your three bet but compare that to
+queen jack suited queen jack suited is
+worth eight big lines as a call so it
+really sucks to get blasted off your
+equity when you hold a high value hand
+like king jack suited or queen jack
+suited and you're gonna get blasted off
+your hand a lot more often
+when you face a four bet right
+therefore
+what really matters is the ratio of four
+bets to calls that you face and this is
+true
+not just in the big blind versus button
+but everywhere in poker pre-flop post
+flop it's true in exploitative theory
+you know against stations you want to go
+more linear against maniacs you
+typically want to go more polar you
+don't want to
+bet fold
+high ev hands
+or like
+hands that would be decent as a call now
+let's compare that to the 500 nl basic
+solutions
+so in this case button opens
+big blind three bets and here big blind
+is using a smaller three bet in these
+basic solutions only 11 bb instead of
+13. furthermore 500 nl pays less rake
+which further incentivizes button to
+call what does this mean well it means
+that we're going to use more of these
+middling equity our
+range is leaning more linear on the
+mergy polar spectrum right
+there's fewer zero ev bluffs
+and if we look at buttons response it
+makes sense
+because we can see that out of the times
+they do continue well first of all
+they're continuing much wider overall
+given that they're getting better pot
+odds and they're paying less rake but
+when they do continue we only expect to
+face a raise 11.5 divided by 48 23 of
+the time compare that to the 45 percent
+of the time we expect to face a raise
+you know in the last situation therefore
+our middling equity
+you know our jack 10 suited
+our king 10 suited
+our 10 8 suited
+our a7 suited our ace jack off suit
+these hands which are high ev calls are
+going to be blasted off their equity
+less often and they don't so much mind
+facing a button call
+therefore
+it's more effective to use these hands
+rather than use super polarized hands so
+that's the theory behind merged three
+bets and merging in general and like i
+said this carries forward pose flop this
+carries forward to how your opponents
+play generally if you're facing a bet
+and you three bet or you check raise you
+want to use more polarized ranges if you
+expect to face fold slash rays and you
+want to use more linear ranges when you
+expect to face more calls and fewer
+races and that's because it's less
+effective to raise fold high ev calls
+like 88
+for example
+the last concept i'd like to discuss is
+your open raise sizing back in the day
+people thought it was a good idea to
+open big from early position and smaller
+from late position and it makes sense i
+mean you have a stronger range in early
+position you have a weaker range in late
+position so why not go big here and go
+small here and then solvers came along
+and they said no no no i want to do the
+exact opposite i want to open small in
+early position and big in late position
+why is that well again it comes down to
+the ratio of three bets to calls you
+expect to face when under the gun opens
+most competent players especially in a
+ranked environment are going to use a
+three bet or fold strategy namely
+because a your range is tight but also
+because there's more players in front of
+each other so the threat of being
+squeezed makes calling less attractive
+therefore
+because under the gun expects to face
+more three bets and fewer calls they use
+a smaller size that way
+they lose less
+facing a three bet right it costs less
+to bet fold
+and your nutted hands always have the
+option to reopen the action via a four
+bet if they so choose
+conversely in late position
+you expect to face a higher ratio of
+calls and a lower ratio of three bets
+therefore you can size up without
+risking that folding as often now here's
+a little quiz for you why do you think
+it is that under the gun bolts hands
+like ace 2 suited ace 10 off king jack
+off
+in this rake structure this is 500 nl
+using a two big blind open however if we
+switch to 50 and l
+and we open larger two and a half x
+we're paying more rake we're opening
+bigger and now we're opening more of
+these trash hands we're opening
+you know i'm just going to show the
+eevee here ace 2 goes from a pure fold
+to a pure open
+ace 10 off and king jack off or opened
+in full
+you know even lots of queen jack off
+why is that again same concept comes
+down to the ratio of three bets to calls
+you expect to face these hands
+ace ten king jack ace deuce king five
+king seven
+they're great at blocking three bets you
+block the main category of hands that
+three bets you aces kings ace king
+but they're pretty terrible facing a
+call i mean i know ace 2 suited looks
+pretty because it's suited and it's a
+wheel ace but it's really not very good
+facing a call in exchange for these
+blocker hands it starts folding most of
+these pocket pairs and suited connectors
+because it expects to face a raise more
+often and these hands don't block raises
+conversely if you open smaller
+and
+if you
+play at
+a rake structure like 500 nl where
+you're not paying as much rake
+it gets rid of a lot of these blocker
+bluffs
+you know now ace 10 is starts folding
+king jack starts folding
+suited king x starts folding ace two is
+pure folding
+and in exchange it opens more pocket
+pairs and suited connectors because
+these hands do better facing calls and
+worse facing three bets or they don't
+block as many three bets per say
+so this is why in a lot of metas for
+example live one two you'll see people
+opening really large in early position
+because opening large makes sense if you
+expect to face very few raises and more
+calls it makes sense to pump up the pot
+with strong hands if you're not being
+blasted off your hand right it doesn't
+cost much to bet fold if you're not
+being raised very often that's why
+you'll see people opening you know five
+big blinds in live games because
+under the gun will open and then cut off
+will float you with like
+i don't know
+seven three suited
+so think about your games think about
+your meta are people calling too wide
+and not raising enough if so perhaps you
+should switch away from these blocker
+hands and open
+more of these pocket pairs and suited
+connectors and maybe size up a little
+bit and
+maybe if you play i don't know online
+like low to mid stakes where people are
+mostly using three bet fold strategies
+you want to cut out a lot of these
+pseudo connectors and low pocket pairs
+and trade them out for some
+blocker hands instead and maybe decrease
+your rfi sizing adjust your strategy
+depending on your meta and don't just
+lazily use a 2.5 everywhere because
+there is edge to be gained by thinking
+about how you should size your opening
+range and adjust
+your range morphology
+everything i've just shown you all those
+pre-flop ranges those expected values
+the different rfi sizes the different
+rake structures all of that is
+completely free make a free account with
+gta wizard hop onto the solution browser
+and get exploring that's it for the
+video guys if you enjoyed this type of
+analysis please let me know like
+subscribe leave a comment and all that
+and if you have any questions or you
+want to discuss the theory in more
+detail absolute best way to do it is
+through our discord link in the
+description from there i'll be happy to
+answer all of your questions and i'm
+guaranteed to see it unlike the youtube
+comments that's all for now take care

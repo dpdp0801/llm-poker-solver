@@ -1,0 +1,184 @@
+### TOPIC: 3 reasons youâre stuck at low stakes in poker
+hello my name is Don coron and today I'm going 
+to show you the three reasons why you're stuck  
+at small [Music] stakes poker is chaos tell me 
+if you find this familiar you start playing poker  
+you're grinding the micro Stakes the small stakes 
+and at some point you decide that you want to  
+take your strategy to the next level you want to 
+actually find how to play properly you get online  
+you start looking for videos for content and what 
+you see is NeverEnding amounts of information so  
+many topics so many different approaches and so 
+many different people telling you to do so many  
+different things in fact a lot of coaches or a 
+lot of strong players seem to disagree use the  
+HUD more use the HUD less study with the solver 
+more study with the solver less if you have a  
+friend who plays higher Stakes than you and you 
+send him a hand or you post a hand on a forum  
+you get a lot of answers like it depends I 
+don't know we need more information there's  
+also seemingly infinite topics for flush forb 
+pots blockers on the river the sizing geometric  
+super geometric there's just so many things to 
+learn out there and at the end of the day you  
+feel lost you don't know what direction to take 
+well hopefully in this video I can show you the  
+general direction you need to move towards one of 
+the main mistakes that you're probably making is  
+focusing too much on small edges now this might 
+be a little bit of a controversial topic because  
+it is a common talking point that poker is a 
+game of small edges and to some extent that's  
+true that is great advice for someone who's 
+not putting enough attention to detail but if  
+you're watching GTO wizard videos and you using a 
+solver regularly this is probably not your problem  
+in fact you might be making the opposite 
+mistake which is paying too much attention  
+to details that are not yet your priority like for 
+example being too specific about blockers being  
+too specific about sizings pre flop on the Flop or 
+trying to achieve some kind of perfect balance and  
+being an exploitable in reality poker is a game 
+of big edges there is an elephant in the room  
+your opponents are making such blatant mistakes 
+especially at the micro stakes and small stakes  
+and you need to find what those mistakes are and 
+take advantage of them let's look for example at  
+this spot this is a b check bat situation in a 
+single race pot button versus big blind if we  
+filter for the Bluffs we will see certain things 
+like 108 of Hearts being a less preferred Bluff  
+than the other suits whereas for Jack 10 Jack 10 
+of Hearts is very preferred for bluffing while  
+Jack 10 of clubes isn't and it would look at 85 
+it seems like the Spades are the least preferred  
+Bluffs now I'm sure there is a valid reason for 
+these blocker choices by the solver but I will  
+confess to you I don't know what it is I don't 
+care and I'm not going to put any effort into  
+finding out why because there is a much bigger 
+Edge to be had in this spot especially at low  
+stakes this is a commonly overfolded line if we go 
+to the big blind strategy and we nolock a slight
+overfolded to checking this is why poker 
+especially at micros and small Stakes is a  
+game of big edges so what should be our approach 
+first of all you need to prioritize spots there  
+is a great spreadsheet that tombos made in which 
+you input your GT Wizard score for each position  
+and it multiplies it by the frequency of that 
+spot and the size of the pot in that spot and  
+that gives you your priority number for that 
+particular situation you need to review your  
+own database you need to learn to interpret 
+your own stats if you're playing low stakes  
+you certainly have very big leaks and if you can 
+find what those are are and find solutions to them  
+your strategy will become much more solid exploit 
+obvious Tendencies there is a lot of low hanging  
+fruit at lower stakes and even at higher Stakes 
+don't get caught on all of the small details and  
+make sure you're noticing the elephant in the room 
+focus on practical takeaways when you're studying  
+you should try to come up with a generalized 
+conclusion from what you looked at you need  
+to be able to apply what you learn to different 
+situations you can't be waiting for the same exact  
+situation to repeat another mistake that we're 
+going to look at is quality over quantity and  
+again this is another controversial topic because 
+it would seem intuitive that quality is better  
+than quantity to some extent this is true it's 
+good to have every once in a while one of these  
+sessions where you go overhand with your mates and 
+you spend one or two hours reviewing just at hand  
+but the problem is that you have a lot of leaks 
+that range from Big pots and big decisions to a  
+lot of small mundane decisions that happen very 
+often you are probably overthinking about the  
+unknowable there's a lot of big decisions where 
+maybe you have a top pair and you're facing a  
+triple barrel in a three pot and you're trying to 
+find reasons to possibly get away somehow this is  
+very difficult and this is what I would call a 
+small Edge you're probably focusing too much on  
+big pots a lot of mistakes that people are making 
+happen pre flop in small pots on the Flop remember  
+small pot doesn't equal small Edge people are 
+playing a lot of tables they're playing a lot  
+of volume and there's certainly big edges to 
+be had in all of these spots so let's go back  
+to this situation where we are Bon vers big bline 
+sing race spot but now we're going to look at what  
+happens when we Face a quarter pop bet what do you 
+think is the weakest defend against this bet and  
+notice I said defend and not call so I'm counting 
+Bluff raises value raises calls everything do  
+you think it's bottom pair three in this case you 
+think it's eight High you think it's eight [Music]
+high if we look at it we see that the weakest 
+defend is eight high for some people this is  
+the first time that they've seen this because 
+they've actually never opened a Sim in this  
+specific situation they've opened Sims for a 
+triple barrel in a four pot a triple barrel  
+in a three pot at 250% all in on the river in 
+a single race pot but they've never looked at  
+what happens when they see bet the Flop and they 
+check back the turn and they face a bet for some  
+people it might even be surprising the fact that 
+you're calling hands like ace8 here almost pure  
+and that you're calling hands like Ace Jack 
+and ace10 at a very high frequency so what  
+should we do you need to develop a broadly decent 
+strategy instead of a sometimes great but mostly  
+bad strategy you need to review lots of hands 
+my personal recommendation is that you export  
+your hands that reach the Flop each session 
+and you upload them to GTO wiard GTO wizard  
+will give you a GTO score and an Eevee loss and 
+then you can use these numbers to sort the Hands  
+by the spots in which you are actually making 
+the biggest mistakes instead of the spots that  
+you care about the most another recommendation 
+is that you drill many different spots in a GTO  
+trainer the last point we're going to make and 
+certainly not the least important in fact maybe  
+the most important is a generally bad approach 
+for example being complacent in order to get good  
+at poker you need to have passion for improving 
+your strategy constantly rationalizing emotional  
+play a lot of players especially at lower Stakes 
+are very prone to saying things like I know that  
+the server told me to Bluff here I know that my 
+coach told me that bluffing here works really  
+well but I'm not going to do it because in my 
+pool my opponents call me always in reality  
+what's probably happening is that whenever you 
+do get called you feel feel really bad but the  
+bluff works just fine try to understand your 
+own emotions and practice self-awareness being  
+too results oriented look at the end of the day 
+we want to make money we care about results but  
+sometimes the variance in this game is huge and 
+we need to turn down the volume and keep grinding  
+waiting for someone to tell you what to do no one 
+is going to put in the work for you you need to be  
+proactive find what your leaks are are find what 
+your problems are and fix them so to summarize  
+look for practical takeaways when studying try 
+to generalize your conclusions in order to use  
+them in new spots and not just the spot that you 
+looked at focus on the elephant in the room if you  
+stuck at small Stakes the reason is going to be 
+a big one not a small Min detail study quantity  
+not just quality and depth it's good to have one 
+of those long onand review sessions but you also  
+need to look at a lot of small pots be proactive 
+find what your leaks are and fix them that's all  
+for this video I hope you liked it I hope you 
+learned something and see you in the next one
+[Music]

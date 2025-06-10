@@ -1,0 +1,56 @@
+### TOPIC: analyze turn textures
+How To Analyze Turn Textures In Poker
+In community card games like hold ‘em, the face-up cards on the board are an important source of information about the hands you are likely to see at showdown. The board’s texture determines which pairs are likely and whether straights, flushes, or full houses will be possible. Each time a new card is revealed, you learn new information about these variables and how likely you are to hold the winning hand 🏅
+The flop reveals the most information of any street. We can categorize flops based on their high card, the number of suits they contain, whether they are paired, how many straights or straight draws they make possible, and more. These are all ways of describing how the board cards interact with each player’s range of likely hole cards.
+When it comes to analyzing the new board card on the turn, the question we are most interested in is: What has changed?
+Which new hands have become possible that were not possible on the flop? Even blank turn cards, those unlikely to interact with any player’s range significantly, convey important information. Hands that were already strong on the flop are stronger by virtue of fading some threats on the turn, while draws and unpaired hands are weaker with only one remaining opportunity to improve.
+
+Range Advantage
+Range advantage is a way of talking about how different players’ ranges interact with one another. There are two main kinds of range advantage:
+Equity advantage – How is equity distributed between the ranges? Which player has the most, and how large is the difference between them? Equity advantage tends to correlate with betting frequency. The stronger a player’s range, the more incentive they have to bet.
+Nuts advantage – How likely is each player to have the strongest possible hands? Who is most likely to have them, and how large is the difference? Nuts advantage tends to correlate with bet size. The more likely a player is, relative to their opponents, to have nutty hands, the more incentive they have to grow the pot with large bets.
+A player’s equity on the flop is the average of their equity on all possible turns. Once a specific turn card is revealed, their equity will increase or decrease based on how much that card helps them relative to their opponent, and their betting frequency will increase or decrease along with it.
+Nuts advantage is more binary. One player has the nuts advantage after the flop action, and they will either retain or lose that advantage depending on what the turn brings. We tend to see big bets from this player on blank turns that do not significantly change the board texture by making new nutty hands possible and smaller bets (sometimes accompanied by more frequent betting from a player who has gained the nut advantage) on turns that change the board texture.
+
+Prior Action
+When analyzing turn texture, it’s important to keep in mind the pre-flop and flop action, which determines which player enjoyed the range advantage(s) prior to the turn.
+A player who comes into the turn with a big advantage may retain that advantage even on a slightly unfavorable turn that makes some new nutty hands possible for their opponent.
+Aggression correlates with nut advantage. A player who has been betting or raising is more likely to have nutty hands than one who has been checking and calling. When a player raises pre-flop, continuation bets the flop, and gets called, they will have the nuts advantage going into the turn. On the average turn card, they will bet big or check; texture changing cards are, by definition, exceptions.
+The preflop aggressor should hold fewer nutted hands if they checked the flop. Depending on the magnitude of their nut advantage on the flop, they may maintain that advantage on the turn, but it will be diminished.
+
+Example
+We can see these principles in action in a simple example from an NL500 100BB cash game. UTG opens, BB calls, UTG bets 33% pot on a K♠ 8♠ 7♥ flop and BB calls again. At this point, before the turn card is revealed, UTG has the nuts advantage but not the equity advantage. BB had a lot of incentive to raise their best hands and to fold their worst ones, so their call indicates a relatively strong but condensed range, whereas UTG’s bet is more consistent with very strong and relatively weak hands.
+Let’s remind ourselves what this will mean for UTG’s turn strategy:
+On blank turns, we expect a modest amount of betting for a large size.
+On turns that negate UTG’s nuts advantage, we expect smaller bets and perhaps a lower betting frequency (depending on how the turn changes the equity distribution).
+On turns that maintain UTG’s nuts advantage and also improve their equity, we expect more frequent betting, often for a smaller size.
+Now here’s the report summarizing UTG’s strategy on all possible turns, if BB checks to them:
+UTG vs BB Strategy by turn card on K♠ 8♠ 7♥ after bet 33% call
+
+A few patterns appear:
+UTG consistently uses smaller bets on spade turns, which negate their nuts advantage by making many flushes possible for BB. The only exception is the 7s, which also pairs the board. UTG has more quads and full houses in their range and so can do some overbetting on this card.
+Cards that complete straights function similarly, though the effect is less dramatic because BB will have fewer straight combos. Fives are the exception because BB would have folded 96o pre-flop and mostly raised 96s on the flop, making straights possible but quite unlikely for them on these turns.
+UTG has the highest betting frequency on non-spade A, K, and Q turns. These cards do not make straights or flushes possible and improve UTG’s equity more than BB’s, as UTG is more likely to hold unpaired Broadway cards after the flop action. This correlates with a smaller bet size, especially when an A turns. These cards help UTG’s equity so much they actually run out of good bluffing candidates to support an overbetting range, and they are incentivized to use a smaller size in order to make thinner value bets with their many Ax and Kx hands.
+The blankest turns are non-spade wheel cards, which neither complete draws nor improve the unpaired hands in UTG’s range. On these cards, UTG mostly checks or overbets.
+The lower board pairs, 7 and 8, are not nearly as good as K for UTG as BB is more likely to turn trips. Consequently, UTG rarely bets these turns, though as with the 7♠, their full house and quads advantage still facilitates a small overbetting range.
+BB almost exclusively checks the turn after check-calling the flop. The only exceptions are the cards we’ve already identified as introducing significant new nut hands into BB’s previously capped range:
+BB’s strategy by turn card after check-calling 33% UTG bet on K♠ 8♠ 7♥
+BB has some incentive to bet these cards precisely because they are bad for UTG, who can not be expected to bet as often when checked to.
+We have been using Aggregate reports a lot in this article. Here is a guide on how to use them.
+
+When the Flop Checks Through
+Now think about what happens when UTG checks the flop, which they do with about 25% of their range. It’s important to note that while UTG’s checking range is somewhat weaker than their betting range, it is not at all weak. In fact, UTG is incentivized to bet many of their weakest hands on the flop, leaving their checking range rather condensed. Their checking range is concentrated around pairs:
+UTG flop strategy by made hand category, filtered for checking range
+UTG’s pre-flop range is much stronger than BB’s, so despite a slight weakening effect, they retain both the equity advantage and some degree of nut advantage after checking. That means that in general, we should expect a low betting frequency from BB on the turn and mostly small bet sizes.
+Here’s the report after the flop checks through, this time showing the strategy from BB’s perspective:
+BB Probe strategy by turn card on K♠ 8♠ 7♥
+There is indeed a low frequency of betting. The best cards for BB to bet are, once again, those that change the board texture. In fact, these cards are even better for BB after UTG checks behind the flop! This is because action on the flop concentrates ranges around cards that coordinate with the board. UTG had a lot of incentive to bet their flush and straight draws on the flop, so they are less likely to make flushes and straights when those cards turn.
+Action on the flop concentrates ranges around cards that coordinate with the board
+Here’s a breakdown of the draws in UTG’s flop checking range:
+UTG flop strategy by draw hand category, filtered for checking range
+Declining to bet the flop is an indication that UTG is unlikely to hold a draw. BB’s flop check does not convey this same information, as they check their entire range. Thus, when a draw completes after the flop checks through, BB acquires a nut advantage and can do some overbetting. This is true even though UTG checks some draws on the flop–they do not check enough to make overbetting undesirable on these turns.
+If BB checks a second time, we see mostly small bets from UTG, a consequence of their less nutty range. The main exceptions are the Broadway cards that most improve them, introducing some new nutty hands into their previously capped range.
+UTG delayed c-bet strategy by turn card on K♠ 8♠ 7♥
+
+Conclusion
+Range disparities are most pronounced in UTG vs BB confrontations, and this is an especially good flop for UTG. These patterns are not always as clear and pronounced as they appear here, but the underlying principles should inform your evaluation of the turn card in any situation. Start with a clear understanding of how the equities and nutty hands are distributed prior to the turn card, then consider how much the turn changes those distributions.

@@ -1,0 +1,214 @@
+### TOPIC: how blockers impact the gto strategy
+hello wizards today we have a big update
+for you we're releasing many new
+post-flop solutions for cash games a new
+blockers feature as well as many other
+improvements
+before we look at the blocker feature
+let's see what else is covered by this
+update for tournament players we've
+added the aggregate flop reports for 20
+and 60 big blind stack depths the only
+reports missing now are 100 big blinds
+which are coming soon we're also adding
+all the missing spots for the mtt 20 big
+line stack depth solutions for cache
+game players we're releasing many new
+post flop solutions we've added the
+general 2.5 x 100 big blind stack depths
+for both 50 and 500 nl rake structures
+these are the same as the regular
+general solutions but the opening size
+has been changed to 2.5 big blinds we're
+also releasing the nl50 cache gain
+post-flop solutions for a variety of
+stack depths including 200 big blinds
+150 100 75 and 50 big blinds now you can
+select your solution based on the actual
+effective stack depth these new simple
+solutions use a three bet or fold
+strategy in all positions outside the
+big blind the pre-flop 4-bet all-in is
+disabled and there's no limping blind
+versus blind these simplifications were
+among the most requested by our users
+500 nl version of these solutions with
+all stack depths are coming soon please
+note that the pre-flop solutions are
+available for free starter users are
+limited to the 100 big blind post-flop
+solutions whereas premium users can view
+post-flop solutions for all stack depths
+with that we're also adding a new
+ability to select which solutions you
+use in the hand history analyzer so far
+the hand history analyzer was limited to
+500 nl solutions going forward you'll be
+able to select your rake structure as
+well as choose between the general or
+simple solutions simply change your
+preference in the game settings
+the ability to save a spot in the
+solution browser simply select the
+floppy disk icon in order to save a spot
+and find previously saved spots from
+here you can add notes
+stars and down the road we plan to add
+the ability to sort and filter these
+saved spots
+we're adding a new combined view to see
+bet sizes in both big blinds and pot
+percentage at the same time now you
+could choose one the other or both
+simply press space to switch between the
+views
+remember you can always customize your
+hotkeys in the hotkeys page
+we're adding an alternative way to view
+hand category data in the range
+comparison tab
+now you can choose between a centered or
+stretched view go to your settings
+and select this button here to switch
+views this helps visualize the
+differences in the ranges we've added a
+new customization option that lets you
+switch between black and white text in
+the strategy matrix
+this should help improve contrast and
+visibility for those who are using
+lighter themes
+and now to the main feature of this
+update lockers please note that this
+feature is only available to premium
+users each combination is assigned a
+blocker score somewhere between 1 and 10
+combos that block more ev in your
+opponent's range are given a higher
+blocker score there are three ways you
+can view them
+firstly you can select this drop-down
+and select blockers
+you can see each blocker is color-coded
+according to its score
+secondly
+from the strategy table
+we can see a little icon next to each
+hand that indicates its blocker score
+these shields are color coded according
+to the score thirdly
+we can see the blocker score in the
+summary tab
+so what are blockers what makes a hand a
+good blocker
+well you have to think about what your
+hand wants for example
+a value hand will likely want to block
+less value in your opponent's range
+that's because you want to get called by
+these hands
+so that's why
+ace king with a diamond tends to bet
+less often than ace king without a
+diamond this is a value hand that wants
+to get called so a low blocker score is
+desirable if you're going to bet
+bluffs have the opposite incentives
+for example ace jack with a diamond has
+a better blocker score it blocks more
+value in the opponent's range and
+therefore these hands tend to bet larger
+and more frequently
+if we look at the range as a whole we
+can see that for example hand like kings
+blocks a big chunk of big blind's value
+range
+therefore
+it'll often prefer a smaller bet
+hands like aces
+blocks fewer value hands in villain's
+range and is therefore more likely to be
+called this hand prefers an overbet
+let's say that the button over bets the
+flop actions on the big blind we can see
+hands that have a higher blocker score
+tend to continue more often for example
+ace 4 with the ace of diamonds is a pure
+continue
+whereas without the ace of diamonds it's
+continuing less often
+ends with the worst blocker score
+like club hearts and spade heart
+tend to continue the least often
+you see a similar trend on queen nine
+okay big blind calls and the turn is the
+nine of clubs big blind checks actions
+on button so again let me change this to
+the blocker score
+and
+i wonder
+which hands make a better bluff
+on this run out i'm going to select
+trash hands in the filters
+we can see that for example
+a jack or a 10
+tends to block more value
+than an ace
+or one of these lower cards
+we see that reflected in the strategy
+these jack and ten hands tend to bluff
+more often okay let's say that button
+bets two-thirds pot
+actions on the big blind
+if you hold jack 10 here
+you may want to think about raising and
+we see the solver splits its range
+between an all-in
+and a smaller raise size
+so
+when it holds the jack of diamonds or
+the ten of diamonds it has a higher
+blocker score therefore it uses a
+smaller raise on average
+when you block less value in your
+opponent's range
+this nutted hand
+likes to build in an over bet that's
+because it expects to get called more
+when it has a lower blocker score
+the big blind calls
+and we see a native club's record
+big blind checks
+actions on us on the button here the
+button prefers the shove or check let's
+say they shove
+it's a big bet and actions on the big
+blind to try and figure out which hands
+make good calls
+well let's take a look at the marginal
+hands these top and second pair we can
+see that hands which block the straight
+for example
+stuff with a 10 or a jack
+tends to have a higher blocker score
+than hands that don't block the string
+furthermore and see more details in the
+summary tab for example here queen 10 of
+diamonds blocks the miss flush draw and
+has a lower blocker score than other
+queen
+therefore
+queen 10 without a diamond is more
+inclined to call
+so as you can see card removal is a
+fundamental part of the gto strategy the
+new blocker feature helps you understand
+how much ev you block in your opponent's
+range and leverage that to your
+advantage
+alright that's it for the video guys
+please like comment subscribe and of
+course join our discord we'd be happy to
+discuss the theory there
+[Music]
+you

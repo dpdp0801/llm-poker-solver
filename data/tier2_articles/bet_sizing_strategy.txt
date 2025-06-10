@@ -1,0 +1,59 @@
+### TOPIC: bet sizing strategy
+Being a well-rounded poker player means mastering many different skills that allow you to navigate the streets and outsmart your opponents. Bet sizing is definitely one of the most important ones, and despite playing the game for years, many poker players don’t fully understand it.
+If you hope to become an elite poker player, mastering the art of bet sizing in poker should be one of your primary concerns.
+Today, we take a look at some of the most important and useful tips you should keep in mind every time you play the game.
+If you have not given bet sizing too much thought before, these tips should dramatically improve your game almost instantly. So keep reading and make a few easy adjustments to give yourself the extra edge you have been looking for.
+Effective bet sizing is crucial for maximizing value, applying pressure, and maintaining a balanced strategy. Here are key insights to enhance your bet sizing approach:* Develop a Cohesive Strategy: Avoid basing bet sizes solely on hand strength. Instead, consider how your range interacts with your opponent’s range and the board texture.* Small Bets on Dry Boards: On boards with low connectivity (e.g., 4♣3♦3♠), employ small bets (25–33% of the pot) across your entire range to exploit opponents’ likely misses.* Larger Bets on Wet Boards: On coordinated boards (e.g., T♠9♠7♣), use larger bets (70–100% of the pot) with strong value hands and select bluffs, as opponents are more likely to have drawing hands.* Adjust for Position: When out of position, increase your 3-bet sizing (typically 4–4.5x the original raise) to compensate for the positional disadvantage.* Consider Stack Sizes: Plan your bet sizes to ensure effective stack-to-pot ratios (SPR) for future streets, enabling you to apply consistent pressure or value extraction.* Polarize on the Turn: Transition to a polarized betting strategy on the turn, betting larger with strong hands and bluffs while checking medium-strength hands to maintain balance.* Overbet with Nut Advantage: On the river, when your range contains the nuts and your opponent’s does not, consider overbetting to maximize value and pressure.By integrating these principles into your game, you can enhance your strategic depth and exploit opponents more effectively.
+One of the most common mistakes poker players make regarding bet sizing is sizing their bets based on the strength and absolute value of their hands. Inexperienced players often only bet big with their strong hands while making small bets with their less valuable hands.
+Modern bet sizing theory, however, tells us that bet sizing is all about figuring out how strong our range is against our opponent’s range on a particular board texture. This concept is the foundation of a strong bet sizing strategy.
+The reality is that there is no one-size-fits-all betting strategy that you can memorize once and apply in every scenario, as every hand of poker is different in some way.
+However, using the bet sizing tips we will present here, you should be able to make some well-informed decisions about what size to bet in any poker hand you play in the future.
+As we already mentioned, the most important factor to consider when determining how much to bet on a poker hand is the board texture.
+When you enter the pot as the aggressor and are considering making a c-bet, you will need to examine the flop and decide how likely your opponent is to continue, as well as how likely they are to have a big hand.
+Dry boards that make it unlikely for a player who defended against a raise to hit are ideal candidates for us to bet 100% of our raising range.
+For example, imagine opening from the Cutoff before the flop and getting a call from the big blind. The flop comes 4d3h3c, and your opponent checks to you.
+In this scenario, there is nearly no reason to believe our opponent has much of anything. They can have a pair or trips with a very small percentage of their range, along with a few draws, while everything else will have completely missed the board.
+A small bet with our entire range makes sense here because our opponent will be forced to fold their 9s7s or JhTc regardless of how much we bet, while they will call both a small or a big bet with a pair of Fives or trip Treys.
+Small bets work like a charm on boards like this, especially because most opponents won’t be looking to fight back too much and will give up on the hand when they see they have missed.
+What’s more, our opponent in the scenario we described cannot have strong starting hands like AA or KK, while we can, which gives our range a big advantage.
+As a general rule of thumb, use a bet sizing of 25% to 33% on dry boards like this one, and you will be printing money by getting to win the pot right then and there with minimum risk.
+We have discussed bet sizing on dry boards and why it makes sense to bet small on them, but now it’s time to discuss what happens when the flop is much more connected.
+On wet boards, as we like to call them, you should be betting fewer hands but making your bets bigger while checking back a decent portion of your range as well.
+For instance, imagine the same scenario as earlier: We open the Cutoff and get a BB caller, but the board runs Ts9s7c.
+On this board, it is much more likely that our opponent has connected in some way, as there are countless straights, two pairs, one pair, and drawing hands that they could continue with.
+For that reason, we will not want to c-bet a hand like AK, AQ, or 43 suited, as these hands have very little equity against our opponent’s continuing range.
+Instead, this is a great board to bet with hands like T9 suited, TT, 99, 77, and J8 suited, all of which have improved significantly on the flop.
+To balance that out, hands like AsXs, QJ suited, or A8 suited make for great bluffing candidates, which we can add to our betting range.
+So, instead of betting 100% of our preflop range with a small sizing, we will bet anywhere between 70% of the pot and the full pot but at a much lower frequency.
+On wet boards, you never want to bet with hands that have no real equity against the opponent’s calling range, but rather create a strong mix of value hands and powerful bluffs to continue with.
+When it comes to preflop raise sizing, the importance of position must be taken into account, and this is especially true when talking about 3-bets.
+3-betting from the button is not the same as 3-betting from the small blind, and there is a great incentive to 3-bet quite a bit bigger when you are playing the rest of the hand out of position.
+As we well know by now, the in-position player gets to realize their equity a lot easier than the out-of-position player, which means the player in position will have the advantage when they decide to continue with the hand.
+For that reason, making your 3-bets larger out of position will help compensate for the positional disadvantage, as you will get to win the pot outright more often with a larger 3-bet.
+As a general rule of thumb, you can make your 3-bets about 3-3.5x the raise in position and 4-4.5x the raise out of position, and the impact of this should show up in your results after some repetitions.
+Another important factor to consider when deciding your bet sizing is the effective stack size and how your chosen bet size will impact your bets on future streets.
+The key to proper bet sizing is planning ahead and thinking about how the pot will look if you apply one bet size instead of another.
+When making a flop bet, you should make sure to size it up so that you are either going all-in on the turn if the stack-to-pot ratio is small or that you can bet both turn and river for reasonable bet sizes at higher stack-to-pot ratios.
+It is a big mistake to make your flop and turn bets too big and end up on the river with only a fraction of the pot left behind, as this means you can’t effectively bet the bluff portion of your range.
+On the other hand, you don’t want to bet too small on the flop either and end up going all-in for two times the pot on the turn, as this also unbalances your entire strategy.
+Instead, your ideal bet sizing strategy should be based on stack size and stack-to-pot ratio considerations. Every bet should anticipate the next, ensuring the bet sizing makes sense across all betting streets.
+You now know how to size your bets on the flop by betting your entire range small on dry boards and betting a fraction of your range on wet boards for a bigger sizing.
+Now, it’s time to talk about poker strategy for turn bets, how often you should fire them, and how big you should make them. Perhaps, to your surprise, the best strategy for the turn is not to include any small bets at all.
+Once you have reached the turn, you should only bet with a polarized range, which means only your strong hands and your bluffs will keep on firing.
+Since you are betting a polarized range, it makes sense to bet big, and most pros recommend betting around 70% of the pot or more on turns.
+As for all your other hands, checking the turn makes a lot of sense, as it will allow you to have plenty of hands that still have decent value on the river.
+For example, imagine betting the flop on a Th9h4s board and seeing the turn of 7d roll off.
+At this point, you will definitely want to keep barreling with a hand like T9 or TT, as well as QJ or Ah8h, but a hand like A9 does not make too much sense to keep betting.
+Instead, you can use this hand as a great bluff catcher on the river if your opponent decides to bet into you or even a value bet if they decide to check.
+As for your weak hands that bet the flop and checked the turn, you will now be able to bluff with them on the river, representing the exact type of middling hand that checked the turn for pot control and is now betting for value.
+By applying this betting strategy on the turn, you will prepare a great situation for your entire range on the river and be able to play all your hands profitably over and over again.
+Overbets were not used much in poker until fairly recently when GTO players discovered that solvers liked to overbet the river in situations where they have the nut advantage.
+What this means is that if you reach the river and you are the only one who can have the nuts, you can profitably make a bet bigger than the size of the pot with your actual nuts and appropriate bluffs.
+For instance, on a board of KsQs8h7h5s, the overbet size is appropriate with a hand like AsTs, but also one like AsTh, which ensures that your opponent cannot have the nut flush in their hand.
+Furthermore, you can apply overbets in situations where you are the only player who can have the top set or top full house on A-high or K-high boards if you were the original aggressor before the flop.
+Anytime your range is heavily favored against your opponents, a river overbet allows you to get the most fold with your bluffs and get paid big when your opponent does find a call and you have the actual nuts in your hand.
+Bet sizing is easily one of the most underrated skills in poker, and most recreational players have no real concept of it.
+If you want to truly master the game and have an elite win rate, you will need to become an expert on bet sizing across the board.
+To get started, we recommend focusing on certain spots and situations that come up a lot, such as c-betting flops on dry and wet boards or continuing with a turn bet after a flop c-bet.
+Once you have mastered common situations like this, your overall results will be immediately impacted, and you will notice the difference in your bottom line quite soon.
+Leave thinking about the less common situations in Texas Hold’em for a time when you are comfortable with bet sizing in the more common spots, and you will give yourself room for future growth and nearly endless potential to improve and win more with each passing session.

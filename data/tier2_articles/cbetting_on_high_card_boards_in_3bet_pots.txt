@@ -1,0 +1,30 @@
+### TOPIC: cbetting on high card boards in 3bet pots
+We already talked about c-betting on low-card boards in 3-bet pots, and today we will use the PeakGTO solver to analyze the high-card boards in 3-bet pots.
+We will cover different board textures on connected and dry boards to identify the differences and summarize key takeaways for each section.
+In Position (IP) on Dry King-High Boards (e.g., K♠-8♥-4♦): These boards heavily favor the 3-bettor’s range. The solver recommends c-betting nearly 100% of the time, mixing bet sizes nearly exactly split between small and medium bets.In Position on Connected King-High Boards (e.g., K♠-9♦-7♦): You can still c-bet around 96% of the time. Stick mostly to small sizing (~⅓ pot), using larger bets occasionally with vulnerable value hands.Out of Position (OOP) on Dry King-High Boards (e.g., K♥-7♠-2♣): Despite being OOP, the solver favors a high c-bet frequency (~98%), mainly using larger sizing (~⅔ pot) to protect equity and deny realization.Out of Position on Connected Queen/Jack-High Boards (e.g., Q♥-8♠-7♠): These hit the caller’s range harder. Reduce c-betting to ~56% to mix in more checks. Strong hands still prefer larger bet sizes for value and protection.
+We will start with an in-position example where we 3-bet from the button against a cutoff open, and he calls before the flop.
+Key assumptions:
+Let’s firstly look at a dry flop of Ks8h4d to see our strategy in this situation when CO checks to us.
+This is one of the easiest spots you can find yourself in since you can c-bet your entire range because of a massive range advantage on these kinds of flops.
+That being said, complexity arises from choosing the proper bet sizing, as the solver suggests splitting it almost entirely in half and mixing your strategy with all of your range.
+The things slightly change on Q-high and J-high boards, but you still need to c-bet aggressively with close to 80% of your range.
+What might look a bit surprising is that we also keep c-betting almost our entire range on connected K-high flops. Here is an example of Ks9d7d.
+In this situation, the solver suggests betting 96% of the time and checking only 4% of the hands.
+This time, you should clearly stick to a smaller bet sizing of around one-third of the pot in most situations when betting, only leaning to bigger bets some of the time with vulnerable holdings.
+However, your poker strategy should change drastically on lower-connected boards of Q-high and J-high since these hit the callers range much better.
+For example, on a flop of Qs8h7h, you should only be c-betting around 49% of the hands compared to betting almost all the time on king-high boards.
+Key takeaways
+Now, let’s look at hands when we are 3-betting out of position (OOP) and analyze a scenario where our opponent opens from the button, we 3-bet from the big blind, and he calls.
+Key assumptions:
+Let’s firstly analyze Kh7s2c to see our strategy on a dry high-card board.
+As you can see, the solver suggests c-betting 98% of the time, even when we are out of position, meaning we will be continuing pretty much every time.
+In this situation, you should mostly stick to a larger sizing, such as two-thirds of the pot, to discourage your opponent from continuing with speculative hands and protect your equity.
+Just as with our previous examples, when being IP, you also c-bet less frequently out of position as the highest card gets lower. In this instance, your c-bet percentage drops to around 75%.
+When discussing connected boards, let’s examine Ks8s7d.
+With king-high boards being the most favorable flops to our range, we are c-betting around 80% of our hands and distributing bets fairly equally between our entire range.
+As for sizing, we use smaller bets most often, but still bet on the bigger side one-third of the time. We choose larger sizing for some of our strongest hands, along with a few draws like gutshots.
+This helps us balance out our poker ranges across both bet sizes and keeps us unexploitable, regardless of what our opponent does.
+Contrary to king-high boards, other connected high-card flop variations do not favor our range. If we look at an example of Qh8s7s, you will see that now we are only betting 56% of the time.
+Like before, a game theory optimal strategy means we are splitting our betting and checking frequencies fairly evenly throughout the range. That said, the strongest hands, such as overpairs and top pairs, prefer betting more often and sticking to a larger bet size.
+In these spots, our opponent will have good board coverage, so betting too often can easily be exploited. A similar strategy can be applied to jack-high boards.
+Key takeaways

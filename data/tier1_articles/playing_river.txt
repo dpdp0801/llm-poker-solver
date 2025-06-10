@@ -1,0 +1,57 @@
+### TOPIC: playing river
+We’re At The River. Our Hand Can’t Win. Now What?
+You’re in a heads-up pot and you’ve made it to the river. Your opponent has check/called two streets, so you’re relatively confident their range is at least somewhat capped. There’s just one problem; you have a really weak hand that can’t win the pot without bluffing.
+How do you figure out whether you should bluff or give up, when you have no information about how your opponent plays?
+While this can be a very tricky spot to navigate, especially in larger pots, there are plenty of theoretical concepts we can call upon to help us with this kind of decision. Let’s explore a few of the most important things we should be keeping in mind when we arrive at the river with a potential bluffing candidate.
+Theoretical concerns:
+Showdown value
+Blockers
+Unblockers
+Frequencies
+Showdown Value
+First and foremost, we have to evaluate whether the idea that our hand can’t win at showdown is actually accurate. After all, there are plenty of scenarios where a hand that was bluffing on one or even both previous streets still has 5%, 10%, or even 20% equity once the river rolls off.
+Example
+Take this spot as an example—it’s based on a recent online hand I played. It’s an MTT spot where we open A♦K♠ from the LJ at an 8-handed table and get called by the SB, with effective stacks of roughly 30bb. I’ve used Chip EV ranges here, just to illustrate the principles at work.
+The flop comes T43 with two clubs, villain checks, we c-bet 40% pot, and villain calls. The turn is an offsuit Queen, villain checks, and we bet again for a roughly geometric size of around 70% pot. villain calls, and the river comes an offsuit 7.
+The postflop action
+We could think about bluffing here, given that we only have Ace-high, and we can put a lot of pressure on a hand like JTs or T9s, which would be a pure bluff-catcher here. However, before we bluff with this hand (and remember, in theory, bluffing the river is usually a 0EV proposition unless we have some very important blockers), we should make sure to evaluate whether it’s possible we can actually win at showdown because:
+If we know that checking makes money, then making a theoretically break-even bluff on the river is actually a bad play.
+LJ’s river strategy with AKo vs SB
+As you can see here, any combo of AKo that reaches the river in this line wins 21%–30% of the pot by checking, given that we beat all of villain’s missed flush draws and combo draws. So, even though bluff-shoving would be winning around 15% of the pot at the bare minimum here, that’s not enough to justify actually making the play.
+If we’re going to make sure we have enough bluffs here to keep villain indifferent, which is what we should be doing in theory, then there’s no reason to take a hand that can sometimes win at showdown and use it as a bluff. We may as well use hands that never win at showdown instead, and this way we’re not giving up whatever percentage of the pot we might be winning if we check.
+LJ’s river strategy with 98s vs SB
+By contrast, here’s a look at the EV of betting vs checking when we have 98s—clearly, this is a big difference. While minor card removal
+factors related to the turn being the Q♥ do make 9♦8♦ a better bluff than 9♥8♥ here, we’re bluffing 9♥8♥ 100% of the time, even though it’s only winning 8.6% of the pot by doing so. This is specifically because we’re only making 2% of the pot if we check since it’s so difficult for the villain to ever have worse than 9-high.
+Of course, there are plenty of spots where even Ace-high has no showdown value at all, based on the nature of the board texture and the opponent’s range for continuing beyond the turn; in those spots, bluffing the river with Ace-high will usually be a much more reasonable proposition. But you’d be surprised how many errors players will make by bluffing with hands that simply don’t need to bluff in order to sometimes be able to win.
+Blockers and Unblockers
+A lot is made of the significance of blockers within poker strategy, and in many cases, they’re not as meaningful as you might think, but bluffing the river is one instance where it is important to be mindful of each individual hand’s blocking and unblocking properties.
+As a rule of thumb, if we’re planning to bluff the river, we want our hand to do two things:
+Block at least some of the hands our opponent is likely to call with
+Unblock as many folding hands as possible, or in other words, not blocking any of the folding range
+While it’s not easy to find spots where a hand does both of these, it does occur surprisingly often, and these are spots where we should make sure we pull the trigger on bluffs.
+There are also plenty of spots where our hand will be able to do one of the above, but not the other, and bluffing with these hands is generally going to be pretty reasonable as well.
+The spots we want to avoid, however, are the ones where our hand does neither of the two things we want—it doesn’t block any calling hands, and it actually does block some of our opponent’s folding range.
+In these spots, our bluff is significantly less likely to get through. The best way to explore these spots with GTO Wizard is by using the “Blockers” tab in the analysis section of a sim. The first clues can be found in the “Hands” tab however. Let’s go back to our previous example so I can show you what I mean.
+LJ’s river strategy with AKo vs SB
+Here are all of our AKo combos from the spot we were looking at before. The blocker scores are represented in the top-left of each rectangle, next to the hands themselves. The left number is the value removal, while the right one is the trash removal.
+Value Removal Score
+When using these scores to guide us, it’s important to note that since value removal only really refers to the top portion of our opponent’s range and not their bluff-catchers, most of our bluffing candidates in many spots will have relatively low value removal scores. Even a 2 or a 3 can be a significant factor in some scenarios. All the AKo combos have a 1 in this particular spot because they don’t block any two pairs, sets, or straights.
+Trash Removal Score
+However, the trash removal scores are going to vary significantly, depending on certain hands’ interaction with all the weakest combos in our opponent’s range. In this particular spot, a combo like A♦K♠ doesn’t block any of the weakest hands in villain’s range, which are mostly missed flush draws, so it has a 1 for trash removal; something like A♣K♥, though, has a 6 for trash removal, because the A♣ blocks all the missed nut flush draws.
+When In-Game
+We can’t necessarily expect ourselves to calculate these removal scores in a precise way in-game, but looking at the scores in the sims we study away from the tables helps us to acknowledge why a certain hand might be choosing whether or not to bluff in a specific spot. This process cultivates the intuition that we rely upon when sitting at a table where it’s brain vs brain.
+Frequencies
+Our final theoretical concern in these spots is our overall bluffing frequency. While we won’t always be up against opponents who are capable of recognizing whether we’re over-bluffing or under-bluffing, we do have to be mindful of:
+The information we convey to everyone else at the table when hands go to showdown.
+The way our bluffing choices on the river will affect the way our opponents perceive us over time.
+If we automatically bluff the river with every possible bluffing candidate, we’re likely going to end up over-bluffing, which may actually be a short-term benefit in many spots, but could leave us open to a very obvious counterexploit by any competent and attentive opponent at the table—they simply stop folding their bluff-catchers. Conversely, if we don’t bluff the river even with our best candidates, those competent opponents can make the inverse adjustment relatively easily; folding to our river-bets more often.
+While it might be tempting to dive down the rabbit hole of deliberately trying to influence our opponents’ future adaptations with our current actions, it’s a very difficult dynamic to navigate; we can’t always be particularly confident of the exact adaptations our opponents will make, or when those adaptations will occur. The way we extract ourselves from this complicated leveling war is by ensuring that we don’t overly commit to over-bluffing or under-bluffing exploitatively until we have a high level of confidence in our opponent’s tendencies. And the way we do that is by having a baseline notion of what our give-up hands are in any given spot, using the principles we’ve already discussed.
+If we arrive at the river with a poor bluffing candidate—which blocks some of our opponent’s folding range, doesn’t block any of their calling range, and/or has some showdown value—checking is likely to be a very good option.
+But what happens when we’re simply not sure whether our hand has the right properties or not? After all, some spots are very complex.
+Well, ultimately, if we want to moderate the frequencies in a way that makes sense, we can usually default to one simple protocol:
+The hands with the least showdown value are more likely to want to bluff.
+If we have a choice between bluffing the river with Ace-high or 9-high, and we’re not sure which of the two has the right blocking and unblocking properties, we would prefer to bluff the 9-high and check the Ace-high, simply because we can be more confident that we’re not wasting any showdown value.
+Conclusion
+In short, we can follow one fairly simple maxim:
+If you arrive at the river and can’t easily identify any better bluffing candidates or weaker showdown value hands in your range than your current hand, your current hand will probably serve decently well as a bluff.
+This will help you moderate your bluffing frequencies to some degree and make it less likely you’re going to end up with literally no bluffs at all in any specific scenario.

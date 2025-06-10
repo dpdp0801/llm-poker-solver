@@ -1,0 +1,159 @@
+### TOPIC: how to use equity buckets in poker
+hey everyone and welcome in this video 
+I'm going to explain how to use equity  
+buckets to better understand flop strategies if 
+you're looking to better your understanding of  
+Game Theory and fundamentals this 
+is going to be the video for you
+first off we're going to take a look at two 
+examples that will better illustrate how to  
+use equity buckets in flop strategies we're 
+going to open up Wizard and go to the study tab
+from here we're going to select two 
+different scenarios from the same positions  
+first we open under the gun and call 
+the big blinds you can use any flop  
+that you're looking to study for this example 
+I'm going to use Ace Jack 10 for the first one
+and we're going to take a look at the 
+equity buckets for this particular flop  
+so to find the equity buckets 
+you're going to go to the ranges tab  
+and in the middle here you'll 
+see a section for Equity buckets  
+to explain what Equity buckets are you can go to 
+the the drop down here and click the help Equity  
+buckets are essentially hands that are separated 
+by their Equity into categories so we have best  
+hands good hands weak hands and trash hands trash 
+ends are going to be any hands that have an equity  
+threshold of zero to thirty three percent weekends 
+are going to be 33 to 50 percent good hands are  
+going to be 50 to 75 percent and best hands are 
+going to be 75 to 100 percent so when people are  
+talking about best hands Advantage they're 
+talking about how much Equity our range has  
+with a certain category of hands so our best hands 
+are going to be in that 75 to 100 Equity category  
+now how do we use these to help better understand 
+flop strategies let's get into the first example
+the first thing I like to do when studying a 
+scenario is to look at the two different ranges  
+and how they interact with the board 
+so we can do that with the ranges tab  
+you'll see here that on each side we have the 
+under the gun position and the big blind position  
+as the original razor we can typically understand 
+that we're going to have a lot of strong hands  
+some of these hands are not going to be in big 
+blind's range immediately that draws my attention  
+because this is a flop with high cards so if under 
+the gun is going to have a strong range of high  
+cards I'm going to assume that it's going to be 
+the stronger range we can confirm this by looking  
+into the equity buckets you can see here that the 
+best hands if I click here will display the best  
+hands in the category and it shows that the under 
+the gun range in fact has 39.4 percent of best  
+hands compared to the big blinds of 4.6 percent so 
+that's a very small number of best hands for the  
+big blind and it makes a lot of sense as I've 
+mentioned before it does lack a lot of strong  
+combos like Aces and kings ace king and a lot 
+of Ace queen offsuit as well as Ace Queen Suited  
+so whenever you have a range that is going to have 
+more strong combinations than another the solver  
+is going to want to bet at a higher frequency in 
+this case it's so drastic that the solver likes to  
+bet the entire range now this isn't only because 
+of the best hands range but also because of the  
+weekends and the trash ends so if we look at the 
+weekends and trash ends the under the gun position  
+doesn't really have too many of these combos 
+compared to the big blind the big blind is going  
+to have a lot of weekends and trash hands as we 
+can see here so in combination with the best hands  
+advantage and the lack of weak and trash hands we 
+see the solver wants to bet at a high frequency  
+because the entire range is going to interact 
+with this board very well and instead of trying to  
+balance a really large sizing and a small sizing 
+it makes more sense to group the strategy into a  
+sizing that the entire range doesn't mind betting 
+so when we're looking at the strategy it's often  
+going to be reflected by how the entire range 
+wants to continue sometimes there's going to  
+be a hybrid of these categories sometimes you'll 
+have some best hands uh some good hands weekends  
+and trash hands and the solver wants to split 
+depending on the board texture because of how  
+the opponent interacts with the board as well 
+and in this case because the opponent does not  
+interact with the board whale and we interact with 
+the board very well the solver wants to bet at a  
+high frequency this is going to change depending 
+on the board texture so let's use another example
+let's try something around the 765 range now 
+this is going to hit the big blind much better  
+than the previous Board of Ace Jack 10 and 
+we can immediately see that reflected in the  
+strategy of the under the gun position after 
+the big blind checks you can see the amount  
+that the under the gun position wants to check 
+goes way up and if we look at the equity buckets  
+we're going to find the reason why so here the 
+amount of good hands and weekends is increased  
+in the big blinds uh scenario also the best 
+hands Advantage has shrunk significantly  
+previously we saw that on an ace Jack 
+10 board the best hands Advantage was  
+40 compared to under five and now 
+it's only 13 compared to almost six  
+so this Advantage has shrunk a lot as well as the 
+fact that the under the gun position is not going  
+to interact with a lot of this board a lot of 
+our hands are going to be categorized into the  
+good hands category and whenever you have a good 
+to medium strength hand if you click here you can  
+see that it's going to consist of a lot of hands 
+that don't typically want to be betting three  
+streets of value so hands like queens and Jacks 
+and tens are great but the problem is compared to  
+the big blinds uh strong hands they're not going 
+to be able to to bet and they're not going to be  
+able to bet large across those three streets so 
+looking at the stronger hands from the big blinds  
+you can see that they're going to have a lot of 
+the straights they're going to have a lot of the  
+two pairs they're going to have a lot of the sets 
+whereas under the gun is going to be mixing all  
+of these suited combos around here while big blind 
+is going to have a lot of these suited combos that  
+interact with the 765 board here so this is going 
+to lead to a high frequency of checking for the  
+under the gun whenever you have less of a best 
+hands advantage and the overall good hands are  
+high in your range it's the perfect combination 
+to have a high frequency check in your strategy
+so when I'm studying and comparing two ranges I 
+like to use the equity buckets feature to help  
+myself better understand what's going on with the 
+Flop strategy typically you'll see a lot of Trends  
+with the equity buckets correlating to the range 
+advantage to the best hands advantage to all the  
+different categories here that you'll see they're 
+going to affect your flop strategy and you can  
+always go back and forth between the strategy and 
+the ranges and the equity buckets to see where the  
+trends lie and that's one of the most important 
+things that you can do when you're studying using  
+GTO wizard is to pull the heuristics out of the 
+strategy so that you can apply them to any other  
+situation that you might find yourself into so 
+whether it's a single raised pot or if it's a  
+four bed pot with the small blind and the big 
+blind using the equity buckets and the strategy  
+tool you can come up with an idea of what's going 
+on and why why I hope you guys enjoyed this video  
+if you want to see more of this please like And 
+subscribe and I will see you on the next one

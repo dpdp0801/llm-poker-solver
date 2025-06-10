@@ -1,0 +1,521 @@
+### TOPIC: the truth about mixed strategies in poker
+have you ever looked at a spot in a solver and 
+found that basically every hand in your range  
+is taking various different actions at different 
+frequencies these spots can be very confusing so  
+if you're struggling with interpreting 
+these situations this video is for you  
+hi Wizards I'm Matt Hunt and today we're going 
+to talk about the truth about mixed strategies
+now let's start with a very simple question which 
+is what is a mixed strategy well the best way to  
+answer this is to actually talk about what 
+a mixed strategy isn't because there are a  
+lot of misconceptions that exist here first and 
+foremost a mixed strategy is not playing the same  
+hand different ways in different circumstances 
+you'll hear this quite often you'll hear players  
+say something like "Well against Joe I would 
+three bet this hand but against Steve I think  
+flatting is better." And that right there is 
+not a mixed strategy for the reasons that we'll  
+explain in just a second that is not something 
+that we would classify as being a mix because  
+essentially it's two different strategies it's 
+two different spots two different situations  
+two different approaches with a specific hand 
+similarly if a player is saying something along  
+the lines of "If stacks were deeper I would 
+call but at this stack size I think folding  
+is better." That is also not a mixed strategy 
+once again that is two separate strategies for  
+two separate spots so it's very important that 
+when we start to think about and talk about  
+mixed strategies we employ the term in the right 
+way and we don't start discussing concepts that  
+actually are pretty much completely different 
+from mixed strategies when we're talking about  
+more than one different approach being viable for 
+a hand based on circumstances well that's not a  
+mixed strategy that's really an exploitative 
+strategy and we're getting into a completely  
+different realm if we start talking about that so 
+let's start thinking about the reality of what a  
+mixed strategy actually is well essentially it 
+comes down to the idea of randomization a mixed  
+strategy is a strategy where we are randomizing 
+our action in a specific circumstance specific  
+situation in one of a few different ways there are 
+many different ways that you can randomize you can  
+use something like an environmental factor around 
+you like the tournament clock if you're playing a  
+tournament you can look at the last digit on the 
+tournament clock and say if it's between zero and  
+four I'm going to do this if it's between five 
+and nine I'm going to do something else there  
+are various different ways that you can do this 
+you can use looking at your chips and seeing which  
+way the chip at the top of your stack is aligned 
+if you're playing online you can use the clock on  
+your computer all sorts of things you can do to 
+use randomization as part of your strategy and  
+anytime you're using this randomization you're 
+employing a mixed strategy anytime you're doing  
+the opposite where you're choosing one option 
+ahead of another that means you are employing  
+a pure strategy so ultimately these are two 
+completely different contrasting things we're  
+either randomizing or we're not randomizing so 
+the question becomes then why would we randomize  
+our actions why would we want to essentially give 
+up control over our action and hand it over to a  
+random factor well there are a few reasons but the 
+easiest way to understand why we might do this is  
+to start by understanding why the solver does it 
+well the solver does it because it needs to remain  
+unexploitable in all aspects of its strategy 
+in the solver it's playing against the perfect  
+opponent it's trying to ensure that every part 
+of its strategy every range that it has is going  
+to include strong hands bluff catchers bluffing 
+candidates and so on across all possible betting  
+lines to avoid being exploited or in other words 
+allowing our opponent to make a deviation that  
+improves their EV so it's essentially just trying 
+to maximize its EV but it's playing against itself  
+it's playing against a perfect opponent that can 
+spot any weakness and therefore it understands  
+that it has to figure out a way to make every 
+part of the strategy coherent and to make it  
+functional by including different types of hands 
+that have different functionality and can achieve  
+different things so now that we've covered why the 
+solver might randomize let's talk about when this  
+is actually going to happen in what circumstances 
+is this going to happen well generally it's going  
+to be anytime the EV of two actions is essentially 
+the same so it's going to be situations where both  
+calling and raising for example have the same EV 
+against a perfect opponent or where calling and  
+folding have the same EV folding being zero and 
+calling also being zero essentially it's in any  
+circumstance where it doesn't matter what we do 
+in each individual instance however over time if  
+we always took the same action in these spots that 
+strategy would become exploitable if we take every  
+bluff catcher in a river spot and we essentially 
+fold it all the time then ultimately we end up  
+folding at a pretty high frequency and it becomes 
+much more straightforward for our opponent to  
+identify that they can exploit this tendency they 
+benefit from us overfolding in this instance so we  
+generally are going to see that when the solver 
+is doing this it's because this is an area where  
+a hole in our strategy an exploitable aspect of 
+our strategy could exist if we simply did the  
+same thing every time so that's why this exists 
+that's why this happens now I'm going to take  
+a quick look at a spot that I've prepared which 
+is an example of a mix strategy it's relatively  
+simple pretty straightforward but hopefully it'll 
+illustrate the concept pretty well so this is our  
+example spot right here it's actually a very 
+straightforward cash game scenario we are at  
+no limit 500 2.5x open from the hijack and we're 
+on the button and as you can see there's a lot of  
+hands here that are featuring a mixed strategy 
+in fact almost all the hands that are putting  
+money in to any degree are mixing at a pretty 
+significant frequency the only hands that are  
+playing a certain action purely are aces ace king 
+and kings that's it even queens is not taking the  
+same action 100% of the time ace queen suited 97% 
+of the time it's three betting but 3% of the time  
+it's flatting and so on you can look through the 
+entire rest of the range and there are no hands  
+other than the folding hands that are taking a 
+certain action purely even fives and below they're  
+mixing calls and folds in this circumstance this 
+is a great example of mixed strategies in action  
+if I click on the EVs for each hand over here and 
+then we convert it to percentage of pot you'll see  
+obviously all the hands that are playing pretty 
+much pure fold are making 0% of pot of course  
+but then if we look at the hands that are calling 
+you can see that a lot of them the ones that are  
+taking a call option at a pretty low frequency are 
+making almost exactly zero 98 suited for example  
+exactly 0% of pot 10 9 suited very slightly more 
+than that and so on there's a few hands over here  
+that are making 0% of pot there's a few hands up 
+here and so on so all these hands that are mixing  
+between call and fold are doing it because the 
+EVs are the same same goes for three betting if  
+we highlight three betting you can see these hands 
+once again are falling into that category where  
+the EV of raising you can tell from this graphic 
+is 0% of pot we're looking at all this stuff here  
+pretty close to zero a lot of this stuff down here 
+pretty close to zero all this stuff pretty close  
+to zero and so on so obviously even though there 
+is a tiny margin for error in the actual sims  
+themselves the solver doesn't calculate to the 
+most precise degree of accuracy in every single  
+case there's usually going to be some scope there 
+for some slight inaccuracy so for the most part  
+here you can see that because the EV is close 
+together or the EV is in fact exactly the same  
+the solver is choosing a mix and if we go back to 
+the baseline strategy you can see that there's a  
+lot of hands here where it's pretty close between 
+three bet and call you can see all of this stuff  
+right here is really never folding at all but 
+it's definitely not sure whether it should flat or  
+three bet and that's reflective of the fact that 
+we need board coverage in both of these ranges so  
+ultimately this strategy will come up quite a 
+lot you'll see mixing coming up quite often in  
+these preop spots and in essence it's because we 
+need to have the right kind of a three bet range  
+to attack the original razor here but we also need 
+to have the right kind of a flatting range so that  
+we don't get attacked by the players left to act 
+behind in these cases as well so there's a variety  
+of things that we're trying to balance up against 
+each other here to create a well-rounded strategy  
+and that's where we're trying to get to with our 
+ultimate outcome here so that's the basics of why  
+these mix strategies exist in these spots we're 
+trying to protect our ranges from all possible  
+angles but of course the big question now is do we 
+actually need to mix in practice and unfortunately  
+the short answer is maybe because it's true that 
+there will rarely be instances where your opponent  
+can specifically make adaptations based on knowing 
+that you are never mixing in a certain spot but  
+the impact of never mixing on later street nodes 
+in the game tree can be quite significant so it's  
+going to quite often affect the way that turns 
+and rivers are going to play out if you don't  
+mix a certain hand on an earlier street and we 
+call this the downstream impact the impact that  
+a decision has on everything that comes after that 
+decision point it has a big impact on subsequent  
+nodes in the decision tree and I can illustrate 
+this with a spot that I picked out from a cash  
+game scenario where we're just playing a chippy 
+v circumstance and we have a board come out that  
+requires a lot of mixed strategies with various 
+types of hands it's an 874 flush draw board so  
+let's take a look at that so here's our spot that 
+we're looking at as I mentioned it's a 100 big  
+blind cash game spot chip EV ranges very basic 
+straightforward situation probably replicating  
+a timed rake live game let's say using these 
+chip EV ranges and we're in lowjack against  
+big blind formation 5.5 bigs in the pot after 
+we open a 2.5x big blind calls we go to a flop  
+and we get this 874 two spades flop now I have 
+removed the big blinds don bet range here just  
+to simplify the sim a little bit and allow us 
+to work a little bit more straightforwardly by  
+looking at what we're doing against a pure check 
+strategy not complicating things by introducing  
+different variables about what the donk bet size 
+is and things like that and you can see that our  
+bet strategy here basically employs this 40% of 
+pot sizing and it's not betting at a very high  
+frequency here either we're betting about 40% 
+of the time now that's just simply because this  
+is not a great board for in position it's a board 
+where if we allowed the big blind to don bet they  
+would be doing it quite a bit they have a pretty 
+strong range here so naturally in position isn't  
+going to be able to be super aggressive but the 
+interesting factor is of course there are a lot  
+of mixed strategies going on as you can see now 
+the best way to get a grip on this is to look at  
+the filters on the right hand side as you take a 
+look at the equity buckets you can very clearly  
+see that there's no bucket of hands here that is 
+heavily favoring betting and there's no bucket  
+that's heavily favoring checking we're a little 
+bit more inclined to check with the weak hands you  
+can see right there but ultimately every category 
+of hands is betting and checking at a decent  
+frequency here even if you break it down in a more 
+granular way there is a little bit of linearity to  
+the betting range you can see where the the cut 
+off points are there but even the weakest hands  
+are still betting a decent chunk of the time 
+and only the exact nuts 65 is betting at 100%  
+frequency here same goes for all the categories 
+of draws it's kind of splitting 50/50 on average  
+and if you look at this construction here little 
+bit of polarity if you look at hand categories but  
+again in general we're mostly seeing a range where 
+there's a lot of mixing going on and no specific  
+category of hands is heavily favoring betting 
+or checking and what this does is it creates a  
+circumstance where let's say when we check back we 
+still have plenty of potential hands that can be  
+strong in our checking back range there are hands 
+like if we filter for the top of our range aces  
+and kings that are checking back this flop a good 
+amount queens is not checking but that's because  
+most of the combos of queens are not in the best 
+hands category that we just highlighted we've even  
+got some sets some two pair that's checking back 
+in fact all of our 87 is checking back so we've  
+got a pretty wellprotected checking back range on 
+top of that we've also got a bunch of flush draws  
+we look at not flush draws flush draws and combo 
+draws our flush draws are only betting about 60%  
+of the time on the hole here so clearly when it 
+goes check check and the turn is a spade we're  
+going to be able to have a flush quite often 
+and as you can see on this jack of spades turn  
+we do now have a flush approximately 5% of the 
+time not a huge frequency but it's decent it's  
+enough to protect our range to some degree so our 
+next step is now to see what happens if we decide  
+not to take that mix strategy on the flop what 
+happens if we play this spot differently well  
+right now when we get to this jack of spades turn 
+our EV share is 48.58% of the pot which is not bad  
+just under half the pot we check back the flop we 
+still win about half the pot it's pretty good but  
+let's see what happens if we decide to lock our 
+flop strategy and in this case we maybe decide  
+that on the flop we are going to just always bet 
+every single straight set and two pair and we're  
+going to always bet all of our combos flush draws 
+and not flush draws so ultimately everything that  
+is a strong draw flush draw plus is going to bet 
+this flop and we're actually also going to throw  
+the open enders in there just for good measure 
+10 9 people tend to bet a lot of openenders here  
+so we're betting all combo draws flush draws 
+and not flush draws and now we're just going to  
+lock so we're going to basically say we're still 
+playing everything else completely optimally still  
+playing a perfect strategy with the rest of our 
+range but we're just betting all of our strongest  
+hands at 100% frequency see what impact this has 
+now previously our opponent was able to bet that  
+Jack of Spades turn about 75% of pot and they 
+weren't betting that often but now when it goes  
+check check and we get that jack of spades turn 
+see what happens take a look at this they're able  
+to bet 2.5x the pot they're just using a geometric 
+size 2.5x pot to E size with more than half of  
+their range they are just applying insane amounts 
+of pressure here because our range is completely  
+capped and take a look at our EV share of the pot 
+it's gone down from 48 1.5% to 28% less than 28%  
+we've cost ourselves about 20% of this pot 
+by never checking back a flush draw and never  
+checking back two pair plus it's a huge deficit 
+now it's not necessarily of course going to be  
+the case that our opponent is immediately able to 
+realize that this is exactly what we're doing but  
+as you'll see in a second it's not as complex 
+as you might think for them to figure this out  
+so let's talk about it a little bit so like I 
+say you're probably asking right now surely my  
+opponents are never going to figure this out well 
+unfortunately for us they don't have to and what  
+this comes down to is you're probably spending 
+a lot of time thinking about how your opponents  
+perceive your game and a lot of players spend 
+too much time thinking about this because your  
+opponents aren't going to have enough information 
+about you to make specific adjustments you're  
+right about that you're right that it's very 
+difficult for them to know that you specifically  
+are doing exactly this in this spot however the 
+better players that you're playing against will  
+have a pretty good solid understanding of how 
+the average player in that player pool is going  
+to play a specific spot and that becomes a problem 
+for us because if that's the case and here's why  
+even though it's true that even your toughest 
+opponents don't know your game well enough to  
+identify your specific weaknesses they do know 
+the weaknesses of the player pool and if your  
+weaknesses match the weaknesses of the player 
+pool then the way that your opponents play a  
+certain spot by default based on their assumptions 
+and their understanding about how their player  
+pool tends to play is going to essentially 
+be exactly how they need to play in order to  
+exploit you individually and that's where things 
+start to become really problematic because now  
+your opponents are not even going to have to know 
+anything about you specifically all they're going  
+to have to do is have a broad understanding of how 
+the player pool plays and how to adjust to that  
+and it's not that difficult for a good player 
+to recognize that if you check back the flop  
+and you never have a flush on a flush card turn 
+they can apply a ton of pressure to that range  
+so what it comes down to is that the best way 
+to avoid getting exploited by the better players  
+in your player pool is to simply make sure that 
+whatever weaknesses do exist in your game are not  
+the same weaknesses as what exists in the rest of 
+your player pool you don't want to be making the  
+same mistakes as everybody else it's okay to make 
+mistakes especially if those mistakes are very  
+difficult for your opponents to figure out but if 
+you're making the same mistakes as everybody else  
+does that's where it becomes a real problem so 
+you might be now wondering well does that mean  
+I should start randomizing all the time well 
+the answer is no because there is a way out of  
+this dilemma while it's true that mixing at the 
+range level is crucial because obviously we can't  
+just range bet or range check every single spot 
+and mixing at the hand class level so different  
+categories of hands is also very important 
+because it helps to protect our ranges and  
+moderate bluffing tendencies in the different 
+ways that we've talked about mixing at the  
+individual hand combination level is usually not 
+very important at all as long as we understand how  
+the other levels function as long as we understand 
+approximately how aggressive we're going to be and  
+we understand that different hand categories are 
+going to have different preferences that we have  
+to have a variety of hands in our range that 
+exist across different categories as long as we  
+understand those things we don't generally have to 
+employ a mixed strategy with individual hands very  
+often or to put this another way what it comes 
+down to is this simple statement if you understand  
+the properties of individual hand combinations 
+and the function of specific bet sizings you  
+will very rarely need to actively randomize not 
+going to say never because of course there are  
+spots where you might be up against tough players 
+randomizing can be useful of course but you will  
+very rarely need to actively randomize if you 
+understand the function of bet sizings and the  
+properties of different hand combinations so let 
+me show you what I mean by that i'm going to look  
+at this same example same one we just looked at 
+and we're going to illustrate a range that is not  
+mixing at all but it's selecting hands purely on 
+the individual hand combo level so we're back to  
+our same sim as we just had and in this case what 
+I've done is I've taken about 5 10 minutes not a  
+huge amount of time you know haven't gone through 
+this in incredible detail but I've taken some time  
+to flesh out a strategy and a construction for 
+our range here that doesn't involve ever doing any  
+mixing with any hand candidate so as you can see 
+the frequencies are fairly similar to what they  
+were before frequencies here are at about 40% 43% 
+in this case sizing is the same and by contrast  
+if we look at the summary of all the hands and we 
+flip through here every single hand if we scroll  
+all the way down is either purely checking or 
+purely betting there's no hand that has a bit of  
+red and a bit of green here right so every single 
+combination of hand is playing a pure strategy but  
+the entire range is constructed in such a way that 
+if you look at the categories they still resemble  
+somewhat what we saw before there's a little 
+bit of difference here in this grouping there's  
+a little bit kind of a different shape here and 
+still a little bit of linearity there there are  
+certain combinations of draws that are betting 
+more often you can see we got the the flush  
+draws and the openenders betting a little bit more 
+frequently so there's certain tweaks that maybe if  
+you wanted to go into even more granular detail 
+you could really you know pick out the specifics  
+here and get this 100% accurate but even in just 
+5 or 10 minutes of building out this strategy we  
+have arrived at a similar frequency and a decent 
+range construction and if we look at where  
+we're at in terms of EV on the flop we're still 
+outperforming Villain on the flop we've got 53.4%  
+4% of pot uh EV share here so on the flop we're 
+doing fine and crucially when we look at that jack  
+of spades turn we are no longer getting absolutely 
+wrecked by these massive bets we're making about  
+43% of pot and villain is only able to use a 
+40% size they're not able to use this massive  
+polarized geometric size here so even though 
+we are still about 5% of pot shy of where we  
+would like to get to here our optimal pot share we 
+are doing significantly better than the strategy  
+where we just took an optimal strategy but always 
+bet our strongest hands and our draws and this  
+didn't even take that much effort it took 5 or 10 
+minutes like I say now I'm not suggesting that you  
+guys can do this without effort of course it takes 
+time to get good at selecting the hands that we're  
+picking but if you understand the properties of 
+different hands and you understand the function  
+of bet sizes you can do this you can learn to 
+get good at this one of the factors that I use  
+to help select the betting range here is simply 
+suit interactions so for example offsuit hands  
+that have a spade in them we're betting a lot of 
+those right offsuit hands that don't have a spade  
+in them we're betting far fewer of those that's 
+definitely going to be a factor here that you'll  
+see even in the baseline solution suited hands of 
+course we're not betting all of our flush draws  
+we're betting a lot of our back doors but not all 
+of our back doors and we're betting a lot less  
+often if we have diamonds or clubs those factors 
+are going to be very relevant as well so again  
+it's not a perfect metric but it's a very good one 
+and it gets you pretty close to a good strategy  
+without the need for any actual randomization so 
+you might be left thinking well how do I actually  
+get better at this because this is a very complex 
+process well in this case the range builder on  
+GTA Wizard is your best friend the range builder 
+is a really really great tool you can use it to  
+practice building some very robust strategies 
+which don't involve any mixing or maybe you  
+use it for employing some strategies which have a 
+simple 50/50 mix on certain hands that's certainly  
+an element you can add in if you feel like it's 
+useful or necessary and remember also that you  
+can use the range builder in conjunction with 
+node locking this is really crucial you can nod  
+lock a sim and then skip yourself out of looking 
+at the answers essentially and go through a range  
+construction exercise you can nodlock how you're 
+going to construct your range against a specific  
+type of opponent you can build a robust strategy 
+that doesn't require mixing designed to cater to a  
+specific tendency your opponent might have there's 
+all sorts of things you can do but in general as  
+you can tell if you are mixing at the right levels 
+if you're mixing at the handclass level if you're  
+mixing at the range level you don't actually have 
+to necessarily mix at the specific combo level  
+that often so hopefully this video has given 
+you a little bit of a guide of how you might  
+want to start incorporating mix strategies or why 
+they might be useful and it's also reassured you  
+that there aren't going to be very many situations 
+where you're going to need to randomize and leave  
+your strategy up to variance in most scenarios so 
+thanks everybody for watching and if you'd like  
+to check out another video I have one right 
+here that I recently made where we talked  
+about the situations where you should not use a 
+mixed strategy and in fact you should range bet  
+you should bet every single hand so if you want 
+to check that video out the link is right here  
+otherwise if you have any questions I'll be 
+available on Discord and you can tag me and  
+ask your questions right there until next time 
+everyone thanks for watching and good luck with it

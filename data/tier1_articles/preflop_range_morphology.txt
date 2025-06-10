@@ -1,0 +1,94 @@
+### TOPIC: preflop range morphology
+Preflop Range Morphology
+Morphology in poker is the study of shapes/forms of ranges. This domain of poker study is particularly handy when it comes to preflop theory. There are several types of poker ranges, all of which play in strategically different ways. The easiest way to conceptualize them is by associating a particular shape. Instead of trying to track every possible combination of hands, it’s more efficient to start off by thinking in more general terms, such as the overall shape of a range. This will not only make your preflop decisions easier but also how you perform postflop.
+There are four fundamental forms of ranges in poker. One way of representing them is via the following table, which mostly follows the layout of the advanced equity buckets you can view in the postflop solutions.
+Polarized – Very strong hands and weak hands
+Linear – Top-down value
+Condensed – Mostly medium-strength hands
+Merged – A mix of everything: nuts, air, and middling hands
+Linear Ranges
+A linear range in poker is
+Filled up with hands in a continuous, top-down manner.
+It starts with the best possible hands and moves downwards until it reaches a floor.
+A (medium to deep-stacked) preflop opening range is the quintessential linear range. For example, this is a 100bb UTG opening range in an NL500 cash game:
+An example of a linear range
+This range is comprised of 17.6% of all possible starting hands, and crucially, these are the most valuable 17.6% of starting hands (after you account for board coverage). If you, as the first-to-act player, were to play a range of 17.6% of hands, there would be no value in picking 72o. All the less valuable hands in this range open-fold.
+This becomes clear when you look at the EV of each hand:
+Filtered for the linear open-raising range, displayed in EV view
+If you are unfamiliar with this EV view:
+Green hands are very valuable
+Yellow hands are quite valuable
+Orange hands have some value
+Red hands are practically worthless
+As you can see, the range is mostly green and, in a linear fashion, turns into yellow, then orange, and eventually red.
+There are some weak hands in the range, like A3s or 55. These are break-even as opens, but they help achieve board coverage and will often be the bluffs in the range (yet, still expecting to be in good shape some of the time when they get action). These hands are still quite strong in an absolute sense and are certainly not ‘trash’ hands, of which we will have examples in other ranges.
+A linear range will contain all the strongest hands (i.e., uncapped). So, proceed with caution as the player facing them. And conversely, play aggressively as the player wielding them.
+Polarized Ranges
+A polarized range in poker is
+Comprised of very strong hands and bluffs, with little in between.
+This is the BB response to an SB open in the same cash game:
+An example of a polarized range
+In the raising range, there’s a cluster of very strong hands like AA in the top-left corner and moving down the pocket pair diagonal line in the middle. The next strongest hands are all calls, hands like A9s and 88, which can be classified as medium-strength hands. The bluffs are coming from the weakest region of the range in both the suited and offsuit sections. Trash like T2s and K5o.
+We can see which hands are bluffs and value by filtering the raises in the EV view:
+Filtered for the polarized re-raising range, displayed in EV view
+Most of this range is green (the strongest, most valuable) or red (the weakest, least valuable) hands. This is where you can see whether a hand is a bluff or not. TT is green, so clearly a value hand; it makes 3.65bb as a raise. A2o, however, is a bluff; it makes only 0.03bb on average.
+Polarized ranges tend to size up to have their best hands extract as much value as possible and yield the most folds for their bluffs. A typical response to a polarized range is to bluff-catch against them because raising only folds out the bluffs. However, when a range is too polarized, they become vulnerable to attacks with small bets, because such bets lose the minimum when running into the top end of the range, and no bigger bets are required to fold out the bluffs.
+Condensed Ranges
+A condensed range in poker is
+Comprised of middling hands, with little (if any) very strong and very weak hands.
+So, it’s the opposite of a polarized range, which is why it’s also sometimes called a depolarized range. This is a range made up of medium-strength hands. No nutted hands, but no trash either.
+This is the BTN response to the UTG open at our NL500 table.
+An example of a condensed range
+The calling range here is mostly medium-strength hands. It is missing the nutted portion at the ceiling but also has very little trash from the floor. Again, a quick look at the EVs of the range shows us…
+Filtered for the condensed calling range, displayed in EV view
+Some green, but plenty of yellow and orange. The included weak hands are there for board coverage reasons. 98s, for example, is a break-even hand but can hit a lot of flops hard, which has the effect of making an opponent a bit more cautious in their aggression on such boards.
+The correct OOP response versus a condensed range is to check a lot. This might sound strange because they are missing the nutted hands, but the range is constructed entirely of playable hands with decent equity. The idea behind this type of range construction is to disincentivize future aggression (e.g., the blinds squeezing behind), so it is still a strong range.
+If you visit the flop reports tab for this spot, UTG checks 67.5% of the time to the BTN despite having a significant range advantage. The following rule, which has its limits, is often mentioned in this regard: the wider the distance between an open-raiser and a cold-caller, the less checking there should be.
+In this example, UTG opens, two players fold, and the BTN calls, with UTG checking 67.5% of the time. If, instead, the CO calls, UTG should check 70.6% of the time. This is because the wider the gap, the bigger the range advantage of the opener, mitigating the power of position. UTG has a much stronger range than the BTN but a more similar range to the CO. This causes position to play a more crucial role, resulting in more checking by the CO.
+Merged Ranges
+A hard-to-define and often confusing form is the merged range, but here goes.
+A merged range in poker is
+Not quite polar, not quite linear, but somewhere in between.
+It has nutted hands for value, trash hands used as bluffs, and medium-strength hands too.
+In cash games, you are encouraged to raise with merged ranges because you are more incentivized to play preflop aggressively because of the rake. However, you don’t want to have an entirely polarized range when you do it. You want medium-strength hands in the 3-betting ranges for several reasons, such as board coverage and playability.
+It’s best to explore it further by demonstrating with the NL500 example we have been using. This is the BB response to a BTN open:
+An example of a merged range
+Is the raising range polarized or linear?
+It’s quite hard to say. It has the nutted stuff in the top-left corner, the bluffs with hands like J4s, as well as the middling hands like 99–77 and the high suited cards like KTs and T9s.
+This is the same spot but at NL50:
+An example of another merged range
+Zooming out, they look very similar. Upon closer inspection, however, you can notice that the NL500 range is a little more linear, and the NL50 range is a little more polar. The NL500 range has more 99/88 and more strong suited hands like ATs/JTs/T9s, etc. The NL50 range has more trash hands, like Q2s and K8o.
+The reason for the difference between these ranges is (postflop) rake. At NL50, more rake is paid if the hand goes postflop, so there is more incentive to 3-bet preflop to take the pot down before it goes postflop and rake is charged.
+The easiest way to determine why a merged range leans more polar or more linear is to look at the opponent’s response.
+(This method of analysis applies to any preflop spot in any format.)
+These are the responses to the 3-bet at NL500 and NL50, respectively:
+BTN responses vs BB 3-bets at NL500 (left) and NL50 (right)
+When the BTN continues at NL500, they raise 31% of the time. Meanwhile, at NL50, they raise 39% of the time. The deciding factor in whether we have a more linear or polarized range is how likely we are to get blasted off our hand.
+At NL50, we raise with a slightly more polarized range because we will get 4-bet more often. It’s much easier to fold a hand like Q2s than it is to release 99. It sucks to have to fold a strong hand like 99 to a 4-bet, so we are more likely to flat-call preflop with this holding. At NL500, by comparison, we get 4-bet less often, which is why we can be slightly more linear and include more medium-strength hands in our raising range.
+Open-Raise Sizing
+Once we understand range morphology, understanding preflop open sizing becomes easier. (For a dedicated deep dive on this topic, I can recommend looking into this article.)
+In the early days of poker, the conventional wisdom was that early position opens should be larger than late position opens. The logic went that an early position hand would be stronger so it could extract more value. It was also to disincentive too many cold-callers.
+In the solver era, the opposite is true.
+The early position opens tend to be smaller than the late position opens.
+This, for example, is NL500:
+Open-raise sizing per position
+The smallest open is for the minimum of 2bb from UTG, the CO makes it 2.3bb, the BTN makes it 2.5bb, and the SB makes it 3bb.
+This is because an early position opener is more likely to face a 3-bet than a player who opens in late position. This is simply because they will face more opponents than the late position opener.
+Most competent players, especially in raked games, will use a 3-bet-or-fold strategy against an open-raise to avoid squeezes. In late position, this is less of a concern, which is why opening bets tend to size up.
+Going back to our NL500 vs NL50 comparison.
+This is the UTG opening range for NL500:
+This is the same range for NL50:
+In both cases, we play the same amount (17.6%) of hands, but with some subtle differences in the kinds of hands. At NL500, we play KTo and T8s some of the time and play 55–22 more often. At NL50, we play A2s some of the time and play K8s–K5s more often.
+This is because, as we have gotten a taste of earlier, we are going to get reraised more often at NL50 because of the higher rake. That makes it more useful/valuable to have better blocker hands like A2s and K8s that block part of our opponent’s 3-betting range.
+We can size larger when there is less risk of reraises. We open small in early position because it makes it easier for us to fold when we have a weak hand. And when we have a strong hand, we can still reopen the action. When there is more chance of being 3-bet, the shape of our range shifts more towards blocker hands to deter those pesky (for the majority of our range) 3-bets.
+This also informs your exploits. If nobody is 3-betting in your games, you should open for a larger sizing. If you are at an aggressive table, you should make your bet sizings smaller and favor hands with blocker value.
+Conclusion
+When looking at solver outputs, it can be overwhelming to try and remember every hand in a range preflop, even more so postflop. What can make this task of thinking in ranges more manageable is to:
+Focus first on the overall shape of the range
+Only parse out specific hands for deliberation afterward.
+This approach should make the process more efficient and less intimidating/taxing.
+Whether it is preflop or postflop, a range can typically be described as one of these four fundamental forms of ranges: linear, polarized, condensed, or merged. The shape of the range will inform the strategy you should deploy.
+A linear range is the strongest range, featuring top-down value. You should play aggressively with them and proceed with caution against them.
+A polarized range contains nutted hands and bluffs, with very little in the middle. Typically, the optimal strategy is to size up with a polarized range and bluff-catch when you are up against one. When we do attack a polarized range, we prefer small bet sizes.
+A condensed range contains mostly middling medium-strength hands. They are played well as bluff-catchers because they tend to beat a lot, if not all the bluffs, but raises only get called by stronger hands. We check to condensed ranges a lot because they don’t have any trash in them.
+A merged range lies somewhere between linear and polarized. They are difficult to define and play against. A merged range will lean more linear when there is less risk of being raised, and lean more polar when our opponent is more likely to take an aggressive action.

@@ -1,0 +1,527 @@
+### TOPIC: hand review
+hello Wizards today we've got another
+exciting hand history review played
+between Linus Love and Berry Sweet
+before we get into it you guys should
+know that this was recorded back in
+February of 2022 so our interface and
+solutions have been updated since then
+we thought we should release this video
+anyway as you guys might enjoy the
+content anyway
+here's the hand
+so for those that don't know Linus and
+Barry have been battling it out in the
+high stakes heads up straights lately so
+far it's been going pretty well for
+Barry we're going to go through a few of
+their more exciting hands followed by an
+in-depth GTO review Linus opens on the
+button with Ace 10 off
+Barry calls Queen jack off
+10-3-2 rainbow
+we see a third pot C bet
+and Barry check raises
+Linus three bets
+Barry four bits with Queen High
+and Linus just calls
+turn 10 gives him trips Barry continues
+to Barrel Linus smooth plays it
+Barry shoves the river and Linus has an
+easy call with trip tents alright let's
+dive into the GTO analysis
+for this hand I'm using the heads up
+simple cash game Solutions 100 big
+blinds deep
+Linus opens
+and Barry calls in the big blind with
+Queen jack off
+we see a 10-3-2 rainbow board
+check
+actions on Linus so before we proceed I
+should point out that this won't just be
+a strategy review part of my goal here
+is to teach you guys how to use GTO
+wizard more effectively I'm going to
+take you through my process which is a
+little more intuitive and step back I
+don't really fixate on frequencies so
+much as I do look for overarching
+patterns so when a lot of people look at
+this hand Matrix they're going to get
+confused you know how do you remember
+all of this stuff and the truth is you
+don't you don't remember all of this
+stuff
+you look for heuristics
+so on 1032 there's really two things you
+should be paying attention to the first
+thing is do you have an over car to the
+10 and the second thing is do you have
+any straight draw potential with the two
+and the three
+those are the two main factors that'll
+make you want to bet more often for
+example these lower cards which connect
+better to the two and the three tend to
+bet more often
+these over cards like King Jack being
+jacked into bet more often
+and
+over cards where you have one middling
+card a one over card tend to be checked
+more often
+now you can get a little more in depth
+by exploring the filters for example you
+can see over pairs plus always betting
+you can see top pair bedding with a
+better Kicker more often uh you can see
+for example under pairs betting when
+they're more vulnerable
+second and third pair betting more often
+when they have an over card
+and you can also get into it with suits
+so for example I can change this to
+horizontal mode that'll show me every
+combination and here we see this pattern
+where the Spade tends to be checked more
+often because it doesn't have a backdoor
+flush draw
+alternatively you can apply a suit
+filter so for example including Spade
+here we see the checking frequency is 45
+percent
+apply this filter
+goes up to 49 applied again it goes up
+to 54 percent
+so you can already develop some very
+basic heuristics that way
+now something else you should always do
+in these spots is just take a look at
+the ranges tab get a sense for how this
+board hits both players
+so here we can see it's a very
+symmetrical Equity distribution uh no
+one really has much of a nut Advantage
+either way
+Equity is almost exactly 50 50. but the
+big difference is that the imposition
+player will realize more equity and
+therefore has more EV
+now you may be asking yourself at this
+point how am I going to know all of this
+stuff well one strategy you can use to
+try and figure out these spots more
+easily is to look for General Trends in
+the aggregate reports
+so here we see a report of all 1755
+flops I'm going to filter this report
+for rainbow
+unpaired disconnected boards and then
+I'm going to group it by rank
+so here we see acai boards King High
+boards so on and so forth
+now we notice a pattern jumps up pretty
+immediately
+as this number gets lower the BET size
+increases and the BET frequency
+decreases right so for example
+on a seven High disconnected rainbow
+flop you typically want to bet larger
+and as that goes up to say a king high
+or queen High flop you want to use a
+smaller bet size more frequently ten
+high sits somewhere right in the middle
+there but if we get a little more
+specific with our filters we can view
+flops
+and here you see that some 10 High
+boards are even over betting but these
+really dry ones like 10-3-2 have less
+draw potential and therefore tend to use
+smaller bet sizes
+so now that we have a sense for how the
+spot plays let's dive into the action
+Linus decides to go for a one-third bet
+here
+actions on Barry
+so facing this one-third bit Barry has a
+decision to make with his Queen jack off
+does he want to call or does he want to
+check raise it I think some players
+would just fold this but in a heads up
+game that's a little too tight Queen
+Jack has a lot of equity against the top
+of their range for example it can
+outdraw a lot of 10x hands and for that
+reason it plays more like a draw and it
+needs to continue here
+so
+let's take a look at the overall
+thresholds because I'm not just
+interested in what queen Jack is doing
+I'm interested in what Linus is
+targeting with this bet we can see hands
+as strong as king X start to fold here
+get a better sense for that in the
+filters tab where we can see this is
+about the line of your continue range uh
+King High no made hands
+we can see that a little more easily in
+the breakdown tab where all the ace
+Highs are still calling but King High
+and worse than King High start to fold
+versus this size
+as far as the raising range goes we can
+see it splits its size between three
+different types of races here and some
+players will see this in just
+immediately panic but don't panic you're
+not expected to memorize three different
+race sizes what you can do is simply
+group them together and get a better
+General sense of things
+hover over this icon to see how the
+raising range is constructed
+we can see that about 30 percent of the
+Rays is top pair Plus for value and the
+rest of it is merging with these weak
+Pairs and draws
+in general you want to use about
+one-third value to two-thirds Bluffs on
+a flop check raise
+in a single raised pot the math behind
+that is set up so that you can have good
+value to Bluff ratios by the river the
+math is a little too complex to get into
+for this video but if you guys want more
+of that toy game content just let me
+know in the comments so something else
+you can do here is compare the raising
+frequency on this board to the raising
+frequency on the reports and we see that
+across all flops it tends to raise about
+11 facing a third pot bet so now you
+have a general idea of how often you
+ought to be raising in these spots we
+can see it raises these sets to pair for
+value
+it does have
+a little bit of top pair in there
+and for draws we see a lot of things
+that connect with the two and three and
+that have over cards so to see that
+let's filter by raise
+let's apply
+weak and trash hand filters and these
+are the Bluffs
+six five five four six four Jack four
+Jack five all of these hands have good
+back to a straight draw potential good
+backdoor flush draw potential and
+potentially over cards to top pair
+that's how you know it's a good bluff
+candidate
+if we look at the expected value
+we can get a better sense for which
+hands are closed so for example asex
+here is kind of close even though it's
+pure calling
+King x with a back door is kind of close
+even though it's pure calling these are
+your threshold hands and it's important
+to pay attention to which hands are kind
+of close so that you can readily adapt
+your strategy
+we see that Queen Jack
+can check race here
+and Barry does just that action on Linus
+so facing this check raise we can see
+that the GTO solution tends to gist call
+or fold not doing a whole lot of raising
+in general I think a lot of players
+would just simplify this to a two-action
+strategy and not raise at all and if we
+compare it to the reports we can see
+that over all possible flops
+in position is not raising here very
+much at all only about three percent
+part of the reason for that is that
+Barry's check raise is quite polarized
+we can see in the best hands category
+here these are hands with at least 75
+Equity 26 percent of Barry's range
+consists of best Tans well only about
+3.7 percent of linuses range contains
+these hands
+we can get a little more detailed
+breakdown in the advanced tab here and
+again we see this big nut Advantage for
+Barry and that's going to prevent Linus
+from getting too out of line with any
+more raises
+however Linus is no normal human he
+knows that Ace 10 off is one of your
+highest frequency three bets here and
+more so than sets than two pair uh
+in fact the type of hands it likes to
+raise for value
+typically include
+these vulnerable made hands so here you
+can see I have applied a raise filter
+I've applied a good and a best hands
+filter and we can see that hands which
+race for Value consists of these
+vulnerable value hands like Jax Ace 10
+King 10
+these hands are ahead of the top pair
+medium kicker kind of stuff that Barry's
+raising with while also being vulnerable
+enough to benefit from a raise rather
+than trying to keep Barry's range super
+wide
+so
+Linus makes the three bet
+actions on Barry basing the three-bet
+queen jack off has another decision to
+make we can see that it's indifferent
+between folding calling and raising
+now some people might be surprised like
+why on Earth would you call with Queen
+High here but keep in mind this hand
+does play very close to a draw got two
+over Cards Against The Ten you block
+Jacks which are one of Linus's most
+common value bets here so this hand can
+play as a call sometimes
+Arie however elects to forbit and you
+can't really blame him because in
+general you're going to forebet a lot
+here this is because first of all you're
+out of position so there's less
+incentive to call and more incentive to
+take the pot down now we can see that
+reflected in the reports tab basing a
+three bet we can see out of position
+generally four bets quite frequently and
+this is partly to do with the fact not
+just that you're at a position but also
+that three bet uses very strong Bluffs
+so that further decreases your incentive
+to call and increases your incentive to
+raise them off those strong Bluffs now
+we can see the Rays here mainly consists
+of sets and two pair for Value merging
+with some top pair second pair
+and a whole lot of gut shots
+so Barry puts in the format actions back
+on Linus with Ace 10 off so we see a
+series of raises actions back on Linus
+with his Ace 10 off suit and here we
+could see that this hand shoves quite
+frequently here same with queens and
+Jacks these hands are all vulnerable
+value hands that benefit from folding
+out those strong draws and just getting
+the stacks in now however Ace 10 could
+also mix in calls now we see as again
+I'm going to compare to the general
+reports even though we're in position
+here it's full it's raising a ton 18.6
+of in positions range is now shoving and
+this is again because the value of those
+Bluffs is quite high so there's more
+value in folding out those Bluffs and
+less value in calling as much
+let's take a quick peek at the ranges
+tab again and I want to see the equity
+graph in full
+here we can see this blue line that's
+Barry's line has a massive advantage
+throughout
+um so Linus really does need to fold
+quite a bit
+to catch up here
+so he makes the call
+and we turn
+a ten of Spades
+the tennis Spades is an absolute
+disaster for Barry's range it's really
+bad the problem is that it removes a lot
+of these 10 3 10 2 combos from his range
+as well as counterfeits his three Deuce
+so it severely degrades the value
+portion of his range
+we can see that reflected in the turn
+reports so this shows the strategy
+across all possible turn cards you can
+see that board pairing cards in general
+like tens threes and twos
+remove a lot of those value hands from
+his range and therefore the solver bets
+these cards less often
+uh
+on contrast
+turns which complete a lot of straight
+draws such as fours five sixes even an
+ace these tend to be bet more frequently
+as they tend to be better for Barry's
+range
+here we can see an EV distribution by
+selecting these two buttons up top and
+in fact we can make this a little easier
+to look at
+by just grouping like cards together
+something else you might want to try
+here is filtering for Barry's exact hand
+for example
+here he has Queen of Spades Jack of
+Clubs
+and now we can see the strategy for this
+hand specifically
+tends to bet more aggressively using
+some of these all-in sizes when it picks
+up that gut shot and in general
+barreling quite frequently on low cards
+and on Ace so despite this being a
+terrible card for its range the silver
+does like to check with Queen Jack here
+but Barry doesn't play by our rules he
+only plays by his own rules
+he continues for third pot actions on us
+and if your line is here and you've got
+Ace 10
+you might be thinking hey this is a
+value hand you know I'm way ahead I've
+got trips with top kicker what could go
+wrong but keep in mind this was a four
+bet on the Flop your Ace 10 is not so
+much a value hand here as it is a medium
+strength Showdown value hand
+you can see it only has about 52 percent
+equity so when you see the solver for
+example shoving King 10 here that's more
+of an equity realization play than a
+value bet
+here in the ranges tab we can see that
+Barry's range is supposed to be about 50
+percent bullhouses which have our trips
+crushed of course
+now
+in practice he might be a little more
+Bluff heavy given that he's barreling
+his Queen Jack here but hey who knows
+so Linus makes the call and there's only
+about a half pot behind on the river and
+we get the eight of spades now to be
+honest the eight of spades is kind of a
+non-consequential brick at this point
+because Barry is polarized to boats
+trips and garbage and not much in
+between
+uh it doesn't really interact with the
+range as much we can see there's about a
+41 part behind and the silver constructs
+the shoving range using about 75 percent
+boats and 25 Bluffs
+so what's interesting about a 7525 split
+well if we just run a quick pot odds
+calculation there is shoving 45 the pot
+after it's called is about 200. Linus
+needs about 20 to 23 equity and the
+solver is bluffing about a quarter of
+the time so that's about right
+now at this point Barry can't afford to
+give up too much we can see the silver
+is barreling quite often if you four bet
+the Flop Barrel the turn and then give
+up a ton on the river you're probably
+going to be very exploitable and most
+likely you're over bluffing earlier
+streets so he knows he does need to
+shove quite a bit here however Queen
+Jack in particular uh the silver mostly
+just gives up with this hand I'm going
+to switch over to full height for a
+second this makes it easier to see
+things in the range I don't normally
+recommend this view because it's a
+little misleading normalized will give
+you a better picture of what's actually
+going on but when you want to zoom in on
+some combos full height is okay
+here we can see that it does prefer to
+shove with the Queen of Diamonds and I
+think this is just to do with a blocker
+effect there's no ten of diamonds on the
+board so
+you know Queen Jack with the Queen of
+Diamonds tends to block more Queen 10
+taipans
+so
+anyway
+Barry shops
+and actions back on Linus
+and what to do
+with Ace 10 here well we see all the
+trips all the trips are calling here and
+that's mainly just due to blocker effect
+you're not even that happy to call
+you have about 25 Equity you're really
+close to indifferent
+these trips always call due to some
+small blocker effects however if Barry
+was even a little bit too value heavy
+the solver would snap fold all of these
+trips
+so what's berry actually targeting with
+this size well mostly over pairs Jacks
+Queens Kings Aces we can see that these
+hands have almost exactly the right pot
+odds to call or fold they're very close
+to the line so these are the hands that
+are actually being targeted
+in the breakdown tab we can maybe get an
+easier way to view
+the thresholds so over pairs this is the
+indifference region trips plus pretty
+much always calling and you don't even
+really have any combinations of you know
+second pair even though it does call
+sometimes just due to blocker effects
+similarly we can see for example A2
+calling here that's mainly just because
+the deuce blocks uh a good chunk of
+Barry's value range
+so in the ranges tab we're going to see
+a polarization effect so this Blue Line
+This is Barry's Equity distribution we
+can see he has a lot of very strong
+hands very weak hands whereas Linus has
+all of these Bluff catchers we can see
+that the majority of linuses range does
+sit on this long flat Green Line
+indicating that these hands are very
+close to indifferent realistically any
+hand that beats these Bluffs and loses
+to this value is going to sit somewhere
+along this indifferent Bluff catcher
+region
+nevertheless
+Linus knows that Ace 10 here is a snap
+call he makes the call catches the bluff
+and takes it down wow what a fascinating
+line by both players with a free BET and
+then a four bet correctly on the Flop
+barreling turn shoving River just ice in
+his veins I really hope we can see more
+from these players going forward I'm
+really enjoying these heads up matches
+and I hope you guys got a few things out
+of my process and learned a few tips and
+tricks along the way as always if you
+want to discuss the theory please join
+our Discord Link in the description and
+feel free to leave a comment like
+subscribe and hit that Bell that's all
+for now take care

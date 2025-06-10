@@ -1,0 +1,511 @@
+### TOPIC: gto analysis
+what's up youtube i'm money j2k with gto
+wizard
+and i'm back with another linus love
+hand review this one was a ten
+thousand dollar pod at 25.50 and it's
+got some fireworks on the river
+all right so the hand starts out with us
+opening the button with ten seven of
+hearts to 126 dollars
+big blind calls the big blind is born to
+tilt he's a very respectable 25.50 pro
+he's been on joey ingram's podcast he's
+definitely someone to look out for
+flop is queen queen eight rainbow big
+blind's not gonna have any dunks so born
+to tilt range checks
+linus is going to be betting range here
+biting one about one third
+linus does born to tilt calls turn is
+the ace of diamonds
+a pretty equal turn both players are
+going to have some trips both players
+are going to have some 8x both players
+are just going to have some ada asex
+born to tell checks linus checks backs
+he's got 10
+high i think this could mix in some bets
+just because we're going to want to
+want to be bluffing this turn quite a
+lot because we're going to have a lot of
+trips we're going to have a lot of asex
+and whatnot
+rivers the king of clubs born to tilt
+puts in a 2x over bet
+linus ships it for 3 725 dollars more
+and born to tilt calls born to tilt as
+jack 10 off so obviously a pretty
+standard play from born to tilt
+however linus's play is quite
+interesting there's
+he's got the 10 blocker but we're not
+quite sure what our best bluffs are
+going to be here
+hearts are probably good but this is
+what we got gto wizard for so let's jump
+in
+so now that we're in gto wizard we can
+start to analyze how the ranges interact
+so just as a reminder this is button
+versus big blind single race pot
+flop is queen queen eight rainbow going
+to the equity graph we can
+pretty quickly see that the button has a
+pretty drastic advantage all the way
+across
+from the bottom end all the way up to
+the very top end however
+the top end of the ranges actually
+become very close
+both players have quite a lot of trips
+so the
+overall trip counts the button is going
+to have slightly more as you can see
+but the big blind definitely has a lot
+of trips so this is going to be one of
+those
+interesting flops where the the big
+blind actually has
+pretty close equity at the top end of
+the ranges however the big blind is
+still losing pretty drastically at the
+bottom end of the ranges
+the big part where the buttons overall
+range advantage comes from
+is going to come from basically full
+house quads
+over pairs and under pairs if we look at
+just these these combos
+the button has 7.2 percent whereas the
+big blind has none
+and so basically what that means is
+that's that's that's right here on the
+equity graph that's where this
+largest different differential is
+between the button and the big blinds
+ranges
+and you can see where this is this is a
+very drastic advantage the but the big
+line just doesn't have these hands
+big line really doesn't have that many
+boats either like pocket eights in queen
+eight
+and so what this results in is when we
+go to the strategy tab
+we see that the button bets his entire
+range
+buttons betting 94 of the time he mixes
+in some of these larger sizes
+but i think as human players we can
+simplify this to just range betting for
+a third pot
+and not lose any ev so once we go here
+we put in the 27 bet the big blind is
+playing
+quite mixed here so the big blind's
+going to be mixing in a lot of
+a lot of these trip hands between
+raising and calling
+and a lot of these these 8x hands are
+also going to be whereas ace 8 is
+raising the most obviously
+and going down the 8x is going
+progressively down raising less and less
+it is going to be really really merged
+we're going to see bluffs like pocket
+twos and pocket threes and 97 and 9
+6 and jack 9 and 10 9 and jack 10 and
+king 10 there's just there's a lot of
+different bluffs here and it's going to
+be very very merged
+one of the things to note is when we
+filter for the folding range it's
+actually
+a lot it's it's actually very important
+when we go to these later streets
+that these low end hands get folded
+because if we go to the button
+if we go to the button strategy here the
+button still has all of these very low
+equity hands whereas the big blind got
+to fold all of those on the flop so once
+we start looking at the turns and the
+rivers
+it's going to be really interesting how
+that's going to interact so let's go to
+a turn
+big blind calls turn is the ace of
+diamonds
+and so the big blind is checking range
+here he's not going to be donking very
+much
+and the reason the big blind's not going
+to be docking is fairly intuitive
+the equity actually runs very very close
+on this board
+and so the big blind is going to have to
+check to balance his checking range
+quite a lot here
+and so on the turn we can start to see
+trips
+now the big blind is actually at a
+slight advantage in trips
+this is mainly because the big blind's
+number of combos went down
+so as a general density of his range the
+trips has become a higher density
+that's why he only has 13 combos of
+trips however
+it's 10.3 percent of his total range now
+this is just because
+the big lens range got split up on the
+flop so the big blind may
+have folded some some of these some
+combos he raised some combos and so now
+the overall combos that the big one has
+is drastically less than what he had on
+the flop so
+now he may have um a higher he has a
+higher density of trips overall
+and another thing to note in the trips
+area
+is the button has some of the higher
+trips he has some of the king queen
+suited the queen jack suited as well
+where the queen jack off and the big
+blind doesn't have as many of these
+the big blind is mainly having these
+lower queen x because these higher queen
+x raise the flop
+and so when we go over to the strategy
+tab we can really start to see
+that the button is mixing quite a lot
+here
+again the button is betting roughly 60
+of the time
+the button is not over betting and that
+just comes down to this equity graph
+again
+where the top end of the equity graph is
+actually pretty close
+so we don't have this really large nut
+advantage and so we're not going to be
+wanting to over bet and trying to really
+push a nut advantage because our nut
+advantage just doesn't exist
+and so when we put in when we put in the
+check
+river the king of clubs and this is
+where the hand gets really interesting
+and so the big blind is definitely using
+a lot of these over bets here
+and that is mainly because his hands
+need to get some money in
+some of these really good hands like
+queen 2 and queen 3 fans like queen 8
+suited hands like
+king queen now the low frequency that he
+has it as well as the low frequency that
+he has pocket eights
+it's gonna be really important for him
+to get money in the middle
+and so when we filter for this over bet
+range we can see it's a lot of these
+trip hands a lot of these
+um a lot of a lot of these boats as well
+so these hands
+really need to get the money in like i
+said and so he definitely is going to
+want to have an over bet range
+it's also important to note that he has
+the smaller range and this just goes
+back to the equity graph where
+now if we look at the equity graph the
+big blind actually
+has a pretty significant advantage now
+the big blind has 54
+equity whereas the button has 46 equity
+and we can see that it's pretty much an
+overall range advantage
+the button has some spots and some
+points where he has an advantage but for
+the most part the big blind's going to
+be at an
+advantage so what this means is he's
+going to have some hands that are able
+to go for thin value and some hands that
+are able to go for some
+um really big values so as we can see
+his best hands
+big blind has 39.2 percent of best hands
+and the button has 23.6
+and so we can just see that the big
+blind now now that the button split his
+turn range between bets and checks now
+the big
+the the button is now significantly
+weaker on the river and now the big
+blind
+moves the advantage moves towards the
+big blind so the big blind can now have
+a pretty high bet frequency
+as we go back to the strategy tab big
+line is overall betting
+50 of the time but he's mixing mixing in
+some of these pretty large over bets as
+well
+and so once the big blind puts in this
+over bet
+now the button spot gets quite
+interesting and so the button
+actually does have a good a good chunk
+of boats here
+so the button has aces and kings he also
+has queen eight he has ace queen he has
+king queen he has ace queen as well it
+also has a very very low frequency of
+pocket eights
+now that means that he's going to want
+to have a jamming range
+now the the button is only calling
+40 of the time or only defending 40 of
+the time
+and his calls are a lot of bluff
+catching kind of calls so he's calling
+some of these asex and whatnot
+as total bluff catchers he's calling
+even some 8x as total bluff catchers
+just because the big blind is mainly not
+going to be bluffing
+he's not going to be bluffing any pairs
+and so jack 8 is going to be
+all the bluffs and he's going to lose at
+all the value so that makes jackie an
+exact kind of uh bluff catcher he also
+has
+a jack so that jack is blocking hands
+like jack 10
+and so he makes an even better bluff
+catcher
+and then these asexual have very similar
+properties where they beat
+all of the bluffs but lose all the value
+and
+all of these trips these lower end trips
+are also going to mix between raising
+and calling
+these these are just just marginally
+good enough to raise
+but also good enough to call they're not
+getting called by a lot worse when they
+raise
+and they're winning a lot when they when
+they do call so they can mix between
+both
+and now once we start looking at our
+bluffs we can start seeing the highest
+frequency bluffs
+are tens and jacks actually and so tens
+and jacks makes the most sense because
+when we go back to the big blinds range
+the big one really didn't have
+that many boats he only has
+he only has point six percent of his
+range as boats however a lot of his
+range is straights and when we
+filter by the by the over um by the over
+bet
+we can see that jack 10 is is the best
+hand
+in that range and a lot of these trips
+end up
+folding when we jam over the top so
+these trips are actually not too bad for
+him to have when we're looking at it
+from the buttons perspective
+and so the main thing that we want to
+block is jack tin
+because he doesn't have very many boats
+and so we don't need to be
+we don't want to be blocking like we
+don't want to have an eight or an
+ace or a king just because he doesn't
+really have pocket eights he doesn't
+really have queen eight suited very much
+he doesn't really have any of these
+hands
+so having a pair when we're choosing
+these bluffs isn't really going to be
+necessary
+we're going to want to double block the
+straight because that's going to be the
+main part of his calling range so pocket
+jacks and pocket 10s are going to be the
+best bluffs
+now we get to some of these mixed
+frequency kind of bluffs here
+so we start getting to our exact hand 10
+7 of hearts and this is what makes
+linus really interesting and really
+really good at what he does
+this is a very low frequency raise
+however
+it is a raise and so we don't really
+know whether linus is rng the spot
+whether how he's playing this spot
+overall
+maybe he's over bluffing the spot maybe
+he's under bluffing the spot maybe he
+rolled a hundred
+and he was only gonna bluff this one out
+of a hundred times but this time he
+decided to rng it and he he got there
+but
+the fact of the matter is ten seven of
+hearts is a bluff
+may only be seven percent of the time
+however it's a bluff so
+why is ten seven of hearts chosen over
+ten seven of spades and ten seven of
+clubs
+mainly this is because when we go back
+to the flop he's calling a lot of these
+backdoor flush draws so he's calling a
+lot of spade
+double spade draws he's calling double
+double diamonds double clubs
+and he's not going to be calling 107 of
+hearts the other reason this is is he's
+going to have some queen ten of hearts
+and the ten of hearts blocks a couple
+extra combos of trips
+where he can't have queen ex queen
+exospades
+he can't have queen diamonds of spades
+but he can't have some
+queen heart x so blocking queen ten of
+hearts as well as queen seven of hearts
+can be a pretty good thing especially
+because a lot of the queen 10 might be
+calling
+at some frequency so we're blocking some
+calling ranges
+so overall hearts are going to be
+greatly preferred over clubs
+diamonds and spades just because they
+unblock the backdoor flush draws
+and remember we checked back the turn so
+all of these backdoor flush draws that
+called the flop
+they're still in the big blinds range so
+he's still going to have all these
+backdoor flush draws that get to fold
+the river and he might be putting some
+of these backdoor flush draws into the
+overbet range
+as mixing in some of these bluffs
+and so some of the other hands that are
+low frequency bluffs hands like jack 4
+hands like jack 5 but mainly the heart
+combos the club combos are very small
+low frequency as well
+but mainly all of these hands are going
+to be using the the heart combos
+and so overall the the button is mainly
+going to be wanting to have a jack or a
+10 because it wants to bat jack
+it wants to block jack 10 and it wants
+to block the straights and so
+the primary bet the primary bluffs is
+going to be pocket jacks and pocket tens
+and so once we put in the all in
+now the big blind actually plays quite
+nitty here
+and so as as we can see the big blind is
+folding
+a lot of trips he's folding most of his
+trips actually
+about 77 of his trips are folding here
+and that's mainly because
+all these trips are bluff catchers when
+we go back to the buttons range
+he's not really betting these low trips
+very often the main part of his range
+is is boats ace queen and and pocket
+kings and pocket aces
+as well as these these higher trips like
+queen jack and queen 10
+and so these low um these these low
+queen x
+are actually pretty much pure bluff
+catchers they're not beating a lot of
+value
+especially when you have the queen it's
+very very unlikely
+that your opponent has that last queen
+in the deck
+it's much more likely that your opponent
+has pocket aces or pocket kings or
+pocket eights
+and so you end up running into a boat
+slightly more often than you really
+should in the overall range just because
+of your blocker effects
+now the big blind's primary part of his
+calling range is going to be
+these these boats with queen eight
+pocket eights king queen
+and jack 10. now
+jack 10 is is obviously the hand that we
+were trying to block the most and the
+hand that born to tilt had
+so he calls so in conclusion
+the primary part for the buttons range
+is he wants to be bluffing pocket jacks
+he wants to be blocking pocket tens
+because he wants to block jack 10.
+the button also wants to have hearts
+because he unblocks some of those
+backdoor flush draws
+and some of the best things we can learn
+from these kind of spots is starting to
+understand
+what we need to think about when we're
+in game and trying to choose our best
+bluffs
+the most important thing is realizing
+that all of these hands were
+lower frequency bluffs even pocket jacks
+and pocket tens
+weren't pure bluffing even our best
+bluffs were only betting
+roughly 27 to 50 percent of the time
+they
+you need to make sure that you're rng in
+these spots because it's going to be
+really important
+that you don't just send every single
+potential bluff you
+you can also see all these lower
+frequency bluffs were less than five
+percent or so
+and so i think the best thing that we
+can all learn from these kind of spots
+is understanding the principles and what
+kind of blockers we want
+when we want which blockers which suits
+are the best
+and we can really use programs like gtl
+wizard in order to start to understand
+and get a large sample size on
+all a lot of different river jam spots
+and river bluff phrases and whatnot
+and so hopefully this video is really
+helpful leave a like i'm going to be
+doing these videos hopefully every week
+we're also going to be doing some
+gto theory videos as well so look out
+for those
+thank you
+you

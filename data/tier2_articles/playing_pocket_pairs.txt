@@ -1,0 +1,70 @@
+### TOPIC: playing pocket pairs
+Pocket pairs are the strongest hand category in Texas Hold’em, as they give you a chance to start with a made hand, improve into monsters like sets and full houses, and have a significant equity edge over most other hands.
+The best hands in the game, such as AA, KK, and QQ, fall into this category, and these are the hands you want to see more than anything else at the poker table.
+Despite being so strong, pocket pairs are often misplayed and misunderstood. While some players overplay small pocket pairs like 44, others don’t get nearly enough value for the likes of JJ or QQ.
+In this article, we explore the value of different pocket pairs and look into the best strategies to play them and maximize your profits across the board.
+One of the things many novices stumble upon is overestimating the value of their small pocket pairs or being too cautious with the higher ones.
+If you want to maximize your profits with pocket pairs, you must categorize them and play accordingly instead of treating every pair the same.
+On a most basic level, you can classify your pocket pairs as:
+Premium pocket pairs include hands like AA, KK, QQ, and JJ. These hands are the best starting hands you can get in Texas Hold’em and should always be played aggressively and for maximum value.
+Playing against competent opponents, you should have no fear of getting all the chips in with these hands, and this is especially true for AA and KK.
+When playing with QQ and JJ, your decisions past a 3-bet should depend quite a bit on the player you are up against, and there will be some marginal decisions in play.
+Middle pocket pairs include pairs like 66, 77, 88, 99, and TT, although TT can also be considered a premium in short-handed poker games.
+These pocket pairs gain value when few players are at the table or in heads-up matches, but they should be played more carefully in a full-ring setting.
+Small pocket pairs, like 22, 33, 44, and 55, are great stealing hands and can turn into absolute monsters when they connect with the flop.
+However, overplaying small pocket pairs for too many big blinds can be a disaster and is something you should avoid in most cases.
+Before we delve deeper into how to play each pocket pair category, let’s take a look at some basic pocket pair math and the basic odds you need to know.
+The math behind pocket pairs in poker is often misunderstood, as players tend to overestimate or underestimate the basic pot odds related to them.
+For starters, you should know that there are exactly 6 combinations of each pocket pair in the game out of 1,326 overall combinations.
+That means that only 78 out of 1,326 combos are pocket pairs, while all others are unpaired offsuit or suited hands.
+That makes for precisely 1 out of 17 hands or a 5.9% chance of being dealt any pocket pair to start with. Things get a lot more extreme when you look at the odds of being dealt a particular pocket pair, as you will only get that 1 out of 220 times, for a total of 0.45%.
+If you are playing a live poker game and getting frustrated about not getting dealt aces, remember that you should only get AA once every 220 hands, which can take over 5 hours in a live poker environment.
+Here is a quick table to remind you of the basic odds of getting dealt pocket pairs in Texas Hold’em:
+As you can see, getting dealt a pocket pair in poker is not easy, but once you do get one, you should be looking to maximize your value with it.
+In order to do that, you should also know how likely your pocket pair is to improve, as this is a key thing to understand, especially with smaller pocket pairs.
+Small pocket pairs don’t have too much value on their own but can turn into real monsters once they improve into a set or a full house.
+The following list details how likely that is to happen:
+Premium pocket pairs are the strongest hand category in the game. This category includes AA and KK, two of the best hands in the game, along with QQ and JJ.
+All four of these pocket pairs are considered proper monsters, and professional poker players are usually willing to bet it all when they have one of these hands.
+One key thing to remember is that AA and KK are true premiums, while QQ and JJ are a notch weaker. This is mainly because they are only barely ahead of AK in terms of equity, and AK is a hand that often gets involved against them in big pots.
+Whenever you are dealt AA or KK, you should play very aggressively from all positions and be willing to go broke no matter what, even if multiple players put their chips in.
+With QQ and JJ, on the other hand, you may be able to find some folds as stacks get deeper or if more than one opponent shows extreme interest in the pot.
+In tournament poker, premium pocket pairs are the hands that make you a ton of money, as players often try to steal pots and end up jamming into your premiums.
+In deeper stacked cash games, premium pocket pairs become trickier to play, as getting all the chips in before the flop becomes increasingly difficult.
+Playing your premium pocket pairs in tricky ways every now and then can prove massively profitable in deep-stacked games, while playing them more straightforwardly for value usually works better in tournament poker.
+The very best of premiums, like AA and KK, can be used as trapping hands against very aggressive players who are likely to stack off on a wide variety of boards and at high frequency.
+Middle pocket pairs can put poker players in many difficult situations. They look pretty but are also quite vulnerable.
+The way you play your middle pairs should depend heavily on your stack size, your position, and the actions of other players at the table.
+In cash games with deep stacks, middle pocket pairs are good enough to open from all positions and usually good enough to call a 3-bet with as well, provided you will have position after the flop.
+However, they are not hands you want to commit a 100 big blind stack with before the flop, as they are never really ahead of any range of hands that plays aggressively preflop.
+In tournament poker, where stacks tend to get much smaller, middle pocket pairs gain a lot of value as they become the perfect candidates to re-steal against late position opens.
+Shoving 25 big blinds over a small raise from late position will work like a charm if you are holding a middle pair. Some of the time, you will win the pot outright, while other times, you will often be flipping with a slight equity advantage against a hand like AK or AQ.
+The danger of running into a bigger pocket pair is significantly mitigated in tournaments as the stacks are smaller, diminishing your risk in contrast to the chips you stand to gain when the original raiser folds.
+Small pocket pairs are among the most overplayed hands in poker, as their value is not as high as it seems.
+While any pair is still a pair, small pocket pairs are problematic because any board that rolls off is usually made up of three overcards.
+As such, you should play your small pocket pairs more cautiously than the higher ones and with more interest in improving to a set than playing the pair for its own value.
+At deeper stack depths, small pocket pairs like 22, 33, 44, and 55 can be folded in early positions and opened in middle and late positions to a standard raise size.
+If you get 3-bet before the flop, you should mainly be folding your small pocket pairs, as there are plenty of other hands you can continue with that have better equity against the 3-bettor’s range.
+If you get one or multiple calls, you will be looking to improve to a set or win the pot with a continuation bet, which will often be possible thanks to your aggressive action before the flop.
+In either case, small pocket pairs are not ideal hands to turn into multi-street bluffs or make hero calls with on the river. Instead, they are solid stealing hands with some potential to improve to sets and full houses on later streets.
+In shallow stack situations, such as those that arise in tournaments, small pocket pairs are often great candidates to go all-in with before the flop and pick up the blinds and antes without any confrontation.
+When called, your pocket pair will often be in a 50/50 race against two overcards, which is a situation you should not really mind too much.
+A very important piece of advice in regards to playing pocket pairs has to do with adjusting your play to your table.
+While trying to mimic solvers and play a GTO poker strategy may work well, playing exploitatively and making the most of your opponents’ mistakes should make you a lot more money over the long run.
+The value of pocket pairs depends heavily on the opposition you are up against. For example, premium pocket pairs make a lot more money in splashy games where you can often get hundreds of big blinds into the pot preflop than in strong tight games where players are less willing to stack off.
+Similarly, small pocket pairs don’t perform as well in games where preflop raises are big, and 3-bets are common, as they don’t get to see the flop nearly often or cheap enough to make set mining a profitable option.
+The next time you play poker and are dealt a pocket pair, make sure you take a step back, assess your table, and make your decision based on your opponents and their general tendencies.
+What is a pocket pair?
+A pocket pair is a pair made up of both your hole cards. For example, if you are dealt two Aces before the flop, you are holding a pocket pair of Aces. Pocket pairs are powerful because they are completely concealed from your opponents, and they can make sets with just one card on the board.
+What are the best pocket pairs in poker?
+The best pocket pairs in poker are Aces, Kings, and Queens. These pocket pairs fall into the category of premium pocket pairs and are almost always good enough to bet all your chips with.
+What are the odds of getting a pocket pair?
+The odds of getting dealt any pocket pair are 17 to 1 or 5.9%. This means only one of 17 hands you are dealt will be a pocket pair, and there is no guarantee you will get a premium pocket pair even in hundreds of hands dealt.
+What are the odds of getting dealt AA in poker?
+The odds of getting dealt AA, or any other particular pair, are 220/1 or 0.45%. Only one of 220 starting hands will be a pair of Aces, so you better make the most of it when you get it.
+How often will I flop a set with a pocket pair?
+Flopping a set with a pocket pair is harder than it seems. You will only make a set on the flop 10.7% of the time, and those odds will improve to 18.4% if you include the turn and river card as well.
+What is an overpair in poker?
+An overpair is a pocket pair bigger than all the community cards. For example, if you are holding a pair of Queens on a board of Js8c4d, you are holding an overpair to the board.
+What is set mining in Texas Hold’em?
+Set mining is the action of calling a raise before the flop with a pocket pair with the sole intention of hitting the card you need to make a set on the flop. Playing pocket pairs with just this intention is usually inadvisable but can be a reasonable strategy in deep-stacked games against splashy opponents.

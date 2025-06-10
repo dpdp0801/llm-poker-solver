@@ -1,0 +1,28 @@
+### TOPIC: cbet on high card boards ip
+peak_ad id=”2542003″
+We already talked about c-betting on low-card boards and high-card flops in 3-bet pots, so today we will use the PeakGTO to analyze strategy on ace-high boards.
+We will cover different board textures on connected and dry boards to identify strategy differences after 3-betting preflop and summarize key takeaways for each section.
+To start, we will dive deeper into an example where we 3-bet from the button versus a cutoff open, and he calls to see the flop.
+Key assumptions:
+Let’s firstly look at a dry board of As7h2c to see our strategy in this situation when CO checks to us.
+In this spot, the solver suggests betting 90% of the time and checking 10% of your range.
+We check a few combinations of Ax, pocket pairs, and a few broadways, but keep the pressure on the opponent and continue barreling quite aggressively with everything else.
+Of course, not all flops will be equal. The more connected the board becomes, the less often we will be betting, and our poker range that wants to check back will be expanding.
+As far as connected boards go, let’s look at an example of As9d8d.
+As you can see, the game theory optimal strategy here is almost the opposite compared to a dry board. In this situation, we end up checking 73% of the time and betting only with 27% of our hands.
+There are no pure bets on connected flops, but we will be checking back pocket pairs almost 100% of the time. Everything else uses a mixed strategy, distributing our betting and checking hands across the board.
+As for the sizing, we also stick with a small one-third pot size bets in almost all cases.
+Key takeaways
+Now, let’s look at hands when we are 3-betting out of position (OOP) and analyze a scenario where our opponent opens from the button, we 3-bet from the big blind, and he calls.
+Key assumptions:
+Let’s look at As8h3d to see how we should approach dry boards.
+PeakGTO suggests betting 59% of the time and checking 41% of your range on this board.
+While our c-betting range is spread throughout all of the hands, there are a few holdings that bet more often. Namely, you will want to bet your strongest Ax hands, a few suited connectors, and broadway combinations.
+This time we are mixing bet sizes between small and large bets, but still use small sizing most of the time.
+To see the differences on connected boards, let’s look at the example of Ah9h8d.
+In this 3-betting spot, we should be checking around 52% of the time and betting 48% of our hands, so our strategy is distributed quite evenly across the range.
+That said, there are a few hands that lean towards c-betting more often – our strongest top pairs like AK and AQ, gutshots, and open-enders.
+As for the sizing, we are using 25% pot size bet about half of the time when we are betting, and 60% pot size bet for th rest of the hands. Hands like pocket pairs and weaker aces like ATs, A7s, and A5s. The rest are mixed between those small and big bets.
+These connected boards has a more complicated mixed strategy, but it is important to balance your ranges well to avoid being exploited.
+Key takeaways
+peak_ad id=”2542003″

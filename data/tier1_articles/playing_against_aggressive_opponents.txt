@@ -1,0 +1,54 @@
+### TOPIC: playing against aggressive opponents
+Attacking Aggressive Opponents When They Check Back Flop
+Playing out of position (OOP) is hard. Playing out of position against an aggressive opponent is even harder, as it worsens an already relatively impaired ability to realize equity because they’re often putting you to the test. What happens, then, when they decide not to bet?
+Our Villain
+Meet Aggro Andy; he’s a Tight-Aggressive player who likes to put maximum pressure on his opponents. He often defaults to playing the specific hand he’s holding by looking for reasons to bet rather than considering how it fits into his range as a whole. Andy tends to do pretty well at low stakes, as decisions for a lot of chips lead to big mistakes by his unstudied opponents. And his tighter nature restrains him from firing away chips with pure air too often.
+One of the reasons it can often feel difficult to play against Andy is that he actually gains EV when he bets compared to theory, despite playing an imbalanced strategy. Let’s review an example to understand why and how we recapture EV when he checks.
+How EV Moves
+To demonstrate why attacking Andy’s checks is important, we first need to understand what’s happening in theory when he bets too often. Our example scenario throughout this article will be a BB vs BTN single-raised 100bb cash game pot (SRP) on a flop of K♦9♠7♠. We will sit in as the Big Blind while Andy plays on the Button.
+BTN c-bet flop strategy on K97tt vs BB, 100bb effective
+In the AI-solved solution, Andy is meant to check almost 42% of his top pairs on the flop. These are mostly weaker top pairs with no flush draw. He’s even supposed to check AK some of the time!
+Not understanding how to punish an opponent’s imbalanced strategy can allow them to enjoy its upsides without its downsides, resulting in a net gain for Villain, and a net loss for Hero.
+If, instead, we nodelock all of his top pair and better to bet, we see something interesting happen:
+Theory EV when BTN c-bets (right-side)
+Nodelocked EV when Andy on the BTN c-bets (right)
+Andy’s EV when he bets actually increases! In this case, by a massive amount of +16bb/100. The reason for this is fairly intuitive; he strengthened his betting range by injecting more equity, and a stronger range (usually) means more EV. Even against a perfect response from the Big Blind, Andy has gained quite a lot of EV when he does bet. But if we go back to what his EV looks like for his entire range…
+Theory EV on the flop
+Nodelocked EV on the flop
+Andy has lost EV to the tune of -6bb/100. If Andy gained EV in the betting line but lost EV overall, there’s only one place to find the missing EV: in the checking line. This is why it’s so important to understand how to attack Andy’s checks; if you don’t, his imbalanced strategy will only ever be an upside.
+Nuances in Aggression
+There are multiple ways to be betting too often; we’ll cover the two main possibilities and how they affect our exploits.
+Betting Too Often With Value
+If you’ve spent time watching or reading poker study material, you’ve likely heard about the concept of “protecting your checking range.” The idea is that if you always bet your value, you leave yourself overly vulnerable when you check. This is the simplest way that our opponents create imbalances in their game.
+Returning to the above example, where we forced the IP Villain to always bet with top pair or better, they almost always lose the equity advantage when they check, except for an Ace reintroducing top pair combinations into their range.
+When To Exploit
+So, which turn cards are best for us, as OOP, when we face a check from an IP opponent we know won’t have strong hands—in this case, top pair or better?
+Comparison of OOP’s EVs on different turn cards vs value-light flop check backs
+A trend begins to appear; while we gain significant EV on every turn, the biggest difference comes from cards that do not reintroduce strong hands into the opponent’s range. In this example, that means brick cards that don’t complete any draws or that pair the King that’s on the board. Even the 5♠, a rare turn that gives OOP the equity lead in the GTO solution, is not as good as these brick turns.
+How To Exploit
+Now that we have an idea about which turns we should attack the most, how do we actually go about designing a strategy that accomplishes this?
+Something that’s consistent across almost all turn cards is that OOP gets to use much larger bet sizings than in theory and with a much higher frequency. In fact, except for turns that uncap IP’s range, OOP usually uses pot size or even overbets; when an offsuit King pairs the board, OOP begins to use 253% lead overbets with a massive 41% of their range.
+BB first in turn strategy on K♦9♠7♠ K♥ vs imbalanced flop checking BTN
+Furthermore, we can bet even more frequently if we expect our opponent to over-fold even slightly (e.g., 4% over-fold) to our bets, which isn’t hard to imagine in this case; all our opponent has to do is fold 88 and open-ended straight draws without a corresponding flush draw, and our betting percentage shoots up to 62%, mostly concentrated around King-x for value, while we use nearly every single draw in our range and even a good amount of unpaired hands without a draw as bluffs.
+BB first in turn strategy on K♦9♠7♠ K♥ vs imbalanced flop checking BTN (who will over-fold turn)
+When aggressive opponents whose betting ranges are too value-heavy cap themselves on the flop by checking, we can often push that advantage much further than we might intuit, and recapture lots of EV in the process.
+Betting Too Often With Draws
+Of the possibilities for players who bet too often, betting too frequently with draws is likely the more common archetype found at low-to-mid stakes. Many players understand that they need to check back some strong hands and middling value, particularly on the flop, when many such hands cannot bet three streets for value.
+However, aggressive opponents often have a much more difficult time checking back draws, as betting allows them to win the pot without having to hit their draw at all. Against this type of opponent, the turn cards that benefit us are much different! Nodelocking IP to bet all of their flush draws and many of their straight draws, we see a very different outcome compared to an opponent who bet too much with value:
+BTN nodelocked (too aggro with draws) c-bet flop strategy
+When To Exploit
+Comparison of OOP’s EVs on different turn cards vs draw-light flop check backs
+There are two major takeaways here:
+The best turn cards for OOP are almost flipped on their heads (compared to the first spot, where aggression = value-heavy). Instead of bricks being good, we are now happy to see the board change, as we retain all of our draws from the flop while IP lost most of them. The main exception among these examples is the 9♥, which remains a pretty bad card to attack the Button’s checking range. This is because they didn’t remove a significant portion of value by checking, but still concentrated a higher percentage of their checking range around second pair (now trips) by betting draws too often on the flop. This effect is mirrored with the A♥, though BTN did remove some Ace-high combinations from their range by betting their Ace-high flush draws.
+IP is not losing as much EV when they check across all turns as they were in our first example. The reason for this is twofold. Firstly, BTN simply has a stronger range than in the first example; their checking range is protected by the medium and strong value hands that checked back. Additionally, the turns that benefit OOP are more infrequent; the BB’s range must now improve in a specific way to attack the BTN’s check rather than being stronger by default.
+How To Exploit
+When draws do complete, however, we attack in much the same way as we did in the previous example. In the unlocked (GTO) solution, BB is meant to have small leads (40% pot) on the flush-completing 2♠.
+BB first in turn strategy on K♦9♠7♠ 2♠ vs balanced flop checking BTN
+But when the BTN is betting all of their flush draws on the flop, the nodelocked solution has BB instead implement massive overbet leads (253% pot) at close to the same frequency as was previously used for the small leads. This drastic change in bet size is possible because the BTN stripped themselves of all of their turned flushes when they decided to check, meaning OOP suddenly obtained a hefty nut advantage.
+BB first in turn strategy vs imbalanced flop checking BTN
+And once again, if we force IP to under-defend just slightly (4%) by folding some underpair and second pair combinations, this frequency rockets to almost 61% of our range.
+BB first in turn strategy vs imbalanced flop checking BTN (who will over-fold turn)
+Conclusion
+The most critical thing to understand is that an imbalanced strategy will produce scenarios where our opponent is too weak. These parts of the game tree are where they can lose EV. But they only will lose it if you attack properly to seize that EV.
+However, identifying these scenarios can be tricky, as identical runouts can produce very different outcomes depending on how our opponent is imbalanced. While it’s impossible to know a real-life opponent’s exact strategy, understanding their tendencies is an important factor in knowing when these scenarios appear.
+Next time your local “Andy” decides to check back the flop, ask yourself how strong his range can actually be; you may be surprised to find just how often you can turn the tables on an otherwise tough opponent.

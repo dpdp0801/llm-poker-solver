@@ -1,0 +1,747 @@
+### TOPIC: how to find good bluffs in poker
+Today we'll be discussing blockers.
+Definitely a very tricky topic and I'm sure
+many of you guys have had the experience of
+staring at a sim for hours and hours trying
+to figure out why the solver bluffs with JT
+of hearts but not JT of spades.
+And just when you think you finally figured
+it out, you pulled up a slightly different
+board, and now the solver is bluffing with
+Spades instead.
+if that sounds like you, then definitely stay
+till the end because I'm going to cover two
+simple concepts that will help you find the
+right bluffs in any situation.
+Let's talk a little bit about how NOT to think
+about blockers.
+So I want you guys to imagine that we're barreling
+down on an ace-high board against a range
+of mostly ace-x bluff-catchers.
+In terms of our own range, we have AK, which
+is the main hand we're batting for value.
+To balance our AK we have a bunch of bluffs
+like JT and 98.
+A very common approach here is to try to choose
+the bluffs that block our opponent's best
+calls.
+So in this case, a certain player might argue
+that we should be bluffing with JT because
+we block AJ and AT, which are the most likely
+calls in villain's range.
+But of course, the problem with this is that
+villain's strategy is actually dynamic - meaning
+if we choose to bluff with JT all the time
+what villain can do to take advantage of that
+is just to fold with AJ/AT and prefer calling
+with A9/A8 instead since AJ/AT would now block
+our main bluff.
+Once he starts doing this it actually becomes
+pretty bad for us to bluff JT since we no
+longer block that many calls in his range.
+So now we would start preferring to bluff
+with 98 instead, and once again villain can
+just adjust by folding A9/A8 and preferring
+to call with AJ/AT, and that, in turn, would
+make us want to start bluffing with JT again.
+So we end up stuck in this sort of endless
+cycle where we can't really identify any kind
+of good bluff in our range because the fact
+is there isn't any specific hand in our range
+that has good properties for bluffing.
+If you run this toy game in the solver, you'll
+see that it wants to bluff JT and 98 at exactly
+the same frequency because once we fail to
+do this and once we start bluffing one of
+these hands more than the other, then it's
+going to create a situation where our opponent
+can exploit us by calling more often with
+some bluff-catchers and folding more often
+with others.
+And he's actually going to gain a little bit
+of EV by doing so.
+So what we end up with is a situation where
+neither JT nor 98 are particularly good bluffs.
+This brings us back to the question of what
+exactly does make a good bluff?
+One possible way that we can approach this
+question is to understand that if we can bluff
+a certain hand, without making villain adjust
+in a way that makes our blockers bad, then
+and only then would our hand be a good bluff.
+So, going along with the same example, JT
+would not qualify as a good bluff because
+if we were to bluff this hand, most or all
+of the time villain would adjust in a way
+that makes our blockers bad.
+He would just be folding AJ/AT and calling
+A9/A8 instead.
+So what we need is a situation where we bluff
+with JT, but villain still continues to call
+with AJ/AT.
+This sounds almost impossible because why
+would he continue calling with AJ/AT knowing
+that he's blocking all of this JT and that
+we are bluffing with?
+It turns out that there are actually two main
+scenarios where this is possible and the first
+one is when our bluffs share cards without
+value range.
+Here I've made one small change to our toy
+game.
+I've added in a couple of combos of J3/T3
+into the aggressor's range, and these hands
+are full houses, so they actually are part
+of our value range.
+The idea is that the presence of these hands
+in our range makes our opponent a little more
+inclined to call down with AJ/AT, so it's
+actually possible to have a situation where
+we're bluffing with JT, and our opponent doesn't
+get to adjust in the way that makes our blockers
+bad.
+He doesn't just get to fold AJ/AT all the
+time and call A9/A8 because there's actually
+something going for AJ/AT in this situation
+which is that they block our nut heads.
+So he's kind of in a difficult spot where
+on one hand, he wants to call AJ/AT since
+they remove a lot of strong hands in our range.
+But on the other hand they also block a whole
+lot of bluffs which is generally not a good
+thing when you're bluff-catching.
+So there are a lot of situations where you'll
+see that the solver actually prefers to bluff
+with hands that share cards with its value
+range.
+And the reason why it does this is because
+any other strategy would leave it exploitable.
+For example in this case, if we were to bluff
+with 98 more often than JT our opponent would
+have a really easy counter-strategy of calling
+with AJ/AT all the time and folding with A9/A8
+all the time.
+AJ/AT these hands, they're just going to block
+a whole bunch of value and block zero bluffs
+in our range.
+And similarly, A9/A8 are going to be terrible
+calls because they only block bluffs and zero
+value.
+Once our opponent starts to adjust in this
+way - now when you look at it from our perspective,
+naturally JT is going to be an excellent bluff.
+No matter what kind of strategy we start off
+with, our opponent will always adjust in a
+way that makes the equilibrium shift back
+towards JT being a much better bluff than
+98.
+And once again the reason for that is that
+it shares cards with our value range.
+Here's a question to test your understanding:
+Button open BB call.
+After big blind check-calls the flop and the
+turn goes check-check he (BB) likes to check-jam
+8x and 9x on the river because:
+A) We block the nuts. B)
+We share cards with our value range.
+C) All of the above
+if your answer was C then you are, unfortunately,
+incorrect.
+The correct answer is B)
+We share cards with our value range.
+And the reason why A) is not a factor is because
+button has actually bet all of the straights
+on the turn.
+This is quite a high SPR situation so that's
+there's quite a big opportunity cost of checking
+back the nuts.
+Generally speaking, when the stacks are quite
+deep you just want to fast-play your strong
+hands.
+Especially in position instead of checking
+behind and just playing like such a small
+pot on the river you basically lose all hope
+of stacking your opponent.
+That's why when we look at button's range
+on the river, we see that he really doesn't
+have like any significant amount of straights.
+But still 8x and 9x make pretty good hands
+to check-raise.
+In fact, they are the main bluffs that we're
+choosing when you look at what our check-jamming
+range is made up of.
+So this once again has to do with trying to
+choose bluffs that share cards with our value.
+Since the bulk of our value range is 98 it
+makes sense to choose hands that contain an
+eight or nine, since our opponent is going
+to be quite inclined to call with hands like
+Ace 9 as well as Ace 8 you can see that these
+hands are actually some of his best bluff-catchers.
+He's much more inclined to call something
+like Ace 9 as opposed to Ace King or Ace Queen
+simply because Ace 9 blocks a good chunk of
+our value range.
+I want to take this chance to introduce some
+of the new features that got released in the
+latest update.
+If you click on the summary tab, you'll see
+a couple of new columns that say value removal
+as well as trash removal.
+What these numbers really signify is, for
+example,
+if we look at it from big blinds perspective,
+a high value removal score simply means that
+you block lots of your opponent's value bets.
+A low value removal score means that you do
+not block any value bets in your opponent's
+range.
+So this works on a scale from 1 to 10, and
+if we take a look at some of these T9 and
+T8 hands, you can see that they really do
+not have great value removal.
+That's because when you look at button's value
+batting range, you can see that the bulk of
+his value range is really Ace-x.
+Once again the turn has gone check-check so
+it's really not going to have that many straights
+and sets and two pairs.
+Many of the two pair hands that he has actually
+do contain an Ace.
+That's the reason why from the BB's perspective,
+it's so powerful to have a hand that contains
+an Ace.
+Looking at the value removal scores you can
+see that most of these Ace-x hands they have
+a score of 9 to 10.
+And there's a certain threshold where you
+go down to somewhere around A6 you can see
+that the value removal score drops drastically.
+So basically, any hand with an ace is going
+to remove a big part of your opponent's value
+betting range.
+Any hand without an ace it's just not going
+to do a great job of blocking your opponent's
+value.
+And so the same goes with hands like T9 and
+T8 - you can see they really do not have a
+great value removal score - but still they
+make excellent bluff check-raises because
+they share cards with our value range.
+Since the bulk of our value check-jamming
+range is 98 it kind of makes our opponent
+more inclined to call with hands like Ace
+8 and Ace 9.
+You can kind of tell from Ace 9's high value
+removal score that it does a good job of blocking
+all of these straights in the big blind's
+range.
+Whereas a hand like Ace King by comparison
+it's really not going to remove that much
+of our opponent's value.
+There's also one more new feature that I want
+to show and that's this tab called BLOCKERS.
+So when you hover over the Ace of clubs for
+example it says if your opponent holds the
+Ace of clubs your fold frequency will increase
+by 0.63%.
+And what this means is that if the big blind
+holds the Ace of clubs button will end up
+folding by an extra 0.63% which makes a lot
+of sense because the bulk of button's calling
+range actually contains an ace, so naturally
+if the big blind holds an ace he's going to
+make the button fold a little bit more.
+And we can also sort by folding frequency
+and you'll see that all of the cards that
+have the best removal effect are the cards
+that make the button fold more often - they're
+basically all pairs to the board.
+So Ax Tx 7x 6x you can see they have a positive
+removal effect where if you have one of these
+pairs or you you're going to get a little
+bit more folds than if you don't.
+So this also explains why the big blind is
+so interested in turning lots of these one-pair
+hands into a bluff such as T9 and T8.
+Of course we would ideally want to have like
+two pairs in our hand, but in that case our
+hand would just be a value check-raise instead
+of a bluff.
+So the best we can do is to use some kind
+of one-pair hand without that much showdown
+value.
+Basically, anything Tx and below is not going
+to have that much showdown value in the sense
+that it's really just a pure bluff-catcher.
+We've already seen how button's betting range
+is polarized between Ace-x and bluffs so it
+doesn't really matter that much whether we
+have a T or 6 or 7 or even some kind of King
+High, for that matter.
+These hands are really all just pure bluff-catchers.
+So once again, the best that we can do is
+to choose some kind of one-pair hand with
+a kicker that doesn't remove too much of our
+opponent's folding range.
+If we scroll down the order what we see is
+that the best unpaired cards to check-raise
+with are more or less the eights and the nines.
+So for example, when we hold the nine of spades
+our opponent's folding frequency will increase
+by 0.04% which is pretty much nothing at all.
+So 8x and 9x they're more or less neutral
+cards and that's really the best that we can
+hope for.
+So with T9 for example the 10 would have a
+pretty good removal effect in terms of getting
+more folds.
+The 9 would be somewhat neutral.
+But that's way better than choosing something
+like uh you know KT or QT for example.
+You can see as we scroll further down some
+of these higher card hands that don't share
+cards with our value range they actually have
+a pretty poor removal.
+And you can kind of tell from the hand grid
+as well uh button this folding like AK/AQ/AJ
+almost all the time, so naturally it's going
+to make these cards much worse to bluff with
+(as BB).
+Let's do a quick recap.
+So far what we've seen is that in order for
+a hand to qualify as a good bluff it needs
+to have this fundamental property whereby
+we can bluff it all the time and it doesn't
+make villain adjust in a way that makes our
+blockers bad.
+We've seen that one of the ways that this
+is possible is when our bluffs share cards
+with our value range.
+But the second way that we can satisfy this
+criterion is when our bluffs are scarce.
+Here we have a second toy game, and once again
+I've just made one very small change to the
+aggressor's range.
+Instead of having JTs and 98s as bluffs, I've
+given him JTs and I've replaced 98s with 98o.
+So everything else remains the same - our
+value range is still AK and our opponent still
+has a bunch of Ace-x bluff catchers.
+Only different lies in the relative weights
+of JT and 98.
+98 being an offsuit combo we're definitely
+going to have much more of that, and just
+to make the effect a little bit more pronounced,
+I've actually further decreased the weight
+of JTs so we end up with a range that has
+a huge amount of 98 and very little JT.
+And you can see that the solver just wants
+to bluff with JT all the time
+The reason why our opponent doesn't get to
+adjust in a way that makes our blockers bad
+is because even though we're bluffing with
+JT at 100% frequency, it doesn't necessarily
+mean that JT will be a big part of our bluffing
+range.
+Because the fact is we just have so many more
+combos of 98 that even if you're bluffing
+it relatively infrequently when you look at
+the composition of our bluffing range it's
+still going to have way more 98 than JT, and
+this actually allows for a situation where
+we're bluffing with JT all the time but our
+opponent still prefers to call with a AJ and
+AT.
+And this is why there are lots of situations
+where the solver will prefer bluffing combos
+that are more scarce.
+It's kind of like in real life where if you
+have a scarce item it's naturally going to
+be worth more.
+And our opponent isn't really going to adjust
+in the way that makes our blockers bad because
+he would actually have to call A9 and A8 in
+order to fold more AJ and AT.
+It just doesn't make sense at all for him
+to do that when we have more 98 in our range
+compared to JT.
+So in lines where it gets checked to the river,
+emphasis on "check to the river", how should
+we choose our bluffs?
+A) We want to bluff with hands that block
+the missed flush draw.
+B)
+We want to bluff with hands that unblock the
+missed flush draw.
+C) it doesn't matter.
+The correct answer is A) We want to bluff
+with hands that block the missed flush draw.
+At first this sounds a little strange because
+we're all so used to hearing that we don't
+want to bluff with the missed flush draw since
+we block our opponents missed flush draw that
+are folding but that's usually true in lines
+where we are barreling down and our opponent
+is calling twice with his flush draws and
+folding all of them on the (brick) river.
+So in that case yes we wouldn't really want
+to interfere with his folding range but in
+this example we actually have a check-down
+line so this is the complete opposite of a
+triple-barrel line.
+Our flush draws have a lot of equity and a
+lot of potential to improve, they usually
+want to bet the flop and the turn.
+So for every additional street that we check
+we remove more and more flush draws from both
+player's ranges, so by the time we get to
+the river you can see that the big blind for
+example really does not have very many two
+spade hands in his range.
+Whereas if I exclude hands that have a spade
+you can see there's just a ton of these hands.
+Stuff like Jack eight of Hearts 96 of clubs.
+And if you hover over any one of these boxes
+you'll see that there's way more combos of
+hearts and clubs and diamonds relative to
+spades.
+And as a result, we once again have this situation
+where we prefer bluffing with spades all the
+time because spades are much more scarce and
+we can actually bet them at full frequency
+without making our opponent adjust in a way
+that's bad for us.
+So when we bluff with jack-x or spades for
+example it doesn't make our opponent react
+by folding more often with his bluff-catchers
+that contain the Jack of spades.
+In fact when you look at Jack 10 you can see
+that we he actually calls Jack 10 with the
+Jack of speeds more often than Jack 10 without
+the Jack of spades.
+If we look at the blocker scores of these
+hands what we should see is that if we have
+the spade we actually have slightly better
+trash removal.
+So remember that a low trash removal score
+means that you do not block as many any trash
+hands and as many bluffs in your opponent's
+range.
+Whereas a higher trash removal score means
+that you block more trash in your opponent's
+range.
+So even though the big blind is bluffing more
+often with the Jack of spades it doesn't mean
+that Jack-X of spades is a big part of his
+bluffing range.
+And this is very clearly reflected in the
+trash removal scores.
+So there was a question earlier on in the
+chat where someone asked why Ace-5 is checking
+so much more often compared to the rest of
+our trips, and this is where the blocker's
+tab can really come in handy.
+So let's say you are looking at the Sim and
+you're trying to figure out why A5 specifically
+is checking so often.
+What you can do is go to the line where big
+blind checks to the button and click on this
+Blockers Tab.
+When we sort by checking frequency, what we
+see is that the cards that make our opponent
+check back the most are actually mostly Ace-x
+hands.
+When we (BB) have the ace of diamonds for
+example, we end up (decreasing) button's check
+behind by 1.7%.
+Which is quite significant.
+And that's a great thing when we are trapping
+with a very strong hand, because the last
+thing we want to see is for our opponent to
+check back a ton.
+Whereas if we have a kicker that reduces this
+check back frequency, then he actually ends
+up betting more often, and that in turn allows
+us to put in a check-raise that much more
+often.
+So that's the reason why Ace-5 specifically
+is very interested in checking, whereas if
+you compare it to something like T5 on the
+other hand you can see that when we hold the
+10 in our hand we we actually increase our
+opponent's checking frequency.
+And this is presumably because a big chunk
+of his value betting range in this line is
+10x so you don't really want to remove a 10
+because that's going to make him check back
+much more often and again that's not a great
+thing when you are looking to trap with some
+kind of strong hand.
+So we can make a prediction here which is
+that: if we have a hand like T5 we (BB) should
+be much more inclined to just go ahead and
+bet for value - checking wouldn't make quite
+as much sense knowing that our opponent is
+going to check back an extra 1.5 or 1.6 percent
+more.
+And that is in fact what we do see, T5 is
+betting pretty much all the time because it
+doesn't have quite as good properties for
+slow-play compared to Ace 5.
+We can also use the blockers tab to visualize
+the best bluffs in the big blind's range.
+So in this case we would have to go to the
+betting line.
+When we look at the various cards in the big
+blind's range and how they affect the buttons
+folding frequencies, you can actually see
+that there is quite a big difference between
+spade bluffs compared to other suits.
+For example, when we hold the Ace of Spades
+we actually make the button fold an extra
+0.39% compared to ace of hearts or diamonds
+or clubs where these cards are more or less
+neutral and in fact they even have like a
+slight negative effect because we make our
+opponent fold a little bit less, this folding
+frequency decreases by 0.18% which is not
+a great thing when we are bluffing.
+Same goes with the Jack of Spades as well,
+very noticeably a good blocker.
+We make our opponent fold an extra 0.6% more
+whereas the other suits have a pretty bad
+impact in the sense that they make the button
+call a little bit more often.
+So far we've seen that one of the reasons
+why this is happening is because spades are
+scarce hands with respect to our own range,
+so we can bluff them all the time and our
+opponent will still be quite inclined to call
+with bluff-catchers that contain a spade.
+But I can already see some questions in the
+chat asking whether this also has something
+to do with the fact that our opponent has
+less spades, because just like how we are
+betting most of our flush draws on the Flop
+and the turn, the same thing applies to the
+button as well.
+He's going to be betting most of
+his high equity draws on earlier streets
+so when it gets checked to the river, button
+also naturally has less spades in his range.
+And it would seem like this makes the big
+blind spades much better to buff with.
+Maybe it even seems like a more important
+factor than scarcity, and certainly you know
+unblocking your opponent's missed draws - that's
+the sort of thing that people typically put
+a lot of weight to.
+But there is a reason why I personally don't
+think that unblocking missed draws is as important
+as bluffing hands that are scarce.
+And this reason is probably best explained
+using a toy game.
+So let's make a few changes to our baseline
+toy game.
+I'm going to keep the aggressor's range the
+same, and just make a few changes to the defender's
+range.
+I'm going to add in a bunch of 94 and 84.
+So these hands represent missed draws that
+are always folding because they don't have
+any showdown value.
+They're losing to all of the aggressors bluffs.
+So let's run this new toy game and see what
+we get.
+Before we take a look at the solution I encourage
+you guys to make a guess in terms of what
+we expect to see you know probably most people
+would imagine that we would just stop dumping
+with 98 now since we we block a bunch of hands
+that are always folding but in take a minute
+to think about it because the solution is
+really not what you would probably expect.
+So it turns out that even after we include
+all of these missed draws in our opponent's range 
+98 is still bluffing at the exact same
+frequency as JT 
+and is doing this in spite of the fact that it's blocking a whole bunch of folds.
+The reason why the solver doesn't mind
+bluffing with 98 is because the defender is
+actually compensating for all of these missed
+draws that are folding by calling A9 and A8 more often.
+Because once he fails to do this, and let's
+say he calls every single Ace-x at the same
+frequency, now when you look at it from the
+aggressor's perspective it's gonna to be much
+better for us to bluff with a hand like JT.
+So we would basically adjust by bluffing JT
+all the time and giving up with 98 all the time.
+And in that case, there would no longer be
+any reason for our opponent to continue calling
+with AJ and AT.
+So what he needs to do is call with A9 and
+A8 a little bit more often such that we are
+indifferent to bluffing with both JT and 98.
+Basically he's just playing a strategy that
+makes our blockers a little bit less powerful
+so that we cannot increase our EV by choosing
+certain specific bluffs that have very good
+removal and then just giving up the ones with
+bad removal.
+Of course, all of this is only possible if
+our opponent is able to compensate for the
+fact that he's folding all of these missed
+draws.
+So, for example, if we take away all these
+combos of a AJ through A8 that interact with
+the missed draws in some way, and we replace
+them with bluff-catchers that don't share
+cards with his missed draws, then of course
+from the aggressors perspective, JT is just
+going to make a much better bluff.
+In this case we can see JT is bluffing almost
+all the time and 98 is giving up all the time
+because 98 blocks a bunch of folds and our
+opponent isn't able to compensate for that
+by calling A9 and A8 more often for example. 
+So the takeaway here is that whether or
+not you block folds in your opponent's range
+that's something that is going to it's definitely
+going to be important in certain situations
+such as this one but at the same time there's
+also going to be a lot of other situations
+where your opponent is actually able to compensate
+for the fact that he's folding these missed 
+draws.
+And let's say if you're playing online and you're playing four or five tables you already have a very limited amount of time for every decision that you make.
+So in my opinion, it's not very practical to be trying to figure out stuff like "when is my born unable to compensate for the fact that he has missed draws?"
+And same thing for blocking nut hands as well.
+We can run a very similar toy game. So let's go back to our
+baseline toy game where the defender has AJ-A8
+and I'm also going to add in a bunch
+of J3/T3 to our opponent's range.
+Most players are going to think that this would make us more inclined to buff with JT since we now block the nuts.
+but once again this is something our opponent can
+compensate for.
+you can see out of position is buffing JT at exactly the same frequency as 98, because 
+even though JT blocks some portion of nut hands in our opponent's range, ultimately he's able to
+compensate for that by folding AJ/AT a little bit more often. So when it comes to unblocking missed draws,
+or blocking nut hands, these are things that only apply in certain specific situations
+And it's actually pretty difficult to figure out like when it applies and when it doesn't.
+So I think a much more practical approach is just to focus on the first two concepts that we've covered so far which are:
+choosing bluffs that share cards with your value range as well as choosing bluffs that are scarce. 
+because these two things will always apply in any situation.
+Here's an actual example
+of a situation where it's not that important
+whether or not we block the missed flush draw.
+So this is button versus big blind. 
+Button is barreling down on a two-tone board, and
+the flush doesn't get there on the river.
+So if we filter for all of buttons unpaired hands, we do see
+a preference for bluffing with hands that unblock the missed flush draw. 
+But then again, there's also plenty of combos such as JT and QJs 
+We don't really see any kind of preference for preference for not having spades.
+JT is still bluffing at a healthy frequency, in spite of the fact that we do block quite a few missed flush draws.
+You can tell from the blocker score of your hand
+When we have specifically JT of spades we have a trash removal score of 6 
+Which means that we block a whole lot of junk in our opponent's range that will always fold vs our bet.
+whereas if we have JT of hearts or diamonds or clubs
+we have a really good thrash removal score.
+Because we don't interfere with as much of 
+our opponent's folding range.
+but despite this, you can see that all of these hands have identical EV.
+Regardless of our suits, all of these hands are indifferent between betting and checking.
+and the reason for this is that if you look at the big blind's response vs our bet he's actually able to compensate for the fact
+that he's folding a bunch of extra missed flush
+draws by calling with hands such as king Jack
+with the Jack of Spades more often and once
+again he's designing his strategy in a way
+that makes our blockers less powerful because
+if he didn't do this and let's say if he call
+all of his King Jack at the same frequency
+then of course we will just always give up
+with JT of spades and bluff with hearts
+and diamonds and clubs. 
+And we would actually be able to gain a little bit of EV that way.
+By making sure that he's calling KJ with the Jack of spades at a slightly higher frequency he puts us in a much tougher spot.
+And this is the reason why the solver 
+really doesn't mind bluffing with hands like
+JT of spades or QJ of spades.
+So if we look at how the various cards in
+buttons range affect big blinds frequencies,
+you actually see that - let's say when we look
+at the Jack or the 10 it really doesn't matter
+that much whether we have the Jack of spades
+or the Jack of hearts. All of these cards have
+a slightly negative removal effect. 
+Same goes with the T of Spades, really not that different
+from T of hearts or T of diamonds because
+even though the T of Spades is blocking some
+extra missed flush draws, our opponent is also
+more inclined to call with KT with the
+10 of spades. So these two factors tend to cancel each other out.
+So let's take a look at one more example this time where it actually does make a difference whether or not we block
+the missed flush draws. 
+So here we have a slightly different situation where the ranges are much tighter, so small blind is three betting against
+early position but the board is exactly the
+same. We're barreling down on the two-tone
+board and the flush draw also bricks out. So let's
+take a look at some of the small blinds' potential bluffs.
+If we filter for ace high or worse
+now we actually see quite a big difference
+in terms of whether or not we prefer to bluff
+with spades. Here you can see that spades are
+almost pure checking with the exception
+of some lower combos that don't block as much
+of our opponent's range. And if we exclude
+spades a these hands are betting at a much higher
+frequency - almost slightly more than three
+quarters of the time. And this is because compared
+to the previous example, you can see that having
+a spade in our hand actually reduces our opponent's
+folding frequency by quite a bit more so the
+Jack of spades in this case actually causes
+us to get almost two percent less folds compared
+to hearts and diamonds and clubs that still
+have a slight negative effect but not quite
+as pronounced as the Jack of spades or the
+10 of spades as well. And just like in the
+previous toy game that we looked at this
+is happening because the defender is unable
+to compensate for the fact that he's folding
+all of these extra missed flush draws. In the
+previous sim where ranges were slightly wider
+he had a bunch of KJ and KT with
+a spade that he could call a little bit more often
+but because this is small blind versus
+utg, utg doesn't have any King-x off suit 
+So this straight-up makes it pretty bad
+for the small blind to be bluffing with spades.
+In conclusion, when we're choosing bluffs we
+want to be looking out for two main things:
+We want to choose Bluffs that are scarce.
+We want to choose Bluffs to share cards with our value range. 
+and what we've seen is that
+these are the two main ways that we can continue
+bluffing our hand and not have our opponent
+adjust in a way that makes our blockers bad.
+When it comes to blocking the nuts or unblocking
+missed draws, these are things that are sometimes
+important but not always, so it makes a little
+bit more sense to focus on scarcity as well
+as card sharing, since we are going to have
+limited time for every decision that we're making.
+It's just a little bit more practical
+to focus on the things that are always true.
+If you can achieve 80% of the accuracy with
+20% of the effort, then that's definitely a good result in my book.
+But if you want to be a little bit more precise then when you're
+thinking about blocking the nuts or unblocking
+missed draws, just make sure that it's not a situation
+where your opponent can compensate for these
+things by calling or folding some of his bluff-catchers a little bit more often.
+So that's all I have for you guys don't forget to subscribe to the channel for more content, and you can
+also check out my own channel at Poker Giraffe
+Thanks for watching, and I'll see you guys soon!

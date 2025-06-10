@@ -1,0 +1,673 @@
+### TOPIC: poker hand analysis
+hey everyone in this video I'm going to go over 
+the hand history analyzer if you're looking to  
+improve your game this is going to be the tool 
+that's going to take you to the next level
+so first I'm going to show you guys how to upload 
+your hands using the analyzer tool it's very  
+simple all you have to do is go to the top of the 
+page here and you'll see an analyze button you'll  
+get two drop downs uploads and hands right up here 
+and all you have to do is click on the uploads in  
+order to upload a hand history or a file to GTA 
+wizard all you have to do is find a location where  
+you save your file I save mine on the desktop so 
+it's fairly easy for me to just take the file from  
+the desktop that I save my hand histories to and 
+go to the upload section and you'll see a little  
+window here comes up that you can click and paste 
+your hand history for the single hands but if you  
+want to upload a file you can just click the files 
+button and you can just take this file and drag it  
+right into the upload section here and GTA wizard 
+will upload the file and analyze it within a few  
+hours if not sooner so once all of the files are 
+uploaded you'll see that we get to this page here  
+uh this is where it's going to tell you all of the 
+total hands that were uploaded how many correct  
+plays you made how many wrong plays you made and 
+what's your average EV loss was so when you're  
+looking through these statistics um just keep in 
+mind that there's a few caveats to GTO wizard one  
+the analyzer cannot analyze multi-way scenarios so 
+you're not going to be able to analyze multi-way  
+spots like four-handed or three-handed post-flop 
+another caveat is that certain stack depth aren't  
+supported so if you're playing like 500 big blinds 
+deep you're not going to see an option for that in  
+GTA wizard so typically the analyzer is going to 
+be able to analyze anything from roughly 200 big  
+blinds a little bit over and down so if you have 
+any hands where you played a heads up scenario  
+versus another player at about 200 big blinds or 
+down it'll come up in the analyze uh into the yeah  
+into the analyzer so this is the session that I 
+played today uh right here you can see the date  
+and the name of the file that I used to upload 
+the amount of hands uh and then how many hands I  
+played correct and how many mistakes I made and 
+what my average EV loss was so I've been using  
+this tool for a really long time uh almost around 
+the time that GTO wizard even came out and you can  
+see I have a lot of hands in the database already 
+that I've just been uploading because every day I  
+upload my hands and every day I look through all 
+of my mistakes and see what I can do better so  
+I've already had close to 440 000 hands uploaded 
+and you can see here that my it tells me what my  
+average correct plays are what my wrong plays 
+were and what my average EV loss was um and so  
+the way that I use this Tool uh is I look over all 
+of the hands and I sort uh between what my biggest  
+average EV losses hands were what the biggest 
+pots that I played were and uh any hands that I  
+marked during the session or thought about trying 
+to look at later for review so let's open up the  
+first file here that I analyzed which was today's 
+session it'll bring you to another page here which  
+is just your analyzed hands so like I said you can 
+sort them for different things you can sort them  
+for uh the date you played the status what site it 
+was if you're you know uploading multiple files or  
+something like that uh what the format was EV loss 
+big blinds one loss so that's going to be if you  
+want to sort for big pots the pot size if you just 
+want to sort for a big pot in general not whether  
+you want it or lost it just how big the pot was 
+you know what your position was and what cards you  
+had and what board textures there were and what 
+actions there were so there's a lot of different  
+um things here but you are going to only be able 
+to sort between the Eevee loss the big blinds one  
+loss the pot and the others are just going to tell 
+you exactly you know what the position was or who  
+the hero was Etc so looking at the first thing 
+EV loss you can click here and you'll see that  
+it'll automatically sort all of your hands to the 
+biggest EV loss that you experienced during the  
+session so you can see the first hand that pops 
+up at the top here I lost negative 4.18 so this  
+is a pretty big EV loss which means I probably 
+made a big blunder in the hand and if I want to  
+check how I played the hand I can click on it here 
+and it'll bring up the hand history on the right  
+so once you get the hand history here you can 
+go through the actual hand and see where your  
+mistake was we're going to go over some actual 
+hands that I played in a minute but first I  
+just wanted to continue to show you how else you 
+can sort the uh the hands to to look at later on  
+so that's the EV loss that you can sort you 
+can also sort to see if you made any good plays  
+um but typically I would just use this tool 
+to uh sort for the big mistakes and then go  
+over the mistakes this particular session I 
+didn't have too many mistakes so it's it's  
+actually going to be easier for me to review 
+this session than looking at the big blinds  
+one or lost so like I said you can sort for your 
+bigger costs that you played so I played a bunch  
+of big pots you can see here I won a pot that was 
+300 big blinds today and I can also I also want  
+another pot that was 284 big blinds so pretty 
+good session today um if I sort for the path  
+that I lost you can see the biggest pot I lost 
+was 34 big blinds so again yeah lucky session  
+um not a lot of variance in this one but I do 
+want to sometimes look at these medium sized  
+pots as well it's not always just going to be 
+important to look at the top uh positive one and  
+the top posit you lost also you can look through 
+some of the middle uh the middling stack pots  
+you know depending on what you want to look 
+through and then again you can just put up the pot  
+um function here and you can see 
+when there was a huge pot played  
+in the games you were in this doesn't 
+necessarily include you in the hand so  
+it's important to note that if you do sort 
+by pot it's not going to include your actual  
+um your actual action it's going to just 
+be two players played a big pot together  
+so that's why I like to either sort by the 
+Eevee loss or the big blinds one and lost  
+um those are going to be the two main ones 
+that I use so let's take a look at how I  
+analyze the hands after they're analyzed okay 
+first hands I pull up here I like to always  
+open the replay hand function here because it 
+just gives you a bigger view of what's going on  
+um and it also gives you this nice little 
+UI here to show you all of the different  
+options that you could have used so for this 
+scenario looks like the button opened we had  
+Ace queen off suit and we go for a three bet 
+I've modeled my game to represent What wizard  
+uses and sizes so I'm typically going to use 
+the same sizings that wizard uses but if you  
+use a different size that's okay because 
+wizard will adjust your play to fit What  
+wizard is going to do so let's say you raised to 
+10 BBS out of the big blinds but wizard wants to  
+use a 13 big blind sizing it'll adjust your 10 
+big blinds to the 13 big blinds that wizard is  
+using you can also change what Solutions you 
+would use in the options menu as well if you  
+wanted to use different options you can go up 
+to the settings and you can see the analyzer  
+and you can choose which hands you want to use 
+or which Solutions rather that you want to use  
+for the analyzer so if you're studying with um 
+something like 50 and L simple you can use that  
+for the hand history and analyzer and it'll upload 
+all of the hands assuming that you want to play  
+The nl50 Simple Solutions so personally I use the 
+500 General as I mostly play 500L online I also  
+mix in some 200 NL as well so I think if you're 
+going to play 200 or 500 the best Solutions are  
+going to be the 500. if you play something like 
+100 or 50 NL then I would suggest using the 50  
+NL Solutions and if you play anything under 50 NL 
+then 50 and L is going to be the solutions for you  
+um so yeah I typically use the general 500 and 
+like I said I modeled my game to represent all  
+of the sizings that wizard is going to use so 
+you can see I raised the 13 big blinds as I  
+know wizard likes to use a 13bb Rays out of 
+the big blind versus button in the scenario  
+um and villain four bets to 28 so we're gonna 
+mix between call and shove here uh I didn't  
+actually know that I can shove versus the button 
+in this scenario so that's something I'm already  
+kind of taking note in my mind um also the fact 
+that the fold option is zero EV uh that was also  
+a surprise to me I didn't think I was going to be 
+able to fold but you can see the little blue here  
+in the bar representing the fold frequency which 
+means that if you have a button that's going to  
+be uh for betting very tight ranges and not enough 
+weekends this might be a really good candidate to  
+just three bet fold against that player so yeah we 
+uh we end up calling and seeing a flop flop is Ace  
+King six I go for the check that's good so you can 
+just go forward in the hand to see every single  
+part of the hand and see where you made a mistake 
+or didn't make a mistake so so far no mistakes  
+made we kind of learned a couple of things about 
+the frequency of Ace Queen offsuit pre-flop  
+and uh villain bets a what looks to be 
+around 33 sizing which is a bit large  
+um since GTO wizard is typically going to 
+want to use a 25 sizing in this scenario  
+um so that's that's represented by the white here 
+where it says bet 25 and then in the parentheses  
+is what the sizing the villain actually used 
+so again uh wizard is going to take that sizing  
+and try and fit it into the sizings that it 
+already has for the solutions that being said  
+if a villain uses a different sizing the 
+hand history analyzer will still show you  
+the proper uh frequency versus that sizing but 
+if you wanted to dive deep into the hand and  
+open up the spot which you can do here with this 
+button you'll see that when you open up the spot  
+um it defaults to the 25 sizing that the 
+button ended up uh you know was supposed  
+to use according to the solutions 
+of GTA wizard so I'll get to the  
+um I'll get to the spot analysis in a minute 
+but going back to the hand in question
+um in the spot we'll continue versus the 33 
+percent so we're assuming this is a 33 uh bet  
+so against that we can call we can also shove I 
+elected the call and then the turn we turn the nut  
+flush draw uh with the Queen of Diamonds I check 
+button decides to check back and I went all in  
+um this was a spot that in game I kind of thought 
+maybe I should have a smaller sizing and an all-in  
+sizing um but it looks like wizard doesn't really 
+want me to have an all-in sizing here uh and to  
+check whether or not I should have an all-in 
+sizing I can go and click study the spot again  
+and then we can take a look at the range that 
+wizard in fact wants to go all in with and we  
+can look here there's a 5.4 percent frequency 
+of going all in so it's not uh it's not zero but  
+um the combos that we're going to go all in 
+with don't include the ace queen with the queen  
+and I think this might have something to do with 
+the fact that we're blocking a lot of the calling  
+range uh from villain with the Ace in our hand uh 
+because if you see here I assume if big blind goes  
+all in that the button is going to have to call 
+a lot of Ace X Combos and that's where we get our  
+value from from the flush so we can click call 
+here and then it'll highlight all of the calling  
+hands and you can see like I was saying uh a lot 
+of the calls are going to come from hands like  
+Ace King Ace 8 A7 ace3 ace2 all having that 
+Ace that we actually are blocking in our hand  
+so we're not going to get a lot of calls when 
+we're blocking the range that villain is gonna  
+call with makes sense um so it looks like wizard 
+Alexa to mostly check my combo in particular  
+um and in I guess in hopes that you know 
+the villain is going to have some of the  
+Bluffs that they're going to have so if we 
+check here then button is going to have to  
+Bluff at a certain frequency you know hands like 
+Queen nine of Hearts is even in their range here  
+um you know a lot of different combos are going 
+to have to Bluff the river and we're not blocking  
+those combos with uh with our Ace of Spades or our 
+Ace of uh whatever we had uh so we're unblocking  
+the Bluffs we're blocking the hands that are 
+mostly going to check back like a state A7  
+um and then even sometimes Ace King can even 
+shove so if they do have those combos they're  
+gonna shove anyway so the times that we shove and 
+are blocking those calls and they have to fold  
+um and the times that we check and they have 
+to shove those hands that's just going to be  
+a better uh EV play for our particular holding 
+with the Queen of Diamonds even though we have  
+the nuts it's going to prove to be better to check 
+in that scenario so looking at like another hand  
+let's pull up this one here this is pocket threes 
+on the cutoff and it looks like we are going to  
+be analyzed for a deeper scenario so you can 
+tell what the scenario is solved for by looking  
+over here underneath the pre-flop section so 
+you can see that the solver used the 200 big  
+blind solutions for this particular hand because 
+cutoff was played with the button and we're both  
+uh pretty deep stacked here so this is what I was 
+saying earlier by sometimes you can still use the  
+200 big blinds uh solution for a 250 big blind 
+scenario but just keep in mind that it's going  
+to be a bit inaccurate especially if there's 
+some scenario where you just end up shoving  
+all of your chips GTO wizard might simplify 
+that to try and fit the 200 big blind solution  
+so looking through this one we open the 
+cut off button three bets and at 200 Big  
+steep we're just never folding threes uh 
+we're pretty much continuing with any pair  
+so I end up calling here and we flop a set 
+pretty dream scenario for deep stack spot  
+um I end up checking and villain bets small uh 
+first off I'm really curious about villain's  
+small bet here I'm not sure that villain wants 
+to be sizing down this much in position on a  
+board texture like this um I think this sizing 
+is more fit for some other scenarios but because  
+we're so deep stacked I could see this maybe 
+being good as well but if I wanted to double  
+check it again I'm going to open up the spot um 
+tool and I can go through and look back at what  
+the button wants to do in the scenario and so 
+you can see here the button is mostly going to  
+use a 50 sizing a 33 sizing and very rarely a 
+20 sizing which is what villain used I believe  
+uh if I'm not mistaken let me double check here 
+what did they use let's go back to the uploads
+and pull up the hands so it looks like if I look 
+in the hand history yeah uh villain used about a  
+28 sizing in practice so it simplified it to 
+the 33 size that uh GTO wizard wants to use  
+so that's probably fine not a big mistake there 
+if uh villain went a little smaller than the 28  
+sizing I could see that being a mistake because 
+it's a very low frequency play Here by wizard  
+given the option and so the mistake that we 
+actually made was we just flat called here  
+in game I thought this would be a good spot 
+to uh have some really strong hands out of  
+position to be calling with especially since this 
+board texture is very Dynamic a lot of different  
+draws can come in on turn river that make pocket 
+threes uh no good and so I thought we could have  
+some really strong hands in our range for check 
+calling out of position and what better hands to  
+check call with than sets especially bottom set 
+because there is even some reverse implied odds  
+that we end up check raising here and getting it 
+inverse nines or tens and get stacked so I thought  
+that if there was going to be a hand to slow play 
+out of position it would be one with a lot of  
+vulnerability that still has a lot of strength 
+and can continue to call multiple streets but  
+uh yeah alas I think the solver wants us to just 
+push this and raise the 100 sizing a lot of the  
+time so I made a mistake there but it wasn't 
+exactly a huge mistake if you look at the EV  
+you can see all of the EV for the different 
+options and call was just barely below raise 100  
+and raise 60. um and so you'll often see if the EV 
+is close to the same that the solver is going to  
+use a bunch of different options but in this case 
+the call option is just a bit too low compared to  
+the other raise options and so it mostly wants 
+to just raise in this scenario so because the  
+EV was still close uh GTA wizard classifies 
+this as an inaccuracy so there's a certain  
+threshold for inaccuracies before they become 
+blunders and blunders are the biggest mistakes  
+that you can make and that's something you don't 
+want to be doing in the hand so an inaccuracy is  
+um is pretty close but uh still not 
+going to be a line the solver is going  
+to use so they might not be at the top 
+priority for you to try and fix in your  
+game but it is important to not make too many 
+inaccuracies because of course they do add up  
+so turn um I ended up checking in villain checked 
+back and then I wasn't really sure what sizing  
+scheme I wanted to use here on the river but it 
+looks like the solver really wants us to go big  
+we have a really strong hand now villains showed 
+a lot of weakness we have the top of our range  
+you know villain could still have some asex that 
+caused this huge bet with and I really like that  
+the uh the solver wants to use the 300 sizing I 
+thought about that in game but because I wasn't  
+really sure I just went with the large size 
+and so I ended up betting 71 which this was a  
+blunder you can tell the EV is a lot different 
+here and we're losing a decent amount of EV if  
+we're only betting this small sizing so this 
+was the spot where I picked up a mistake and  
+I would in the future be more sure to use the 
+more polar sizings when my opponent in position  
+shows some weakness and I have an uncapped 
+range that has a lot of really strong hands
+um so now that we've looked at a couple of the top 
+EV losses let's look at one of the biggest pots  
+that I played we can look at something like this 
+so This is actually a very unique scenario because  
+this was against the recreational player so I'll 
+show you guys how wizard looks at some of the  
+um sub-optimal sizings used in game so first off 
+hijack opens to 3x which is not typically a sizing  
+that wizard is going to use so again it's going 
+to adjust it to the 2.5 x and then for us we're  
+supposed to be three betting to about 10 BBS in 
+position because we are deeper on the button so  
+I missed this size as well I could have went to 
+10 BBS but instead in game I went to eight BBs  
+so I3 bet to 8 hijack calls flop I don't think 
+there's going to be a lot of leading from the  
+hijack so this again isn't really a scenario 
+that's used by GTO wizard but that's okay because  
+it can uh resolve for the sizing that's used and 
+you'll see the response that we are supposed to  
+take to an approximate level so it's not going 
+to be perfect like it would be if villain used  
+a decision that was an actual strategy in GTO 
+wizard but because they ended up just leading  
+something like 75 percent on the Flop or whatever 
+it was they LED there is no option for that as you  
+can see here most of the time hijack is just 
+going to check so uh going back to the hands
+you'll see that villain in fact did just kind of 
+lead half pot here but wizard is still going to  
+have an answer now like I said this isn't going 
+to be a super accurate answer but it's going to  
+give us a good enough approximation of what we 
+should be doing here so you can tell that EV is  
+different even though um the strategy is uh split 
+which isn't usually the case if there's a higher  
+EV option like this usually the solver is going 
+to just pick this at a pure frequency but because  
+um this isn't going to be solved to the accuracy 
+that the other solution and strategies are it's  
+an approximation once again so that's why we 
+see the difference in EV but the the solver  
+wants to mix these two uh decisions and then 
+so it's it's something like a solver noise if  
+you've heard that term before so again just 
+make sure you're analyzing this with caution  
+so I ended up calling and then on the turn again 
+I could have mixed between raise and call but I  
+decided call so again there's still some you 
+know this this isn't really a thing in in GTO  
+wizard so we have this unique scenario and then 
+by the river villain just shoves so at this point  
+um you can see that the EV is close to zero on 
+both decisions um we're facing what we think  
+is approximately a hijack range for leading 
+three streets um but what it came down to was  
+I thought I was blocking the nuts with the Ace of 
+Spades we have a really strong hand here if we're  
+folding this hand we're probably just folding 
+everything except for a flush or trips which  
+um you know I think that's a bit exploitable uh 
+so I decided to make the call here and luckily  
+a villain just showed up with a random Ace Queen 
+offsuit uh and I was happy to see that and ship  
+the pot but using the hand history analyzer just 
+be careful when you see a lot of sizings that are  
+out of the norm the accuracy might not be uh 
+completely reliable the times that you want to  
+use the hand history analyzer and really go into 
+depth is when villain is using approximate sizings  
+that are close to GTO wizard as well as you're 
+using the strategy as well and you'll get a really  
+good scenario to study and better your play lastly 
+let's put it all together and look at a hand that  
+we lost some EV in and how we're going to learn 
+from that and adjust in the future so we're going  
+to sort by EV loss once again and we'll take 
+this pocket Eights hand as a option there we go  
+okay so pocket eights in the hijack we open 
+to two big blinds you can see that this was  
+solved for 100 BBS I think filling used some very 
+similar sizings to GTA Wizards so that's great  
+um flop Jack 4 against the big blind we 
+go ahead and see bets we're supposed to  
+see bet at a pretty high frequency here um so 
+we do and I get check raised um it looks like  
+we don't have too many other options other 
+than just call which is what I end up doing  
+and turn as a six of Spades villain goes ahead 
+and Bets again at half pots now this is a sizing  
+I think I wasn't ready to see I thought villain 
+would polarize a bit more um on the turn because  
+they're effectively representing that they have 
+trips but they do have some weaker hands in their  
+range for check raising the Flop like pocket 
+sevens pocket sixes now that makes a boat but  
+on the Flop they could have uh check raised 
+some weaker hands that maybe you want to go  
+for a smaller sizing so let me look at what sizing 
+wizard wants to use after it check raises the flop  
+um so wizard looks to check raise the Flop and 
+then on the turn the big blind is mostly going  
+to mix between uh 75 50 33 and 175 those are 
+going to be the most common sizings right here  
+uh so yeah villain did well it's about the 50 
+sizing um and that leaves like I said their  
+range a little less polar so they can have some 
+more merged hands maybe they can even have some  
+pocket Queens in this scenario um or something 
+like pocket tens uh perhaps and we can double  
+check that in the range here we can see that 
+there's a small frequency of pocket tens or maybe  
+villain wants to continue betting something like 
+a flush draw some weaker trips even so something  
+like Jack 5 suited so it doesn't really want 
+to polarize yet with a big part of the range so  
+it looks like we're using a lot of the 50 sizing 
+so that's something that I'm going to learn next  
+time I check raise a paired board out of position 
+maybe I'm going to use a sizing like 50 percent  
+um that's not so polar and then on the other 
+side of the coin for us um it looks like  
+we're going to just continue with eights at a 
+pretty high frequency but with the diamond it  
+looks like that hand wants to start mixing 
+in some Folds so let's go back to the hand
+so on the turn it looks like we have 
+a fairly standard call but we can do  
+some mix folding because again we're blocking 
+this Ada diamonds which is going to block the  
+weaker hands of big blind and typically you 
+don't want to be doing that in this scenario  
+now this is where I can learn something because 
+clearly I made a bad fold against the small size  
+um villain goes for the small size on the river 
+which I thought was pretty interesting because  
+uh villain can still have a lot of strong hands 
+even with the sizing a lot of their flushes get  
+there but also they have a lot of trips with 
+like a weak kicker or even some merged hands  
+in there that don't really want to be betting 
+large so I assume that this sizing is going to  
+contain a lot of weak trips with uh you know weak 
+kicker and even some flushes I don't know if they  
+have a large sizing so what I would first do 
+is look again back at the sizing that is used  
+by wizard so I'm learning that only my own 
+play but also the play of the other player  
+um so that I can mimic that in my own game it 
+looks like the big blind does in fact not want  
+to bet a large sizing here it only wants to 
+bet a small sizing at a fairly high frequency  
+so there is a lot of like weak trips here that 
+want to be betting for Value but doesn't want to  
+go for a large sizing since we can still have 
+a flush we can still have better trips we can  
+still have pocket kings or pocket sixes or pocket 
+fours and so something like Jack five of hearts  
+does not want to bet large but it still wants to 
+get value from our weaker medium strength hands  
+and then you have some you know flushes that 
+are also weaker flushes uh and then you can  
+even filter for some of the Bluffs if you want to 
+take a look at the trash ends those are going to  
+come up so hands like Queen ten of clubs look to 
+be bluffing uh in this node so pretty interesting  
+um this is something I would explore if I was 
+curious okay well if they're betting the sizing  
+like what are they bluffing right like what 
+do their Bluffs look like I would come over  
+to here into the filters look for the weekends 
+look for the trash hands highlight those click  
+on the sizings that are most often used and then 
+kind of go through the Combos and try and find  
+some heuristics for what hands I think uh make 
+sense as a bluff right so if we see here Queen  
+Santa clubs is a pretty high frequency Bluff that 
+makes sense to check raise the flop because we had  
+the back door uh straight and flush draws with the 
+Jack of clubs on the board and then it looks like  
+it just wanted to continue bedding here um and 
+then once the the flush comes in you know we need  
+some Bluffs that are not going to be diamonds 
+so this one actually makes a lot of sense to  
+Bluff because uh it's probably blocking hands that 
+we're gonna call with like Queens with a diamond  
+um and we can double check what exactly the combos 
+are that it's blocking so if we go to 10 here and  
+then we go to my calling frequency we'll see the 
+hands that I'm calling or raising uh whether or  
+not the Queen of Clubs is an important card 
+right so we can go look through the Queens  
+so here's one of the combos I was talking about 
+Queens with a club and a diamond that's going to  
+do a lot of calling so we're blocking that um 
+from the range as the big blind and then also  
+um let's see anything else looks like Queen 
+jack off suit uh that's also going to be uh  
+in the range of the hijack so we're blocking 
+that combo which is really good so anytime  
+we're blocking the hijacks calls as the 
+big blind that's going to be a pretty  
+good hand to Bluff right so again the Queen 
+of Clubs is really blocking these combos here  
+um Queen jack off suit and queen queen 
+these make up a big portion of the range  
+um and so if we're blocking those it's more 
+likely that they're going to have something  
+that they're folding and then of course since we 
+only have Queen high as the big blind bluffing  
+the 10 sizing we'll see that if we can get them 
+to fold any pocket pairs here that's huge right  
+um so that's really nice even though the sizing 
+is only 10 percent you just you're gonna be stuck  
+here with a combo that's going to have a difficult 
+decision and you're going to get those combos  
+to fold so nice spot for villains to size down 
+on the river and that's something I'm going to  
+take a note on to is when the board changes like 
+that maybe I should have more of a smaller sizing  
+and let's continue to look at how I played it 
+so I should have called the small sizing on the  
+river it looks like the EV isn't even close this 
+is a big uh call I'm losing 1.6 EV by folding in  
+this scenario I'm getting a great price and now 
+we know that villain is capable of having some of  
+those Bluffs so I really need to be calling hands 
+like this especially one that's blocking the flush  
+um it's blocking a lot of the value that villain 
+could have had for check raising the Flop like  
+Ace not ace 8 but uh something maybe like 10 8 of 
+diamonds uh that was you know taking this line any  
+of the flushes within eight of diamonds basically 
+so I should have found the call here and we know  
+the hands that they're supposed to Bluff and 
+if you think that they're not in game then this  
+might be a good adjustment to make some big folds 
+on the river right like if you don't think that  
+they're going to be bluffing hands like Queen ten 
+of clubs on the on the river here then maybe it's  
+better to just fold these hands that are closer 
+decisions but in a perfect equilibrium we should  
+have called and um I made a mistake here so that's 
+something that I'm going to in the future make the  
+call if villain is going to give me that uh 
+proper sizing on the river and I think that  
+villain is going to show up with enough Bluffs so 
+to summarize how to use the hand history analyzer  
+first you just upload your session whether it's a 
+single hand you want to review or a full session  
+you can upload either then you want to sort using 
+the EV tool or the big blinds one or lost and then  
+you can sort through all of your hands that way 
+you want to look through the biggest mistakes and  
+you want to analyze why you made the mistakes 
+you want to make sure that all of the sizings  
+that were used were the sizings that are used by 
+GTO Wizard and you want to use all of the tools  
+that you have on GTA wizard to analyze the hands 
+so using you know all of the reports all of the  
+data and anything that you want to learn you can 
+dive deeper into so that you can understand why  
+the solver is using the strategy that it's using 
+that's probably the hardest one to get good at but  
+we'll take you know like everything else time 
+before you really understand how the solver  
+thinks but then once you kind of get a good idea 
+and hang of it then you'll be able to replicate  
+how the solver plays in your own game and you'll 
+also understand why so in order to better absorb  
+all the new info it's important to take notes 
+I always take notes after a study session if I  
+have learned anything significant or if I've come 
+across something that I didn't know previous and  
+rinse and repeat you really just gotta grind it 
+out and study all of the tools are available to  
+you it's just a matter of whether you're going 
+to be motivated and can get in that lab and  
+work really hard because it's going to show and 
+it's going to be very rewarding when you do look  
+through your mistakes figure out why and then 
+apply them next time they come up I don't think  
+there's anything else that is more rewarding in 
+poker than to better your game and continue your  
+journey to crushing all right guys if you enjoyed 
+this video please like And subscribe I'm going  
+to be continuing to make some videos in the 
+future also if you have any other comments or  
+questions please leave them in the comment section 
+below alright guys I'll see you in the next one

@@ -1,0 +1,26 @@
+### TOPIC: calcualting raises
+How To Calculate Raises In Poker
+One of the most frequently asked questions in poker is how to calculate the size of a raise as a percentage of the pot. Fortunately, it’s a relatively straightforward calculation that can be done using a simple formula. Here’s how to do it.
+To calculate a raise as a percentage of the pot, follow these steps
+Determine the size of the pot if you had called the most recent bet or raise.
+Multiply that number by the percentage you want to raise.
+Add the previous bet or raise.
+For example, let’s say the small blind bets 2bb (33%) into a 6bb pot, and the big blind wants to make a half-pot raise (50%). Here’s how to calculate the raise:
+Calculate the total pot as if the big blind had called: 6 + 2 + 2 = 10bb
+Multiply by the percentage you want to raise: 10bb x 50% = 5bb
+Add the initial bet: 5bb + 2bb = 7bb
+Therefore, if the big blind raises to 7bb, they have raised 50% of the pot.
+Formulas
+Here are some General formulas to calculate raise sizes:
+Pot-sized raise: 100% Pot Raise = 3×Bet + Pot
+General formula: X% Pot Sized Raise = X% (2×Bet + Pot) + Bet
+Where “Bet” is defined as the last bet or raise that occurred, and “Pot” is defined as the size of the pot at the beginning of the street. In unopened pots, the BB is treated as the initial raiser, and the starting pot is the SB plus any extra money, such as antes.
+The Law of Raise Sizes
+An X% pot-sized raise should always lay the same pot odds as an X% pot-sized bet.
+To check your calculation, you can calculate your opponent’s pot odds facing the raise. A half-pot bet or raise should always yield pot odds of 3:1 or 25%. Checking the previous example:
+Villain needs to call: 7 – 2 = 5bb more
+Pot after they call is: 7 + 7 + 6 = 20bb
+Pot odds facing raise = amount to call / pot after they call = 5 / 20 = 25%
+Conversely, if you know the pot odds being laid, you can reverse-engineer the size of the previous bet or raise using this formula:
+Multipliers
+Some players estimate raise sizes by multiplying the size of the bet by a certain amount; this method is inconsistent with game theory. To lay the same odds, you need to use a much larger multiple against a small bet and a smaller multiple against a large bet. To simplify things, we’ve created a cheat sheet you can use.

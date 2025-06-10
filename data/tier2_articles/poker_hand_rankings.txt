@@ -1,0 +1,189 @@
+### TOPIC: poker hand rankings
+The first thing you must understand when learning how to play poker is the different poker hands you can make and how to rank them.
+In Texas Hold’em, the best hands in order are royal flush, straight flush, four of a kind, full house, flush, straight, three of a kind, two pair, one pair, and high card.
+The poker hand chart below will help you understand official poker hand rankings and start playing the game with the knowledge of all the possible combinations you can make.
+Poker Hands Chart
+Download Poker Hand Rankings PDF
+Ties and Kickers in Poker
+The above table shows you all the possible Texas Hold’em hands, but there is more to be told, as there are situations in Texas Hold’em where looking at this chart alone is not enough.
+A good example of this is when two players have the exact same hand. For instance, at showdown, two players could have the same straight with two of their hole cards and three community cards.
+In a case like this, the hand is tied, and the dealer will split the pot between the two players equally. If more players are involved in the hand, they will all receive an equal portion of the pot.
+In other cases, two players may have the same hand, but the kicker will decide the winner. The kicker is the highest card the player has, along with his made hand.
+For example, if two players have three of a kind on a board of 8c8d5c3d2h, the player with the highest kicker will win. A player holding Ad8s would beat the player holding 9s8h because the Ace kicker beats the Nine kicker.
+Kickers can come into play with a variety of hands, such as one pair, two pairs, and three of a kind. In situations where multiple players have straight or flushes, the player with the higher straight or flush wins.
+Do Poker Suits Matter?
+Another good question about poker hand rankings in Texas Hold’em is whether poker suits come into play.
+The answer, quite simply, is that poker suits don’t matter in Texas Hold’em games. Suits will not be the deciding factor in who wins the pot in any scenario.
+Since it is not possible for two flushes in different suits to be present in one Texas Hold’em hand, this scenario is not even in question. In all other situations, the suits of your cards will not help or hurt your chances of winning the pot, so pay them all equally.
+Poker Hands in Order
+Download Poker Hands List
+We have listed all the possible poker hands, but let’s take a deeper dive and find out exactly how they rank up and how to make them in Texas Hold’em Poker.
+#1. Royal Flush
+A royal flush is the best possible combination of cards in Texas Hold’em. If you have this hand, you will win the pot, and there is no way for anyone to beat you.
+A royal flush is made up of five consecutive cards of the highest ranking in the same suit. For example, AhKhQhJhTh is a royal flush.
+You can make a royal flush with any combination of hole cards and community cards, but using both your hole cards to make it is the least probably and most advantageous situation.
+You will probably only make a royal flush a few times in hundreds of hours of playing poker, so make sure it counts.
+#2. Straight Flush
+Ranking just below a royal flush is a straight flush, a hand made up of five consecutive cards of any suits that don’t go up to the Ace.
+For example, if you are holding 9s8s7s6s5s, you have a straight flush. This hand is nearly unbeatable and can only lose to a higher straight flush or a royal flush.
+Straight flushes are also very rare, and making one in Texas Hold’em usually means you are about to win a big pot if your opponents give you action.
+#3. Four of a Kind
+Also known as quads, four of a kind is an extremely powerful poker hand and the best possible hand on many boards in Texas Hold’em.
+An example of four of a kind would be KdKsKhKc9s, a hand containing four cards of the same rank along with another card on the side.
+Four of a kind is akin to a straight flush in that it almost always wins the pot and is extremely hard to make in the game.
+#4. Full House
+A slightly more common hand than the above, a full house is made up of three cards of one rank and a pair of cards of another.
+For example, QdQsQhJdJc makes for a powerful full house. Depending on the board texture, a full house can be the best possible poker hand in a given situation.
+When you have a full house in Texas Hold’em, you will want to make bets and get some value, but be careful of higher full houses that might be lurking in the dark.
+#5. Flush
+A flush is a hand made up of five cards of the same suit that are not ranked in any particular order. For example, KdJd7d4d2d makes a flush.
+If you make a flush in Texas Hold’em, you will want to be aware of any higher flushes that are possible, as well as the board pairing, as this opens opportunities for full houses and quads in other players’ hands.
+#6. Straight
+The next best hand in poker is straight, which is made up of five consecutive cards that are not suited, such as 7d6s5c4d3d for a 7-high straight.
+Straights can be strong poker hands and even “the nuts” on some boards, but they can also be troublesome on certain community cards.
+Calling bets to try and make a straight can be a good idea, but beware of cards of the same suit and board pairing when you have one.
+#7. Three of a Kind
+In Texas Hold’em Poker, there are two ways to make this particular poker hand. In either case, it is made up of three cards of the same rank, such as 6d6c6hAd3c.
+When three of a kind is made with one hole card and two community cards, the hand is called “trips,” and your kicker will often play a big part in its strength.
+On the other hand, when three of a kind are made with two hole cards and one community card, this is called a “set” and is a much more powerful and concealed hand.
+#8. Two Pairs
+A poker hand made of two pairs of cards of different rankings is called two pairs. For example, KdKc7d7c4s makes two pairs.
+Two pairs is a hand with plenty of value in Texas Hold’em, but also one that you will want to be careful with when a lot of action goes down.
+#9. One Pair
+If you hold just one pair of cards of the same rank, along with three other cards, you have one pair, the weakest “made hand” in poker.
+One pair hands is often a winner in poker but can be in trouble when the pot gets big and there is nothing else to fall back on.
+#10. High Card
+If you have no pair or any of the higher-ranked poker combinations, your high card will come into play and decide the winner.
+For example, if a hand goes all the way to showdown, and neither player has a pair, the highest cards in the players’ hands will decide who wins.
+If the highest card is the same, the next highest card will play, regardless of suits and any other details of the hand.
+Poker Hand Probabilities
+Poker is a game of odds and probabilities, and knowing what the probability is of different outcomes is an essential part of the game.
+In total, there are 169 different starting hands and 1,326 starting card combinations in poker, with as many as 2,598,960 possible five-card combinations out there.
+Of your starting hands, 5.8% will be pocket pairs, about 23.5% will be suited, and all the others will be neither paired nor suited.
+But what are the odds of making specific poker hands by the river, and how likely are you to make a royal flush, quads, or a full house? Let’s find out!
+Poker Hand Odds to Make Probability Royal Flush 1 in 649,740 0.00015% Straight Flush 1 in 72,193 0.0014% Four of a Kind 1 in 4,166 0.024% Full House 1 in 695 0.144% Flush 1 in 510 0.1965% Straight 1 in 256 0.39% Three of a Kind 1 in 47 2.11% Two Pair 1 in 21 4.75% One Pair 1 in 2.37 42.2% No Pair 1 in 2 50.1%
+What are the Odds of Getting a Royal Flush?
+A royal flush is the best possible hand in poker, but if you have ever played the game, you probably know just how unlikely you are to make one.
+The probability of making a royal flush is incredibly low, as only one in 649,740 poker card combinations is a royal flush.
+This means you will have to play poker for quite a while before you finally make a royal flush, and you may not even get to see it if you end up folding the cards preflop, on the flop, or the turn.
+If you have never had a royal flush in Texas Hold’em, you are not the only one, as the odds of making a royal flush are only 0.000154% with just five cards, but the two extra cards in Texas Hold’em do make it somewhat more likely to come in.
+What are the Odds of Getting a Straight Flush?
+A straight flush is a lot more common than a royal flush, as it can be made up of any five consecutive cards of the same suit.
+Yet, even a straight flush appears only 1 in 72,193 hands in Five Card Draw poker, which still makes it one of the least likely things to see at a poker table.
+The odds are significantly improved compared to a royal flush, as 0.00139% of all five card hands are straight flushes, which means this is the number of times you will have a straight flush by flop in Texas Hold’em.
+What are the Odds of Getting Four of a Kind?
+Four of a kind is the next best hand in poker and one that almost always takes the pot down both in five card games and in Texas Hold’em.
+The odds of making quads are significantly higher than those of making a straight flush, as 1 in 4,166 poker combos make four of a kind.
+Still, you may go a long time without making this hand, as only 0.024% of all five card combinations include four cards of the same rank.
+What are the Odds of Getting a Full House?
+A full house is an even more likely hand to have in poker, and you will see this one take down pots time and time again in Texas Hold’em.
+The odds of making a full house are 0.144%, but with many players to a table and multiple streets played, a full house will be dealt at a Texas Hold’em table significantly more often than the stronger hands.
+One in 695 five card combos make a full house, and there are quite a few opportunities to make this hand in Texas Hold’em.
+What are the Odds of Getting a Flush?
+When it comes to flushes, 0.196% of all hands, or 1 in 510, are flushes, which means there will be flushes circulating through the table over a game of Texas Hold’em, with seven cards making a significant number of combos.
+A flush is not as strong as full houses and stronger hands, but making a flush with a strong kicker in Texas Hold’em will make you a favorite to have the best hand quite often.
+What are the Odds of Getting a Straight?
+A straight is another hand that requires five specific card ranks, but without the need to be suited, their numbers go up.
+The odds against a hand being a straight are 255:1 in a vacuum, as 0.39% of all five card combinations make up a straight.
+What are the Odds of Getting Three of a Kind?
+Three of a kind is the next best hand, and there are multiple ways to make three of a kind in Texas Hold’em Poker, which significantly boosts your odds.
+In general, the odds of a poker hand being three of a kind are 46:1, as 2.11% of all five card hands include three cards of the same rank.
+What are the Odds of Getting Two Pair?
+The odds of making two pairs are even higher than any of the other hands we talked about thus far, as 4.75% of all hands in poker include two pairs.
+If you were to take five random cards, you would have two pairs about 1 in 21 times, which makes this a reasonable hand to make, but one that will still be the winner in many hands in Texas Hold’em Poker.
+What are the Odds of Getting One Pair?
+One pair may not be a huge hand in poker, but it is also not that hard to make, as over 42% of all five card combos include a pair.
+You will make a pair 1 in 2.37 times with just five cards, which means you are reasonably likely to have one pair by the flop.
+Keep in mind that in Texas Hold’em, having just one pair on the board is not going to be enough to win too many pots, with the top pair being the one exception to this rule.
+What are the Odds of Getting a High Card?
+Just over 50% of all five card combos end up being nothing but high cards, which means you should not be surprised when the flop does not improve your poker hand in any significant way.
+Fortunately for us, Texas Hold’em is played with seven cards in total, and there are some chances to improve our hand further if the flop brings just a draw.
+What Beats What in Poker?
+If you are new to poker, you may not be sure what hand beats what in the game and when you have the best of it.
+Now that you know the probability of making different Texas Hold’em hands, it’s time to consider what beats what in poker and which hands are better than others.
+Does a Royal Flush Beat a Straight Flush?
+A royal flush is the best possible hand in Texas Hold’em and most other poker variants, and there is no hand that beats it.
+If you happen to have a royal flush against a weaker straight flush of your opponent, you will win the pot, and it will probably be a big one as well.
+Learn why a royal flush beats a straight flush in poker.
+Does a Straight Flush Beat Four of a Kind?
+Four of a kind is a powerhouse in poker, but when faced with a straight flush, it will lose the pot regardless of how high the straight flush is.
+In fact, straight flush and royal flush are the only two hands that can beat quads in poker, making it an unlikely but not an impossible scenario.
+Learn why a straight flush beats four of a kind in poker.
+Does a Straight Flush Beat a Full House?
+A straight flush beats all poker hands except a royal flush or a higher straight flush, and it always beats a full house as well. Full houses are powerful hands but cannot beat a straight flush or a royal flush.
+Learn why a straight flush beats a full house in poker.
+Does Four of a Kind Beat a Full House?
+A full house against quads is an encounter that happens more commonly than others listed thus far, as similar paired boards are needed for both hands to be possible.
+If you happen to have quads against a full house on a paired board, you will win the pot, as four of a kind ranks higher in poker than a full house.
+Learn why four of a kind beats a full house in poker.
+Does a Full House Beat a Flush?
+Full houses beat all hands other than quads and straight flushes in poker, and flushes are no different, regardless of their suit or rank.
+This is why you must be careful when playing flushes on paired boards where full houses are a possibility in Texas Hold’em Poker.
+Learn why a full house beats a flush in poker.
+Does a Full House Beat a Straight?
+A full house is a poker powerhouse and will beat a straight with ease. Being one of the best ranked poker hands, a full house always beats any straight other than a straight flush.
+Learn why a full house beats a straight in poker.
+Does a Flush Beat a Straight?
+A flush outranks a straight by one rank on the poker hands chart and always beats a straight regardless of the ranks of cards used to make it.
+Learn why a flush beats a straight in poker.
+Does a Flush Beat Three of a Kind?
+Flushes are much more powerful than three of a kind in poker, with every flush beating every three of a kind hand.
+Regardless of whether your three-of-a-kind comes with one or two hole cards, any flush in your opponent’s hand will be good for the entire pot.
+Learn why a flush beats three-of-a-kind in poker.
+Does a Straight Beat Three of a Kind?
+Similar to a flush, a straight beats three of a kind in Texas Hold’em, as the hand stands higher on the poker hands chart and is an undisputed winner of this showdown.
+Learn why a straight beats three of a kind in poker.
+Does a Straight Beat Two Pair?
+Two pairs is a hand even weaker than three of a kind, and a straight will beat it just as easily, as two pairs do not have the kind of power to stand up to straights.
+Learn why a straigh beats two pairs in poker.
+Does Three of a Kind Beat Two Pairs?
+Similar to a straight, three of a kind beats two pairs in all poker games because it is a much harder hand to make. Weather you have a set or trips to make your three-of-a-kind hand, you will win against any two pairs.
+Learn why three of a kind beats two pairs in poker.
+Does Two Pair Beat One Pair?
+You might have guessed this one without even knowing the basic rules of poker, as two is usually better than one.
+Two pairs is always better than one pair regardless of the card ranks, so even if you have two pair of deuces and three, it will be good enough to beat a single pair of kings or aces.
+Learn why two pairs beat one pair in poker.
+Does One Pair Beat a High Card Hand?
+One pair is the weakest “made hand” in poker, and it will beat any lower pair and any non-pair hand, also known as a high card hand.
+A high-card hand is a hand that does not have any standing on the hand chart and can only win against other weaker high-card hands.
+Learn why one pair beats a high card in poker.
+Best Texas Hold’em Hands
+If you are new to the game of Texas Hold’em or are just starting with poker in general, you will need to know which hands to start with.
+We have listed the best starting hands here, with the ten hands mentioned being the absolute best hole cards you can get and the best opportunities to get involved in the game of Texas Hold’em.
+Pocket Aces
+Also known as Pocket Rockets or American Airlines, Pocket Aces is the best starting hand in the game and one you will never want to fold before the flop.
+Pocket Aces are good enough to play from any position and at any stack depth and should always be played as a raise unless you have a specific reason to set a trap.
+Regardless of your skill level, Pocket Aces should be the most profitable hand you play. You will only get dealt Pocket Aces once in 221 hands, so make sure to make the best of them when you do.
+Pocket Kings
+Ranked just below Pocket Aces, Pocket Kings is another hand that players get super excited to see, as it beats nearly all other cards in the game.
+Like Aces, Pocket Kings are dealt once in 221 hands, making it a rare but welcome sight in any game, tournament, or cash.
+As long as you are not playing an extremely deep stack, you should always be happy to commit your chips with KK, as you will usually be up against a weaker pair or worse.
+Pocket Queens
+A pair of Ladies is almost as good as a pair of Kings, but Pocket Queens fade a bit in strength as they only have slightly above 50% chance of winning against Ace King specifically.
+That said, a pair of Queens is still always a great starting hand that you should open with a raise and usually put in multiple raises when the opportunity arises.
+Like other pairs, Pocket Queens come once in 221 hands, and as long as you are not super unlucky, they will be the best hand before the flop.
+Ace King Suited
+Next on the poker hand rankings is Ace King Suited, another powerhouse of the game and a hand many players prefer to see to Pocket Queens and is dealt once in 111 times.
+Ace King Suited is a hand that plays extremely well in deep stacked games, but performs just as well in tournaments as well, as it is almost never a huge underdog.
+Ace King Suited plays great against all hands, but AA and KK. It will even do OK against KK, which is why it’s ranked as number four of all the Texas Hold’em Poker hands.
+Pocket Jacks
+The next pocket pair in order is Pocket Jacks, a hand that some players have a lot of trouble playing, but that’s generally still an extremely profitable one.
+Pocket Jacks can be a bit tricky to play, especially as stacks get deeper, and you want to make sure not to overplay this particular pocket pair.
+All that said, JJ will make you a lot of money over a lifetime of playing poker, and even more if you don’t get married to them and are willing to fold when the going gets rough.
+Ace King Offsuit
+The offsuit version of the game’s fourth-best hand comes in place number six, as Pocket Jacks simply has a bit more playability and value.
+Nevertheless, Ace King Off has almost as much equity in all situations as its suited version and is a hand you will usually want to play for a lot of chips.
+Ace Queen Suited
+Next on our list of the best poker hands is Ace Queen Suited, an unpaired hand that has a lot of similarities with Ace King Suited.
+Ace Queen Suited is nearly the same hand, but you will run it into AK specifically from time to time, which makes it slightly worse to play.
+Yet, AQs is a hand you should rarely miss playing and one that will win you many big pots once you learn how to play it right.
+Pocket Tens
+Another good pocket pair, Pocket Tens is one that some don’t consider a premium, while others do, which makes it a bit of a fringe hands.
+That said, TT is a very powerful pocket pair, but one that will face overcards on the board more often than not, which can make it slightly tricky to play after the flop.
+Pocket Nines
+A pair of Nines is not much different in value than a pair of Tens, and the value of the two hands is quite similar in every poker format.
+Pocket Nines are always a good raising hand and one that you will be happy to commit many tournament stacks with, but one that you must be more cautious with in deep-stacked games.
+Ace Jack Suited
+Completing our list of the top ten hands in poker is Ace Jack Suited, another version of suited Ace that does not quite compare to its stronger versions.
+Ace Jack Suited is a pretty good hand, but certainly no longer falls into the line of premiums and is one that can be folded before the flop quite often under the right circumstances.
+Poker Hands FAQ

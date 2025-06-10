@@ -1,0 +1,431 @@
+### TOPIC: the most misunderstood poker metric
+guys we got to set the record straight now I 
+make a lot of Poker math videos and as someone  
+who makes a lot of Poker math videos I can 
+tell you that the most misunderstood poker  
+metric out there is the minimum defense 
+frequency and it's such a simple concept  
+at heart MDF just tells you how wide you need to 
+defend to prevent your opponent from profitably  
+bluffing however this simple concept is Rife 
+with myths and misconceptions and we're going  
+to clear those up today we'll start with some 
+basic mixup so beginners will often mix up MDF  
+and pot ODS one is the risk reward of bluffing 
+the other relates to the risk reward of calling  
+another thing people often mix up is MDF when 
+facing arrays they'll just plug in the wrong  
+formula but guys I've just made a video about this 
+it's not what I want to cover today no I want to  
+cover the myths the misconceptions if you will 
+so firstly I've seen some MDA content some Mass  
+data analysis type stuff that observes population 
+frequencies and a lot of them will make the same  
+mistake they'll look at some spot calculate MDF 
+and say hey the population's folding more than  
+MDF that means we can just start bluffing any 
+two cards here that's not how it works you're  
+probably using the wrong formula right so MDF 
+is different when Bluffs have Equity another  
+thing that more some wiser poker players might 
+tell you is that GTO always defends less than  
+MDF and I understand why people think this but 
+it's not really true and I'm going to show you  
+why that's the case today and finally you'll 
+hear some other people say that MDF is useless  
+before the river that it's like some dumb toy 
+game metric that doesn't apply when Bluffs  
+have equity which is like every street before 
+the river but no I would argue if you believe  
+this it's probably because you're using a very 
+oversimplified version of the true minimum defense  
+frequency let me show you what I mean let's talk 
+about the pitfalls of mass data analysis now a  
+lot of players track their hands and they keep 
+track of population Trends and if you do this  
+and You observe a large sample of hands you're 
+going to notice two things right off the bat  
+one is that the population seems to overfolded 
+and the other is that the population seems to
+overdefined guys that that's not really how 
+it works so look this is not only correct  
+this is GTO all right I'm going to show you 
+why this is the case all right so let's say  
+you're playing a 100 big blind cash game hijack 
+opens big blind calls flop is doesn't matter  
+I'm going to use aggregate reports anyway and 
+the reason is I want the AG get Trend across  
+all possible flops so we'll say that hijack 
+puts in a third pot down bet and across all  
+of these different flops big blind is folding 
+41% of the time now question to the audience  
+what is the minimum defense frequency 
+take a moment to calculate your [Music]
+answer if you calculated it correctly it is 75 
+% so big blind should defend 75% of their range  
+with a naive MDF calculation that means they 
+should fold no more than 25% but that's not  
+what big blind is doing big blind says nah I'm 
+going to fold 40% of the time so they are way  
+over falling what's going on here is big blind 
+some massive knit okay well maybe we can go find  
+a flop where they're defending MDF so we're going 
+to sort by these things here and what's the most  
+most defended flop out of all of them apparently 
+it's 975 2tone and even on this one we are folding  
+more than MDF says we should fold so MDF says 
+fold to no more than 25% well it's folding 27.8  
+so what's going on well the reason is actually 
+very logical let's take a look at hijack and you  
+know what we're going to pick any flop it doesn't 
+matter the Flop Ace 33 pretty dry flop let's take  
+a look first thing I want to do is take a look at 
+strategy plus equity and then let's just sort and  
+find the weakest hand in range that happens to be 
+76 of diamonds so 76 of diamonds still has 21.8%  
+Equity what that means is 76 can check back and 
+realize some of that Equity right maybe they can  
+hit a seven or a six on the turn so hijack doesn't 
+have any pure Bluffs here and remember that MDF  
+is designed to make your opponent indifferent 
+between bluffing and checking in this case the  
+EV of checking is high so with 76 the expected 
+value of checking is still like I don't know  
+1.66 big blinds so like if you try and over defend 
+and make this hand worth zero as a bluff why would  
+they ever Bluff they could just check back all of 
+their weak hands take their turn equity and then  
+own you with value bets right so if big blind over 
+defends here if they call super wide well hijack  
+has no reason to Bluff anymore so that's the first 
+Pitfall if you examine any set of mass data if  
+you're tracking your hand histories and you notice 
+that the population seems to fold too much to a  
+seabed relative to MDF well keep in mind that in a 
+lot of spots they're actually supposed to be doing  
+that next let's address the second misconception 
+which is that population seems to over defend  
+versus a flop r let's see if this is actually true 
+returning to our aggregate reports let's take a  
+look at how hijack responds after they put in a 
+small bet and face a pot sized raise so question  
+to the audience what is hijacks minimum defense 
+frequency and how often should they [Music]
+fold well if you've seen my poker math video 
+you'll know how to calculate this big blind  
+is risking nine chips nine that's the risk 
+divided by risk Plus reward so if their Bluff  
+is successful they'll win six chips 9 over 9 + 6 
+9 over 15 means that big blind expects highjack  
+def fold 60% of the time and defend 40% of the 
+time but that's not what's happening is it if  
+we take a look at the aggregate folding frequency 
+across every flop we can see on average hijack is  
+actually defending way more often than MDF would 
+dictate or folding less often depending on how you  
+want to look at it hijack is calling much wider in 
+this case and so if you're just looking at like a  
+HUD or a poker tracker and you take a look at your 
+population data you might notice if you have a big  
+enough sample that oh would you look at this the 
+population seems to be defending too wide versus  
+a check raise well time to start nut pedling 
+you know but this is exactly what's supposed  
+to happen let's take a look at an example why is 
+this the case so here again we've selected hijack  
+versus big blind same line and I've chosen a queen 
+Jack eight rainbow board and here we can see that  
+again hijack is way over defending relative to MDF 
+only folding 50 when they should be folding 60 the  
+reason for this is because Bluffs have Equity so 
+let's go sort Big blind's Range facing the initial  
+bet and find the worst hand so three Deuce suited 
+all right so three of Spades is the worst possible  
+hand we could have here but even this hand still 
+has some Equity right it can still win the pot  
+very rarely so imagine what happens if we put in 
+this raise and hijack folds if they they defend  
+exactly MDF and they fold exactly 60% of the 
+time if that were the case then three Deuce of  
+Spades could simply check Rays break even on the 
+Rays and free roll all their turn equity and the  
+same is true for every other hand that's folding 
+here sure Ace 4 hey why would you fold it you got  
+25% Equity might as well just Bluff phrase break 
+even on that and then if you hit an ace fantastic  
+that's a free roll and this is always going to 
+be the case before the river MDF or the true GTO  
+defending frequency facing a rays will always be 
+wider than MDF simply because Bluffs have equity  
+and in order to prevent those Bluffs from freeer 
+rolling their Equity you need to actually defend a  
+little bit wider than MDF and so this is where the 
+other assumption the other myth if you will that  
+GTO always folds less than MDF is just wrong there 
+are plenty of spots in fact any spot facing arrays  
+where the optimal strategy is to defend much wider 
+than MDF now I'm going to switch over to the GTO  
+wizard complex reports now the complex reports 
+are great for my purpose because they essentially  
+show uh how big blind will respond against a huge 
+different range of bet sizes and this is perfect  
+for what I'm looking for now if you want to go 
+and take a look at the complex reports you'll  
+need to activate it in settings these are hidden 
+under Legacy settings they're an older version  
+of our Solutions noway we generally use the 
+simpler or general Solutions but complex are  
+still here for this purpose so if I graph how big 
+blind will respond or the average response across  
+all of these flops and then I do that against all 
+these different bet sizes I can create a graph so  
+let's compare big blind's actual folding frequency 
+against what 1us MDF would say they should fold as  
+you can see the big blind almost always folds more 
+than Alpha things it should and so this blue line  
+This represents the GTO folding frequency against 
+different bet sizes on the x-axis and the folding  
+frequency on the y axis and so I've graphed this 
+against the alpha folding frequency recall Alpha  
+is just one minus MDF so how often we think they 
+ought to fold using our naive MDF calculation uh  
+and we can see that GTO is always folding more 
+often right and it doesn't matter how big the  
+bat size is or what the Flop is this is just 
+the math of game three optimal poker but let's  
+switch over to a different spot now take a look 
+at how big blind responds against a small blind  
+cat so in this case the difference is that the big 
+blind has position and position counts for a lot  
+and as you can see when big blind is in position 
+they are defending almost exactly at MDF and so  
+what this means is that you should overfolded to 
+MDF out of position and you should defend almost  
+exactly at MDF in position if your goal is to 
+play a game theory optimal strategy all right  
+so the main three Trends to know are that GTO 
+overfalls to a CET out of position GTO defends  
+at MDF in position and GTO over defends versus AR 
+raay from almost all positions chapter 2 the math  
+of true MDF the expected value of a pure Bluff 
+is pretty straightforward it's just how often  
+they fold times the pot minus how often they call 
+times your bet and you can graph this it's just a  
+straight line graph right so for a 200% pot sized 
+bet the alpha is 66 meaning MDF is one minus this  
+number 34% and if they fold more than this well 
+hey we're in the green zone we're making money and  
+if they fold less than this we're in the red zone 
+and we're losing money well the important thing to  
+take away just from MDF calculations regardless 
+is that if you change your bet size it changes  
+your risk reward ratio so for a 2/3 pot sized 
+bet well we only need them to fold 40% of the  
+time before we break even anything above this so 
+if they're folding more often we make money less  
+often we lose money so it's a very straightforward 
+calculation but fact is that Bluffs have equity  
+and if you can understand that basic EV equation 
+I've shown you earlier you'll understand this  
+next part so when Bluffs have Equity we need to 
+alter the expected value equation and update our  
+assumptions about how things work let's compare 
+naive MDF on the left versus true MDF on the right  
+so naive MDF always assumes that Bluffs will 
+always lose if your opponent calls or raises  
+conversely true MDF understands that your Bluffs 
+can still have Equity When Calls there's such a  
+thing as a semi Bluff naive MDF assumes that when 
+you check with a bluff you always lose it's just  
+zero whereas true MDF understands that checking 
+weak hands isn't the same thing as giving up with  
+them those hands can still have value naive MDF 
+assumes that the only way to win is by forcing  
+a fold right now whereas true MDF understands 
+that you can Bluff again on later streets and  
+so that leads to the conclusion naive MDF tries 
+to make the value of a bluff equals zero whereas  
+true MDF tries to make the value of a bluff the 
+same as checking that bluff so EV bets equals EV  
+check and these are two different equations let 
+me give you an example let's say that you're on  
+the river and you have some weak hand that has 
+a bit of equity checking behind so let's say  
+you have some pocket pair you're still ahead of 
+some portion of your opponent's range but you're  
+contemplating whether or not to turn this hand 
+into a bluff how much fold Equity do you need  
+in order for this Bluff to be good in order for it 
+to be better than checking [Music] behind [Music]
+well we'll assume you have 25% Equity as a check 
+therefore if we put in a half pot riverb we need  
+to make the expected value of bluffing equal the 
+expected value of checking and the reason we do  
+this is to find that break even point so we want 
+at least this much preferably more F Equity so  
+25% pot is equal to how often they fold times the 
+pot subtract how often they call time your half  
+pot bet replacing the variables full percentage 
+can be written as a function of call percentage  
+and the BET can be written as 0.5 relative 
+to the pot of one this leaves us with one  
+variable easy to solve using some simple algebra 
+just rearrange to find that the optimal calling  
+and folding percentage is 50% now comparing this 
+to naive MDF naive MDF would just blankly assume  
+that your hand is worthless as a check therefore 
+you only need them to fold a third of the time  
+in order for turning it into a bluff to be good 
+true MDF understands that your hand has value as  
+a check and therefore you need more fold equity in 
+order to justify turning it into a bluff right and  
+so instead of needing 33% now we need 50% the 
+true MDF formula compares the expected value  
+of checking against betting in the expected value 
+of betting previously we've assumed that when you  
+get called your hand is dead but the true formula 
+understands that hey you know what you could be  
+semi- bluffing you could have value even if you're 
+called or even if you face arrays so for my next  
+example I'm going to show you how this works with 
+a visual rather than just typing formulas at you  
+so for this example we're going to simplify this 
+equation a bit and remove the raise term so we'll  
+only look at the expected value of betting versus 
+checking in a situation when your opponent will  
+either fold or call here's a graph I've built that 
+shows on the x-axis your expected value in called  
+and on the y- AIS how much fold Equity you need 
+in order for betting to be better than checking  
+and so we can confirm this for let's say a weekend 
+so right here I have it at minus one indicating a  
+pot sized bet with a pure Bluff EV when called 
+is minus one therefore you need your opponent  
+to fold half the time 0.5 let's say you put in 
+a half pot bent EV when called is negative 0.5  
+meaning when you get called you lose your half 
+pot bet and you need them to fold a third of the  
+time time now watch what happens if I increase 
+the expected value of checking let's say that  
+checking is now equal to 25% of the pot so you 
+expect to win a quarter of the pot on average  
+when you check that's what raising and lowering 
+this means so checking EV 0.25 now all of a sudden  
+well we need a lot more fold Equity right so this 
+assumes that if we get called we lose our half  
+pot bet but we could imagine that maybe we're 
+semi bluffing and maybe we win a little bit of  
+the time even when we get called and in that 
+case we don't need quite as much fold Equity  
+the basic concept to take away from this graph 
+and here I'll change it back to a POS siiz bet  
+is that as you increase the value of checking you 
+need more and more fold Equity to justify betting  
+rather than checking and similarly if your hand 
+has more value when called so for example we can  
+assume you're putting in a pot sized bet but 
+you have some semi Bluff that has still like  
+a decent amount of EV when called well now now all 
+of a sudden we can see that we don't need as much  
+fold Equity if our hand retains value when called 
+now the one thing you might be asking yourself is  
+what is this section down here this is above 
+zero well these are your value bets these are  
+hands that are ahead when called so positive EV 
+when called means that you are ahead but checking  
+might still be better right just because your 
+head when called doesn't necessarily mean that  
+your EV is higher right so for example let's say 
+that you have a hand that's uh just very slightly  
+ahead when called we'll say 0.1 meaning basically 
+Break Even but very slightly better than one what  
+this means is that we need at least 24% fold 
+Equity if our opponent is folding less often  
+than this well then checking behind with that 
+value hand may still be appropriate and so you  
+can use this simple model to kind of figure out 
+how the EV of checking and betting works either  
+for a bluff or even for like a thin value bet like 
+this it's all the same math at the end of the day  
+if you want to play around around with this graph 
+I've put a link in the description of this video  
+uh there's a bunch of formulas and stuff in here 
+but essentially you can control either of these  
+either just by clicking and dragging or by using 
+these sliders while I was making this video it  
+occurs to me that actually going and looking up 
+the folding frequencies for different Ray sizes  
+in different spots is kind of a pain and also 
+plugging in all the EV calculations is also a  
+pain so I wanted to see if I could find like a 
+nice quick approximation of how often the GTO  
+Strat will fold facing arrays in different spots 
+and of course it's depends on the spot but we can  
+find a nice rough approximation and that is the 
+GTO fold percentage is approximately equal to  
+the Pod ODS of the Rays multiplied by the Golden 
+Ratio the golden ratio is a mathematical constant  
+that seems to pop up uh all over math and physics 
+I don't know why this correlation exists but it  
+just kind of seems to work this approximation 
+will usually get you to within about 2 3% of  
+the true folding frequency so let me show you 
+an example let's say you bet third pod on the  
+button and you face a half pod raise what is the 
+Pod odds laid for half pod raise well I have this  
+memorized but I can also see it's about 25% it 
+is exactly 25% excuse me so .25 time the golden  
+ratio which is 1.618 ETC I estimate that the 
+true folding frequency is about 40% and here we  
+can see it's 38.3% so you know within 2% we'll 
+try it for a full pot raise and again pod odds  
+for full pod rise are 33.3 this is convenient 
+because I already have my pod odds memorized as  
+every good poker player should multiplied by 1.618 
+and that's going to give me an estimate of about  
+53 call that 54% which is within half a percent of 
+the true folding frequency I don't I know why this  
+correlation exists re realistically you could just 
+round it to like 1.6 or 1.7 and get a pretty good  
+estimate there is some math that connects like MDF 
+and pod ODS actually intersect at the golden ratio  
+if you graph it by bet size but I'm not sure if 
+that's why this is happening it's probably just  
+coincidence that this approximation seems to work 
+well regardless if you're just looking for a quick  
+estimate at how often your opponents are supposed 
+to be folding versus some Ray size that one will  
+get you reasonably close let's summarize what 
+we've learned today so the biggest takeaway for  
+you is that there is a big difference between 
+naive MDF and true MDF because Bluffs can have  
+value a bluff is not always going to be worthless 
+and therefore the defense against a bluff or how  
+often you should defend is going to be a function 
+of the expected value of betting and checking  
+you need more folds when checking is valuable 
+so if you're considering turning a maid hand  
+into a bluff you need them to fold more often in 
+order order for that to be uh a viable strategy  
+conversely you need fewer folds when drawing so 
+a draw doesn't need as much fold equity in order  
+for betting to be better than checking but at 
+the same time a draw often has value checking  
+back as well keeping your opponent's range wide 
+etc etc the key trends when analyzing how GTO  
+responds is that GTO tends to overfall to a 
+cat out of position especially on the Flop uh  
+GTO tends to defend at MDF in position and GTO 
+over defends versus arrays in all positions in  
+all spots before the river now I understand that 
+this was more of a complex topic I usually try  
+and leave these for the private coachings but I 
+figured the YouTube audience would like it as well  
+if you need something clarified feel free to ask 
+questions in our Discord our Discord Community is  
+great for people to join and learn more about 
+Game Theory optimal poker and of course feel  
+free to leave a comment on the video if you need 
+anything clarified anyway that's my video guys  
+I hope you enjoyed it hope you got something 
+out of it and as always happy [Music] grinding

@@ -1,0 +1,63 @@
+### TOPIC: optimize cbetting
+Continuation bet (also known as a c-betting in poker) is one of the most common plays you will encounter in modern poker, and it is one that you will have to apply in a large number of hands yourself.
+If you have been playing for a while, you probably already understand this basic poker strategy and have an idea of what a c-bet is and when it is applied, but we are also going to cover those very basic things for the players who are only just getting introduced to the concept of c-betting in poker.
+Furthermore, the article will discuss how often you should c-bet, what board textures are best to fire c-bets on, how to size up your c-bets, and more.
+By the time you are done reading this article, your knowledge of the concept of c-betting in poker will have improved drastically, and all that will be left is to practice c-betting in different scenarios and on different board textures to reach perfection.
+But let’s start with the poker basics and explain what a c-bet is and when it comes into play.
+C-bet is a popular poker term that stands for “continuation bet” and refers to the first bet made by the last preflop aggressor on the flop.
+Anytime you raise or re-raise before the flop, get one or multiple calls, and bet out on the flop, you are effectively c-betting.
+Any flop c-bet made by the preflop aggressor is considered a c-bet, whether the player has hit the flop or not, which is why a c-bet is not a bluff or a value bet in itself.
+Generally speaking, you will be c-betting a mix of bluffs and value across all board textures, making it difficult for your opponents to know when you have a big hand and when you don’t and setting up future bets on turns and rivers.
+By making a c-bet, you are telling your opponents that you have made a hand on the flop or that you already had a pair to begin with, and this is a story you can keep telling with further bets.
+A c-bet is a crucial part of an aggressive poker strategy, which is the only way to play poker properly, so it is key that you master the art of c-betting if you want to become a successful poker player.
+We have explained what a c-bet is in poker in the most basic of terms, but let’s take a look at a couple of examples of c-bets that will make the concept even more clear.
+In the first example, you are dealt 9s8s in the cutoff in a poker tournament, with blinds set at 500/1000 and an effective stack of 60,000 chips.
+You open to 2,300, the button and small blind folds, and big blind defends, making the pot 6,100 with the ante in the middle.
+The flop comes 9h5d3s, giving you a top pair and some backdoor draws. Your opponent checks to you, and you fire a GTO poker approved bet of 1,500.
+We will not go into this hand further, as your opponents’ reactions to your c-bet don’t matter for the time being. We are only trying to understand the concept of a c-bet, and this 1,500 bet on the flop is a classic example of one.
+Another example of a c-bet is one where you are dealt AcKh on the button in a $2/5 live cash game with effective stacks of $500.
+You open to $15 and get a call from the big blind. With $32 in the pot, you see a flop of 5c3c3d, giving you just a backdoor flush draw and two overcards.
+When the big blind checks to you, you fire a bet of $10 into the pot. The only real difference between the first and the second example is the fact you made the top pair in the first one and have only Ace-high in the second one.
+However, in both examples, firing a c-bet is correct, as the range of hands you are representing includes many value hands, and your opponents are likely to fold hands that have quite a bit of equity against you and occasionally call with weaker hands as well.
+We fired a small c-bet in both cases, which means that even if our opponents only fold their cards occasionally, we are printing money with the c-bet alone, without taking into account the follow-up bets we plan on firing on a number of turns and rivers.
+Once you reach a flop in a poker hand as the preflop aggressor, one of the first things you should consider is your table position. Are you in position or out of position versus your opponents?
+Typically speaking, you will have a chance to c-bet a lot more in position than out of position for several reasons.
+The most common scenario where you can c-bet in position is one in which you open in a late seat, and the big blind comes along getting a good price to call with a wide range of hands.
+However, this wide range is going to include very few actually strong hands and is going to miss approximately 70% of all boards.
+This means you can c-bet pretty much your entire range on almost all boards in this scenario, and you are likely to get a lot of folds from your opponent’s fairly weak range.
+On the other hand, whenever you find yourself c-betting out of position, that means you either raised in an early position and got called by one of the late positions or you 3-bet from the blinds and got called by the original opener.
+In both cases, the in-position player will have a much stronger range than a big blind defender. This range will include many small and medium pairs, as well as hands with suited Broadway cards like QJs or JTs and suited connectors like 98s and 87s.
+This range is going to be much stronger on a lot of boards, which means you should be c-betting less as you stand to get fewer folds from your opponent on the flop.
+Once action reaches the flop, you don’t have much of an idea as to your opponent’s exact two cards, but you can have quite a good idea about their overall poker range of hands.
+For that reason, you should always consider how their perceived range connects with the board texture that was dealt out, as well as how your perceived range connects with the board.
+For instance, let’s imagine you open from an early position in a tournament and get called by the big blind with a 50 bb effective stack.
+The flop comes KsQc9h. On this board, against the big blind, you have a massive range advantage, as you have all the strongest hands in your range, while your opponent does not.
+In most cases, the opponent would have 3-bet KK and QQ, as well as AA, before the flop, which means you can take those hands out of consideration. On the other hand, you still have all combos of these hands in your range.
+This is when you can should start considering poker combinations. Both you and your opponent have combos of JTs in your range, and while your opponent is more likely to have JT off-suit, you are way more likely to have hands like AKs, AK, KQs, and 99, all of which are monsters on this board.
+On the other hand, imagine a scenario where you open in an early position and get called by the dealer in the same tournament at the same effective stacks.
+This time, the flop comes Ts8s7h, and now your opponent has quite a big range advantage on you, as they have a lot of hands that connect heavily with this board.
+The player on the dealer has combos of TT, 88, and 77, as well as J9s in their range, along with hands like JTs and 87s. In some cases, depending on how loose the dealer is, they could even have hands as weak as J9 off-suit and 87 off-suit, although this is not part of the optimal strategy in their spot.
+In either case, our range is now made up of a lot of hands that either missed the flop altogether or have to be quite worried about it, which means we should be c-betting a lot less frequently.
+The next time you are considering a c-bet, think about how your range and your opponent’s ranges connect with the flop that was dealt out, and you should have a pretty good idea of how likely they are to fold their cards faced with your bet.
+One thing that most players get wrong when they just start learning how to play poker is the frequency of c-bets in multiway pots.
+Typically, players will c-bet the same hands against one, two, or three preflop callers, and this is quite a big mistake.
+While you can get away with c-betting a ton in heads-up pots, especially in position, you should c-bet a lot less in multiway pots.
+Your c-betting range in heads-up pots will generally be quite linear, as it will include your strong hands, your good bluffs, as well as plenty of complete bluffs and hands value hands that have not exactly smashed the board.
+For instance, on a board of AcQd8d, you could c-bet hands like AA, QQ, 88, bluffs like Kcjs, Jd9d, as well as hands like KK, KQ, and 98. Against a big blind caller who is likely to fold a lot on this board, you would even be c-betting a hand as weak as 5c4c and get away with it.
+However, if this same flop was dealt four-way, you should be c-betting a lot less frequently, as it is very likely one of the other players has made some kind of a hand.
+In a multiway scenario on this same board, you would still bet hands like AA, QQ, 88, and AQ, as well as bluffs like KdJd, JdTd, and KdTd. However, hands like KsJs would no longer make for good bluffing candidates, while hands like KK or KQ would not be strong enough to bet multiway.
+As a general rule of thumb, you should bet a much tighter range made up of pure value and your strongest bluffs in multiway pots, and this is especially true when more than three players see the flop.
+Another very important thing that many players don’t really think about enough is the size of your c-bets when you do decide to make them.
+Once you have decided that your hand falls into the range of hands you should be c-betting on a given board. You need to also think about how much is the right bet size.
+Board texture is the most important factor in this decision, as it dictates how likely your opponents are to call you and the types of hands they will call with.
+On static boards like Kd6s6c, small continuation bets are typically preferred, as it is unlikely your opponent has connected with the board, increasing the likelihood of a fold regardless of your bet size.
+On this board, firing a small c-bet with the entire range you opened before the flop makes sense, as most opponents will easily fold hands like Qh7h or JdTh, which they may have called your preflop raise in the big blind without much thought.
+On the other hand, dynamic boards like Jh9h8s require you to bet a more polarized range, as discussed earlier, and warrant a bigger c-bet.
+On a board like this, you would never be betting your weak value hands like 8c7c, but would rather only bet your strongest value hands and your best bluffs.
+For that reason, your range will be very strong, and you can make a much bigger bet on the flop. What’s more, a big bet will help you deny your opponent’s equity when they have hands like gutshot straight draws or weak one-pair hands that would be forced to continue against a small bet.
+When considering your c-bet size, think about what percentage of your range you are betting on a given board texture. The more hands you are betting, the smaller your c-bet should be.
+If you are betting your entire range, aim to bet 25% to 35% of the pot. If you are only betting a small percentage of your range made up of strong value and big bluffs, a bet of 65% or more makes sense.
+The number of possible situations and boards that come up in No Limit Texas Hold’em can be a bit intimidating at first, but there is no reason for concern.
+As with all things, practice makes perfect, and the more you practice your c-betting skills, the more likely you will be to make the right decisions when they come up in real poker games.
+Use poker solvers and other tools to find the solutions for the c-betting spots that confuse you the most, and practice your c-betting ranges and sizes until you feel comfortable with nearly any board texture out there.
+The more repetitions you get in, the more confident you will feel, and the more successful you will be in making the right c-bets at the right time.

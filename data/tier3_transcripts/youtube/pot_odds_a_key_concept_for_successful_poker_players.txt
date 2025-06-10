@@ -1,0 +1,374 @@
+### TOPIC: pot odds a key concept for successful poker players
+if you've ever played poker you've probably heard 
+the term pot odds but what exactly does this mean  
+and how can you apply it to your game the truth 
+is a lot of players misunderstand this topic or  
+misapply it so today we're going to take a deep 
+dive into one of poker's most important equations
+hot odds in poker tell you how often you need 
+to win to break even when calling a bet and this  
+calculation is fundamental to Poker Theory because 
+it weighs the risk and the reward of calling  
+so the fundamental goal is to recover at least 
+as much value as you called on average sometimes  
+you'll win sometimes you'll lose but on average 
+you want to win at least as much money as you call  
+so let's put this to the test  
+this is a button versus big blind single race 
+pod the button bets three chips into a pot  
+of five and a half chips what are your pots 
+take a moment to consider your answer [Music]  
+the answer is B 26 percent let's reframe the 
+question button bets three chips into a pot  
+of five and a half how many chips do you need 
+to win on average to justify calling well at  
+least three chips right that's the size of the 
+call we want to recover at least three chips  
+three chips divided by the size of the new pot 
+equals twenty six percent so the general equation  
+is simply the amount to call divided by the pot 
+after you call and this will tell us the required  
+Equity where Equity is just a fancy term for how 
+often you'll win okay but why is it called odds  
+but we're using it as a percentage well you 
+can use either they both serve a good purpose  
+to calculate as odds you simply use the equation 
+reward to risk here's an example you're facing a  
+half pot bet the risk is half a pot and the reward 
+is your opponent's bet plus the pot one and a half  
+you're getting one and a half to half or three to 
+one which is just a fancy way of saying that the  
+reward is three times greater than the risk 
+now tricky question if you're getting three  
+to one in a bet how much Equity do you need 
+to call take a second to consider your answer
+[Music]
+the answer is B 25 percent if you guessed C 
+this is a very common mistake it's not one  
+divided by three it's one divided by three plus 
+one the general equation is risk divided by risk  
+Plus reward that's how you convert a risk reward 
+calculation into an equity equation so you need to  
+win 25 of the new pot in order to justify calling 
+generally speaking you can calculate pot odds as  
+odds or Equity odds are better for comparing risk 
+reward Equity is better for calculating how often  
+you need to win so in this chart I've shown the 
+BET size on the left hand side the Pod odds and  
+the required equity and you don't necessarily need 
+to do math you can just get a chart like this and  
+kind of memorize some numbers to have a feeling of 
+how it changes let's ask ourselves an interesting  
+question how do pot odds scale against an 
+increasing bet size here I've graphed the Pod odds  
+against the bat size expressed as a percentage 
+of the pot and you can see that as the bet gets  
+larger and larger you need more and more Equity 
+but something interesting happens as the bet  
+gets bigger and bigger and bigger 2x pot 3x 4X pot 
+you can see it tends to flatten out the required  
+Equity is kind of stabilizing and what's Happening 
+Here is it's approaching an asymptote at 50  
+percent you can't bet a size that's going to force 
+a hand that's ahead of your betting range to fold  
+and that's what having more than 50 Equity would 
+mean I also noticed that the slope of the curve is  
+much steeper between the zero to pot size bedding 
+range and that's why these sizes are typically  
+more common in poker Theory because you get more 
+bang for your buck so to speak that is to say  
+you can raise their required Equity to call while 
+donating less chips to the pot don't get me wrong  
+over bats are still common in theory but more 
+so in very polarized situations all right let's  
+try pot odds facing arrays so button bets three 
+into a pot of five and a half and this time a big  
+blind shoves 18 chips how much Equity does button 
+need to call take a moment to consider your answer
+foreign [Music]
+so again to calculate the required Equity to call 
+you simply use the amount to call divided by the  
+pot after you call in that case it comes out to 15 
+over 41.5 which means you need 36 percent equity  
+to call this shove on the button okay so let's 
+put this in practice let's say that the button  
+holds King Queen of Clubs so they've got the 
+nut flush draw and we suspect that big blind  
+is shoving with top hair for example what you 
+can do as a simple exercise is counter outs and  
+multiply your outs by four there are nine Club 
+outs we assume all of them are good in that case  
+9 times 4 is 36 percent using the rule of two 
+and four and therefore our King Queen of Clubs  
+has about 36 percent equity which is exactly 
+what we need and if the big blind is bluffing  
+at any frequency for example with a worse flush 
+draw uh then we have more than enough equity so  
+yeah you should probably make this call next I 
+want to talk about how pot odds affect your bet  
+construction on the river so in this graph I've 
+shown the BET size as a percentage of the pots  
+on the left hand side your pot odds or required 
+Equity to call in the second column and on the  
+right column we see value to Bluff construction 
+and you'll notice that you can use more Bluffs  
+with a larger bet and you need to use fewer Bluffs 
+with a smaller bet what's the reason for this  
+well it's because when you bet larger your 
+opponent needs more Equity to call and if  
+you're betting a nuts or Bluff a polarized range 
+you need to be bluffing at the same frequency as  
+the pot odds you're laying so for example for a 
+pot sized bet your opponent needs 33 Equity to  
+call and therefore you should be bluffing overall 
+a third of the time and the reason for that is  
+that you want to make your opponent indifferent 
+between calling and folding their Bluff catchers  
+if you're under bluffing they can just always 
+fold and then your value doesn't get paid off  
+and if you're over bluffing they can always call 
+and extract value from you using too many Bluffs  
+and so the size of the BET influences optimal 
+River value to Bluff construction I should note  
+however that this doesn't hold for earlier streets 
+in fact it compounds on turn and compounds even  
+more on the Flop you can Bluff more often on turn 
+and even more often on the Flop and this is due  
+to a concept called Leverage I'll link an article 
+down below to explain that concept further alright  
+so let's try to apply the concept of pod odds to 
+a pre-flop spot here I've got a standard button  
+opening range button opens two and a half chips 
+into a pot of one and a half it folds to the big  
+blind the required Equity is 1.5 that's how much 
+big blind needs to call divided by five and a half  
+meaning that we should call with hands that have 
+27 equity right right not quite so here is big  
+blinds Equity facing this button opening range 
+and if you look at the numbers every single hand  
+in big blinds range has pot odds to call even 72 
+off suit with about 30 percent equity or 29.92 has  
+correct odds to call but this should be setting 
+off alarm Bells because this is a terrible call  
+so even if we look at this in GTL wizard we can 
+see that calling raising doing anything other than  
+folding is just setting money on fire with this 
+hand and clearly just calling all of your hands  
+is not a good strategy so why is this well back in 
+the day people used to open Forex three and a half  
+X because they calculated this exact same thing 
+they said if I don't open large enough then I'm  
+not laying the right odds and Silvers came along 
+and they showed no you don't have to lay the right  
+odds this straight because if they call too wide 
+you can punish them on later straights and this  
+gets to some fundamental limitations of pot odds 
+in the sense that we typically use it the pot  
+odds equation is sound to be clear but Equity this 
+concept of how often a hand will win this is not  
+sound because raw Equity doesn't correctly predict 
+value When Future bets can occur it doesn't  
+consider actions on later straights Equity as 
+we've seen in that previous graph just thinks how  
+often will the hand win when it's checked down it 
+doesn't consider all of the future bets that can  
+happen times where you get forced off your hand or 
+when more money flies in it just assumes that 7-2  
+is going to win 30 percent of the time but that's 
+not the case it's going to win way less than 30  
+percent of the pots so when future bets can occur 
+there's a fundamental limitation on pod odds  
+however if we replaced raw Equity with something 
+we can call true Equity then pod odds becomes  
+correct and there's been a number of attempts to 
+to calculate the true value of a hand and we can  
+call this the EV or expected value of a hand at 
+first we built a concept of imply dots that is  
+to say value that comes in on later Straits and 
+people built extensive models and spreadsheets  
+trying to map out implied odds but as technology 
+developed and solvers came along we invented this  
+term Equity realization which is just a factor 
+between the raw equity and the actual value of a  
+hand within a GTO solution so let's touch on these 
+topics a bit and see how you can apply them to  
+your game starting with implied odds implied odds 
+are the money you expect to win on future streets  
+for example when you out draw your opponent and 
+win extra money reverse implied odds also exist so  
+this is money you expect to lose on future streets 
+for example when you out draw and lose anyway  
+let me give you an example let's say we're drawing 
+to a club flush on the turn we're facing some turn  
+bet we've got a flush draw We call we can make 
+extra money on the river when our opponent bats  
+are for example we can bet the river when we hit 
+uh but we incur no extra loss beyond our turn call  
+when we miss and therefore we can say that future 
+profits decrease the required Equity to call this  
+is because we're making more money when we hit 
+and losing less when we miss here we can see the  
+expected value of a club flush draw on the river 
+and obviously it's going to be much higher when  
+you hit and you can get more money in in this case 
+and don't have to put more money in when you miss  
+reverse implied odds also exist so you could make 
+the flush draw uh and then lose to a better flush  
+and get stuck this also happens and Silvers are 
+very very sensitive to implied and reverse implied  
+odds particularly in deep stack scenarios or 
+100 big blind cash games for example they're  
+very sensitive to implied odds what about Equity 
+realization well your true Equity is the actual  
+pot share you expect to win given all the 
+post-flop variables Equity realization is  
+a factor that goes in between your equity and your 
+expected value so here's one equation for it but a  
+more intuitive equation is just your EV pot share 
+so what percentage of the pot will you actually  
+win divided by your Equity pot share how often 
+would you win if it were checked out and so Equity  
+realization is great because it tells you how well 
+a hand performs relative to this static check down  
+Equity an equity realization Factor greater than 
+one indicates a hand is over realizing its Equity  
+less than one means it's under realizing its 
+equity fundamentally this is really handy for  
+learning which hands benefit from building a pot 
+and which hands given the option would prefer to  
+just check it down if they could uh not always 
+they can't always do that of course but it gives  
+you an idea of the incentives and the performance 
+of different hands in your range let's put Theory  
+into practice using a GTO wizard example so cutoff 
+opens 2.3 and we Face a three bet from the button  
+and recall the Flop comes King 962 tone 
+so first of all let's examine the equity  
+realization I'm going to select the ranges tab 
+so I can compare both players ranges at the  
+same time we'll go full screen and I'm going 
+to select eqr from both of these drop downs  
+now remember an equity realization of greater than 
+100 percent means that those hands would win more  
+than if they were checked out and you can 
+see that most hands in the buttons range  
+are over realizing their equity and this is due to 
+their overwhelming positional and Equity advantage  
+meanwhile on the cutoff side of things most of 
+their range is under realizing their equity and  
+so the cutoff is going to struggle immensely here 
+and that's shown here in the eqr section we can  
+see that the button has more Equity more expected 
+value and will realize more of that Equity  
+but which hands realize Equity more well for 
+example if we just take a look at let's say 10 8  
+can see that most of these 10 8 are not doing so 
+well they're only realizing about 40 to 60 percent  
+of their Equity but tenative hearts with the flush 
+draw is going to be much better and that's because  
+this hand has better implied odds and it can 
+win more value so 10 8 is quite a valuable hand  
+here if you have a flush draw uh not so much 
+without so draws tend to overrealize equity  
+similarly nutted hands tend to overrealize equity 
+especially if your opponent is in a position where  
+they should act aggressively so pocket sixes in 
+the cutoffs case it's going to win way more than  
+it would if the pot were checked down all right 
+so let's go back to the hand here we checked to  
+the aggressor and they range bets and you can see 
+it uses something like a 20 33 pot sized bet I'll  
+choose the 33 now facing this bet how much 
+Equity do we need well if you calculate your  
+pod odds you'll find you need about 20 Equity 
+let's think about this which hands in our range  
+have 20 Equity I'm going to use the breakdown 
+tab and the reason I'm using this is because  
+it has this all combo summary at the bottom which 
+displays the equity of your hands and the strategy  
+of your hands so we're sorted by the weakest 
+hands here to the strongest hands on the right  
+and we can see some interesting stuff going on 
+so for example up here pocket eights is folding  
+and I'm going to click all over here and this 
+will display the equity of this hand we can see it  
+has 39 Equity that's a lot of equity and we only 
+needed 20 so why is this hand folding well we take  
+a look over here we can see Jack 10 only has 25 
+Equity but it's always continuing and the reason  
+for this is imply dots Jack 10 is a draw to the 
+nuts whereas pocket eights is especially pocket  
+eights without a heart uh is really doing badly 
+at best you can hit a set and half of your sets  
+complete flush draws not a fun situation to be in 
+conversely if we look at something like this let's  
+say ace of hearts jack of diamonds well you've 
+got an over card to the king backdoor flash draw  
+back door straight draw and importantly you can 
+hit Top pair without completing those flush draws  
+and so these things all Impact how much value your 
+hand will generate on later streets so raw Equity  
+isn't really an appropriate Factor here rather we 
+want to anticipate the actual value of our hand  
+all right so let's go on with the example we 
+call the turn is the two of spades we check  
+our opponent bets let's say 75 pot and we call and 
+let's say we get an eight of spades River we check  
+the opponent shoves just about full pot actions 
+back on us now let's take a look at the ranges tab  
+here I want to take a look at this Equity graph 
+this displays every combination in both players  
+range this blue line shows the cutoff's range 
+and this green line shows the buttons range and  
+see here we can see the button's value and the 
+buttons Bluffs and they're polarized right they  
+have strong hands and they have weak hands and 
+we have Bluff catchers mostly notice something  
+interesting about the bluff catchers it's a long 
+flat line where everything has approximately 33  
+Equity give or take and the reason for this is 
+that the silver is balanced for a pot sized bet  
+how much Equity do you need well you need 33 
+Equity facing this bet in order to call and  
+so these hands that are indifferent like Ace 
+9 Ace Queen should all have about 33 equity
+and similarly buttons should be 
+bluffing about a third of the time
+which is pretty much exactly what they're doing 
+and so you can see when parades becomes much  
+stronger if you're using Equity as opposed to 
+the True Value had on the river is simply because  
+ranges are more polarized and when you look at 
+previous Straits and earlier Straits we're more  
+concerned with things like how can we outro our 
+opponent's value range which hands are going to  
+perform better and what's the true value of 
+this hand rather than what is the check down  
+Equity of this hat for further info check out 
+the Articles I've linked below if you want to  
+learn how to use pod odds to optimize stack-off 
+ranges how to calculate the EV of calling or  
+how to derive the potass formula using expected 
+value or even determine optimal River bluffing  
+frequencies all of that can be done with pod 
+odds it's a really useful equation despite its  
+limitations so check out that article if 
+you'd like to learn more let's summarize  
+pot odds compare the risk of 
+calling to the reward of winning  
+fundamentally if the bet is five dollars you need 
+to win at least five dollars back on average and  
+in order to calculate how often you'll need 
+to win that new pot for example what you do  
+is you say how much do I need to call and divide 
+that by the pot after you call the thing is that  
+raw Equity or required Equity ignores action on 
+future streets and so things like implied odds  
+Equity realization and these post-flop variables 
+can all affect the true Equity of a hand if you  
+have any questions check out our Discord server or 
+drop a comment in the YouTube section down below  
+anyway that's my video guys hope you enjoyed it 
+hope you got something out of it if you want to  
+see more beginner level content like this let 
+me know and as always happy grinding foreign

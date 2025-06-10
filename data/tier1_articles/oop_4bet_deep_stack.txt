@@ -1,0 +1,54 @@
+### TOPIC: oop 4bet deep stack
+OOP 4-Betting in Deep-Stacked Cash Games
+4-bet pots (4BP) can be scary because the stakes are high, but with 100bb stacks, they are not really tough to navigate. The narrow ranges and extremely low stack-to-pot ratio (SPR) make it relatively simple to assess the strength of your hand compared to, say, a single-raised pot.
+With deeper stacks, things get a bit trickier. The SPR is still low, but not quite as low. Both players’ ranges are a bit more diverse, which makes it trickier to assess which flop favors which player and by how much. And, of course, everything is tougher when you are out of position (OOP), which is more of a liability with deeper stacks.
+Thanks to the low SPR, the decision of whether to continuation bet as an OOP 4-bettor is an especially weighty one. Even a small bet invests many chips in an already large pot, so it is essential to understand:
+When to bet?
+How much to bet?
+How strong your hand must be to stack off?
+Big Picture
+Let’s begin with a look at the aggregate data. The charts below compare the frequency with which the 4-bettor c-bets various sizes in each configuration with both 100bb and 200bb starting stacks.
+What patterns do you notice?
+Small Continuation Bets
+The 4-bettor’s continuation bets are consistently small, with all configurations showing a preference for half-pot or less. With 200bb stacks, there are slightly more 75% pot bets, but they still comprise a very small fraction of the overall strategy. There are three main reasons to prefer small sizes here:
+With such a low SPR (1.8 at a starting depth of 100bb, 2.4 when 200bb deep), large bets are not necessary to get stacks in by the river.
+The low SPR also reduces the incentive to get stacks in before the river on dynamic boards. In most cases, a strong hand on the flop will still be strong enough to get all-in despite a turn or river card that completes some draws. So, you don’t need to worry as much about getting bluffed on bad runouts.
+When OOP, you have more incentive to keep your ranges diverse because you don’t get to check to realize (free card or showdown). Shifting strong hands disproportionately into a larger bet range would leave your checks and smaller bets vulnerable to aggression (often big bets and raises) from your opponent, which creates an incentive to shift your strong hands back into those other ranges in order to profit from those big bets and raises.
+More Checking When Deep
+When the stack depth is held constant, frequencies don’t vary terribly much with configuration. When comparing the 100b strategies to the 200bb strategies, however, we see much more checking across all configurations. This is actually due less to deeper stacks making position more valuable (the SPR is quite low in both cases) and more to the range shape of the 4-bettor. Deeper stacks incentivize a more polar 4-betting strategy, and that translates into a more polar c-betting strategy, especially on less favorable flops.
+For example, with 100bb, CO usually 4-bets TT–QQ and occasionally pairs as weak as 77. These hands gain a lot from preflop folds, can stack off on many flops thanks to the low SPR, and can call a preflop shove if it comes to that.
+With 200bb, CO rarely 4-bets JJ–TT and never the weaker pairs. Replacing these pairs are more suited Ace-x and King-x combos and some suited connectors. At this deeper stack depth, it’s tougher to stack off both pre- and post-flop with the medium pairs, so CO prefers not to grow such a large pot with them. Instead, they prefer blockers to BTN’s continuing range and weaker hands that lose less when jammed on but have the potential to flop a lot of equity.
+Range Comparison: CO 4-Bet vs BTN
+100bb effective, 4-bet to 21bb
+200bb effective, 4-bet to 34bb
+Aggregate Strategy Comparison
+Sorting the data by high card on the flop, we can see that the reduction in c-betting frequency with 200bb stacks occurs only on lower flops. On Ace- and King-high (and Queen-high, for the CO vs BTN configuration), OOP retains a high c-betting frequency. Because their range is so heavy on high cards, however, they approach lower flops more conservatively, using the larger, half-pot bet size almost exclusively when they do bet.
+UTG C-Bet vs BTN
+Effective stack size: 100bb (↑) and 200bb (↓)
+CO C-Bet vs BTN
+Effective stack size: 100bb (↑) and 200bb (↓)
+Low, Connected Flop
+Low, connected flops are bad for the 4-bettor, but they are not the worst flops. That honor belongs to medium, connected flops, where the strategy is mostly to check.
+Most checked flops by CO vs BTN: 4BP, 200bb starting
+In some ways, this makes the low-and-connected boards trickier to play because the optimal strategy involves a mix of betting and checking. On 765r in a CO vs BTN 4BP, for example, very few combos play a pure strategy at equilibrium:
+CO (4-bettor) c-bet flop strategy vs BTN on 765r
+There is a bit of a pattern, however, in that CO’s strongest hands (overpairs) bet most often, and to the extent that there are pure checks, they come from CO’s very worst hands:
+One lesson to take from this is not to put up a fight with your worst hands. You don’t have to keep betting because you “showed strength preflop” or “can represent a big pair.” Those are reasons to have a bluffing range, but on a flop like this, you will have no shortage of weak hands to choose from. Better to choose something with at least a backdoor draw, and even then, it won’t be optimal to bet every time.
+Two unlucky things have happened since you put in that fourth bet before the flop with no pair:
+Your opponent didn’t fold, which would have been your preferred outcome.
+You got an unlucky flop that didn’t help your hand and didn’t even give you much to represent through your range. In such cases, you are better off cutting your losses than throwing good money after bad.
+If you did flop well, then you can flip a coin. That’s about the right betting frequency for the overpairs, anyway. With draws (including backdoor draws), you’d ideally generate a random number that gives you a somewhat lower betting frequency.
+Note that these should be half-pot bets, if you’re betting at all. As usual, a lower betting frequency correlates with a more polar range and relatively larger sizes. It’s easy to see how that will benefit your overpairs, which are strong enough to play a big pot on the flop (yes, the solver calls a shove with all of them, including with some weaker hands as well) but could easily lose their value on the turn.
+Low, Dry Flop
+933tt is not as obviously bad a flop as 765r. It might even seem like a flop that should “belong” to the 4-bettor, who can represent big pairs when they don’t have them.
+And this is, in fact, a reasonably good flop for the CO. Even though they have a bit less than half the equity, they have a bit more than half the EV:
+Range metrics on 933tt: CO (left), BTN (right)
+It’s rare to see OOP over-realize their equity. In this scenario, the low SPR mitigates their positional disadvantage, and they do enjoy a significant nuts advantage (QQ are effectively the nuts here). However, this does not translate into an especially high c-betting frequency:
+CO (4-bettor) c-bet flop strategy vs BTN on 933tt: 200bb starting
+Recall that with 200bb, CO is actually not 4-betting all that many big pairs, mostly just QQ or better. So, they can’t just blast away whenever they flop trash. As on 765r, strong pairs and strong draws bet most consistently, and the very worst hands, stuff like 6♠5♠ and A♣5♣, which lack both strong backdoor draws and even good pair outs, purely check.
+You can bet more often on this flop than on 765r, but you’re still betting polar and for the half-pot size when you bet. Stacking off to a shove over that bet is fairly intuitive—it’s mostly big pairs and flush draws, but good overcards with a backdoor draw also belong in that range. That means stuff like A♦K♦ and A♠J♥, which may not be as intuitive.
+Conclusion
+Playing 4-bet pots well starts with building a strong foundation on early streets by betting and raising the right ranges. This is true of all situations in poker, but it is especially true of 4-bet pots, where such a large percentage of the stack is already committed before the flop.
+Deeper stacks incentivize you to 4-bet a more diverse and polar range from OOP than you would 100bb stacks, where you mostly just choose hands with a lot of equity. The decision of how frequently to bet at various flops follows directly from the shape of this range.
+Ace- and King-high flops (and sometimes Queen-high, depending on your position) connect well with your 4-betting range, and you can bet small at a high frequency just as you would in a 100bb scenario.
+On lower flops, even those that are not obviously bad for you, you should not put up a fight with your worst hands. This incentivizes you to also check your stronger hands at a reasonable frequency, as your opponent should stab more often at these flops.

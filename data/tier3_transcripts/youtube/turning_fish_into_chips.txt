@@ -1,0 +1,404 @@
+### TOPIC: exploiting fish
+[Music] no matter how good you are and how much 
+you study with solvers your Edge against the  
+regulars at your limit will probably never 
+exceed 8 big BLS per 100 but when playing  
+against fish with a lose rate of minus 40 bb 
+or higher mastering your game against them  
+could give you a double digit Edge all while 
+spending significantly less time studying this  
+is jaser 1337 for GTO Wizard and today we'll 
+reveal the magic behind exploiting recreational
+[Music] players we will start with an introduction 
+then explore to lose aggressive fish profiles  
+including the toughest one of all and discuss 
+preflop and P flop exploits against them we'll  
+also briefly go through some other common fish 
+profiles and outline the basic adjustments against  
+them in the end I will demonstrate cre some 
+Universal Tendencies and the decision making  
+process that can be applied to any profile the 
+materials used in this video are the results of  
+many years of my experience in online high stage 
+games plus the massive data analysis based on 20  
+million hands played by recreational players from 
+nl100 to n l5k the data helped identify the seven  
+main fish profiles analyze their weaknesses and 
+learn how to build maximum exploits against each  
+of them knowing the typical adjustments and 
+exploits Based on data could give us a huge  
+Edge but it wouldn't be possible without precise 
+fish profiling in the first place let's look at  
+the following profiles pause this video for 
+a moment and think how you would play against  
+these two recreational players would you notice 
+any difference while multi-tabling and having  
+two opponents like this now let's reveal more 
+information about them on the left you can see  
+the aggressive station type or the pirania on the 
+right the aggressive folding type or the mor eill  
+even though these two players have very similar 
+batting and raising Tendencies their play as a  
+collar is quite different the panas bite into the 
+pot and don't let go easily there are almost no  
+spots in the game where they overfall and can be 
+pushed off the pot easily compare them to Mor ills  
+who are more cautious without the initiative 
+and fold much more especially on the river  
+to correctly identify whether the lose aggressive 
+fish at our table is a station or a folding one we  
+must one the number one priority is to watch the 
+showdowns to notice how widely they call two pay  
+attention to timing tells here is one example 
+if they tank the full time bank and fault we  
+learn nothing but if they make a quick call with a 
+marginal Bluff catcher we can mark them as likely  
+aggressive stations three we should not rely on 
+stats too much unless as we''ve played thousands  
+of hands with them consider these hands played by 
+typical mors who folded and showed their hand and  
+ask yourself whether you would expect such faults 
+from somebody as lose and aggressive firsthand we  
+have pocket n calling three betat checkal flop 
+checkal turn and then fold against a river Shelf  
+with a fourth set then we have king queen off flop 
+in two pairs c b flop double barel in turn B in  
+on a river and folding against a check race and 
+showing our hand lastly we have a squeen off  
+calling three B under the gun in position Colin 
+flop coling turn and then with a top Air and top  
+kicker against Three quars River bad we just fold 
+even one Showdown like this is enough to confirm  
+that our opponent is a folding one this aggressive 
+Fen fish are the toughest profile to play against  
+let's consider our brief Strat against lose 
+aggressive types when we have no initiative  
+how white should we call three bet or four bet 
+against their raises when building our preflop  
+range against any opponent a few factors defined 
+our strategy size frequency and composition of the  
+open Rays effective stack size whether we get paid 
+off when we hit something relative positions are  
+we in position or out of position are there other 
+players behind and Equity realization defined by  
+our POS flop skill against regulars we have the 
+calculated GTO ranges that take all these factors  
+into account but what about playing against fish 
+there is no calculated static GTO here because  
+their preflop ranges depend on their profile 
+and current tilt level our pass flop Edge is  
+much higher meaning that the equity realization 
+of our hands will increase and allow us to play  
+even wider ranges to what extent well it depends 
+on how confident we are playing with wider ranges  
+the quality of our reads our understanding of fish 
+profiles and the knowledge of how to exploit them  
+here are the opening ranges of lose aggressive 
+fish they tend to play very Loosely from early  
+positions opening 32% under the gun at a six Max 
+table while defending very wide against reats with  
+the help of G wizard we will build effective 
+pre-lap strategies in a few simple steps in  
+G wizard we go to change custom Solutions new 
+solution and go to pre flop use the settings make  
+sure to add 0.25 anti inbb per player so we get 
+the right pod dos and remember that small blind is  
+player in position and big blind is player out of 
+position then we click on create the solution and  
+go to a not loocking option here we must select 
+32% opening range we can do that by entering 32%  
+here and then entering folding range again to get 
+rid of these small errors now one more thing to  
+correct is the range itself because according 
+to data fish prefers to open suited connectors  
+and off suited Aces so let's edit this range a 
+little bit okay now it looks more realistic we  
+go to lock all and click not loock the big blind 
+reaction is to three bat using a big polar size  
+however we must remember that our opponent is 
+going to call much wider than GTO so we must  
+take it into account we go to nolock as we know 
+average lose aggressive fish calls around 66% in  
+this position however because we will use a 
+bigger size three betting them we can lower  
+their defense frequency to around 50 maybe 4 55% 
+so let's select a realistic wrench first once we  
+have entered the their colon range against three 
+bets and four betting range we go to lock all  
+and not lock option again we go back to big blind 
+strategy as you can see our strategy has changed  
+now with three bet more deepar strategy however 
+it is still not perfect and there are things to  
+be adjusted keep in mind that we play against fish 
+and we don't need to balance we don't need to be  
+unexploitable we want to pretty much Max exploit 
+them therefore we can three bat all of our hands  
+that seem like a pure value three bats and then 
+never three bat the bottom of our range that is  
+here only because the strategy was built against 
+the solver who would exploit us if we're not  
+balanced and if we deviate from the GTO because 
+we play against the fish our Equity realization  
+is going to be so much better we can call even 
+wider if we have some additional reads and can  
+outplay our opponent post flop even more and vice 
+versa if we play against somebody very aggressive  
+who barrels a lot then the bottom of our range is 
+not going to play that good and we can just fold  
+those in different hands our final three betting 
+strategy out of position is very depolarized and  
+consist of our best hands as for inos three bets 
+the logic is quite different here we want to three  
+bat using a smaller size with as wide range as 
+we can because our goal is to play as many pots  
+against fish for a cheap price as possible in the 
+most common lines when our villain open raises  
+pre flap in position and then seats on the Flop 
+turn or river there are no obvious weaknesses to  
+be attacked except for the lowest sizes being 
+slightly weaker but even there we don't really  
+enjoy any overfalls unless we go for a check 
+race plus multi Street Bluff they don't overfall  
+against check race or check race plus Barling on 
+any Street either defending about right so how do  
+we exploit them the fun stuff happens when they 
+check on the Flop as an aggressor especially in  
+the single race SPS they seem to severely underrot 
+their check in behind range and then overfall on  
+the later streets against the specific sets of 
+sizes the lower the board the weaker there check  
+behind range and the more we can attack it taken 
+into account the turn run out of course on the  
+left table in the frequency percentage field you 
+can see they are folding frequency by different  
+board types we can enjoy enough fold Equity pretty 
+much on any River except for Ace High boards  
+or when the ace comes on the turn or the river 
+because their checking behind range has too many  
+Ace highs on the right table is there play after 
+the flop in position check back the fold Equity  
+highly depends on our turn probe and reer bat size 
+for example in the first row you can see check and  
+then fault against 33% bet the fault is 25% only 
+which is very low which means that we shouldn't  
+ever Bluff one street only with a block bit size 
+if we bet 75% on the turn they tend to fall 46  
+which is about right and against spb or higher 
+they seem to fall 64 which seems like a slightly  
+overfall here we can consider a different set 
+of turns plus reer bed sizes and the fold Equity  
+they create keeping this in mind we want to split 
+our Bluffs into a few different sizes to maximize  
+our fold Equity as a one street Bluff the only 
+size that enjoys a decent 64% over fold is the  
+podb Plus for this reason we can Blu B once with 
+around 10% size with weak Bluffs like one or two  
+overcards overb 100 50 to 200% with not flash 
+draws and monster draws to maximize F liity now  
+and give up on most rivers because of bad blockers 
+bad three quarters turn with gut shots open Enders  
+and non not flash Jaws to inflate the pot on the 
+turn while having decent draw Equity then take it  
+down on the river by over batting around 125% B 
+1/3 on the turn with the weakest hands like two  
+other cards for example example 109 at King 8 do3 
+board with the plan to overbed Bluff on blanks or  
+battery quar on flush closing Rivers if we have 
+a blocker let's consider a couple of other lines  
+where we can gain extra EV both bat check bat and 
+check check bat lines seem to be severely over  
+bluffed with a clear tendency the lower the size 
+the weaker it is besides Bluff catching Rivers as  
+why wi as possible our adjustment should be to 
+check call more often instead of block batting  
+once we get checked on the turn when we are out of 
+position on the river for example we call in the  
+big blind against the mor e on the button single 
+Ray part board is Queen 75 The Flash draw we check  
+call on the flap the turn goes check check and 
+on the river we are faced with a decision should  
+we bet or check and what size should we use with 
+different hands we have the range advantage and  
+want to attack a big part of our opponent's range 
+that consist of the worst hands like weak Pairs  
+and Ace highs the solers suggest using a block bat 
+as the main size to Value bet second Pairs and the  
+best under Pairs and then to quots or higher for 
+our top pairs or better but what if we nlock the  
+rer strategy according to the data that tells 
+us about the massive over Bluffs by the lose  
+aggressive fish let's go back to strategy select 
+nolock go to set strategy and here to see what  
+happens let's increase the rear Bluff frequency 
+with the nomade hands Ace highs and King highs to  
+40% and leave the weak pairs as they are on sum 
+notes these weak pairs can be considered thin  
+value BS while in others they are clear Bluffs now 
+we select lock all and nlock now the Block B size  
+that was used for our medium hands is gone and all 
+those hands become become much more profitable in  
+check colon against the over Bluffs compare DV 
+of hands like A7 or King 7 the check EV is 7.61  
+while block betting is only 7.19 that's a big EV 
+loss we should only start adding block BS to our  
+arsenal when our villain is very aggressive pass 
+slop and can be provoked into raising by these  
+smaller bats same logic can be applied when 
+the action goes check check up to the river  
+we can see massive over Bluffs that increase 
+as the bat size decreases the only under Bluff  
+check check bat happens after the four straight 
+turns seems like they intuitively prefer to under  
+Bluff here another interesting find is there play 
+in three pots as callar out of position on the  
+Flop on the Flop there is no fold Equity against 
+the 33% seabat plus we risk getting check raised  
+almost twice more often compared to when we bet 
+75% a BLB is definitely not something we want to  
+do with our Bluffs especially the wner ones like 
+two back door flush draw Equity type of hands here  
+we can follow the same logic that we applied in 
+our turn prop strategy to exploit their reaction  
+against different sets of sizes pause this video 
+for a moment and let me know in the comments how  
+would you build your max exploit strategy as a 
+three batter in position given this info to finish  
+with the lose aggressive types here is another 
+interesting Discovery even though the VPAP pfr  
+and agression frequency thresholds used in the 
+expression stats were the same for both profiles  
+there seems to be a correlation between their 
+calling and bluffing Tendencies the higher the  
+bluffing frequency of a lose aggressive player the 
+more they seem to Bluff cage themselves the panas  
+tend to over Bluff noticeably more almost in every 
+line compared to the mor eels keep this notion  
+in mind when Bluff catching against them imagine 
+that we used only basic criteria like vpip and pfr  
+for profile creation we would have missed these 
+important aspects and the value that comes with  
+it to get as precise profiles as possible every 
+profile was designed with a set of hand toote  
+expression stats that also include aggression 
+frequency calling and folding Tendencies and  
+loss rates since you've already met the lose 
+aggressive inhabitants let me introduce other  
+fish profiles without going too much into detail 
+meet the passive colon station or the puffer fish  
+they don't raise much pre flop have low P flop 
+aggression frequencies and call down too much  
+given how wide their pre flop ranges are and their 
+last C rageous passive folding friend The Flounder  
+who also plays a wide range pre flop but then 
+overfalls on the turn and the re and doesn't like  
+to Bluff catch at all the flounder has a distant 
+relative a very boring to play against tight and  
+passive semi fish or the tadp TPS play similarly 
+but make fewer mistakes we can treat them the same  
+way we treat loose passive fish while keeping in 
+mind that these guys are a bit tighter and make  
+fewer mistakes if a TP is the only recreational 
+player at your table you might consider changing  
+it because their loss rate might not cover the 
+Riku pay especially in a high rake environment  
+on the top of our menu there are two rare and very 
+important fish one is a passive VIP or the whale  
+these players have a vpip of 60% or higher and 
+a preflop race percentage Under 12 they exhibit  
+relatively low POS flop aggression and a very high 
+R to Showdown percentage when they have at least  
+something they tend to pay very generously the 
+other VIP is his adventurous and very aggressive  
+body the clownish with a pre flap raise of 20% 
+or higher these players are much more aggressive  
+pre flop they also apply a lot of pressure pass 
+flop fighting for pots calling down where lightly  
+spewing chips left and right an average loss 
+rate of minus 86 evbb per 100 makes them the  
+most welcom guest at the table basic adjustments 
+against the passive stations on the flop in  
+position out of position do not automatically 
+check medium hands don't be afraid to block that  
+in position with a weak range on any Street there 
+is always at least some fold Equity check behind  
+weak draws more often on the turn in position 
+given there is not enough equity on the river  
+and don't Bluff enough versus m seabat play Max 
+exploit with multiple sizes on every street do not  
+balance versus the passive folding fish isolate 
+with a very wide range and a slightly bigger  
+size actively Bluff barrel increase your sizing 
+with Bluffs for extra fold Equity versus lose  
+aggressive provoke with a value hand try to make 
+his bed the last one let him do the bluffing with  
+a strong draw in a mediumsized pot try to make 
+your B last for example in three bat or forb Pots  
+if you have a strong Equity hands consider shoving 
+yourself so you don't get res shoved with a weaker  
+hand Bluff catch much wider against most lines the 
+more often they bet against our checks the more we  
+want to check raise instead of betting ourselves 
+or the more they Pro bet the more we want to check  
+back our weak hands in position and then Bluff 
+catch turns and rivers lastly I've built this  
+custom stats to find the correlation between the 
+set of sizes and the strength of the range even  
+though each profile has its own Tendencies most 
+of them do share some common patterns here we  
+will only consider the inos play in single race 
+SPS by the fish highlighted in Orange you can  
+see the bad sizing Tendencies on the turn for all 
+profiles together for instance at the top it shows  
+the range composition on the turn if the flap 
+C but size was between 33 and 50% and then the  
+turn se but size increased this part is not very 
+useful for studying Universal Tendencies because  
+turn range composition varies significantly 
+between different profiles the puffer fish  
+would not Bluff nearly as much as the pirania or 
+the clown fish the rearer part highlighted in red  
+is more useful because regardless of the profile 
+recreational players tend to think similarly while  
+reading different boards following similar human 
+biases consider the first example at the top with  
+the increasing seet size on each Street when the 
+turn and River are both blanks it's a universal  
+spot for under bluffing with only 26% of weak 
+hands in the thir Barrel when its size is r  
+L lower than three quarters an even better example 
+if the bat size increases on every street and the  
+River card completes the flush expect a big 
+under Bluff from any recreational player you  
+face interestingly if the flush was completed 
+on the turn and they Barrel the reiver with an  
+increased size they seem to overbluff likely due 
+to having too many intuitive Bluffs with a suited  
+card on the turn and then not giving up enough on 
+the river in contrast if the turn was a blank on  
+a flash dra board they lack enough Bluffs being 
+to flash draw heavy in their turn Barrel remember  
+while we can divide the most common types of fish 
+into the profiles and identify the shared patterns  
+each profile has its flaws and misses out some 
+individual nuances each recreational player is  
+an individual with his own whims that should be 
+identified and exploited if you want to maximize  
+your Edge your decision- making process should 
+go as follows first rely on individual reads  
+the second most important thing is logic if 
+your opponent represents Nothing by taking a  
+weird line chances are they have nothing but not 
+always refer back to the individual reads then  
+consider profile reads studying each Prof profile 
+meticulously and identifying them correctly can  
+give you a massive Edge against any recreational 
+player timing tells can help with your decision  
+a lot but their accuracy is not perfect stats are 
+the least important because we rarely have played  
+enough hands against a given fish and trusting 
+low sample data could be very misleading if  
+unsure it's better to ignore the data than 
+fall prey to a fallacy I hope You' enjoyed  
+this video if you have any questions feel 
+free to post them in the comments signing out
+[Music]

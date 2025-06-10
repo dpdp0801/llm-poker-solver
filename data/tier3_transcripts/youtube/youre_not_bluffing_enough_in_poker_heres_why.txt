@@ -1,0 +1,649 @@
+### TOPIC: youre not bluffing enough in poker heres why
+today I'm going to teach you a very powerful 
+technique how to calculate value to Bluff ratios  
+in poker this technique lets you understand 
+how often you should be bluffing but also how  
+often your opponents ought to be bluffing 
+if they were balanced let's get started
+many players learn the basic Bluff value ratios 
+on the river but poker is not a one street game  
+you're not just playing a river there are multiple 
+betting streets and each Street compounds these  
+effects allowing you to Bluff more and more 
+often assuming you're using a polarized range  
+so in today's lecture we're going to go over 
+understanding the concept of indifference we'll  
+talk about the theory of Leverage we'll talk about 
+how to calculate value to Bluff ratios on the  
+river and finally we're going to work backwards 
+from the river and show you how this works in a  
+multi-street game so that you can calculate these 
+numbers on the turn and the Flop as well let's  
+start by talking about indifference indifference 
+in poker means that two actions have the same  
+value for example if you have a bluff catcher 
+that's right on the edge of the line facing a bet  
+your hand might be indifferent between calling 
+and folding if you have like a thin value hand  
+it might be indifferent between checking and 
+betting and all indifference means again is that  
+two actions have the same value so the reason 
+we understand indifference is to find balance  
+and the goal of balance is not by itself to be 
+balanced but rather to understand where the line  
+is to understand what balanced play looks like in 
+a vacuum when you understand where the line is you  
+have a baseline from which to deviate if your 
+opponents are for example not bluffing enough  
+or bluffing too much and in contrast you'll also 
+see where your own leaks might be to understand  
+Bluff to Value ratios we need to understand 
+how to solve a basic polarized River toy game  
+so here Hero has Ace Ace or queen queen they 
+have value or Bluff villain holds a bluff catcher  
+there's a half pot bet we can either shove or 
+give up with our queen queen sometimes so what  
+is our best strategy to solve this is pretty 
+straightforward of course we always want to  
+Value BET our essays and we need to Bluff enough 
+to prevent villain from always folding otherwise  
+their value hands don't get paid off at the 
+same time if we Bluff too much then they can  
+snap call all the time and now we're losing too 
+much money with our Bluffs so the correct amount  
+of Bluffs sits somewhere in between if you do 
+the math you'll find that the correct Bluff  
+percentage on the river is always equal to the 
+pot odds laid in this example we're betting half  
+pot what that means is that villain is getting 
+plot odds of 25 they need at least 25 percent  
+equity in order for their kings to break even 
+after calling if we Bluff less than 25 percent  
+well in that case they can always fold and if 
+we blow up from more than 25 percent then they  
+should always call now in practice you're 
+never going to get this just right you know  
+who knows exactly how often you're bluffing in 
+every spot but you can develop a sense for it  
+a really simple way to go about this on the river 
+anyway is to Simply use a pot odds chart so we've  
+got this one here on the left hand side you'll see 
+the BET size as a percentage of the pot and on the  
+right hand side you'll see the value to Bluff 
+construction and so for example for a half pot  
+bets we see that 75 percent of our betting range 
+should be value and 25 percent of our betting  
+range should be Bluffs and that's again because 
+they need 25 Equity to break even on a call and  
+therefore if a quarter of our Ranger Bluffs 
+then we make them indifferent between calling  
+and folding and you'll notice something here the 
+larger we bet the more Bluffs we could use so if  
+you bet 150 pot well in that case villain has 
+let's see they need somewhere like 37 38 equity  
+to call us bats and therefore a larger proportion 
+of our betting range can be Bluffs now keep in  
+mind that this is assuming a perfectly polarized 
+toy game where our value hands are always the  
+nuts and our Bluffs always lose in reality your 
+opponent might have some traps and that's going  
+to limit how big you can bet because you don't 
+want to bet so large that you're only getting  
+action from the few traps they have right so 
+returning to the toy game our value percentage  
+should be 75 percent our Bluff percentage should 
+be 25 percent which matches the pot odds for a  
+half pot bet conversely villain should call 
+according to the minimum defense frequency  
+which in this case is two-thirds of the time okay 
+let's see if you were paying attention here's a  
+quiz for you fill in bets seven big lines into 
+a 10 big blind pot on the river you shove for 25  
+big blinds what is the optimal value to Bluff 
+ratio take a moment to consider your answer
+[Music] thank you the answer is B 70 value 30 
+percent Bluffs that's how often we should be  
+value betting when we check raise shove the river 
+so the way you work this out is you calculate the  
+pot outs of your shove how do you calculate pot 
+odds well the equation is simply the amount they  
+have to call divided by the parts after they call 
+so they need to call 25 minus 7 because they've  
+already bet seven so 18 more big blinds and the 
+pawn after they call is 60 biplines 18 over 60  
+gives us thirty percent and therefore we they need 
+exactly 30 Equity to call now if you imagine that  
+we're raising the river with only nutted hands 
+that always beat their value and Bluffs that  
+always lose to their calls well in that case we 
+need exactly seventy percent value okay let's talk  
+about the theory of Leverage Leverage is a really 
+interesting concept now this idea has been known  
+for a long time the way that these Bluff to Value 
+ratios work this has been known since mathematics  
+of Poker I first learned it from applications 
+of No Limit Hold'em by Shonda but Andrew brocos  
+one of our writers hero wrote about it in his 
+book play optimal poker and he describes this  
+phenomenon as leverage and Leverage is this 
+compounding effect of you can use more Bluffs  
+on earlier streets as the bluffed Valley ratio 
+compounds and so the way he words it Leverage  
+is the additional value gained from betting hands 
+that you anticipate profitably betting on future  
+streets so hands that can bet multiple streets 
+as part of a polarized range benefit the most  
+from Leverage especially deep stacked if you want 
+to learn more about leverage we have this article  
+what is leverage in poker Link in the description 
+it's a good intro to this concept let me give  
+you an example of Leverage so imagine that you're 
+playing a hand and you have a static Bluff catcher  
+facing a pot sized bet on the turn your opponent 
+is using a range of 20 nuts to 10 Bluffs so two  
+to one how often should you call their turn 
+bet take a moment to consider your answer
+[Music]
+surprisingly the answer is zero you should 
+actually just fold everything and this I think  
+is going to be more surprising to the people that 
+already kind of understand this topic because if  
+you look at the actual numbers they have two 
+value bets for every Bluff and a pot sized bet  
+lays what pot odds two to one so if we only look 
+at the immediate pod odds we are getting pot odds  
+to call this bet and yet the best move is to 
+always fold why is that well the answer is that  
+villain is under bluffing because it's not just 
+a pot sized bet you see let's think about this  
+they have a range of two to one value to Bluff 20 
+knots to ten Bluffs we have static Bluff catchers  
+that is to say Bluff catchers that always beat 
+Bluffs and always lose the value can't improve  
+there's a pot sized bed behind on the river 
+what this means is that villain can always  
+bet the river right because they have the correct 
+value to Bluff ratio to pot the turn and then pot  
+again on the river and so essentially we're not 
+facing a pot sized bet we are facing a pod sized  
+bet and another pot sized bet for a total of like 
+effective 400 pot and so what ends up happening is  
+we are risking essentially four hundred dollars to 
+win 500 if we call down both bets starting with a  
+100 pot for this reason they actually need to be 
+bluffing more often on the turn and this is the  
+concept of Leverage without draws or implied odds 
+or any of those other abstract terms the simple  
+ability to bet twice with a polarized range or 
+bet three times allows you to apply leverage now  
+what I'd like to do next is visualize the money 
+but I can't quite do that just yet first I need  
+to teach you guys about a misconception in poker 
+you've probably heard this idea that the Eevee  
+of folding is equal to zero well this is a fine 
+way to look at it it's just a convention we use  
+to make the math easier you see other reference 
+points are also useful in fact what most solvers  
+do is they don't use EV equals zero they use the 
+expected value of actions is equal to the start  
+of your stack at the start of a hand minus your 
+stack at the end of a hand so let me give you an  
+example of what that might look like this was one 
+of the first articles I wrote for GTO Wizard and  
+it's called what is expected value in poker and 
+over here I wrote a section about EV relativity  
+and so here's an example let's say that you three 
+bet Ace Queen suited on the big blind and you face  
+a four bet from the button you can either fold 
+call or shove now if we check the expected value  
+of Ace Queen Suited we can see the expected value 
+of folding is zero calling is four and shoving is  
+2.5 and so calling is the best action however this 
+is not the expected value we actually get from a  
+silver from a silver it actually calculates this 
+assuming that your three bet was to 11 big blinds  
+and so again we're choosing between three options 
+and trying to choose the best option which in this  
+case is calling but the actual amount of money 
+you'll make relative to your stack is losing about  
+seven big blinds on average now why am I teaching 
+you this because using a common reference point is  
+really useful for understanding multi-street EV 
+calculations this concept of folding equals zero  
+EV is is great for one street calculations but it 
+kind of fails miserably when you're trying to do  
+EV calculations over multiple streets and so you 
+need to kind of let that idea go and use a fixed  
+reference points for your EV calculations if you 
+want to calculate multiple streets of betting so  
+with that EV perspective in mind let's now 
+visualize the money because a lot of people  
+don't understand how you can face a balanced bet 
+on the turn and yet it's a bad call so let's take  
+a look here we'll start on the left hand side 
+it's a 100 pot a 400 stack and villain bets a  
+hundred dollars on the turn we can either call or 
+fault if we call villain will always bet the river  
+if we call again and we win we'll win 500 that 
+is the starting stack so villain stack plus the  
+pot if we call and lose we'll lose our 400 stack 
+now conversely if we call the turn and then fold  
+the river we'll lose our turn call which is a 
+hundred dollars and the final option is to just  
+fold immediately on the turn and lose zero so this 
+is our fixed reference point let's calculate how  
+much money each line makes and so if we calculate 
+our equity on the river it turns out to be minus  
+a hundred dollars and so one-third times 500 plus 
+two-thirds times 400 gives us a minus one hundred  
+dollar River call conversely folding is also worth 
+minus one hundred dollars and so we're indifferent  
+between two minus one hundred dollar decisions on 
+the river and you see the problem is that they'll  
+always bet the river so if we trace the decision 
+back back back to our turn call we'll see that the  
+best option was actually just to fold immediately 
+and never see a river to begin with and so this  
+begs the question why do we ever call down with a 
+static Bluff catcher well how often should villain  
+actually be bluffing the turn for this to make 
+sense and so let's add another diagram and this  
+time we've given villain a give up range and these 
+are hands that will bet the turn and then give up  
+on the river when this happens we're going to win 
+the pots a hundred dollars plus their turn bet  
+so a grand total of 200 and if this happens often 
+enough we can recuperate our turn bet again if we  
+calculate the expected value we find that we need 
+them to give up on the river at least a third of  
+the time and bet again two-thirds of the time and 
+in fact the math works out such that their give  
+up frequency on the river should be equal to our 
+pod odds on the turn regardless of the bat size  
+and so that's how you actually recuperate your 
+money with a static Bluff catcher you recuperated  
+through villain giving up on later straights and 
+a villain is not giving up on later straights that  
+tells you that either a they're over bluffing 
+they're just not taking their foot off the gas  
+pedal or B they were under bluffing to begin with 
+and never needed to slow down because they were  
+too nitty to start with okay so you understand 
+how to calculate these value to Bluff ratios for  
+one street and we've seen the power of Leverage 
+now it's time to understand how this extends to  
+multiple streets so how often should villain be 
+bluffing the turn if ten Bluffs wasn't enough  
+remember the stack the Pod ratio is four we're 
+facing a pot sized turn bet and there's another  
+pot sized bet behind on the river and villain 
+starts with 20 nut combos how many turn Bluffs  
+do they need in order to be balanced on the turn 
+take a moment to consider your answer [Music]  
+the answer is D 55 in fact they should be bluffing 
+more often than their value betting on the turn in  
+order for us to have a break even call with our 
+Bluff Catcher And so this brings us back to the  
+power of Leverage here I've graphed the value to 
+Bluff ratio on the Flop turn and river and we can  
+see they can use more Bluffs in the Flop than 
+they can in the turn than they can on the River  
+on each Street we expect them to give up with a 
+portion of their Bluffs and bet such that they're  
+balanced by the river how do they construct their 
+strategy let's walk through this step by step with  
+an example so again let's imagine this time that 
+we're hero and we're the polarized player holding  
+either a value bet or a bluff and just pretend 
+that our value bets will always be value at our  
+Bluffs will always be Bluffs and their Bluff 
+catchers will always be Bluff catchers we start  
+with eight knotted hens and 37 total combinations 
+so 29 of those combinations are bluffs we're going  
+to fill out this table together to show you how 
+to calculate value to Bluff ratios over multiple  
+Straits so first of all in a perfectly polarized 
+toy game you always want to bet your value hands  
+so our value hands always bet flop turn and 
+River and the reason for this is that there's  
+no reason to trap if you don't have any Showdown 
+value so in this case if we check why would they  
+bet just to fold out our Bluffs and get called 
+by any traps now betting does nothing for them  
+so there's no reason for us to trap or to protect 
+that range so we're always going to bet our value  
+Okay so we've got that column figured out what 
+about the bluff column well we know on the river  
+that and again we're using a pot pot so we're 
+potting all three straights on the river we should  
+be bluffing half as often as we're value betting 
+we want to use two to one two value bets for every  
+one Bluff and so we already know this column but 
+how often we should we be giving up well a give up  
+percentage is equal to odd odds laid on the turn 
+and so odds laid for a pot sized bet so 33 percent  
+so we should be giving up a third of our range 
+on the river and that works out to six so six  
+over eighteen is one third a third of the time we 
+give up now that we know how many Bluffs we have  
+on the river we know how many Bluffs we have on 
+the turn six plus four is ten and again our give  
+up range should be such that we're giving up a 
+third of the time on the turret which works out  
+to nine and again ten plus nine that's nineteen 
+and that leaves the remaining 10 give UPS on  
+the Flop and so we can already figure out with if 
+we just know the total number of nuts and Bluffs  
+how often we should be value betting and bluffing 
+on each Street let's visualize that on the right  
+hand side we can see a flow chart that shows how 
+often we're value betting and bluffing each Street  
+as well as our give UPS now why did we 
+calculate all this what is the point  
+well the ultimate goal is very simple we 
+just want to get our value bets paid off  
+as often as possible without becoming 
+exploitable by over bluffing and so we  
+arrive at the river with a perfectly balanced 
+range of eight value bets to every four Bluffs  
+well simultaneously giving up just often enough 
+Reven villain from snap folding earlier so the  
+entire purpose of this strategy is to get your 
+value bets paid off as much as possible now you  
+may be asking yourself this is based on Three Pot 
+sized bets however you can calculate this for any  
+batch size it's actually relatively simple now I 
+have a simple spreadsheet application here caveman  
+GTO calculator you might have seen from some of 
+my earlier work but I've never actually explained  
+how this works the math is fairly straightforward 
+so for a perfectly polarized range that is to say  
+value bets always win Bluffs always lose the value 
+betting percentage is just one minus the product  
+of the Pod odds so for example in the river one 
+minus the river pot odds is equal to the amount  
+of value you should have right if you bet pots 
+on the river you're laying pot odds that dictate  
+33 Bluffs and therefore two-thirds value and so 
+you can multiply it out for example in the turn  
+you can multiply out one minus the turnpot odds 
+multiplied by one minus the River Products and  
+that gives you the percentage of value that 
+you should be betting with on the turn and  
+same thing for the Flop just the product of one 
+minus pod odds pretty straightforward calculation  
+so let me show you the caveman GTO calculator next 
+okay this is a pretty basic application again we  
+can enter any set of bet sizes here so 67 89 
+152 uh it'll just calculate this out for you  
+so let's just go over the assumptions that we're 
+making here we assume that villain can only call  
+or fold which again if we're perfectly polarized 
+there they would have no reason to raise we assume  
+that Equity is static that we're balanced and 
+that there are no blocker effects so this is a  
+a nice simple toy game I've also included 
+sections here to add the equity of your  
+Bluffs and value bets and this is a calculation 
+that Janda did in his work applications of No  
+Limit Holdem in my experience this actually does 
+not work out well because the way he models it  
+he models a bluff for example having 20 
+Equity meaning that it always has 20 percent  
+no matter how much you narrow the opponent's 
+range or conversely if you have value bets  
+he would model that as this always has 
+eighty percent no matter how much we  
+narrow the opponent's range which 
+isn't really the case in reality  
+so I'm not actually going to use that I'm just 
+going to use perfectly polarized equity and here  
+we can see the value to Bluff ratios on flop turn 
+and River and so let's enter our pot pot toy game
+and here we can see the appropriate value to 
+Bluff ratio says we should be bluffing quite  
+a lot on the Flop less so on the turn and less 
+so on the river now next I'd like to show you  
+how this actually works in GTL Wizard and we'll 
+compare the idealized caveman toy game to what  
+the solver thinks we should be doing but before 
+we do that we need to address the elephant or  
+rather the cow in the room you see the cow is a 
+sphere but what this means is that we're trying  
+to represent an extremely complex topic which is 
+Nash equilibrium in poker in an almost infinite  
+game space with a super basic toy game model and 
+this doesn't really match reality our Equity is  
+not static Bluffs and value is a false dichotomy 
+on earlier straights and we can't perfectly plan  
+out bet sizes we can't just pretend that we know 
+exactly what bet size we're going to use and we  
+can't pretend that we don't have Showdown value 
+in some of these lines this is not how actual poke  
+Works obviously however the reason we represent 
+the cow as a sphere in physics and the reason  
+we use oversimplified models in engineering 
+to represent more complex topics is because  
+it allows us to understand the inner mechanics 
+behind how stuff works and once you understand  
+those inner mechanics you can extrapolate those 
+ideas and Abstract them to more complex spots to  
+spots that cannot be calculated with standard 
+handwritten calculations as you could with  
+this toy game and so by using simplified models 
+like this we can understand spots more deeply  
+and understand this idea of Leverage and Bluff 
+to Value ratios compounding on a better level  
+so without further Ado let's open GTA Wizard and 
+see how the solver applies these Concepts now the  
+beauty of this is that it works for all formats 
+MTT cash heads up Spin and goes you name it the  
+the math is universal throughout poker so I've 
+got three examples here we'll look at an MTT  
+spot first at 35 big blind steep for this first 
+example I've chosen a hijacked versus button spot  
+so hijack opens the button calls Bob is 
+Queen five for rainbow I jack see bets  
+and we get a raise in position this is going 
+to give us a pretty polarized line that will  
+match our toy game model quite well eject 
+calls turn is the Deuce of Clubs Daryl
+a jack calls again and on the river 
+we ship it in for the last 40 pot  
+now when button shoves hijack has 22 pod odds 
+22 Equity all and therefore button should be  
+bluffing 22 percent of the time just go over 
+to the ranges tab look at the equity buckets  
+see at 22 percent of buttons 
+shoving range contains Bluffs  
+exactly what we expect going to our toy game model 
+typing at the BET sizes here so raise 33 percent  
+on the Flop Barrel 55 on the turn shove 40 on 
+the river and again we see a ratio of about 78.22  
+on the river Shelf what about the turn how closely 
+does that match if we just go back to the turn  
+after we've put in the 55 bet I just select the 
+best and the good hands that button is barreling  
+with see that 58 of their turn betting range 
+contains value bets again our tour game model says  
+57 pretty darn close lastly if I go over to the 
+flop after button has raised and this time instead  
+of equity buckets let's use hands is and this may 
+be a little easier to Define this as the value bet  
+what does it say 48 so about 48 of buttons flop 
+raising range should contain value BET our toy  
+gay model predicts 46 percent pretty darn close 
+all right for this next example we're going to  
+take a look at a cutoff versus big blind 200 big 
+blind deep cash game so cutoff opens and big blind  
+calls see a queen 4 Deuce rainbow flop cut off 
+cvet's third pot and the big blind hits him with  
+a pot sized check race representing sets two pair 
+and top pair cut off calls Knight of Hearts turn  
+and the big blind continues to Barrel 
+referring this 125 over bet size
+cut off calls river is the Queen 
+of Hearts pairing the top card  
+and the big blind ships it in 
+representing a whole lot of boats  
+so after the big land shubs there's a little 
+thing here we've just added this feature this  
+shows your pod odds and so the cutoff's 
+Pod odds facing this shove are 38 percent  
+going back to the start of the lecture what 
+does that tell you well it tells you that  
+about 38 of the big Blends shoving range should 
+contain Bluffs and that's exactly what we see  
+just select all of these bluffy hens at 38 percent
+or we can select the value hens about 60 to 
+63 percent so let's go over to our caveman  
+GTO calculator to see if it agrees with us we 
+check raised Parts on the Flop over bet the  
+turn and shipped it in on the river so on the 
+river we would expect about 62 percent value  
+and that's exactly what we see now again it's 
+not going to be perfect because there's some  
+minor blocker effects but this is pretty 
+darn close so let's go back to the turn  
+we've overbed 125 action on cutoff and I'm 
+just going to select our value hands here  
+so again these sets these two pairs these are 
+clearly value uh the only other question is  
+does top pair count as value and so if we 
+include these we have Queen Seven Queen six  
+Queen five Queen three some very marginal top 
+hair weak kicker hands as a merged bet and so  
+then we'd have 43 percent value bets and if you 
+don't include some of those then it's closer to  
+37 value bets so somewhere between 37 and 43. and 
+if we go over here we expect in an idealized toy  
+game about 40 Value so lastly going over to the 
+Flop after we've check raised pot we can select  
+let's say top pair plus as our value region it 
+gives us about 30.7 uh if you don't count some of  
+the mergy top pair then it's maybe closer to like 
+25 percent and that's exactly what we see here  
+now you'll notice something else we're very deep 
+in this spot which means that the big blind can  
+over bet twice and this means that they can 
+Bluff more we can see that they only need about  
+a quarter of their range to be value bets on the 
+Flop check raise so the deeper you are the more  
+important the nut Advantage becomes because you 
+can polarize much harder when you're able to bet  
+much bigger and that also means that a larger 
+portion of your range can start Bluff racing  
+relative to the number of value hands you have 
+okay for our last example we have a heads up sit  
+and go 25 picked lines deep the small blind starts 
+with a two big blind open and yes I know if you  
+haven't seen heads up sit and go Solutions there 
+is a lot of limping in position that is just part  
+of the strategy so they open big blind calls 
+and we get a low connected flop six for deuce  
+the aggressor C bets and the big blind again 
+check raises and I'm showing you a lot of  
+raising lines because these are quite polarized 
+and will closely match our toy game models uh  
+whereas here it's very hard to tell where 
+the Bluffs end and the value bets begin so  
+they raise and we got an another low 
+connected card this time the five of clubs  
+which is actually pretty good for the big blinds 
+Check Racing line they have a lot of these low  
+cards this hits their check race well so they 
+continue to Barrel this time two-thirds pot  
+and we get an ace on the river and so the big 
+blind shoves it in with a good portion of their  
+range representing mostly straights or nothing 
+now let's take a look at the value to bet ratio  
+so on the river again I'm going to use the ranges 
+Tab and we're going to use well let's just say  
+straights and maybe two pairs two pair value bet 
+it's hard to say uh about 70 72 percent equity  
+that's approximately how many value bats they 
+should be using on the river let's see what our  
+toy game model says check raise 33 on the Flop 
+65 cbat on the turn 59 on the river okay so on  
+the river we expect about 73 value bets okay that 
+makes sense for this size this is the Pod odds for  
+a 60 pot size bed and yeah this is exactly what we 
+see now on the turn we would expect to see about  
+52 value bets so let's go back here we'll head 
+over to the turn so we've barreled the turn Barrel  
+and again let's just use I don't know two pair and 
+straights as the value portion of this C bet which  
+comes out to about 50 49.4 call that 50 percent 
+value bets on the turn for this bet size and yeah  
+here it says 52 so our toy game model predicts 
+slightly more value but the fact is we also block  
+a lot of the straights when we have a straight 
+so that changes the calculation a bit but we're  
+ignoring card removal in our simplified model and 
+finally on the Flop we expect about 42 value bets  
+here if we go back to the flop okay and 
+we say what are we check raising with  
+well let's see top pair two pair of sets all 
+of these hands so let's say top Hair Plus is  
+our value region that's about 39 of our overall 
+check raising value range and here it predicts 42  
+percent so reasonably close and you can see this 
+concept of Leverage is applied to all of these  
+scenarios and especially when I'm you know cherry 
+picking these very polarized lines this toy game  
+model works very well and so the real takeaway 
+here is that you need to be bluffing more on  
+earlier straights giving up portion of your range 
+and knowing that just because you have direct pot  
+odds to call doesn't actually mean that you should 
+be calling in fact you should be bluffing quite a  
+lot more on earlier straights and so should your 
+opponents and if you're playing against people  
+that aren't doing that well you know what to do 
+let's summarize so Leverage is the phenomenon  
+of compounding pot odds over multiple streets 
+and the result is that you should have more  
+flop Bluffs than turn Bluffs than River Bluffs 
+now if you're a cash game player who's mainly  
+playing 100 big blinds in single race Parts you 
+can use the one-third one-half two-thirds rule  
+this is a simple rule of thumb that tells you 
+approximately what portion of your range should  
+be value bets on flop turn and River your static 
+Bluff catchers recover their calls when villain  
+gives up and so a villain is not giving up often 
+enough your static Bluff catchers won't recuperate  
+their calls and so you should probably start over 
+folding those especially if your opponents are too  
+value heavy the give up percentage that is to say 
+the proportion of range that someone should give  
+up after bluffing is approximately equal to the 
+previous Street Pawn out so if someone bets pot on  
+the turn with a polarized range they should give 
+up approximately pod odds of the time on the river  
+so about a third of the time if they were to bed 
+for example half pots on the turn then you would  
+expect them to give up about a quarter of the time 
+on the river and that's ultimately how you recover  
+the previous Street call and finally if villain 
+isn't giving up enough they're unbalanced in some  
+way so either they're you know balanced on the 
+turn but then they're over bluffing the river or  
+they're under bluffing the turn and then directly 
+bluffing the river or somewhere in between there  
+but it is impossible to be balanced if they don't 
+have give ups and so a lot of old school poker  
+theories said you know you should just never 
+give up with a bluff if you're going to Bluff  
+just pull the trigger all the way through well 
+that might be fine exploitative advice sometimes  
+it disagrees directly with Game Theory which says 
+you actually need give UPS in order to achieve a  
+balanced range check out the articles in the 
+description for more information I'll post a  
+link there about leverage as well as the caveman 
+GTO calculator so you can read that if you want  
+to learn more about these Concepts if you have 
+any questions if you need something clarified  
+please reach out to our Discord Channel we'd love 
+to hear from you and as always happy grinding

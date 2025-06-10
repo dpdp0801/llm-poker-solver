@@ -1,0 +1,756 @@
+### TOPIC: gto analysis
+what's up guys welcome to the first
+video of a series of videos going over
+some high stakes hand histories
+today we're going to be going over a
+linus love hand at 5100
+so let's just jump in
+just to give a brief introduction to
+myself my name is moneyjay2k
+i play 200l online and 2-5 live
+i'm a professional poker player and i've
+spent hundreds of hours studying
+theory hopefully together we will be
+able to learn and take some principles
+from
+these different hands and apply it to
+our own games so let's just jump right
+into the hand history and just replay
+the hand
+and just see what our first impressions
+are so we
+face an open of about 2.25 x on the
+button we're in the small blind
+king queen off a pretty reasonable three
+bet we're gonna be pretty much pure
+three betting king queen off here
+and we get the call from the button we
+see a flop
+a seven three rainbow again both players
+are gonna have
+some good asex here um we're obviously
+gonna have some ace king we're gonna
+have some ace queen
+but button will have some sevens and
+some threes and
+but however the the main part of our
+range is going to be
+kings through eights that's gonna be a
+huge part of our range advantage
+and so we're gonna be able to see bet
+this at a really high frequency
+for a pretty small size and that's
+exactly what linus does
+he bets about quarter pot and we get the
+call from ac1dd
+go to a turn a73 jack of clubs
+and we put in a pretty small bet about
+one third one quarter here and it's
+pretty interesting this is
+going to be a basically a result of
+having a really high range advantage
+just on the flop as well as on the turn
+and so we're gonna be wanting to bet the
+turn at another really high frequency
+but also we don't need to use very large
+sizes in general in three bet pots
+simply because the sbr is so low that
+the
+river we won't have any problem getting
+more money in the pot we can always
+jam the river with almost any size on on
+the turn
+we face a raise on the button with king
+queen off here
+and so we're gonna have to peel this and
+this is mainly because
+we beat all of his bluffs and then we
+also have
+outs to the nuts and so we we can
+actually beat some of his value at a low
+frequency
+however the main part of calling this
+hand is that he's not raising hands like
+7x and 3x very often
+and he's mainly raising some flush draws
+he's raising some
+hands that are like gut shots and stuff
+like that
+and so we're going to be able to be
+beating those with the king high
+and the queen high especially because
+we're going to be beating all the
+all the different gut shots and stuff
+that he ends up raising
+and so we we're going to need to call
+this here even though it doesn't feel
+great
+however it does feel pretty good when
+you river the straight and so
+he bets all in here for about pot
+and this is obviously just going to be a
+slam dunk call
+not really anything else we can do here
+especially the king clubs
+we call he shows the h jack and
+whole hand is played very well for both
+players ace jack is obviously a raise on
+the turn he's got top two pair
+and he really just got rivered linus ran
+very good in this hand
+so now i'm gonna jump over to gto wizard
+and we're just going to pull it put in
+the spot in the software
+and we're going to be able to pull it up
+fairly quickly so it's a 73 rainbow
+so a73 with the three of hearts put it
+in
+and so now we see the solution for the
+small blind
+seabedding range here and so
+just about as we expected we have about
+20 percent
+and 54 are pretty much the only sizes
+used
+we're only checking 23.7 percent so from
+the overall perspective we're basically
+betting about
+73 of the time 76 percent of the time
+and for a pretty small size about 20
+and the reason for this if we go over
+here and we can see
+just how many sets and two pairs and top
+pairs and whatnot that we have
+we basically have a slight disadvantage
+between the sets and two pairs so if we
+look at the sets here
+he has villain has 4.2 so the button has
+4.2
+percent of sets and we only have 3.3
+so he has a slight advantage in the sets
+and then we only have 1.1 percent of two
+pair
+and the button has 1.7 percent so he
+again he has a slight advantage on sets
+and two pairs
+however in three bet pots it isn't quite
+that important because if he has a set
+and we have a hand like you know ace
+king he's just getting all the money
+and that's primarily a factor of just
+the stack to pot ratio being so small
+and being
+just where we can't face a ton of
+aggression from the button
+whereas in a single a spot the button
+could go over bet over bet over bet
+and a lot of our top pair hands are
+gonna end up having to fold because
+they're facing 2x pot over bets
+however in three bet pots the button
+really can't do that the button can only
+go
+half pot half pot half pot or maybe one
+over bet jam
+but it's we're gonna be able to face
+much less aggression
+simply just because our stack to part
+ratio is much smaller so
+the the the slight disadvantage we have
+in sets and two pair
+isn't going to be that definitive of
+what our overall strategy is
+in this specific spot our overall
+strategy is going to be much more
+defined by the marginal hands
+and this is also pretty common in
+general when we're flop c betting
+our marginal hands are hands like top
+pair
+top pair some low kicker hands like like
+a6
+ace four ace fives some ace ten off ace
+jack off
+and then then some under pairs where we
+add in like kings queens jacks tens
+nines and eights
+um where a lot of these can bet really
+small and get
+value from hands like backdoor flush
+draws hands like gut shots hands like 7x
+3x and and whatnot
+and so these are really the primary
+reason
+why this 20 percent size is used such as
+such a high frequency
+and so just to apply this to our game in
+general when we're the three better and
+the board is disconnected with a high
+card
+so disconnected with like a king or a
+queen
+or an ace or sometimes a jack we can
+generally just bet almost our entire
+range for a really small size
+just because when we're the three better
+our pre-flop range is just uncapped
+and so we really get to get away with
+all kinds of
+very small bets at really high
+frequencies and if we just put in the
+the 20 bet size we see that
+we actually have almost no fold equity
+and a lot of players
+don't want to use these really small
+sizes these 20
+sizes these 33 sizes because they say
+oh my bluffs will never get folds and
+the the response to this is basically we
+don't want
+folds when you're at an entire range
+advantage when every single part of your
+range except here of course is the top
+two percent of the range we're not um
+we don't have an advantage there but the
+rest the top 98
+or the bottom 98 of our range we are
+basically
+pretty far ahead of the of the of the
+buttons range here so we actually want
+calls
+we because we're so far ahead with our
+range we are not afraid of calls because
+he's
+primarily going to be calling with hands
+that are worse than our hands
+if we just look at some of the some of
+the calls he has to come up with here i
+mean
+he has to call with with nine eight with
+the back door back door and that's not
+even that's not even the craziest i mean
+he has to call with ten eight he has to
+call with jack eight
+he has to call with hands like pocket
+twos he has to call
+basically every pair has to call um
+there there's
+quite a lot of hands here that maybe
+players either aren't finding and then
+the
+that is just completely printing but
+even if they are finding
+there's going to be a lot of tough plays
+that they're going to have to play on
+the turn with a lot of these different
+hands
+and they're also going to have to raise
+a lot so if we look at
+he needs to raise 12 he needs to raise
+about 14 percent of the time
+and again it's going to be a lot of
+different hands that don't always make a
+lot of sense
+and so basically when we use this really
+small bet here
+this this 20 pot size bet we just
+end up putting our opponent in some
+spots where
+he has to play some pretty large pots
+with some pretty marginal hands so
+this really small size is something
+that's really really really really
+high value and something that we can put
+into our game very quickly
+and it's pretty easy to do right like
+for us all we have to do is bet 20
+and we put the button in all kinds of
+interesting spots he
+has to start calling he has to start
+raising with hands that he may not
+really want to raise
+and so it's a really good strategy both
+theoretically and exploitatively
+but anyways we put in the 20 pop bet
+and the button ends up ends up calling
+we're going to jump over to the turn
+jack of club turn
+and so here we're actually betting an
+even higher frequency than we were on
+the flop and again
+it's just a it's just a factor that we
+have a huge range advantage still we
+have
+we have a ton of different high quality
+hands here
+that we simply just can bet for
+almost whatever size we want however
+in this specific in this specific spot
+we start betting this 20
+size fairly often and then this 56 size
+and so again i think a lot of players
+will make the mistake of using some
+larger sizes here they'll start using
+some 25 big blinds into 32 big lines you
+know some 80 percent of pots
+90 of pots some players will even just
+jam because they're afraid of the flush
+draw
+and that that is a pretty big mistake
+and so the reason it's a mistake
+is that we are almost always in a
+three-bet pot
+we're almost always trying to get the
+hand trying to get our good
+high-value hands in over three streets
+and so basically we are always trying to
+bet the
+flop a size where we can bet the turn a
+size where we can jam the river for
+about half pot to a pot so we were
+basically to put in a sentence we are
+trying to set up
+the river svr to be
+between about .5 and 1 spr
+and we can't always do that sometimes
+it's it's not reasonable but in this
+specific spot that's the main reason
+that we're using
+this 56 pot size here and not using some
+larger sizes we're really trying to
+force
+our opponent to put in um to get to put
+a lot of money in
+with a pretty wide range if we look here
+he's only folding 40 percent against
+this half pot
+size and so he's still having to call
+with every flush draw he's having to
+call
+he's having to call with nine seven even
+raising it sometimes he's having a call
+with eight seven he's having a call with
+gut shots like six
+five and five four he's having to call
+with
+with just some some second pairs like
+king jack even some players
+aren't calling king jack here and that's
+that's a pretty big mistake
+he's having a call with nines and tens
+and and this is against the half pot
+size
+um so so the half plot size is is is
+used primarily because when we hit call
+and we just put in some some random
+river
+our sbr is we're betting we have about
+66.5 behind
+and the pod is 68 so we can jam for
+roughly
+um for roughly pot so we don't really
+need to jam the turn because we can very
+naturally and easily jam the river
+and in situations where you know if he
+rivers the flush he just
+usually is just going to get the money
+because the ranges are so wide that his
+whole range isn't just flushes
+but to go back to the actual line and go
+back to the turn and we actually
+can put in the other line so that's the
+reason why we use this 56
+size i think this is a pretty standard
+spot i think
+a lot of mid stakes players 100 and l
+and up will be able to find this 56
+percent size
+however i don't think many players are
+finding this 20 percent size either
+and the 20 sizes is a factor of that
+very large range
+advantage and the 20 size is a little
+bit of of
+trying to just it's basically just
+trying to get a lot more thin value
+and so if we if we filter by this 20
+size and we
+go through some of the different hands
+that are betting we're betting hands
+like jack
+ten we're betting hands like jack nine
+we're betting these second pair into
+this twenty percent size
+we're putting um we're putting a lot of
+hands that can go for some thin value
+like pocket tens pocket nines pocket
+eights
+pocket sevens um and a lot of these are
+just
+they're they're i guess pocket sevens is
+a set but um these hands are all
+just going to be able to get called by a
+lot worse hands
+um like like if we just think about
+having like a hand like jacked tin here
+um we're getting called by
+uh every king ten we're getting called
+by every gut shot getting called by
+every king queen every king
+king queen off every king jack off we're
+getting called by jack eight suited jack
+nine suited
+um we're getting called by all every
+single 7x we're getting called by
+gut shots we're getting we're getting
+called by just
+all kinds of different hands that we're
+beating um we're also getting called by
+a lot of flushes
+um so if we just filter by by the by the
+club hands
+we're getting called by a lot of flush
+draws like hands hands that
+just don't get to fold for 20 size and
+we get we get to get value from these
+flushes we're not really that afraid of
+the flush
+um we're trying to get value from these
+flush draws and i think it's a common
+misconception that
+we need to be very afraid of the flush
+draw
+we really don't we want to give value
+from the flush draw we want the flush
+draws to call most the time
+and so if we go moving forward we bet
+that 20
+size and we end up actually getting
+raised in the hand
+which he needs to do quite often
+actually if we look at the raise size
+and or and the raise range he's he's
+raising uh
+let's filter by the raise range he's
+raising these king eight suited hands
+he's raising top pair
+top top pair and um two pairs if we look
+at he's raising ace nine ace eight
+ace three another two pair hand ace ten
+ace jack he has
+he has value here he has sevens he has
+he has threes he has he has a good
+amount of value here so he
+he can he can find these raises he has h
+jack so he definitely wants to have a
+raise range because if we have ace jack
+or we have a7 or we have sevens
+we want to put money in the middle we
+want to we want to
+bloat up the pot so that we can jam the
+river again
+and and then we just look at some of the
+bluffs he has he's bluffing you know
+he's bluffing these these club hands
+he's bluffing
+king six and king eight and king nine
+and king queen um king queen of clubs
+here
+he's bluffing these different um these
+different gut shots and
+and he's even bluffing some third pair
+but very very low frequency and
+that's actually important for for our
+hand if we if we just simply look at um
+how often he's bluffing a pair
+he's it's very very very very low
+frequency that he bluffs a pair
+most of the time it's these hands like
+10 8 and 9 8 and what in the in these
+gut shots and whatnot and he's very
+rarely raising with a hand like seven
+six and eight seven and so if we look at
+our
+our range um as as as the small blind
+versus it
+we end up calling king queen off at a
+frequency
+that is notable where yes we're raising
+it a good amount and
+and we're calling it a good amount and
+we're folding so it's mixed and this
+just means that this is what's
+theoretically called a bluff catcher and
+a bluff catcher
+basically just means that you're beating
+all the bluffs but you don't beat any
+value
+and so you're gonna call the the perfect
+frequency
+that will balance your overall range so
+that your opponent
+can't just raise every single hand and
+get you to fold way too much
+so this is basically a bluff catcher is
+just a hand that's used to balance your
+range
+in in order to make sure that your
+opponent can't bluff
+too often and this is probably where
+where linus makes the a very small
+mistake
+he he really should only be jamming or
+folding the king of clubs in
+the king of club hands and this goes
+back
+to the raise range that that the button
+has if we pull up the raise range and we
+just put in
+and we we put in these club hands again
+he has
+a lot of his raises are like king six
+king eight king nine
+king queen and so having the king of
+clubs blocks all of these different
+races
+and so it actually blocks a lot of the
+bluffs
+and that just when you when you block a
+lot of the buffs it obviously just means
+that
+your opponent has a lot of
+a higher frequency of value in their
+range because you block their bluff the
+king of club doesn't really block any
+um doesn't really block a whole lot of
+value bets on on
+on the turn that raise um
+and so so when when we go back to um go
+back to the the raise range and we call
+we do end up getting to call king queen
+off a little bit
+um just because of that and going
+through
+and and so so we can see that the non
+the non-club king queens
+actually do call a sizeable percentage
+and then they fold a little bit
+and then the king of clubs jam over the
+top i don't think this is a very big
+mistake from linus obviously
+um he's he also could be exploiting his
+specific players
+and i i don't think it's it's it's a
+super it's a it's a big deal to make
+this mistake at all
+um going through some of just the other
+hands that we have
+that end up calling um our bluff
+catchers or hands like nines tens
+eights and um we i would not recommend
+most players to be calling these hands
+simply because
+your opponent is not bluffing enough
+most most opponents
+do not find this raise on the turn and
+so we
+really do end up getting to fold out a
+lot of these bluff catchers
+however when you're playing you know
+stakes like 5100
+your opponent might be finding these
+bluffs and
+they're definitely they're definitely
+they may even be over bluffing these
+spots
+and so we we do have to actually call
+these these kind of hands
+at the highest stakes however if you're
+playing micros if you're playing 100 and
+l if you're playing 200 and l
+these guys just aren't bluffing these
+spots nearly as high of a frequency as
+they need to be
+and so we can turn a lot of these bluff
+catchers into pure folds
+um moving forward i think i think it's
+it's a pretty good simplification if we
+if
+to just to just fold a lot of your bluff
+catchers
+when you face high aggression i think
+most stakes
+these lines are under bluffed and we can
+we can pretty comfortably just fold the
+hands like king queen
+however again linus is playing 5100
+he has to make some of these calls that
+may not always feel great
+so linus puts in the call
+and the river was the ten of clubs
+another pretty interesting river and
+obviously
+one of the better rivers for our exact
+hand now we beat a ton of value
+we obviously check our entire range and
+maybe maybe that isn't obvious so the
+reason we can't really
+um we can't really we can't really donk
+on this river very much
+and i think a lot of players would also
+make that mistake
+of donking this river a little bit too
+often when they hit their flush
+in that we really don't have many
+flushes here
+and that's might seem a little
+unintuitive but when we bet this 20
+size very few um very few of
+our flushes are going into it these
+these aren't
+really um these aren't really being put
+into our 20
+size and when we do get raised they
+really aren't calling very much
+and we go back and put in the clubs very
+few of these are calling and then when
+we have this this king of club hands
+it's just um it's just not it's just not
+going to be a very high frequency play
+for us to have many flushes
+so we hit call confirm
+and so this isn't exactly zero percent
+this is actually if we turn on the
+weight these hands are almost never in
+our range
+if we turn on range height so
+it's just a rounding error
+and we hit check so obviously we're
+checking our range because we have very
+few flushes
+and if we go over to him he has 6.6
+percent of flushes he has
+he has he has um even straight flushes
+so he has a pretty large range advantage
+on this
+on this on this board and it makes sense
+he raised the turn so he has a lot more
+high value hands
+and so he's jamming what is going to be
+a pretty nutted range he's going to be
+jamming king queen here
+he's going to be jamming um top top two
+pair here he's going to be jamming all
+the nut flushes obviously he's going to
+be jamming some of these
+um eight seven hands even to to balance
+his reign some nine eight hands
+that just that just hit that um that
+straight on the river
+he's gonna have some sets he's gonna
+have he's gonna have quite a lot of
+different hands here and if we turn on
+range height we can see
+that a lot of um his highest frequency
+hands are like ace jack
+um king queen some sevens he's gonna
+have a lot of sets here
+and so when we face the jam with king
+queen
+it's pretty much it's pretty much just a
+slam dunk call
+and as as just the um solve pretty much
+says
+king queen is beating just a ton of
+value here
+even though even though we may not have
+um we may not have the flush
+we still are just having to snap call
+with king queen off here it's it's
+going to be um it's going to be just
+winning a ton
+um and and we're even calling like ace
+queen we're even calling ace king
+we're having to call um we're having to
+call pretty wide here again because
+if villain hit a set if villain hit a
+flush he just gets the money
+we we beat tons of bluffs he's jamming
+fairly wide if we go back to his jam
+range he he he is jamming
+a lot of these different bluffs he's
+jamming 870 he's jamming
+um hands like six five and five four and
+even like pocket twos and
+pocket fours and pocket fives and pocket
+sixes
+um he's bluffing a pretty high frequency
+here and
+um and so so we really can't get away
+with folding these top pair hands
+especially when we're only
+we're only facing a pot bet so we we
+don't need to be
+we don't need to be right very often
+we'll and so
+these these top end um top pair top pair
+top kicker hands
+while they maybe look very low ev if we
+switch over to the ev line here
+they only have 0.77 ev 0.46
+0.28 they're they're very low ev but
+they do
+still have to call and so it's important
+to know that and if we look at the
+the eevee of the king queen hands they
+have huge amounts of ev here and so
+folding these
+would be very bad and so the the river
+kind of ends up playing itself if we go
+back to strategy
+the river we call a lot of really good
+hands if we go over to filters
+we're calling a hundred percent of sets
+hundred percent of straight 100 of
+flushes
+100 of the straight flushes and then
+we're we're going to be mixing with the
+two pair we're going to be mixing
+mixing with the top pair so basically
+we're calling our best our best two pair
+here not calling um
+ace 10 and jack 10 and instead we're um
+we're also mixing with the top pairs
+where we're only calling the top end top
+pairs as well
+and i i think this river is is fairly
+intuitive i think a lot of players will
+be able to find these calls and
+i don't think many players are going to
+be folding king queen here so that's
+i don't think many players are even
+folding sets here
+and so i i think this is um pretty well
+played by both players i think
+obviously ace jack is good enough to get
+it in when we're calling with hands like
+ace king and ace queen and whatnot
+and so i think it's a very well played
+hand and that makes a lot of sense given
+that it's 5100
+so that's going to be the end of the
+hand history part of this video
+there's going to be a series of these
+kinds of videos so if you would
+like to have a specific high stakes hand
+reviewed or possibly even your own hand
+reviewed
+leave a link to that hand in the
+comments or join our discord the link
+should be in the description
+either way hopefully you guys enjoyed
+the video and if you would like to get
+notified for
+any more videos that we make in this
+series please subscribe thank you
+you

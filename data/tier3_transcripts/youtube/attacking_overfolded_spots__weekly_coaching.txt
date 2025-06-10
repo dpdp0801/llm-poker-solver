@@ -1,0 +1,1561 @@
+### TOPIC: attacking overfolded spots
+in today's session we'll be talking
+about borrowing without equity
+first of all i want to ask you what
+spots do you find borrow without equity
+let's define that
+so if the board comes is high and we are
+borrowing pocket juices or pocket trees
+we still have equity right we have two
+outs for a set
+so the question is when are we borrowing
+without any equity
+without any over cards without anything
+connected to the board do you guys have
+any any specific spots uh where you do
+that on a regular basis
+and you find it working all right so
+when we unblock villains draws
+this is important one
+when our hand
+unblocks his faults
+bluffing flushes
+ferdinand says bluffing flushes what do
+you mean by that bluffing monoboards
+miss draws on the river all right
+so
+when flop goes check check against late
+position flutter you borrow turn with
+every hand well
+not every hand in theory but you could
+borrow every hand against some opponents
+profitably so as you see there are
+infinite cases where we can borrow
+without equity and that's why i decided
+to focus just on a few specific spots
+and keep it more practical this webinar
+so that we explore how we can exploit
+our opponents in specific spots rather
+than learning you know why are we doing
+this and uh what part of range needs to
+be defending and memorizing things that
+as if you watched uh tom's uh webinar
+about the bit about the big picture how
+a memorizing doesn't work in poker so
+i've chosen three categories of boards
+first one monoboards i think ferdinand
+said a bit about that
+motherboard so three flush boards and
+especially when completing another flush
+cart on the turn
+uh in those spots there are no bluffs
+with equity so if there are four cropped
+clubs on the board if we have another
+club we have a flush if we don't have a
+club and we're drawing for a straight uh
+we could be drawing that against a flush
+already so there are no
+natural bluffs with equity when it comes
+to motherboard then straight completing
+boards these are the ones that i think
+are very difficult to nail just because
+how hard it is to be defending you know
+one pair of hands or even two pair hands
+on straight completing boards
+and then
+the last one which is a bit easier for
+the aggressor is the locked boards ace
+highs
+or
+parrot boards that are already locked
+and they're not that many draws
+so the first hand example will be coming
+from the monoboards and we are
+diving on a
+queen six deuce three spades
+utg against the big blind for 30 big
+blinds effective as we already know
+uh we should be
+betting this board
+uh
+with a very high frequency in practice
+betting the whole range here uh just
+because uh how strong our range is
+compared uh to the big blinds range of
+course if we go to ranges uh we're going
+to see how wide big blind range is and
+you know as a percentage of the whole of
+his whole range the hands that have 60
+and above are you know
+uh around 10 to 15 percent well in our
+range as the aggressor as utg
+we have uh
+quite a lot more
+so uh we're betting range on these
+boards uh i'd rather bet you know my
+whole range four quarter pot
+uh instead of uh mixing it up with the
+55 percent 33 and 20 it just becomes
+much easier to execute
+so
+um
+if we bet let's say the preferred sizing
+here is 33 percent
+if we bet uh 33
+what do we see from the out of position
+player uh that strikes me is first of
+all the check raises
+so the check raises here
+um
+of course the value comes from mostly
+flushes
+we see all those flushes check raising
+but not every flush in fact most flushes
+are just check calling
+just because
+of how we want to be playing our range
+in general you know we want to be check
+calling
+uh
+around 50 percent of our range and
+raising just uh nine percent
+so this is the overall strategy and
+that's why we're check calling with most
+of our flushes
+well the flashes that benefit uh
+uh to check raise the most from the big
+blind are the ones with the three or
+with the four that are unblocking uh you
+know the bad cause from uh from the utg
+or from the uh preflop aggressor
+so uh we want uh to be um to be to get
+caught with those flushes so we're check
+raising you know king 3 instead of jack
+9. uh so this is first thing about the
+value and i think uh in practice people
+check raise a lot more flushes
+especially the low ones because you know
+um
+we tend to think that they need more
+protection so 75 needs protection
+against let's say age jack with a spade
+or pocket tents with a spade
+and then
+by check raising more flushes
+on the flop
+their range becomes weaker on the turn
+now let's see about the the blast so i'm
+going to exclude
+spades here
+and see that
+still there a lot of hands without the
+spade check raising the flop so uh due
+sex uh low due sex then some good shots
+like um five four five three uh four
+three uh six four and five six as well
+because those can be turned into a bluff
+on some runouts you know three four five
+uh targeting to fault um over pairs or
+even a queen on some run-outs
+uh people uh of course don't do that i
+almost never see players check raising
+deus ex or 6x on this board unless i'm
+playing uh you know maybe a 1k plus
+buy-in and now when we go to the one
+one spade
+one spade bluffs
+uh we're going to see
+a decent amount of you know nine x of
+spades seven x uh eight x of spades um
+check raising and those are bluffs that
+uh never uh really get check raised in
+practice because you know if our
+opponent causes then um another spate
+comes what are we doing with a knife
+high flush is just not strong enough uh
+if we take those two population
+tendencies into practice we're going to
+arrive at the turn
+with the big blind
+having significantly weaker range which
+allows us to be borrowing a lot of hands
+without equity
+so
+if we bet one third here as utg
+and the big blind calls
+turn comes let's say another spate so it
+comes
+jack jack of spades
+there is some leading here in theory but
+in practice of course nobody is leading
+this turn
+just because of how complicated the game
+three becomes after uh leading on a four
+flush
+uh then
+they check their entire range and now
+let's see what's going on
+so we see uh
+from the
+uh from utg
+uh we see a lot of hands uh that have
+absolutely zero equity like king seven
+of hearts or um king aid of diamonds
+uh is for a suited without a spade so
+ace four hearts a score is for diamonds
+now um on on the jack
+we do have some small betting for value
+with queen jack you know pocket jacks
+all those hands that we connect with but
+if we go on a turn that is a little bit
+more uh disconnected with the imposition
+range now we see the clear picture
+we see our bluffs betting big
+and uh our value hands being um king of
+spades or better so the queen of spades
+uh you the queen of spades is down there
+but the k the jack of spades usually
+doesn't want to be evaluating this turn
+just because of uh how many ace x of
+spades and king x of spades we already
+have in our range
+so uh for our value hands here king king
+of spades and
+a spades but look at our bluffs so let's
+uh exclude
+again the spades from our range and look
+at that beauty
+so jack 10
+jack 9 barling at a full frequency king
+10 king jack
+barling at a very high frequency without
+a spade
+and why is that
+why do we borrow those those hands
+of course
+because um we don't really have any
+other bluff so
+barling 9 8 of here of hearts is no
+better than barling king jack off
+because 9 8 can even if it makes a
+straight
+it's it's not a big deal you know we're
+not winning against a flush
+so
+let's see now what happens against the
+big bad so we can think and practice uh
+how successful this big bet is so if we
+bet for 83 percent uh in theory we see
+that the big blind needs to be defending
+uh every two pair so we see six juice
+never folding we see seven six never
+folding queen six
+queen juice and this is against eighty
+three percent sizing
+so this against the big size now if we
+go to you know the flushes we start
+folding some flushes here from the big
+blind such as you know three of spades
+five of spades especially if they're
+with a king and the king uh com you know
+king x comprised most of the imposition
+bluffs such as king jack as we saw in
+king 10.
+now six five if we go to six five uh
+we'll see five of spades calling the
+turn uh every time we'll see you know
+four spades calling quite a lot and i
+think uh against the second barrel that
+is a big uh here for for eighty eighty
+percent or three quarter spots let's say
+i think people have hard time defending
+their range so they will not be able to
+reach uh minimum defense frequency from
+the big blind which of course if we not
+lock for that
+having in mind
+uh the the flushes that they check
+raised from on the flop you know we
+spoke that a population check raises
+more flushes on the flop from the big
+blind than actually in theory then they
+reach with uh turn with less flushes and
+they need to be defending you know more
+of these 4x low flushes 5x low flushes
+which in practice never happens so
+those both arguments they increase the
+eevee
+of our barrels
+as the pre-flop aggressor with hands
+that have absolutely no equity such as
+you know ten nine jack nine ten eight um
+you know those um hearts
+now
+uh you um
+we out as we're going to the river we
+have to keep in mind here
+uh that
+gto range
+is significantly wider
+than the range that our opponent will be
+defending in practice and reaching the
+river with
+so
+uh let's say a river comes blank
+another
+three you know three of hearts
+of course big bronze checks again there
+is no reason to lead this river
+and we see um
+the pre-flop aggressor blasting those uh
+bluffs you know king jacks those jack
+knives those 10 knives those 108s
+now
+we know that uh on the river the big
+blinds range is a little bit stronger
+uh compared to to the turn like um on
+the turn if he's folding the four
+high flush five high flush uh sometimes
+maybe even eight high flush if he is a
+passive player then he will not have
+them on the river he'll not have two
+pair on the river compared to gto so now
+uh when we bet here
+we see that uh in prague in gto uh
+from the big blind we need to be calling
+queen six queen seven uh you know most
+queen juices
+um
+we need to be calling a pretty much
+uh o2 pair
+then the high flushes you know from
+around nine and above
+you we see here the evf 9x uh being um
+around zero so that means uh 10x will be
+calling every time right and atex will
+be falling every time
+but also when we're bluff catching the
+river against an aggressive opponent i
+think we need to be
+very precise with our blockers so why is
+a hand like queen five with a five of
+spades better bluff catcher than eight
+five
+uh with a five with even with eight of
+spades so this is a question for you
+guys why are we check calling the river
+with uh queen five five of spades but
+we're check folding with eight five
+eight of spades all right any other
+suggestions
+thiago says that
+the queen doesn't block bluffs so those
+uh those are the the two that i was
+looking for uh when we are thinking
+about
+blockers we want to be of course
+blocking their value range and
+unblocking their bluffs in this spot
+it's just very important to be
+unblocking their bluffs that's why we
+see queen six without a spade
+calling just because utg does not have
+any queen x or 6x in his bluffs and we
+can clearly see that utg does not have
+any queen in x and 6x in bluffing range
+that that means that we are safe calling
+those queen 6 and queen seven and even
+you know queen four and queen five with
+the five spades so
+as we get to this river we have to be
+uh thinking are we playing against gto
+are we playing against uh uh an
+aggressive opponent i would play against
+a passive opponent and now
+um i i'd like to
+to draw some
+conclusions about this about this one
+so a population on this uh utg against
+big blind monoboard first of all they
+under check raise the flop
+as we saw not check raising
+bottom pairs not check raising middle
+flush draws and imposition they
+overfalled against czech race so i've
+made these little arrows here and this
+is to connect the logic so when we're
+thinking about psychology in poker it it
+works like that if i am not bluffing
+this river when i face the same decision
+on the river against somebody else i'll
+assume that he is not bluffing it as
+well so when we're playing ten tables
+for example and we face a tough decision
+on the river we are going to play out of
+our own bias you know out of our own
+understanding of the game so if we are
+not check raising deus ex or bottom pair
+on this jack 6 dues board this means
+that
+we'll assume other players are not check
+raising those bluffs so we'll be over
+folding against czech race and i just
+went to a brief explanations about those
+um you know disconnected logic here
+so if population under check raises the
+flop then they're over folding against
+the check radius if they're under
+bluffing the turn then they're
+overfalling against the turn barrel and
+if they under bluff the river then
+they're overfalling against riverbarra
+so the main exploits that will be taken
+out from this spot first of all as the
+player from the big blind uh we need to
+be check raising the flop with a higher
+frequency just because how hard it is
+for players to be defending their range
+against the check race and i want to
+show that because it didn't show it in
+our example so if we check race from the
+big blind
+uh what happens is that utg needs to be
+defending uh you know pretty much all
+pocket pairs even without a spade so
+poked sevens without spade pocket dates
+without spade then uh defending six sec
+the six segments that they have
+um defending uh some king jack without a
+spade which is crazy like this will
+never happen this will absolutely never
+happen you check race queen six deuce uh
+three spades nobody is defending king
+jack without a spade so going back to
+our exploits here check raising flop as
+the big blind will be the first one on
+the monoflop and then over bluffing the
+turn as the pre-flop aggressor just
+because of how hard it is to be
+defending you know two pairs and low
+flushes against a big size here
+and then last when we reached the river
+as the pray for progresser we have to be
+very careful about what kind of opponent
+we are playing against if he is a
+passive opponent we should not forget
+that he probably folded most of his you
+know low and middle flashes uh by the
+river so he's uh left with just the
+strong flashes and he's probably calling
+most of that so we need to be shutting
+down the river if we're playing against
+somebody who is more sticky then he has
+a lot of low flushes from the turn going
+into the river we can bluff him off
+those hands now another mono board i
+want to take a look into
+is the one that we're playing out of
+position low jack against against button
+so uh 7 6 deuce i chose this one um
+as it is low card so there are no um no
+pairs there is a question before that
+when we exploit him for falling too much
+don't we get the turn with the super
+wide range and he's super tight isn't
+that a sign of slowing down thiago are
+you talking about when we check race
+from the big blind
+yeah
+well the exploit of check raising from
+the big blind
+with those bottom pairs
+is very easy because when we get caught
+we are just giving up uh a lot on the
+turn just because of our assumption that
+our opponent is defending less on the
+flop so he is arriving at the turn with
+the uh stronger range and then
+if the turn improves our hand let's say
+with those low
+pairs uh
+gut shots you know to a pair in a gut
+shot
+then we can keep borrowing to before to
+to fold him off you know some of the
+pocket pairs
+but in general if we are check raising
+this spot we definitely need to be uh
+slowing down on the turn hope this
+answers the question now uh we
+are
+uh
+on a seven six deuce three space playing
+low jack against the button of course uh
+in this spot we're not betting a lot uh
+out of position why is that we see uh
+equities running pretty close uh we see
+our 80 percent hands ninety percent
+hands up being just five percent each
+and we see um
+significantly stronger range for the
+imposition player than it was uh when we
+were talking about a big blind against
+utg
+so now out of position we don't want to
+be putting money in the bot on this
+mono monoflop so we're checking and now
+uh this is
+where the fun begins
+so as the player from the button
+uh let's just exclude the flushes from
+our range
+and see our overall strategy
+so imposition we are firing
+uh pretty much
+most of our no equity hands so jack nine
+of hearts has nothing on this flop but
+still battling
+around 80 percent
+uh a lot of ace highs barling a lot of
+kings heist king high barling uh we'll
+see some king jack you know all those
+over cards king queen barling of course
+they're not barreling at a full
+frequency just because if we borrow at
+full frequency all the offset combos we
+cannot offset the
+amount of value that we have or actually
+the flushes that we have in position uh
+when we go to the flushes we see our
+flushes here from the button are not
+that many you know they're just
+um those mostly suited broadways a bit
+more on the ace high side and some uh
+8x9x
+so
+uh the first thing that strikes me when
+i play this board
+from the button
+is how wide are we going to prop the
+flop and then let's see the response
+against against this uh
+against this stop
+now the response out of position needs
+to have around 17
+check raise and why is that of course
+because he checked almost his whole
+range on the flop and now he has a lot
+of hands that need to put more money
+than just 20 percent uh so pocket races
+will spade pocket kings with a spade
+check raising almost full frequency as
+we go lower we will see you know the
+nine stance check raising
+a bit less
+just because of how many flushes they
+are blocking so you know the atex is
+blocking
+less the less flushes than the ace of
+spades of course
+and the old uh
+my my favorite you know old saying
+strong had hand put money into the pot
+so um is aces with a spade check raising
+asus without spray check raising
+now the first thing about uh this flop
+you know the white stop and
+uh when button stops uh not only that
+low jack in practice is not check
+raising those you know as um you know
+probably pocket tense to such frequency
+because they already better on the flop
+out of position because easier to play
+but also those jack 10
+queen 10 you know queen jack with one
+spade
+all those um hands you know that are
+very tough to play as a check race
+because when we check race let's say
+queen 10 10 of spades and turn comes a
+spade again the question comes are we
+strong enough what are we doing are we
+betting are we checking to um you know
+bluff catch what what bluff does he have
+so this is one thing uh out of position
+player check raising a lot less which
+allows us to be stabbing flop even more
+and another thing is
+how wide the out of position player
+needs to be defending this flop against
+the
+the 20 stop just to reach the minimum
+defense frequency and you can see
+age jack without the spade uh ace 10
+without a spade ace queen ace king all
+those hands are check calling the flop
+to almost full frequency
+we'll see some king jack even without a
+spade king queen quite a lot of king
+queens without special calling the flop
+so this is uh about how to play button
+now let's see how to play from the low
+jack
+uh so we check the flop
+and now um
+flop goes check check
+flop goes check check
+turn comes uh yeah it's tiago so we'll
+uh i'll come back to to
+population tendencies
+in this spot now
+um
+turn comes another spade and now the
+board is for spades so we're thinking uh
+what should we do
+with our king queen without spade uh
+what should we do with all those you
+know queen nine of hearts what are we
+doing with uh um
+ace four of diamonds
+now there are two options here first
+option is bad big on the turn and try to
+get immediate fold equity uh try to get
+immediate immediate faults
+so uh betting with the big size
+we see that uh button needs to be
+defending quite a lot of uh you know one
+pair hands such as jackax that he didn't
+uh bet the flop with it
+he needs to be defending a little bit of
+ace queen without a spade even just to
+defend his range he needs to be
+defending a lot of pocket players uh
+without without a spade you know the
+higher ones not so much because they're
+blocking bluffs but the low the low ones
+you know the force a little bit the five
+the fives a little bit
+and now uh this is one option you know
+if if
+it's easier
+or you just bet the turn big and then
+give up the river because we isolated
+ourselves against a strong range but i'd
+suggest doing another thing
+now out of position uh from the low jack
+we can go for 20 and we see that
+actually uh the preferred sizing here is
+20
+uh it could be 25 it could be 30
+it doesn't really change that much in
+practice but let's say the small the
+small size so we're betting 20 on the
+turn
+uh we see now quite a lot of one pair
+hands need to be defending in position
+so we're keeping the range of imposition
+player a lot wider now as we bet with
+the small size so actually every 9 8
+every ace queen needs to be defending
+7x 6x that that they have they're
+defending i think against the 20
+will see still overfolding but we'll see
+a wide enough range that we can barrel
+off on the river
+so river comes a blank
+doesn't really change much but i just
+like the three hearts on the river so
+river comes a blank and now uh all those
+hands that we started bluffing on the
+turn so all those quintens uh king tents
+without equity we can profitably borrow
+on the river because of how wide the
+other position range is you know 9 8 10
+8 10 9
+and now when we go for the
+for the big size
+so this one is around
+two thirds spot
+uh what do we see we still see jackade
+um so jackax needs to call with a high
+frequency we see um you know uh pretty
+much every flush needs to need to call
+against the big size on the river and
+it's just uh very hard uh to happen in
+practice because imagine this spot we go
+check check on the flop as the other
+position player we have all the flushes
+we have you know a lot of asex king x
+even queen exo spades and then on the
+turn it comes jack of spades we are
+betting
+button cause on the river we still have
+all those strong flashes and we're going
+for a big bet well it is going to be
+very hard for the player in position uh
+to go enough with his uh one pair hands
+and even with his flushes facing the big
+bed here
+and not only this but also the amount of
+bluff raising here will be zero
+because
+people
+just don't like to be raising into a
+range that has some not advanced so as
+the other position player we have quite
+a lot of asex of spades here and nobody
+has the boss really to be bluffing this
+imposition
+uh now about thiago's question first of
+all
+we spoke about how do we play from the
+button population under bluffs flop as
+the button so our exploit will be to
+overstep if we're at you know in buttons
+shoes
+then on the turn population under bluffs
+the turn and
+overflows against the turning bad from
+the bottom so as low jack people will
+not be finding the 20
+bet on the turn enough and because
+they're not finding it they will not
+find the cause against you when you bet
+there so our exploit here will be
+overblocked turn for the small size and
+then on the river as we bet 20 turn and
+we kept in position range wider we can
+be bluffing with a very very high
+frequency having the nuts in our range
+not worrying about being check raised
+and uh just making a lot of you know one
+pair of hands and even low and mid
+flushes fault
+because of how strong it is to bet when
+you have that many nut hands in your
+ring now enough about mono boards we're
+going to jump into one of my favorite
+spots it's the straight completing
+boards this time we are playing cut off
+against the big blind ace queen 10. so
+uh on this board
+uh 50 bits deep
+we don't want to be using the range bet
+small size strategy here
+why is that
+does anybody have an explanation here
+why are we not betting the flop with
+small signs for range bed we have the
+nut advantage this is true our range has
+66 percent equity this is
+also true
+we need to charge draws another big
+argument here so all those are
+valid arguments deeper spr means that we
+want to be
+getting as much money as we can by the
+river with our nutted hands
+and of course getting as much fold
+equity with our bluffs now we are from
+the cutoff and here we we we're playing
+quite a wide range but still betting for
+for 100 frequency
+now the preferred sizing is around 55
+and why is that it is because this is
+the perfect size to uh make jackax good
+shots and king x girl shots uh with the
+back door um indifferent or close to
+indifferent and it is the right size to
+be folding king x and jack x and without
+the back door as well as make some 10x
+fold put the pressure on bottom and
+middle pair so 10x and queen x
+now um what happens uh
+here uh in terms of check raises we see
+big blind check raising decent amount on
+this flop uh it is not of course not so
+much it's around uh seven percent but in
+practice this is often played as a zero
+check raise
+even even from high stakes rags when
+they face high half pot here um they
+very hard
+they they find bluffs
+it's just very hard for them to find
+bluffs as check races and that's why
+they just don't check raise their value
+hands in gto
+uh we are check raising
+uh the low uh gunshots we prefer those
+jack 3 jack 4 so that we're unblocking a
+bigger part of the bed folding
+range of the cutoff
+and for uh for the value
+we are check raising some frequency of
+king jack of course keeping the other
+king jack in our range to be to have
+some strong hands on the turn otherwise
+you know it will be easier to
+uh to borrow from the cut off and then
+check raising quite a lot of age jack to
+charge those weaker ace highs though
+pairs and gut shots and then ace 10
+for the two pair a little bit of ace 9
+and s we go
+down we're just purely calling call
+those asex hands i know most of the
+queen x hands and 10x with the backdoor
+so in practice uh we'll see prob is
+close to zero check race so how how does
+this change the turn when the uh jack
+comes or king comes
+now there is only one card uh
+needed for a straight so in this case it
+is king
+and because we have so many king x uh
+from the cutoff
+uh we can
+continue borrowing
+uh a lot of hands that have absolutely
+zero equity so six five
+to
+you know nine six nine seven
+all those hands that
+have absolutely nothing on this turn and
+they're uh barling so that they can fold
+out a lot of one pair hands and we of
+course have uh you know those threes
+fours five six sevens uh true nines uh
+barling the turn and this is because uh
+those are the hands that can
+that are just very good bluffs because
+they're unblocking you know uh his uh
+faults and also um they can improve to
+the best hand if our opponent has you
+know two pair we can uh we can win by
+hitting our four on the river
+now uh we see uh quite a lot of 10x
+being turned into a bluff
+and then queen x and asex checking back
+mostly now when we use again the half
+bot sizing
+[Music]
+we see something that again never
+happens in practice and what is that
+check raising
+uh straight from the big blind
+nobody's check raising straight from the
+big blind here because
+uh it is
+very very hard to find bluffs
+and people just think that when they
+check race they're straight on the turn
+their hand is being turned face up and
+this is true of course when nobody can
+find the bluff on this ace queen 10 jack
+run out uh why would you be check
+raising this uh king
+king x
+straight when you can just check call
+and get evie from letting your opponent
+borrow the river
+uh so
+on the turn uh big blind needs to be
+defending
+um a lot of asex starts folding some
+asex and then every two pair of course
+that get check caught on the turn so uh
+queen 10 a stan is actually being turned
+into a bluff because of how many
+straights is blocking
+um but of course nobody finding that in
+practice and now
+think about the river when we go to the
+river in gto big blind doesn't have that
+many straights but in practice if people
+are check calling these traits
+and their check folding asex here to a
+higher frequency which will happen very
+very often this means that their range
+on the river is significantly stronger
+has significantly more straights
+as a part of the whole range then gto
+so when big blind
+calls here river comes use
+now we see uh imposition uh barling the
+bluffs that are blocking this uh king x
+so mostly 10x
+mostly
+jack x as bluffs of course some
+frequency of those slow uh you know
+force trees five fours just because of
+the fact that we don't have enough
+jackax and 10x those are only suited
+combos or those are only
+three combos each then of course against
+this big size
+uh big blind needs to be defending
+mostly king x
+and uh and then a little bit of you know
+asex
+a little bit of quinten but these are
+not that many combos and in practice if
+out of position has all those king x
+hands on the river and they have
+significantly less
+asex on the river
+this will mean
+that
+we should wave the white flag at this
+point
+and
+the the highest ev
+on this board will be
+uh the bet bet check line
+so let's just summarize this one
+so cut off against a big blind 50 big
+blinds ace queen 10. first of all from
+the big blind people are not check
+raising this flop so if they're not
+check raising this flop from the cutoff
+they're not calling enough against the
+check race and i want to demonstrate
+this in in our example so on the flop
+cutoff bets 55 percent
+we're check raising
+and now cut off needs to be defending
+queen x
+with the
+with the back door needs to be defending
+almost every asex there it doesn't
+matter has a gunshot or a back door you
+know a7 is just a pure pure defense
+against czech race
+uh needs to be defending
+even some uh 10x with the backdoor uh
+quite a lot of you know jackax quite a
+lot of king x with the back door
+so the first exploit here that we are
+going to do in practice is to be
+check raising this flop at a higher
+frequency because because the cutoff
+will be over folding so we're applying
+the same logic here people never check
+raise this flop as a bluff
+so they always fall against the check
+rays so we're going to counter this by
+check raising this flop a lot so that we
+get immediate faults with our jackax
+with our king x from those asex hands
+with
+from those one pair hands that the
+cutoff is supposed to continue it now
+the second one population is under
+bluffing the turn as cut off like they
+uh don't find enough low pocket pairs
+they don't find enough eight heights not
+high 10 hijack high to bluff the river
+and uh
+that's why
+when they're getting borrowed so when
+when somebody borrows against the big
+blind here big blind overfalls on the
+turn and of course under check raises
+those straights on the turn which means
+that you know those two assumptions that
+we have
+leave big blinds range uh significantly
+stronger on the river so we should be
+very very picky with our bluffs in
+position i'd suggest we just bet that
+check
+but then if you think your opponent is a
+better player you know successful
+mistakes or high stakes player then he's
+defending the big blind against turn
+barrel then we have to be very precise
+with our bluffs on the river so bluffing
+jackax bluffing 10x you know those pairs
+that are blocking the majority of the
+streets uh you know that are blocking
+the straits from the big blind so be
+careful here when we bet bet to not be
+just blasting money on the river with uh
+eight six of hearts uh because the big
+blind people have a lot of straights and
+we'll just be losing money with this
+river barrel now the spot that um i
+think is uh easiest to nail by most
+players this is the locked boards spot
+so jack jack six for example now we are
+playing hijack against big blind with 30
+big blinds of course we are uh betting
+this flop with a very very high
+frequency with the smaller sizing in
+fact i'm often just
+bearing one big blind uh
+on this flop with my whole range as it
+is just so easy to execute and also it
+is so easy for big blind to be over
+folding now let's look how does the big
+blind
+react against the
+small percent range back first of all we
+see a lot of check raising what is the
+reason for uh check raising here in
+theory from the big blind what is the
+reason for check raising with such a
+high frequency you see
+check raising 21
+check calling 22 23
+so we're check raising as much as we're
+check calling and we're just folding the
+rest can you find me one good reason
+why do we want to be check raising from
+the big blind
+against the range bat deny equity rafa's
+guess
+i like it somebody else all right we
+have um
+we have more jackax
+uh
+let's look at that we actually do have
+more jackax
+as a number of combos but but as as part
+of our whole range we still see
+that
+the hijack has higher
+frequency of uh you know 70 80 90 hands
+just because of how white the out of
+position range is here we see those uh
+jack x combos being 12
+of hijack range and just eight percent
+of the big blind range
+so
+yes we need to prevent imposition from
+running us over this is a very good
+argument that i think um
+answers the question to a big part as
+well as denying equity uh which are of
+course related so uh when we check code
+the flop
+we are uh allowing our opponent to
+realize his equity in position and to be
+barreling turns and rivers
+and this is uh
+why
+we check raise very high
+uh frequency our 6x
+from the big blind just because this 6x
+can can can get in a very tough spot if
+we check coal and then hijack biostern
+and river you know on some runouts it
+will be very hard to call down with the
+6x while if we check race
+if we check raise the 6x we will be
+making money against all those you know
+ace high floats
+king high flows uh backdoor straight
+back doors uh flush floats so 6x needs
+to be check raising the flop here the
+high frequency of course
+uh quite a lot of jackax uh check
+raising the flop here we see
+majority of our jackax check raising the
+flop
+and then we see uh quite a lot of uh
+backdoor straights backdoor flushes uh
+check raising from the big blind uh we
+see those you know ace three back doors
+ace deuce back doors those targeting you
+know the higher aces to fall by the
+river especially if they get a good turn
+so um the first thing
+that uh makes an impression here is that
+of course people are not check raising
+as much from the big blind
+so when they face one big blind here i
+think it is just much easier to uh call
+this uh hands-like
+queen king queen hence like you know a
+stan with the back door or even without
+doesn't matter you know it's just much
+easier to call these uh ace highs these
+um
+broadway
+hands that have the back door straight
+that have decent equity uh you know
+against pocket pairs against ace highs
+and i think in practice people are just
+check calling the flop with uh with
+those hands uh at
+almost uh a 100 frequency
+uh check calling uh quite a lot uh
+more 6x so yes people learn to check
+raise the flop with 6x but still not
+doing it with such a high frequency
+and of course those uh you know nine
+highs or seven highs
+uh eight highs are either check raises
+or
+check faults so
+having those things in mind uh we are
+arriving on the turn
+and big blind's range is significantly
+uh different from
+gto first of all uh
+from the big blind it's very easy to
+find the value check raises in terms of
+jackpacks so
+from the big blind to just uh very easy
+to be check raising the g
+yes yes tiago
+uh uh it's very easy to be check raising
+the term with jackax but not so easy to
+check raise the turn with let's say a7
+it's just not
+very intuitive you know it's hard to
+find it's hard to have the intuition to
+check race a7 of diamonds on this flop
+to not get to run over or to not get
+borrowed on future streets
+so
+there is a question about how do we play
+the turn when we check race
+and we have a six first of all
+uh the first thing that uh that we see
+against the czech race big blind is
+folding just 25 percent of the time
+and this is mostly offsuite hands that
+did not uh
+connect with the board that much so all
+the backdoor all the backdoor
+combinations
+uh backdoor flush combinations uh
+continuing on the flop uh except for
+some you know lower a6 which are
+blocking the blocks themselves so first
+of all we are printing money by check
+raising this flop just because of how
+how the hijack will be overfolding uh
+the flop
+you know not being able to
+to defend against check race with let's
+say
+9 7
+100 the time you know re-raising or
+calling doesn't matter nobody is
+defending such high frequency 97. now
+when we call
+and the river comes a low car this is to
+answer the question about 6x we'll see
+uh quite a lot of 6x continuing for a
+small size
+uh this is to deny equity of all those
+uh floats all those um
+king highs
+all those queen highs all those you know
+10 9
+highs you know these ace highs as well
+as make money against the ace highest
+now how do we approach on a high card
+this is a good question
+let's say it comes a king
+turns turn comes the king and we're
+checking
+all the
+the 6x so
+now it is logical here
+that because most of uh
+hijacked floats come from king x queen
+next asac a6 hands we'll be checking the
+turn with a six
+and now
+when we check
+uh imposition player wants to be betting
+with a small size
+first of all to fold out uh big blinds
+auto folds so bluffs like
+nine seven for example that check raise
+the flop or seven four with the back
+door uh they just don't need more than a
+quarter potter or third pot uh to be
+folding i i'll be playing the quarter
+pot here actually
+um and i think it's um
+it's better in practice it's just enough
+for people to be
+folding their autofoads
+and also we want to be betting
+white so we want to be betting for value
+with our
+you know
+[Music]
+king x especially the the strong ones i
+want to be betting 10x i want to be
+betting uh excuse me 10th and 9th but
+this differs a lot in practice because
+look at that why is hijack not betting
+poke or pocket nines or pocket queens
+with a high frequency here so why hijack
+is not betting pocket tents or pocket
+knives here this is certainly a strong
+hand to bet like it's strong enough uh
+6x
+yes part the part the reason is
+turn check raises actually
+the whole reason is turn check raises
+let's look at that
+now
+betting for third part and we see 11
+check raising
+so 6x is just check calling uh
+on high cards um
+you know letting those queen 10 queen 9
+10 9
+barrel off
+we need to be calling this six uh 6x
+because otherwise we'll be uh
+uh we will be folding you know one of
+the
+strong hands in our range but also when
+we are on the high hijack when we bet
+for 33
+will not get check raised with such high
+frequency so
+here on the turn
+overall strategy of the big blind high
+card we need to check the hijack usually
+bets
+and then we can be check raising those
+trips so we are going for
+for a double check race
+in practice this never happens and spot
+plays uh straightforward just uh
+you know big blind batting his jackax
+betting his uh you know turned um draws
+and check for a check calling 6x and
+almost never check raising the turn in
+practice
+now
+how much do you think the feel slow
+plays the jackax so if we start from
+from the flop we are always thinking uh
+not in absolute terms but in relative
+terms
+so in relative terms jack x is check
+raising the flop in practice at a higher
+frequency
+because
+bluffs are hard to find out of position
+you know those
+queen 10 of kingdom off you just don't
+find them that uh that often
+uh and then
+because people are not
+don't have enough check race bluffs
+and it is easy to find the check race
+with the jack i think on the turn jack x
+uh
+is a higher percent of of population
+populations range
+than gto range
+then on the river on on the turn when it
+comes let's say
+a king x but regardless on the turn i
+don't think people learn to be double
+check raising this
+this texture or to be checking
+jackax at all on the turn
+so they're just firing with their
+jackets they're firing with their uh
+turn draws so for example
+uh it will be you know 10 9 here it'll
+be queen 10 here
+and then um
+uh betting you know the the
+jackax as well as um
+missing of course those uh low five
+highs uh
+actually
+the flush draws might be there but the
+other ones you know the diamonds will
+definitely not be there
+now uh let's go back to to
+to borrowing here without equity so the
+turn comes
+uh so hijacker
+hijack betting small size big blind
+check calling and then turn comes four
+of hearts so pretty much a blank turn
+let's see uh the beauty of of the game
+here
+so because of how many jackax
+big blind check raced on the flop
+we get to be balling our
+no equity hands with a very high
+frequency here so
+if we see the 97 it's not only the
+hearts it's also the space diamonds and
+the clubs barring with a very high
+frequency uh it's not only queen seven
+hearts it's all other combos and
+uh when we go to the offshoot combos we
+will see you know those uh king heist um
+and queen heist bar link with a very
+high frequency should be targeting the
+ace highs of the opposition player and
+because against the big blind needs to
+be defending a lot of ace highs here on
+the turn
+uh uh that will be hard to defend i
+think those turn
+uh barrels will have even higher ev
+so we see the
+the the king 10
+of course heart with a hard
+blocker will have higher d so higher
+frequency of barling but even without
+the heart i think if we not lock
+for the big blind check calling more the
+flop
+with uh
+you know the king high screen highs
+check raising more of his jackax then
+will get a very very profitable turn
+barrel with those uh
+no equity hands
+and now of course
+when it comes down to the sizing
+uh sql uh implies we can find uh
+we can find uh
+enough fold equity with the smaller size
+but
+i'm thinking if we're targeting
+the ace heights of the other position
+player we want to be betting
+bigger here so it's easier to to fold
+out
+if we are targeting uh you know um his
+ace highs by the river then we are
+betting smaller on the turn letting him
+go with ace high and then barling the
+river
+folding out his ace highs and 6 and 6x
+and now we see
+on let's say
+uh
+blank river
+now we see um
+those uh
+108s you know 10 highs non-highs they're
+battling the river with a very high
+frequency in theory and uh when they bet
+we see that they're making uh 6x
+indifferent but also big blind needs to
+be calling the strongest 6x so ace
+six king six because of the blockers
+that they're blocking asia king jack
+combos as well as six five six four six
+three because they're unblocking the
+bluff combos because they're unblocking
+10 9 they're unblocking 1080 i'm
+blocking 10 7.
+[Music]
+so
+going back to the conclusions for for
+this spot we're talking about jack jack
+six uh big blind against hijack first of
+all population check raises value heavy
+so they are check raising more jackax
+they are check raising less bluffs and
+of course we follow this logic when they
+face check race from the hijack against
+the big line they are over
+the check race because
+they are not check raising enough bluffs
+themselves so as an exploit here i think
+um check raising 6x on the flop check
+raising code those bluffs work very very
+well from the big blind just because of
+how hard it is uh for the imposition
+player to be defending 70 percent 75
+percent of his range
+against a check race and then on the
+term population definitely under bluffs
+so does not borrow with those uh
+king highs queen highs 10 9 7 high
+no equity hands so because they're not
+over bluffing the turn from the hijack
+they are over folding against the turn
+barrel from the big blind and then on
+the river of course when population bets
+the flop and bets the turn
+they are expecting that the big blind
+continued with a very very strong range
+probably
+6x being the weakest part of the range
+and when somebody bets for triple barrel
+it is just hard to find bluffs so people
+are bluffing flop bluffing turn
+and then
+uh most of the time checking the river
+because of how strong the big blind
+range already is and now what can we do
+first of all as i said check raise flop
+from the big blind over bluff the turn
+from the hijacker as the pre-fall
+progressor and over bluff the river as
+the pre-fall progresser
+because people will not be able to find
+those river bluffs themselves so they
+will think you didn't find them and they
+will be having very hard time to be
+calling those a6 or king six six four
+six three six deuce so at the end of
+this lecture i'd like to make uh you
+know a conclusion and it is a very very
+practical one because i i saw during the
+series a lot of people you know uh blind
+blindly following theory analyzing hands
+just seeing people giving argumentation
+because the solver does that but this is
+not enough of an argument to be making
+decisions out of it
+so if the solver does that this does not
+mean this is the best play in practice
+and i know you already know that
+everybody knows that but it's just a bit
+hard to be executing this when you're
+playing 10 tables after you know two
+weeks of series going on so while
+playing and while betting on certain
+street
+always think about
+how is the population perceiving your
+bet so how is the population playing in
+your shoes and then deriving from this
+logic the best play
+so if the population is not check
+raising on
+queen six deuce three spades it's not
+check raising bottom pair middle pair
+middle flush draws
+then they will not be defending against
+a check race as the pre-fall progressor
+so we always need to be countering the
+the perception of the population right
+if population perceives that we don't
+have a bluff in this spot then we need
+to be having
+more bluffs in this spot
+because people will be overfalling
+right uh for example if the board is
+spared jack jack six and we are betting
+flow but in turn coming to the river and
+people don't think that we that they
+they don't find the bloods themselves on
+the river with those air like queen 10
+king 10 or 10 9 then they will not be
+able to defend 6x on the river as we saw
+in the last example and now deviating
+accordingly so uh not following gto on
+when
+it's you know i i find people following
+gto whenever it's uh easy for them to
+follow
+so
+if it's easy if it's logical they follow
+it if it's not logical so if it's not
+easy to lead the turn on a fourth flush
+if it's not easy to lead let's say when
+the board pairs twice on the turn they
+just don't do it because it's just a
+very complicated part of the game three
+that it's hard to execute so if people
+deviate from gto we need to be deviating
+accordingly so we need to be exploiting
+that and sometimes it is by waving the
+white flag so on the straight completing
+board example if you remember on the
+turn big blind was check raising his
+trades you know big majority of the
+straights which allows for the prefab
+aggressor to be battling the river
+aggressively
+against a range that does not have that
+many straights and that have more
+one-pair hands and two pair hands
+then if this is our assumption then we
+just betting flop but in turn
+checking the river last thing that i
+want to put emphasis on is about
+experimenting so a lot of players that
+i've worked with are just thinking about
+how will their play look like
+so oh
+i would look stupid calling this on the
+river oh i will look stupid betting a
+random hand on the turn because it's not
+gto people would think i'm weak you know
+i'm playing with you know high stakes
+rex here i don't want to be to have bad
+reputation in their eyes and all
+nonsense arguments like that
+i think the best in the game became so
+good by experimenting and by making
+mistakes and by having the bose to go
+for a boat play to go for a you know
+eccentric play
+following their gut and their intuition
+because it's all about how do you
+perceive
+the spot how how does your opponent
+think about your range it's not what
+what your range looks looks like it's
+it's impossible to know what your range
+looks like on ten tables but it's not so
+hard to figure out what your opponent is
+thinking about your play or about your
+line because these are population
+tendencies that come across many many
+different spots uh that deviate a lot
+from the solvers so you have all my
+support to be making uh eccentrics place
+even at the risk of ruining your
+reputation and making mistakes just
+because this is the only way to find
+different place to find place that are
+not understood by
+the population and to be maximizing your
+ev
+blindly following the silver
+uh will never yield a very high ev so uh
+that was uh it for the barling without
+equity now
+i like to
+leave some time for discussion
+if you guys have any questions or if we
+had some questions unanswered because i
+saw you guys asking a lot of questions i
+couldn't answer all of them trying to go
+over all of our examples here we will
+definitely punch a little bit more after
+yeah i hope so i hope so because even if
+you punch some spot know that 10 other
+spots people will be overfalling against
+your aggression so those funds will be
+justified my friend if there are no
+further questions thank you so much
+about your time and attention about the
+fact that you actively participated and
+helped me lead this session and i hope
+it was productive for you because it was
+productive for me as well learning some
+new things while doing the work and
+i'm very very
+thankful for this opportunity guys
+please reach out in discord if there are
+any questions and see you next time
+[Music]
+you

@@ -1,0 +1,358 @@
+### TOPIC: the science of hero calling in poker
+there's no better feeling in poker than calling 
+the river with a below average hand and watching  
+your opponent reluctantly turn over a bluff 
+players who are able to make sick River calls  
+in big spots often seem like they know exactly 
+what hand their opponent has but is it really  
+all about reading another player's Soul or 
+is there some signs behind it let's find
+out first let's establish exactly what we mean 
+by Hero calling since it's a bit of a vague term  
+and being specific is always helpful we're 
+only going to be using the term to refer to  
+River spots since that's what most people think of 
+when it comes to this concept and Bluff catching  
+on the earlier streets is a much more complex 
+topic anyway every river spot where one player  
+has a somewhat polarized range and the other has a 
+more condensed range is going to feature a certain  
+amount of bluff catching by the non-polarized 
+player for theoretical reasons I'll explain  
+in a moment many of the bluff catching hands in 
+these spots are going to have approximately zero  
+EV as Bluff catchers they're going to be mixing 
+calls and folds at equilibrium because the EVS  
+of folding and calling are the same calling with 
+these hands is very reasonable in many spots and  
+there are plenty of circumstances where even a 
+slight tendency to over Bluff on the part of our  
+opponent can lead us to always call with these 
+hands however this isn't a massive adaptation  
+away from equilibrium so it doesn't really 
+meet the definition of hero calling instead  
+we're going to focus on the spots where we might 
+consider calling with a hand which is actually a  
+pure fold at equilibrium one which has such 
+poor or card removal properties that it's  
+usually supposed to be a snap fold but instead 
+we're going to peer into our opponent's Soul  
+call the river and win at showdown in order 
+to figure out how to Hero call profitably we  
+need to have a solid understanding of the theory 
+behind Bluff catching so let's dig into that a  
+little bit some of these Concepts may already be 
+familiar to you but even if so it's always good  
+to be reminded of how it works in theoretically 
+correct or GTO poker we're supposed to be Bluff  
+catching every river spot a given percentage of 
+the time based on villain's bet size in order to  
+to stop them from being able to profitably Bluff 
+with any two cards this hypothetical frequency is  
+often referred to as minimum defense frequency or 
+MDF for short also in theory villain is supposed  
+to Bluff the river at a certain rate as well the 
+percentage of Bluffs in their range should equal  
+the pot odds they're offering us on a call so 
+that we have enough incentive to pay them off  
+when they have a value hand in turn the hands we 
+call with need to have above a certain percentage  
+of equity at Showdown so that we actually win the 
+part when villain is bluffing obviously we don't  
+want to call the river with hands which lose to 
+villains Bluffs because that turns their Bluffs  
+into value bets and changes the whole equation so 
+overall what's theoretically supposed to happen  
+is that our opponent's Bluffs and our Bluff 
+catchers all break even while our opponent's  
+value bets profit significantly and our Bluff 
+catchers also make money when our opponent gives  
+up on a bluff and surrenders the pot which of 
+course is supposed to happen sometimes as well  
+next let's start to move away from Theory and 
+into the exploitative realm this is where hero  
+calling starts to become a consideration in 
+practice our opponents will sometimes end up  
+over bluffing in other words the percentage of 
+Bluffs in their range is greater than the pot  
+odds they're offering us on a call this turns 
+all of our zeroe Bluff catches into profitable  
+calls if we call with these hands which we 
+should if we think villain is over bluffing  
+then we're essentially ignoring the principles 
+of MDF and calling too much because villain is  
+offering us an opportunity to make far more 
+money than we should theoretically be making  
+because the margins here are very narrow and the 
+frequency a player is bluffing in theory will be  
+very precisely determined according to the exact 
+bet size B being used these adaptations become  
+very binary in nature if they over Bluff we're 
+now incentivized to call with every hand which  
+beats their Bluffs while if they were under 
+bluffing which we'll talk about in our next  
+video we would be incentivized to fold all these 
+hands hypothetically our opponent could exploit  
+these adaptations on our part in future Hands 
+by simply never bluffing against us and allowing  
+their value hands to make a massive amount of 
+profit by getting called more often however in  
+most cases if we're making an exploitative 
+adaptation by deciding to Hero call against  
+a particular opponent we're usually doing it 
+without any fear of what might happen in future  
+hands since it's very rare that an opponent 
+who exhibits a significant weakness in their  
+bluffing frequencies will also be capable of 
+accurately adapting to counter the ways that  
+we're exploiting them so this is how hero calling 
+works it requires us to identify a spot where we  
+believe our opponent to be over bluffing or in 
+other words where we believe the percentage of  
+Bluffs in their range outweighs the pot odds that 
+bet is offering us but in order to apply this  
+concept in a practical way we need to think about 
+the types of spots in which these opportunities  
+might come up and to help us do this I've divided 
+potential hero call spots into two categories both  
+of which are surprisingly common in practice even 
+though they're not necessarily easy to identify  
+the first category is spots where our opponent 
+arrives at the river with a lot of potential  
+Bluff candidates in their range and simply never 
+shuts down their Bluffs by checking back their  
+range might be somewhat well constructed leading 
+up to that point but once they get to the river  
+they can't resist the urge to fire the third 
+Barrel this might be because they expect us to
+overfolded on previous streets and therefore 
+arrives at the river with too many Bluff  
+candidates to begin with and then also fails to 
+shut down this can lead to spots where villain is  
+over bluffing by a significant margin but it is 
+somewhat less common overall the second category  
+is spots where our opponent arrives at the river 
+with the appropriate bluffing candidates and does  
+choose their Bluffs effectively but for whatever 
+reason doesn't value bet thinly enough with  
+certain types of hands this leads to the absolute 
+number of Bluffs in their range staying the same  
+while their value bets decrease which increases 
+the overall ratio of Bluffs to Value bets in  
+their range and pushes them above the optimal 
+bluffing frequency for the situation and into  
+over bluffing [Music] territory both of these 
+types of spots are ones where hero calling can  
+sometimes be incentivized so let's take a look at 
+a couple of examples in GTO wizard AI to see how  
+it works first we'll take a look at what we'll 
+call a type one one spot where villain arrives  
+at the river with a lot of potential Bluffs and 
+never shuts down so this is the unlocked version  
+of our spot here you can see it's a 100 big blind 
+MTT spot hijack big blind 1095 two diamonds flop  
+Hick's going to bet 2/3 part and get called then 
+on the four of Spade's turn they're going to bet a  
+geometric overb size of about 1.4x pot we're going 
+to get a blank River the four clubs and big blind  
+checks to them and hijack is going to jam you can 
+see hijacks jamming range here on river is very  
+polar obviously we've got a value region right up 
+here all over Pairs and you can see mostly King 10  
+plus king 10 is roughly right around the threshold 
+where the value betting range stops and then the  
+Bluffs are coming primarily from the King High and 
+no madean region but a little bit of ace high in  
+there as well even though ace high does have some 
+Showdown value it's going to be little bits of  
+stuff like Ace six over here little tiny shreds 
+of Ace King and things like that but generally  
+a fairly logical strategy and the majority of the 
+Bluffs are going to come from this area over here  
+as you can see as well as a lot of the king queens 
+and King jacks up there so if we look at the bluff  
+catches that the big blind is employing you can 
+see that the portion of range that's going to be  
+indifferent here which is going to be the portion 
+that's mixing calls and folds is right around this  
+top pair and second pair area as you can tell King 
+10 Queen 10 Jack 10 these are all the hands that  
+are beating all the Bluffs but are losing to 
+most of the value bets so this stuff is going  
+to be very very close to break even the weaker 
+10x is going to be the same thing it's going to  
+be very close 105 actually has two pair there so 
+it beats Ace 10 and King 10 so that's actually a  
+pure Bluff catcher and then 10 three and 10 Deuce 
+those hands are calling because they actually were  
+having a dece or three in their hand they unblock 
+every potential Bluff whereas all of this stuff  
+up here blocks at least some chunk of Bluffs so 
+that's the bluff catching protocol here we're  
+never calling with a nine except for specifically 
+mixing ace9 of hearts and ace9 of clubs and then  
+a little bit of A9 offit there but generally 
+we're not calling especially wide we're not  
+really going too far beyond a 10 and even a lot of 
+our 10x is actually folding here now if we look at  
+the locked version of this that I have prepared 
+we've got a very similar setup here of the value  
+bet and Bluff ranges for the in position villain 
+here for the hijack everything King 10 plus is  
+going to be value betting just for Simplicity 
+we've got 10 n nines 10 in there we've got the  
+pocket fives fours 54 Etc all the 4X all the over 
+pairs up here very straightforward and then the  
+bluffing region is going to be purely this noade 
+hand and King High so we've got everything that  
+is bluffing is being drawn directly from this 
+portion of hands here this portion up here and  
+then a little bit of this stuff down here and 
+we've got villain following through with all of  
+of this stuff so they are basically not giving 
+up their King highs and queen highs very often  
+they're bluffing all of this stuff in full when 
+they get here and let's see what effect that has  
+on the bluff catching protocols here it is here 
+is the out ofos strategy for the big blind take  
+a look at this right the big blind is never 
+actually folding even ace high and these hands  
+that were pure folds before have now become pure 
+calls there's nothing that's mixing everything  
+that beats Bluffs is purely calling even stuff 
+like 5 re off suit all the weak hands and better  
+everything in all of these categories is purely 
+going to call there's no real need to worry about  
+card removal or anything like that and if we look 
+at the EV margins I have it set in percentage of  
+the pot here and we look at what kind of pot share 
+something like a king9 is making king9 is making  
+about 133% of the pot here so in a pretty big pot 
+you know 200 big blind pot making 133% of the pot  
+it's about 26 big blinds that's very very good 
+in terms of a profit margin so as a whole here  
+we can really expect that these hands are doing 
+extremely well and we're going to make a lot of  
+money by snapping our opponent off with these 
+hands because they're drastically over bluffing  
+so as a whole every single hand that beats Bluff 
+catchers is calling and you can see we're only  
+folding 8% of the time and it's because we have 
+hands that just don't beat any of the Bluffs at  
+all so to summarize this spot in this scenario 
+villain was value betting all 10 plus which was  
+pretty good however they're supposed to shut down 
+with a good number of Miss draws which are mostly  
+going to be diamonds and Spades while their hearts 
+and clubs continue bluffing in our locked version  
+they were Bing the river with 114 combinations 
+of hands overall with around 50 of those being  
+Bluffs that means that they're actually bluffing 
+about 44% of the time here on the river however  
+we only need 37% Equity to call because we're 
+getting 1.73 to one pot odds so obviously any one  
+pair is going to have much more Equity than this 
+it's going to have that 44% Equity at least so we  
+should always call with every Bluff catcher here 
+even the ones that are pure folds at equilibrium  
+there's no reason to ever fold any of them 
+when villain is over bluffing by this kind of a
+margin next let's look at what I'm going to 
+call a type two spot where the villain isn't  
+value betting thinly enough so our example in 
+this case is going to be a very similar spot  
+we've got a 1095 flop once again same bet size 
+same formation same Stacks this time the turn  
+is the seven of clubs and the in position player 
+is going to bet 2/3 pot again river is the six of  
+Hearts goes Check and in position has a pot siiz 
+bet or a check so as you can see their strategy  
+here is going to involve value betting pretty 
+much all their two pairs plus even a tiny shred  
+of over pairs there and then their Bluffs are 
+going to come from some variation of low pair  
+ace high King High and and worse so we've got 
+a whole bunch of different potential bluffing  
+candidates here primarily if we sort out the trash 
+hands you can see it's going to be pocket fours  
+and Below we've got some ACE for and Below some 
+King for and below and then we've even got little  
+bits of Ace king king queen queen Jack and some of 
+this stuff around here so a certain number of kind  
+of Broadway region Bluffs up there so a variety 
+of different Bluffs but crucially we've got all  
+of that two pair plus except for a tiny bit of 
+pocket 10 because it blocks top pair blocks two  
+pair that all these hands are going to be value 
+betting at a pretty high rate now if we look at  
+what the outer position response is going to be 
+here you can see that the hands that are Break  
+Even or the hands that are Bluff catching here are 
+primarily going to be the top pair region a little  
+bit of third pair even some 7x that unblocks 
+some Bluffs but really the primary Break Even  
+region or Bluff catching region is going to be 
+everything up here and everything across here  
+it's the 10x and then a little bit of this stuff 
+down here although because once again the 103 and  
+10 D unblock all the Bluffs they actually pure 
+call but generally we're looking at a 10 with  
+a Broadway kicker as being the break even region 
+against this pot size River bet here so let's now  
+shift over to an exploitative version of this sim 
+a locked version where we change villain's value  
+bet region so in this locked version of The Sim I 
+have restricted villain to only value betting with  
+their Straits as you can see right here they're 
+not betting their sets in two pairs anymore in  
+this region here they're actually checking back 
+everything that is between third pair and a set  
+and then they're going to continue bluffing with 
+this low pair ace high King High noade hand region  
+so they're actually going to continue with all 
+their Bluffs at the right rates but they're going  
+to reduce their value betting frequency and if we 
+take a look at what the out- of position player  
+is doing you'll see that once again we're now in 
+the territory where we're calling 96% of the time  
+in fact we have almost no jams there's zero combos 
+of jams here because we simply don't have anything  
+that can actually Jam for Value we don't really 
+have Jack eight in our range anymore because of  
+how we played the turn so in the end everything 
+here is actually Bluff catching and the only hand  
+that's folding is Queen Jack it looks like so 
+really we're back to this territory where we're  
+Bluff catching everything and that means we're 
+even Bluff catching regions like low pair we're  
+Bluff catching a five here on this River we're 
+Bluff catching with Jack five King five Queen five  
+all of that stuff a six so something like six4 of 
+diamonds all of these hands if we reduce villain's  
+value bet range by taking out all of that two 
+pair and set material if we take out all of this  
+here these value bets suddenly villain is now over 
+bluffing because they're finding the right Bluffs  
+but they're not finding all the right value bets 
+and that's why we end up hero calling with all  
+of these hands so to summarize this spot villain 
+was failing to go for thin value with their sets  
+and their two pairs but they are still finding 
+some Bluffs with hands worse than ace high in  
+total they end up betting River with only around 
+40 two combos of hands but 19 of those combos are  
+bluffs which means they're bluffing around 46% 
+of the time since their bet size is exactly pot  
+we're getting exactly two to one pot odds which 
+means we only need around 33% Equity to call and  
+with the equity our Bluff catchers have we're way 
+above that threshold so we're once again calling  
+with any hand which beats the Bluffs so that's 
+it for this breakdown of the principles behind  
+hero calling hopefully you can implement this in 
+your game and find some good spots to Soul read  
+your opponents and if you have any questions 
+feel free to reach out to me via Discord to  
+get them answered until next time thanks for 
+watching Wizards and good luck at the [Music]
+tables

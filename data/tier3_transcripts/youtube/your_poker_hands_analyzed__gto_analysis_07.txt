@@ -1,0 +1,603 @@
+### TOPIC: gto analysis
+hello and welcome this is tom for gto
+wizard and today we're gonna dive into
+the two plus two scene and analyze some
+of our very own wizards hand histories
+stay tuned
+we asked two plus two to send us the
+most interesting hand histories to be
+analyzed in a gto wizard video and today
+we're gonna do just that
+this first hand comes to us from new guy
+here who's battling it out in the 50 nl
+streets let's dive right in
+so our hero new guy here is sitting in
+the big blind with a stews off small
+blind opens it up to three bigs and he
+makes the call ace 8 7 rainbow flop
+checks through king of clubs on the turn
+and small blind over bets new guy here
+is not phased he makes the call brick
+river small blind puts in another large
+bet and new guy calls it down
+correctly villain shows the missed
+double gut shot bluff and you guys
+scoops the pot so what do you guys think
+of this call down was it close was it
+good was it a clear snap call and were
+there any reads involved well let's dive
+into the analysis and take a look
+so the first thing i like to do when
+analyzing a hand is start with the
+aggregate reports these reports contain
+information from all possible flops and
+the reason i like to start here is
+because these reports give me great
+heuristics that i can generalize in game
+for example we see that small blind
+rarely uses one of these larger sizes
+typically starting out with a check or a
+small bet small blind should play
+defensively here and not over extend
+right on the flop otherwise their wide
+range is going to be very hard to defend
+on later streets
+when they do check
+big blind typically sizes up they are
+using 66 as the preferred size as well
+as checking back a decent percentage
+mixing in over bets and smaller bets
+this is because generally you have
+position and small blind has capped
+themselves to some degree after they've
+checked one street
+so we can even go back and apply some
+filters just to see how this applies in
+game for example we can
+just broadly apply i don't know ace high
+with some middling cards
+and let's say it's
+not monotone not paired
+as you can see the small blind strategy
+typically prefers a smaller bet or a
+check here very few larger bets the
+middling cards are going to hit big
+blind's range better and the ace high on
+board decreases the value of fold equity
+with your top pair so generally speaking
+these types of textures prefer a smaller
+bet or a check
+once they do check back on big blind
+typically going to prefer an over bet
+targeting the middle of their range
+those capped hands
+so let's take a look at the actual
+strategies on this board here we can see
+that most of the strong top pair in
+small blinds range will bet for example
+just going by hand strength more ace
+king than ace nine as an example
+there is some two pair plus but this is
+such a small portion of the range and in
+fact let me navigate over to the ranges
+tab just to demonstrate this
+so this tab lets us compare both ranges
+at the same time and you could say sure
+small blind has more ace but
+realistically the two pair plus is
+proportionally about the same for both
+players
+in fact
+if we take a look at the equity graph
+although small blind has a range
+advantage due to their top pair they do
+not have that nut advantage near the top
+here
+and that's because everyone has all the
+two pair here
+and when small blind checks
+well it gets a little worse for them so
+in this spot ace two suited can make a
+fine small bet but you have to ask
+yourself what your range wants to do and
+in general your range wants to play an
+overbet strategy here ace2 does not fit
+into an overbetting strategy it's uh
+you'd be overplaying your hand you'd be
+overextending so this hand much prefers
+a check back when the rest of your value
+is over betting with that said new guy
+recognizes this checks back and we take
+a king of club's turn so the king x is a
+pretty good card for small blind and
+that's because they should have a whole
+lot of second pair and range right these
+kx hands are less incentivized to bet
+the flop therefore they should be here
+in the checking line they also provide
+support for small blinds middling hands
+for example all of these middling pocket
+pairs 7x 8x such that your stronger
+hands you know ace king through ace 9 2
+pair and such can go into a more
+aggressive line without compromising the
+strength of your checking range
+and we can see that report here in the
+turn reports i'm just going to sort by
+cards
+in general these broadway cards will
+provide enough support to your middling
+range such that you can start developing
+some aggressive over betting strategies
+some bricks are also overbet but the
+range does not bet as frequently at all
+in fact i can even change this over to
+default
+and sort by cards and let's just check
+the expected value of different turn
+cards for small blind and big blind
+small blind is on the top in general
+these broadway cards are going to hit
+their range much better whereas the
+middling and lower cards generally hit
+big blinds range better
+so as we can see bet is the preferred
+strategy here and how is it constructed
+well you've got a few trapped sets
+plenty of two pair and top pair and of
+course a ton of natural bluff candidates
+gut shots open enders flush draws and
+such so when i asked new guy about this
+hand he told me that he thought the
+small blind overbet was over bluff and
+to arrive at that logic you'd have to
+think how many natural value combos are
+there how many natural bluffs are there
+well there's a ton of natural bluffs
+right
+so many of these gut shots club draws
+open enders
+really just a ton of natural bluffs but
+how much value is there well
+ask yourself how often you think small
+blind is checking the flop with a hand
+like ace king or two pair hat
+because
+if they don't have these hands in range
+then they're all they're left with is
+the natural bluffs or like an overplayed
+weak asex middling type hand so given
+this read new guy figured that this
+turnover bet line was over bluffed
+and planned to call it down on most
+runouts now obviously
+top pair easy call in a turn you should
+call all your top pair if you start
+folding this you're folding too wide and
+you can just get blasted off your equity
+by bluffs you become exploitable even
+second pair should be calling this over
+bet particularly second pair that does
+not block the natural love candidates
+for example
+king 2 doesn't block any of those gut
+shots or open enders whereas king 10
+does and will therefore have less equity
+of course he makes an easy call and
+we'll take a river
+so the three of hearts is better for the
+small blinds range and that's mostly
+because a lot of their values such as
+their you know medium strength top pair
+can keep firing on this run out and if
+we take a look at the ranges tab here
+and just check the equity distribution
+this blue line that small blinds range
+is quite polarized meaning they have
+very strong hands and very weak hands
+this is because they've over bet the
+turn whereas big blind's range is more
+condensed towards medium hands they have
+lots of bluff catchers
+so facing this bet you have to ask
+yourself what's a good call and we can
+see that
+a lot of two pair second pair third pair
+even low pair all exist on this long
+flat green line indicating they're all
+very close to indifferent
+we take a look at the strategy it is
+mixing in calls with all of these hand
+classes i think a lot of beginners would
+just do something linear like continue
+with top pair plus and fold the rest
+because you know why would you call a
+king facing this line
+or why would you call you know anything
+weak facing this line but you have to
+ask yourself what your opponent is
+bluffing with and what their value
+betting this line is representing very
+strong value
+let's just take a look at what this is
+supposed to represent for value
+we have
+sets two pair and only the very
+strongest top pair in this line for
+value and of course a ton of bricked
+draws
+so
+you have to then ask yourself which
+hands in between their bluffs and their
+value are a bluff catcher of course
+that's going to be
+all of these and which of these lock
+value and block bluffs well let's just
+take a look at the top pair for example
+and switch over to strategy plus ev ace
+2 does not block bluffs ace 10 on the
+other hand does block bluffs right you
+know for example they're missed jack 10
+or 10 9 or queen 10 so ace 2 is going to
+be a higher eevee call in this situation
+against a balanced opponent now if your
+opponent is imbalanced then perhaps all
+of these are going to be good calls
+because they're all going to have the
+correct pot outs
+in fact even many of your weaker hands
+which seem like natural folds will
+become easy calls if your opponent is
+over bluffing even slightly if they
+don't have enough value
+new guy recognizes this makes the call
+and correctly scoops the pot and gets
+shown the bluff really nice hand thank
+you for the submission new guy here okay
+let's move on to the next hand
+this next hand comes to us courtesy of
+pjj who's battling it out in the 25 and
+l streets now it folds to him in the
+small blind with ace 3 off and we'll
+notice that they're quite deep
+265 big blinds effective he opens it up
+big blind makes the call and we get a
+connected two-tone 678 board
+the flop once again checks through jack
+of clubs on the river and he goes for a
+two-thirds pot bet okay
+big blind calls the two of diamonds
+river completes the flush and he puts in
+a block bet interesting big line makes a
+large raise and pjj three bets
+representing the nut flush with his ace
+of diamonds blocker big blind lays it
+down and he scoops the pot so what do
+you guys think of his hand was this line
+justified and what do we think about the
+three bet on the river cool line let's
+dive into the analysis and take a look
+so our hero pj opens it up in the small
+blind with ace 3 off however he is
+playing very deep stacked about 260 bigs
+deep and as we go deeper well ace three
+off actually becomes a pure fault
+however it is a zero ev open it is
+indifferent between opening and folding
+same with ace four off same with many
+hands in the small blind range to be
+honest uh so you can't really fault the
+guy for opening this hand
+we can use something like ace four off
+as a conduit in the meantime
+generally speaking as you get deeper you
+want to shift away from these hands
+these offsuit hands that just try and
+make a top pair and move towards more
+suited stuff more connected stuff
+something that can draw to something
+strong realize it's equity well and has
+good implied odds steep stack
+so
+he opens it up
+big blind calls
+and we'll take a flop
+so this is a horrendous flop for small
+blinds range as you can see they're
+practically range checking despite being
+the pre-flop aggressive and you should
+ask why is this well
+to answer that question let's go to the
+ranges tab
+i like to start with this equity
+distribution
+as you can see
+they don't really have a nut or a range
+advantage at all despite the fact that
+they have all the over pairs in range
+it's just not enough to compensate for
+how bad this board is
+uh let's just full screen this for a
+second and here i've selected
+eqr that's equity realization for both
+players equity realization is a
+measurement of performance it's the
+expected value of your hand compared to
+your pot share and so for example if we
+just take a look at
+ace 8 this hand has 62.3 equity
+realization that means it's going to
+claim only about 60 percent as much as
+it would if the pot were checked down so
+it's going to drastically underperform
+as is most of your range
+in general the positional advantage goes
+up as stacks get deeper and so it is the
+power of your draws so big blind having
+position and more of these middling
+cards
+is generally going to favor their range
+for that reason
+small blind should check a lot so as not
+to put themselves into a bad position on
+later streets
+pjj recognizes that this is a bad board
+for his range and he checks
+actions on big blind and in general they
+should be using a lot of small to medium
+sizes here preferring the 66 size uh
+with a lot of their you know over pairs
+two pairs sets straights and of course
+an abundance of draws
+they check it back and we'll take a turn
+card
+so on the turn the jack of clubs is a
+fantastic card for your range that's
+because it's going to hit a lot of these
+top heavy cards that you have more of we
+can see that the range advantage has
+improved significantly so is the equity
+realization and small blind is now ahead
+in all metrics ev equity and realization
+from the equity distribution graph we
+can see they've developed a nice range
+and nut advantage which is going to
+allow them to lead aggressively
+the strategy here is to check about 44
+mixing in small bets mostly medium bets
+and even some over bets as well
+these medium bets are going to be
+constructed a few straights sets
+two pair over pair but mostly going to
+be a lot of top pair for value
+and we can see in the filters tab that
+most of these made hands are going to be
+doing betting right you're only going to
+be checking about 20 of the time with
+top pair plus on such a dynamic board
+especially when you have enough nutted
+hands to develop an aggressive attack
+here from the reports tab
+here i'm just going to group by cards
+and i've selected the expected value we
+can see that these larger cards you know
+nines through ace tend to benefit the
+small blinds range whereas the lower
+cards generally benefit the big blinds
+range which should make sense as we're
+the pre-flop aggressor
+so pjj leads out with ace four and the
+next question is is this a good hand to
+lead with well sorry he has ace three
+but we'll use ace four as a conduit
+generally
+stuff with a diamond is what you want to
+be betting with here when you have ace
+high and if we just filter for
+leading diamond combos
+and ace high
+and even king high
+you can see that
+these are going to be betting quite
+aggressively as you block the diamonds
+which means you're going to get more
+folds it also means you can represent a
+flush on later streets and your outs are
+cleaner meaning you can hit top pair
+without also completing villains flush
+draws
+so
+pjj recognizes this is a decent card for
+his range he likes his diamond blocker
+he goes for the two-thirds size and
+villain facing this size should be doing
+a little bit of raising but mostly gonna
+be just calling here
+we can see what the thresholds are it's
+important to identify you know what can
+be folding here well you shouldn't be
+folding 8x at this point this is too
+early in a bvb situation you know the
+threshold is going to be
+some third pair
+and lower pairs as well
+something interesting that you might
+notice
+with the low pair is that it's folding
+a lot of the uh
+asex you know a6 and king six but it's
+calling some of the lower stuff and
+that's just because
+these hands first of all block fewer
+bluffs and second of all have more draw
+potential
+so
+big blind makes the call and we'll take
+a river
+so we get the two of diamonds on the
+river and here's where the fun starts so
+pjj opts for a block bet in this spot
+which seems decent
+we can see that the block bet is going
+to be mainly constructed
+using top pair mixing in some stronger
+hands and some bluffs the solver also
+constructs
+a
+over betting strategy primarily composed
+of straights and flushes in a few sets
+and a
+75 strategy with sets and over pairs the
+block bet does seem good if we take a
+look at ace four here we can see that
+this hand in particular prefers a larger
+bet typically the over bet or the
+medium-sized bet and that's mostly
+because you don't want to put too many
+pure bluffs into a block pet line you
+typically want to use very few bluffs
+mostly medium hands and then just a few
+traps however it can fit into this line
+it's not a problem he goes for this
+block bet size
+actions on villain and as you can see
+facing a blockbat villain should be
+raising quite aggressively i'll just
+group these together
+and we could see that they should be
+raising a good 21 percent of their range
+mainly using flushes straights two pairs
+and such and we can see that basically
+all of their top pair underpairs second
+pairs should mostly be calling
+but
+almost all of their two pair plus should
+be raising
+so villain raises it up
+action's back on us and the silver here
+is going to again
+three bet
+using flushes for value i'll just
+separate those
+and a mix of sizes and of course
+anything with a diamond blocker in
+particular can make an okay race right
+x10 for example is an okay raise even
+ace five is indifferent between raising
+and folding and that's just because you
+block the nuts the real problem is how
+many of these you put into your range
+it's very easy to get out of line with
+way too many ace of diamond combos and
+just be completely over bluffing then
+again perhaps that's not a bad strategy
+against the right villain type and after
+this hand we're going to talk about some
+of the exploitative adjustments
+that he described in game so
+facing this size he goes for this 85
+percent
+three bat strategy with the nut blocker
+as you can see
+big blind should be shoving here with a
+decent chunk of
+strong flushes
+as well as some nut flush blockers
+a lot of these asax hands for example
+with the diamond blocker in the end big
+blindfolds
+and our hero pj takes it down with a
+brave three bet on the river nicely
+played so let's discuss some of the
+interesting adaptations and exploits he
+made in
+and compare that to the strategy so the
+first adjustment he made was pre-flop
+obviously he opened a hand that isn't
+technically an open but he's informed me
+that according to his research the 25
+and l pool does not raise nearly enough
+facing this open big blind should be
+raising something like 17 to 20 percent
+of their range in this spot but if
+they're not raising enough
+then all of a sudden a lot of these
+indifferent hands are these close
+decisions become uh a pure open simply
+because you're going to be able to
+realize your equity
+on the flop he did say that he sensed
+this was probably
+a range check spot although he wasn't
+quite sure and he had expressed to me
+that villain had some history and he
+knows this guy likes to stab quite often
+so he was quite surprised to see this
+check back on the flop and therefore on
+the turn expected villain's range to be
+quite cap
+so
+the turn bet is somewhat exploitative in
+that he thinks filling is not going to
+be checking back enough of these strong
+holdings
+right sets straights two pairs
+over pairs
+a lot of these strong holdings
+he just expects phil into bet which
+would therefore increase the ev
+of bluffing with ace four and that's
+certainly a fine assumption if you think
+villainous capped themselves and if so
+you can even size up right you could
+even go for an over bet line given that
+they won't have enough nutted hands to
+counter that strategy
+on the river he expressed that he
+thought villain's range would be quite
+capped and almost any bet would be
+profitable here and he said he wanted to
+split his strategy between a small and a
+large size he said that the smaller bet
+might overperform because he thinks
+villain will overfold to it relative to
+the sizing which makes sense from an mdf
+perspective
+if you assume they're capped
+facing the rays
+he decided that he was going to three
+bet any ace of diamonds because he
+didn't think
+villain would call
+with the appropriate range and if we see
+what villain is supposed to be calling
+this three bet with
+well we can take a quick look he is
+actually indifferent with a bunch of
+hands you know even some top pairs
+two pairs sets straights a lot of hands
+have to mix in calls in order to reach
+the minimum defense frequency and if
+they're not finding those you know raise
+calls
+uh it's going to be quite difficult to
+defend properly of course one caveat is
+that if villain is you know raising too
+value heavy then of course this line
+isn't as good but holding the nut flush
+blocker does reduce a lot of his
+strongest flushes in range so overall i
+like his play and i like these
+exploitative adjustments and i think you
+played it pretty well thank you so much
+for the submission pj nice hand and very
+brave three bet on the river for the win
+all right that's it for the video guys
+we hope you enjoyed this content if
+you'd like to see more like it some more
+user submitted hand history analysis let
+us know would be happy to do it again if
+you want to discuss the theory please
+join our discord link in the description
+we love the chat theory there that's all
+for now happy grinding

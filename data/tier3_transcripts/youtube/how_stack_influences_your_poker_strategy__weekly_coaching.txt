@@ -1,0 +1,724 @@
+### TOPIC: how stack influences your poker strategy
+today's lecture is about stack depth theory 
+and how stackdepth affects your strategy now  
+stackdepth is a key metric to poker strategy it 
+influences how you evaluate hands it influences  
+the polarity of your betting ranges optimal 
+bet sizing and the truth is that most players  
+myself included i don't really know how to adapt 
+correctly to different sprs and when i'm talking  
+about stack depth i'm not necessarily talking 
+about how much you buy in and i'm not talking  
+about how much money is on the table per se what 
+matters strategically is the stack-to-pot ratio  
+right how much money you have behind relative 
+to the size of the pot so the stack-to-pot ratio  
+essentially influences everything about the 
+evaluation of different hand classes and what  
+types of strategies you should take i'm going 
+to start with some fundamental definitions here  
+just so that everyone watching has an idea of what 
+i'm going to be talking about later on so spr the  
+stacked pot ratio again that's the money behind 
+relative to the size of the pot nut potential is  
+the strength of your hand when your draw completes 
+now as we get deeper stacked the value of  
+the nut potential of a hand increases that is to 
+say the value of hitting the nut flush becomes  
+exponentially higher deep stacked than short 
+stacked and that should be obvious because there's  
+more money that gets to go in later and therefore 
+that draw will have higher implied odds implied  
+odds of course are the value you expect to gain 
+on future streets should you outdraw your opponent  
+and in contrast we can talk about raw equity that 
+is to say the strength of your hand if all players  
+were to simply check down it's important to 
+understand these fundamentals because these  
+are the main things that change uh strategically 
+as the spr changes as the stack depth changes  
+so how does stackdepth influence your strategy 
+well raw equity tends to become more important  
+at low sprs whereas it becomes less important at 
+high sprs that is to say just having any made hand  
+at a low enough spr is sometimes good enough to 
+just get chips in but at deeper stacks it starts  
+to become problematic to have say top pair no 
+kicker and end up paying off top pair better  
+kicker as an example stack off ranges so stack 
+off ranges are essentially how wide or tight you  
+can stack off over one or multiple bet sizes and 
+this is a function of the spr at shorter stacks  
+there's less money behind and therefore after 
+all the money goes in you're going to call wider  
+compared to deeper stacks where the bet sizes have 
+to be larger and larger or they'll have to be more  
+and more bets in order to get all the money in 
+and this is a concept i've talked about before  
+but essentially you stack off wider at low sprs 
+and you stack off tighter at high sprs and yes  
+this webinar is relevant to all formats generally 
+what i cover is gonna be something that you can  
+carry over to spins mtt's heads up sit and goes 
+cache i try and keep the theory relevant to most  
+formats although personally i do specialize more 
+in cash but for the purpose of this lecture you  
+can apply it everywhere so we've talked about nut 
+potential that's how valuable your hand is should  
+you make your draw and nut potential becomes less 
+valuable at short stacks because even if you do  
+make your draw there's only so much money that can 
+go in afterwards whereas it becomes more valuable  
+deeper stacked because of course your implied 
+odds are higher now implied odds are one of  
+the things that changes the most of course it's 
+shorter stacks low implied odds you'll have lower  
+implied odds because there's less money behind 
+and also lower reverse implied odds so getting  
+in with top hair it's very difficult to fold top 
+hair at low sprs but deeper as i said top pair  
+no kicker can become more of a problem and so 
+there's higher implied odds for your draws but  
+also higher reverse implied odds for example if 
+you hit your draw and they have a better draw or  
+if you hit a strong hand and they have a better 
+strong hand so that's why nut potential becomes a  
+larger part of your decision deeper stack and less 
+important shorter stacked lastly the positional  
+advantage tends to increase as stacks get deeper 
+and decrease as stacks get shorter tends to  
+increase with the log of the pot that is to say 
+as you get deeper deeper the effect the advantage  
+it grants to the in-position player tends to get 
+smaller and smaller so let's look at positional  
+advantage a little bit this graph was taken from 
+a heads-up experiment i ran maybe a year ago  
+essentially it's just heads up cash no rake and 
+the effective stack anywhere between 50 and 300  
+big lines and we can see that the in positions 
+player their ev increases as we increase the  
+stack depth so we can say the positional advantage 
+is magnified as stacks get deeper and in general  
+late position is going to be able to open wider 
+stacks get deeper as more hands become profitable  
+to play in position next i just want to touch 
+on the concept of pot geometry so part geometry  
+just a fancy word for the geometric bet size so 
+betting the same percentage on each street to get  
+stacks in by the river this lecture won't really 
+talk too much about the geometric bet size but  
+it's important to understand that as you get 
+deeper in order to get all the money in over three  
+streets for example you'll need to bet larger and 
+so we can use this metric to kind of determine  
+for example approximate stack-off ranges or how 
+much equity you'll need to stack off with right  
+now essentially if you give one player a perfectly 
+polarized range a geometric betting strategy is  
+going to maximize how much money villain puts 
+into the pot while also getting all the money  
+in by the river in practice it's a little more 
+complicated there are non-geometric strategies  
+you know bet small and flop over that 
+turn jam river but regardless we can use  
+this to kind of determine roughly how wide people 
+need to defend at different stock depths and so  
+this chart was actually taken from another one of 
+my lectures so for example a 200 big blind single  
+raised pots the spr is quite high that is to say 
+there's a lot of money behind relative to the pot  
+and so if you approximate the stack off range over 
+for example one to three bets just based on mdf  
+they're going to have to stack off very tight 
+because the amount of betting that has to happen  
+and the size of the bats are so big that the final 
+call down range is extremely tight and therefore  
+only the most nutted hands can really get all the 
+money in for value right if your opponent is only  
+defending something like five percent of their 
+range by the river five percent of the range they  
+started with on the fl on the flop per se and by 
+the river you're going to need a very very strong  
+set of hands in order to extract value from that 
+so this is why nut potential increases as stacks  
+get deeper now for example if we look at a low 
+sbr situation so we can look at for example a  
+four bed part here the stack to pot ratio is 
+much lower right 1.7 1.3 there's maybe two  
+bets behind three bets if you bet small and in 
+these cases the stack off ranges are much wider  
+simply because there's less money behind and so 
+this is what a lot of coaches will say that's  
+people tend to drastically under defend for 
+example in position in like a three bed pot  
+or four bed pot for example simply because how 
+wide you have to defend is always a function  
+of the spr and at these really low sprs you really 
+do have to defend quite a wide part of your range  
+now again this is just based on some toy game math 
+it's not going to be like this for every single  
+spot right adam harris asks but the starting 
+range is very tight for bed pot yeah and so is  
+the defending range right depending on what you're 
+looking at so as a function of the ranges that  
+go post flop when the spr is quite low you still 
+have to do to defend quite wide like you couldn't  
+get away with defending five percent of your range 
+with an spr of one for example that it's not going  
+to make any sense right you'll just be drastically 
+overfolding villain could just for example shove  
+everything and you'd end up folding most of your 
+range so always important to keep in mind stack  
+to pot ratio and how that correlates with how wide 
+you need to defend again this doesn't have to be  
+cash you can look at this in heads up mtt you can 
+look at this in spins everything right it's always  
+about stack and pot the spr so something else i'd 
+like to chat about is the efficient jam principle  
+now this is kind of a term i made up but i don't 
+really know how else this would be described so  
+it needed some sort of terminology essentially 
+shoving is a pretty serious weapon in holdem and  
+the reason is that hands that shove always realize 
+their equity and the person that shoves first  
+gets the last laugh so solvers will often choose 
+sizes that attempt to avoid giving their opponents  
+a good price on the shove or alternatively 
+setting themselves up for a good price on  
+a shove the essential idea is that for example 
+at shorter stacks what will typically happen is  
+it's going to min open and if it three bets it's 
+either going to three bet to a very small size  
+or it's going to jam and if jamming isn't really 
+something it can do with a good part of its value  
+range it might split so i'm going to show you 
+some examples of the efficient jam principle in  
+action across different formats and this applies 
+pre and post flop so we'll go take a look at some  
+examples preflop strategies three betting 
+polarity post flop comparisons and so on so  
+let's go take a look at a few different 
+spots so let's start with for example
+a 50 big blind cash spot we'll go button opens 
+action on big blind and big blind raises 10.
+now in this spot you can see it doesn't even have 
+the option for a smaller bet it simply jams right  
+of course you could raise the 20 but the problem 
+is that it's very close to pot committing in  
+fact let me go to 75 i think it's going to be 
+a better example of what i'm talking about here  
+yeah so 75 big blind steep button opens big blind 
+three bets action on button now something you'll  
+notice is that at low sprs these premium hands 
+tend to uh trap a lot more and this is common  
+to mtt's as well but essentially it's jamming with 
+the more vulnerable part of its for betting range  
+for example tens jax ace queen ace king these 
+hands tend to do better getting the money in  
+immediately whereas the more valuable premium 
+hands for example queens kings aces ace king  
+suited a screen suited these hands are going for 
+a min raise it wouldn't make a lot of sense to  
+for example raised to 30 big blinds here because 
+if you do that you're putting in too much money  
+and you have to over defend your range versus 
+a shove so instead it wants to use a very small  
+raise and so the people who ran the self gave it 
+either a shove or a very small format such that  
+we're trying to not give villain a fantastic price 
+on a shove and we don't have to uh over defend our  
+range if you were to use 30 big lines what will 
+end up happening for example is the button has to  
+use a lot more pocket pairs it has to call a lot 
+wider versus a shove simply because the amount of  
+money you've already committed is more and the 
+size of their their five bet shove is smaller  
+relative to the pot and so in order to make the 
+correct bluff value ratios what ends up happening  
+is a min raise becomes most effective now 
+let's look at the same spot a little bit deeper  
+we'll go to 100 big lines so button opens actually 
+not big blind this time they have three bit larger  
+you can see it's 27 this time and again the more 
+vulnerable hands are going to be shoving whereas  
+the rest of these are going to 27. and here we'll 
+continue this up let's go up to 200 big lines now  
+button opens the preferred three bet size actually 
+gets just a little bit smaller out of position  
+and now we can see that the four bet size 
+has gone up to 38 big blinds 38 right a  
+lot of people if they haven't studied deep stack 
+they're going to be a little bit flabbergasted by  
+this massive four bet right but if 
+you think about it the reason you use  
+if you're used to for example 
+100 big blinds as a cash player  
+the reason that you use like something like a 
+25 big blind four bet is simply because you're  
+constrained by the stack depth right it's only 
+100 big blinds behind whereas at 200 big blinds  
+you have a lot more room to play a more polarizing 
+more natural for example pot-sized raise
+without over committing relative to the 
+stock depth does this still apply if  
+your opponent is short stacked good question 
+jackson so what we're always concerned about  
+is what we call the effective stack depth so if 
+you were a thousand big blinds and your head's up  
+in a pot with an opponent that has 10 big blinds 
+you are playing 10 big blinds effective right  
+so war is looking at the amount of money that 
+can be risked and then comparing that to the  
+size of the pot so let's go take a look at this 
+one here something else again that is related to  
+efficient jam principle is that in both 
+cache and mtt and spins is that you tend  
+to open smaller when the effective stack 
+is lower so for example if cutoff opens
+there's a very good chance that their opponent 
+will shove if they face a continue and so the most  
+efficient strategy if you expect your opponents 
+to shove a lot is to open for the smallest size  
+possible which is a min open in this case right 
+the other big thing that changes is that at  
+shorter stack dips this is 20 big blinds effective 
+by the way the opening range of hands tends to  
+shift towards more high card equity so this is a 
+cut off spot and as we can see we're opening a7  
+off we're opening lots of high card equity and 
+as we go through it for example this is 40 big  
+blinds effective we're going to see that it starts 
+to shift to more hands that do better at deeper  
+stacks so for example more pocket pairs suited 
+connectors fewer of these dominated asex hands  
+75 big lines 100 big blinds 150 big lines 200 big 
+blinds raphael says blockers of the shoving range  
+yeah that's very important as well trying to 
+block that shoving range is important boy asks  
+if positions are reverse do we still keep the 
+small four bet generally the size of the four  
+bets is going to be relative to the size of the 
+pots even if you're out of position but it does  
+come down somewhat to the polarity so i'm going 
+to run through this one more time here there's 20  
+big blinds now pay attention to how the shape the 
+range changes as we get deeper 40 50 75 100 150  
+200 and we can see we need more robust equity 
+as raphael says we need hands that for example  
+these hands are going to do better in a deeper 
+stacked pod because these hands rely on making  
+big draws in order to justify opening them right 
+they get most of their money from imply dots  
+whereas for example a seven off suit here this 
+hand mostly is gonna make its money from just  
+making top pair right you're not making any big 
+draws with a seven off suit and so as you get  
+deeper you wanna shift your range construction 
+towards different types of hands and something  
+else to note is that the cutoff gets to open wider 
+as we go deeper for example we went from 26 to  
+30 i think and that's largely just because 
+more hands are profitable to play in position  
+joe asks why is polarity more important 
+deeper stacked is it because you can stack off  
+wider shorter stacked yeah exactly we'll get to 
+that shortly actually so let's take a look at  
+this spot next again cash game now we're looking 
+at post flop and here we've got queen jack five  
+and i've compared these spots button 
+versus big lined from 20 to 200 blind steep  
+and something i've got this here open in the  
+equity distribution graph now one thing to note 
+is that the ranges do change so as we get deeper  
+the equity distribution graph tends to 
+get tighter and tighter simply because the  
+ranges have changed but something else 
+that happens is that as we get deeper we  
+can start using over bets and start using a more 
+polarized strategy now here at 20 big lines deep  
+it's not going to make a whole lot of sense to 
+start over betting right the spr is only four  
+so typically in mtts in short stack cash 
+in three bed pots anywhere where the spr  
+is relatively low you usually stretch it out over 
+three streets and in order to do that you need to  
+start with a smaller size right here for example 
+it's just betting the minimum as the most common
+now as we start to get deeper and deeper
+example this is 75
+100 big lines you can start to use a more 
+polarizing over bet size on a flop like this right
+raphael asks we always focus on our nuttered 
+hands they will want to stack off right  
+right and so in a situation like this you're 
+going to have enough nutted hands on for  
+example queen jack 5 that the button wants 
+to get all the money in by the river now  
+if you're 20 big lines deep or if the spr is for 
+example four like we saw in the first one there  
+you don't need a big size to get all the money in 
+by the river you can bet the minimum on the flop  
+make a medium bets on turn medium battle 
+river and you're going to get stacks in right  
+whereas when the spr gets deeper well a min bet 
+is going to be a little bit harder to get it in so  
+i've talked about the mechanics of seabed sizing 
+in another one of my videos i won't get too much  
+into it here but essentially as you get deeper 
+there becomes more opportunity for large overbet  
+sizes large check raises and more aggressive 
+strategies the larger the sizes that are used  
+the more polarized you can play and of course you 
+can also put high equity draws in here as well  
+all right so this one is ace seven six 
+monotone something else that changes is that  
+we've talked about how the in position 
+player generally is going to have more of  
+an advantage and what this means is that the out 
+of position player needs to trap more they need to  
+put more effort into defending their range so they 
+can't play as aggressively unless of course they  
+can shove so for example this one is button 
+versus big blind a76 monotone button has bet  
+third part action is on us so here we're 20 big 
+blinds effective and it's raising 11.3 percent  
+but as we get deeper it's going to raise less 
+and less so here's 40 big lines it's raising 8  
+50 big blinds 7.6 75 big months it's raising 7.1 
+100 big lines 150 200 big blinds and so we see  
+this interesting pattern where big blind can check 
+raise less frequently as we get deeper and deeper  
+because essentially their calling range needs 
+to be able to defend against more pressure right  
+their calling range can essentially 200 big lines 
+deep can just face massive over bets over and over  
+and over again and so because it needs to defend 
+against more pressure you can't raise as much  
+and similarly your check raising range is also 
+problematic because playing a check raise deep  
+stacked out of position is going to be tricky on a 
+very dynamic board like this all right so this one  
+is heads up very simple we're just looking at 
+how big blind's three bet changes in response  
+to our opening size so here we're 20 big lines 
+deep right and we can see the 20 big lines deep  
+they can only open something like 72 percent 
+of hats and big blind mainly three bets using  
+a shoving range right however the nutted portion 
+of their three bed range or at least the value  
+portion for example aces kings queens jacks tens 
+ace king these hands are raising smaller whereas  
+a lot of the rest of it for example 
+these lower pocket pairs and asex hands  
+they're simply shoving they're trying to get the 
+money in now immediately because these hands have  
+these are what we'll call for example high raw 
+equity hands but hands with poor implied odds so  
+these hands if they do three bet would prefer 
+to simply shove now of course it does need to  
+balance it with different types of hands here as 
+well for example a6 suited as shoving and that's  
+because these types of hands actually retain 
+their equity reasonably well against the range  
+of hands that call joe asks should you lean 
+towards stacking off with high equity draws  
+when you were short stacked in an mtt or would you 
+rather check back in position to try and realize  
+equity 50 to 20 big blinds yeah that's a great 
+question joe so typically you're going to want to  
+check high equity draws if your opponent can 
+shove and then push you off that draw we see this  
+a lot in for example cash game for bed parts 
+or mtt situations where you're in that 20 to 30  
+min stack range and someone has bet recently large 
+on the flop you don't want the worst possible  
+situation is you bet for example a flush draw 
+or a straight jaw or a combo draw your opponent  
+shoves just over pot and now you don't have pot 
+odds to call right that's the absolute worst  
+situation or alternatively you do have products 
+to call but your eevee is just terrible you're  
+indifferent that's a bad situation so oftentimes 
+what solvers will do is they will check back  
+high equity draws in situations like that where 
+the opponent can potentially shove for reasonable  
+size and push them off their equity and so that's 
+why i say those types of draws often can be  
+thought of as showdown value hands when the 
+spr is low yeah justin says happens a lot in  
+three bet pots on the turn after flop bet yeah 
+exactly like that's a good cash game example uh  
+three bit pot on the turn you'll often end up 
+checking back high equity draws simply because the  
+value of retaining your implied outs is going to 
+be better than betting immediately and potentially  
+getting shoved on so those high equity draws can 
+play more as a medium strike hand in that sense  
+so here we can see for example 40 pick lines deep 
+you're gonna get the three bets are going to be  
+leaning towards more offsuit stuff and a lot of 
+pocket pairs we can see that the more vulnerable  
+pocket pairs for example twos threes fours 
+fives these have reasonable equity as a shove  
+believe it or not just because in position 
+has to call with enough worse hands right
+and so what ends up happening is the most 
+vulnerable types of high equity hands  
+tend to shove if they can if 
+they're getting a reasonable price  
+whereas the more valuable hands again will 
+tend to bet smaller and as we increase the  
+stack depth the three betting range leans 
+less towards these offsuit blockerish type  
+hands and it's going to lean more towards hands 
+with better playability and we're going to get  
+something that is going to become a little more 
+familiar so here's 60 80 100 big lines 150 and oh  
+200 and as we can see like 200 big lines obviously 
+you can't just go and shove pocket twos right  
+so what ends up happening is you lean more towards 
+nutted hands and hands that can make high value  
+draws for example these suited connectors suited 
+gappers for example and proportionally you're  
+going to get less of these off suit hands in 
+range although they are still there at a frequency  
+less hands dominates as well yeah that's 
+right so let's talk a little bit about  
+limping premiums all right so here we've 
+got mtt spot it is 10 big blinds effective  
+and it has folded to small blind 
+now a lot of people when they reach  
+for example 10 big blinds and an mtt they're just 
+going to shove or fold and i'm not saying that's  
+not a fine strategy of course we have no limb 
+solutions as well as well as lymph solutions  
+and so when it follows the small blind we can 
+see that for example even though it's not allowed  
+to limp it's still attempting to do something 
+near the same strategy that is to say it wants  
+to limp a polarized range containing some nutted 
+hands some reasonable equity hands and some trash
+and if it is allowed to limp
+small blind again their limping range 
+is somewhat polarized towards these  
+very high value hands and very low value hands
+right maybe that's easier to picture like this  
+the limping range contains hiv hands and 
+low ev hands whereas the opening range
+the shoving range is more condensed and sometimes 
+that can be a little confusing like why would  
+you polarize your slow plays and then depolarized 
+your fast plays and again this this just has to do  
+with realizing your equity and so for example ace 
+2 is going to do much better if it can realize  
+all of its equity immediately as opposed to you 
+know trying to draw and again if you limp here  
+what ends up happening is because you're 
+depolarized if you face a shove you've got  
+a very easy fold with the bottom of your range 
+and a very easy call with the top of your range  
+now some people are like okay well limp 
+calling queen 7 suited seems insane but  
+again guys this is like blind versus 
+blind so ranges are ultra wide right
+and this effect of limping premium hands 
+it extends further than just this one wacky  
+spot so for example here's button limping jacks 
+through aces here's low jack doing the same thing  
+and as you can see the limping range is still 
+quite polarized so let's take a look at maybe  
+a deeper stacked spot we could go 
+to 30 big blinds here for example  
+and here it's going to stop 
+limping at least in early position
+so why do we think this is alex asks 
+seems like silver prefers three betting  
+hands pre-flop with more nutted qualities 
+deep to have more polarization post flop  
+yeah spot on alex very well said said it better 
+than me and so i think it's important that  
+when you're deeper you should be able to polarize 
+better so you want to be able to flop more nutted  
+hands more knotted draws nutted qualities as you 
+say in order to play a more polarized strategy  
+deep stack you don't want to be for example deep 
+stacked with a whole bunch of top hair no kicker  
+type of hands that just struggle to improve 
+deep stacked you want hands that can improve  
+more effectively well medium strength hands will 
+often under realize their equity not it draws and  
+hands with nut potential will over realize their 
+equity deep stacked and so here's maybe another  
+example here we have button open big blind has 
+three bet and again they three bet relatively  
+small because it's only 30 big lines effective so 
+they make it from two to eight if this were deeper  
+you would see the big blind three bet much larger 
+but they don't want to give button a great price  
+on a shove so the hands that do three bets uh to 
+a small size go here so they three bet to 8.2 and  
+as we can see a lot of these premium 
+nutted hands queens kings aces  
+they're just calling right they're not shoving and 
+this could feel very strange especially to cash  
+game players like why on earth are you calling 
+with pocket queens here but the truth is that  
+you're calling range you could put more 
+traps in there when you're shorter stacked  
+whereas if we were much deeper it's 
+going to trap significantly less often
+and maybe this is a bad example
+now we can see the premium hands 
+are three betting more often  
+and if you change this over to for example 
+cash where there's rake considered as well
+again there's a little bit of trapping with 
+ace and less here raphael says a lot of poker  
+is about realizing and pushing equity very well 
+said very well said so what do i have here oh  
+yeah the deep stack triple barrel this one's kind 
+of a fun one deep stacked triple barrel math so
+actually i should mention 
+this beforehand the entire  
+june daily doses are all about uh stack 
+depth and how strategy changes and so  
+all of these quizzes they start with really 
+short stocks and the month progressively  
+progressively gets deeper and deeper so if 
+you're looking to learn a little bit more after  
+this maybe go try out some of these quizzes some 
+are better than others and you can test yourself  
+a few different things so here's the one i made 
+for deep stack triple barrel math so this is  
+a 200 big blind cash game uh big blind versus 
+button three bad pots big blind triple barrels  
+on flop turn river under the gun calls down 
+the board runs out ace king deuce seven eight  
+if under the gun starts with four and a half 
+percent flushes on the flop never raises what  
+percentage of their final call down range will be 
+a flush by the river and the reason i like this  
+question is simply because it's very mathematical 
+i can just calculate it and a lot of poker  
+is quite intuitive and not so well defined but 
+this question is so i've got the spot open here  
+i guess i might have given away the answer there 
+but go ahead and take a guess again it's big blind  
+versus under the gun three bet pot and triple 
+barrel shove on this monotone flop what percentage  
+of under the gun's final calling 
+range will be a flush by the river  
+take a guess in the chat vicky says 35 rafael's 
+guessing 10. someone else got a guess in there  
+50 50 yeah this one's uh kind of 
+funky so the way you'd solve this  
+the answer is 25 the way you can solve this one 
+is just by simply using mdf so firstly in position  
+isn't really going to be raising a whole lot at 
+any point throughout this tree so they retain  
+all of their flushes from flop to showdown they 
+started with 4.5 and so the way to calculate this  
+is just to calculate the minimum defense frequency 
+on each street multiply those out so about 18  
+of their starting range and so under the 
+gun's final starting rate is only 18 percent  
+under the gun's final range is only 18 of their 
+starting range sorry and so you end up with 25  
+flushes something else to take note is that the 
+ace and the king remove most of the flushes from  
+the range so let me take a look here so here 
+actually it's 4.3 flushes but close enough  
+and something else to keep in mind about 
+uh three bed parts is that oftentimes  
+especially when the three bet 
+was large you're going to have  
+fewer flushes or flush draws in range 
+because you're going to have proportionally  
+more pocket pairs relative to the amount of suited 
+hands in range right and so despite it being  
+monotone there's not that many flushes in range 
+to start with so big blind seabets two-thirds part
+they see bet again two-thirds part
+and they see that again on the river full pot
+they call and we can see the amount of 
+flushes goes to 25 and this speaks to  
+stack off ranges as you get deeper and 
+deeper something that you started with  
+at 4.5 percent of your range can quickly 
+balloon up to you know 25 of your range  
+and this is a spot like yeah we're 200 
+big lines deep but the spr isn't that big  
+you know it's just two-thirds two-thirds pot 
+imagine what happens when it's over bet over  
+bet over bet check raise shove right it's even 
+tighter and very small a very small portion of  
+your nutted hands becomes just a huge portion 
+of the final calling range simply because  
+the amount of hands that need to defend against 
+larger and larger sizes and more and more bets  
+becomes less and less that's why nun advantage 
+becomes more important at deeper stack depths  
+because as a function of the hands that stack off 
+they become a larger and larger portion of the  
+range because it gets tighter and tighter right 
+you can start with for example two percent sets  
+and then if you're only calling three percent of 
+your range by the time all the money has gone in  
+that is to say three percent of your initial flop 
+range well all of a sudden you're two thirds sets  
+by the time you stack off right so always keep in 
+mind that the nut advantage is going to dictate  
+sizing polarity and the implied odds of your 
+nut enhance is going to increase drastically  
+as the stacks get deeper in conclusion stock depth 
+is a fundamental metric that drives your strategic  
+incentives the spr influences how much money you 
+can put in which affects the value of implied odds  
+stack off range's nut potential and the polarity 
+of your betting ranges in general you're going  
+to end up trapping more when stacks are shorter 
+because it's very easy to get money in later uh  
+if you watched wacko's coaching his previous one 
+you'll have seen that for example in three bed  
+parts in position tends to slow play sets more oft 
+simply because it's very easy to get the money in  
+later it's not a whole lot of incentive to shove 
+now whereas the deeper stacks those nutted hands  
+need to build the pot similarly in short stack 
+mtt scenarios a lot of the nutted hens will simply  
+call a raise or they'll limp in for example and 
+so another function of this is that your incentive  
+to build the pot with nutted hands changes as 
+stacks are short or deep and the types of ranges  
+you build the polarity of those ranges change as 
+stacks get shorter and deeper now a lot of people  
+they'll just think about for example this hand has 
+many possible draws but they won't think about the  
+nut potential of those draws for example if you 
+have a combo draw that's either going to complete  
+bottom straight or a baby flush that is not a 
+very like that hand has maybe has a lot of outs  
+to draw to a reasonable hand but it's not super 
+nutted because if you get a flush it's a baby  
+flush and if you get a straight it's the bottom 
+straight and so there's a difference between how  
+many outs your hand has to complete a draw and 
+the nut potential of that hand similarly as you  
+get deep stacked the things like set over set for 
+example become much more problematic people they  
+don't normally account for how much tighter the 
+final stackoff range gets as the spr gets bigger  
+and bigger so the other main thing to keep in 
+mind is that regardless if you're pre or post  
+what ends up happening is the solver is often 
+going to use sizes that will try and allow it  
+to get stacked in by the river if it has enough 
+of a nut advantage and at short stacks that's  
+not really that's not really an issue if you're on 
+the flop you can often use just a minimum bet size  
+in a low spr situation and then you know like a 
+half pot bet turn in river or if your pre-flop  
+and the spr is low enough you can even just three 
+bet shove for example anyway i think i'll wrap it  
+up here guys thank you all for coming call it a 
+day here and happy grinding thanks all so much

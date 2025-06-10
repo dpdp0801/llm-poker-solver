@@ -1,0 +1,1273 @@
+### TOPIC: mastering block betting in poker
+if you're anything like me you've
+probably been hearing the term block bet
+as part of poker strategy for a very
+long time but like a lot of other
+Concepts it's very easy to use this term
+without having a clear understanding of
+what exactly it means and many players
+end up employing block bet strategies
+without being clear on why they're doing
+it in this video we'll correct some of
+these
+issues before we dive into the video
+please take the time to go ahead and
+like the video and subscribe to to our
+Channel it helps us keep bringing you
+highquality strategy content on a
+regular basis thanks hi Wizards I'm Matt
+hunt and this video is going to be all
+about the theory behind block bets this
+is a complex topic so we're going to
+tackle it from as many different angles
+as possible in order for you to get a
+full perspective however there are some
+restrictions in how we're going to
+Define our terms which I'll explain
+shortly to start with let's establish
+what we're referring to when we talk
+about a block bet first and foremost
+we're referring to small bet sizes
+usually anywhere around 35% of the pot
+or less but sometimes as small as 10% or
+even 5% of the pot while it wouldn't
+necessarily be incorrect to use the term
+to describe a small bet on any street
+it's primarily used to describe bets
+made on the river since these bets tend
+to serve a different more specific
+purpose than small bets made on earlier
+streets for that reason we're
+exclusively going to be discussing small
+bets made on the river in this video in
+addition we're only going to be focusing
+on bets made from out of position this
+is for the very simple reason that small
+bets from in position on the river don't
+tend to occur at equilibrium the
+downside of reopening the betting action
+and potentially getting raised is almost
+always greater than whatever additional
+EV we might gain from betting small
+relative to checking and seeing a
+showdown this forms the basis of our
+most fundamental principle regarding
+block bets which is that we should not
+use block bets from in position on the
+river this video is also not going to
+cover block bets which fall into the
+category of donk bets in other words any
+bet from Outer position in a spot where
+we check the previous Street in order to
+discuss these spots we would have to
+dive into the theory behind donk betting
+which is a very big topic and is best
+covered in a separate video watch out
+for that one in future with that said
+let's discuss some of the most common
+misconceptions about block bets since
+it's important to address a few of those
+before we fully dive into the theory
+let's start with a simple true or false
+question for you all feel free to pause
+the video for a moment if you need some
+time to think about the answer true or
+false block bets are made primarily
+because our specific hand does not want
+want to check and face a bet from our
+opponent think about this one for a
+[Music]
+second hopefully you have your answer by
+now so let's discuss it the answer is
+false as many of you might have imagined
+however the theory behind block bets is
+actually a lot more complex than this
+and you may be surprised to learn that
+there is actually a small grain of truth
+behind this concept which we'll discuss
+later on when we look at range
+Construction in fact there are are
+several different common misconceptions
+about block betting which all contain a
+small grain of Truth despite the fact
+that they would generally be bad advice
+to follow for example the idea that
+block betting is only done with middle
+strength hands the idea that it's done
+with the specific intent of inducing our
+opponent to raise or conversely the idea
+that we're usually intending to fold to
+AR raise when we do it each of these
+ideas individually is incorrect but they
+are all grounded in some kind of
+approximation of what the theory behind
+block betting actually looks like and
+we'll tackle each of those grains of
+Truth in a few minutes for now though
+let's focus on some of the primary
+Theory Concepts which will help us in
+understanding how block bets function
+the first of these ideas relates to the
+ranges which are usually in play When we
+arrive at a blockb scenario the idea of
+depolarized equity distributions I have
+another question for all of you more of
+a challenge really the following slide
+is going to contain four images
+representing the equity distribution
+graphs of four different River
+situations your job here is to establish
+which and how many of these four graphs
+if any represents a spot where the outer
+position player block bets more than 30%
+of their range not an easy question I
+know but try to think of it more in
+terms of which graphs represent
+situations where block betting might be
+a good play for the outer position
+player this exercise should help you to
+get more comfortable thinking in terms
+of equity distributions are you ready
+good then here are the graphs
+[Music]
+so did you figure it out well it was a
+little bit of a trick question actually
+because the answer is all of them all
+four of these spots are situations I
+pulled from the GTO wizard archive where
+block betting was happening at a rate
+somewhere between 30% and roughly 90% of
+the time they're actually all drawn from
+vastly different scenarios too the top
+two graphs are MTT spots at two
+different stack sizes and the bottom two
+are cash game spots they're also from
+four different betting lines top left is
+from a spot where the outer position
+player bets both flop and turn in a
+three bet pot top right is where the
+pre- Flop Razer bets the Flop out of
+position and then the turn checks
+through bottom left is a spot where the
+big blind check raises and gets called
+and then the turn checks through and
+bottom right is a four bet pot where
+action checks all the way to the river
+what you can see from all these Graphics
+is that none of them represent
+traditional polarized range versus Bluff
+catching range distributions top left is
+a very unusual one in that it represents
+a spot where the outer position range is
+very linear with almost all hands having
+more than 50% equity this was actually
+the spot with the most block beding too
+the other spots are all ones where the
+equity distributions run somewhat closer
+together and both players possess ranges
+containing a lot of different types of
+hands the best way to describe these
+scenarios is simply to refer to these
+distributions as depolarized
+distinguishing polarized from
+depolarized scenarios is an important
+skill but thankfully it's not especially
+difficult the biggest determining factor
+is almost always going to be how many
+bets go in post flop the more one player
+puts in multiple bets across multiple
+streets the more their range begins to
+polarize while the more the other player
+just calls instead of folding or raising
+the more their range begins to condense
+towards Bluff catchers this creates the
+traditional polar range versus Bluff
+catcher Dynamic that I mentioned earlier
+however when fewer bets go in both
+players ranges retain a broader spectrum
+of equity they still possess some middle
+strength hands and some weaker hands
+along with a small amount of slow played
+strong hands while many of the middle
+hands will also increase in equity on
+very turn cards this Dynamic will tend
+to create situations where small bet
+sizings are very useful for the outer
+position player on many runouts it
+allows them to apply pressure to the
+weaker hands in the in position range
+for a cheap price and in many cases it
+will allow for some very thin value bets
+as well but there's also one other
+really big benefit to block bet sizings
+on the river in particular something
+I'll refer to as range manipulation
+you'll have to bear with me a little on
+the name of this concept it does sound a
+little more like one of those
+wishy-washy exploitative terms from 2003
+but I promise it is more Theory based
+than it sounds so what is range
+manipulation well it's not about
+manipulating our opponent it's actually
+about manipulating our own ranges When
+we arrive at the river out of position
+or really on any Street out of position
+but we're focused on the river here we
+have to recognize that anytime we have a
+betting range that range affects our
+checking range and vice versa in turn
+the nature of our checking range affects
+the in position players options their
+optimal strategy will be vastly
+different against a very strong checking
+range compared to a very weak one
+remember that we're always trying to
+keep villain indifferent between options
+and the EV of every option will change
+dramatically for our opponent if we
+change the nature of the range they're
+playing against if our checking range is
+too strong it becomes easier for them to
+Simply check behind see a showdown and
+realize their Equity with most of their
+range while the top of our range will be
+less likely to get value since it's less
+likely to face a bet in the first place
+and have the opportunity to check Rays
+if our checking range is too weak very
+vulnerable to being attacked by the inos
+player both with thin value bets and a
+higher rate of Bluffs as a direct result
+of this wider value bet range if for
+example our range is so weak that our
+opponent can overb any second pair or
+better for Value then they're going to
+be able to fire out a lot of Bluffs as
+well and this puts a lot of our Bluff
+catchers in really bad spots but this at
+least in part is where block Bing comes
+in Block Bing serves as a way for us to
+effectively alter the nature of our
+checking range without paying a
+significant price to do so in some cases
+paying the minimum price of one big
+blind we're creating an extra node in
+the game tree which isn't substantially
+different from the node next to it where
+we check but it's different enough that
+it allows us to make slightly more money
+at the checking node to show you a
+little more of what I mean here's an
+example spot that I ran through a solver
+myself with a slightly simplified River
+game tree it's a 50 big blind tournament
+spot where the hijack bets half pot on
+1095 2tone against hero in the big blind
+gets called and then the turn jack
+checked through the river is the Queen
+of Hearts completing both flushes and
+Straits in this spot when I only gave
+hero the option to check or bet full pot
+hero was forced to check roughly 3/4 of
+our range after we check in position
+checks back just over 63% of the time I
+only allowed in position to bet full pot
+here just for Simplicity but their value
+bet threshold for that sizing is the
+queen High straight a small amount of ax
+was betting for value on this River when
+I added a block bet sizing of 10% of the
+for us here it improved our EV by 0.05
+big blinds which equates to five big
+blinds per 100 a pretty decent sized
+gain for a tiny bet what it also did was
+drastically reduce our checking
+frequency from 76% to 54% this in turn
+allowed villain to bet 1.3% more often
+when checked to that doesn't seem like a
+huge change but consider the other
+variable here villain's value bet
+threshold is now top two pair they've
+started betting Queen Jack for Value
+sometimes it might not seem like a good
+thing that we've allowed villain to
+Value bet thinner but in fact what we've
+done is increased the rate at which we
+cause them to be indifferent previously
+Queen Jack was a clear check back but
+it's now at the point where it's
+indifferent between betting and checking
+so we're actually achieving our goal of
+indifference more efficiently here when
+I added another block bet sizing of 30%
+of the pot the EV went up even further
+by another 0.07 big blinds or seven big
+blinds per 100 so all things considered
+we gained 12 big blinds per 100 in EV by
+adding two different block block bet
+options here which is a very significant
+gain we could probably simplify this to
+one block bet sizing of 20% Po and
+capture most of that EV gain but we
+can't get that extra EV without some
+kind of block bet sizing here let's now
+return to that concept of indifference
+because it's crucial to this next aspect
+of block bet Theory this concept is
+something that I'm referring to as
+double indifference or even triple
+indifference what is this mean well to
+explain it we first have to make sure we
+correctly understand the concept of
+indifference in polarized spots in a
+polarized spot as the outer position
+Bluff catching player we're trying to
+keep villains Bluffs indifferent between
+bluffing and checking or as close to it
+as possible we're also trying to ensure
+that villains value bets don't gain
+massively from one sizing compared to
+another we need to have hands in our
+range which can defend against any
+possible sizing most of the time this
+just requires calling and folding at the
+right frequencies with the right hands
+because we have no reason to do the
+betting ourselves when our opponent is
+polarized and we're usually facing an
+all-in bet meaning there's no ra which
+can happen however in Block bet spots
+we're very often dealing with much
+higher sprs because not very much
+betting action has occurred we're also
+dealing with wider ranges containing a
+broad spectrum of combos what this means
+is that in depolarized spots where block
+betting often occurs the inos player
+will usually have a lot of hands which
+are very close versus a small bet size
+they have just enough equity that they
+can consider calling because they're
+getting such a good price however the
+player will also want to have enough
+Bluffs in their raising range that
+sometimes times these hands will be
+tempted to turn into Bluffs as well a
+tough decision for our opponent in fact
+we'll see that some hands will
+occasionally have all three options
+available to them versus a block bet
+sizing folding calling to Bluff catch
+and raising as a bluff they're
+indifferent in two directions at once
+because they have three options which
+are all very close in EV in addition
+because we manipulated our checking
+range by including a block bet sizing in
+our strategy those same hands will also
+be indifferent between checking to
+Showdown and bluffing versus our
+checking range this creates it's a third
+form of indifference and we reach the
+point where our opponent really has no
+easy options against anything we do
+here's an example of what I mean it's
+the same spot as we previously looked at
+and we're focusing on pocket sevens in
+the villains range if we block bet for
+12% pot a hand like seven of Hearts
+seven of Spades is indifferent between
+all three options folding calling and
+raising in fact it's even indifferent
+between the two possible raise sizing
+options as well in addition seven of
+Hearts seven of Spades is mostly
+indifferent between checking and betting
+if we check it is betting most of the
+time but it's splitting between four
+different sizings the presence of a
+block bet strategy for us here has put
+pocket sevens in a lot of difficult
+spots even the combos without a heart
+are indifferent between calling and
+folding versus the block bet despite the
+fact that they have a clear check back
+if we check so we can see from all this
+that there are a few different things
+that block betting helps us to
+accomplish in any given spot but what
+about the grain of truth that I
+mentioned before about each of those
+common misconceptions well let's take a
+deeper dive into this same spot we've
+been using as our example to discuss
+what I mean so we can see from all this
+that there are a few different things
+that block Bing helps us to accomplish
+in any given spot but what about the
+grain of truth that I mentioned before
+about each of those common
+misconceptions well let's take a deeper
+dive into this same spot we've been
+using as our example to discuss what I
+mean first let's look at the core
+misconception that we block bet because
+we don't want to check and face a bet
+while this idea is very flawed overall
+since we certainly shouldn't build our
+strategy around the idea of trying to
+avoid a specific scenario there is a
+grain of truth to it and it all comes
+down to the idea of increasing the price
+of our opponent's aggression take a look
+at this graphic to see what I mean if we
+check our opponent is facing an unopen
+pot and as a result the amount of chips
+they have to risk in order to make a bet
+of a certain percentage of the pot is
+relatively easy to figure out when we
+block bet even for the 12% sizing the
+level of risk our opponent takes on in
+order to raise our bet increases in a
+nonlinear fashion as you can see the
+price our opponent has to pay to make
+for example a pot siiz raise versus a
+35% block bet is more than double the
+price they pay to make a pot sized bet
+versus a check while this wouldn't
+really affect the scenario that much if
+the spr was very small and all the
+raises were all in at this spr of
+roughly 3.5 it does have an impact it
+Alters the price our opponent will be
+getting against a potential R ra and to
+at least some extent restricts their
+ability to raise for thin value without
+risking overfolded to a re raise another
+way to look at this is that we're
+getting a much better price to block bet
+and then three bet Jam all in than we
+are to check and then check Jam this
+table here shows what I mean if we check
+shove Allin versus a half pot bet in
+this spot we're shoving for roughly 1.5
+times the pot but if we block for 35%
+and then jam versus a half pot raise
+we're only shoving for roughly 3/4 of
+the pot this significantly Alters the
+price our opponent is getting as you can
+see and it also gives us a better price
+on a bluff since our Alpha the frequency
+our Bluff has to get through in order to
+break even is much lower in addition it
+forces villain to defend a much greater
+portion of their range in order to avoid
+overfolded if they raise against a small
+bet they're now forced to call our shove
+with 56% of their raising range as
+opposed to only needing to call off with
+40% of their betting range if they bet
+half pot once we check these aren't
+numbers you need to be able to figure
+out in game but when breaking down the
+theory of complex spots it's important
+to grasp why the solver does what it
+does in this case the initial small bet
+has many different benefits to it but
+one of them is to alter the number of
+chips our opponent has to risk in order
+to be aggressive and subsequently make
+it harder for them to be aggressive
+without allowing us a profitable re
+Bluff the next misconception which does
+possess a grain of Truth is the idea
+that we only block bet with middle
+strength hands we're going to use the
+same situation as an example here only
+this time we're going to focus on the
+equity distributions of the ranges
+here's the graph showing the two ranges
+which arrive at the spot clearly the Big
+blind's Range the light blue line
+possesses very few weak hands by
+contrast the hijacks range contains a
+lot of weak hands the top of both ranges
+are relatively similar the flushes and
+King High Straits but the big blind
+doesn't possess any trash anymore
+because it all would have folded the
+Flop however what's not intuitive here
+is that the block bet sizings from the
+big blind are actually targeting the
+weak portion of the hijacks range to
+make them in different because these
+hands aren't absolute trash but instead
+have perhaps 10 to 20% equity and
+they're in some close spots versus a
+small bet this produces the double or
+triple indifference I mentioned earlier
+if we look at the big blind strategy in
+this spot we can see this in more detail
+the simple Equity buckets on the left
+show us that the smaller bet sizes here
+are not used by any weak hands at all
+that's the 25 to 50% category on the
+right in fact the block sizings here are
+heavily composed of some fairly strong
+hands in particular the 60 to 70% Equity
+region is almost exclusively using the
+block sizes so it is actually true that
+the block sizings are largely made made
+up of middle strength hands here only
+the definition of middle strength is
+mostly referring to hands which have
+between 50 and 80% Equity as opposed to
+Pure Bluff catchers or low Equity combos
+in addition we should also note that
+there is some protection in the block
+sizings here with some portion of the
+best hands also choosing to block while
+there are also some Bluffs as well it's
+just that we can't Bluff very much for
+this size because villain is folding
+very rarely but nevertheless while we're
+not block betting exclusively with
+middling hands the very top and the very
+bottom of our range is more likely to
+use the bigger sizings or check the
+third misconception which has an element
+of accuracy is the idea that we
+sometimes might block bet to induce
+arrays from our opponent now personally
+I think induce can be a very dangerous
+word in this game because it implies we
+can influence our opponent's decisions
+so I try to avoid using this word but it
+is common to hear players talk about
+block betting strong hands in the hope
+of a rise the main reason why this
+thinking is flawed theoretically is
+because at equilibrium our opponents
+will always block at the right
+frequencies whether we bet or check so
+we can't somehow persuade them to over
+Bluff by block betting however the grain
+of Truth contained within the concept
+relates to the idea that certain
+specific hands will prefer to block bet
+instead of checking based on their
+individual card removal properties let's
+look at the same example again except in
+this case I've highlighted two specific
+portions of the Big blind's Range the
+non-nut flushes containing the eight of
+hearts and the nut
+flushes clearly the former category is
+exclusively getting the smaller sizings
+in this spot while the latter category
+is playing a pure check I'm going to
+switch over to viewing the archive real
+quick just to show you guys something
+interesting using the blockers tab here
+we can see the node where the hijack is
+facing the 12% block sizing from the big
+blind and we're focused on the
+frequencies rather than the sizings so
+I've simplified to fold call and raise
+here if we sort by which cards in the
+big blind's hand make the hijack more
+likely to raise we can see that anytime
+we have pairs clubs or Spades in our
+hand it makes villain more likely to
+raise which makes sense since villain's
+raises contain a lot of flushes and when
+we have those cards they have more
+flushes however if we scroll down a
+little we can actually see that the
+eight of Hearts is the only heart which
+actually increases villain raising
+frequency only by. 13% but it does mean
+an increase by way of blocking a lot of
+their most frequent calls which are the
+low end of the rivid straight we can see
+that the 8X hand are almost exclusively
+playing a call here they're never
+raising with 8X except for specifically
+the 86 of Hearts I believe that is yes
+that's the 86 of Hearts you can also see
+that the Jack of Hearts has a fairly
+neutral impact on the raise frequency
+here and all the other Hearts if we
+scroll down actually reduce villain's
+raising frequency by quite a bit in fact
+when we blockb this River with the ace
+or the King of Hearts we get raised a
+full 2% less often so in summary the
+reason why the fles containing the eight
+of Hearts specifically want to block b
+as you can see right here is because
+they're the only flushes which actually
+stand a slightly better chance of
+getting raised based of based on card
+removal our other flushes either the
+stronger ones or the weaker ones all
+have card removal properties which make
+it less favorable to block bet them and
+more favorable to either bet bigger or
+check which unblocks all of our
+opponents thin value raises and a lot of
+their Bluff raises we can in a sense
+induce a raise by block Bing the final
+grain of Truth in the common logic
+around block Bing is all about our
+response to arrays the old approach here
+might have us block betting with the
+intent to fold our entire range to the
+Rays assuming our opponent only raises
+strong hands obviously this is a mistake
+since we should virtually never fold our
+entire range to arays but there is some
+truth to the idea that we have more
+leeway to fold to AR raise after block
+Bing than we do to fold to a bet after
+checking it all comes down to what
+tombos explained in his recent article
+on the site the idea of the ini bets
+Advantage here's a table showing our
+minimum defense frequency against
+various bet and raise sizings the
+villain might use here our theoretical
+MDF is very easy to calculate once we
+check but it becomes more tricky once we
+bet since we have to incorporate our bet
+into the pot size when calculating
+villain's raise the main Trend here is
+that as you can see there's a gap
+between how much of our range we have to
+defend once we check in order to prevent
+villains Bluffs from profiting and how
+much we have to defend once we block bet
+for the same reason that Gap gets
+smaller as our bets are increases but
+even for the 12% bet size we now get the
+luxury of defending our range a full 8%
+less often versus half pot just for the
+low price of 1.5 big blinds in essence
+what we're doing here is using the block
+bet sizings to effectively buy ourselves
+the opportunity to fold slightly more
+often to villains aggression we're also
+purchasing a small amount of fold equity
+in the process which is helpful as well
+alongside all the other benefits we've
+already discussed so now that we've
+broken down some of the common ideas
+about block bet strategies in separated
+fact from fiction let's start thinking
+about the types of spots in which we
+might employ block bets as part of our
+strategy to allow us to do this more
+effectively I've broken these spots down
+into five categories of situations Each
+of which is relatively easily
+identifiable in game I've labeled them
+type A through e for Simplicity type a
+spots are going to be scenarios where we
+take a polarized line again from outter
+position such as betting flop and turn
+or check raising flop and betting turn
+and then a river card arrives which
+changes the board dramatic Al type B is
+any spot where we are in a depolarized
+line as the turn aggressor we check the
+Flop out of position villain checked
+behind and we used the small bet sizing
+on the turn type c spots are similar
+except we bet the Flop from Outer
+position and then the turn was checked
+through type D is where we check call
+The Flop usually versus an inos C bet
+and then the turn is checked through so
+we retain all of our flop defending
+range through to the river finally Type
+e spots are the ones where there is no
+betting on either the Flop or turn and
+both players check all the way to the
+river let's break down each of these
+categories of spots and examine our
+usage of blockb strategies in these
+scenarios using the GTO wizard archive
+so let's start by looking at a type a
+spot what I've done is I've picked out
+one from the archive it's a 100 big
+blind tournament spot three bet pot
+small blind against hijack small blind
+is barreling off here and as you can see
+I've put together a makeshift river
+report since we don't yet have the
+ability to do river reports in the
+archive and you can see I've focused on
+the smallest sizing here and
+interestingly there are quite a lot of
+rivers where this very small sizing of
+10% even in a polarized line is actually
+used if we look at where it's happening
+the most it's primarily on cards that
+complete the Straits not so much the
+flushes because the flushes do affect
+the board in a slightly different way
+given that the in-position player is
+going to have some flushes that the
+outer position player maybe won't have
+as often here but the straight
+completing cards like the
+the king the 10 in particular of the
+suits that are not clubs are going to
+have pretty heavy block bet Tendencies
+here for the out of position player and
+even some of the cards that are
+ostensibly almost a brick are still
+going to have a little bit of block
+betting even on a a four an offsuit four
+you know there's still a small amount of
+block betting there so let's pick out
+the card that has the most block betting
+here which is the king of diamonds and
+just examine what that strategy looks
+like here so here we have the spot
+pulled up and in fact what's very
+interesting about this scenario is that
+we focused on the smallest sizing of the
+10% but there's actually a lot of 35%
+here as well and that goes to the extent
+that we're basically never checking in
+this spot now it's not a highfrequency
+spot there's not that many combos that
+get here but it is worth noting that
+it's very easy for a spot like this to
+exist where out of position simply has
+the incentive to block bet almost all of
+their range here and if we look at why
+that is take a look at the equity
+distributions while at the bottom here
+you can see the out of position player
+has a lot of medium strength hands and
+in position has a lot of hands that are
+not necessarily pure garbage they don't
+have zero Equity but they do have very
+very little Equity this King completed a
+lot of hands it it made a lot of the
+small blind's Bluffs improve to one pair
+so as you can see small blind doesn't
+have a lot of best hands but they have a
+huge advantage in good hands the in
+position player actually has almost no
+good hands here and then both players
+have a little bit of weak hands and in
+position just has a lot of trash so in
+position is slightly polarized but the
+frequency of good hands is just so high
+for outer position that they're actually
+using a block size instead of checking
+so it's a little bit like a spot where
+they would normally check and allow in
+position to Bluff with their trash and
+value at their best hands and then they
+would just Bluff catch except a lot of
+their hands are so strong they still
+want to get a little bit of value and if
+we look at what the 10% sizing is
+targeting here you can see what the
+portion of the in position players range
+is that's made indiff by this size and
+it's a lot of Ace Jack some ACE Queen
+even Ace Jack Jack n suited sometimes
+bluffing sometimes folding 87 is pretty
+close 76 is pretty close with a bluff so
+there's a lot of 7x that's close between
+bluffing and folding there's a certain
+amount of jackx that's close between
+calling and folding so that's the region
+that's indifferent against this uh very
+small size here so that's a type a spot
+that's a spot where we're in a polarized
+line and then the river changes the
+board to some degree which essentially
+improves our Bluffs doesn't allow us to
+really have very much trash anymore and
+it kind of becomes a spot where in
+position or our opponent has a lot of
+trash and some nut hands still and so
+we're just sort of pushing the equity of
+that strong portion to get a little bit
+of very thin value and then also give
+ourselves the ability to Bluff catch
+against their jams so that's how this
+spot is playing out so next let's look
+at a type B Spot in a depolarized line
+where we're the turn aggressor again
+I've created a makeshift river report
+here and this time it's for a spot again
+an MTT spot hijack big blind except this
+time it's 764 Rainbow on the Flop high
+frequency lead board for the big blind
+but it does go check check on the Flop
+and then the big blind on the eight of
+club's turn so four to a St on the turn
+with no flush draws the big blind bets
+out for 33% so a pro bet here of a
+fairly small sizing and you can see here
+that on a lot of these Rivers there are
+very high frequencies of very small bets
+being used you can see that even on a
+king a queen a jack a lot of cards like
+that there's 60 70% almost of block
+betting being done and by contrast there
+are certain very specific Rivers where
+there's no block betting being done and
+it's specific specifically a five or an
+ace the ace being such a good card for
+the in position player that the block
+bat doesn't achieve much and the five
+putting five to a straight out there
+putting a straight on the board and now
+creating a scenario where both players
+are going to chop the pot a lot of the
+time so if we again do the same thing
+and we pick out the most common spot
+here the River card that has the highest
+percentage of blocking is the Jack of
+clubs so let's bring that one up and
+take a look at it so here's the Sim and
+you can see the out of position player
+here is actually pretty much block
+betting their entire range at this point
+they are betting 3.5 so 35% of pot with
+40% of their range and they're betting
+10% with another 31% of their range
+there are some over bets and some bigger
+bets kind of spread out across the range
+with some other portions of range here
+but there's very very little checking
+and it's again going to come down to the
+equity distributions so let's bring that
+up you can see it looks very similar to
+the previous spot here we've got a lot
+of middle to strong hands in this blue
+line here there are a few trashy hands
+here so it's not quite exactly the same
+but really again it's putting a lot of
+pressure on these middling to weak hands
+these 20ish per Equity hands that the
+inos player has the out of position does
+actually still have a nut Advantage here
+so it again it there's a slight
+differentiation between this and the
+previous spot uh in that regard but
+again the in position player has a lot
+of trash they have a lot of stuff that's
+in that weak region so we're up against
+a fairly weak range and we're just
+trying to achieve indifference against
+some of the very bottom stuff in that
+range so this 10% size if we look at
+what the response is against 10% the
+hands that are indifferent you can see
+King High Queen high is indifferent
+between raising and folding some ace
+high is indifferent between raising
+calling and folding Ace 10 ace9 a lot of
+that stuff again is indifferent some
+hands are indifferent between raising as
+a block
+and folding now uh actually some hands
+are also indifferent when it comes to
+raising for Value which is kind of
+interesting so like Aces indifferent
+between raising for value and calling so
+very interesting there but generally
+we're targeting a lot of pretty weak
+stuff a lot of ace high that does still
+have reasonable
+Equity with the 35% sizing the target is
+going to be a little bit further
+up and if we go to filters we can see it
+a little more easily here and I'll just
+make it
+range length for everything so we can
+see really it's ace high and even some
+low pair there's a little bit of low
+pair in there that's actually slightly
+indifferent versus the 35% ace high very
+indifferent for the most part just kind
+of mixing calls and folds so generally
+speaking that's the way that this spot
+is panning out it's similar to the
+previous one it's a spot where outter
+position just has a lot of hands that
+have decent equity in positions range is
+just very very weak and the small bet is
+just serving to apply pressure to the
+bottom of the in position players range
+let's now move on to looking at a type c
+spot this is a depolarized line where we
+are the Flop aggressor instead of the
+turn aggressor in this case we have
+another MTT spot same Stacks except
+hijack button this time we are out of
+position on a flop of 1085 rainbow we
+see bet for just over half pot get
+called the turn is a King of Spades
+bringing a flush draw and an overcard
+and then it goes check check so now we
+arrive at the river and you can see here
+a lot of rivers are using a very high
+frequency of block betting here there
+are plenty of rivers where almost half
+our range has an incentive to block bet
+and this is where a lot of that range
+manipulation is coming into play like I
+mentioned the ability to slightly alter
+our checking range by having a blocking
+bet in this case is very very powerful
+and if we want to pick out the cards
+where it happens the most well the most
+frequent one here is going to be the
+five of diamonds so at
+59.3% that's the highest frequency so
+let's pull that one up and see what it
+looks like so in this case as you can
+see again we're not getting here with a
+massive number of combos but it is about
+25 to 30 combos so it's not an
+insignificant number and as you can tell
+there's a certain amount of checking
+going on but there are two different
+block sizes being used with fre certain
+frequencies here we've got a 10% size
+and we've got a 34% size so you know
+kind of in that same territory 1/3 and
+then you know the the very smallest size
+or almost the very smallest size
+possible and once once again it's going
+to come down to what the look of the
+ranges is so here it's a little bit
+different than before in that we're not
+necessarily as easily able to Target a
+big portion of very weak hands here but
+but it is fairly similar in principle in
+that as you can see we now have a high
+frequency of trash hands in the buttons
+range the button does have 43 or 44% in
+that category of 25% Equity or less they
+do have some good hands now which is
+slightly slightly limiting how much
+blocking bet we can block betting we can
+do U and we also have some nut hands
+which gives us some incentive to to use
+the larger sizes at some rate but in
+general here the distribution of hands
+is once again in a position where we
+have a pretty decent amount of good to
+to strong hands and then our opponent
+has quite a lot of trash so it's just a
+situation where the block bets are
+putting pressure on that bottom of the
+range here so if we look at how that's
+actually
+applying let's go through the 10% node
+do the same thing once again the target
+here would seem to be the ace highs ace
+high is kind of indifferent here against
+the 10% and low pair sixes and sevens
+are pretty much pure call so the 10% is
+kind of targeting ace high basically and
+also targeting some of the nomade hand
+kind of forcing it to Bluff raise at
+some rate and then the
+34% going to probably Target slightly
+higher up in the range again yeah you
+can see the 34% is now targeting Lope
+it's now targeting 8X and nines to some
+re to some degree which is kind of
+interesting we've also got a lot of the
+low pairs that are now in different like
+sevens is very close sixes is close
+threes and Deuces mixing calls and and
+raises there so definitely targeting a
+slightly different region but once again
+it's a small sizing that's used to apply
+pressure to a certain portion of hands
+and keep it indifferent and that's a
+good example of a type c spot let's now
+look at a type D Spot this is actually a
+fairly common one this is where we are
+defending the Flop we check call The
+Flop and then the turn checks through
+and we're out of position on the river
+so this should be a very familiar
+example for you obviously we've already
+looked at this spot a bunch but this is
+the breakdown of the frequencies at
+which the block bets are used on each
+River card here you can see this is not
+quite as much of a spot where the block
+bet is used at such a high rate it has a
+little bit to do with the Flop bet being
+55% and in position still having a
+decently strong range in some aspects
+considering the turn was a turn that
+some fairly strong hands are still going
+to want to check but as you can see
+there are plenty of spots here where the
+block bet is occurring and the spot that
+we've already picked out the Queen of
+Hearts was one of the more common block
+bet spots we've looked at that one quite
+a bit 40% block bet frequency that's
+occurring but let's also take a look at
+the second most here which is the 10 of
+Club so let's break that one down and
+see if we can observe some similar
+Trends so this is the type D Spot with
+the 10 of clubs on the river as you can
+see the 12% and the 35% are both still
+relatively prevalent except maybe not a
+little
+bit except maybe not as much as they
+were with the Queen of Hearts River the
+59% and the 82% are also being used a
+little bit more here considering that we
+have a good chunk of 10x in our range
+that's just looking to Value bet
+relatively big and get some value from
+that so in the end it's not quite the
+same sort of a spot just because there's
+a lack of draws that have completed on
+this River it's given us trips instead
+but it's the same principle here if we
+look at the range distribution again
+it's a spot where we have a lot of
+Fairly strong hands or at least we have
+a lot of hands that are middle strength
+to strong kind of region and in position
+has a lot of trash they have a lot of
+hands that are in that weak category now
+that's it's important to distinguish
+here that when we talk about trash in
+these spots we're not talking about just
+random like eight High absolutely
+nothing here necessarily we're just
+talking about hands that are below 25%
+equity and if we look at this region
+here you can see that even some of the
+absolute bottom portions of villains
+range even some of the hands that just
+have like seven High Etc they're not
+zero equity and it's because sometimes
+we have like a three High flush draw
+with do three of hearts and they
+actually have a tiny bit of equity right
+so in the end we really don't have that
+many hands in villains range that are so
+trashy that they just have no equity and
+even hands like their Ace highs their
+King highs a lot of that stuff that has
+uh some Equity here is in that 10 15ish
+kind of percent region so again if we
+look at what's being targeted by the
+different parts of the strategy here the
+indifferent region against the 12% you
+can see it's a lot of low pair
+in fact a lot it's actually kind of
+surprising here that something like 65
+is fairly indifferent against 12% I
+would assume that that's just because it
+loses to a 9ine or a Jack so often the
+ace high is also indifferent there as
+well particularly the weaker Ace highs
+that unblock some potential Bluffs and
+the stronger a highs that block some of
+the value so that's kind of the region
+that's being targeted by 12% and then
+the 35% is going to be doing a similar
+thing to what it was in the other spots
+it's is going to be targeting slightly
+further up targeting a little bit of
+third pair some 9x but really 9x isn't
+folding low pair is going to be mostly
+the region that's very much targeted by
+that 35% sizing here we're just putting
+a lot of villains weakest sort of one
+pair hands in a lot of very awkward
+spots here so that's basically what's
+happening so again it's a similar sort
+of a Vibe it's a similar sort of a
+approach where we are taking a spot that
+villain has a lot of fairly weak hands
+and we're putting them in a really
+annoying sort of a spot against a very
+small bat where they might consider
+calling with those weak hands they might
+consider Bluff raising with them and
+that again is that double or triple
+indifference that I mentioned earlier so
+that's a type D Spot and finally let's
+look at a Type e spot this is a pure
+passive line where both flop and turn
+get checked through in this case once
+again it's a 50 big blind MTT spot this
+time it's hijack big blind and we got a
+board of King 98 rainbow Jack of Spades
+tur
+and then we're just looking at the
+distribution of rivers here you can see
+that there's a little bit less block
+Bing going on here overall just simply
+because this is a spot now where it's
+going to be the case that for the most
+part both players are lacking a lot of
+their strongest hands and that in turn
+is going to kind of slightly neutralize
+the influence of the inos player being a
+bit weaker because now the outou of
+position player is pretty weak as well
+so the in position player may not have
+quite as much trash in their range here
+but nevertheless there are going to be a
+good number of opportunities for outter
+position to block bet here and the most
+common card interestingly is the one
+that completes all the draws which is
+the Ace of Spades so let's look at that
+one so this is the Ace of Spades run out
+here on this king98 Jack and you can see
+there's obviously a lot of straits
+flushes two pairs Etc out there but
+neither player is really going to have
+that much of that to to begin with at
+this point we've got a sizing of 16% as
+the block sizing for out of position
+because the spr is so significant at
+this point the need for two different
+block sizings or the ease of calculation
+within the solver of two block sizings
+is a little bit reduced so a sizing of
+16% is fine as the sizing that we're
+just going to evaluate here and you can
+see it is being used a certain amount
+150 combos or so which is a pretty high
+frequency considering a lot of these
+other spots are situations where we only
+have 20 or 30 combos in our range in
+this case you can see that a lot of the
+king X is choosing to block a lot of the
+ace X is considering blocking at some
+point because it's a little bit harder
+for it to go bigger and if we were to
+highlight the absolute strongest
+portions there are going to be some
+flushes in there but not a ton there are
+going to be some nut flushes that are
+blocking to get raised some nut flushes
+that are checking just depends on card
+removal as we mentioned before so if we
+break down the equity distributions once
+again you can see this one's a little
+bit different cuzz again as I mentioned
+the fact that outer position has now
+checked twice also neutralizes the
+strength of their range to some degree
+so both players now have a fair amount
+of trash and it's not quite as favorable
+of a situation for outter position to
+block bet but of course that does mean
+that there's some good hands some weak
+hands some best hands the distribution
+is definitely going to be pretty Broad
+and neither of the two ranges is going
+to be in a particularly favorable spot
+here but card removal is going to have
+an impact as we've already said and
+we've also we're also going to see that
+there are still plenty of hands in
+villains range that are going to be in
+different versus certain bet sizes so if
+we look at again the 16% size here which
+is the only real small bet size that's
+being used or the only block sizing
+that's being
+used we can see that for the most part
+again it's low pairs there's no ace high
+now obviously because there's an ace on
+the board but it's low pairs it's Queen
+eight Sev sixes FIV fours threes Deuces
+all those low pocket pairs those are now
+pretty much indiff versus AET because if
+we look at the equity that they have if
+we sort by Equity here you can see I had
+like even Deuces has
+11.7% Equity here or even sevens has
+12.3% equity and those hands are in some
+awkward spots versus that 16% bet size
+just because of how good of a price
+they're getting so this once again is a
+spot where even though the block bet
+sizing is not as prevalent as it was in
+some of the other sit situations where
+out of position really had a lot of good
+hands but not that many nut hands in
+their range this is a spot where block
+beding can come in just simply as a
+versatile tool to alter our checking
+range slightly and create some
+indifference for certain hands in the in
+position range that otherwise would have
+a fairly easy check if we were to just
+check so that about wraps up the type e
+spots so now that we've identified the
+main types of spots in which block
+beding occurs let's summarize what we've
+learned in this video in general block
+Bing is a very common part of the outer
+position River game tree especially in
+depolarized lines with limited betting
+action the idea behind this strategy as
+a whole is that it achieves several
+things at once it keeps certain parts of
+our opponent's range in different in
+various ways at the same time and Alters
+the nature of our checking range some of
+the old-fashioned logic surrounding
+block Bing does have some Merit but
+range construction is very important as
+always we're never doing anything
+exclusively with one type of hand
+when we're looking for spots to employ
+block bets we should find spots where
+our range contains a limited amount of
+trashy hands and or both players can
+easily have a lot of second and third
+pair hands and in particular this tends
+to occur on somewhat connected boards
+Where the River completes one or more
+drawers and I would also look out for
+situations where our opponent has a lot
+of hands that have 10 20 25% Equity that
+we can put in those indiff spots that's
+going to be it for this video I hope you
+got a lot out of it if you'd like more
+on on this topic you can check out Tom
+boss's free article titled the initial
+better advantage that I mentioned
+earlier and solo Costa's coaching
+session on depolarized strategies which
+is available with a GTO wizard
+subscription if you have any specific
+questions about this video please feel
+free to reach out to me via the GTO
+wizard Discord server where I'll be
+happy to answer them thanks everybody
+for watching and good luck
+[Music]

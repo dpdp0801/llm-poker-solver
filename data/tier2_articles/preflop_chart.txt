@@ -1,0 +1,40 @@
+### TOPIC: preflop chart
+Preflop Poker Charts for Cash Games
+Cash games can be more complex than tournaments, mostly because the stacks in cash games tend to stay deep throughout the duration of a session
+On the other hand, cash game players don’t have to spend too much time learning how to play poker with a short stack, as such scenarios rarely occur at cash game tables.
+Our preflop poker charts for cash games offer optimal solutions for preflop play in 6-Max and Full Ring cash games and simplify the strategy to one that is relatively easy to memorize and implement in actual games.
+Poker Preflop Charts for 6-Max
+6-Max cash games are extremely popular these days, and our 6-max preflop charts for 6-Max offer a complete game plan for all preflop play in them. Here are the hands you should be opening in a standard 100bb situation:
+LJ: 17.6% - 66+,A3s+,K8s+,Q9s+,J9s+,T9s,ATo+,KJo+,QJo
+HJ: 21.4% - 55+,A2s+,K6s+,Q9s+,J9s+,T9s,98s,87s,76s,ATo+,KTo+,QTo+
+CO: 27.8% - 33+,A2s+,K3s+,Q6s+,J8s+,T7s+,97s+,87s,76s,A8o+,KTo+,QTo+,JTo
+BTN: 43.5% - 33+,A2s+,K2s+,Q3s+,J4s+,T6s+,96s+,85s+,75s+,64s+,53s+,A4o+,K8o+,Q9o+,J9o+,T8o+,98o
+SB: Raise or Call 62.3% - 22+,A2s+,K2s+,Q2s+,J2s+,T3s+,94s+,84s+,74s+,63s+,53s+,43s,A2o+,K4o+,Q5o+,J7o+,T7o+,96o+,86o+,76o
+Our charts for 6-Max cash games are dubbed as “implementable” because they do not represent the exact replication of optimal preflop gameplay.
+Instead, they give you access to a more simplified strategy that comes as close as possible to actual GTO preflop solutions.
+Since solvers often recommend playing the same hand in different ways at certain frequencies, it is nearly impossible to memorize what frequency each hand should be played as a fold, call, or raise.
+Our implementable 6-Max charts simplify this strategy to give you one solution for every hand you can get, assuming 100 big blind stacks.
+The charts are split into RFI and Facing RFI in position and out of position, as well as Blind vs Blind, offering solutions for all the most frequent situations in 6-Max cash games.
+When using the 6-Max preflop charts, remember you should use the following raise sizes:
+Raise to 2.5bb first in
+Raise to 3bb first in from SB
+3-Bet to 3.5x the raise IP
+3-Bet to 4x the raise OOP
+Raise to 3.5bb in BB facing SB limp
+4-bet to 2.5x the 3-bet OOP
+4-bet to 2.3x the 3-bet IP
+Starting Hands for Full-Ring Poker Games (8-max)
+Unlike 6-Max cash games, full-ring cash games are usually played with eight players at a table, which means more hands per orbit and more positions at the table.
+Preflop hand ranges for full-ring cash games are similar to those for 6-Max games, except for the two earliest positions, who should play an even tighter range than UTG in 6-Max cash games. Here are the hands:
+UTG: 11.4% - 77+,A3s+,K9s+,QTs+,JTs,T9s,AQo+,KQo
+UTG+1: 13.2% - 77+,A3s+,K8s+,QTs+,JTs,T9s,AJo+,KQo
+LJ: 15.7% - 66+,A2s+,K7s+,QTs+,JTs,T9s,ATo+,KJo+
+HJ: 19.6% - 55+,A2s+,K5s+,Q9s+,J9s+,T9s,ATo+,KTo+,QJo
+CO: 26.1% - 44+,A2s+,K5s+,Q8s+,J8s+,T8s+,97s+,87s,76s,65s,54s,A8o+,KTo+,QTo+,JTo
+BTN: 40.3% - 22+,A2s+,K2s+,Q3s+,J5s+,T6s+,96s+,86s+,76s,65s,54s,A3o+,K8o+,Q9o+,J9o+,T9o
+SB: Call or Raise 73.9% - 22+,A2s+,K2s+,Q2s+,J2s+,T2s+,92s+,84s+,73s+,63s+,52s+,42s+,A2o+,K2o+,Q3o+,J5o+,T6o+,96o+,86o+,75o+,65o,54o
+Additionally, if you want to play full-ring cash games, you have to learn how to handle opens from early positions in a full-ring cash game.
+You can find all the necessary ranges once you gain access to our full GTO poker ranges calculator, which allows you to generate any range for any position and any stack size you want.
+To begin with, learning the downloadable 6-Max cash game preflop charts should be enough, and you should adapt in a full-ring game by playing even tighter from UTG and UTG+1 and also responding to raises from those positions tighter than you would in a 6-Max game.
+If you want to take your understanding of full-ring cash games to the next level, get full access to our preflop ranges calculator and find solves for every spot you can come up with at any stack depth and any position you need.
+Start out by downloading the appropriate preflop range charts for your game and study the different plays you should make across different stack depths and positions at the poker tables.

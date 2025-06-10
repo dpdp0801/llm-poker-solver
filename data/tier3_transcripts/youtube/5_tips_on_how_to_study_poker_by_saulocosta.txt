@@ -1,0 +1,249 @@
+### TOPIC: 5 tips on how to study poker
+hello everyone this is sal acosta for
+gta wizard and this is going to be a
+video about five tips on how to get
+better at studying poker
+this is a very sensitive topic amongst
+most poker players poker enthusiast
+professionals
+because it can be very overwhelming and
+confusing deciding how to spend or study
+time we have so many notes to study so
+many different concepts poker is such a
+complex and big game that sometimes
+it's very overwhelming to decide exactly
+what direction we should take
+and i hear a lot of the time and i have
+the experience myself of sitting in my
+chair
+preparing myself to study and not being
+very sure of what to do and sometimes
+even procrastinated because of that and
+also becoming a little bit frustrated
+because you're not being productive
+enough
+so hopefully with these five tips you're
+going to be able to solve that problem
+and spend your time in the most
+productive way that you can
+so the first tip is a very common tip
+that gets thrown out in every discussion
+about
+poker study which is focus on the most
+common spots this is the most obvious
+one but i had to include this one here
+because it makes a lot of sense and with
+the current context of a
+insane platform like we have here at gta
+wizard that offers the entire game tree
+for us to browse it can be very tempting
+to spend time on some very unique type
+of situations that are not going to add
+too much to your understanding and to
+your ev so focusing on the most
+important spots is really relevant and
+those are going to be situations that
+involve the button and the blinds okay
+so you're going to be playing most of
+your hands from the button and the
+blinds so it's important that you
+prioritize those situations okay single
+raised pots and three bed parts are the
+ones that you should go with so but very
+speak blind but very small blind through
+that pot but the very speed blind
+through that part all those situations
+are going to be both very common and
+very relevant to your ring rate so make
+sure you prioritize them in your study
+all right
+the second tip is one that is hopefully
+going to allow you to solve that problem
+of getting frustrated that you don't
+know what you should be doing well if
+you don't know what you should be doing
+don't spend your energy feeling bad
+about that just go do something all
+right and what i recommend you to do is
+spend some time practicing right time
+spent practicing is not time uh poorly
+spent is time very well spent so if you
+don't know what to do if you're like
+interaction if you don't know exactly
+what you should be
+doing with your study time just go for
+example here to the full hand practice
+mode this is going to allow you to
+practice a hand from the beginning to
+the finish and obviously this is going
+to give you insight on how to play
+better poker because you're going to be
+getting immediate feedback on your
+actions okay so instead of spending
+energy and getting frustrated that you
+don't know what to do and then
+you look at a clock and it's already one
+hour pass of your study time just
+don't waste time with that just go
+straight to the practice mode and
+practice at hand so you can for example
+prioritize those situations that we said
+but there's big blind singular spot and
+you can play a hand and by doing this
+you're going to be doing a very good
+uh service to your ev and to your
+understanding because there's no way
+it's going to be
+not useful for you okay so make sure you
+spend some time studying practicing if
+you don't know what to do
+third tip is a very relevant tip that as
+well can save you a lot of time and a
+lot of frustration
+which is don't try to memorize
+frequencies focus on understanding we
+see that a lot of people get overwhelmed
+with the solver strategy and they shoot
+themselves in the foot by making things
+even more complex by trying to memorize
+frequencies okay it's really really hard
+i would say impossible but maybe to some
+people it is still possible but for most
+people it's not going to be
+feasible or even productive to try to
+spend time memorizing frequencies so
+instead of just staring at a grid for
+example a button verse big blind a
+random board and they're trying to
+memorize okay this hand passed this
+amount of the time
+don't do that focus on understanding
+focus on
+realizing what are the incentives that
+goes behind those strategies and you can
+do this multiple ways one of the best
+ways by looking at the accurate
+distributions but more on that later the
+point of this tip is don't really focus
+on memorizing focus on understanding
+this is really important not necessarily
+a practical tip because i'm not telling
+you how to do that but i'm definitely
+telling you what not to do what you
+should not be doing is trying to
+memorize that king nine suited bets
+86 of the time here okay this is not the
+way to go
+third tip very important one is spend
+some time building heuristics okay this
+is different to memorizing and we're
+gonna talk about that so memorizing is
+trying to say that you're going to play
+this way at this frequency in this
+situation and you're trying to really
+memorize some very unique uh
+instances of strategy what heuristics
+does is
+you kind of bucket similar spots
+together and you build simple
+instructions that you can
+follow to play better strategies so by
+taking a look at aggregator reports you
+can do just that aggregator reports are
+very very useful at building heuristics
+or to the purpose of building heuristics
+because they present you with average
+data so by looking at the average data
+of how the solver plays you can build
+very simple instructions on how to play
+certain types of word textures so let's
+say for example that you want to get
+better at playing ace high boards so
+just go here in the top right corner you
+check the highest card a's here for the
+filter and it's going to show you the
+aggregated frequencies four a's high
+boards on this particular node so you
+see for example that on a high board you
+should be checking 52 percent of the
+time on average this is really useful
+because next time you play an ace high
+board you know that on average you
+should be checking half of your range so
+by knowing exactly how on average your
+range plays allows you to play better
+your giving hand remember that in poker
+you're not playing hand versus range
+you're playing range versus range so
+knowing how your entire range plays
+certainly makes you better at playing
+your unique hand okay so spend some time
+on aggregate reports to build good
+heuristics that you can use in game so
+what frequencies should be taking
+certain actions with roughly
+and what strategic options make the most
+sense with your with your distribution
+you shouldn't try to memorize this as i
+said but having a starting point of your
+strategy and
+how to execute your strategy in game is
+very useful because it saves you a lot
+of time and energy and of course makes
+you play better
+the final tip i have is again
+not a very practical one because it's
+not going to tell you necessarily
+exactly what to do but it's going to
+tell you again what not to do one of the
+better things you can do for your game
+and for your career as a poker player is
+focus on understanding so what i
+encourage you to do is expose to expose
+yourself to more data other than
+strategy i feel like a lot of people
+including myself in the past and my
+students would spend a lot of time
+staring at grids and this of course is
+good because it allows you to
+integrate patterns on how different
+board textures play and how different
+range distributions play but again this
+is mostly about memorizing or building
+heuristics so instead you should focus
+more on understanding what's going on
+and you can do this by
+spending more time really digging
+through what other ranges like so i
+really recommend you spend a lot of time
+in the ranger step
+use the equity buckets here to really
+understand how the different ranges are
+constructed and you see that the more
+you get better at realizing how both
+ranges are distributed the easier it's
+going to be for you to derive what
+should be the correct strategy so i
+really encourage you to spend more of
+your time taking a look at the equity of
+both ranges the view of both ranges how
+the equity buckets are distributed for
+both players what's the active
+distribution graph for both players who
+has the advantages so really go deep
+into a given hangar a given spot and
+really try to understand why the
+strategy look like the way he does
+instead of just spending multiple hours
+starting at a grid which of course is
+not
+uh not useful it can definitely help you
+get better at playing poker but you see
+that you learn a lot more and get better
+much faster if you pay attention to the
+whys if you really try to understand why
+certain strategies are the way they are
+so that's it these are the five tips
+hope you guys enjoyed
+and i see you later
+you

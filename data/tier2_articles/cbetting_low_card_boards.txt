@@ -1,0 +1,27 @@
+### TOPIC: cbetting low card boards
+In previous articles, we covered the optimal c-betting strategy for ace-high and high-card boards. Today, we will analyze c-betting low card boards to break down the GTO play.
+We will cover both dry and connected board textures. We will also review in-position and out-of-position play to illustrate what adjustments you should make and share key takeaways from these situations.
+In Position (IP) on Dry Low Boards (e.g., 9♠-5♣-2♦): As the preflop aggressor, you have a significant range advantage. The solver recommends c-betting over 67% of the time, primarily using larger bet sizes (around two-thirds of the pot).​In Position on Connected Low Boards (e.g., 8♠-7♠-5♦): These boards are more favorable to the big blind’s range. The solver suggests c-betting less frequently, focusing on hands with equity (like overpairs and strong draws) and often employing smaller bet sizes.​Out of Position (OOP) on Dry Low Boards (e.g., 9♣-5♥-3♣): Without the advantage of position, it’s advisable to check almost your entire range. When you do c-bet, choose hands with strong equity and consider smaller bet sizes to control the pot.​Out of Position on Connected Low Boards (e.g., 8♠-7♠-5♦): These boards are particularly challenging. The solver recommends a cautious approach, with minimal c-betting, focusing on hands that can withstand aggression and opting for smaller bet sizes.
+To better understand wide poker ranges, we will use examples when we open from the BTN, get called by the BB, and then have our hands checked after the flop.
+Key assumptions:
+Let’s take an example of a dry board containing 9h5c2d to see how the solver suggests handling these situations.
+This is a board that clearly favors the preflop aggressor. You can have more overpairs and other strong hands, giving you a significant range advantage. Because of this, c-betting low card boards like this encourages you to bet aggressively and even pick a bigger bet-sizing.
+In this exact situation, PeakGTO suggests c-betting over 67% of the time and mostly using big bets of slightly over two-thirds of the pot.
+The best way to approach these situations is to use a mixed strategy of betting your strong hands and draws most of the time. The only hands that you should always be checking back are some Ax hands that can even win some pots at the showdown and will help you balance your range quite well.
+If we take a wet board such as 8s7s5d as an example, your strategy changes almost to the opposite approach.
+Contrary to the previous example, you will only need to c-bet around 33% of the time and will check back most of the time.
+Our c-betting range in this situation is split between various hands. As in most situations, we apply a mixed strategy betting with our made hands, combo draws, and some pure bluffs.
+A game theory optimal strategy also preferred smaller bet sizing usually betting less than one-third of the pot.
+This is not a surprise since this board is much better for the big blind calling range. We will have a hard time putting our opponent under pressure since he has a range advantage in this situation, so controlling the size of the pot is beneficial for us.
+Your approach to these situations changes significantly when you are out of position, so let’s take a couple of examples and see how we should adjust in these situations.
+Our assumptions:
+The first example we are going to look into is 9c5h3s.
+When being OOP, you should check pretty much your entire range, with the optimal strategy being checking 94% of the time and betting just 6% of your hands.
+By checking most of your hands, you protect your range and keep the pot smaller, giving yourself a chance to play well when facing a bet since you will have many strong hands in your range that you could use for both calling and raising.
+When you end up checking, you will face a bet from your opponent around 60% of the time, so you need to adapt an aggressive check-raising strategy and also call quite a few of the hands to avoid being exploited.
+Overpairs, sets, and overcards for the bluffing part of the range are perfect candidates for check-raising, while you can be check-calling most A-highs and other hands with some equity.
+If we take 8s7s5d to cover more coordinated boards, you will see that now you need to check effectively always, meaning you should never be c-betting low card boards like this.
+Since you do not have a betting range on connected boards out of position, your strategy becomes quite simple. You mostly need to concentrate on being able to play well when facing a bet after you check.
+In this situation, you also need to defend many hands and apply an aggressive check-raising strategy since your opponent will be betting a lot.
+When facing a small bet from the button, you need to call 56% of the hands and check-raise around 18%.
+Your sets and some overpairs are the most obvious value poker hands to check-raise, while flush and straight draws are the best check-raise candidates for bluffing. As for calling, apply the mixed strategy throughout your range with all other holdings and only fold broadway combinations with higher frequency than other hands.

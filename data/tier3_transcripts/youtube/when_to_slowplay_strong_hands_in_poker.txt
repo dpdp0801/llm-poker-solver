@@ -1,0 +1,883 @@
+### TOPIC: when to slowplay strong hands in poker
+Today, we'll be taking a deep dive
+into the topic of slow playing
+We'll break down the individual factors
+that impact our decision to slow play
+so that you can win the absolute maximum
+the next time you hit a strong
+hand.
+These are the three main factors
+we'll be discussing:
+First of all,
+we are more inclined to slow play,
+when villain bets big as opposed to when he bets small.
+Secondly, we are more inclined to slow
+when we are in position.
+And finally,
+we are also more inclined to slow play
+when the stack-to-pot ratio is slow.
+Let's get into the first factor,
+which is that
+we are more inclined to slow play
+when villain bets big.
+And the reason for this
+is that a big bet is actually
+an indicator of a more polarized range.
+Imagine if your opponent were to bet
+big on the flop, for example,
+Let’s say, a pot-sized bet,
+He's probably not going to have hands
+like middle pair and underpants
+because those hands, for the most part,
+just want to get to showdown.
+And even if they did
+want to bet for thin value or protection,
+they typically wouldn’t use such a big size
+because that's just
+going to isolate themselves
+against stronger hands, such as top pair.
+So if you think about the composition
+of the big bet range, it's
+mostly either going to be very strong
+hands or bluffs.
+And this also means that the times
+that you do call this big bat
+then is very likely going to continue
+barreling on the next street
+because all of these strong value hands
+that he has
+are probably going
+to want to continue betting.
+And he's also going to have to mix
+in a fair amount of his remaining
+bluffs as well.
+And that's actually great for slow playing
+because the times
+we have a strong hand,
+we want the part to be as big as possible.
+So we either do that by raising ourselves
+or in this case, because our opponent
+is so aggressive, the times that we call
+it's actually a reasonable option
+to just call and sort of
+let him hang himself on the next street.
+On the other hand,
+if we had faced a smaller bet on the flop
+then our opponent's range is 
+typically going to be much more
+polarized, is going to contain
+all of these marginal hands
+like middle pair and under pairs
+that perhaps went to bet for protection.
+But don't want to go that day.
+So the composition of the small bet
+is much more depolarized
+and against such a depolarized range,
+we typically don't want to do much slow playing
+because we can expect the next street
+to go check-check very often.
+Most of these middle pair
+and under pair type
+patterns, they're really just going
+to be checking behind on the turn.
+If you call this up
+because they've already accomplished what
+they were trying to accomplish, right?
+They've already folded out the over cards
+that they’re trying to deny equity against.
+And also the times that you call to the flop
+your range becomes much stronger as well.
+So a lot of these marginal hands
+are not going to be strong enough
+to consider making some kind of thin value
+bet on the turn.
+And so the times you have a nut hand
+it's not going to be a great idea
+to call the small bet
+knowing that the turn is going to go
+check-check so often.
+Here's an example of this effect
+on this ace-queen high board
+button open versus big blank call.
+You can see
+Button is using two distinct sizes.
+He has this over
+bet that’s built around mostly hands
+like two pair, stuff like stronger top pair
+here there’s 25% top pair in the big bet range
+You’ll notice that most of these top pair hands
+are actually the ones
+with the higher kickers
+such as Ace King and Ace Jack
+and really not that many marginal hands
+because if Button did have a hand
+like a queen, it just doesn't make sense
+to go for such a huge bet.
+You know,
+And isolate yourself against all of the top
+our hands and the big blinds range.
+By contrast, if you take a look
+at the composition of the small bet range,
+you'll see that it's much more weighted
+towards marginal hands.
+Queen X is now 17% of the small bet range, and
+there is a similar amount of top pair.
+But if you take a look at the strength
+of these top pair combos, you're notice
+that it's actually mostly built around
+top pair with weaker kickers.
+Hands like A6 A5 that don’t have quite as much equity as AK AJ.
+There’s also quite a bit less two pair, 
+1.8% as opposed to 11%
+when it comes to the big bet range.
+And the overall effect is that
+the button will just tend to barrel
+the turn much more often
+after betting big on the floor.
+If we take a look
+at what happens on a blank screen,
+you can see Button is barreling
+more than half the time.
+And it's pretty clear why this happens.
+If we look at what the various hand
+classes in the buttons range are doing,
+Hands like sets and two pairs, they're
+really clear value bets on the turn.
+And since most of the top pair
+combos are actually stronger top pair
+the hand class of top pair actually ends up
+betting at quite a high frequency as well.
+So there's barely any...
+Not that many hands that are giving up.
+Of course, you have to give up
+like a little bit of air,
+but that kind of depends on
+how good or bad the turn is.
+If the turn is like a deuce, it's
+not like a great turn for the button
+in the sense
+that none of his bluffs really get there.
+So that tends to be a little bit
+more checking with air.
+So to get a better idea of how aggressive
+we expect
+button to be on the turn,
+we can also take a look at the turn.
+Reports basically on average, button
+is barreling a little bit
+more than half the time, about 55%.
+And what we also want to do
+is compare this
+with the barreling frequency
+after button
+makes the small bet on the flop.
+So let's take a look.
+Basically, we see that the
+turn barrel frequency has gone down
+by quite a big margin.
+Button is now checking the turn
+almost two-thirds of the time.
+And the reason for this is that button
+has way more marginal hands in his range.
+So if we take a look at a blank turn,
+for example
+105
+00:06:29,533 --> 00:06:32,866
+Button’s range is not just comprised of hands
+like top-pair and two pair and sets.
+There’s way less of those hands.
+The top pair that he does have even
+These hands they're weaker top pairs.
+They are a little bit more inclined
+to check the turn, and of course, he's going
+to have like a whole bunch
+of second pair and third pair hands.
+that are pretty much
+checking at 100% frequency.
+It just makes very little sense to bet
+QueenX on the third once again, because
+you've already made the big blind range
+quite strong by betting the flop.
+So even something like KQ QJ is not going to have
+quite enough equity
+to be a comfortable value bet on the turn.
+So all of these heads are going to pull
+down Button's turn barrel frequency.
+And if you think about the effect
+that this has
+on the big blind strong hands
+and now if we go back to the flop
+knowing that button is
+going to check back
+so much after you call this small bet,
+it really doesn't make
+a whole lot of sense
+to call something like two pair
+or a set on the flop.
+Whereas if you were facing a bigger bet
+with these hands
+then now you can see
+the Big Bang is doing much more slow playing.
+because the big bet
+is much more polarized.
+And you can
+you can sort of count on the button
+to continue
+being very aggressive on the turn.
+Probably the only exception to
+this would be top and bottom.
+You can see A7
+It's not raising quite as often
+as the rest of our nut combos.
+And this is actually a pretty common trend
+and something that you'll see solvers
+do a lot.
+They like to specifically slow play
+the top and bottom pair.
+And my interpretation of this is that top
+button is just quite a unique
+hand in the sense that it is not quite
+as strong as top two pair,
+but at the same time, it doesn't
+do as good of a job as unblocking
+your opponent's calling range
+compared to a hand like bottom two pair,
+because most of your opponents calling
+range is going to be hands like A6.
+So A7 actually blocks
+a pretty good chunk of that.
+So there's a lot of situations
+where we even end up raising like certain
+top pair combos
+a little bit more than top and bottom.
+You'll see stuff like AJ raising more
+because even though A7 is a stronger
+hand, but still
+it's a lot less vulnerable hand compared
+to AJ. 
+We actually end up
+denying a little bit more equity
+when we raise a hand like AJ
+because we fold out some and such as QJ and QT
+that are drawing.
+I guess they're not drawing dead to A7,
+but they're definitely drawing a lot thinner
+because they only have two outs
+to hit a queen.
+Whereas if we have something like AJ
+we actually don't really mind folding out
+AT and A9. Then of course
+we would probably rather they call.
+But the thing is
+that these hands have five outs against us,
+so it's a little bit more acceptable
+to be folding them out.
+It's just a little bit more value that
+we're getting in terms of equity denial.
+But still, it's not a big deal.
+The main takeaway here is that two-pair+ as a handclass should be raising
+much more often versus the smaller size
+because if we just called,
+we know that the turn is going to go
+check-check really often.
+And basically you have a situation
+where your opponent is not really
+putting in the money for you.
+So you just have to put in the money
+yourself by check-raising the flop
+and fast play in your head.
+Here's a question
+to test your understanding
+On a board of K72 rainbow
+facing a small cbet,
+Should the big line a) fast
+play his sets to build the pot, 
+b) Slowplay his sets to keep bluffs in.
+The main difference, compared to the previous
+example, is that the bar is extremely dry.
+There is a complete lack of straight
+draws and flush draws,
+so most of buttons
+bluffs are not going to have
+a whole lot of equity against the big blind’s
+sets.
+In fact, they're mostly just drawing dead
+or drawing to runner-runner.
+So the question is really
+whether this justifies slow playing
+just to keep all of these
+drawing dead hands in the buttons
+range
+and hope that they continue bluffing.
+So you can take a few moments
+to think about this
+and I'll show the answer in a bit.
+So it turns out that
+the texture of the board
+doesn't really affect our decision
+that much.
+And the main consideration
+here is once again, how polarized
+or how depolarized our opponents
+betting range is.
+As long as he's betting small on the flop,
+his betting
+range is always going to contain
+a whole lot of marginal hands,
+such as underpair's
+second or third pair.
+In this case, Ace High is definitely
+consider a marginal hand as well.
+Hands like AQ and AJ
+actually have a lot of showdown
+value on this type of board texture.
+And if we take a look at what these hands
+tend to do on the turn after we call,
+you can actually see
+that they're checking behind
+pretty much all the time.
+So once again, the presence
+of all of these marginal hands
+is pulling down the buttons,
+turn barrel frequency,
+and this makes it really important
+for the big blind
+to just fast play his strong hands on the flop.
+And this is also something
+that is independent of the board texture.
+Whether the board is wet or dry,
+it just doesn't make a whole lot of sense
+to slow play your strong hand
+knowing that your opponent is not going
+to be very aggressive on the next street.
+And that's the reason
+why two pair with us as a hand
+class is raising at such a high frequency.
+A more legitimate question would be:
+what happens
+if my opponent is over
+folding versus the check-raise?
+Does that actually justify
+slow playing my strong hands?
+Because in this case,
+the EV of your strong hands
+does actually go down,
+especially on the board like this.
+I doubt most viewers will be calling
+Hands like JTo
+There’s quite a bit of ace high
+that's supposed to be floating as well.
+And if your opponent
+is not going to call these hands,
+then for sure the EV of raising
+your strong hands is going to go down,
+but it's still a little bit unclear
+if that's enough to make us
+want to slow play this type of hand.
+Because if you take a look
+at the EV of a hand like 22,
+for example, raising is actually quite
+a bit higher than calling.
+EV of raising  is 18.1
+EV of calling is 17.4.
+So for sure if your opponent is over-folding,
+Then the EV of raising
+is going to be less than 18.1.
+But it's quite difficult to say for sure
+if it's going to be less than 17.4.
+And don't forget that your opponent
+could also be making certain mistakes
+two times that you call, for example,
+if we take a look at
+what's supposed to happen on the turn
+after we call the cbet,
+you'll see that in-position
+is actually using quite a significant
+frequency of over bets,
+especially on some of these higher
+turns like the queen.
+What you'll see is that
+button is actually supposed to be betting,
+you know, 2.5x pot and 1.8x pot
+and 1.8
+at a decent percentage of the time.
+So if you don't expect your opponents
+to be doing this, then
+it's actually also going
+to decrease the EV of calling the flop.
+If we go back to our flop decision
+Hands like 22, obviously
+when you call,
+you're kind of hoping that your opponent
+will be as aggressive as possible.
+But now that he's
+failing to do this, EV of 
+calling is definitely going to go down.
+So my point is really that
+even if our opponent is over folding versus the check-raise
+Yes, the EV of check-raising  is going to go down,
+but that doesn't automatically mean
+that it is going
+to be lower than the EV of calling.
+So to me, the correct response versus
+someone who is over overfolding
+is not to start
+slow playing your strong hands,
+but rather to still continue
+check raising them, andt
+to check raise
+a whole lot of bluffs as well.
+So what we're doing
+is kind of forcing our opponent
+to pay off our value hands
+because of the presence of these bluff like 8s 96s.
+These bluffs force our opponent to call the flop with hands like JT and Ace high.
+Even if he doesn't want to call these hands
+that's fine with us as well.
+Yes, the idea of our strong hands
+is going to go down, but at least we have
+all these bluffs to recoup the
+EV that our value hands are losing.
+So it's a little bit like buying insurance
+if you think about it,
+in real life,
+we buy insurance because we're worried
+that something might go wrong,
+that we might fall sick
+and no one's
+really going to buy insurance.
+If you knew with 100% certainty
+that you were not going to fall sick.
+So it's the same in poker.
+We bluff, really,
+because we are worried that our opponent
+might be overfolding.
+And if we knew for sure that he was
+always going to defend or at least what
+solve or would defend, there would be
+absolutely no reason to be bluffing.
+And so that's why it's so important
+to be bluffing in this type of situation
+where you know that your opponent needs
+to make a lot of counterintuitive calls
+and there's a real risk
+that he might not be calling
+these hands like JT and Ace high.
+It's just type of situation
+where it's really important
+to have some kind of insurance
+and to be bluffing enough hands
+so that in the event
+that your opponent does overfold,
+at least you have some kind of insurance
+payout from all of the backdoor type hands
+that actually benefit from your opponent's
+higher folding frequency.
+The second factor is that you are more
+inclined to slow play when in position
+and I think this is quite intuitive
+It feels quite natural to
+just call a bet with a strong hand
+if you're in position, specifically
+because the times that...
+even in the worst case scenario
+where your opponenet checks the next street,
+you still have the option
+of putting in a bet yourself
+Whereas if you are out of position facing
+a flop bet
+now it becomes much riskier to be slowplaying
+because there's always the worry
+that your opponent
+might check behind on the next street
+and now we're just going to go straight
+to the river and the pot's
+actually going to be pretty small,
+which obviously is not a great thing
+for your strong hand.
+If we take a look at this in position 3bet pot,
+you'll see that CO's response
+vs a cbet is very similar
+to some of the previous examples
+we've been looking at, not just because
+the cbet size is small,
+but also
+because CO is out of position.
+He's quite inclined to just raise
+hands like 22 and 88
+because once he fails to do this,
+there is the risk
+that the turn is going to go check check,
+and then the button will be allowed
+to bluffcatch the river in a very small pot.
+So the only way for the CO to spoil
+this plan is just to checkraise
+all of the strong hands aggressively
+and then to mix in a bunch of bluffs.
+Whereas if we compare this
+to out of position 3bet
+So over here we have SB 3bet 
+vs CO instead
+And the way that CO responds versus
+SB's cbet is actually quite different.
+Most of his strong ends
+are actually electing to slowplay
+in this case, since there is no danger
+of the turn checking through the times
+that the CO just calls this bet.
+Even in the worst case scenario,
+where the SB
+does decide to check the turn,
+the CO can still easily
+put in a turn bet himself.
+So in that sense
+it makes slowplaying a lot less riskier.
+The third and final factor is
+that we are more inclined to slow play
+when the stack to pot ratio is low.
+Generally speaking, our strong hands
+have two opposing incentives.
+On one hand,
+they want to fastplay to build the pot,
+but on the other hand
+they're also hands that
+make a lot of sense to slowplay,
+because the stronger
+your hand is, the less vulnerable
+it tends to be.
+And if you think about how SPR affects
+each of these factors,
+as stacks get deeper and deeper,
+it actually becomes much more important
+to be fastplaying to build the pot
+because you just tend to win
+so much the times
+that you stack your opponent.
+And that's the reason
+why we typically don't do as much
+slowplaying when SPR is high
+just because this first factor of 
+fastplaying and building
+the pot is so much more important
+than still playing to keep bluffs in.
+Whereas in a low SPR situation, there's
+much less of an upside to fastplaying
+since even if you did manage
+to stack your opponent,
+you're not going to win that big of a pot
+anyway.
+So the second factor of slow
+playing to keep bluffs in
+becomes a little bit
+more important by comparison.
+Here we have an out of position 3bet pot,
+but the flop is QT9r
+And because we're 200bb deep,
+we see that button actually plays
+very straightforward and very aggressively
+with most of his strong hands
+especially when you look at ends like KJ
+that are not very vulnerable
+these hands are just raising most of the time
+because even though they don't deny much
+equity or need much protection,
+but at the end of the day,
+the stacks are so deep that we just win
+such a huge pot the times
+that we do manage to stack our opponent.
+So this is what gives us more incentive
+to just go ahead and raise our hand.
+Whereas in a 40bb situation,
+what we should see is that button
+should be
+a lot more inclined to slowplay with
+hands like KJ, especially
+because now there's much less of an upside
+to raising to build the pot.
+Even the times that you do
+stack your opponent,
+you're not going to win
+that much anyway.
+So the focus shifts to slowplaying
+to keep bluffs in.
+The last thing you want to do
+with a hand like KJ is to raise
+and fold out all of these trash hands
+such as A high and small pocket pairs
+Given that there's very limited upside
+to raising anyway, it becomes much
+more important to just call and keep
+all of these hands in, hope that your opponent
+perhaps hits an ace on the turn
+or even if he doesn't, there's
+always some chance that these hands
+might continue to bluff you if you call.
+So overall, calling
+is just going to generate much more value
+compared to raising
+and just folding all of these hands out.
+And I also want to emphasize
+that this would be true
+even if the board was twotone.
+So if we change this
+to the nine of diamonds,
+what we see is that the BTN is
+not really...
+he's still not very interested in raising hands
+like straights and sets versus a Cbet,
+which definitely looks a little bit
+strange because from a human perspective,
+a hand like 99 feels quite vulnerable.
+There's so many turn cards
+that we don't want to see, any K
+or J or diamond is definitely going
+to devalue our hand.
+So instinctively
+it feels like we should just be raising
+and trying to get the money
+in before one of these bad cards come.
+But of course, the reason
+why the solver doesn't do that is
+because it knows that raising
+doesn't really solve the problem.
+A lot of the hands that you're trying
+to protect against, like flush draws
+and straight draws, they're just not going
+to be folding against this raise.
+So when we raise with a head like 99,
+it's actually almost like a pure value raise
+because the only hands that
+have a significant number of outs
+against us, such as flush drwas
+and open enders, you can see
+that they're just continuing
+100% of the time.
+So 99 is really not as vulnerable
+as it looks
+And for this type of hand
+that doesn't deny a lot of equity,
+The only time that we want to fastplay it
+is when the stacks are deep enough such
+that there's a big enough upside
+when it comes to building the pot
+because in that case,
+we would actually win enough the times
+that we stack our opponent to offset
+the fact that raising doesn't accomplish
+anything in terms of protection.
+Quiz question number two
+SB 3bet vs BTN,
+on a board of T63
+SB cbets the flop
+and BTN calls, and on this flush
+completing turn, which hand
+does BTN prefer to raise versus
+a double barrel?
+So if your answer was B, well done!
+So far we've seen that as the SPR gets lower,
+it becomes very difficult to justify
+raising hands that don't need protection,
+even if the hand itself is very strong.
+And this is exactly why BTN is choosing
+to slow play all of his flushes versus
+the double barrel.
+The SPR is so low at this point
+that raising to build
+the pot isn't really a factor.
+And of course, flushes are just hands
+that are not very vulnerable.
+Even a head like 45hh
+that looks quite vulnerable
+doesn't deny as much equity
+as you might think,
+because if you take a look at the SB's
+response versus our raise, he's
+not really folding that many hands
+with equity against us.
+The main hands our hand is vulnerable
+to would be higher flush
+draws, hands like 2p and sets
+but 2p and sets...
+obviously not going to fold
+and also a lot of the higher flush draws
+actually come with a pair
+so there are hands like QQ and JJ
+with a heart, KhTx
+And none of these hands are also going
+to fold, given how little money
+there is behind. Even something
+like KxJh
+against our specific hand,
+this is really just a naked flush draw
+because its straight
+draw outs are not live, the times
+that KJ hits a Q
+it's still going to be dead
+to our flush and the flush draw itself
+is not even like a proper flush draw
+because we're holding 2 hearts in our hand
+and so we're essentially left
+with a seven outer
+And the question is really
+whether it's worth it
+or it's justified to be raising our 45
+just to fold out a couple of hands
+with 7 out, or is it more efficient
+to be calling with our flush
+and just to keep all of these hands
+like KJ/KQ, that are drawing
+stone dead versus our hand and hope
+that they continue bluffing on the river
+and this also explains
+why sets are raising more often
+on the turn compared to flushes.
+Because when we raise a hand like 66
+or 33, it actually
+accomplishes much more in the sense
+that all these hands that are folding,
+they have way more outs against us compared
+to the times that we hold a flush.
+A hand like KJ with a heart,
+now it's no longer a naked flush draw
+This is actually a combo draw
+because it can hit a queen or
+a heart of the river,
+it has a ton of outs against our set
+So pretty big win the times
+that we manage to fold out this hand
+even a hand like KQ
+without the heart, no longer
+drawing that against our set, and stuff
+like 77 with a heart as
+well, this is also going to have a fair
+number of outs against us.
+It's basically a flush draw plus a two
+outer, which is like 11 outs already.
+So when we take a look at the BTN's
+response versus a double barrel,
+you'll see that sets in particular 66
+and 33, the more vulnerable sets.
+They are in fact raising
+at quite a high frequency.
+And I also want to compare this
+to the 200bb
+solution
+Let's take a look
+at how things change as the SPR gets higher.
+So now we actually see a very
+different situation where our flushes
+are raising at a much higher frequency.
+And this is happening
+despite the fact that flushes are,
+as we've seen, not very vulnerable
+hands
+But of course, the difference
+is that with the higher SPR,
+there's now
+a much larger upside to raising
+and stacking your opponent
+and the times that you do manage to get it
+and against a worse hand,
+you're
+just going to win a much bigger pot.
+So that's going to compensate for the fact
+that your hand doesn't
+really deny that much equity.
+The last example I want to look at
+is this 4BP over here
+on this T high board
+you can see that versus a BTN
+cbet, SB
+is doing a ton of slow playing
+hands like sets as well as the less
+vulnerable overpairs like AA
+There's just very little reason
+to be fastplaying these hands
+there's so little upside to raising
+and building the pot given the low SPR.
+So once again, the focus lies in calling
+just to keep all of these random
+overcards in the BTN's range.
+But something else you'll notice about
+the SB's raising range
+is that it's very weighted
+towards 1p hands.
+So heads like top pair, for example,
+make up a huge chunk of the SB's
+raising range and you can see Tx is
+actually raising at a very high frequency.
+There's even hands like 99 and 88
+getting in there sometimes.
+And the reason why this is happening
+is that these one pair hands
+have a very different set
+of opposing incentives.
+On one hand,
+they definitely want to be raising
+for protection just to be able to fold out
+hands like KQ and AJ
+That's a pretty big win for us
+to deny six outs
+worth of equity against these hands.
+But on the other hand,
+the times that we raise
+and we wun into a hand like Aces
+our Kings,
+we're definitely getting stacked
+There's just no getting away
+our opponent's going to jam
+And we're definitely just going to call
+given the SPR
+So that's always the dilemma
+when you have some kind of 1p
+hand,
+do you want to raise for protection
+or do you want to just call
+and lose the minimum
+the times that you run into
+a better hand
+And if you think about how SPR affects
+each of these factors,
+it actually makes you much more inclined
+to raise for protection
+because even if you happen
+to run into an overpair
+and you get stacked by a hand
+like AA or KK, you're just not going
+to lose that much compared to
+if the SPR was higher.
+So basically
+you're getting much better pot odds
+on your protection check raise
+and this is why you'll see SB
+playing like a maniac,
+just raising all of these hands like 88/99,
+raising stuff like 67
+with the intention of getting it in
+This is something
+that we're pretty much only allowed to do
+when the SPR is low
+And so your whole strategy becomes really odd,
+everything is kind of upside down.
+Your really strong hands like sets
+are just calling all the time and your 1p
+hands like Tx and 88/99
+are just raising really often.
+Whereas in a situation
+where the SPR is higher
+than everything starts
+to look a lot more normal.
+Our very strong hands
+have much more incentive to be raising
+and building the pot
+and our more marginal one pair hands
+probably will be raising
+at some frequency,
+but we definitely don't
+want to be overdoing it
+given how much more we're going to lose
+the times that we run into a better hand.
+Don't forget to leave a
+like if you enjoyed the video, and you can also
+check out my own channel at Poker
+Giraffe for more free strategy content!

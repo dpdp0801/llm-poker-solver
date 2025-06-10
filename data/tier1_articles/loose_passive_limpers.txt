@@ -1,0 +1,69 @@
+### TOPIC: loose passive limpers
+How to Handle Loose-Passive Limpers
+Solver charts and presolved solutions do not offer much in the way of explicit guidance for responding to limpers. This is because players are generally not incentivized to limp from any position save the SB, and even when they are, the ranges with which a solver would limp are quite different from those employed by recreational players and sometimes even professionals who didn’t study these spots.
+With the help of custom solutions, however, we can actually investigate how a solver would play after the flop against a limp-caller. And we can dispel some common misconceptions along the way.
+What Do Limp-Calling Ranges Look Like?
+More than most spots, limp-calling ranges depend heavily on the player. A player who limps and calls a raise is almost certainly playing suboptimally, so there is no correct or standard limp-calling range.
+With some knowledge of the player, you may be able to predict in what way their play will deviate from the optimum. Common types of limp-callers include:
+
+Extreme Loose-Passives
+These are recreational players who treat poker like blackjack. They aren’t thinking strategically about concepts like equity denial or SPR. They just want to see flops and try to make hands. They will limp all kinds of stuff, from offsuit broadway cards to pocket pairs to random suited hands. Even they usually have folding ranges, though, so the worst hands can still be discounted. You can raise most aggressively into these limpers.
+
+Speculators
+These players draw a sharp distinction between “raising hands” and “speculative hands.” They are more likely than the other types to raise their stronger hands, especially big pairs and offsuit broadway cards. When they limp and call, it is most often with small pairs or suited connectors looking for very specific flops. You can raise aggressively into these limpers, as they rarely have strong hands, but after the flop, you must proceed with caution on the boards most likely to improve them.
+
+Extreme Nits
+Nits are tight-passive rather than loose-passive and are usually extremely risk-averse. They may limp-call hands as strong as AKo on the theory that it’s a “drawing hand” or with KK or QQ waiting to see whether there’s an Ace on the flop before committing more chips. Raising these players is less appealing, especially as they are more likely than the other types to limp-reraise (because their limping range contains more hands that look attractive to reraise).
+For our examples here, we will assign the limp-caller a range based on empirical data. Though it includes many types of hands, it is nevertheless weighted toward suited hands, broadway cards, and Ace-x holdings, consistent with several of the player types discussed above.
+LJ limp-calling range vs BTN raise
+
+To Raise, or Not To Raise
+When one or more players limp in front of you, a good rule of thumb is to play a strictly raise-or-fold strategy unless you have the Button (or are in one of the Blinds). Without the guarantee of position after the flop, you can’t get too out-of-line anyway, so you should mostly be contesting the pot with strong hands that want to grow the pot immediately, and you will benefit from denying equity (or at least charging a higher price) to the players behind you. In fact, one of the biggest risks of overlimping when you do not have the BTN is that a player with position on you will raise and punish you along with the rest of the limpers.
+With limpers in front of you, play a strictly raise-or-fold strategy unless you have the BTN or are in one of the Blinds.
+Not To Raise (To Call)
+When you do have the BTN, overlimping is worth considering. Risking just a single big blind, you do not need to be an equity favorite to enter the pot. You need only realize your share of equity, which should be easy to do in position if you choose the right kind of hands to limp behind.
+The best candidates are hands that are not strong enough to raise but will perform well in a high-SPR multiway pot. This includes small pairs, smaller suited and connected cards, and possibly even some of the better disconnected suited hands like Q6s and offsuit connected cards like 98o. The weaker your competition, the more you can get away with.
+To Raise
+We will not consider limped pots further here because they do not lend themselves well to solver analysis, but it’s worth noting that the BTN raising range used in the following scenarios assumes you would also have an overlimp range. If you were to play a strictly raise-or-fold scenario, a few additional hands (such as T8s, 87s, and 55) could be considered for inclusion in the raising range.
+BTN raising range vs LJ limp
+This range is designed to play well with a lower SPR, to have good equity against wide limp-calling ranges, and in particular to dominate those ranges. You may be accustomed to thinking of A9 as an easily dominated hand, but against an opponent playing any Ace and many worse 9-x, you will more often dominate them. Additionally, position will be a useful tool for bluffing, squeezing out thin value, exercising pot control, and even getting away from some second-best hands.
+Lower your threshold for what counts as a value hand.
+Aggression actually exploits loose-passive opponents in two ways:
+Their willingness to call with weak hands makes betting and raising low-equity hands less profitable. However, it increases the value of betting and raising with high-equity hands. And because wider calling ranges are weaker calling ranges, more hands will have good equity against them. This means you can lower your threshold for what counts as a “value hand,” especially when in position.
+Aggression also exploits passivity. You can bet and raise for thin value without worrying about bluff raises that could push you off the winning hand. Passive opponents may not even raise their strong hands, giving you more opportunities to realize equity and the value of your position on future streets. In fact, when you raise from the CO or BTN against limpers, you profit not only from the weak ranges of the limpers themselves but also from the passivity of the players who have not yet acted, who could exploit you by 3-betting aggressively but are unlikely to do so.
+You benefit much more from your opponents’ looseness when you are in position.
+I have emphasized position several times because you benefit much more from your opponents’ looseness when you are in position. For one thing, calling with weak hands is more often correct when in position. At the very least, your opponents’ loose calls will be less costly mistakes if they will play in position against you on future streets.
+Before the flop, or in multiway spots postflop, you are not necessarily the beneficiary of your opponents’ loose mistakes when your position is poor. When you raise from early position, and an opponent makes a bad call in middle position, they are often transferring EV from themselves and from you to the players who have not yet acted—whose strong hands will benefit from the weak money in the pot. The best way for them to profit from this scenario is by squeezing aggressively, so again, you may benefit from their excessive passivity.
+
+Worst Nightmare Flop
+Medium connected boards are the ones most likely to improve the many speculative hands in a typical limp-calling range. For a worst-case scenario, 764tt is really not that bad. And yes, it is a worst-case scenario. On the more connected 876tt, BTN also flops some straights and more sets. And on more connected low card boards, the limper has more whiffs.
+Medium connected boards are most likely to improve a limp-calling range.
+Even on this nightmare flop, the limper does not overcome BTN’s significant preflop equity advantage; they merely catch up. At the high end, they have the nuts advantage thanks to 85s, 53s, and 44. But they also have more very weak hands, which raises an important point: a player who plays many weak hands preflop will flop many weak hands, even on their best flops. For every 85s, there’s a K2s and several combinations of QTo. Very loose players occasionally get lucky and flop miraculous straights and two pairs with hands you wouldn’t expect to see, but far more often, they whiff the flop entirely or connect only weakly with hands like bottom pair and gutshot draws.
+Equity distributions on 764tt (left = LJ limp-caller, right = BTN raiser)
+It’s also important to recognize that, despite the speculator’s preference for suited hands, they flop a flush draw barely 8% of the time. Most hands aren’t suited, and even suited hands match the suit on the flop less than 25% of the time.
+Open-ended straight draws are slightly more common, roughly 12% of their range. These risks are real, and they provide some incentive to bet the flop, but charging draws is not the all-consuming strategic necessity it is sometimes made out to be.
+Charging draws is not an all-consuming strategic necessity.
+Indeed, BTN checks more than half their range, including some overpairs:
+BTN flop strategy on 764tt vs LJ check
+The pure checks are all unpaired overcards, especially those without backdoor draws. These are great examples of hands that want to preserve equity by not opening themselves up to a check-raise and by keeping the pot small. With a hand like K♦Q♦, BTN can feel a lot better on a Q♥ turn after checking the flop than after betting it.
+BTN also prefers a smaller bet size here because their advantage is at the low end rather than the high end of the equity distribution. The small bet denies equity to the limper’s many weak hands without risking too large a pot against the top of their range.
+That said, it really is the risk of a check-raise more so than the risk of running into strong hands that motivates BTN’s checks. With position and 50% of the equity, putting more money into the pot with their entire range is not a problem as long as they get to realize that equity. Against more passive opponents who will not check-raise for thin value nor with weak draws, betting a wider range is more appealing.
+
+Dynamic Flop
+Changing a single card on the flop to eliminate the straight possibility (and some of the draws) and introduce more pairs into BTN’s range dramatically changes the dynamics. On J♠7♥6♥, BTN has 56% of the equity and a stronger range throughout. This facilitates a much higher continuation betting frequency and some bigger bets.
+Equity distribution graph on J76tt
+BTN flop strategy on J76tt vs LJ check
+Every hand in BTN’s range is vulnerable to draws and/or overcards. Even if a bad turn card does not cost them the pot, it may cost them action from hands that would have paid off a flop bet. Thus, there is very little slowplaying, with most of the checks coming from hands like medium pairs which gain the least from folds, are most vulnerable to check-raises, and do not want to play a particularly large pot anyway.
+Against opponents who will not check-raise aggressively enough, this strategy can simplify to a range-bet, with more incentive to bet bigger with stronger hands as well.
+
+Ace-High Flop
+Despite having an even bigger range advantage, with nearly 60% of the equity, BTN c-bets less often on A♠7♥6♥ than on J♠7♥6♥.
+BTN flop strategy on A76tt vs LJ check
+This is because they have more hands with modest, relatively static equity, most notably pocket Kings & Queens, and weak Ace-x. These hands gain little from fold equity and do not want to play a big pot against the top of the limper’s range. Charging draws is nice, but the risk of putting in chips from way behind is substantial. When BTN does not hold an Ace, the limper has top pair or better about 22% of the time.
+If the limper continues checking later streets, the weak Ace-x will be strong enough to bet for value on many turns and rivers, whereas the pocket pairs will mostly check it down. With so much Ace-x in the limper’s range, blocking it does a lot to increase a hand’s value!
+
+Conclusion
+Much like when they are heads up against a BB caller, an IP raiser starts with a significant range advantage over a loose limp-caller. Against your average limper, this is true even if they raise a relatively wide range themselves (provided that range is built around strong hands that perform well at a lower SPR).
+There are no flops that “smack” a loose limp-caller’s range.
+There are no flops that “smack” a loose limp-caller’s range. The best flops get them up to about even, compelling the raiser to develop a checking range, mostly when raises are a legitimate threat.
+On all but the most coordinated flops, the raiser can c-bet aggressively for value and equity denial. More static flops also incentivize a checking range not because of any equity disadvantage but simply because some hands will not gain enough from betting to compensate for the risks. This is especially true on Ace-high flops, as both players’ ranges are heavy on Ace-x.

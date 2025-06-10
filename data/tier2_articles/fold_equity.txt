@@ -1,0 +1,68 @@
+### TOPIC: fold equity
+There is more than one way to win a hand of poker, and while making the nuts is fun, seeing your opponent muck their cards when you are bluffing is an even better feeling. The ability to win hands by making our opponents fold their cards adds extra equity to our poker hands, called fold equity.
+When properly calculated, this can be added to total equity to determine the EV of your hand in any particular situation in poker.
+In this article, we will uncover the concept of fold equity, explain how it works and calculates it, and suggest ways you can apply it the next time you play.
+Let’s start by explaining the concept in the most basic terms and looking at the easiest way to calculate fold equity.
+Fold equity refers to the additional value you gain when your opponent folds in response to your bet or raise. It’s calculated by multiplying the likelihood of your opponent folding by the equity you would gain if they fold. For example, if there’s a 70% chance your opponent will fold and you would gain 30% equity from their fold, your fold equity is 21%.This concept is crucial when deciding to bluff or apply pressure, especially when you have a drawing hand or a marginal holding. By incorporating fold equity into your decision-making, you can increase your overall expected value (EV) in a hand.Additionally, understanding the risk-to-reward ratio helps determine how often your bluffs need to succeed to be profitable. For instance, if you bet half the pot, your bluff needs to work more than 33% of the time to break even.
+In the most basic terms, fold equity is the extra equity we gain in hand by getting other players to fold their cards, allowing us to win the pot immediately.
+Fold equity is based on the theoretical probability of our opponent folding and the size of the pot we are contesting. The more likely our opponent is to fold, the more fold equity we will have.
+Utilizing fold equity is critical if you want to win in poker, as you can’t always rely on just making a better hand than your opponent.
+In fact, it is likely that you have already used fold equity on some level when you played poker anytime you considered bluffing to try to get your opponent off his hand. That said, we are going to look into fold equity in a bit more detail and explain the concept from the mathematical side of things.
+Often times inducing your opponent to fold is the only way to win the hand.
+Whenever you play poker and are thinking of making a bet or a raise, the idea of fold equity should be considered.
+As previously mentioned, fold equity is calculated by comparing the likelihood of getting your opponent to fold and the equity their hand has to win.
+Both of these things can be difficult to determine in real-time, but you will need to make your best guess to calculate fold equity somewhat correctly.
+In post-game analysis, you should be able to get an even better idea of which portions of their ranges your opponents will continue with and which they will fold to your aggressive action.
+In either case, the simple formula to use to calculate fold equity is:
+Fold Equity = Opponent’s Equity * Percentage of Folds
+For example, if you find yourself in a spot where an opponent has 30% equity to win the hand but folds about 70% of all their hands to a raise, you will be able to use the formula to come up with the following:
+Fold Equity = 70% * 30%
+Fold Equity = 21%
+Just like that, you have added an extra 21% of equity to your hand, allowing the opponent to win only in the few extreme cases where they make the call and actually win with their inferior hand.
+We will demonstrate this further in a specific hand example, but before we do that, let us briefly consider what adding this extra fold equity did for our total equity.
+Since total equity is the sum of our hand equity and fold equity, we can use the following formula:
+Total Equity = Hand Equity + Fold Equity
+In our example, that would mean:
+Total Equity = 70% + 21%
+Total Equity = 91%
+We have gone from having just 70% equity to win the pot if we make the call to 91% equity if we make the raise, making it nearly a slam-dunk win for us.
+Being able to focus and mentally calculate your fold equity when playing live poker is critical to your success.
+A concept closely tied to fold equity that many poker players don’t know about is the risk-to-reward ratio, which tells us how often our bluffs need to work in order to be profitable. The opposite of MDF.
+When bluffing with hands that can’t improve to win the pot, risk to reward ratio is the only thing to look at, as it determines whether your bet is going to make a profit or not.
+The formula to determine risk to reward ratio is as follows:
+Risk to Reward Ratio = [Bet Size / (Bet Size + Pot Size)] x 100
+For example, let us imagine you are playing in a tournament and looking to bluff at a 10,000-chip pot with a 5,000-chip bet. We would run this calculation:
+Risk to Reward Ratio = [5,000 / (5,000 + 10,000)] x 100
+Risk to Reward Ratio = (5,000 / 15,000) x100
+Risk to Reward Ratio = 0.33 x 100
+Risk to Reward Ratio = 33%
+According to our calculation, we will need our bluff to work 33% of the time or more in order to break even. Indeed, winning this pot one out of three times will make the bet not lose money.
+If there is a chance we can win the pot even more often than that, our bet becomes obligatory, as it means we are printing equity by bluffing in this situation.
+Getting just 33% of poker hands from our opponent’s entire range to fold is usually not too big of an ask, which is exactly why bluffing quite often is recommended in poker as a whole.
+In this same scenario, if we imagine that our hand has some actual equity to win the pot, such as a gutshot straight draw or some overcards, the 33% of folds needed would go down even further, as we would now be winning the pot some of the times even when called.
+Knowing your risk and reward is just one part of being a great bluffer. Learn the other components with this article from Jonathan Little.
+Playing in a $2/5 Texas Hold’em cash game online, you are dealt K♣J♣ on the dealer button. The hijack raises to $15, you re-raise to $50, the blinds fold, and the hijack makes the call.
+With $107 in the pot, you see a flop of A♣9♣4♦, giving you a flush draw. Your opponent checks and it is your time to act.
+At this point, you know that you have at least about 35% equity in this hand from your nut-flush draw, but there is a lot more equity to be won here.
+It is at this point that you must consider what percentage of your opponent’s range will fold if you fire out a c-bet.
+Hands that contain an Ace, as well as 99 and 44, will all continue, as will remaining club draws and potentially some other pocket pairs.
+Yet, quite a few hands in other suits that your opponent might have might fold, and hands like T9s or J9s will usually continue but may even fold some of the time.
+For the purpose of this exercise, let us assume that your opponent will fold 50% of their hands if you fire out a 35% pot-size bet. This would give us the following fold equity:
+Fold Equity = 65% * 50%
+Fold Equity = 32.5%
+By adding an extra 32.5% fold equity, we now have a total equity of:
+Total Equity = 35% + 32.5%
+Total Equity = 67.5%
+Note that even if our opponent were to call with more than 50% of his entire range, we would still be adding equity to our hand by eliminating some of the card combinations in his range that may beat us by the river.
+Now, let us take a look at this from the risk-to-reward ratio point of view and figure out how often our 35% bet ($37.45) needs to work to be profitable:
+Risk to Reward Ratio = [37.45 / (37.45 + 107)] * 100
+Risk to Reward Ratio = (37.45 / 144.45) * 100
+Risk to Reward Ratio = 0.259 * 100
+Risk to Reward Ratio = 26%
+According to this equation, our small bet needs to elicit a fold only 26% of the time to be directly profitable. Considering all the equity we still have to win the hand and the fact we are assuming our opponent may fold even more than that, this makes it an easy choice.
+Of course, this is a clear-cut example of where we should bluff, but you can use the same formulas and calculations to figure out your fold equity in other spots as well.
+By always being mindful of your fold equity and risk to reward ratio, you will always be finding good spots to bluff at and increasing your overall equity and eventually your bankroll.
+Before putting your whole stack at risk with a big bluff, consider how much fold equity you have!
+Bluffing or not bluffing enough is one of the big differences between losing and winning players and one of the main improvements most players need in their game.
+Being mindful of the fold equity you can generate with your bets and raises can make a big difference in your win rate and turn you from a break-even player to a big winner.
+The next time you are considering just calling with your draw, run some quick calculations, think about how often your bluff needs to work to be profitable, and consider raising instead.

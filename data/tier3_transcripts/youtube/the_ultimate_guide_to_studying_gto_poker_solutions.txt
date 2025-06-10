@@ -1,0 +1,794 @@
+### TOPIC: the ultimate guide to studying gto poker solutions
+hello Wizards today I'm going to 
+show you how to get the most out  
+of your GTO wizard subscription 
+by mastering the solution browser
+the purpose of today's video is to teach you guys 
+how to study more effectively we're going to cut  
+through the noise and learn how to analyze GTO 
+Solutions effectively we're going to master the  
+tools and cover some tips and tricks you can use 
+to get the most out of the solution browser the  
+first half of this video will focus on actually 
+mastering the features in GTO wizard solution  
+browser there's a lot of really cool and Niche 
+features that I don't think a lot of people are  
+utilizing that they really should be the second 
+half of this video is going to teach you some  
+tips and tricks for studying GTL Solutions 
+more effectively for example we'll go over  
+focusing on your range rather than your hand 
+how to uncover underlying principles studying  
+thresholds looking beyond the strategy clumping 
+by hand class analyzing your opponent's counters  
+and comparing the ranges chapter 1 mastering 
+the solution browser it is imperative that  
+you master your tools before you master your 
+Technique so the first half of this video is  
+going to be a comprehensive guide of all the 
+features in the solution browser that you may  
+or may not be familiar with let's get started to 
+access the solution browser press the solutions  
+button or select it from this menu at the top 
+of the page so I'm going to start very basic  
+so that everyone's included and we're going 
+to get to the more Niche and complex features  
+as we go along a lot of players are using GTO 
+Wizard and it's their first time experiencing  
+a solver and it can feel overwhelming so first 
+of all let me explain what we're looking at here  
+this is our overall strategy each hand is color 
+coded according to its actions so for example Ace  
+4 is red and that corresponds to the fact that 
+it's opening nine three is blue indicating that  
+it's folding our overall range frequencies are 
+shown here so under the gun is opening these hands  
+in red or a total of 17.6 percent of the time so 
+17 percent of the range is opening and the rest  
+is folding right and you can scroll through the 
+positions to see how the strategy changes so let's  
+say under the gun folds actions on hijack old and 
+here's this button strategy maybe button opens  
+bold and here's big blind strategy and now we see 
+that they have some calls some raises some Folds  
+so you can select any spot you want you could 
+go through flops turns Rivers whatever you like  
+now there's a faster way to navigate this and so 
+for example let's say we wanted to pick a button  
+versus big blind spots what a lot of people do 
+is they'll click fold fold fold but you can just  
+click button one click and big blind calls and 
+that's two clicks and you've selected this spot  
+or alternatively you can use this shortcut thing 
+at the top left of the page and maybe we want like  
+a cut off versus small blind three bet pot you 
+can do it that way as well and just enter whatever  
+board you'd like to see the strategy so next I 
+want to show you how to choose the right solution  
+now you need to click this thing in the top left 
+of the page and this is the solution selector and  
+this works a little differently depending on each 
+of your formats so first of all I'm on Cache games  
+right now I've selected the classic cash game so 
+not anti-plus straddle and I've selected six Max  
+firstly we can filter by Stack depth and so 
+we could choose any stack depth starter users  
+can access the 100 big line stack depths 
+premium users have access to all of them  
+next you can choose your solution type if you're 
+ever confused about what this means just hover  
+over these little question marks and it will 
+explain it so General Solutions are versatile they  
+have GTO preferred sizes they have more bed sizes 
+The Simple Solutions tend to have fewer bet sizes  
+they don't have for example any small blind limbs 
+or four bet shoves 100 big deep and so choose your  
+size or Choose Your solution as you wish next 
+we have a number of different rake structures  
+so we have nl50 and NL 500 and we also have these 
+for GG which have pre-flop break the opening size  
+corresponds to how big you open so for example 
+GTO usually wants to open smaller from early  
+position and bigger from late position if you want 
+to know why go watch my range morphology video but  
+some people just want to open 2.5 x from every 
+position and that's fine we have solutions for  
+that as well so select 2.5 x if that's what you 
+prefer this does change the pre-flop strategies  
+a bit especially what calls similarly we can 
+change the three bet sizes so GTO often tends  
+to three bet quite large but the smaller Free Bet 
+sizes are designed to mimic the population a bit  
+more so for example cutoff opens and small blind 
+here is racing 10. whereas with the larger sizes  
+they're going to be raising like 11.5 big 
+blinds racing 13. and so what you can do is  
+you can just filter for the stuff you want so 
+I want 100 big lines uh General Solutions nl50  
+with smaller three bed sizes right and so now 
+it's showing me two solutions I can choose from  
+we can also pin this using this button and press 
+up and down to go through what we've selected  
+and if we allow more things 
+it shows us more solutions  
+a lot of people they'll get confused like 
+what is all this stuff you can just press  
+this show preview button and from here you can see 
+information about each of the spots so here we've  
+selected the NL cache 50 General Solutions and 
+we can see we have turn reports we can see the  
+rake structure we can see the number of sizings 
+the accuracy and this changes depending on what  
+you select now for MTT players we've got a 
+little bit of a different setup here so MTT  
+players can choose between heads up chippyv and 
+ICM spots so let's start with chip EV first of all  
+if you check the top or the bottom right here you 
+can see which spots we have pre-flop and post-flop  
+solutions for this solution was just added a few 
+weeks ago so right now it's pre-flop only but if  
+you select the eight Max Solutions you can see 
+post flop spots as well here we can choose the  
+effective stack depth and we can either view it 
+as a grid or a table that we can scroll through
+now if you're picking ICM Solutions we have a lot 
+of different pre-flop ICM solutions to choose from
+at the top we see the stack type 
+any near big and far and so the  
+let me just move that over so near indicates 
+that most of the stacks are somewhat close  
+to each other big stack indicates that one or 
+two players have a really big stack compared to  
+the rest of the table so here under the gun has 
+160 and far indicates that it's more spread out  
+and this has some implications as to the ICM 
+effects down here at the bottom we can see that  
+we can select different tournament phases so right 
+now we have final table and two table but we plan  
+on adding many tournament phases including uh you 
+know the last 25 percent of the field and so on  
+so I recommend you check out this payouts button 
+as that's going to explain the payout distribution  
+among the final table here so we have right now 
+one final table and two final tables and that's  
+going to alter the payout structure and you 
+can choose how many players are remaining so  
+if we're at a final table with five players 
+remaining we can go and study that as well
+you can sort by any one of these columns so for 
+example if you're in the cutoff and you want to  
+choose a specific size you can sort and you 
+can even scroll using the sidebar say we have  
+40 bigs and we want to find something closed so 
+we can choose something close to our spot here  
+Spin and go players similarly they can choose 
+between symmetric and asymmetric stack them  
+symmetric means that all the stacks have the 
+same size and asymmetric meaning mixed sizes  
+and again you can view this either as a table 
+or a grid I think spin players usually prefer  
+this grid view a little easier to look at 
+especially if you're studying mixed stacks  
+we also have different types of solutions so for 
+example the complex Solutions contain a lot more  
+bet sizes and these are often used to determine 
+how we should simplify into the general Solutions  
+so with all that said you should know 
+that you can actually pop this out into  
+a separate window and for example if you 
+have another monitor you could put this on  
+another screen and quickly switch between 
+solutions to compare and contrast them  
+so let's go back to cash games I've shown 
+you the basics of how to find Solutions and  
+how to navigate the tree let's get into some 
+of the cool features now so we'll say that  
+hijack opens with this range and action on 
+big blind they call with this range in green
+pick any flop you'd like I'll 
+select the random one for this video
+big blind checks action on hijack and 
+we can see this is a range bet spot  
+so let's select some bet size we'll 
+go half pot here action back on big  
+blind okay so again we can see 
+the overall strategy we can see  
+the overall frequencies in this tables folding 57 
+calling these hands if you click any one of these  
+you apply a filter so here I'm filtering exactly 
+for their folds and that filter is shown up here  
+and you can either click off or just click 
+the clear button if you hover over any one  
+of these hands you can see their exact strategic 
+breakdown so King four here is Raising sometimes  
+it's calling sometimes and it's folding sometimes 
+a hand like A6 maybe basically just always call  
+it right and like nine five just folding 
+so something else you can do is hover over  
+specific actions to learn more about that race 
+so for example what hands comprise the calling  
+range so there's a little icon above each 
+of these actions you see these little guys
+these you can hover over to learn more about 
+how that range is constructed so I'm going to  
+hover over this icon and here we can see that 
+big blind's calling range is primarily composed  
+of top pair lots of asex so when you bet half 
+pot with hijack just know that after one bet  
+at least half their stuff is top pair right 
+you can also hover over the raises so what  
+type of value are they racing with and we 
+can see that most of their raises in this  
+spot they're just straight it's just King Jack 
+and so you can use this to identify the value  
+thresholds calling thresholds what hands start 
+folding for example so a lot of second pair  
+third pair starts folding and so these are 
+a good way to see that range Construction  
+so as I said you can hover over any hand to see 
+what's going on we also have this summary tab now  
+the summary tab shows some interesting data so we 
+can see the strategy you can also see for example  
+how much of it is in our range so range 
+indicates the weight so Jack nine for example  
+only gets here 85 percent of the time and that's 
+because it's going to raise pre-flop sometimes  
+we can see the expected value of this hand in big 
+blinds the equity so that's how often it would win  
+if it were checked out the equity realization 
+and the blocker score if you have premium  
+hover over this icon to learn more 
+about what each of these things mean  
+so what is a blocker score what is 
+EV well you can learn it all here
+something else you can do is use this drop 
+down look at different types of data so  
+what is the actual expected value of different 
+decisions I'm going to select strategy plus AV  
+and here for example we can see that 
+Jack 8 has the same EV raising and  
+calling which should be no surprise 
+because it's mixing raises and calls
+a hand like 96 though for example is just a minus 
+EV call the highest DV action is folding and so  
+it pure Folds you can look at different things so 
+strategy plus equity and you can also just press  
+one on your keyboard to go through this so this 
+is the expected value Equity Equity realization  
+lockers and the overall range weights you can also 
+look at all of it at the same time so for example  
+here we can see all of this stuff that we saw in 
+the summary tab next I want to show you uh how you  
+can customize the look and feel of GTO wizard of 
+it so perhaps you don't like these colors maybe  
+you're a little colorblind maybe you just don't 
+like the general Vibe it's fully customizable  
+select your settings in the top right corner here 
+and customize your colors to your heart intense we  
+have a lot of different themes you can pick from 
+on the right here so maybe you like this Ice Cold  
+theme or maybe the homage thing maybe oh the data 
+pick a theme that's a pretty popular one make it  
+your own now you can also customize it yourself 
+so you can choose for example exactly what color  
+a check should be the color gradient for like a 
+medium bet or a large bet you can change pretty  
+much everything in here what are your cards look 
+like what do the suits look like what is the text  
+and background look like make it your own and 
+you can even Import and Export themes among  
+Frets something else you can do is change the way 
+the range is viewed so for example you can select  
+range height or full height now full height just 
+means that everything's rescaled to maximum so for  
+example A6 here it looks like we have this hand in 
+full when in fact we only have it 19 of the time  
+and so if you go to normalize it rescales it 
+right so I prefer the normalized view and I  
+strongly suggest you use this too because 
+that way you won't be looking at a hand  
+like ding six thinking it's impactful when in 
+fact it's a very tiny part of the range right  
+something else that I really like and you know 
+what I'm even going to switch to a two-tone  
+board for this one is this horizontal view this 
+one is one of my favorites so horizontal View  
+changes the way your range is displayed in 
+the strategy Matrix and so each combination  
+is displayed separately so for example we can 
+immediately see these Diamond draws inside calling  
+so nine five we see that there's one column 
+those are the diamonds and the rest are folding
+similarly we can see for example  
+just at a glance that the king X and the queen X 
+are only calling when they have this diamond here
+so this one's really useful for boards or 
+suits matter the vertical view I think is  
+better for rainbow boards but choose what you 
+like now if you're ever confused about what  
+all of this means again we have these little 
+helper buttons so just click help and you can  
+understand what's going on here so next I want 
+to show you probably what is my favorite feature  
+in GTO wizard solution browser and these 
+are these filters oh I absolutely love the  
+filters so the filters allow you to filter and 
+highlight different hand classes in your range  
+so for example if I hover over top pair it 
+highlights the top pair and if I click this
+it applies a hand class filter I should say 
+and so now we see that these Global frequencies  
+are also updated and so if I click two pair for 
+example we can see the two pair is mostly calling  
+and straights are mostly raising you can 
+also use these little arrow keys so if I  
+just click for example up now I've selected all 
+of the two pair and better and if I click down  
+now I've only selected in between what I've 
+clicked and again little filters come up here  
+so something you can do for example is Click 
+let's say arrays and we're filtering for hands  
+within this phrase let's click both phrases 
+and we can use these Equity bucket filters  
+so Equity buckets tell you how strong your hand 
+is compared to your opponent's range so what's  
+the value portion of these check raises well if I 
+click the best hands we can immediately see it's  
+pocket tens a bottom set and straights okay what 
+is the bluff portion of these check raises I'll  
+select trash hands and maybe some weekends and we 
+can see here it's a whole lot of Jack X and King  
+X these gut shots uh particularly with a diamond 
+indicating that we have also the flush draw right  
+so another really useful feature of wizard is the 
+ability to group bed sizes together for example  
+here we see that the solution is mixing between a 
+half pot rays and a full pot raise but what if we  
+don't actually care about that distinction well 
+we have this ability to group actions together  
+so I'm going to click simple and here it mixes 
+between raise call and full now this doesn't  
+actually change the solution it just changes the 
+way it's displayed and so all of our raises are  
+now bucketed together as one Ray size and this 
+can be really helpful for spots where there's a  
+lot of bet sizes and you want to simplify it now 
+you can use this drop down or just press s we also  
+have this chart mode this is kind of fun you can 
+see for example a graph of the betting frequencies  
+we've got the main ones that moves off 
+but we also have these grouped sizes right
+below this we have another switch for the filters 
+and there's a difference between full length and  
+range length and so full length just displays 
+each column to its fullest whereas range length  
+rescales it as to how many of these hands you 
+actually have in range so we have more two pair  
+therefore this bar is longer than this bar and 
+I like that because it gives me an idea of what  
+proportion of hand glasses are in my range right 
+another useful feature is the ability to toggle  
+between big lines and percentage pot you can 
+just press the space bar to switch you can  
+even display both at the same time alternatively 
+you can change these in your settings under other
+all right that about wraps it up for the strategy 
+tab but there's a number of other tabs here I want  
+to show you so let's move on to the ranges 
+tab next the ranges tab is super powerful  
+I really like this tab so you'll probably see a 
+screen like this and first of all we can compare  
+both ranges at the same time now you can full 
+screen it using this button or by pressing Q
+and the main thing is that we can 
+compare for example different hand  
+classes so we can highlight who has more 
+straights or sets or two pair or top pair  
+we can also compare things like the expected 
+value of both ranges or the equity of both ranges  
+and you can also copy the strategies at this point 
+so I can copy this to my clipboard and paste it  
+into my favorite poker tools similarly I could 
+copy this one and here it's big blinds action  
+so I can copy a specific node so for example I 
+could copy just their calling range or just their  
+folding range in the center we see combinations 
+that's the number of combinations in either  
+player's range on the left big blind on the right 
+hijack and it's always out of position in position  
+we see the expected value so obviously 
+uh hijack has an advantage on this board  
+especially after the bets we can see the 
+equity the equity realization as well as  
+a breakdown below between the hand classes now 
+you can compare Equity buckets hands and draws  
+so Equity buckets for example is how much 
+Equity you have against your opponent's range  
+we also have these finer Equity buckets 
+with more categories and these are good  
+for getting a sense of the overall range and not 
+advantages as well as the polarity of the spot  
+and classes are also quite fun clicking any one 
+of these applies a filter so for example if I  
+click a few of these now I'm filtering the 
+top pair and two pair in both players ranges  
+and there's a little thing at the very top 
+these little things in white tiers so 33  
+and 21 this means that overall 21 of big blinds 
+range contains a two pair or a top pair whereas  
+33 percent of hijacks range contains these 
+heads again we can just clear our filters here
+now below this we see this Equity distribution 
+graph you can full screen this to get a better  
+look at it this is a good way to quickly 
+visualize the nothing range advantages  
+so this green line is hijack and this blue line 
+is big blind and you can change the color of  
+these lines in your settings but what we notice 
+here is that hijack is way ahead of big blind  
+and this indicates that they have a big big range 
+advantage when I stop at any one of these spots so  
+for example right here we can see on the x-axis 
+the strength of our hand within our own range  
+and on the y-axis the strength of our hand against 
+our opponent's range so for example right in the  
+middle hijack's middling hand is Queen jack off 
+suit which has decent Equity against big blind  
+big blind's middling hand is Jack nine which is 
+pretty far behind and by superimposing them like  
+this we can get a quick view of what's going on 
+you can also highlight to zoom in so for example  
+if we just want to see like the range event or 
+like the The Nutty hands we can do that as well  
+and clicking anything in here puts little dots 
+that show which hands you've selected so if we  
+just select these nutted hands each one of these 
+dots represents a combination in either player's  
+wrench now the ranges tab is most powerful 
+because you can use it to compare the range  
+asymmetries and from there you can use it to 
+figure out why different strategies are preferred  
+so something else you guys should check out 
+is this breakdown tab now the breakdown tab  
+shows you a summary of all the hand glasses 
+in your player's range so here we're looking  
+at big blind and this is similar to the filters 
+tab except we have more graphs and stuff right  
+so here we can see how many of each of these 
+hand categories straight sets two pair different  
+types of draws and such are in our range and 
+that's shown under this range percentage here  
+you can see the number of combinations present as 
+well as what these hand categories prefer so we  
+can see obviously straights like the razelot and 
+hands like low pairs are just pure folding we can  
+also apply bedding filters so I if I just select 
+these raised sizes notice that this represented  
+column changes and so this shows me the overall 
+range construction of our check race and we can  
+see again our check raise is mostly constructed 
+using ands like straights and sets and two pair  
+and such right this is going to be the the value 
+portion of our arrays and the Bluffs lots of combo  
+draws right at the bottom of the page we see this 
+all combo summary and this is uh kind of a fun  
+way to visualize the polarity so here we can see 
+what hands start folding what hands are calling  
+what hands are raising in this beautiful little 
+Manhattan graph and it's interesting because  
+it's sorted by equity so we can see that for 
+example some high Equity hands for example Ace  
+8 here is actually folding and you know what 
+I'm going to change this from strategy to all  
+so this hand has 53 equity and yet some low 
+Equity hands so for example King six here  
+this hand has way less Equity but it's pure race 
+and that's likely because you have the king of  
+diamonds and so you can outdraw your opponent's 
+range whereas A6 is going to be dominated by a  
+lot of hijacks right we can also visualize the 
+polarity notice that there's a lot of red here  
+that's our value and there are some Bluffs along 
+here right and the more polar you get the more of  
+that spread and the fewer of these middling hands 
+will be present so it'll spread out between value  
+and Bluffs in the aggressive lines we also have 
+aggregate reports now I've already put out a  
+video on aggregate reports these are so cool these 
+allow you to view the strategy across all possible  
+flops you can use it to find for example betting 
+heuristics you can group you can filter I'm not  
+going to go into it in this one because I've just 
+put out a video on it but do check that out these  
+are very very powerful tools to get a better 
+sense of what's going on and build heuristics  
+let's go back for a second one hockey you should 
+be aware of is that you can quickly switch between  
+these four tabs using one two three and four and 
+again all of the hotkeys are in your settings here  
+so all right here if you forget some 
+of them are customizable as well  
+something else I should mention is that you 
+can filter by suits so for example right  
+here I can filter by suit I could filter for 
+just the diamond draws for example or just the  
+backdoor Spades I can also do that in the 
+filters tab as well a few more shortcuts  
+you should be aware of you can reset 
+the history by pressing this button  
+and that's just going to take you back there 
+or press G you can save the solution so if  
+you find a spot you like press this save 
+button type in some notes spot to study  
+save it and you could come back to it later 
+and this is a great way for for example if your  
+coach you can save your spots like this reopen 
+it that way we can also edit and reapply it
+you can jump directly to practice mode pressing 
+this button and that's going to allow you to grind  
+whatever spot you're looking at practice against 
+the solution and this allows you to collapse  
+and expand this spot for smaller screens so that's 
+mostly it to the solution browser now that you  
+understand how to use it let's move on to some 
+tips now that you've learned all of the features  
+in the solution browser I'm going to give you guys 
+some tips and tricks for studying GTO Solutions  
+more effectively now if you've seen my efficient 
+studying video you'll know that I promote a big  
+picture approach a lot of people when they go into 
+Solutions they're trying to memorize stuff and  
+they get overwhelmed by all the possibilities 
+and the thing is you shouldn't be trying to  
+memorize arbitrary frequencies you should be 
+looking for the bigger picture so focusing on  
+your range rather than your hand looking at 
+thresholds comparing the range asymmetries  
+comparing Solutions and overall just trying 
+to uncover these underlying principles that  
+actually drive your strategy that's my Approach 
+not to say that memorizing is particularly wrong  
+it's just limited in how much you can actually do 
+right there's too many spots so without further  
+Ado let's move on to the first tip so my next 
+tip is to try and uncover underlying principles  
+the purpose of studying GTO in my opinion 
+is to uncover the underlying cause effect  
+relationships that drive good strategy let me say 
+that one more time because it's really important  
+we want to figure out why rather than what we want 
+to know the reason behind betting this hand rather  
+than this hand is betting if that makes sense 
+and so solution browsers and GTO they give us  
+the answer but they don't really tell us why and 
+uncovering Y is important because once you know  
+why you can then apply it to a much wider range 
+of situations you can take that same principle and  
+apply it to boards that you're unfamiliar with and 
+this helps you hone your strategy faster and more  
+effectively my next tip is to study thresholds now 
+I have talked about thresholds in so many videos  
+by efficient studying 10 tips for newer poker 
+players as well as a bunch of Articles at Daily  
+doses but it's just such a low hanging fruit 
+that you really should be aware of so studying  
+thresholds is the art of asking questions that 
+shape your range so for example where's the bottom  
+of my range where's my continuation threshold and 
+once you know where your continuation threshold  
+is you know what's close and you know what's a 
+snap fold and what's always continuing right so  
+if you know that second pair is never ever folding 
+then you know that top pair is never folding for  
+example right and so studying these thresholds 
+involves asking questions like what hand classes  
+start folding against this bet size what hands 
+can raise for value or double barrel value and  
+what draws are just never folding here so I 
+won't go too much in depth because I've covered  
+this in so many videos but let me just give you 
+a quick example of how I like to study thresholds
+so this time I'm using a spin and Go Solution 
+again these principles apply to all formats it  
+doesn't matter what you play cache MTT spins 
+this is going to apply to you so button folds  
+small blind opens big blind calls and 
+the Flop is Jack eighth Deuce two-tone  
+small blind best 25 percent action on big blind 
+now when some people look at this they're going  
+to be a little bit confused because there's so 
+many hands doing so many things what's going on so  
+what I do is I click this filters Tab and first 
+thing I look at are these thresholds here so  
+where is my indifference threshold for folding 
+well it's about ace high right and how do I know  
+that because there's a little bit of blue there 
+and so if I simply filter for everything above  
+ace high we can see it's never folding and so I 
+already know that against this size I'm not going  
+to be folding a made hand right similarly 
+with my draws I'm not folding a draw here  
+what about my value threshold well we can hover 
+over this little icon and we should look at that  
+our value threshold is top pair and so we know 
+approximately what hands are raising per value  
+where the continuation lines are and this is 
+important because it sculpts your strategy  
+so my next tip is to look beyond the strategy 
+most people when they study GTO Solutions are  
+only paying attention to the strategy and it's 
+sometimes difficult to determine why it's doing  
+what it's doing if you only look at the strategy 
+as we've shown earlier there are a lot of other  
+metrics you can use you can look at EV expected 
+value Equity realization blockers we can try and  
+find indifference thresholds we can look at 
+pod odds there's a lot of different metrics  
+you can look at and strategy is only one of 
+them so make sure to utilize the tools GTO  
+wizard has to offer to help you understand 
+what's going on let me show you an example  
+so this time I've selected an nl50 cache game 100 
+big blind state cut off opens small blind three  
+bets to 10 actions on us back in the cutoff 
+here we can see it's folding 63 of the time  
+and now let's compare this to a different 
+solution and so this one uses a slightly larger  
+GTO optimized three batch sizes small blind three 
+bets to 11.5 instead now notice what happens to  
+our overall defending frequency when we switch 
+between these two it's a huge difference right  
+and so people will then post in the Discord 
+why is it so much different aren't these two  
+sizes basically the same but the answer is 
+no they're not because most of your hands  
+are very close to zero EV and so if you only 
+look at the strategy this may seem confusing  
+but let's take a look at the expected value of 
+the overall ratio and we can see that basically  
+regardless of what size they bet only the very top 
+of your range has any real value most of the rest  
+of it is just mixed in different Bluff catches 
+to prevent small blind from exploiting you and  
+so if we look at strategy plus EV we'll notice 
+that all of these hands are very close to zero  
+if you calculate your pot odds facing these two 
+different Ray sizes 11.5 versus 10. you'll note  
+that there is actually a fairly I won't say huge 
+but at least a significant difference between your  
+pod odds facing these two sizes and so we can 
+see with the evmetric alone that most of the  
+range is already very close so this is what 
+I mean when I say utilize more than just the  
+strategy tab there's a whole lot more going on in 
+here that you can get into it can be very helpful  
+to understand what's going on so my next tip is to 
+Clump by hand class so this process involves using  
+filters to look at one set of hand classes at a 
+time and comparing contrasting the strategies in  
+this way we can try to find why certain things 
+are happening and we can also change the board  
+in the runouts to see how the strategy with that 
+hand class changes this is a nice powerful tool we  
+can use to get insight into what's going on let 
+me show you how this works so we've got another  
+cash game spot here cutoff opens big blind calls 
+and the Flop is ace55 Rainbow so let's take a  
+look at one specific type of hand and I'm going 
+to choose the under pairs because they're kind  
+of nice to look at and so what's the difference 
+between these hands right they're always going to  
+be between top pair and trips but we notice that 
+Kings is checking a lot whereas six are betting  
+more often so why is it that the lower under pairs 
+are betting more often than the higher under pairs  
+and hopefully this should be obvious to some 
+of you guys the answer is simply vulnerability  
+so for example when you bet pocket 
+sixes you're making them fold  
+7x 8X 9x 10x Jack X but when you bet pocket kings 
+I mean are you really did you gain much when you  
+made them fold their Jack eight no like you could 
+have just checked it back let him hit a jack on  
+the turn gotten money that way and so there's 
+value to fold Equity but it's relative to your  
+hand and this is something I talked about in my 
+first lecture for Wizard the value of fold equity  
+now let's change the board and see if 
+this heuristic still applies so let's  
+ace4 and we're going to take a look at the under 
+Pairs and lo and behold it's still there right  
+the kings are checking more than the 
+fives and we see a nice gradient here  
+okay well let's change it up a 
+bit what about a is three three  
+and again filter for under pairs same 
+heuristic right you see this actually in  
+quite a lot of boards so let's try something 
+else let's try checking through to the turn  
+and we're going to put let's say a six and in fact 
+I'm going to make it a six of Hearts just because  
+I want it to be rainbow and I'm going to make it 
+vertical View big blind checks action on cut off  
+so let's pick another hand class to 
+study let's go with top here this time  
+how does our betting frequency with top pair 
+change on different turn cards so there's a  
+few ways we can go about this you could 
+just pick different turn cards you could  
+look reports another cool feature is you can 
+use hotkeys so I'm going to click shift left  
+and notice that this increments the turn 
+card so at seven it's an eight it's a nine  
+it's a 10 and notice what's happening to our top 
+pair here it's starting to bet more and more and  
+more why is that why do we get to bet more top 
+hair when for example there's a queen on board  
+and so this is where you start making 
+your hypothesis now my hypothesis is that  
+we have enough of these Queen X hands that they 
+act as protection for the worst Bluff catchers  
+in our range that want to get The Showdown 
+and so that frees up our top pair to bet more  
+aggressively whereas if we compare this to say 
+like six of hearts for example we can't really  
+do that as much right and so in this case I think 
+that you can scroll through the strategy or use  
+turn reports to try and compare how different 
+runouts affect different portions of your range  
+so my last tip is also my best tip if you stuck 
+around this far congratulations you get the little  
+pot of gold at the end of the tunnel and that 
+tip is to compare the ranges and this is just so  
+absurdly powerful people are not using the ranges 
+tab enough uh the range of symmetries reveal most  
+of the reasons behind the strategies this is 
+because you can pair you can compare things like  
+which hand classes hits who has more of what what 
+are what's the polarity by looking at the equity  
+buckets and let me show you just a quick exercise 
+you can do to try and hone in on your flop  
+heuristics a bit so I've picked a spin and go spot 
+here we're going to keep it simple button opens  
+big blank calls and instead of picking a flop I'm 
+going to go straight to the ranges tab and we're  
+going to filter for calls so now we see what hands 
+big blind is calling with so let's try and pick a  
+flop where button is going to have an advantage 
+so for example what does big blind not have well
+they don't have any of the pocket pairs we're 
+going to look at the offsuit stuff like they  
+don't have Jack three they don't have like 
+n595 so what about a board like nine five  
+dupes something like that so they don't have any 
+of these sets obviously and they don't have nine  
+five or five deuce or nine dues and so they they 
+don't have a lot of these two pair any of his sets  
+uh whereas we're still hitting all of this top 
+pair and we still have all of these over pairs  
+so I fear yeah I feel like nine five dudes 
+is gonna be a very aggressively bad board  
+just looking at the range comparison tab here so 
+let's plug it in so big line calls nine five deuce
+big line checks action on button and wowzers that 
+is a lot of big betting for a spin go so yeah just  
+betting pot 75 betting often and betting large uh 
+taking advantage of the fact that a big blind just  
+doesn't have any of the nutted hands in range to 
+counter these large bets and also taking advantage  
+of the fact that we can immediately fold out a 
+lot of over cards to our top pair such as all  
+of these Jack 10 king queen ace cards right and 
+so this is the power of the range comparison tab  
+use it to compare hand classes use it compare 
+Equity buckets like here we can see for example  
+they just don't have any of these best hands 
+in range because we cherry pick this spot  
+and that's obviously going to lead to these more 
+polarized strategies especially on a board with  
+as much old Equity as 9-5 news all right that's 
+it for the video guys I hope you enjoyed it hope  
+you got something out of it if if you find 
+this helpful hit that subscribe button hit  
+the bell and let us know what you'd like to see 
+next in the comments down below happy grinding

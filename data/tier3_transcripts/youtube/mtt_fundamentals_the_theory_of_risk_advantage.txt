@@ -1,0 +1,935 @@
+### TOPIC: mtt fundamentals the theory of risk advantage
+you've probably heard of Poker Concepts 
+like nut advantage and range Advantage  
+but in this video I'm going to introduce 
+A New Concept which applies specifically  
+to tournament play that concept is 
+called risk Advantage let's take a look
+hi Wizards I'm Matt hunt and in this video we're 
+going to be discussing an idea which I believe is  
+pivotal for understanding how tournament ranges 
+are constructed when ICM is in play a concept I'm  
+referring to as risk Advantage I've never seen 
+this concept discussed anywhere else so there's  
+a good chance you're actually seeing its creation 
+here in real time but having spent a good deal of  
+time with the GTO wizard library of pre-flop Sims 
+I think it's arguably one of the most important  
+ideas in tournament poker so I'm glad to have the 
+opportunity to talk about it with all of you let's  
+start by backing up a little And discussing some 
+of the basic principles of tournament ICM before  
+you watch this video I highly recommend you check 
+out the YouTube videos by my fellow GTO wizard  
+coach Tom Boss 21 specifically the videos titled 
+visualizing ICM and you're playing tournaments  
+wrong since those videos will explain in detail 
+a lot of Concepts I'm going to reference in this  
+one the first of those Concepts is the idea of 
+risk premium where the presence of ICM means that  
+the downside of losing chips is greater than 
+the upside of winning chips this graphic here  
+taken from one of Tom Boss videos illustrates 
+this concept really well the specifics of this  
+scenario aren't really important but the red area 
+on this graphic represents the extent of our risk  
+premium for this particular spot we can see that 
+as the level of risk increases the premium imposed  
+on us to justify the risk also grows significantly 
+in a somewhat non-linear fashion despite the fact  
+that a small level of risk in this spot such as 
+calling a basic pre-fought raise only involves a  
+small risk premium this does still influence our 
+pre-fought ranges in a significant way since any  
+chips we will eventually put into the pot post 
+flop also come with a risk premium especially any  
+spot where we end up making a big Bluff or Bluff 
+catch on the river when there's a risk premium  
+placed on us we're getting a worse effective price 
+to call any pre-fought rays but the same is also  
+true for our opponents and since each player has a 
+slightly different risk premium against each other  
+player based on stack sizes everyone's getting 
+a slightly different effective price we'll come  
+back to that concept very soon the other concept 
+we'll need to be aware of is introduced in the  
+other tombos video I referenced the idea that ICM 
+only really starts to significantly outperform  
+chippyv once we get down to around 50 of the field 
+remaining in a tournament it's not crucial that we  
+go into why this is the case in this video but 
+it is the reason why we're going to focus most  
+mostly on spots where we have less than half 
+the field remaining these spots will provide  
+the best examples of what I mean when I'm talking 
+about risk Advantage so what actually is this  
+concept of risk Advantage well it operates in 
+a similar way to other advantage-based Concepts  
+we might talk about in a variety of different 
+contexts like not advantage or Equity advantage  
+another advantage means we possess a greater 
+density of nut hands than our opponent in a  
+given spot an equity or range advantage means our 
+range has more Equity than our opponent's range  
+a risk Advantage works in the same way having a 
+risk advantage means we have a greater capacity  
+to take on risk against a specific opponent than 
+they do against us this happens anytime our risk  
+premium against them is lower than their risk 
+premium against us with the difference between  
+the two risk premiums being the extent of the risk 
+advantage anytime risk premiums are asymmetric  
+which is any time two players have different stack 
+sizes a risk Advantage is present in some form  
+if our risk premium against our opponent is five 
+percent but theirs against us is 10 then we have  
+a risk advantage of five percent sounds fairly 
+simple right well not quite it might sound like  
+this just refers to any spot where we have our 
+opponent outshipped but there are actually a few  
+different factors which affect risk Advantage 
+so let's explore them a little and then look  
+at some examples in general risk Advantage is 
+only going to be present in a substantial way  
+in a given spot once we've reached the point in 
+the tournament where ICM starts to ramp up this  
+will usually be around 50 of the field and Below 
+as we've mentioned but depending on the nature  
+of the payout structure and field size there 
+might be some slight variation here as a whole  
+though we won't see substantial risk advantage 
+in play early on in a tournament it's also only  
+really going to exist when one player outships 
+another substantially while having an opponent  
+covered to any extent does theoretically give 
+a player a slight risk Advantage this will be  
+reduced when Stacks are closer together since the 
+shorter player still has the ability to win most  
+of the deeper players stack it's not possible for 
+the player with the shorter stack to have a risk  
+Advantage because the fact that they can't bust 
+the other player from the event simply prevents  
+this from being the case however as we'll see 
+later on when we look at some examples there's  
+a big difference between a player being marginally 
+covered versus significantly covered and the depth  
+of stacks relative to the average stack will also 
+be important this last factor is a huge element  
+in Risk advantage the more valuable the shorter 
+of two stacks is the more leverage the covering  
+player has over that stack if we're second in 
+chips but there's a player with a massive chip  
+lead they have a huge risk advantage over 
+us because our stack is very valuable but  
+they're the only player who can bust us if the 
+shorter stack has any more than about half the  
+average stack that's a fairly valuable stack so 
+the larger stack has a fair amount of Leverage  
+there this creates the traditional Dynamic that 
+you'll be familiar with if you've done a lot of  
+ICM work where the middle Stacks get heavily 
+leveraged by the fact that they have a lot to  
+lose in comparison with the short stacks in fact 
+as a whole risk Advantage conceptually serves as a  
+way to measure one specific player's capacity to 
+exert ICM pressure over another specific player  
+at a given stage in the tournament keep this in 
+mind as we move forward so in the end there are  
+two main factors which influence the scope of a 
+player's risk Advantage the difference between  
+the two stacks and the overall ICM value of the 
+shorter stack now let's run through some examples  
+to show you what I mean in more detail we're 
+going to look purely at the risk premiums to  
+start with and we're not going to consider each 
+player's actual strategy that part comes later  
+so this first example here you can see is from 
+the very first hand of the tournament all Stacks  
+have 200 big blinds and as you can tell everybody 
+has a 1.8 risk premium nobody has a risk advantage  
+over anyone else in a spot like this simply based 
+on the fact that everybody has the power to bust  
+anybody else nobody has a bigger stat than anyone 
+else so risk premiums are going to be the same  
+all the way around very very simple scenario 
+in this second example with 50 of the field  
+remaining you can see that the risk premiums are 
+now different between each player this is because  
+ICM has started to become a consideration here 
+in this spot the average stack is about 60 big  
+blinds and you can see that the LoJack and the 
+hijack here have a very high risk premium versus  
+each other because the LoJack has 110 big blinds 
+and the hijack has a hundred big blinds and the  
+LoJack only has a 0.2 percent risk Advantage based 
+on the fact that they cover the hijack however if  
+we look at the low Jack versus the button you can 
+see that the LoJack has a risk premium versus the  
+button of 2.5 percent while the button with their 
+45 big blind stack has a risk premium against  
+the LoJack of three percent this means that the 
+LoJack has a 0.5 percent risk advantage in this  
+specific scenario which will affect the way that 
+the LoJack is going to play against the button  
+in this next example with 25 of the field 
+remaining where we're getting closer to  
+the bubble and the average stack is still 50 
+big blinds we have a stack setup that sees an  
+under the gun player here with 125 big blind so 
+two and a half times the average stack and this  
+player has a big risk Advantage versus everyone as 
+the big stack here but focus on two other Stacks  
+here the under the gun two player who is a medium 
+stack with 53 bigs and the cutoff player who is a  
+short stack with only 10 bigs in this case the big 
+stack versus the medium stack creates a 4.7 risk  
+Advantage for the big stack player considering 
+that their risk premium is only 4.7 percent while  
+the medium stack has a risk premium against them 
+of 9.4 that creates a 4.7 advantage in the case of  
+the big stack versus the short stack the big stack 
+has a risk premium of only 0.9 percent while the  
+short stack has a risk premium against them of 
+2.6 so that creates a 1.7 risk Advantage meaning  
+the big stack has less opportunity to leverage 
+the short stack than they do the medium stack  
+well why is this it's simply because the Under 
+the Gun 2 player here has roughly average stack  
+that means their stack is quite valuable which 
+means that the under the gun player the big stack  
+has more ability to apply pressure to them and 
+to leverage them because they have to preserve  
+that stack to some degree by contrast the cutoff 
+stack at only 10 big blinds is not very valuable  
+now if we move on to a much more extreme example 
+where we're near the bubble and the risk premiums  
+start to get very very high in this context the 
+average stack is about 40 big blinds and if we  
+look at the under the gun player once again they 
+now have a risk advantage of virtually 10 or more  
+against anybody at this table because as you can 
+see if you look at that first row on the graphic  
+here the under the gun players risk premium 
+against any player at this table is never jumping  
+above five percent but everybody else against 
+under the gun if you look at that left hand column  
+everybody else has a risk premium of at least 12 
+13 14 close to 15 in some instances against the  
+under the gun player so this exact phenomenon 
+is what creates those spots where a certain  
+player gets to exploit the bubbles significantly 
+by opening really wide and things like that it's  
+the fact that this player can bust anybody in 
+the event but nobody else at the table has a  
+significant incentive to mix it up with under the 
+gun and they can't exert as much pressure because  
+under the gun can take much more risk against them 
+than they can against under the gun now if we look  
+at an example from after the bubble in this case 
+a final three table spot you can see that the risk  
+premiums have dropped significantly because 
+we're through the bubble and under the gun's  
+ability to pressure the stacks around them with 
+their 100 big blind stack has massively reduced  
+the under the gun's risk Advantage versus 
+everybody here is cut approximately in half  
+and you can see that the short stacks at the 
+table have fairly small risk premiums as well  
+so in this case because there's fewer pay jumps 
+there's much less Jeopardy for the players  
+who are shallow at this point there's much less 
+ability for the big stack to apply pressure that's  
+reflected in the change in the extent of the under 
+the gun's risk Advantage here the middle Stacks  
+still have to be very cautious or relatively 
+cautious against under the gun but not to the  
+extent that they did when we were approaching the 
+Bobble and these risk premiums are then going to  
+start ramping up again approaching the final table 
+and the value of that under the gun 100 big blind  
+stack is going to keep increasing as their risk 
+advantage over the other players keeps increasing  
+as well so now that you've seen what risk 
+Advantage looks like I have a question for you  
+pause the video if you need some time to 
+think about your answer is the following  
+statement true or false the average stack in the 
+tournament does not affect risk Advantage only the  
+stage of the tournament and the relationship 
+between the active Stacks what do you think
+[Music]
+well the answer here is actually 100 false let me 
+show you why so if we look at these two examples  
+here let's focus on the 50 big blind stack and the 
+20 big blind stack in these two scenarios where on  
+the left the average is 40 big blinds and on the 
+right the average is 20. so on the left the under  
+the gun one player has a 50 big blind stack and 
+the small blind has 20. in this case under the  
+gun 1 has a risk premium against the small blind 
+of 3.8 percent while the small blind versus Under  
+the Gun 1 has a risk premium of 5.5 percent so 
+in this case the under the gun one player has a  
+risk advantage of 1.7 percent on the right hand 
+side when 20 big blinds is the average stack we  
+now have a scenario where the under the gun player 
+with 50 big blinds has a 4.5 percent risk premium  
+against the small blind who has 20 but the small 
+blind has a 9.1 percent risk premium against the  
+under the gun player creating a spot where where 
+the under the gun player now has a 4.6 risk  
+Advantage so on the left with 40 big blind average 
+Stacks the advantage of a 50 versus a 20 big blind  
+stack was about 1.7 but when average stack is 
+20 big blinds what now happens is that 20 big  
+blind stack in the small blind becomes much more 
+valuable the small blind has a lot more incentive  
+to just preserve that stack because there's a 
+lot more short stacks at the table and in the  
+tournament so the under the gun player with 50 big 
+blinds even though the stacks haven't changed now  
+has a much much bigger risk advantage in the spot 
+on the right here simply because 20 big blinds is  
+more valuable than it is when the average stack 
+is 40. so that's an interesting spot that we can  
+analyze here with all of this in mind it's time 
+to dive into how risk Advantage actually affects  
+strategy we don't really need to look at how 
+it affects opening ranges since that equation  
+is extremely simple the larger a player's risk 
+Advantage versus the players left to act behind  
+the more opportunity they have to why in their 
+opening range Beyond whatever a chip EV range  
+for their stack size would be so with that in 
+mind let's go beyond opening ranges and focus  
+our energy on two main areas how risk Advantage 
+affects our initial response to an open raise and  
+how it affects our response to a three bet first 
+we'll tackle the situations where we ourselves  
+have a reasonably significant risk advantage 
+in this first scenario the cutoff with 110 big  
+blinds is responding to an open from Under the Gun 
+2 at 50 big blinds with 37 of the field remaining  
+and in this case based on the risk premiums the 
+cutoff has a one percent risk advantage and you  
+can see that there's a small difference here in 
+the ranges there is a certain amount more three  
+betting with the suited Aces on the right hand 
+side and there's also a little bit less flat  
+calling on the right hand side as well with some 
+of those speculative hands like some of the suited  
+connector type hands so there's a little bit of 
+an evolution in the ranges here and we'll talk  
+about the extent of that a little bit more later 
+on but there's not a massive change so far we're  
+seeing a little bit less mixing a little bit less 
+need for a balanced three betting range with but  
+generally a one percent risk Advantage hasn't 
+affected things too much just yet now in this  
+next example we have the cut off at 100 big blinds 
+reacting to the LoJack at 43 big blinds with 25  
+percent of the field remaining so in this case as 
+you can imagine the risk premiums are starting to  
+ramp up as we get closer to the bubble and this 
+is going to affect the output of the Sim in a much  
+more significant way here right away when we have 
+a 3.5 risk Advantage here you can see that our  
+three bet range has become a lot more polarized 
+you can see that the suited aces are now the bulk  
+of our three bet Bluffs alongside a good chunk of 
+the offsuit aces as well and what we're no longer  
+doing is mixing a decent frequency of three bets 
+with a lot of these middle suited hands like Jack  
+10 suited King 10 suited and some of the suited 
+connectors even we really have very little reason  
+to three bet those hands now because it's a lot 
+less important for us to have board coverage in  
+our three bet range and ultimately our 3 Bet 
+isn't going to get flatted very much to begin  
+with considering that the opposing player has 
+such a risk disadvantage that they're not going  
+to Flat a lot of three bets which we'll come to 
+talk about a bit more later but the fact that our  
+three bet isn't going to get flattered very much 
+means we don't need to have as much playability in  
+our three bet range and therefore we can three-bit 
+more polarized in the way that we are on the right  
+hand side here now if we look at a more extreme 
+example where we're at the final two tables and  
+we have 150 big blinds in the small blind against 
+a cut off open from a 60 big blind stack in this  
+case we have a massive 10.5 percent risk advantage 
+and as you can tell that's massively altering our  
+strategy here right we have a lot less need for 
+mixing a lot less need for board coverage so a lot  
+of those middle suited hands suited Broadways that 
+might choose two three bet here for the purpose  
+of playing in a three-bet pot against certain 
+dominated hands those have very little reason  
+to three bet anymore and are heavily favoring flat 
+calling our flat calling range is very condensed  
+but it's also very wide where peeling hands as 
+wide as five three suited here just because we  
+have a lot of post-flop Leverage when we do call 
+the polarized three betting range that you can see  
+here is now including almost all the offsuit Aces 
+and even a lot of the weak suited kings and queen  
+means that are going to have enough blocking power 
+over the hands that will flat the three bet or the  
+hands that will format to justify three betting 
+aggressively here so that 10.5 risk Advantage is  
+massively helping us to three bet aggressively in 
+this case and even hands like pocket eight sevens  
+and sixes are three betting at a decent rate 
+here and that is not necessarily because they're  
+looking to get value from Flats because they're 
+not getting flatted very much but it's more to do  
+with their ability to deny Equity to a lot of the 
+over card hands here that will be forced to just  
+raise fold to a three bet and as you can see the 
+offsuit Broadway hands are now doing a good chunk  
+of three betting because they have a reasonable 
+amount of blocking power against the hands that  
+will format and flat so they're going to get more 
+fold Equity as well so the huge risk Advantage  
+here is creating a spot where we get to three bet 
+a lot wider and much more polarized now let's move  
+on to looking at some spots where our opponent 
+has the risk advantage and see how our response  
+against a race first in is going to change in this 
+case we are the button with 55 big blinds versus  
+a cutoff open from a 110 big blind stack with 37 
+percent of the field remaining and as you can see  
+there's a little bit of the same sort of dynamic 
+here going on where our three bets have started  
+to become more polarized even though we have a 
+risk disadvantage but a pretty key function of  
+our strategy change here is the fact that we're 
+simply a lot tighter the hands like 10 7 suited  
+Jack 8 suited eight seven seven six six five that 
+were continuing at reasonable frequencies here in  
+the pure chip EV spot on the left are now going 
+to mostly fold when we have that risk disadvantage  
+and our suited Aces and some of those off-suit 
+hands and off suit aces are still our three  
+bet Bluff hands but we have a lot less reason to 
+speculate or to Flat with some of the bottom end  
+of that Broadway range Jack 10 off is now high 
+frequency fold Queen 10 off is some three bets  
+but very few flat hats so we're just narrowing 
+down our flatting range and we are starting to  
+become a little bit more polar with our three bets 
+but as you can see we still have a good chunk of  
+three betting with king queen suited we have a 
+little bit with Jack 10 Queen 10 10 9 stuff like  
+that simply because we are still getting flattened 
+Sometimes When We Three bet here now if we look  
+at a spot where there's 25 of the field remaining 
+and we're getting closer to the bubble and in this  
+case we have a 4.4 percent risk disadvantage so 
+our opponent opens under the gun too and 125 big  
+blinds and we are in the cutoff with 37 big blinds 
+now you can see that our response has massively  
+tightened up we're now folding a lot of pocket 
+pairs we're only flatting a very specific region  
+of suited Broadways and in fact even though our 
+three bet is going to get flatted sometimes and  
+therefore we don't have to be quite as Polar in 
+this spot the fact that we're up against Under  
+the Gun 2 means that it's a little a bit harder 
+for us to get some Thin value out of the opening  
+range and you can see that the king nines King 
+tens Queen Jacks Queen tens those are functioning  
+as some of our three bet Bluffs here along with 
+Ace jack off suit and some of the suited Aces but  
+our ability to three bet with say ace 10 suited 
+king queen suited get a little bit of thin value  
+out of that opening range is drastically reduced 
+here the king tens and King 9 suited are actually  
+three betting mostly for the opportunity to get 
+hands like King jack off suit to fold there so  
+ultimately our risk disadvantage is forcing 
+us to be tighter and we're still a little bit  
+polar but we're using some of those hands that 
+would otherwise flat like those weaker suited  
+Broadways as our Bluffs now and we're folding a 
+lot of those King eights Jack nines hands like  
+that if we go to an even more extreme spot where 
+the hijack opens off a 125 big blind stack at the  
+final two tables and we're on the button with 
+35 bigs clearly our response looked massively  
+different from chippy V we now have a 9.7 risk 
+this Advantage so our three bet is becoming even  
+more polarized and Ace 10 off Ace jack off those 
+types of hands start to become our best three bet  
+Bluff candidates alongside some of the middling 
+suited Aces and a few suited Kings as well  
+the queen Jacks Queen 10 suited Jack 10 suited 
+actually now become pretty reasonable frequency  
+folds because we're forced to play so tight and I 
+think this is the kind of spot where players are  
+just not going to play this way in practice 
+right I don't imagine people folding Jack 10  
+suited to an open here I don't imagine people 
+folding pocket eights at a small frequency to  
+an open here so really noteworthy here that our 
+response has become so tight in this case but we  
+still have those three bet Bluffs with the King 
+fives the king fours and the King 10 offs the ace  
+10 offs hands like that I guarantee you the vast 
+majority of people are not going to be able to  
+recognize that King 4 suited is a partial three 
+bet here while pocket eights is a partial fold  
+that obviously doesn't seem to match up very well 
+but it's all because of these risk premiums and  
+the extent to which risk Advantage is influencing 
+the strategies here next let's look at some spots  
+where we're defending against a three bet and 
+we'll start once again with the situations where  
+we have a risk advantage in this first example 
+we we open from the cut off at 110 big blinds  
+and the button three bets off a 55 big blind stack 
+with 37 of the field left and in this case we have  
+about a 1.1 percent risk advantage and you can see 
+a certain amount of what's Happening Here you can  
+see that in the chippy Sim first of all we have a 
+lot more jams against the three bet than we would  
+in ICM so ICM is now making jamming less effective 
+and we can achieve a fairly similar result with a  
+non all in four bit so you can see the suited Aces 
+from Ace 8 all the way down to ace deuce a lot of  
+them are now four betting non-all in interestingly 
+ace5 suited which is sort of the hand that most  
+people would assume is the most likely format or 
+four bet all-in type of a hand here especially in  
+chippy V that hand is now actually flatting some 
+instead of four by things their hand's almost  
+strong enough to Flat here but the main thing here 
+is that even with a risk Advantage we're still  
+forced to tighten up because we do still have some 
+kind of a risk premium against the button here and  
+the main hands that we're tightening up with are a 
+lot of these speculative hands like the middle Cod  
+and low Cod suited hands these hands are just more 
+easily dominated versus a tighter more polarized  
+three betting range and we don't have as much 
+opportunity to speculate profitably there this  
+also goes for the low pocket pairs you can see 
+that hands like fours Threes And even parts of  
+fives are now folding to the three bet where they 
+weren't doing so in chippy V the offsuit Broadways  
+are also falling to the three bet here so the 
+response is tight and it's shifting away from  
+all in four bets and more towards a polarized 
+non-all in four bet here as a response to the  
+three bet now in this next case where we now 
+have a 3.3 percent risk Advantage from the  
+hijack versus a cut off three bet with 25 percent 
+of the field remaining we're now once again still  
+shifting away from jams and more towards non-all 
+in four bets because the non-all in four bat is  
+much more prevalent on the right than it is on 
+the left but we do still have some jams except  
+what's interesting now is that our flats are very 
+restricted and our jams are actually coming from  
+a lot of these king queen suited King Jack suited 
+King 10 Queen Jack those types of hands that were  
+perhaps previously a little bit more happy to 
+just call and the reason here is that against  
+a polarized three bet range which contains a lot 
+of Aces we're now unblocking all of their three  
+bet folds and we're also putting ourselves in 
+a position where because their Free Bet range  
+is so polarized to begin with the EV that we 
+capture by flatting is greatly reduced we're  
+often going to be up against hands that are 
+very weak and won't put a lot of money into  
+the pot post flop anyway once we flat and then the 
+strong portion the Asus kings queens Etc just has  
+us dominated with a lot of those hands so we now 
+shift into a scenario where jamming and forcing  
+folds from those Bluffs is actually a little bit 
+more beneficial than flatting here so even with a  
+3.3 percent risk Advantage we're now shifting away 
+from flatting and more towards jamming now in this  
+next case where we now have a 9.7 risk Advantage 
+we are once again up against a button who's three  
+betting about 35 big blanks deep and we're in the 
+final two tables scenario once again and you can  
+see the these two ranges look wildly different 
+here the chip EV range has us doing a good amount  
+of flatting and then a certain amount of jamming 
+the ICM range has us still jamming a fair amount  
+but leaning even more heavily into some non-all in 
+four Bets with a slightly perhaps confusing range  
+of some king queen off some ACE 10rface Knight off 
+blocker type hands and then some Queens plus an  
+Ace King for Value but also a little bit of nines 
+and eights presumably for a little bit of equity  
+denial and then two sort of reluctantly call off 
+against the jam the bottom line here is that the  
+calling has massively reduced that even when we 
+are the covering player by a huge distance here  
+and we have a huge risk Advantage the polarized 
+nature of our pollen's three betting range means  
+that we no longer really have much incentive to 
+be peeling that three bet from out of position  
+so that's a very common Trend that we're going 
+to see here even when we have a risk Advantage  
+but what about when we don't have a risk Advantage 
+what about when we're facing a three bet and our  
+opponent has a risk Advantage well this is a 
+tricky scenario because we're facing a three  
+bet from a player who has leverage over us so 
+it's obviously not easy to know how to respond  
+let's take a look in this case we as the Under the 
+Gun 2 opener face a three bet from the cutoff who  
+has 110 big blinds and we have 50. so with 37 of 
+the field remaining we have about a one percent  
+risk disadvantage here and as you can see that's 
+already starting to affect our response quite a  
+bit we're flatting a lot less our flatting range 
+is basically some bits and pieces of the middle  
+pocket Pairs and then king queen suited Ace Queen 
+suited and Ace Jack suited there's really almost  
+nothing else in our flattening range here even 
+with 37 of the field remaining our opportunity  
+to Flat three bets out of position against players 
+who greatly cover us is massively reduced so big  
+change to our strategy here already then if we 
+increase the extent of our risk disadvantage  
+we're looking at a spot now where we have a 4.6 
+risk disadvantage once again flatting has almost  
+disappeared from our strategy but we're now now 
+in a position where we do have the ability to  
+start jamming again and as you can see it's a lot 
+of those suited Broadways that were flatting that  
+are now jamming and we have a polarized non-all in 
+format with some of those suited Aces serving as  
+our Bluffs and the very top of our range also 
+obviously four betting a bit smaller but main  
+thing here is that calling is disappearing 
+particularly with those speculative hands  
+that risk premium that's placed on us here means 
+speculation just isn't really going to function  
+very well and of course when we have a significant 
+risk disadvantage that's also going to be true  
+however what's now happening is something quite 
+interesting it's that the three bet range from  
+the button here has now become so wide that we 
+actually start to do a bit more flatting again and  
+it's simply because even though the risk premium 
+is quite High hands like Ace 10 suited Ace Jack  
+suited have so much EV that they can capture 
+by being way ahead of all the dominated asex  
+off-suit Bluffs that the button has here that they 
+actually now gain the ability to Flat a bit more  
+so once our opponent's range becomes so wide and 
+so aggressive there is a little bit of Merit to  
+flatting with some of these hands that have decent 
+playability but as you can see we also have quite  
+a lot of jams and a lot of those pocket pairs 
+are mixing flats and jams so the EV is going to  
+be very very close there one way or the other the 
+bottom line here is that the only thing that makes  
+flatting slightly more viable is if our opponent 
+is just really going nuts with three bets and  
+that's only really going to be true in situations 
+where we have a significant risk disadvantage here  
+so that's a really interesting aspect to this 
+concept but what about when the risk Advantage  
+is somewhat neutral well let's start by looking 
+at some spots where neither player really has a  
+significant risk advantage and the risk premiums 
+are not especially high in the early stages if  
+neither player has a significant risk advantage 
+and risk premiums are low we're just in a spot  
+where we're very close to chip EV so there's not 
+really too much need to actually look at that in  
+this case we have a spot with the hijack opening 
+off of 55 big blinds and the cut off having 53  
+in response we have about 37 of the field 
+remaining and both players have a 4.8 percent risk  
+premium in this particular spot you can see that 
+the response on the right hand side here is more  
+polar because there is that risk premium placed 
+on the hijack but it looks a little bit like the  
+spot where we had a slight risk Advantage here 
+we're already shifting more polar we're getting  
+more folds to the three bet we have less reason 
+to three bet linearly we have less reason to try  
+to get some Thin value out of some of those 
+hands that might previously have done so but  
+the overall consistency of the three bet range 
+hasn't changed a ton here it's just really the  
+middle suited hands that are now shifting out 
+of three betting and actually just starting to  
+fold and the suited aces are three betting at a 
+slightly higher rate so it's not a massive shift  
+in strategy here this next spot takes us into the 
+hijack's response against that cut off three bet  
+so this is the same spot where both players have 
+a 4.8 risk premium and what's happening here one  
+once again is that we're now seeing a shift away 
+from jamming and we're seeing a polarized non-all  
+in format with a block a heavy range of suited 
+Aces and then we're seeing very little flatting  
+so when risk Advantage is somewhat neutral 
+here it basically creates a similar scenario  
+to where the outer position player has a risk 
+disadvantage where they just really don't have  
+a lot of incentive to Flat the three bet is 
+more polarized it's a lot harder to play out  
+of position against that range so it's uh very 
+tricky to justify a lot of flacking here and if  
+we look at a spot where risk Advantage is neutral 
+but the risk premiums are a lot higher things are  
+going to get interesting as well in this case we 
+have a scenario at the final two tables where the  
+LoJack opens off of 40 big blinds and the cutoff 
+is responding and this is a really interesting  
+one because both players have a roughly 12 percent 
+risk premium against the other here right and that  
+creates a scenario where one player the cutoff in 
+this case does have a 0.7 percent risk Advantage  
+technically but that's not a big enough advantage 
+to really have affect the situation very much  
+here instead we can consider it a risk neutral 
+spot in a situation where the risk premiums are  
+very very high and you can immediately see what's 
+happened to the response from the cut off here on  
+the right they have a good chunk of flatting now 
+but it's very very condensed it's Jacks through  
+sixes suited Broadways and not really much 
+else and their three bet is highly polarized  
+to essentially just ace blockers and some King 
+blockers and they're three but for Value range  
+is so so thin their value three bet here is about 
+two-thirds of pocket queens and then Kings plus  
+and Ace King and that's about it there's very very 
+little that they're able to three bet for Value so  
+those hands there on the left were three betting 
+for Value like Jacks tens some pocket nines some  
+little bits of some other hands here those hands 
+have almost no incentive to three bet for value  
+now because they cannot stack off with that high 
+of a risk premium so in this case the flatting  
+option is actually slightly better even though 
+there's a high risk premium on there and we're  
+really just going to get to realize some Equity 
+post flop the cutoff and low Jack aren't going  
+to be able to play that aggressively against each 
+other here because they both have such high risk  
+premiums so we're just going to do a lot of 
+passive post-flop play and that's going to  
+be better than three betting hand like Jax and 
+being in a nightmare spot here now if we look  
+at the lojax response to that cut off three bet 
+again it's going to be drastically different from  
+Chip ev even though they're only at a small risk 
+disadvantage here it's effectively risk neutral  
+and what's basically happening is that they're 
+doing almost no Flats Ace Queen suited is the only  
+hand that has any reasonable flattening frequency 
+here or any significant flattening frequency and  
+they're shifting basically to playing Jam or fold 
+and even hands like kings or Queens they have such  
+little ability to get thin value from a small 
+full bet here that they benefit mostly just from  
+denying Equity being all in and hoping for the 
+best so it's specifically Aces and Ace King suited  
+that are actually Four betting small here which is 
+obviously a very very specific very narrow range  
+so again flatting basically disappears here 
+because the risk premiums are so high and now  
+we're facing a three bet which is a larger portion 
+of chips to uh to deal with next let's move into  
+looking a little bit at some multi-way Dynamics 
+and how this is going to affect some multi-way  
+spots in this first example we have a five percent 
+risk advantage in the big blind where the 125 big  
+blinds facing a low Jack open from a 61 big blind 
+stack and a button call from a 69 big blind stack  
+with 25 of the field remaining now as you can see 
+our response is still fairly wide our continuing  
+frequency is still fairly High we're still able to 
+call with a lot of suited hands but a lot of the  
+offsuit portion that doesn't realize Equity very 
+well is just folding and what's in particular very  
+interesting here is that we're slightly shifting 
+away from squeezing as a bluff with some of those  
+suited Broadways that wanted to do it on the left 
+hand side you can see the Jack tens the queen 10  
+King 10 they're fairly high frequency squeezes on 
+the left but they're much lower frequencies on the  
+right and instead on the right we're now squeezing 
+where the more polarized range of suited Ace  
+blockers High Cod low card hands like even Queen 
+do suited some of the other metal suited Queens  
+are now bluffing a lot so our Bluff selection 
+has slightly changed our range has become much  
+more polarized because again we're going to get 
+flattered a lot less um but we've basically just  
+tightened up we've tightened up we've become more 
+polar and we no longer really are as concerned  
+with having playability in our squeezing range 
+so we don't need to have as many of the suited  
+Broadways in there uh instead we're perfectly 
+content to just have a weaker suited and because  
+we're not getting flatted very much and in the 
+next example as you can see the big blind has 40  
+big blinds under the gun opens off 90 and hijacked 
+Flats off 100 with 25 remaining and in this case  
+our response is wildly different to chip EV we're 
+now much much tighter uh it looks more like a a  
+four-way or a five-way response here where we're 
+focusing on flatting a lot of the middle to low  
+suited hands even some of the lower off suit 
+hands and it's certainly very intuitive here  
+that we would fold Queen jack off suit at a high 
+rate but call 5-4 off suit almost in pure that  
+certainly is not very intuitive but it's really 
+just to do with Equity realization and the types  
+of board textures on which we are going to flop 
+very strongly here so our multi-way response here  
+with a roughly three percent risk disadvantage 
+against both players is actually substantially  
+Tighter and we are still three betting some of 
+those suited Broadways but now it's really mostly  
+for Bluff power and blocking potential more so 
+than wanting to get some some Thin value but we do  
+have to have a little bit more playability in that 
+squeezing range when the fact that both players  
+have us covered significantly means they have 
+a little bit more ability to Flat The Squeeze  
+here but also note that we're not doing any all-in 
+jamming we have a little bit of all in jamming at  
+40 big blinds in the chip EV version of this Sim 
+but there's none of it now in the ICM version now  
+that we've looked at all these different examples 
+let's bring it all back together and discuss the  
+overall shift and strategy we can observe when 
+we incorporate not just risk premium but risk  
+Advantage into our understanding of tournament 
+poker spots firstly when we have the risk  
+Advantage here the changes in our strategy first 
+of all we're going to respond to arrays first in  
+with a wider range and a more polar three bet now 
+this doesn't necessarily mean wider than chippy V  
+it's very rare that we can go wider than chip EV 
+but it is going to be wider than what we would if  
+we did not have the risk Advantage our three bets 
+are going to be primarily driven by a lot of the  
+weaker suited Ace and suited King hands as well as 
+a lot of the off-suit ace hands are going to three  
+bet at a decent frequency our call response is 
+going to be fairly moderate and pretty against a  
+lot of those middle strength hands we're not going 
+to need to mix a lot of three bets with those  
+suited Broadways because our three bet is not 
+going to get flattened as much so we really don't  
+need to have as much playability in a three-bet 
+pot and we also aren't going to get as much thin  
+value in that sense either our response against 
+the three bet is going to be very aggressive here  
+when we have a lower risk Advantage we're going to 
+have a pretty condensed call range but we do still  
+have the ability to call sometimes when we have 
+a much higher risk Advantage we don't really need  
+to do very much calling and instead we can just 
+capitalize on the efficiency of 4-bet jamming or  
+formatting small to really apply pressure to 
+the three better here particularly with that  
+very block a heavy range and finally when we're 
+multi-way we're still going to be fairly tight  
+just because the caller now has a much tighter 
+range so when two players are potentially risk  
+disadvantaged against some of the rest of the 
+players left to act behind it's gonna be a  
+slightly tighter open slightly tighter calling 
+range so we do have to be more mindful of that  
+and we have to be less willing to just speculate 
+with off suit hands and we also don't need to have  
+as much board coverage in our squeezing range 
+as well and what about when we have a risk  
+disadvantage well in these cases we're going to 
+have a much tighter response and a slightly less  
+polar 3 Bet versus arrays considering that the 
+value of calling with some of these potential  
+mixing hands is going to go down but three betting 
+now does get us a little bit more linear value or  
+thin value from some of these hands because our 
+three bet does get flattened sometimes so when our  
+opponent has us covered and we do get flattered 
+we actually do benefit a little bit from some  
+more playability in three bet pots and therefore 
+we can three bet some of these King Queens King  
+Jack suited stuff like that a bit more easily the 
+implied odds of pocket Pairs and suited connectors  
+are going to go way down in these spots we're 
+going to have very little opportunity to call  
+speculatively or to just try to flop a strong hand 
+so we're gonna have to be folding a lot of those  
+low pocket pairs here in a lot of spots and we're 
+going to have a very very tight response versus a  
+three bet for the most part we're gonna do a lot 
+of folding we're not going to do a ton of jamming  
+we're going to do some small full betting where we 
+can and the Paradox here that does occur is when  
+our risk disadvantage is super high when it's 9 
+10 12 something like that and that's not just the  
+risk premium it's the risk disadvantage so when we 
+have a very valuable stack and our opponent has us  
+covered by a lot the three bet is now so wide that 
+we actually start flattening a bit more so you saw  
+in those examples where we went to the final two 
+tables you saw that there were some very high risk  
+premiums some significant risk advantages being 
+developed but there was also a little bit more  
+flatting against the three bets simply because 
+the three bet was so wide and finally when we're  
+in multi-way spots here with a risk disadvantage 
+particularly if we have a disadvantage against  
+both players our range gets pretty much cut in 
+half we have to be a lot tighter we don't get to  
+do as much squeezing and a lot of the hands that 
+might flat just to realize Equity multi-way are  
+no longer going to have reason to do that simply 
+because we are at such a disadvantaged post-flop  
+and finally when nobody has a risk Advantage 
+you can kind of observe that our response versus  
+arrays first in range is a tighter version of a 
+gpv strategy our weakest calling hands in chip  
+EV are going to fold we're going to do a lot less 
+speculative calling our implied odds go down our  
+response against the three bet with this scenario 
+is going to pretty much have the same Dynamics  
+some pairs are going to start folding the suited 
+aces are going to start to prefer 4-bet bluffing  
+ahead of just calling the three bet and then 
+as the risk premium on both players is going  
+to increase our three bet is going to become more 
+and more polarized and we're going to have almost  
+no flatting versus our opponent's three bet again 
+because they three bet more polarized but they're  
+not quite wide enough yet for us to have a little 
+bit more Equity so that's about it for this video  
+I hope you've enjoyed our deep dive into this 
+New Concept I like to think of it as a way of  
+mathematically defining our capacity to exert ICM 
+pressure over our opponents in any given spot one  
+other aspect that is very exciting about this Con 
+concept is it can also be applied to post-flop  
+scenarios and I look forward to being able to 
+explore this in some detail once GTO Wizards  
+post-flop ICM Sims are available in the GTO 
+wizard archive at some point in the future so  
+with that said if you have any questions or 
+clarifications that you need from this video  
+feel free to put the comments down below and 
+you can also find me on the GTO wizard Discord  
+server I'll be happy to discuss the concepts 
+in this video otherwise thank you everybody for  
+watching I will be back again soon with another 
+video for you guys and good luck to everybody
+foreign

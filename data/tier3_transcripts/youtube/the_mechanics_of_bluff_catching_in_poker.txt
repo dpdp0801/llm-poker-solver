@@ -1,0 +1,357 @@
+### TOPIC: the mechanics of bluff catching in poker
+[Music]
+[Music]
+Bluff catching is an art that requires a keen 
+understanding of your opponent's Tendencies  
+a solid grasp of hand reading and nerves of 
+Steel in this video we'll break down the key  
+concepts of bluff catching share some real life 
+examples from the poker world and equip you with  
+the tools to make those tough decisions at the 
+table before I jump in I wanted to give you an  
+outline of what my bluff catching process looks 
+like and what is going through my head so the  
+first thing I'm thinking about is my hand range 
+um how strong of a hand do I have and do I have  
+a bluff catcher is this a hand I slow played and 
+I'm always going to call on the river um is this  
+a hand that I feel like I might be beating some 
+Bluffs but I'm not beating a lot of their value  
+um is this a hand that I'm always folding am I 
+you know what where am I with my hand strength  
+that's the first thing that goes through my head 
+once I've identified that I have a bluff catcher  
+I move on to the next step which is identifying 
+both ranges it's important to follow through  
+the hand what each range is but it's also good to 
+remember what everyone has from the start to the  
+Finish because that's going to allow you to have 
+a picture in your head of what their strong hands  
+look like and what their weak hands look like 
+and how your hand falls within that range then  
+I'm going to think about my blockers am I removing 
+those strong hands am I removing the weak hands  
+how do my blockers affect their range and and 
+how do they affect my calling frequency that is  
+most of the time going to be what determines at 
+the end of my decision whether or not I'm going  
+to Bluff catch so let's jump into the example and 
+throughout the whole hand you're going to hear a  
+lot of these Concepts being discussed mainly the 
+hand strength identifying both ranges and the uh  
+discussion of blockers let's walk through the 
+hand that I'm going to use for our scenario we  
+open Ace Queen off in the cut off and we get three 
+bet by these small blinds this is a scenario in  
+which I am going to have a high frequency call 
+a queen off in position here going to defend  
+and so we defend the Flop becomes 862 uh this 
+is a board texture in which villain is going  
+to have a lot of checks uh the three bet range 
+from the small blind is going to contain a lot  
+of Broadway cards so whenever you see a texture 
+that has uh low cards eight and under low cards  
+N9 and under 10 and under you're going to see a 
+high frequency check raise from the small blind  
+with the strong hands and a mix of check raising 
+with some weaker hands uh but let's take a look  
+at the actual solution from GTA wizard here's the 
+solution of the scenario that we were just looking  
+at 862 flop and we can see that the small line 
+does in fact have a high frequency check so I'm  
+going through all of these nodes because it's 
+really important to understand that getting to  
+the river and Bluff catching in that scenario 
+is going to require an intense knowledge of  
+all of the ranges prior so if we don't understand 
+what villain is repping by the river it's really  
+difficult to understand what hands are going 
+to be Bluff catches so it is important to not  
+only study just the river for Bluff catching but 
+also the ranges leading up to the river so that's  
+why we're covering them right now so we take a 
+look here and like I said we're going to see a  
+lot of checking from the small blind we have 
+the option of either betting uh with our Ace  
+Queen for a small sizing or checking back in game 
+I decided to check back so as we play the video we
+continue you can see my thought of possibly 
+betting small ever a bet when check
+to not sure we get to the turn and the turn Pairs 
+and the first interesting node is that the small  
+blind decides to lead for a large sizing now this 
+is a sizing that isn't necessarily in the solution  
+for GTO wizard but it is a very common sizing 
+in game so first we're going to look at what GTO  
+wizard Solutions want to do against the sizing 
+and then we're going to node loock to show the  
+difference between what reality might be for the 
+players in the pool so in game like I said villain  
+used a large sizing however GTO wizard wants to 
+use the overbet as the solution in this scenario  
+and that's because on the turn we're going to 
+have a very polarized range we're going to have  
+Aces kings and queens and Jacks that we saw check 
+on the Flop and those were the hands that were  
+going to check raise at a high frequency we also 
+could have an eight as the small blind hands like  
+ace8 suited which are going to be included in 
+their range so it makes sense to have a overb  
+polarized range for the turn as the small blind 
+after the action goes check check so we see here  
+that the sizing is an overb and in that is going 
+to be including uh Aces kings queens Jacks um 8X  
+right all of these hands now when we're facing 
+the overb as the cut off you'll see that Ace  
+Queen becomes indifferent to defending and that's 
+because we have a lot of strong hands that we can  
+check back the Flop with however this hand is a 
+good hand to Bluff cat because it blocks a lot  
+of the strongest parts of villains range so it 
+blocks Aces it blocks queens and it blocks Ace  
+8 suited for the particular combo that I had um 
+so in my head I was thinking okay I'm blocking a  
+lot of their value uh we have some Showdown value 
+because some of their weaker hands should be hands  
+like 109 suited uh Broadways that didn't really 
+want to bet the Flop but now get to the turn and  
+are trying to you know fold out our strong uh 
+King highs or Ace highs that check back so they  
+may have some Broadways that want to Bluff here 
+so if we look through the solution uh for their  
+weak hands or their trash hands rather you'll 
+see that the overb hands that are going going  
+to get to the turn that don't have much Equity 
+are going to be those King High Queen High Jack  
+High 109 type hands so against the week hands 
+we actually have a lot of value uh to show down  
+with and against the Str strong hands we have very 
+significant blockers so that's going to be one of  
+the keys to Bluff catching is blocking the value 
+and unblocking the weekends as well as beating  
+the weekends let's continue with the hand in 
+progress so we do face the large size defend the
+turn and the interesting part that we've all 
+been waiting for villain shoves all in and  
+we're facing a tough decision now first I want 
+to go over what my thought process was in game  
+so I'm just going to click play and you guys can 
+hear what I was actually thinking in game while  
+I was thinking through uh the fundamentals 
+and theistic for making a big call in this
+spot um we're blocking the value pretty dang  
+heavily they're repping Queens Kings 
+Jacks and Aces and we block Aces and  
+queens they ever have 109 suited if they 
+ever have some random like Broadway hand
+and so you can hear my past self going over 
+what their range is um and I actually do a  
+pretty good job not to Pat myself on the back 
+of thinking through all of their value all of  
+their weak hands and then thinking okay does 
+this hand have the appropriate blockers for um  
+blocking the value unblocking the weak hands 
+and uh is it you know a spot where I want to  
+Bluff catch got to make a big call here I don't 
+think they're shoving Ace King either another  
+important thought is that sometimes villain might 
+have Ace King as a semi Bluff and if they do uh  
+we look pretty silly making a big call here 
+but I in game thought that they weren't going  
+to have those combos I thought maybe if they 
+were going to bet turn with Ace King that it  
+wouldn't turn those hands into a bluff it would 
+rather choose um something like King high or  
+queen high or ten high before uh the villain 
+chose to Bluff asai H why do I want to call
+here so let's have a look before we look at 
+the results of what to think about and what  
+the fundamentals are of making a big Bluff catch 
+in this scenario now that we're at the river we  
+can talk about the fundamentals of bluff catching 
+one of them being MDF minimum defense frequency  
+this is a concept that has been covered a lot in 
+Prior videos of GTO Wizards Library so if you're  
+not familiar with that concept I suggest you 
+review some of the videos that cover it because  
+we're not going to get into the nitty-gritty math 
+about MDF today but just understanding what MDF  
+is and looking at an equilibrium will give you 
+a good idea of the Core Concepts uh for Bluff  
+catching but today I'm going to Deep dive into 
+using blockers and our real life example that  
+I pulled up for us today the first thing that 
+I like to think about before I Bluff catch is  
+what is villains range so let's take a look at 
+the scenario in which the small blind shoves  
+the river so they shove the river and I like to 
+think about the value hands first so what are  
+their best hands and what are their good hands 
+because these are going to be the hands that  
+are classified as typically value bets um after a 
+certain Equity threshold using the equity buckets  
+you can determine that it's very likely that the 
+solver is looking to get value from these hands if  
+they have a certain amount of equity so Aces kings 
+queens Jacks these are all fairly intuitive value  
+bets from small blind you can also see that we 
+have some top pair here like King Jack and queen  
+Jack that might have been bluffing on the turn 
+but get there on the river um we have some trips  
+that would have slow played on flop as well as 
+starting to bet turn and river and then we have  
+some of the more obvious uh slow plays like quads 
+um a little bit of the you know pocket Nines in  
+there which might be the bottom part of villain's 
+value range uh so it's important to understand  
+what the value range looks like next I'm going 
+to look at what their weaker hands are going to  
+be so in this this case it looks like there are 
+no weak hands that are bluffing there are only  
+trash hands which makes a lot of sense because if 
+you have a polarized range as the small blind and  
+you're bluffing here you're going to Bluff a very 
+polarized range which means you're going to have  
+hands with very little equity and hands with a lot 
+of equity so that's why you see the best hands and  
+the trash hands have the most common frequency 
+uh in villains range so looking at the trash  
+hands it looks like they are bluffing hands like 
+King High uh Queen high and 10 high so a fairly  
+narrow range here for bluffing but it does make 
+a lot of sense because the Jack did come on the  
+river so those Jack High hands aren't going to be 
+a bluff anymore they're going to be value next I  
+like to look at my range what are the hands at 
+the top of my range and what are the hands that  
+are classified as Bluff catchers um now this is 
+a word that is thrown around a lot but typically  
+your bluff catch maters are going to be the hands 
+that are indifferent to calling by the river so we  
+can take a look at the different Equity buckets 
+again uh for our range and we can see here that  
+the best hands are going to be very intuitive 
+calls most likely it's going to be very strong  
+hands that get to the river that are at the top of 
+our range so hands like Aces kings queens Jacks we  
+have some trips in there some full houses and 
+some ACE Jack if we decided to float the turn  
+with those combos as well so those are the hands 
+that aren't too difficult to understand that you  
+need to call otherwise if you're not calling 
+these combos villain is going to print money  
+by bluffing their entire range and we don't want 
+that so looking at the next category you have some  
+good hands there aren't too many good hands in 
+this one simply just Queen Jack suited because  
+these are going to be hands that have enough 
+equity but are also maybe blocking top pair um  
+again if you float the turn with a hand like Queen 
+Jack and you hit a jack uh it's it's pretty likely  
+that you're going to need to call the river with 
+it as well because uh one of the reasons you're  
+floating the turn with Queen Jack is so that you 
+can have some coverage on a queen or Jack River  
+or that you're also covering villains good hands 
+of pocket queens and pocket Jacks and so that you  
+have um a hand to Bluff with if the action goes 
+check check so another hand that is pretty fair  
+uh pretty intuitive to to call on River um then we 
+start getting to the weekends these again uh same  
+idea we're going to have typically the stronger 
+part of our range still looking to call and make  
+villain indiff and then we get to the trash ends 
+these are typically going to be the zero EV Bluff  
+catchers that we were talking about um and we see 
+my hand in particular right there Ace Queen offit  
+in which I am facing a large bet with now thinking 
+about my entire range we have a lot of those best  
+hands a lot of those good hands but I just got 
+to the river with a Queen now what blockers do I  
+have to their value what blockers do I have to 
+their weekends do I have too many blockers to  
+their weekends are they going to Bluff enough on 
+the river what is my uh Bluff catching frequency  
+going to look like these are all questions that 
+I like to ask myself before I click call so let's  
+take a deeper dive into all of our different 
+combos in this scenario first off we have hands  
+that want to Bluff catch like 65 Suited this is a 
+good example in this particular scenario of a hand  
+that blocks value and unblocks Bluffs if we take 
+a look at the small blinds bluffing range again  
+we will see that they prefer a lot of Broadway 
+combos as well as 109 suited this is a spot where  
+we unblock Bluffs clearly and then if we take a 
+look at their best hands the value hands we are  
+blocking a value hand of pocket sixes obviously 
+this is a scenario where we unblock Bluffs we  
+block the value hands that's why we see the solver 
+call at a 100% frequency with that hand and if we  
+take a look at our hand in question Ace Queen 
+offit it's a little bit trickier so again let's  
+take a look at the hands that Ace Queen blocks 
+for value and unblocks as the weak hands so if  
+we filter for the bust hands first and we go all 
+in as small blind we'll see that we are in fact  
+blocking hands like pocket aces ace8 suited um 
+pocket queens and queen Jack suited so these are  
+all good hands to be blocking which is why Ace 
+Queen is considered a good hand to Bluff catch  
+now if we take a look at the trash hands there 
+are some hands in which we are blocking which is  
+not the best right so if we see the all in here 
+we'll see that we are blocking some combos of  
+king queen uh as well as Queen 10 and king queen 
+off suit so yes we are blocking value uh well but  
+we're also blocking some of the Bluffs so this 
+isn't the most ideal hand however because of MDF  
+and because we need to make villain indifferent 
+to bluffing we need to add some of these Bluff  
+cachers in which is why we see some of these zero 
+EV calls with hands like Ace Queen um because we  
+are still blocking a lot of the value even though 
+we're blocking a few of the Bluffs let's take a  
+look at a combo that is actually stronger than 
+Ace Queen however it's a worse Bluff catcher  
+and that's Ace King offsuit so if we look at our 
+call range here from the cutoff and we look at the  
+Ace King offsuit combos we'll see that it's an 
+actual pure fold even though it is technically  
+better than Ace Queen offit now why is that well 
+if we look back at the small blind again we'll  
+see their bluffing range is going to Ain a lot of 
+King X in it right so there's a lot of blocking  
+these Bluffs here and if we look at the value 
+hands you'll see that there's only a few combos  
+of Aces that are going to take this line as the 
+small blind um kings are there King Jack suited  
+King jack off suit but if you take a look at the 
+value versus The Bluffs that Ace King blocks Ace  
+Queen does a better job of blocking the value so 
+that's why we see Ace Queen be a call and Ace King  
+be a fold in our range also that being said when 
+we have Ace King it's less likely they have some  
+weaker checkback um like Ace King themselves which 
+is going to be in their range so you can see here  
+villain doesn't choose to Bluff Ace King and like 
+I mentioned in game it was really important that  
+I knew villain wasn't going to Bluff Ace King 
+because then obviously calling Ace Queen might  
+not be good either so it's a very delicate balance 
+when you're looking at an equilibrium and thinking  
+about MDF which combos are going to be in our 
+Bluff catching range which combos are going to be  
+in our always call range which hands are going to 
+be in our fold range so these are the things that  
+you need to be thinking about when you're going 
+through all of the different [Music] concepts  
+we're blocking the value pretty dang heavily the 
+repping Queen Kings Jacks and Aces and we block  
+Aces and queens if they ever have 109 suited 
+if they ever have some random like Broadway
+hands got to make a big call here I 
+don't think they're shoving E King
+either uh why do I want to call here
+oh let's [Music]
+go

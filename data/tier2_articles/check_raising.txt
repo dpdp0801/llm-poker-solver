@@ -1,0 +1,83 @@
+### TOPIC: check raising
+Check raising is one of the most powerful plays in the game of poker. In fact, many live poker rooms used to ban check raising in the past, as it was considered unethical and almost a form of cheating.
+Of course, today, it is clear that there is nothing wrong with check raising and that a check does not necessarily mean a weak hand.
+The rise of online poker made check raising particularly popular, but many players never quite learned when and why they should check raise in their games.
+In this article, we look at the main reasons to check raise and the ways to construct an effective check raising poker strategy you can use to crush your opponents and dominate your games.
+As the name suggests, the check raise is a play made up of two parts: a check and a raise. You can only check raise when you are out of position and the player in position decides to bet.
+Anytime you check out of position in poker and one of the players in position bets, you have a chance to check raise if you so choose.
+While you can check raise anytime you face a bet out of position, building an effective check raising strategy can be quite tricky as there are many things to take into consideration.
+If you are new to check raising, keep reading and learn why you should be using this powerful play in your games and how to choose the hands to check raise with for the best results.
+The power of a check raise cannot be overstated, but many new poker players don’t quite understand when and why they should be check raising.
+This leads to many players applying the play in situations that don’t warrant it, which can be quite costly.
+Whenever you check the flop and face a bet from an IP player, you should only check raise for one of the following reasons:
+Check raising for value is the most apparent reason to apply the play. Instead of betting out with your strongest hands, you can check to your opponent and use a raise to increase the size of the pot.
+This play is especially useful in situations where you were not the last aggressor preflop, as your opponent is very likely to continuation bet in such situations.
+When you flop a monster out of position, it is advisable not to bet into them but check your option first and raise after they c-bet.
+If you were the last aggressor preflop, you should still check raise for value once in a while, especially on boards that, in theory, favor your opponent’s range.
+For instance, if you 3-bet from the small blind and get a call, you should check raise for value when you make a big hand on a dynamic board that connects heavily with your opponent’s range.
+For example, in a $1/2 online cash game, the Dealer raises to $6 off a $200 stack, you 3-bet to $24 with 8s8c, and the Dealer calls.
+The flop is 9s8h6d. While you could c-bet your set, you should consider the fact that many of the hands in your range don’t have any connection with this board. On the other hand, your opponent’s range connects with this flop heavily.
+Try PeakGTO for FREE and up your game!
+By checking here, you represent a lot of hands like AK, AQ, or KQ that you may have 3-bet before the flop but may decide to give up on the flop.
+Your opponent is reasonably likely to bet a lot of their hands, as they will have a lot of made hands and strong draws that will want to bet for protection.
+In this spot, you can put in a big check raise and often get a call as your opponent gets stubborn with a draw or tries to pick off your bluffs with a hand like T9s.
+Check raising is one of the most effective ways to bluff in poker, as it puts your opponent into a much more difficult situation than a bet would.
+By check raising, you are representing a very strong range and saying you potentially have the nuts. At the same time, you are increasing the size of the bet significantly, and the implied threat of further bets on later streets makes it even more difficult for your opponent to call.
+To be able to check raise as a bluff, you must be out of position to your opponent. Additionally, the board structure should be such that your range actually includes some powerful hands.
+For example, in a $0.25/0.50 online cash game, you open from the cutoff to $1.50, and the button re-raises to $5. You call and go to a flop of Tc8s7c.
+You check your option, the opponent c-bets for $3.20, and the action is on you. In this situation, your range includes many strong hands like J9s, TT, 88, and 77, making it an ideal spot to check raise with all these hands, but also some strong bluffs.
+When choosing the hands to check raise bluff with, you want to look for hands that have a lot of equity in case your opponent continues, as well as those that make it less likely they will have the nuts or other strong hands.
+In this particular spot, a hand like Ac9c would be the perfect check raising candidate, as it has a lot of equity against any holding while simultaneously blocking your opponent from having the J9 straight.
+Similarly, 9c8c also offers the same open-ended straight draw + flush draw combination while also blocking the nuts.
+It is worth noting that a weaker flush draw, such as 9c8c, will sometimes get you in trouble when the flush does hit, as you will be up against a higher flush and lose your whole stack.
+In this situation, other flush and straight draws are the next check raise bluffing candidates, while hands that have a reasonable chance of being the best hand make very little sense to check raise.
+For example, you don’t want to check raise a hand like JdTd on this board, as getting re-raised all-in would be a disaster with a hand that has so much equity but could also be well behind your opponent’s holding.
+Instead, a hand like JdTd is best played as a call, as a call will keep all your opponent’s bluffs in the hand while also allowing you to improve to a straight, trips, or two pair on the turn.
+Protection should not be your primary concern if you want to play good poker, but there are some situations where you do want to protect your hand by check raising the flop and deny your opponent equity by giving them improper pot odds to continue in the hand.
+This is particularly the case on low and paired boards with hands that rate to be best but are incredibly vulnerable.
+For example, imagine playing in a $800 poker tournament with a stack of 60 big blinds. You open the pot to 2.3bb from the early position with TsTd, the Cutoff re-raises to 6.9bb, and you call.
+The flop comes 3s3d5c. You check, your opponent continues for 4.1bb, and the action is back on you with a decision to make.
+Your pocket Tens will often be the best hand here, as the Cutoff’s 3-betting range contains many hands without connection with the board and are not overpairs.
+In fact, there are only a handful of hands that your opponent could have to beat you on the flop if he did not have a big pair preflop, with A3s being one of them.
+Your hand is very often the best hand for the time being, but many turn and river cards could give your opponent the best hand. What’s even more, if you call now and check the turn, your opponent could take a free card and see both the turn and the river for just $30.
+Check raising your Sevens for protection in this spot makes a lot of sense, since your opponent is likely to fold a hand like AK or KJs that they took an aggressive line with before the flop.
+Some more advanced players will continue with such hands as well, so picking who to check raise against in this situation can make a lot of difference.
+Against most typical poker players, check raising here will work like a charm, as you will deny their substantial equity and take away their chances to blow you off your hand on later streets.
+We reviewed the three main reasons to check raise in your games and explained how the play can extract value, make your opponents fold the best hand, and protect your hand in certain scenarios.
+But check raising is an entire science of its own, with many different elements to consider each time you look to apply the play.
+Before you go and play your next session, keep reading for our top five tips for effective check raising in Texas Hold’em Poker:
+It can be very tempting to check raise on boards that favor your range regardless of your actual holding, but there are better ideas than this.
+If you check raise on favorable boards regardless of the hand you have, you will end up with a very unbalanced check raising range that contains way more bluffs than it should.
+Instead, build a check raising range from your strongest value hands and a number of bluffing hands that have plenty of equity if called.
+If you have a hand that has very little equity, you should fold it regardless of the fact your opponent is likely bluffing.
+Maintaining a balanced check raising range will make you extremely hard to play against and will not allow your opponent to exploit you by adjusting their c-betting and other frequencies.
+The range of hands you should be check raising with changes significantly based on the opponent’s bet sizing, as different bet sizes represent different ranges.
+A small flop bet often represents a very wide range of hands. On many boards, players will fire a small continuation bet with their entire range.
+Facing a small range bet, you can get away with check raising a lot of hands, as the opponent is likely to fold a big chunk of their range, including some weak draws and other hands with equity.
+In a situation like this, you should be looking to add hands to both the value and bluffing portions of your check raising range.
+Hands like top pair and even middle pair with a good kicker can become candidates for a value check raise, while backdoor draws and overcards can become solid bluffing hands.
+A strong check raising range is made up of more bluffs than value hands. In fact, the top players include about two bluffs for every value hand in their check raising poker range, and this strategy works like a charm.
+Against sizable bets, you will only be looking to check raise for value with your strongest hands, and your play will look very strong.
+Quite often, your opponents will fold their cards facing a check raise, which makes check raising as a bluff extremely efficient.
+Of course, you don’t want to go too hard and bluff your entire range, but you should also make sure that your check raising range is not too value-heavy.
+When constructing the range, try to keep a ratio of 2:1 and find two bluffing combos for every value combo you want to check raise.
+A common mistake inexperienced players make when they apply the check raise is that they make the raise so small that it prices in the opponent’s entire range.
+It is easy to get very excited about a big hand and look for ways to get your opponent to put more chips into the pot, but going for a small check raise is not the right approach.
+For example, facing a $20 bet into a $50 pot, some players will check raise to $50 with the nuts in order to keep their opponent in the hand.
+In a situation like that, the player needs to call $30 to win $150, which means they only need 20% equity in the hand to make the call profitable.
+Not only is this raise not pricing out any reasonable draw, but it is also leaving you extremely exposed to losing your entire stack on later streets the times your opponent does hit.
+Slow-playing is usually not the best course of action for several reasons when you find yourself with a big hand out of position. This is especially true when playing deep stacked like in cash game poker.
+For one, if you check-call the flop with the nuts, you risk the turn going check-check, which means the pot will be very small by the river, and you will only get to put in one more small bet on the river.
+Moreover, this course of action will expose you to all sorts of draws, allowing your opponent to realize their equity for free and potentially charge you heavily when they get there.
+Not check raising the flop with the nuts also makes your entire check raising range imbalanced, as slow-playing monsters mean you are check raising way too many bluffs compared to value.
+Instead, make sure always to check raise your strongest hands from OOP on the flop, as this balances your range, allows you to put all the money into the pot by the river, and charges your opponents if they want to keep drawing.
+What is a check raise?
+A check raise is a poker play that consists of two parts. The first part is checking your option out of position. The second part is raising once another player bets. The check raise is a very powerful play to apply when you find yourself OOP against an aggressive player.
+When should I check raise in poker?
+You can only check raise in poker when you are out of position. You should typically be looking to check raise on boards that favor your range over your opponent’s range with a mix of value and bluffing hands.
+What is the goal of check raising?
+By check raising the flop, you represent the strongest hands on a given board. Your range will be made up of value and bluffs, forcing your opponents to fold hands with equity while simultaneously getting value from their inferior value hands when you have a better hand.
+What hands should I check raise with?
+You should check raise with your strongest value hands and a combination of good bluffing hands. Strong hands like two pairs, sets, flushes, and straights, should be combined with hands like straight draws, flush draws, and backdoor draws.
+How big should I check raise in poker?
+The size of your check raise should depend on how wide your check raising range is. If you are raising with a very wide range, you should make your check raises smaller. If you are only check raising a narrow range, you should go as big as 5x the original bet (or bigger in very deep-stacked games).

@@ -1,0 +1,78 @@
+### TOPIC: ip 4bet deep stack
+IP 4-Betting in Deep-Stacked Cash Games
+4-betting in position (IP) is a totally different phenomenon from 4-betting out of position (OOP). 4-betting reduces the importance of position, either by ending the hand preflop (if the 3-bettor folds or shoves) or by dramatically reducing the amount of money remaining to be wagered after the flop. This makes it a more appealing prospect for OOP, as it promises to mitigate or eliminate entirely their positional disadvantage. By the same token, 4-betting is less appealing for IP, whose favorable position will typically permit them to over-realize their equity as a result of postflop wagering.
+Deeper stacks complicate this calculus, as they allow a bit more room for postflop play, even in 4-bet pots (4BP). This article will focus on 200bb flop play in 4-bet pots from the perspective of an IP 4-bettor. To do that, however, we will also have to look at how deeper stacks change the preflop incentives that determine the ranges with which each player will see the flop.
+Aggregate Continuation Betting Strategy
+The following charts show the frequency with which an IP 4-bettor takes a variety of flop actions across a variety of configurations. What patterns do you notice when comparing the 100bb chart to the 200bb chart?
+Here are some key takeaways we’ll explore further below:
+IP checks back the flop significantly more often with 200bb stacks than with 100bb stacks. This is true even though their opponent has more incentive to develop a donk-betting range with deeper stacks, a point we’ll explore in greater depth later.
+IP checks back the flop more often after 4-betting into BB than after 4-betting into SB. This tendency is more pronounced at 200bb than at 100bb.
+IP uses the 50% pot bet size more often at 200bb and the smaller bet sizes less often.
+IP is more likely to shove the flop with 100bb, but this is a rarely used option in almost all configurations.
+IP’s average c-bet size is larger when playing against BB than when playing against SB. This is true with both 100bb and 200bb stacks.
+
+Preflop Strategies
+To explain these patterns, we must look at how both players’ preflop strategies vary with stack size. The SPR is far from the only thing that changes when we compare 100bb flop scenarios to 200bb flop scenarios.
+For one thing, the SPR doesn’t change as much as you might expect because both players use different preflop raise sizes with 200bb than with 100bb. For OOP, the difference is not enormous, but whether they raise larger or smaller depends on their position—sitting as the SB or the BB.
+Preflop raise sizes (in bb) with 100bb (↖) and 200bb (↗) stacks
+Deeper stacks incentivize a more polar 3-betting range for OOP.
+
+OOP
+Hands like medium pocket pairs, a designation which can include pairs as large as QQ, will face tough decisions if the original raiser calls or 4-bets. From the BB, OOP can strictly follow that polarization incentive, as they are contesting the pot only with the original raiser. Thus, with 200bb stacks, they three-bet a more polar range from the BB than with 100bb stacks.
+From the SB, their incentives are more complicated. They’d like to polarize against the original raiser but still have the BB to worry about. As a result, some hands that would prefer not to 3-bet against the original raiser nevertheless raise because they benefit from folding out the BB. This results in a more linear range which includes many hands that will not be favored when called by the raiser. The deeper the stacks, the greater their liability, resulting in a smaller 3-bet size with 200bb stacks than with 100bb.
+All that said, these differences are not large, with OOP’s 3-bet sizing varying by only about 10%. For IP, the difference is much more dramatic.
+
+IP
+With 100bb stacks, IP’s 4-bets are roughly double the 3-bet. With 200bb stacks, they are more like triple the size of the 3-bet. These significantly larger raises offer much less compelling calling odds to OOP. This results in OOP folding more often and showing up with a stronger range when they call.
+BB’s stronger calling range with 200bb stacks flops more equity, on average, leading to more donk-betting and less c-betting.
+Continuation Bet Sizing
+For our investigation of flop play, we will focus on scenarios where the 4-bettor is on the BTN, as these are the cases where you are most likely to end up playing a 4-bet pot after the flop. Similar considerations will apply to other positions, though, of course, the details will vary.
+A lower SPR is the main reason IP prefers smaller bet sizes, on average, with 100bb stacks. In a BB vs BTN 4BP with 100bb, the geometric bet size is about 27% pot, so these small bets still facilitate getting all the money in smoothly by the river if that is what IP chooses to do. In the same scenario with 200bb stacks, the geometric bet size is about 37% pot.
+The lower SPR also explains why IP sometimes shoves the flop with 100bb starting but almost never with 200bb. On certain very coordinated flops, IP will flop a lot of hands that have a great deal to benefit from fold equity but are too strong to bet-fold. Some of them, like AK on a JTX or 542 flop, can even get shoves called by hands they dominate!
+BTN (4-bettor) c-bet flop strategy vs BB on flops sorted by all-in (134% pot): 100bb starting
+With 200bb, IP has more room to maneuver. They are less likely to be priced in to call a shove after betting the flop and also less likely to be called by worse if they were to shove. To the extent they do shove, wheel flops are once again among the best candidates, but AKX monotone boards have replaced JTX as the other top contender.
+BTN (4-bettor) c-bet flop strategy vs BB on flops sorted by all-in (212% pot): 200bb starting
+
+When Not To Continuation Bet
+BTN’s most checked flops when 200bb deep are all medium-to-high connected flops where BB is more likely to flop straights, sets, and two pairs. This is true regardless of whether they are playing against SB or against BB.
+BTN (4-bettor) c-bet flop strategy vs SB on flops sorted by check: 200bb starting
+BTN (4-bettor) c-bet flop strategy vs BB on flops sorted by check: 200bb starting
+These may not be the best spots to study, however, because BTN should not face many checks on these flops in the first place. Both SB and BB donk-bet their entire range on T98 and bet aggressively on these other flops as well.
+As a rule, medium flops are worse for betting than low flops, which are worse than high flops. King-high flops are the very best, as the OOP caller has more Ace-x in their calling range than King-x.
+BTN’s aggregate c-bet flop strategy vs SB on flops grouped by high card
+BTN’s aggregate c-bet flop strategy vs BB on flops grouped by high card
+As we have seen already, connected flops are the worst for c-betting. This is partly because OOP will flop more straights but also because connected flops are likely to contain medium cards, which are more likely to help OOP.
+BTN’s aggregate c-bet flop strategy vs SB on flops grouped by connectedness
+BTN’s aggregate c-bet flop strategy vs BB on flops grouped by connectedness
+Of the King-high flops, the one BTN checks most often vs BB is KQ9 monotone. Checking here is not about this being a bad flop; BTN flops more than 55% of the equity and captures nearly 58% of the EV. Rather, it’s that this is an extremely static board. So, most hands do not strongly prefer betting earlier rather than later streets.
+All hands mix bet and check, with even the stone bottom of BTN’s range, A♣6♣, being profitable as a bet.
+Manhattan plot: BTN flop strategy on KQ9m
+In fact, many of BTN’s most-bet hands are among their weakest! This is not a time for checking and giving up when you miss. When BTN checks a weak hand, it’s with the intention of bluffing later should their opponent keep checking.
+This holds true on less favorable textures as well. On J♥5♥5♦, the BTN flops less than half the equity and has a similar checking frequency but still gets profitable bluffs with their worst hands:
+Manhattan plot: BTN flop strategy on J55tt
+Even on Q95r, where BTN has less than 44% equity, they bet often, including with their worst hands:
+Manhattan plot: BTN flop strategy on Q95r
+Unlike an OOP 4-bettor, an IP 4-bettor does generally get profitable bluffs, even on bad flops. That doesn’t mean you have to bet the flop, but you should bluff at some point if your opponent keeps checking. The best hands for checking the flop are generally not your lowest equity hands but rather the middle of your range, the sort that would suffer the most from facing a check/raise.
+
+Responding to Donk-Bets
+Donk-betting is a significant part of OOP’s strategy in 4-bet pots. This is especially true when deep-stacked and playing from the BB, because of how much strength that BB calling range contains. On average, they donk about ⅓ of their range, with most of that betting occurring on their best 25% or so flops. The aforementioned medium, connected flops are strong candidates for range-betting and sometimes even open-shoving more than twice the pot!
+BB’s aggregate first-in flop strategy vs BTN on flops sorted by least checked
+BTN’s response to a shove on T98r is mostly intuitive, though the mixes with AKs (only when it has a backdoor flush draw) and AQo may be a bit surprising. The incentive for these calls comes largely from the fact that AJ is among BB’s most appealing shoves.
+BTN response vs BB’s donk-shove (212% pot) on T98r
+Your response to a smaller donk-bet should be quite stubborn. Across all flops, BTN has an average fold frequency of ~17% vs BB’s quarter-pot donk-bets, a frequency slightly below MDF.
+BTN’s aggregate response vs BB’s 25% pot donk on flops grouped by high cards
+Note that raising is an important part of IP’s response as well, especially on boards that favor them. High card boards get mostly small raises, while the rare 5-high and 4-high flops are good candidates for shoving. Most of these boards will give overcards and at least a backdoor wheel draw to all the Ace-x in IP’s range, which means they wouldn’t have many good candidates for folding after making a small raise.
+On the much less favorable T98r flop, BTN never raises a quarter-pot bet and folds at a higher frequency than MDF, which is why BB can range-donk.
+BTN’s response vs BB’s 25% pot donk on T98r
+On a more neutral J55tt, donking is not a big part of BB’s strategy, but should BTN face such a bet, they raise a wide and fairly polar range. The best candidates are AA and KK, which unblock top pair, and A♥K♥, which has solid equity against top pair and can get action from dominated flush draws. At the low end, weaker overcards with a single heart are popular candidates, though even some overcards without hearts get mixed in at a lower clip.
+BTN’s response vs BB’s 25% pot donk on J55tt
+Much of the incentive for the raising range comes from the dynamism of the board. Aces and Kings would like to raise into a Jack immediately, lest they lose action when a heart or overcard turns.
+On the more static A♥Q♥9♦ board (staticness here refers more to the rank of the cards on the flop than to the number of draws, especially when the SPR is low), BB donks about half their range, but BTN never raises. Instead, they call more than MDF:
+BTN’s response vs BB’s 25% pot donk on AQ9tt
+Ranges are narrow enough in a 4-bet pot that calling 84% of their range doesn’t require much stubbornness on BTN’s part. Backdoor diamonds and Jacks without a heart are pure folds. BTN simply has a pair of Queens or better so often on this flop, they don’t need to continue with much else. And when they do have those hands, there’s not much to gain from raising them.
+
+Conclusion
+Making sense of postflop play requires understanding preflop ranges and incentives. An OOP 3-bettor has different incentives than an IP 3-bettor, and different incentives depending on the stack depth as well. The BB is incentivized to 3-bet a more polar range than the SB, which influences how IP responds to the 3-bet, which in turn influences OOP’s range when they call a 4-bet and see a flop.
+The higher SPR and stronger OOP range lead to more checking and larger, more polar c-betting from IP. It also leads to more donk-betting, especially from the BB.
+Because IP’s 4-betting range is so clustered around Ace-x and King-x, they perform better on high card flops. This usually but not always leads to more aggression, whether facing a check or a small donk-bet, with the dynamism of the board being a major determinant of how aggressive they get.
+Unlike OOP, an IP 4-bettor does generally get profitable bluffs, even on unfavorable flops. They don’t always bet their worst hands on the flop, but they do bet them eventually if their opponent keeps checking.

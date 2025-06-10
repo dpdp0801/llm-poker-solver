@@ -1,0 +1,70 @@
+### TOPIC: playing different table positions
+Poker position is one of the most important concepts in poker and one that some players neglect. You will often see inexperienced poker players limp in, call raises, and raise themselves from random positions at the table with a very wide range of hands simply because they don’t understand the importance of the position.
+Yet, the importance of position cannot be overstated. It is one of the key components of any basic poker strategy, and knowing how to play every position well is key to becoming a successful poker player.
+In this article, we will discuss the importance of position in poker, explain the different poker positions, and look at some major strategic implications of playing from different positions.
+Position in poker refers to where you sit relative to the dealer and how that impacts the order in which you act during a hand. Being in a “late position” (closer to the dealer button) is a powerful advantage because it allows you to see how other players act before making your decision. Early positions require tighter hand ranges because you’re at a disadvantage, while later positions allow for wider and more aggressive play due to increased information. Mastering position helps improve decision-making, control pot size, and exploit weaker players more effectively. It’s one of the most fundamental aspects of a strong poker strategy.
+Before we can discuss any specifics, we must explain what a poker position is and how we determine it.
+The actual seat you have decided to take at the table does not matter for poker position, as every player gets to play every position exactly once per orbit.
+Instead, your poker position in hand is determined relative to the position of the dealer button, which moves by one spot to the left of every hand.
+Generally speaking, poker positions can be grouped up in the following way:
+Each of these position groups requires a different preflop and postflop strategy, with tighter play generally recommended in earlier positions and more active play recommended in later seats.
+Now that you understand the concept, let’s take a more detailed look at all the positions you can find yourself in and discuss the basic strategic implications.
+Which position do you struggle with playing the most? Position in poker is extremely powerful. Knowing which hands to play from each position will allow for fewer mistakes on later streets. ?? pic.twitter.com/o2drDgF4P7
+The table positions to the very left of the blinds are called early seats. Typically speaking, the two players sitting next to the blinds are considered to be in an early position.
+The first position to the left of the big blind is called “Under the Gun” (UTG) and is the least favorable preflop position of them all. The player to UTG’s left is labeled UTG+1.
+At a 6-handed table, only these two players are considered to be in early position, while in full ring games, the player to the left of UTG+1 can also be considered an EP player.
+Playing from UTG or UTG+1 means you will always be the first player entering the pot, with everyone else still left to act behind you.
+Being in an early position means you still have the whole table left to act behind you, and there is a high chance that one of the other players actually has a big hand.
+With this in mind, it is important to play a tight range of hands from an early position, consisting mostly of very strong holdings and a few speculative hands for balance.
+You will still want to open all big pairs, all big aces, and suited Broadway cards. However, you should be folding most of your offsuit hands and various suited connectors and gappers apart from the premium ones.
+While this kind of approach might seem too tight, and folding 87 suited from UTG might seem like an overkill, this is definitely the strategy that works best from an early position.
+Moving further to the left, we arrive at the middle position. Typically speaking, the two positions to the left of UTG+1 are considered middle positions in full-ring games, while the one position to the left of UTG+1 is considered middle position in 6-Max games.
+Labeled as Lojack (LJ) and Hijack (HJ), these positions give you a bit more liberty than UTG and UTG+1, although the distinction becomes less impactful in 6-Max games, where Hijack also acts as UTG+1.
+As you move further away from UTG, your opening range can become a bit wider as fewer players are left to get through.
+With fewer opponents left to act, the odds of someone sitting behind you with a monster or playing back at you go down.
+Yet, the middle position still doesn’t offer too much wiggle room, as you must still play a reasonably tight preflop range.
+Introducing all pocket pairs, some additional suited aces, and an occasional suited connector to your range is acceptable, but opening much wider than this is usually not a good idea.
+This brings us to the late position at a poker table, the place you want to be seated. Two positions are considered LP in both 6-Max and full-ring games: the Cutoff (CU) and Dealer Button (D).
+While both positions are considered as LP, it is worth noting that the Dealer position is infinitely more profitable than Cutoff, as it guarantees you will be in position for all remaining streets, regardless of other players’ actions.
+Playing in LP is much easier than playing in other positions, as your postflop advantage allows you much looser preflop play and a lot more room for fancy moves.
+As you move into late position at the table, you will start opening up your range significantly, adding a variety of suited hands, offsuit connectors, and more to your raising range.
+What’s even more, you will often be faced with early or middle position raises or limps when you are in LP, and you will have the ability to apply pressure, steal pots away with 3-bets, or call to see flops in position.
+Being in position, especially on the button, will allow you to play more hands profitably and outplay your opponents on every street to follow.
+For this reason, it is very important to play aggressively from the late position and take the initiative in hand before the flop is even dealt.
+If you do it right, your ability to over-realize your equity when playing in position will make late position play a money-making machine.
+The final two positions at any poker table are the blinds. The Small Blind (SB) and Big Blind (BB) are the only two players who must put money into the pot without looking at their cards.
+Being in the blinds puts you at a significant disadvantage, as you are forced to invest money with random cards.
+What’s even more, you will play every following street out of position, which is what makes blinds play one of the most complicated elements of the game of poker.
+When you are seated in the blinds, you will see the entire table act before the action is on you. It is worth noting that there is a significant advantage between being in the SB and the BB.
+As an SB player, you will sometimes have the opportunity to attack the BB as all other players will fold. This is especially common in 6-Max play.
+When the pot is unopened in the SB, you should play with a wide range, as you only need to get through one player to steal the blinds.
+If you face raises from one of the players who acted before, you will usually be well advised to 3-bet or fold, as calling in SB leads to several major problems.
+For starters, you will play the entire hand out of position 100% of the time. Furthermore, calling gives the BB a good price on an overcall, which makes the pot 3-way instead of heads up. Finally, the BB is incentivized to 3-bet as a steal more often with a wider range but will always have a position on you if you call.
+By always 3-betting or folding in the SB, you will play fewer pots against two players, not be exploited by the BB who knows you don’t have a monster hand, and win many pots right then and there.
+Your BB strategy should consist of many calls against small raises from early and late positions, mixed in with a few 3-bets with your strongest hands and best bluffing candidates.
+You will have to play the hand out of position against most players from the BB, but the amazing pot odds you will often get before the flop still make it a good idea to defend wide.
+The above diagram displays the names of each position in a 9-handed poker game.
+If poker was played 100% before the flop, poker position would play a much smaller role. However, there are three betting rounds to come after the preflop, and the bets in these keep getting bigger and bigger.
+Positional advantage is priceless, as it allows you to collect information, control the size of the pot, and realize more of your equity in each hand.
+Playing out of position, you will be in complete darkness as to the way other players connected with the flop, giving you a distinct disadvantage in that betting round.
+Moving into the turn and river, you will always have to act first, which will make it harder to bluff, harder to bluff catch, and harder to get away from losing hands.
+The decisions you made before the flop will start compounding with each passing street. Opening too wide from EP, for example, will lead to some terrible spots on turns and rivers, making you regret ever being in hand.
+Of course, you will need to learn how to navigate both in-position (IP) and out-of-position (OOP) scenarios if you want to become a complete Texas Hold’em player, but you should always remember that you want to play way more pots in position than out of it.
+Having a position over your opponents is one of the biggest advantages you can have at a poker table, and there are several reasons for it.
+We have already touched on some of the reasons being in position is better, but let’s take a slightly more detailed look at some of the key advantages of playing in position:
+#1. Act Last: Acting last in a hand is a massive advantage. You get to see your opponent’s actions and adapt to them in any way that benefits you.
+#2. Pot Control: By being last to act, you will have a chance to control the size of the pot. Calling instead of raising, skipping bets, and making bets of the size you prefer are all some of the ways you can control the pot size.
+#3. Take Free Cards: When playing OOP, you are sometimes forced to bet with draws, as you don’t want to be priced out of the pot by your opponent betting. IP, you will often get to check behind and take a free card, allowing you to draw for free or protect yourself against check-raises.
+#4. Extra Value: Being in position will allow you to make thin value bets that might seem dangerous OOP. Once your opponent has checked the river, their range will often be capped.
+#5. Close the Action: If there are no players to act behind you, you know you are closing the action. Making a multi-way call with a drawing hand will be easier, as you know you won’t get squeezed out.
+Mastering concepts like playing in position can help you win money and trophies at the poker table.
+There are many concepts to learn about in poker, but poker position is easily one of the most important ones. Knowing how to play in different positions will help you make better decisions before and after the flop and ultimately win more money in your games.
+It may take some time to completely adjust to playing differently from each position, but the results you will get from it are well worth it.
+Start studying positional GTO poker strategy today, one position at a time, and we can promise you your results will improve as your positional awareness increases, and you make more correct plays from each position at the table.
+Position in poker refers to a player’s relative position compared to the dealer button and other positions at the table. Each player at the table has a position in each hand, and these positions rotate clockwise with each new hand. In one orbit of play, each player gets to play once in every position.
+There can be up to ten positions at a poker table, although modern games are typically played with up to eight or nine players. The first three positions, called early positions, are UTG (under the gun), UTG+1, and UTG+2. The middle positions are LJ (lojack), and HJ (hijack). The two late positions are CU (cutoff) and BTN (button). The final two positions are SB (small blind) and BB (big blind).
+Being in position means playing last after the flop. If you are seated on the dealer button, you will always have a position against all other players at the table. In all other situations, you will only have a position if other players who have a position on you fold their cards.
+Being out of position means acting first after the flop. The player in the small blind always acts first on the flop, turn, and river, which means they are always out of position against all other players. In all other situations, you will be out of position if you are facing action from one of the players who have a position on you.
+The best position in poker is the dealer button (BTN). When seated in this position, you are guaranteed to play last on the flop, turn, and river, as you are in position against all other players. Playing in position allows you to over-realize your equity, exert pressure, and control the size of the pot, all of which give you a significant advantage over other players at the table.
+The dealer button is a button that signifies the “dealer” in a poker game. The player holding this button has position on all other players in the hand and will get to play last on all streets starting with the flop. This is the most favorable position in poker, which is why you can play a significantly wider range of hands from it.
+The small blind and big blind are the two forced bets in Texas Hold’em Poker. The two players to the left of the dealer button must post these bets before the cards are dealt. These two positions must play first on the flop, turn, and river, which makes them the least favorable positions at the poker table.

@@ -1,0 +1,1303 @@
+### TOPIC: how to punish passive poker players
+have you ever played against an opponent 
+who you knew was making a lot of passive  
+mistakes but you weren't sure how to actually 
+adapt against them if you're playing in soft  
+games this will be a very common scenario so 
+it's important to know your exploits in this  
+video we'll use GTO wizard ai's node locking 
+feature to build some high value exploitive
+strategies before we get started with the video 
+please do go ahead and hit the like and subscribe  
+buttons it helps us to keep bringing you the 
+best content that we can here on our Channel  
+thank you hi Wizards I'm Matt hunt and today 
+we're going to be talking about exploiting  
+passive opponents first let's clarify what we 
+mean by passive opponents since that's a fairly  
+broad term there are two main criteria we're 
+applying here we're going to define a passive  
+opponent as one who is both underfolding and 
+under aggressing that means that when facing  
+a bet they're calling with hands which should 
+fold and they're also calling with hands which  
+should raise when not facing a bet they're 
+checking too much in general and missing both  
+value bets and bluffing opportunities they're 
+not really capable of value betting thinly and  
+they have virtually no outright Bluffs in their 
+range in most spots they might bet or raise some  
+of their very strongest draws on the earlier 
+streets but even that isn't always the case in  
+general they're exactly the kind of player you 
+would want to play against but it might not be  
+that easy to actually figure out the best way to 
+exploit them that's what we're going to figure  
+out today looking at how we should play various 
+spots against a stereotypical passive opponent  
+to maximize our but before we proceed let's 
+also establish the two main kinds of exploits  
+that we're thinking about here retroactive and 
+preemptive exploits a retroactive exploit is one  
+where we're adapting to a mistake an opponent 
+already made on an earlier Street or with an  
+earlier action on the current Street for example 
+if we believe our opponent was underfolding the  
+previous Street their range for arriving at 
+the turn will be wider than it should be and  
+we can build a strategy for the turn based on 
+that assumption importantly this approach does  
+not make any assumptions about how they'll 
+play on the current street so in the above  
+scenario we would be assuming that they would 
+play the turn correctly even after making flop  
+mistakes obviously this is unrealistic so we 
+have to combine this type of exploit with the  
+other type preemptive exploits are aimed at 
+anticipating the mistakes our opponent will  
+make with future actions either on the current 
+Street or future streets this type of exploit  
+will usually be the most effective way to maximize 
+our EV but it does carry with it a bigger downside  
+if our assumptions are wrong for example if we 
+think they're overfolded the river but they're  
+actually underfolding or vice versa it's also 
+very difficult to use solvers to estimate the EV  
+we gain through our opponent's mistakes on future 
+streets which is why both types of exploits are  
+useful even though it's very likely that an 
+opponent who underfold the Flop will end up
+overfolded estimate the future value of those 
+turn and River over folds since GTO wizard Ai  
+and other solvers don't really work that way and 
+node locking every possible turn and river run out  
+would be very timec consuming anyway our goal 
+is to combine both these types of exploits to  
+build our strategies but we always have to start 
+with a retroactive approach taking into account  
+the mistakes our opponent already made and then 
+subsequently anticipating the ones they're going  
+to make from this point onwards so with all of 
+this in mind let me introduce our opponent for  
+the duration of this video who's going to serve 
+as our example of the classic highly passive  
+player Wizards this is Mike now you might look 
+at this picture and think hey I think I played  
+with this guy but Mike is actually not real 
+he's AI generated he's 60 years old American  
+a recreational poker player and as you might 
+imagine Mike plays poker very passively he  
+only bets and raises for Value he doesn't like 
+to fold pairs or draws and he's definitely not  
+a winning player let's learn how to crush Mike by 
+the way apologies to everyone out there whose name  
+is Mike I just picked the most common American 
+name for men born in the 1960s I'm sure there  
+are plenty of miks out there who play great poker 
+let's start by figuring out how to play against  
+Mike on the Flop retroactively exploiting the 
+fact that he likes to call a lot pre flop we're  
+going to stick with using Mt ranges and scenarios 
+for these analyses given that GTO wizard AI can't  
+yet account for rate considerations in cash game 
+spots and we're going to keep everything focused  
+on the 50 big blind stack depth which gives us a 
+flop spr of around seven or eight this spr would  
+also be fairly applicable to certain highly 
+passive cash game environments so it serves  
+pretty well for our purposes we're going to start 
+with a spot where we're in position post flop in  
+the hijack versus Mike's big blind call and then 
+move to out of position where we're once again in  
+the hijack but this time Mike is calling on the 
+button first let's look at how Mike's big blind  
+defense range against the highjack open differs 
+from the GTO approach on the left here you can  
+see that the GTO range doesn't call Pure with 
+a a lot of the middling suited hands and weaker  
+offsuit hands it's three betting those at a good 
+rate pre- flop Mike on the other hand never three  
+bet Bluffs at only three bets 10 plus Ace Queen 
+suited plus and Ace King off for value and he  
+calls with almost the entire rest of the deck 
+except for the absolute worst off suit hands  
+after all he's only facing a small open Raise 
+so he wants to call and try to flop a big hand  
+in order to analyze the changes in our strategies 
+in these spots we're going to use a metric called  
+betting volume betting volume is essentially 
+a combination of cat frequency and Cat size  
+it takes all of the cats that we use in a given 
+spot or bets in a given spot and multiplies the  
+frequencies together to get an overall sense of 
+how much money we're putting into the pot we're  
+doing this because the changes in ranges from 
+the GTO approach to Mike's approach are going  
+to cause both changes in frequencies and changes 
+in sizing to our cets and the nuances of that are  
+not necessarily something we need to go into in 
+depth right now we're mostly just looking at how  
+much money are we willing to put into the pot on 
+the flop in various scenarios so we're going to  
+use betting volume as our metric here and monitor 
+how it changes from one spot to another so this  
+graphic right here gives us a good sense of 
+how our cat volume changes across a variety  
+of different flops I've got eight different 
+flops here starting with Ace King 5 rainbow  
+Ace a 6 rainbow King 106 flush draw Queen 76 
+rainbow Jack 75 monotone 1096 flush draw 883  
+rainbow and 654 flush draw those eight boards are 
+a pretty good cross-section of the overall nature  
+of flop textures and as you can see here from 
+the average at the bottom our betting volume is  
+going up when Mike is in the hand we're going 
+from 32% in GTO to 37% against Mike so this is  
+our retroactive exploit for Mike's wide pre- flop 
+calling range and there's a couple of noteworthy  
+things about these eight boards there are some 
+boards that don't really change and those are  
+the ones where we were already range betting the 
+Flop anyway so for example the A6 rainbow and the  
+King 106 flush drawer we were already betting at 
+100% frequency with a certain sizing 25% or 39%  
+and we simply continue doing that against Mike the 
+queen 76 is very interesting because our betting  
+volume goes up massively on that board we're 
+actually switching from small bets to over bets  
+on that board here which is partially why that 
+frequency's gone up so high Mike has a lot of  
+gut shots that we're able to put pressure on and 
+we're getting a lot more value from our over pairs  
+there with those big bets conversely on the 1096 
+flush draw Mike's range now contains more combos  
+of two pairs straights and hands that contain a 
+lot of equity pair plus gutshot type hands flush  
+draw type hands those types of things Mike now 
+has a lot of those hands on this texture that he  
+previously didn't have because as you remember the 
+middle card suited hands were actually doing a lot  
+of three betting in GTO here when Mike doesn't 
+three bet those hands he now has a lot more gut  
+shots on the queen 76 but he has a lot more pairs 
+two pairs and straights on the 1096 another board  
+that's changing slightly is the 654 flush draw you 
+can see that it was previously the lowest betting  
+volume Board of all the eight now it's going 
+up slightly because Mike has more overcards and  
+hands that don't interact with this texture that 
+in GTO he's supposed to three bet pre flop but  
+now he doesn't and he just has to check fold them 
+on this board so overall our frequency's going up  
+by about 5% it's not massively altering some of 
+our sizes are changing but as a whole as as you  
+can see we're exploiting Mike's range by going 
+with more cats higher volume and just generally  
+being more willing to put money into the pot 
+on the Flop here so I'm going to do a short  
+experiment just to wrap up this section I'm going 
+to go over to GTO wizard Ai and run five random  
+boards against Mike's big blind range just to give 
+you a snapshot of how some of these strategies are  
+looking and show you that across the board here 
+we're really going to be looking at some fairly  
+High aggression levels just based on how wide 
+Mike's range is so this right here is our first  
+board in the same spot it's the 84 Deuce with two 
+clubs and as you can see the solver actually wants  
+to go with a half pot size here and it's going 
+to be at a high frequency almost 90% frequency  
+so it's actually pretty close to being a range bet 
+for half pot on this low card board Mike just has  
+a lot of random overcards here that we can deny 
+Equity to our over pairs are very strong and if  
+we look at the range breakdown he still has 37% 
+trash hands so it's still a very good spot for  
+us even though it's low cards he just has so many 
+hands that are weak on this board and as you can  
+see we have a very significant nut advantage 
+17.6% to 1.7% best hands so pretty good spot  
+for us here if we flip the board we now get a 975 
+rainbow let's see what we get as a strategy for  
+this one I have disallowed Mike from dong betting 
+here so we're not going to see any leads because I  
+imagine Mike's not going to do much leading and 
+in this spot we actually are using a full pot  
+size but about half the time so again still a fair 
+amount of aggression it's just bigger sizing being  
+used again our over pairs are very strong and even 
+though Mike can have all the Straits still a good  
+spot for us to put some money in let's look at 
+Board number three this one's going to be ace 832  
+diamonds this one I expect to probably be a small 
+bet board but we shall see yep it is a small bet  
+board and frequency wise we are going to probably 
+come out as a range bet yeah it's a range bet so  
+range bet for quarter pot here on a83 it's going 
+to work very well not really too much need to do  
+anything particularly Innovative there lots of 
+trash hands Queen 10 4 all clubs this is going to  
+be an interesting one we'll probably see a small 
+bet here maybe at a fairly high frequency oh okay  
+so we are going medium bet we're going about half 
+pot 87% of the time so this is it's not too common  
+to see half pot Plus on monotone boards but it 
+does make sense here given that obviously Mike has  
+a lot of offsuit hands potentially even a lot of 
+offsuit hands that he shouldn't actually have so  
+we're kind of giving a bad price to some of those 
+low card single Club hands and obviously we're  
+getting a lot of value from some of our stronger 
+hands and then finally we will go to the last  
+board here which is 1098 rainbow so this is Board 
+number five and here we're going with the half pot  
+size once again just because we have a lot of good 
+hands here and again it's a high frequency so a  
+lot of high frequencies here some range bets 
+some range bets even for half pot or bigger  
+some bigger Bets with maybe a 50% frequency or so 
+but there's not going to be too many boards which  
+come out at low betting frequencies just because 
+Mike's range is so wide that as you can see even  
+on a board like this he has 40% trash hands so 
+just going to be pretty easy to justify a lot of  
+aggression against Mike here going to put him in 
+a lot of tough spots with some some big bets and  
+with some small range bets on certain boards but 
+basically we're just going to play pretty aggro  
+so to summarize our Baseline strategy from in 
+position against Mike here we're retroactively  
+exploiting the fact that he's calling too wide 
+pre flop by SE betting more often and by being  
+more willing to use larger sizings in the right 
+spots a lot of boards are going to become range  
+bet boards because our overall range Advantage is 
+so significant and Mike has so much trash in his  
+range while some boards are actually going to 
+become range bets for a half po sizing or even  
+bigger sometimes as opposed to just being range 
+bets for quarter part or less so really we're  
+going to be able to justify a lot more aggression 
+bigger sizings on some boards range betting a lot  
+of boards just going to be very favorable for us 
+because Mike has so much garbage that he shouldn't  
+be calling pre flop next let's let's shift into 
+looking at our out of position approach if we once  
+again compare Mike's approach to the GTO range 
+we can see that the GTO range includes a lot of  
+mixing with many different combos in fact very few 
+hands are calling pure in this spot Mike however  
+is calling pure with a ton of different hands 
+including some which are pure folds at equilibrium  
+like 85 suited or 43 suited he's also only three 
+betting with Jax plus and Ace King so his range  
+is relatively protected by some strong hands 
+like tens and Ace Queen suited even though this  
+obviously isn't a deliberate effort on his part 
+it's just a product of his General passiveness if  
+we look at our CET volume changes in this spot you 
+can see that while there is an overall increase of  
+about 5% just like there was in the in position 
+spot there are actually quite a few spots here  
+where our general level of aggression has not 
+really changed very much and our betting volume  
+has not really altered significantly there aren't 
+really too many spots like the queen 76 where it  
+went up massively or like the 1096 where it went 
+down massively just small tweet tweaks here and  
+there maybe the king 106 bit of a bigger tweak but 
+even that is only a 9% difference here let's take  
+a look at why this is happening this right here 
+is the example from the 10962 tone board in the  
+outer position spot in this case our CET frequency 
+has stayed pretty much the same even decreasing  
+a little bit here and the main reason for this is 
+that widening our opponent's calling range hasn't  
+actually altered the equity distributions of the 
+spot very much at all the equity graphs here can  
+show us what I mean by that on the left here is 
+the graph for the equilibrium spot where we're  
+up against the GTO range on the right is the 
+graph for when we're playing against Mike as  
+you can see the equity distributions are very 
+very similar with only a few minor differences  
+between the two the reason for this is that while 
+adding a bunch more hands to Mike's range did make  
+his range about 50% wider containing roughly 300 
+combos compared to roughly 200 in the GTO range  
+it didn't significantly alter the nature of the 
+range we added more weak hands but we also added  
+more strong hands as well in fact Mike actually 
+has very slightly more strong hands than a GTO  
+player would in this spot on this board the 
+trade-off is that because he's flatting a lot  
+more pre flop in the first place he's a lot more 
+vulnerable to being squeezed by the players behind  
+him this is a spot where the multi-way nature of 
+pre- flop play can make the scope of an opponent's  
+mistakes difficult to visualize it might be easy 
+to think that Mike isn't making a lot of mistakes  
+pre flop here when you see some of these numbers 
+and these graphs but he actually is it's just that  
+we're not the only one who gets to exploit those 
+mistakes the blinds behind him get to exploit him  
+by squeezing wider and putting us in tough spots 
+with his dead money in the pot let's now do the  
+same thing that we did before and run a sample 
+of a few random flops just to see how our outer  
+position strategy is altering against Mike as a 
+whole we shouldn't see too many massive changes  
+here based on these factors that we've identified 
+first one that we have here is this king queen  
+Jack two Spades in this spot we are using a 
+39% or 40% really flop sizing here with about  
+34% frequency so it's not becoming a drastically 
+aggressive board for us we are doing some betting  
+some checking we're really just targeting all of 
+Mike's pocket pairs looking to put them in tough  
+spots with some smallish to medium siiz bets here 
+so nothing really too unexpected about this board  
+if we look at the next one it's going to be 
+a king five Deuce rainbow this board is once  
+again going to be a 40% board except this time 
+we're betting a little bit more often Mike has a  
+little bit more of that trash in his range because 
+of the high frequency that he's flatting a lot of  
+those middle card hands a lot of those Broadways 
+so this becomes a little bit better of a board for  
+us to be able to not necessarily range bet but 
+bet a little bit more often you can see that we  
+do have a decent chunk of Advantage here in the 
+upper middle portion of the range and Mike still  
+does have about 28% trash in his range if we go to 
+the next board this one's going to be a king 103  
+with two hearts this one is now going to be a big 
+bet board full pop bet but only a 25% frequency so  
+we're really applying MAX Pressure here to some 
+of those gut shots and peir type hands that Mike  
+has and for the most part we are doing a lot of 
+checking again because he has a lot of hands that  
+interact with this board fairly well and if we go 
+with the next board we are doing Ace king deuce  
+with two Spades this one is going to be a very 
+good board for our range in terms of nut hands  
+as you can see where using a big bet again 100% 
+pot we are quite polarized here and we're not  
+able to bet that often because Mike does still 
+have plenty of acex hands and King X hands that  
+can continue here but we are able to really apply 
+some pressure there leveraging this nut advantage  
+that we have we have 22% or so best hands compared 
+to 14% for him and finally if we go with one more  
+board here it's going to be a king Jack 7 rainbow 
+this is actually going to be a very interesting  
+board because this is an overbet board now this 
+becomes a a board where there's so many back doors  
+so many gut shots here that Mike can have that 
+this actually becomes now a really good board  
+for a very big bet which is a little unusual here 
+but we're not doing it that often we're doing it  
+about a third of the time and range wise you can 
+see that we're just leveraging this significant  
+not advantage that we have here about 22% to 8% so 
+there are some unusual strategies coming up here  
+but we're not able to go with these range bets 
+we're not able to go with these high frequency  
+High aggression spots necessarily because as we 
+identified before even though the frequency that  
+Mike is calling pre flop is changing the overall 
+makeup of his range is not altering massively and  
+there's obviously going to be a lot of boards 
+where he still has plenty of hands that have  
+decent Equity so that's why we're not necessarily 
+ramping up the aggression that much from out of  
+position against Mike here so to summarize here 
+the changes in our strategy when out of position  
+against Mike are a little unpredictable overall 
+we are going to be able to play slightly more  
+aggressively against Mike but since his pre- FL 
+range isn't quite quite as restricted to certain  
+types of hands as it previously was we're going 
+to see some of the boards which were previously  
+really bad for our range become slightly better 
+and some of the boards which were previously  
+really good for our range become slightly worse in 
+other words our CET strategy becomes a little bit  
+less sensitive to the exact board and a bit more 
+sensitive to the fact that Mike simply has a very  
+wide range against which we can attack to some 
+extent even from out of position next let's move  
+on to looking at how we're going to exploit Mike 
+on the flop in a preemptive fashion in other words  
+is accounting for the mistakes which we expect 
+him to make on The Flop itself from this point  
+on there's going to be a lot less need for us to 
+separate in position and out of position since  
+Mike's Tendencies are going to be very similar 
+regardless of position so we're just going to keep  
+things simple for now and focus on in position 
+spots one noteworthy point to make about playing  
+outter position against Mike however is that 
+his General tendency to very rarely bet when  
+checked to is going to give us much more reason 
+to play our strong hands aggressively from out of  
+position while being less afraid of checking with 
+a capped or vulnerable range and doing a lot of  
+folding when mik does bet or raise as a result our 
+overall preemptive adaptation to mik from out of  
+position is going to end up with us playing fairly 
+face up in most cases and if we're looking to go  
+beyond that to look for additional exploits the 
+principles we explore in the inos spots will still  
+be a solid foundation so let's start by figuring 
+out a generalized overview of our preemptive flop  
+adaptations against Mike we've already discussed 
+how Mike is under aggressing and underfolding so  
+we're going to assume those two basic parameters 
+for how plays all flops and since we're only going  
+to focus on in position play for this portion of 
+the video we're just going to look at a standard  
+50 big blind hijack versus big blind scenario 
+where Mike defends his big blind against our  
+open as we looked at before so the first thing to 
+address here is whether or not Mike's tendency to  
+underfold against seab bets could potentially lead 
+us to stop seab betting so aggressively even once  
+we take into account the wide nature of his pre- 
+flop range best way to test that is if we start  
+with a board where we're already range betting 
+so I've got got this Ace A6 rainbow board here  
+where we're range betting for quarter pot size 
+and we're going to nolock Mike's response to see  
+if it makes us want to stop doing that now the 
+response that Mike has at equilibrium here is  
+he's supposed to raise a lot about 20% of the time 
+and call about 20% and he's actually supposed to  
+fold 60% of the time and that's one of the reasons 
+why range betting is so effective for us here what  
+if we have him continue way more than the 40% or 
+so that he's supposed to continue what if we ESS  
+flip this around and we say he's never going to 
+raise but maybe he's going to only fold 40% of the  
+time right and the way to do this with the node 
+loock the quickest way I like to do it is just  
+to put everything on fold and then just establish 
+that he's never folding anything in any of these  
+categories of hands he's not going to fold third 
+pair we're going to not have him we're going to  
+have him not fold any back door any Broadway hands 
+and then let's also have him call with all of his  
+King 7 plus just because he has King High and two 
+overcards to the six and that seems pretty good  
+we've got a pretty decent frequency in there right 
+now overall frequency is at 41% fold so we've got  
+him calling 60% instead of folding 60% and he's 
+never raising but that's pretty reasonable now the  
+final thing we have to do is just lock everything 
+hit node lock in this bottom right corner and we  
+should get our result in just a few seconds and 
+my expectation is we're still going to be range  
+betting just simply because it's a board that's 
+so good for us and if he does continue with all  
+these trashy hands all that's actually going to 
+happen is he's going to end up having to fold the  
+turn a lot more often because he's continuing with 
+a bunch of weak hands and most importantly we're  
+not getting raised so we never get denied our 
+Equity we never get put in tough spots against  
+the Rays we always get to realize equity on 
+the turn check back see the river whenever  
+we want so definitely not going to have to slow 
+down just purely because we're not getting too  
+many folds here this is going to be a spot where 
+Mike's tendency to peel really wide is going to  
+hurt him but what about the boards that are not 
+normally range bet boards let's take a look all  
+right so this next board that I have here is a 974 
+monotone All Hearts board so it's kind of a tricky  
+board against a range that we know includes a lot 
+of flushes and as you can see at equilibrium here  
+or at least with the retroactive exploit of Mike 
+calling pre flop we are betting this board about  
+72% of the time we're using a half pot size and 
+obviously we're going to have a robust kind of a  
+checking back range here we're checking back a lot 
+of 7x queen queen 7 87 pocket sixes fives Etc some  
+ace high pretty predictable checking back range 
+for a monotone flop here now I've already run  
+the node loock here to save us some time so I'm 
+just going to flip over to that and here on this  
+board with the node lock in place we're actually 
+range betting and the reason is because I have  
+Mike here playing a strategy where he is actually 
+raising all of his two pair plus but he's calling  
+uh huge frequency here he's basically not willing 
+to fold any decent heart and he's obviously not  
+folding any kind of pair gutshot Etc either and 
+once again his passiveness the fact that he's  
+only folding 25% of the time is actually hurting 
+him here substantially because it's simply meaning  
+that he's going to end up putting money in the pot 
+and then folding on later streets too much so even  
+though he's actually putting money in the pot way 
+too often if we flip over to the equilibrium here  
+he's only supposed to continue 60% of the time 
+here against half pot he's supposed to raise 7%  
+of the time call 52% fold 41% or so if we go back 
+to the nolock he's actually raising more than that  
+7% he's raising 8.1% but it's exclusively value 
+it's literally only value hands so we're going  
+to fold a lot to that raise which we'll talk 
+talk about later but generally speaking he's  
+doing so much passive calling here with a lot of 
+hands that actually aren't strong enough to call  
+stuff like Jack five with the five of Hearts he 
+just doesn't want to fold a heart here that stuff  
+is getting heavily punished on latest streets and 
+it's going to mean that we actually can bet more  
+often here against Mike's very passive strategy so 
+overall when we're not really going to get Bluff  
+raised bluffing from in position is basically a 
+free roll especially when we're not even betting  
+that big we're betting in this case half pot in 
+the previous case quarter pot we're either going  
+to take the pot down right away or we're going to 
+realize our Equity at a high rate anyway or we're  
+just going to be able to take the pot down at a 
+high frequency on a latest Street the only times  
+we don't realize our Equity are when Mike does 
+have a value hand such as some of those two pairs  
+flushes Etc on this board or when he decides to 
+show aggression on the turn or river in which case  
+if we're very confident that he's not actually 
+bluffing then we don't really have to care  
+about realizing our Equity because our Equity is 
+very low anyway if Mike is only raising two pair  
+plus then not being able to realize our Equity 
+against a range that's really strong doesn't  
+matter because we probably have very low Equity 
+one way or the other so that's a really important  
+thing to keep in mind about the nature of this 
+spot so in conclusion here we should actually  
+see bet more versus Mike from in position not less 
+because his lack of raises really fails to punish  
+us at all for our aggression we realize a lot more 
+equity in bigger pots on average and bluffing from  
+in position here is basically a free rle because 
+sometimes he folds and when he doesn't we get to  
+realize whatever Equity we have which in a lot 
+of these spots is going to be pretty decent so  
+overall more aggression not only for the sake 
+of retroactively exploiting the fact that he's  
+flatting too wide pre- flop but also preemptively 
+exploiting the fact that he's going to be too  
+passive on the Flop and not going to raise enough 
+the next question that we have to ask here which  
+is a very important one is what do we do do 
+when Mike raises now this is obviously a tricky  
+question because we've established that Mike 
+is not raising very much and a lot of the time  
+we're not going to get particularly useful info 
+from people that we don't see raise very often  
+because you have to rely on a rare occurrence 
+of them actually raising in order to see what  
+they're raising with but if we have confidence 
+that Mike is Raising pure value then our response  
+to that is going to be very important it's going 
+to have a big bearing on our overall EV so let's  
+take a look this is the previous board here that 
+we just looked at the 974 monotone board and as  
+you can see we have that same node lock with mic 
+only raising basically flushes sets in two pairs  
+and let's take a look at what our response versus 
+this raise is going to look like he raises to 50%  
+pot basically 3x our bet size and take a look at 
+that we have a strategy where we're jamming some  
+hands which is basically mostly our nut flushes 
+we are calling with our non-nut flushes in most  
+cases we're never folding two pair here because 
+we still have outs against flushes we're never  
+folding a set for the same reason we are almost 
+never folding the nut flush draw except looks  
+like some combos are just about in that territory 
+where they're thinking about folding Ace of Hearts  
+King is like splitting between jamming and folding 
+so it's pretty much exactly Break Even but if we  
+look at what he's supposed to do against the jam 
+here we haven't locked this node so in order to  
+to really get the most accurate result here we 
+actually have to lock his response to the Allin  
+at this point because as you can see here the 
+the response has him folding stuff like 97 to  
+stay balanced it has him folding Jack High flushes 
+that's not really very realistic so let's finalize  
+the node lock here by making sure that we have an 
+accurate idea of what he's doing we're going to  
+put every everything on call here and then what 
+we're actually going to do is have him call with  
+all of his flushes he's going to fold his two 
+pairs and let's actually have him folding his  
+sets so he's only calling it off with a flush 
+and he's folding a set let's see what that does  
+so this is the output here from the results that 
+we just gave and you can see that it's actually  
+fairly straightforward and relatively intuitive in 
+that we are folding a massive amount of the time  
+which is pretty logical considering how strong his 
+range is we are getting it in primarily with the  
+nut flush and some of our other strongest flushes 
+any Queen High flush or better basically we're  
+getting it in with we are calling with some of our 
+other flushes uh actually Queen six is not getting  
+it in Queen six of of Hearts is just calling King 
+six is actually calling a little bit too which is  
+kind of interesting as well as Ace 3 and ace deuce 
+presumably because they maybe benefit a little bit  
+more from unblocking certain hands interesting 
+anyway the uh pocket 9es pocket sevens pocket  
+fours 97 all of that stuff is live against the 
+flush so that stuff is never folding Aces and  
+Kings with the flush draw they're live enough 
+that they can continue even Jack's very small  
+frequency I guess because it has that strape flush 
+out is going to have some continuing frequency  
+tens though does not which is kind of curious 
+but bottom line here is it's a very very tight  
+response if we get raised we should fold a lot 
+here we're snap folding hands like Queens with  
+no heart even Queens with a heart is folding here 
+and it could be a real error to continue against  
+this raise with a hand like let's say Aces with no 
+heart if we look at the EVS here of the different  
+options continuing with Ace is no heart is losing 
+about four big blinds here which is a big error  
+to make in a pot of only 15 big blinds 18 big 
+blinds at this point yeah there's n once he  
+puts nine out there there's about 18 big blinds 
+in the pot and if we put that extra six bigs to  
+call with Aces no heart we're getting crushed 
+to the tune of losing four big blinds so very  
+important variable there that his range just is 
+so so strong that we should not be continuing at  
+any significant rate and we should be very very 
+cautious about how we call that raise we're only  
+calling with stuff that's live against flushes 
+and when we have strong flushes we're basically  
+just wanting to get it in so the bottom line here 
+when it comes to continuing against Mike's raises  
+is fold a lot we only really need to continue 
+here when we're drawing live against his value  
+hands and sometimes that's not even enough you 
+will find some spots here where even hands that  
+have equity against the value are not going to 
+necessarily have enough implied odds to continue  
+or potentially the stack depth is not deep 
+enough for us to win more when we actually do  
+win the pot so in the end we're actually going to 
+make some really big folds in certain spots there  
+will be times where if there's enough flushes in 
+their range for example even a strong flush draw  
+might want to fold uh and things like that so in 
+the end folding a lot is the only real exploit  
+against these players who mostly just have when 
+they raise it's boring it's not flashy but you  
+have to be able to do it against these really 
+passive players so the next question we want to  
+ask is a very interesting one it's what if Mike is 
+inelastic to our bet sizing on the Flop what if he  
+continues the same range against a big bet that he 
+would against a small bet this is going to produce  
+some interesting results so let's take a look at 
+a couple of examples here so we've gone back to  
+the aa6 board here as our primary example or our 
+first example and as you can see I have locked  
+Mike strategy here against the 25% pot bet into 
+raising any Ace or better and calling a lot of  
+those other hands that he was calling before what 
+I've also done in is I've added a 75% pot size so  
+I've added a second bet sizing option for us here 
+and I've locked Mike into responding the same way  
+to that size as he is to the smaller bets so he's 
+got a 3X raise he's got a call and he's got a fold  
+and I've locked the ex act same response so he's 
+completely inelastic to our sizing here pause the  
+video for a second think about what you think the 
+strategy might look like and what might be best in  
+this case to respond to this completely inelastic 
+[Music] strategy and now here's your answer as you  
+can see we now are range betting for a big size 
+on Ace A6 which is very counterintuitive but what  
+this is is a very extreme version of what we saw 
+earlier where Mike is continuing in a very passive  
+way and if he's doing that against a big bet in 
+the same way as he's doing that against a small  
+bet it's now going to punish him further for 
+us to be using a large size and then continuing  
+on the later streets because the pot is going 
+to be bigger he's still going to be forced to
+overfolded here here we would rather use a bigger 
+size with our whole range instead of the smaller  
+one which is a very interesting development 
+I also have one more board where I've done  
+the same thing just to allow us to have a little 
+bit of a different sample here we've got a jack  
+105 two Spade board where Mike is Raising all 
+of his two pair or better and he's not raising  
+his combo drawers or anything like that he's 
+just raising two pair plus so it's a very low  
+raising frequency and in this case we've got a 
+half pot size and a full pot size this is the  
+inelastic strategy that I've locked Mike into 
+here he's continuing with all of his gut shots  
+all of his back doors all sorts of hands just 
+not really very willing to fold just clicking  
+that call button and he's doing the same thing 
+Against full pot as he would against half pot  
+and take a look at what our strategy is as you can 
+see we're not using the half pot anymore there are  
+some hands that are favoring check at a small rate 
+there's a a 5% checking frequency here but we're  
+favoring this big betat we're using this full 
+pot bat and we're doing it with a lot of hands  
+here so really we're focusing in on creating big 
+pots against a very passive opponent who's going  
+to continue with nowhere near enough equity and 
+we're just looking to maximize the frequency that  
+we can take down that big pot on later streets 
+so again Mike is in elastic here we're using big  
+bets we're forcing him to continue so that we 
+can take down that bigger pot so to summarize  
+this section Mike's in elasticity versus our 
+sizings allows us to bet big a lot more than  
+we usually would do we're creating bigger pots 
+for later streets and we're forcing him into  
+positions where he just can't defend his range 
+because it's too weak we're going to force an
+overfolded the value that we get from the top of 
+our range too by simply getting more money into  
+the pot on the earlier streets to compensate for 
+the fact that Mike isn't going to do the betting  
+for us he's not going to Bluff the latest streets 
+enough and this strategy of bigger bets on the  
+earlier streets helps us to grow the pot and get 
+that money in there when we have two pair sets  
+over pairs Etc so little bit of a counterintuitive 
+response perhaps but the inelasticity to sizing is  
+really helping us to size up so the next question 
+that we have to answer after we've established  
+that Mike's in elasticity on the Flop actually 
+helps us is to figure out what we're going to  
+do on the turn after Mike calls because we've 
+talked a lot about the fact that we're forcing  
+him to continue a wider range he's continuing way 
+to too often without enough equity but what do we  
+actually do once we get to the turn in a spot 
+like that well what I've done is I've taken the  
+Jack 105 flop that we just looked at and I've 
+looked at that full pot bet and what we do on  
+a few different turn cards let's take a look so 
+this right here is our first turn card this is  
+the dece of clubs this is basically a complete 
+brick and as you can see we have a pretty robust  
+betting strategy we have about a 63% frequency or 
+so and our value betting region is a little bit  
+surprising we're actually able to bet for value 
+with some 10x here this is how wide and how weak  
+Mike's range is we're betting stuff like Queen 
+10 we're betting even 109 of Spades stuff like  
+that is betting for Value because Mike's range 
+is simply so wide and so weak at this point we  
+have a massive nut Advantage we have 33% almost 
+best hands so almost a third of our range is not  
+hands at this point Mike only has 5% because 
+he was was raising the Flop with all of his  
+two pair plus remember and in this case he didn't 
+raise the Flop so we're in such a good spot here  
+we're able to Value bet any Jack a stronger 10 
+particularly 10x with Spades obviously and we're  
+also betting a good chunk of our draws a lot of 
+our strongest combo draws are able to bet we're  
+able to bet with a lot of flush draws we've got 
+some open enders in there as well just a lot of  
+our most robust drawing hands plus if we look at 
+the weaker hands that are betting here we're able  
+to actually just Blast Off with hands like King 
+seven of Hearts King seven of diamonds Queen six  
+of clubs 87 for the lowend gutshot seven six of 
+Hearts you know seven high with no real Equity  
+here we're able to blast off with these hands not 
+just because we need to have blops but because  
+Mike's range is so weak for getting to this spot 
+that we're simply in a situation where he cannot  
+defend very effectively he's going to be forced 
+to fold a lot here so we're able to Value bet  
+thinner and we're able to Bluff with quite 
+a variety of hands including a lot of pretty  
+weak hands that usually might not be very good 
+bluff combos on this turn card if we look at a  
+different turn card here maybe we put up a turn 
+card that completes a lot of draws maybe we put  
+up something like a nine of Spades which completes 
+the straight and the flush this is going to be  
+obviously a very different kind of a spot and in 
+theory um we still have Mike checking everything  
+here there's no real necessity for him to be donk 
+betting here his range just isn't strong enough  
+to Warrant doing that but if we look at what our 
+strategy now is we actually have a smaller size  
+so once again we're using a fairly aggressive 
+approach we're just not necessarily polarizing  
+in the same way that we would on a brick so 
+we were using the 2/3 pot size on the dece  
+turn we're now using 40% here the pot is already 
+pretty big there's 18 bigs out there because we  
+bet full pot on the Flop so we don't necessarily 
+have to go with these overly polarizing sizes we  
+can use these moderate 2/3 40% kind of sizes and 
+as you can see here we're able to continue value  
+betting pretty liberally we've got still some 
+chunks of uh 10x that are value betting stuff  
+like Queen 10 is value betting here we still 
+have uh even some uh 9x that's betting which  
+is sort of a a bit mergy here kind of a bluff 
+but not really that much of a bluff I guess we  
+are still doing pretty well with 9x and if we 
+look at the bluffing region uh it is obviously  
+going to be some pretty trashy stuff some ACE a 
+with just an eight for an open Ender the low open  
+Ender but then we've got some stuff like 86 which 
+is even weaker than that uh we've got 76 65 again  
+some pretty weak stuff and we're also turning some 
+pocket pairs into a bluff as well so we're able to  
+continue quite aggressively once again we're just 
+not using quite the same kind of a size if we look  
+at the range breakdown Mike does have a decent 
+chunk of flushes now 12% best hands instead of  
+the 3% that he had on the previous spot so we are 
+a little bit more cautious but because his range  
+is still very wide he still has 35% trash hands 
+we still do get to play relatively aggressively  
+so not a spot where we have to massively slow down 
+if we now shift back to looking at the ac6 rainbow  
+spot what I have here is a version of this Sim 
+where I've locked Mike to always check Ray and  
+Ace on the Flop and never call with anything an as 
+or better so he's actually extraordinarily capped  
+in the range that he continues versus the small 
+betat here we've eliminated the large bat here  
+just for Simplicity we're not necessarily going 
+to worry about the an elasticity here we're just  
+looking at what happens purely if he continues 
+with that very capped range and as you can see  
+on this dece turn he's so capped that we're now 
+going with a big overb we're going with this 116%  
+of pot and we're actually doing it with our entire 
+range or virtually our entire range so this is a  
+spot that is so favorable for us we have almost 
+most 40% best hands and he has 0.7 he literally  
+only has one full house which is Deuces so if he's 
+raising every single Ace here we get to blast off  
+with complete impunity with virtually everything 
+this is an obviously very extreme example but this  
+is a good sort of guideline here of if you really 
+feel like when he calls here he just never has an  
+ace maybe it's it's a live game and you have a 
+live ta sort of a thing going on maybe you just  
+feel like you know exactly how this guy plays and 
+he just always raises the Flop if he has an Ace  
+and you bet small this is what you can do you 
+can pound in a big bet with every single hand  
+so pretty extreme adaptation but a good guideline 
+of what these exploits actually look like against  
+these super passive players who only raise value 
+so to wrap up this section as you could see from  
+these examples on brick turns we get to blast off 
+a lot we get to use some big sizes especially when  
+Mike is extremely capped these turn cards allow us 
+to put in a lot of money here the betting volume  
+is going to be very high and even though the 
+non bricks are going to require a little bit  
+more Nuance we're going to have to be a bit more 
+structured in how we bet and maybe we don't use  
+quite such big sizes because he's going to be 
+a little bit less capped we are still going to  
+be able to show a good degree of aggression and 
+no matter what here the overall weakness of his  
+range even if it isn't that capped he's going to 
+struggle to defend it you saw that even on the  
+turnone card where he could have a lot of flushes 
+and some Straits we still were able to show about  
+63% or so aggression we were betting quite often 
+there so it's not going to be that we're going to  
+have to slow down a lot it's just really going to 
+moderate our sizing a little bit more so than our  
+actual frequency so the next question we're 
+going to have to ask here is does the river  
+function the same way as the turn what if Mike 
+is continuing beyond the turn with way way too  
+many hands what if he just doesn't want to fold 
+a draw and maybe the only stuff that he folds on  
+the turn is going to be the stuff that didn't get 
+that back door drawer that he was looking for well  
+let's find out so the example that we're going 
+to use here is this Jack 10 5 once again in this  
+case we bet full pot on the Flop and Mike calls 
+we're going to get that Deuce of Clubs blank turn  
+he's going to check we're going to use this 2/3 
+pot sizing and I'm going to walk you through the  
+node lock that we're going to implement here for 
+Mike's range when we that we're going to have him  
+pretty much Jam anything that still has or that 
+has just turned two pair plus so we're going to  
+go right here and we're going to first of all 
+just set everything on fold just for Simplicity  
+and then we're going to go straight to the jam and 
+we're going to say if he has a set which is Deuces  
+the only set he can have if he has two pair he's 
+going to check Jam that's all we're going to do  
+we're never going to have him check jamming with a 
+bluff because as we've seen he's the most passive  
+player ever we're going to have him always call 
+his top pair always call his second pair always  
+call his third pair cuz he doesn't like to fold 
+pairs remember low pair he's even going to call  
+fours and threes here because maybe he just 
+thinks we have a draw and then we're going to  
+have him call any combo draw any nut flush draw 
+any flush draw although we're going to have to  
+go back to that flush draw that also has two 
+pair any open Ender and any gutshot so we're  
+really only going to have him fold the stuff that 
+has no pair no draw essentially and he's going to  
+continue everything else so let's node lock and we 
+will see what happens and this is our new strategy  
+right here what you'll see is that it's become a 
+little bit more linear if you focus your energy  
+on this Equity buckets breakdown down here you 
+can see that there's kind of a linear to where  
+the edges of these categories are I like to use 
+this as a pretty good guideline line here if we  
+look at a polarized range a polarized range would 
+be that we would have our best hands betting at a  
+higher frequency our trash hands betting at 
+ey frequency and our good hands and our weak  
+hands betting a bit less often right we might see 
+a bit more of a curve to it we might see something  
+like that right but a less polarized range a more 
+linear range is going to look a bit more like that  
+it's obviously little bit there's a little bit of 
+a trend there a little bit of a curve but for the  
+most part our is a bit more linear and that's 
+simply because we're not getting raised very  
+much we don't have to fear the raise we don't have 
+to worry about what do we do against a check Jam  
+we're just able to bet a lot more linearly and as 
+you can see almost any second pair now is a pure  
+value bet we're betting 2/3 pot here with almost 
+any 10x 107 109 108 although 108 is checking a  
+fair amount depending on the combo but we're even 
+betting for value with eights sevens sixes fives  
+cuz those hands well fives is is a set actually 
+so forget about fives but we're betting eights  
+sevens and sixes here and we're getting value 
+from worse hands we're getting call by any pair  
+remember so we just have to be very very willing 
+to Value bet super thinly in this spot this is the  
+essence of these situations most of you if you 
+are having trouble against these very passive  
+players it's probably going to be because you're 
+not appropriately adjusting your value ranges it's  
+not possible for someone to be drastically under 
+underfolding but also doing it with the right  
+range of hands they have to be underfolding with 
+specifically hands that are too weak to continue  
+and that's what allows us here to get value from 
+stuff like a 10 Queen 10 109 stuff like that we're  
+going for Value every time here with stuff like 
+Jack n jack8 even Jack s is kind of close Jack S  
+A Hearts looks like it wants to check back here 
+but we're really getting a ton of value from a  
+lot of these hands and we're continuing to go for 
+it with a lot of our drawers we're betting most of  
+our combo drawers here most of our flush drawers 
+most of our open Enders we're not checking that  
+many of them we're just realizing Equity a lot 
+of the time here because we get cold and then we  
+see a river or we simply get a fold and we take 
+the pot down right now this is the first part of  
+the equation that we're betting the turn as a 
+preemptive exploit here we're betting the turn  
+with a much more linear range so the question was 
+how does the river function what's the difference  
+here and does it function the same way well let's 
+take a look once Mike calls let's imagine we get  
+another brick now on the river we get maybe we get 
+another Deuce maybe we get the deuce of diamonds  
+and we know Mike never has a full house cuz he 
+always raises two pair Plus on the turn now it  
+does want villain to lead out at some frequency 
+it does want Mike to lead in this spot but let's  
+assume that that's not going to happen let's 
+actually get rid of his option to lead here  
+because realistically probably pretty unlikely 
+that he's going to find some of these weird  
+Bluffs um or probably pretty unlikely he's going 
+to find some of these blocker Bets with a Jack or  
+anything like that so we're just going to have him 
+check everything and now uh with about a 2/3 pot  
+bet behind we actually have a very simple River 
+strategy we're going for Pure value with every top  
+pair plus right on a brick River we are jamming 
+every single Jack or better it's clearly strong  
+enough to bet here and we're also bluffing with 
+pretty much all of our King High or Worse except  
+for king queen specifically and a little bit of 
+King n that we're checking back cuz we do have  
+a tiny bit of Showdown value with those hands but 
+in fact it's actually a very very simple strategy  
+to execute here on a brick it's not difficult 
+at all to employ this approach we can establish  
+very clearly that Jack X is our value threshold 
+we're betting everything Jack X or better and we  
+are bluffing with pretty much everything king9 or 
+worse and that's a really clear an easy blueprint  
+and rubric that we can follow here not going to 
+be difficult to employ that strategy we have no  
+reason to bet 40% here because there's nothing in 
+this range that has incentive to do that however  
+even if we were to just get rid of that 40% here 
+just for Simplicity what we will see when we come  
+to look at Mike's Bluff catching protocols is that 
+we might have to make some adaptations based on  
+what he actually does on this River so this is 
+a retroactive exploit on the River of this very  
+straightforward polarized range where we bet all 
+in for for two-thirds pot with a Jack or better  
+and with Bluffs uh but we may find that we can do 
+some preemptive exploiting here which we'll talk  
+about in a second so to draw some conclusions here 
+we saw that betting the turn linearly worked very  
+well for us given that we can preemptively assume 
+Mike is going to play the turn very passively we  
+got a lot of thin value from our second pair hands 
+here we weren't as Polar as we usually would be  
+and from there the the river is actually going 
+to function fairly simply we're mostly going to  
+be able to go full value on a lot of brick runouts 
+with top pair plus and on some non- brick runouts  
+there is going to be some Nuance there but the 
+fact that we are betting the turn fairly linearly  
+is going to mean that for the most part on the 
+non- Brick runouts we're still going to retain a  
+lot of the draws that get there we obviously bet 
+for value with those draws we have certain other  
+hands that are going to usually be MISD draws that 
+are going to be able to Bluff so in general our  
+range selection processes are not going to be that 
+much more complicated on bricks the general idea  
+here is we're going linear on the turn and then 
+as we move into the river the same principles are  
+going to apply it's going to be very difficult for 
+villain to defend on the river and as a result uh  
+we're going to be able to employ these polarized 
+River strategies in a fairly simple Way the final  
+question for us to answer here when it comes to 
+Mike's tendency to underfold is going to be what  
+if he doesn't fold his bluff catches what if we 
+get to the river it's a brick run out and he just  
+simply refuses to fold anything that catches 
+Bluffs well you might imagine that the result  
+here might be a little bit self-explanatory that 
+it might be a little bit simple but let's check in  
+just in case okay so this is our spot that we were 
+just looking at where we had that linear turn bet  
+and we are then arriving at the river with this 
+Deuce of diamonds brick and obviously both players  
+have some Mis draws here both players have some 
+decently strong hands but clearly we have a lot  
+more strong hands than Mike does so let's take 
+a look at what happens if Mike doesn't fold his  
+bluff catchers we're going to go with this 2/3 pot 
+all in range here this is the reason why I used 50  
+big blinds because we're shoving the river for 
+not that big of a bet size and you can see that  
+Mike actually does have a couple of hands that 
+make trips here because he was continuing beyond  
+the turn with all of his Dux but the key question 
+here is what happens if he doesn't fold his bluff  
+catches so to figure that out we have to establish 
+which hands actually count as Bluff catches here  
+now theoretically as you can see ace high is 
+actually supposed to call sometimes here ace high  
+as you can look at here is going to call about 
+half the time because ace high actually beats a  
+lot of our Bluffs but probably pretty reasonable 
+that Mike won't be able to identify that ace high  
+might actually be good here so we're going to 
+establish his bluff catches as being anything one  
+pair or better basically here so that's going to 
+be threes fours sixes sevens eights Etc all that  
+stuff 10x Jacka Etc but he's going to fold his Ace 
+highs he's going to fold Ace queen stuff like that  
+so let's lock that in there uh this hopefully 
+should be pretty easy once again the way I do  
+these node locks is just put everything on fold 
+and then just simply go to the hand categories  
+we go trips top pair second pair third pair oops 
+second pair didn't go there we go low pair and  
+that is it right there so we're betting the river 
+for 2/3 pot to finalize it we hit lock all once  
+again and everything is in place in fact what's 
+interesting here is that some of these hands  
+are weak enough that he's actually calling with 
+some of these trash hands right you can see there  
+that he's calling you know decent chunk of his 
+hands that are actually pretty weak he's calling  
+two-thirds of the time folding the rest here and 
+our strategy is going to shape up as follows take  
+a look at that what do you notice hopefully if you 
+just take a few seconds to look at this breakdown  
+the outcome is becoming fairly apparent here we're 
+not bluffing we're not bluffing at all we have no  
+Bluffs whatsoever and not only that but take a 
+look at 10x we're now jamming all of our 10x for  
+Value 107 109 108 Etc there are simply so many 
+hands that we beat that a hand like 107 if we  
+look at the equity here 107 at this point has 68% 
+equity and that is a very strong hand it's a hand  
+that's strong enough to get called by worse at a 
+decent rate so even if we are running into a deuce  
+occasionally here because Mike can call the turn 
+with any Deuce even if we're running into a jack  
+we're getting enough value that we can jam 10x 
+and EV wise it's not going to be especially close  
+if we look at things EV wise here even though 
+there is a fairly close margin between jamming  
+and checking 10x is simply winning the pot such a 
+high rate here that we're actually making 29 big  
+blinds one way or the other so it's not mandatory 
+to jam a 10 here but take a look at something like  
+a Jack Jack seven Jack seven here there's about 
+a 10 big blind difference between jamming and  
+checking so the really important thing to identify 
+here is it's not about really finding some kind of  
+Bluffs here we don't have to have Bluffs as we 
+saw Mike is underfolding to our River aggression  
+so it's not important that we find Bluffs what is 
+important is that we have to jam a jack for Value  
+if you check back with a jack here you're missing 
+so much value from these passive players and a lot  
+of you that might be having trouble here could 
+be having trouble because you're not jamming a  
+jack for Value in this spot so very important 
+to recognize how how strong a Jack is in this  
+situation conversely part of the reason why we're 
+not bluffing with certain hands is take a look at  
+something like Ace 3 Ace 3 of diamonds let's say 
+which is a busted gut shot here we missed the gut  
+shot on the turn this hand is not bluffing not 
+not only because Mike is underfolding here and  
+the bluff is losing four big blinds but we win 
+13 big blinds or so by checking here with ace3  
+of diamonds because we have good Showdown value 
+we win this pop quite a bit even Queen six here  
+Queen six of Hearts Queen six of clubs we're 
+winning about seven and a half big blinds or  
+more by checking down because Mike's range is 
+so weak that we don't need to Bluff with Queen  
+High anymore in fact even 76 even seven High here 
+is actually capturing one big blind from this pot  
+because sometimes Mike just has four three of 
+Spades or something like that and we actually  
+win with seven high so that's another reason why 
+we're not bluffing here it's not just because Mike  
+refuses to fold it's because the hands that would 
+usually Bluff because they have no Showdown value  
+now have some Showdown value they have some Equity 
+they win the part a small frequency the time at  
+Showdown and it becomes very important to make 
+sure that we capture that by just checking and  
+taking that small portion of the pot here instead 
+of turning our King highs Our Queen highs into a  
+bluff and not only making an unprofitable Bluff 
+but also wasting the opportunity to just check  
+and realize that Equity that we do have especially 
+hands like Ace King here I mean Ace King is making  
+14 big blinds checking back right so we absolutely 
+don't want to miss those check backs the same way  
+we don't want to miss those value bets so that 
+kind of sums it up for this River spot let's  
+bring it back around and draw some conclusions 
+so to summarize our approach here we have to be  
+very willing to Value bet thinley on the river 
+a 10 in this spot on Jack 105 du Duce would be a  
+very good value candidate and we really don't have 
+very much need to Bluff anymore if we're going to  
+find our opponent underfolding it's going to turn 
+our break even Bluff candidates into losing Bluff  
+candidates and crucially our Bluff candidates 
+are also going to have some Showdown value here  
+a lot of our King highs and queen highs on this 
+brick River are actually going to sometimes win  
+and we don't want to waste that Showdown value by 
+betting in a potentially unprofitable spot when we  
+might actually be able to capture 5 10 15% of the 
+part even by simply checking and hoping that Mike  
+happens to have a worst draw that missed so that's 
+a very important concept to keep in mind so with  
+that said let's draw some overall conclusions 
+from this video about how we're going to crush  
+Mike and players like Mike going forward our EV 
+versus these passive players is going to come  
+from growing pots without our value hands it's 
+going to come from linear range construction  
+where we're betting our strongest hands our 
+strongest drawers we're going for thin value in  
+a lot of spots we're not going as Polar and we're 
+recognizing that they're going to continue with a  
+lot of hands that don't have enough equity which 
+means that larger early Street sizings are going  
+to be very effective especially in situations 
+where they're very inelastic to our size but when  
+they do raise or show some kind of aggression we 
+have to be very very tight we have to be folding  
+some pretty big hands and mostly just continuing 
+with stuff that's actually live against the value  
+portions of their range because their range is 
+going to be mostly value and we don't want to  
+be trying to Bluff catch against those ranges 
+finally we don't really have to Bluff Rivers  
+against them very much especially when our Bluffs 
+sometimes win now if we did find a spot where a  
+particular player was continuing to the river a 
+lot and then folding or perhaps on some of those  
+River cards that are not complete bricks like 
+that Deuce that we looked at the opposite cards  
+like a nine a an eight for example something like 
+that those cards we might still have some Bluffs  
+especially if we think that maybe they're going 
+to be a bit more likely to fold some of the peir  
+hands that get to that point but when rivers 
+brick off and our Bluffs have some Equity to  
+win at Showdown we we really don't often have to 
+Bluff Rivers against these players especially if  
+we just simply don't think they're going to fold 
+so that's a really crucial adaptation to make as  
+well in general you're going to find a lot of 
+these players at all stake levels even up to  
+high stakes these players do exist obviously 
+Mike is a pretty extreme example we saw he was  
+really unwilling to fold any of those gut shots 
+or any Equity at all but this General principle  
+of linear Equity growing pots on early streets 
+that's going to be very useful against all of  
+these passive opponents that you're going to come 
+up against so keep that in mind going forward if  
+you have any questions at all about the content of 
+this video I will be available on the GTO wizard  
+Discord server just feel free to tag me or send 
+me a message there I'll be happy to discuss the  
+content otherwise thanks everybody for watching 
+I will be back again soon with more video content  
+and I hope you guys can put this content into 
+practice at the tables good luck I'll see you soon

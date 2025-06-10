@@ -1,0 +1,100 @@
+Cash, 100bb, 8-max, RFI
+UTG: 66+, A3s+, K9s+, QTs+, JTs, T9s, 65s, AJo+, KQo
+UTG+1: 66+, A2s+, K8s+, Q9s+, JTs, T9s, 98s, 65s, AJo+, KJo+
+LJ: 55+, A2s+, K7s+, Q9s+, J9s+, T9s, 98s, 65s, ATo+, KJo+, QJo
+HJ: 44+, A2s+, K5s+, Q8s+, J9s+, T8s+, 98s, 87s, 76s, 65s, A9o+, KTo+, QTo+
+CO: 44+, A2s+, K4s+, Q6s+, J7s+, T8s+, 97s+, 87s, 76s, 65s, 54s, A8o+, K9o+, QTo+, JTo
+BTN: 33+, A2s+, K2s+, Q2s+, J5s+, T6s+, 96s+, 85s+, 75s+, 64s+, 54s, A4o+, K8o+, Q9o+, J9o+, T8o+, 98o
+SB: 22+, A2s+, K2s+, Q2s+, J4s+, T5s+, 95s+, 85s+, 74s+, 64s+, 53s+, A3o+, K7o+, Q8o+, J8o+, T8o+, 98o, 87o
+
+Cash, 100bb, 8-max, raise, EP, call
+MP: 66-JJ, A9s-AJs, A4s-A5s, KTs-KJs, QTs+, JTs, T9s, 98s, 65s
+CO: 55-JJ, A8s-AJs, A3s-A5s, KTs-KJs, QTs+, JTs, T9s, 98s, 87s, 76s, 65s
+BTN: 55-JJ, A3s-AQs, K9s+, QTs+, J9s+, T8s+, 98s, 87s, 76s, 65s, 54s
+SB: 44-JJ, A9s-AJs, A4s-A5s, KTs-KJs, QTs+, JTs, T9s, 98s, 87s, 76s, 65s, 54s
+BB: JJ-, AQs-, K4s+, Q9s+, J8s+, T7s+, 97s+, 86s+, 75s+, 64s+, 53s+, 43s, AJo-AQo, KJo+, JTo
+
+Cash, 100bb, 8-max, raise, EP, 3bet
+MP: TT+, ATs+, A4s-A5s, KTs+, QJs, JTs, 65s, AQo+
+CO: 99+, A9s+, A4s-A5s, KTs+, QJs, JTs, 65s, AQo+
+BTN: 99+, A9s+, A3s-A5s, KTs+, QJs, JTs, 65s, AQo+
+SB: 99+, ATs+, A3s-A5s, KJs+, QJs, JTs, 65s, AQo+
+BB: 99+, AQs+, A4s-A5s, KJs+, QJs, 65s, AKo
+
+Cash, 100bb, 8-max, raise, MP, call
+CO: 55-JJ, A8s-AJs, A3s-A5s, K9s-KJs, QTs+, JTs, T9s, 98s, 87s, 76s, 65s, 54s
+BTN: 55-JJ, A3s-AQs, K9s+, QTs+, J9s+, T8s+, 98s, 87s, 76s, 65s, 54s
+SB: 44-JJ, A9s-AJs, A4s-A5s, KTs-KJs, QTs+, JTs, T9s, 98s, 87s, 76s, 65s, 54s
+BB: JJ-, AQs-, K5s+, Q6s+, J8s+, T7s+, 97s+, 86s+, 75s+, 64s+, 53s+, 43s, AJo-AQo, KJo+, QJo, JTo
+
+Cash, 100bb, 8-max, raise, MP, 3bet
+CO: 99+, A9s+, A4s-A5s, KTs+, QTs+, JTs, T9s, 65s, AQo+, KQo
+BTN: 99+, A8s+, A3s-A5s, K9s+, QTs+, JTs, T9s, 65s, AQo+, KQo
+SB: 99+, A9s+, A4s-A5s, KTs+, QJs, JTs, 65s, AQo+
+BB: 99+, AQs+, A4s-A5s, KJs+, QJs, JTs, 65s, AKo
+
+Cash, 100bb, 8-max, raise, CO, call
+BTN: 33-TT, ATs-, K8s-KTs, Q9s+, J9s+, T8s+, 97s+, 87s, 76s, 65s, 54s
+SB: 44-99, A8s-A9s, A3s-A5s, K9s, QTs, J9s+, T8s+, 98s, 87s, 76s, 65s, 54s, AJo, KQo
+BB: TT-, AJs-, K4s-KJs, Q5s+, J7s+, T7s+, 97s+, 86s+, 75s+, 64s+, 53s+, 43s, A8o-AQo, KTo+, QTo+, JTo, T9o
+
+Cash, 100bb, 8-max, raise, CO, 3bet
+BTN: 88+, A2s+, K8s+, Q9s+, J9s+, T8s+, 98s, 87s, 76s, 65s, ATo+, KQo
+SB: 88+, A3s+, K9s+, QTs+, J9s+, T8s+, 98s, 87s, 76s, 65s, AJo+, KQo
+BB: TT+, AJs+, A3s-A5s, KTs+, Q9s+, J9s+, T8s+, 98s, 87s, 76s, 65s, AQo+, KQo
+
+Cash, 100bb, 8-max, raise, BTN, call
+SB: 33-99, A6s-A7s, A3s-, K8s-K9s, Q9s, T8s, 98s, 87s, 76s, 65s, 54s
+BB: TT-, A6s-ATs, A3s-, KTs-, Q2s+, J3s+, T4s+, 95s+, 84s+, 73s+, 63s+, 53s+, 43s, AJo-, K9o+, Q9o+, J9o+, T8o+, 98o, 87o, 76o, 65o, 54o
+
+Cash, 100bb, 8-max, raise, BTN, 3bet
+SB: 66+, A2s+, K9s+, QTs+, J9s+, T8s+, 98s, 87s, 76s, 65s, ATo+, KJo+
+BB: 88+, AJs+, A3s-A5s, KTs+, Q9s+, J9s+, T8s+, 98s, 87s, 76s, 65s, AQo+, KQo
+
+Cash, 100bb, 8-max, raise, SB, call
+BB: 99-, A6s-ATs, A3s-, KTs-, Q2s+, J2s+, T2s+, 94s+, 84s+, 73s+, 63s+, 52s+, 42s+, 32s, AJo-, K5o+, Q8o+, J8o+, T7o+, 97o+, 87o, 76o, 65o, 54o
+
+Cash, 100bb, 8-max, raise, SB, 3bet
+BB: 99+, AJs+, A3s-A5s, KTs+, Q9s+, J9s+, T8s+, 98s, 87s, 76s, 65s, AQo+, A5o, KQo
+
+Cash, 100bb, 8-max, 3bet, OOP, 4bet
+EP: QQ+, AQs+, A5s, KQs, AKo
+MP: QQ+, AQs+, A5s, KQs, AKo
+CO: TT+, AQs+, A5s, KQs, AQo+
+BTN: TT+, AQs+, A4s-A5s, KQs, QJs, AQo+
+
+Cash, 100bb, 8-max, 3bet, OOP, call
+EP: 99-QQ, ATs-AQs, A5s, KQs, JTs, T9s, 65s
+MP: 88-QQ, ATs-AQs, A5s, KJs+, QJs, JTs, T9s, 98s, 65s
+CO: 77-QQ, A9s-AQs, A5s, KTs+, QTs+, JTs, T9s, 98s, 87s, 65s, AQo
+BTN: 55-QQ, A8s-AQs, A4s-A5s, K9s+, Q9s+, J9s+, T9s, 98s, 87s, 76s, 65s, AJo-AQo, KQo
+
+Cash, 100bb, 8-max, 3bet, IP, 4bet
+EP: JJ+, AJs+, A4s-A5s, KJs+, QJs, AKo
+MP: TT+, ATs+, A4s-A5s, KTs+, QJs, AQo+
+CO: TT+, ATs+, A4s-A5s, KTs+, QJs, JTs, AQo+
+SB: 99+, ATs+, A3s-A5s, KJs+, QJs, JTs, T9s, ATo+, KJo+
+
+Cash, 100bb, 8-max, 3bet, IP, call
+EP: 88-JJ, ATs-AQs, A4s-A5s, KTs+, QJs, JTs, T9s, 98s, 65s
+MP: 66-JJ, A9s-AQs, A4s-A5s, KTs+, QTs+, JTs, T9s, 98s, 87s, 76s, 65s, AQo
+CO: 55-TT, A8s-AQs, A4s-A5s, K9s+, QTs+, J9s+, T9s, 98s, 87s, 76s, 65s, AQo, KQo
+SB: 44-99, AJs-, K8s+, Q9s+, J9s+, T8s+, 98s, 87s, 76s, 65s, AQo, KQo
+
+Cash, 100bb, 8-max, 4bet, IP, allin
+QQ+, AKs, A5s, AKo
+
+Cash, 100bb, 8-max, 4bet, IP, call
+AA, TT-QQ, ATs-AQs, A5s, KQs, JTs, 65s
+
+Cash, 100bb, 8-max, 4bet, OOP, allin
+KK, AKs, AKo
+
+Cash, 100bb, 8-max, 4bet, OOP, call
+AA, TT-QQ, ATs-AQs, A5s, KQs, JTs, 65s
+
+Cash, 100bb, 8-max, allin, IP, call
+JJ+, AKs, AKo
+
+Cash, 100bb, 8-max, allin, OOP, call
+JJ+, AKs, AKo 

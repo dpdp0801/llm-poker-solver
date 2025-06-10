@@ -1,0 +1,40 @@
+### TOPIC: hand review
+This is a hand I played in a $3/$5 NLHE game that has a mandatory $10 straddle. It had some interesting features that made me bring it to the PokerCoaching Discord group.
+There are two limps of $10, and now a competent pro on the button makes it $50. The small blind folds, and I find K♥Q♦ in the big blind. The button is not a crazy person, and they’re not raising any two cards. But with two limpers in front of them, they will widen their range to try to take down the $35 in dead money.
+I decide that my KQo is in fine shape against their range, and make a 4x 3bet to $200. Already, that was a little controversial. MrLorenzo wrote:
+“First, I think you can flat. The chart below doesn’t take into account the limpers, but KQo calls vs BTN raise.”
+And below that, Mr. Lorenzo had uploaded a chart showing KQo in the big blind calling a button raise. He acknowledged that the chart doesn’t take into account of the limpers, but we simply can’t ignore them.
+You can make an argument for folding KQo if the button has a snug raising range. You can make an argument for 3-betting if the button is wider and/or I suspect he’s trying to isolate the two limpers and take down their dead money. You cannot make a good argument for calling here.
+Anyway, I make it $200, and it folds back to the button, which thinks briefly and then calls. That was the second-best possible outcome. Obviously, my first choice was that the two limpers would fold, the button would chuckle, show me ten-seven suited, and throw it in the muck. But this was better than either or both of the limpers calling – had that happened, I’d have been in a mess. Note that the button 4-betting would have been a fine outcome – my cards are in the muck before their chips hit the felt.
+But now, there’s $30 dead in the pot for me to share with the button, and I’m probably not in awful shape since they’d have presumably 4-bet their kings, aces, and sometimes queens or ace-king.
+When facing a raise from the button, you mostly want to 3-bet from the big blind,especially with dead money in the pot.
+With $425 in the pot, the flop is a pleasing K♣-9♥-2♣. So far so good. We started $1100 effective, so the SPR is 2:1.
+It’s a bit dangerous to model this in a poker solver like GTOWizard since there’s no way to model the limpers. And 5x opens just aren’t a thing in the Sim. But let’s pretend that the button opens, I 3-bet from the big blind, and they call. GTOWizard has me c-betting my specific hand almost always on this flop. It spreads the sizes over four different buckets, but the good news is that it sees no difference among the EVs of any of the bet sizes (or checking, for that matter).
+I choose to bet $115, which is pretty close to 25% of the pot.
+Joey P (the MTT Hero) offered an intriguing alternative:
+One option with a small SPR is to go 3E. Bet about $90 on the flop. With small SPRs 20% is always an option given by the solvers. That leaves about $810 behind with a $605 pot. Then go about $230 on the turn, leaving a bit under 1/2 pot for the river. That way you milk and tempt the lower pairs to be enticed by your sizings. You get paid off by more 9X hands and maybe even 88/77 type hands.
+I think the old timers used to call this massaging the pot.
+By the way, when Joey said “3E,” he’s suggesting a series of three bets, all an equal percentage of the pot, that will result in my shoving the river.
+I actually love Joey’s suggestion, and my private coach, with no hints or suggestions, came up with the 3E idea as well. One way of looking at it is that no hand better than mine is folding – I’m at a hand strength inflection point. If my opponent has pocket aces, KK, or AK, they get my stack. Thus I should coax weaker hands to stay in the pot.
+Using 3E sizing would maximize my chances of keeping those weaker hands in.
+But I bet $115, my opponent thinks briefly and calls.
+Are you a cash game crusher? Take the quiz that tells you!
+There’s $655 in the pot, and the turn is a bricky 5♦.
+There’s $785 left in the stacks, not much bigger than a pot-size bet. This is where made a big mistake – I jammed the rest in.
+Note that had I followed Joey’s (and my coach’s) advice, the pot would have been a bit smaller going to the turn. But even after my bet on the flop, I could have gone 2E (two equal size bets to shove the river) on the turn. That would be $275. Maybe that keeps in QQ, pocket jacks, and perhaps KJs, if any of those hands ever get this far.
+The only reasonable target for my shove would be some kind of flush draw, perhaps an ace-high draw that thinks an ace might be good. But hoping for a call from those hands was wishful thinking.
+I put myself in a position where I was only going to get called by better hands.
+My opponent paused only briefly, then said, “Well, I hope we’re chopping,” and slid in calling chips. As soon as they said that, I knew I was toast, and that they had ace-king.
+Which is exactly what they turned up after I showed my hand.
+Before putting your entire stack at risk, take your time and consider the spot.
+I was going to lose my stack, one way or another, once that flop came out. When we started 110 big blinds effectively, got three bets in preflop with those big sizes, and then we both flopped top pair, all the chips were going in.
+So I don’t feel bad about losing all my chips.
+What I do feel bad about is how I lost them. The best way I could have lost them would have been to do 3E betting from the flop, as Joey and my coach suggested: $90, then $230, then the rest on the river. The second best way would have been with the flop bet size that I did use ($115) and then going 2E from the turn ($275, then the rest on the river).
+Note that in all these scenarios, my opponent on the button gets all my chips, given the hand that they actually had. But there are many alternate universes where they have a different hand. And in those universes, they fold at some point in the hand after paying off a street or two. And in a very small number of universes, they actually pay off three streets of betting, and I double through them.
+And I’m not the only one who struggles in spots such as this. Poster Mkindc said,
+“I think your thought process is good. It’s raise or fold preflop – and what to do depends entirely on your read of your opponent.  You reasonably deduced that your hand performs well against the button’s range… so be it. Once the flop comes, you’re playing for stacks. Exactly how you play for stacks, I’m not entirely sure, but the money is going in.”
+Clearly, I wasn’t sure how to play for stacks, either.
+But now I know – 3E was very likely the best choice, and I’ll be ready for the next one.
+I wasn’t the only one who learned something from the discussion. MrLorenzo, who had initially suggested that I should simply call the raise preflop, wrote toward the bottom of the thread:
+“I believe this is a leak on my side. I tried to ‘save’ Lee from the tough spot he was in by suggesting a worse move and probably a tougher spot. We need to do the right thing, even if it’s going to be painful when the result is complicated.”
+Yes, exactly. Sometimes doing the right thing puts us in tough spots. But when we have a resource such as the PokerCoaching Cash Game Discord, we can discuss these tough spots and learn how to navigate the most profitable path down the stream, even if it involves some choppy water.

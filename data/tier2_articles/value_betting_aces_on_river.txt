@@ -1,0 +1,28 @@
+### TOPIC: value betting aces on river
+Here’s a hand about value betting aces that comes from the PokerCoaching Discord cash discussion channel. Our hero, Ibney, is in the hijack position in a live $1/$2 NLHE game. The UTG player opens to $10, and Ibney finds two red aces – excellent start to a Texas Hold’em hand. He makes it $30. Things go slightly astray as the small blind (SB) cold-calls the $30, and the original opener calls as well. For the purposes of this hand, we can treat the effective stacks as $420 (210 BBs).
+Before we go further, I want to note that the SB almost certainly made a mistake. That is, there is a compelling argument that, facing a cold 3-bet, the small blind should either fold, or put in a cold 4-bet. If you see somebody cold-calling 3-bets, particularly if you see it more than once, they’re likely a weak player. But the SB didn’t post this hand – our hero, Ibney, in the hijack, did.
+Try PeakGTO for FREE and up your game!
+Ibney finds themselves at a three-way flop with $90 in the pot. The flop is
+T♠️-8♠️-7❤️
+The SB checks, but now UTG leads $25 into the $90 pot (a bet of 28% of the pot or “B28”). This “donk” lead is generally not game theory optimal strategy, and the solver confirms that UTG should be “checking range” on this flop. But the rules of the game permit them to lead out, and so they did.
+I find that such donk leads are usually one of two things: either a marginal hand, such as a weak top pair that wants to “see where it’s at,” or a draw that wants to set its price for a turn card.
+Since Ibney is beating all draws and all top pairs at this point, it’s tempting to raise. However, the SB is still in the mix, and their range often contains “medium pocket pairs” – they could have flopped a set. Given that we have the effective button, I think it’s fine to flat the bet and see what the SB wants to do.
+Ibney agrees and calls the $25 bet. Unfortunately, the SB calls as well. It would have been more comforting had they folded. So here we are with $165 in the pot, and the turn is the 3♦️, making the board:
+T♠️-8♠️-7❤️–3♦️
+The good news is that both players now check, giving our hero a massive poker range advantage and all but promising that Ibney has the best hand. We are off the Machine rails with the multi-way nature of the pot, and UTG donking into the flop, so let’s retreat to basics:
+We almost definitely have the best hand, and we have many clear value targets: good top pairs such as KT, QT; pair+draw such as T9, 98; and any combination of two spades. There’s part of me that wants to make an overbet, perhaps $225 into the $165 pot (B136) – our hand is almost certainly best and our opponents are likely to be inelastic about calling with all of the hands I listed above. But multi-way pots demand smaller bet sizes, and we do, in fact, have one pair.
+Ibney chooses to bet $100 (B60) on the turn, and I can’t fault him for this.
+The SB finally folds (having squandered $55 on their failed adventure) and UTG calls.
+We get to the river and there’s $365 in the pot. The river is the 4♦️, making the final board:
+T♠️-8♠️-7❤️–3♦️-4♦️
+UTG checks again, and Ibney says, “I sit here wondering what will possibly call a shove for value.”
+I had a reply ready for this:
+Suppose you are (a) heads-up, (b) in-position, (c) on the river, and (d) you have a value hand. If your opponent checks to you, do not try to figure out what worse hand can call. Make that their problem.
+This is known (by me, anyway) as the “Lee Jones Their Problem Maxim.”
+Poker players can be incredibly creative when finding excuses to call in cash game poker. Furthermore, you have the infamous “calling demon” on your side, whispering into their ear a handful of reasons why they need to put money in the pot.
+This is where good targeting can be invaluable. Ask yourself, “What is the most KT will call?” Then bet that. Maybe you’re wrong and KT won’t call, but you’re freerolling at this point – it’s highly likely a better hand would have raised at some point in the dance.
+This hand is particularly nice because a jam is $275 into $365 – it’s B75, offering UTG 2.3:1 to call. With a plethora of missed draws, the calling demon will have a field day with the UTG player. And they can’t check/raise you because you’re all-in.
+As it turns out, Ibney checked their aces back, UTG showed QT for top pair, and Ibney won the pot. That’s nice, but let’s say there was a 60% chance that UTG would have called a $275 shove. That’s $170 that Ibney left in their opponent’s stack that should have been in theirs.
+I’m not writing this article to insult Ibney – they posted their hand specifically to ask the question if they could have gotten more value with a river bet. But I see this behavior all the time – somebody who has a clear value hand trying to get inside their opponent’s head and figure out the hands with which they could call.
+Make that their problem – pick a reasonable value target, ask yourself what kind of pot odds your opponent need to call. Put simply, try to figure out how much they will pay, and bet that.
+Then sit back and let your opponent and the calling demon have some quiet time together.

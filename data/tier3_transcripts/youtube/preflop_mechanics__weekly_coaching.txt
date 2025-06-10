@@ -1,0 +1,1054 @@
+### TOPIC: preflop mechanics
+perfect let's get started
+so
+is pre-flop important
+um i mean all strategies stem from
+pre-flop play and if you don't get it
+correct those errors can snowball on
+later streets i'm going to introduce
+some basic pre-flop mechanics that'll
+help you adapt and sharpen your strategy
+to maximize your win rate i'll also go
+into some of the more theoretical
+aspects that you're not going to find in
+a lot of other channels but they may
+help you think about the spots
+in a more concise way
+so here's the outline going to go
+through some basic pre-flop theory
+thresholds polarity pricing time ev
+stack depth uh the efficient jam
+principle the bunching effect and at the
+end we're going to look at how to adjust
+exploitatively to different opponents
+now let me just get started with some
+the most basic thing i could think of
+which is just the blinds everything
+starts at the blinds right
+let's imagine there were no blinds no
+money posted into the pot how would your
+range change in that case uh let me see
+i think i have a poll somewhere
+all right i've just launched a poll what
+do you guys think let's say there's no
+rake
+no anti no blinds
+[Music]
+sorry i didn't catch that can you say
+again
+open tighter
+yeah
+certainly so everyone agrees you should
+be opening tighter the question is how
+much tighter and if you think about it
+it's essentially betting into a a pot
+with no money is an infinite bet
+relative to the pot right it's kind of
+mathematically equivalent to betting a
+billion dollars into a one cent pot and
+if you think about it in that sense the
+only hand that should really play is ace
+if you plug this into a solver
+of course it will only open asus but
+it's programmed to never fold the sound
+and you could even argue that opening no
+hands is correct it'll be the same eevee
+is opening only ace point is that you
+need money in the pot to incentivize any
+betting so what happens is out of
+position should only defend hands that
+are better than we open with and we
+should only open hands that are better
+than what they call with
+and these two form a feedback loop that
+leads you to opening aces or nothing all
+right let's go on with this
+what we can take away from that little
+thought experiment is that
+you need money in the pot to incentivize
+opening and the more money in the pots
+to start with
+uh the more incentive you have to play
+that's why anti-rangers tend to be wider
+for example or mtt ranges without rake
+and antis tend to be wider that's an
+important mechanic to keep in mind for
+later spots
+let's talk about thresholds now
+thresholds are
+something you should always pay
+attention to
+these hands can be used as markers to
+identify the break-even parts of your
+range
+now that's important because
+small changes to your opponent's
+strategy can shift the zero ev hands
+negative or positive so these hands are
+typically the first to adapt facing a
+different strategy also knowing where
+these zero ev hands are kind of outlines
+and sculpts your range and makes it
+easier to remember right you don't have
+to remember every hand individually
+rather you could trace the threshold
+hands
+now when it comes to the method of just
+reviewing your preflop strategy it's
+often best to try and reduce it to
+some color-coded charts as a
+memorization strategy i'm sure most 500
+nl players have their ranges memorized
+for the most part but if you're starting
+out one of the simpler exercises you can
+do is just make color-coded rfi charts
+something like this
+for example right these hands are open
+in the low jack and like jack four suit
+is only open on the button the advantage
+to this is that you only have to use one
+chart rather than six it makes it much
+easier to remember how to adapt your
+range by position
+and of course you can do the same
+kind of exercise with three bets as well
+for example small blind facing different
+positions
+uh let's move on to polarized versus
+linear ranges now i'm sure you guys know
+what polarized and linear means but just
+for the video polarized would be very
+strong in weekends linear will refer as
+the top down value and some medium hands
+now any situation that involves two
+actions such as razer fold for example a
+button open or a small blind facing in
+position open if you don't call those
+are linear by definition right you can't
+you don't have much wiggle room with any
+calls so you're just going to fold the
+worst hands and continue with the best
+tense these have to be linear now spots
+outside of that tend to have flexibility
+to become more polarized such as a big
+blind facing and in position open in
+general in position tends to polarize
+harder than out of position it's true
+pre-flop and post
+now
+as far as combating different strategies
+go polarized three bets tend to be used
+to combat raises that is to say you have
+value that's happy to face four bets and
+bluffs that are easy folds facing arrays
+linear three bets tend to combat calls
+this range includes value medium hands
+stuff that does well against calls you
+want hands with good implied odds as
+well as of course value a lot of people
+have different ideas of what polarized
+versus linear versus merged looks like
+pre-flop and to be fair it's not quite
+clear what is a value bet what is a
+bluff so the easiest way to visualize
+this
+is just to look at the eevee now i'm
+going to do a couple comparisons here
+i'm going to take a look at big blind
+versus button and we're looking at their
+three bet range specifically
+so one of the first things
+you'll note here is that you have these
+stronger hands and of course you have
+most of these hands that will fold to a
+race we can consider these the bluffs
+and these the value
+and
+in practice it's not perfectly polarized
+but it becomes more polarized as we
+increase the bet size so for example we
+can see that the 13 big blind three bet
+is using slightly weaker bluffs
+than the 11 big blind three bet where
+it's starting to merge its bluffs a bit
+more
+and at 500 nl we can see a similar
+effect
+using more polarized strategies with
+bigger bet sizes
+and more linear strategies with smaller
+bet sizes
+we can
+put this into a gif and just see how
+that polarization changes as we change
+the rake
+and the rays size
+and we can see it become
+more linear and more polar
+so
+does anyone have any questions from this
+point feel free to type in the chat or
+just chat up if you
+have any questions
+all right perfect
+let's go on then
+think about the incentives of different
+parts of your range a bluff like queen
+two suited or jack four these hands are
+mostly concerned with fold equity merged
+hands like queen jack have plenty of
+easy eevee as a flat rather than a three
+bet
+and if you raise too large these hands
+have poor equity retention that is to
+say your equity against the hands that
+call you if you raise
+at a certain point
+these very mergy hands just become
+better as calls than as raises
+now polarized strategies of course we've
+said use this when they tend to four bet
+fold a lot
+linear ranges when they tend to call a
+lot
+alex asks in practice is bigger three
+bet better for 500 solely because of
+rake or because of player pool i
+wouldn't say one is particularly better
+per se i would say that 500 tends to be
+more linear than 50.
+and that's
+largely because
+at the higher rate structure you're
+going to get less calls when or less
+folds when you three bets and they'll
+call more and so for the same reason you
+want to use a linear range if they're
+calling a lot you want to use a linear
+range if the rake dictates that they'll
+call more
+in contrast if the break dictates that
+they should fold more here we have
+higher rake then the strategy tends to
+become more polarized
+hope that makes sense
+so i'm going to move on to blockers
+now blockers are a pretty important
+concept that aren't well studied preflop
+let's start with a simple example this
+is big blind facing a button open
+i think it's 500 nl cash game
+so by default they're going to fold 56
+call about 30 percent raise 13.
+if you hold ace ace you expect them to
+fall three percent more
+and call and raise less often and
+conversely if you hold two two you
+expect them to
+fold a lot less
+call more and raise more
+and so every hand in your range has
+individual blocker effects against the
+opponent's ranges
+and this can actually have a big impact
+on your strategy
+for example back in the day most
+most bluff three bets were all these low
+cards you know seven six suited seven
+five suited six three suited these hands
+were preferred for three bets for some
+time several years ago when solvers came
+along they showed that
+using ace king queen jack kind of hands
+tend to have better blockers and are
+preferred as a three bet bluff a lot of
+the time it's the same reason why we see
+uh for example these suited hands move
+but like queen ten queen jack king jack
+king ten these hands all have excellent
+blockers so these hands can fit into a
+more polarized strategy as well
+let's try an experiment it folds to us
+on the button we can open 2.5 or fold
+let's assume the blinds can only raise
+fold and cannot call our bet they
+literally can't call big blind's got a
+raising range and a folding range
+no calling range
+so how should we adjust our opening
+range on the button this one's kind of
+weird
+what ends up happening is we get this
+ridiculous arrow shape so what it's
+doing is it knows it's not going to get
+called instead it's just choosing hands
+that block raises
+aces kings queens jacks etc
+right
+so for example a hand like jack 5 will
+never ever see a flop
+either the blinds will fold or the
+blinds will raise and jack 5 will fold
+hands with bad blockers like 2 2 or 5 4
+will raise and then call
+a three bet
+so they can at least realize some post
+flop equity so here this is in a way
+just visualizing the blocker effect and
+we can see this effect becomes a little
+more strong in early position
+as
+for example hands with an ace or king
+will tend to be opened
+significantly wider
+so
+i want to talk about pricing next and i
+think this is something that a lot of
+people get wrong
+pricing refers to
+how much a strategy should adjust
+according to bet size
+specifically relating to calls
+on the left here
+we have big blind versus under the gun
+min opening
+and here we have big blind versus under
+the gun opening 2.5 and we can see that
+there is a pretty substantial difference
+in how wide we call
+a lot of people they'll use one big
+blind calling range versus
+you know in the big line versus all
+under the gun opens whether they open
+three or two they'll just defend the
+same range but the truth is that when
+they open a different amount your pot
+odds change and that's going to affect
+which hands you should be calling with
+even if their range stays the same
+one way to visualize this is to create
+something i call a pricing elasticity
+chart
+now there's many different ways you can
+code this with different colors and
+symbols and whatnot but this is what i
+settled on uh one is a mix continue
+versus a min open
+three is a continue versus a three big
+blind open and we have kind of a
+gradient in between a good exercise you
+can try is opening up gta wizard and
+just comparing your defense
+against two big blinds and against 2.5
+similarly with three bets you can
+compare how your strategy should change
+facing different bet sizes or different
+race sizes
+and you'll be surprised to see
+just how drastically
+pricing can affect your calling wrench
+here's the same one done for button
+as we can see
+a lot of hands will call
+a three big blind open
+that
+you know regardless and we call very
+very wide facing them in open
+so
+of course these hands are quite
+sensitive to pricing and it's something
+to pay attention to now in mtt's your
+pricing is significantly better because
+there's a one big blind ante more
+and what this does is has the effect of
+lowering the pot outs required to call
+so for example facing a two big blind
+open in a cash game you're calling one
+to four point five need twenty two
+percent paw chair not even counting the
+rake
+and an mtt button opens two point three
+with anti you actually only need 21 paw
+chair so you can call even wider and
+there's no rake
+so always consider how you might adapt
+your strategy facing different bet sizes
+and this goes back to just paying
+attention to thresholds right like we
+saw at the beginning know which hands
+are zero ev facing a bet facing arrays
+try and pay attention to hands which are
+right on the line i guess before i move
+on does anyone have any questions about
+pricing feel free to type in the chat or
+just speak out loud
+i see jeff's mic moving but i can't hear
+it for some reason anyway i'm going to
+move on here
+i want to talk about time ev next this
+is kind of specific to zoom fast fold
+games
+these zoom games create a very
+interesting incentive you can attempt to
+trade big blind per 100 for big blind
+per hour
+right let's say you have a win rate of
+three big blinds
+right so king four if you open this 100
+times you'll win three big blinds should
+you spend time
+opening these zero ev hands when you
+could simply fold and move on to another
+hand that's actually plus cv
+now note that in a regular game a
+non-fast fall game it doesn't matter
+whether or not you open it you still
+have to wait for the hand to be done but
+in a fast fold game you can get shifted
+to the next one
+many hands in your opening range are
+going to be zero ev or very close to it
+and these hands typically add nothing to
+your win rate but do cost valuable time
+so an adjustment you can make is to
+simply fold marginal hands specifically
+in anonymous fast fold games
+this idea is of course designed to
+optimize your big blind per hour rather
+than big blind per hundred now one
+argument against doing this would be
+that bluffs ensure that your value gets
+paid off right your opponents can
+exploit this by simply under defending
+and then you'll have less ev with the
+value portion of your range fide says i
+noticed the silver titans more and more
+on big blind when more players flat the
+rfi in front of it is that because our
+equity with marginal hands drops at a
+higher rate than the improvement on our
+odds yes precisely that's
+exactly right so
+especially when they're flatting tight
+ranges
+you'll want to continue
+less and less because your pot share
+just doesn't compete with
+the the improved pot odds
+now of course if they're defending too
+wide then you might see the opposite
+effect you know if there's a whole bunch
+of people in there very wide then all of
+a sudden you get fantastic pot odds
+and you'll actually realize a decent
+share of the pot
+so back to time ev here if you think
+your opponents aren't going to exploit
+you by under defending you may want to
+just consider folding a lot of these
+marginal hands to try and maximize your
+pipelines per hour anonymous zoom games
+especially you can make this adjustment
+so let's talk about why you want to open
+big or small now people open different
+sizes and to be honest there's not a
+huge ev difference between opening two
+and a half versus opening two from under
+the gun right however there is a
+significant strategic difference they
+play
+very differently typically solvers
+prefer
+a smaller opening size from early
+position
+and a slightly larger size from light
+position in general if you expect that
+the table will mostly three better fold
+versus your open
+then you want to use a smaller size to
+give them a worse price on a raise
+conversely if the table is over calling
+and under raising then generally you
+want to size up to make them overpay for
+their equity when you're opening from
+early position in silverland you
+actually expect to get three bet more
+often than you expect to get called
+depending on sizing of course from the
+late position it's typically the exact
+opposite you expect to get called more
+than three bet the solvers sizing down
+in early position is really to
+try and combat raises combat three bets
+lose less when it has to open fold
+while still being able to bet or raise
+any amount with its value portion
+let's compare the lojack's expected
+value when opening hands on the left we
+have a two big blind strategy
+on the right we have a two and a half
+big blind strategy now if you're just
+scanning through these one at a time
+it's kind of difficult
+the overall frequency is almost
+identical
+and the evs seem very close in a lot of
+spots an easier way to look at the data
+is simply compare the ev difference
+between different parts of our range so
+the value portion of the range
+specifically queens plus
+and ace queen
+these hands actually benefit from a
+larger size
+whereas most of the rest of the range
+will lose some value or
+it was already zero ev to start with so
+sizing up in general costs you more
+with most of your range
+but makes you more at the very top of
+your range and so again if people are
+over calling perhaps you should be
+sizing up especially at the top of your
+range
+anyway does anyone have any questions
+about this so far
+one thing that surprised me was just how
+much jax loses in this configuration
+very interesting
+so let's go on to stack depth now as
+stacks get deeper hands that can make
+draws tend to become more valuable
+stacks have the effect of
+magnifying implied odds and conversely
+as stacks get shallower hands that can
+make a strong top pair kind of hand
+become more valuable and the implied
+odds of draws tends to drop off
+so here we can see how the three bet
+strategy changes
+across
+different stack depths and we can see
+the hand slowly shifting from
+kind of
+this
+very polar
+offsuit heavy thing to more
+suited hands more draw heavy hands
+now i wanted to test this one day uh
+this was a while back
+so i designed a little experiment it's
+big blind facing a 2.5 big blind open
+and this time it's heads up as opposed
+to six max
+no rake no anti just a
+straightforward heads up cash game
+i wanted to see how the big blinds raise
+size would change
+as we change the effective stack would
+they prefer to three bet larger three
+bets smaller
+how does that change
+so i designed this experiment and
+again we can see
+it goes from many of these offsuit hands
+to more of these suited connected
+taipans as the stacks increase
+and more surprisingly
+i found that three bet size tends to
+actually decrease
+at a certain point big blind actually
+wants to start using a smaller size now
+it creates an interesting effect because
+typically you want
+you know
+a larger size around 100 150 big blinds
+deep but get a little too small or a
+little too big and it starts sizing down
+again
+if we take a look at the expected value
+we can see that
+buttons ev the in position player
+their ev increases
+as we move up stack depth and of course
+this tells us that the positional
+advantage gets magnified as stacks get
+deeper
+and in general
+late position will rfi wider as stacks
+get deeper as more hands are profitable
+to play in position
+so i guess before i move on to this
+what questions do you guys have
+looks like this levels off at some point
+yeah
+yeah it does it does tend to level off i
+would imagine that if we kept doing this
+we get kind of a
+a graph that approaches some asymptotes
+at the top
+that is to say the positional advantage
+doesn't grow
+infinitely it'll start to get smaller
+and smaller relative to
+going deeper and deeper why do we three
+bet smaller at 300 plus big blinds
+that's a great question
+why is it that you want a three bet
+smaller when stacks are getting deeper
+why does the silver seem to prefer this
+and the reasoning that i could come up
+with is called the efficient jam
+principle
+so
+shoving is a pretty serious weapon in
+holdem
+and
+hands that shove will always realize
+their equity
+so the silver often fights to give its
+opponent a bad price on a shove
+now we see this in a variety of spots we
+see for example min opens or even limps
+in short stack mtt play we see min
+raiser jams in for example 75 big blind
+deep cash games
+we see for example smaller four bet
+sizes 100 big lines deep but then larger
+four bet sizes 200 big blinds deep
+now in what we've studied the large
+three bet forces a larger four bet which
+gives the three better a better price on
+a shove 100 big blind steep
+that's a little confusing but to put it
+another way
+100 big blind steep
+if you three bet
+and they four bet
+you can guarantee yourself a reasonable
+price on a five bet shove
+that is not true 300 big blind steep
+uh whereas if we three bet and they
+raise there's still a lot of money left
+to go we can't we don't have that
+profitable shove so trying to force a
+large four bet is not
+so efficient anymore are we incentivized
+to four bet bigger the deeper we get or
+the same three bet principles apply yeah
+so at 100 big blinds what ends up
+happening is the four bed is actually
+very compressed right four bets are very
+small 100 big blind steep and that's
+because you're trying to give
+big blind or you're trying to give the
+opponent a poor price on a raise
+as you get deeper the four bets actually
+become
+bigger and bigger until they even out at
+some point
+and that's because they're no longer
+compressed by this 100 big blind stack
+depth they can they have more room to
+expand and play a more natural say pot
+sized race as opposed to something like
+a half pot sized race
+i'm just going to go to gto wizard and
+explore a few examples here
+so for example
+this is 500 nl simple
+button open
+big blind racist 10
+and of course on the button
+it either uses an all in it just shoves
+or it raises this very small sizing to
+try and give them a bad price in the
+race right like if you give the solver
+like a larger size here it's just going
+to be an efficient it won't really use
+it it'll either use a very small size or
+a shove
+just to try and be more efficient
+and we can go take a look at 200 nl for
+example
+um
+big blind rays
+and we see the four bet size is 38 big
+blinds as opposed to the normal
+you know 20 or 25 pip lines and that's
+simply because you have more
+room to expand your raise size without
+uh making
+yourself uh without giving them a great
+price on a shove
+does anyone have any questions about
+that
+all right so yeah interesting experiment
+with stack depth um
+let's move on to one of my favorite
+topics and this is the bunching effect
+people tend to fold low cards more often
+than high cards right and this means
+that after many folds we can expect that
+the deck and the future ranges the
+ranges ahead if those folds will contain
+on average more high cards than low
+cards
+so for example if under the gun folds
+they're more likely to have folded a 2
+than an ace
+and that shifts the distribution and
+this
+shifting card removal effect is known as
+the bunching effect
+um so we can see how this kind of plays
+out
+over here we have the
+the deck density from ace king queen
+jack 10 all the way through two as
+this goes through so at the start of the
+hand everything's even under the gun
+folds high jack folds cut off folds
+button folds and then small blind raises
+and it evens out and we can see here
+that there's going to be more higher
+cards in the deck by the time it gets
+the small blind
+due to the bunching effect
+if we compare how this might affect our
+strategy
+we can see on the left this is one i've
+sold for a nine max game and this is
+what i've solved for three max game this
+is opening on the button and we can see
+that for example in nine max many of
+these these hands
+with lower cards are simply less
+preferred right three max for opening
+twos five three seven four these hands
+aren't really in the nine max range
+so
+that's why
+uh for example
+six max you're going to get different
+results depending on where you get your
+preflop ranges because they may or may
+not have included the bunching effect
+which can skew the strategy
+let's say it folds the small blind in a
+not in a 9 max game what that means is
+not only will the deck will be different
+but
+small blinds range itself will also be
+different they're not going to be dealt
+all hands with an equal probability
+so for example 2 2
+would expect
+you'd expect to be dealt this much less
+often than ace ace and so if you open
+any two cards from the small blind after
+a bunch of folds your range actually
+looks something like this even though
+strategically it's just any two cards
+it's actually going to be more top-heavy
+due to these bunching effects and if
+anyone has wants to do any more research
+i highly suggest visiting this link here
+visualizing the bunching effect
+this is a blog i helped write with hrc
+that goes over
+some of these in more detail
+anyone have any questions about the
+bunching effect
+i guess one question you should have is
+does gtl wizard account for the bunching
+effect
+and the answer is yes
+they
+in purposely include folded ranges from
+earlier positions so that these card
+removal effects are accounted for not
+everyone does that by the way
+all right let's move on to some general
+pre-flop adjustments so in general
+to combat raising
+you use a more polarized strategy right
+you lose less rays folding bluffs than
+medium hands
+um to combat raising you can also open
+or better raise smaller right you lose
+less because you've bet a smaller amount
+and of course to combat raising you use
+bluffs with
+better blockers forever and better
+playability
+conversely we can say how does one
+combat too much calling well use a more
+linear strategy choose hands with good
+post flop playability you can open and
+bet larger to overcharge your value
+you can use bluffs that have better
+implied odds post flop rather than
+focusing on hands that blocks raises
+fida asks
+is this why a's two off
+open folds on late position yeah i mean
+ace two off but
+as it relates to the bunching effect
+it's kind of got both right you've got
+the ace the highest card and the lowest
+card so it kind of feels both ends of
+the bunching effect at the same time
+so
+how to adjust
+what i'm going to do now is
+say
+we're going to run some free flop
+experiments folds the button
+how should button adjust in these
+different situations
+and i'm going to launch a poll here this
+one's easy enough
+there's four questions on it
+how would you guys react in these
+different scenarios
+[Music]
+[Music]
+all right we got
+six responses so far yeah i mean the
+general adjustment is uh
+fairly easy and i think most of you guys
+got these more or less correct
+so
+first one
+big blind is too tight
+button opens 2.5 the big blind's calling
+range
+or their strategy looks like this so big
+blind is calling
+10 fewer hands than they otherwise
+should as compared to the gto solution
+and it's interesting because everyone
+that voted
+they said
+yeah if they're overfolding just open
+wider what are you doing of course right
+because you'll have more fold equity
+and indeed the solver does opening uh
+60.7 so opening a lot more hands
+uh and we can see it is focusing on
+hands that typically have good blockers
+against the rays because they're still
+raising quite a bit here
+as a size adjustment you may want to min
+open and
+for that reason you'll risk less and be
+able to open even wider
+as an exploit if they're overfolding
+that is and so that's just a way to
+minimize your risk in order to maximize
+your reward so
+the opposite
+scenario
+most people said open tighter which is
+correct someone said open wider
+and this is just the exact same thing in
+reverse
+if your hands have less ev stealing the
+blinds then they're not going to
+necessarily be break even or zero ev
+they might be negative ev right you can
+always try and justify opening wider
+with some kind of
+you know post flop skill edge
+but
+if that skill edge is neutral you should
+open tighter
+if they're defending too wide
+and here we can see that
+button is only opening like 29 instead
+of 43 much tighter overall versus this
+big blind strategy
+as a size adjustment
+you can actually
+use a larger size to extract even more
+value with this tight range right
+the expected value of marginal opens
+becomes negative if you aren't stealing
+the blinds often enough okay we've seen
+that
+and the ev of premium hands increases
+slightly
+so
+scenario three the blinds raised too
+small now i'm sure you guys have all
+seen this in your game oh hold on we've
+got a question here does the positional
+advantage a factor when
+big blind opens wider when they defend
+wider
+yeah it's certainly a factor i mean in
+general if they're defending too wide
+then you want to open tighter if they're
+defending too tight you want to open
+wider positional advantage certainly
+plays a role there but what i would do
+is just try and compare their overall
+defending range to what gto is gauge if
+they're over or under defending
+relative to that
+so in this case we're going to say the
+blinds don't raise large enough
+i'm sure we've all seen this right we
+opened 2.5 they raised like eight big
+lines right how should the button react
+to this size without knowing their range
+and of course
+most people said call wider someone said
+call tighter
+no one said call the same amount
+and yeah you just call
+uh wider
+and that's simply because
+you're getting such great implied odds
+to see three cards like three cards is a
+lot of value
+generally what will happen is you'll
+over call pre-flop and then over fold on
+the flop
+your positional advantage certainly ties
+into that we're in position here which
+lets us over realize our equity
+so that's why it's calling so wide
+and typically what some people will do
+is they'll blast it with a massive four
+bet but you really don't need a big four
+bet
+big blinds deep for example you can
+raise to 18 this is a
+reasonably large size in percentage pod
+while still giving big blind a bad price
+on a raise i should also point out that
+the spr is considerably higher when they
+race this small so the button will have
+better implied odds with their draws it
+says one spot that i face all the time
+in my games is that recreational's 3-bet
+really small but also really tight i'm
+not sure how to adapt and continue
+yeah that's a great question fide so
+we're going to take a look at that very
+shortly
+so scenario 4 will say big blind is a
+maniac so in this case big blind is
+raising
+20
+versus your range right just a ton of
+raising now of course if they're raising
+a lot
+you guys all voted we should open
+tighter and of course because you have
+to bet fold a lot of stuff right you
+don't get to realize any of that equity
+so
+that's exactly what we see
+silver defending fewer hands and also
+shifting away from like these suited
+connectors towards hands that block
+raises right so again this is why
+blockers are important to think about
+here's a bonus scenario that i think
+fide will appreciate so it's 500 nl 100
+big blind steep we open 2.5 big blind
+raises to 6.5
+which is way too small and also with
+this jax plus ace king ace queen suited
+super nitty ranch right
+how do you punish this how do you adapt
+this
+well we know we should continue wide but
+at the same time
+their range is so value heavy right
+despite that the solver is still calling
+very wide and more so with hands that
+are not going to be dominated
+by like
+queens kings ace king aces stuff like
+that right like these lower hands will
+have much better implied odds against
+that range and it's quite surprising to
+see hands like eight five suited and
+nine six suited in there what ends up
+happening is that you overcall
+these hands with great implied odds
+against over pairs
+and
+then you massively over fold on the flop
+this play maximizes your equity
+realization getting a great price to
+cooler old man coffee over here so
+hopefully that
+helps you out happy
+day so
+in conclusion we've only really
+scratched the surface of many different
+pre-flop topics today i realize
+you can go a lot deeper in any of these
+subjects
+but just in general
+pay attention and be flexible with your
+threshold hands
+right know which hands are zero ev
+facing arrays or just opening and be
+ready to be flexible with those
+develop a sense of pricing that is to
+say you don't want to play the exact
+same calling range versus every single
+size you want to be able to adapt your
+range facing different prices and you
+don't have to be exact with this even
+knowing the threshold hands will let you
+make good adjustments facing different
+prices
+if you're starting out use color codes
+to simplify your memorization reducing
+stuff from six charts to one really
+helps you
+memorize a lot faster
+if you play zoom games consider your
+time ev
+your big blinds per hour in contrast to
+your big blinds per 100 sometimes
+in a fast fold game it's worth it just
+to skip on to the next hand
+if the hand is very close to
+that threshold
+consider your fold equity and your
+blockers all right if you're not getting
+enough steals if you've got very obvious
+stations on the table or if you've got a
+lot of maniacs you know
+pay attention to are you blocking raises
+will you get your bet through often
+enough to open these marginal hands if
+not maybe you want to tighten up a bit
+right
+uh and lastly
+don't overestimate your post-flop edge
+literally every player at the table
+thinks they have a post-flop edge
+realistically you should just
+try to assume that most of your
+opponents are going to be
+roughly the same edge as you are and you
+want to play the optimal strategy
+against an equal opponent
+now of course you can factor in pulse
+flop edge which would just mean you play
+wider everywhere but you
+should be careful not not to
+overestimate that too much and that's it
+that's my lecture i hope you guys
+enjoyed it thanks for coming everyone i
+really appreciate it good luck with your
+grind

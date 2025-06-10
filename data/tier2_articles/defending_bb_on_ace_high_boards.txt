@@ -1,0 +1,20 @@
+### TOPIC: defending bb on ace high boards
+Since you have to defend your big blind a lot to avoid being exploited, you will end up playing a wide range of hands postflop that will put you in many tough spots.
+To make things easier, we will cover both dry and connected boards, and by the end of this article, you will have a good understanding of how to play in these situations.
+Dry Ace-High Boards (e.g., A♠9♥5♣) vs Small C-Bet (~1/3 pot): Call ~51% of the time with top pairs, middle pairs, ace-highs. Check-raise ~11% with strong top pairs (e.g., A9), two-pairs, sets, and some backdoor draws.Dry Ace-High Boards (e.g., A♠9♥5♣) vs Large C-Bet (~2/3 pot): Call ~43%, tightening up with fewer ace-highs. Check-raise ~5%, mostly with nutted hands and a few bluffs.Wet Ace-High Boards (e.g., A♥9♦8♦) vs Small C-Bet (~1/3 pot): Call ~50%, including more draws like 9x, 8x, flush draws. Check-raise ~12% with strong top pairs, combo draws, and bluffs like backdoor flushes.Wet Ace-High Boards (e.g., A♥9♦8♦) vs Large C-Bet (~2/3 pot): Call ~38%, focusing on high-equity hands (e.g., top pairs, good draws). Check-raise ~9% with value hands and high-equity semi-bluffs.
+Today, we will use PeakGTO to analyze ace-high flop examples when you call from the BB vs BTN open and see a flop.
+Key assumptions about the hand:
+To start the discussion, let’s look at the poker hands we defend preflop to have a full understanding of how it correlates with ace-high boards.
+As you can see, we 3-bet our strongest pairs and top broadway combinations and end up calling with 25% of the hands.
+To break this down further, let’s take As9h5c as an example.
+First and foremost, you should check your entire range from the BB. When we check and face a bet from the button, we will need to different around 62%.
+For the most part, we will be just flatting with 51% of our total range, but we will have to incorporate some check-raises, which will equate to 11% in this situation.
+Our calling range mostly concludes off hands with showdown equity, meaning we call with any pair. This includes even underpairs to the board, and we also mix in a few calls with our strongest hands, even though we will use them for check-raising for the most part.
+As for check-raising, our range includes a mix of top hands such as two pairs and sets, and we balance it out with guthosts, weakest pairs, and runner-runner draws. This creates a great balance and lets us pick quite a lot of pots without going to the showdown.
+Our strategy on connected boards is going to be fairly similar to dry ones. The biggest difference is that we end up defending fewer hands since we most likely will be facing a large c-bet size.
+Key assumptions:
+Let’s take the example of Ah9d8d. As mentioned above, your exact strategy will greatly depend on the sizing your opponent ends up using, but since he should pick the bigger one most of the time according GTO poker approach, we will build a response to that.
+When facing a bigger bet sizing of around two-thirds of the pot, you need to defend less than 50% of the hands. In this exact situation, you call 38% of the hands, raise with a bit less than 10%, and fold 53% of the time.
+Similarly to a dry board, you will be check-raising your sets and two pairs combinations alongside some gutshots and open ender straight draws. On top of that, you will mix some flush draws into your raising, but with a small frequency so as not to weaken your overall range.
+Since you are facing a bigger sizing and raising fairly aggressively, you will need to call a bit less often than on a dry board because of MDF. You still call top pair and your second pair combinations, and also most of your flush draws. That said, now you can let go weakest third-pair hands and all of the underpairs to the board.
+On connected flops, you will need to defend a bit less often when facing a bigger bet, so you can get away with folding more hands from your lower end of the range.

@@ -1,0 +1,626 @@
+### TOPIC: gto quiz
+Hello Wizards! Today I've prepared a special 
+GTO quiz with the goal of trying to trick the  
+famous Poker Giraffe! Can I trick this 
+GTO Guru? Stick around and find out.
+QY (Qing Yang) is a GTO Wizard and Run It Once 
+Elite coach who's taught more than 100 students  
+across all formats! Welcome QY. Hi Tom. if you've 
+seen his work you'll know that he has an excellent  
+understanding of Poker Theory, so I thought it 
+would be a good idea to test that understanding  
+with a poker theory quiz. In return, I've come 
+up with a separate quiz for Tom, and just to make  
+things more fun, we've both agreed to make the 
+questions as difficult and tricky as possible.  
+This video will feature me attempting Tom's 
+quiz, but you can watch Tom attempt my quiz on  
+the Poker Giraffe channel. QY, are you ready for 
+the hardest quiz you've ever done? Let's do it!
+So Question One: Symmetrical ranges - both players 
+have 44 through AA, and the board is 22233. The  
+SPR (stack-to-pot ratio) is 1, so a pot-sized bet 
+behind on the river. Now the question, my friend:
+What part of out-of-position's range 
+gains EV when they can block bet,  
+compared to if they were forced to range check?
+Can I can I take a look at the 
+hand grid again? The previous  
+slide? Sure. The only question is does 
+QQ really benefit from a small bet...?
+When you say block bet I assume you mean like a 
+third of the pot or a quarter of the pot right?
+Well, we'll make it simple 
+for you - just pretend that  
+out-of-position can lead for any size they want.
+So they can shove, they can bet 10% 
+pot, 50% pot, 25% pot, you name it.
+Then I'm just gonna go with B then, 88-JJ.
+Yeah, it's my final answer.
+Locking it in, eh? Why do you 
+have you chosen this answer?
+Um because I feel like you know 44 - 77 
+don't really care that much. I mean 44's  
+clearly doesn't care what size it goes for. The 
+only reason why we want to block bet is to get  
+a little bit of thin value. With 44's that's 
+not possible so that's out of the question,  
+and then between like B and C I feel like AA - 
+QQ... I'm not 100% sure without doing the math,  
+but I feel like AA and KK the natural 
+size would just be to go all in.
+So for... yeah that leaves the only remaining 
+answer as B - those are the main hands that...
+Clearly, you don't want to jam with like 
+88's right, so if you do not have a small  
+size you'd have to check with 88. 
+But you could potentially gain like  
+a little bit more EV by block betting 
+just to force your opponent to call.
+Because I think if you bet like a quarter 
+of the pot he has to call stuff like  
+77 and 66 at some frequency just to make sure that 
+your 44 and 55 don't get to bluff too profitably.
+So that's my rationale for choosing B.
+Very logical answer but the answer is C!
+Which is so counterintuitive because 
+everyone says that the reason you  
+block bet is to over-realize equity 
+with the middle of your range right?
+And that makes a ton of sense. But if 
+you actually measure the EV difference  
+it's almost always top of your range that 
+gains value with the block bet strategy.
+I should add that this holds true at 
+different SPR's (stack-to-pot ratios).
+So, SPR=2, same thing. This even holds 
+true if you plug in real ranges a lot of  
+the time. Compared to range checking and 
+giving out a position the option to bet,  
+the top of your range is 
+actually what gains value.
+I think this comes down to the fact that 
+in-position simply checks back a lot more  
+if out-of-position is forced 
+to range check. So the nutted  
+portion of your range is actually what 
+gains value when you're allowed to lead!
+Oh wow, I was not aware of 
+this at all to be honest.
+So this difference column, does it mean that...
+I'll go back to the spr=1 just 
+because that's the original example.
+So here I've got the hand and 
+then this is when they have  
+the ability to lead so the highest 
+EV action given tons of bet sizes.
+And here's the EV of out-of-position 
+when forced to range check.
+That's crazy man! Like TT actually loses EV
+The middle of the range actually loses value! 
+Which is so counter-intuitive. Like if you  
+would have given this question 
+to me and I hadn't studied this,  
+I would have definitely got it wrong.
+Here I can show you a solve for example.
+Here I've given it a ton of sizes - 
+I'll show you the tree here. SPR=1.  
+symmetrical ranges and just 
+a ton of different sizes.
+We can see it never actually shoves 
+but it does use for example, 50% pot,  
+40% even 10%, and when you do bet 
+small of course they're forced to  
+call pretty wide but they're also forced 
+to put in more money with a wider range.
+When you check they will bet wider as compared 
+to if you had forced OOP to rangecheck.
+and I think that's where the 
+bulk of the EV gain comes from.
+The middle of the range actually loses a 
+bit of money because they expect to face  
+more aggression when you check with, for 
+example, 88 or 99 or 77 or whatever right.
+With like 88 and 99 uhh... Okay because I have 
+noticed this in like actual situations where like  
+on the river, for example, if out-of-position has 
+like a block bet size, the times that he checks  
+in-position is gonna bet much thinner for value. 
+I think that's just like a universal thing -
+Absolutely yeah - because the more you block 
+the weaker your checking range becomes.
+Yeah in that sense it does kind of makes 
+sense, I guess. right when you are uh  
+when you have this sort of block betting range  
+your opponent is going to play more 
+aggressively the times that you check.
+So if AA uh... I mean the one thing 
+we're pretty sure about is that AA is  
+going to be indifferent between 
+like check-raising and betting;  
+that's usually the case when you 
+have hands at the top of your range.
+So if it's going to be indifferent 
+between both options, then the EV of  
+checking is going to be higher 
+because your opponent is like putting  
+more money in when you do check. So 
+you know the EV of AA has to be higher.
+So here is the same thing except 
+we're forced to check out-of-position,  
+and we can see that in-position, despite having 
+all these sizes, just polarizes with a shove.
+And because our (checking) range is 
+stronger they are using a tighter  
+betting range when checked to. So of 
+course the EV of AA is going to go  
+down right. Because your opponent 
+is like so much more passive now.
+Exactly. Then if we compare 
+that to uh, with the lead,  
+check- we can see that they're of course 
+going to be shoving much wider. This is like  
+really counterintuitive at first but 
+I think that explanation makes sense.
+That's an amazing question man! 
+Like I don't feel bad about not  
+getting it right at all because I 
+would have never gotten this right.
+So question number two:
+Button versus big blind single-raised pot. 
+How often should button check back on 
+flops where big blind has a donking range?
+Unfortunately, I think I've seen 
+this one somewhere else before...
+You might be aware of this concept it's 
+not that well known but knowing you
+Yeah, I saw this article from... I can't 
+remember where exactly, it might have been  
+something that you wrote actually... uh it 
+was called like the 50% rule or something.
+Out-of-position usually tries to donk a range  
+that will make button bet at least 
+half of his range went check to.
+Because if Button does not do that, then 
+Big blind's strong hands would all really  
+hate checking right? Since your opponent is 
+checking back so much when you're checking.
+So big blind's gonna start donking more and more 
+strong hands until button bets like at least  
+a certain percentage of his range.
+And it seems like that 
+percentage is 50 although I'm not  
+sure if there's any like intuitive reason for 
+it probably just like a mathematical thing.
+So locking in B then?
+My answer would be 50%.
+You're correct! Spot on, for the correct 
+reason, and theory. Well done QY!
+But is there any reason why it's specifically 50%?
+I can speak to it a little bit.
+So okay let's talk about the 50% Rule of 
+Poker, which you actually quoted, impressively.
+So the idea is that out-of-position should 
+attempt to construct their checking and  
+betting strategy in such a way as to force in 
+position to bet or raise, at most, half the time.
+If they can't do this then they should just 
+range check because in-position is too strong.
+And I think that your explanation 
+for it is that our value hands,  
+if in-position is not aggressing enough, our value 
+hands have higher EV leading rather than checking.
+So I think that that explanation is 
+is going to be spot on. Now how that  
+relates to being exactly 50% - I'm 
+not sure, and the truth is this rule  
+doesn't hold perfectly. It's more like 
+a rule of thumb than a fundamental law.
+We can demonstrate it a bit...
+Let's take a look at some button vs big blind flop 
+reports. Let's go ahead and apply some filters.
+I'm going to apply a set of filters 
+that look something like this...
+So we'll say that it's all low cards and 
+it's not monotone and it's not paired.
+And if we just go back to big blind's strategy  
+we can see that... Wait, did I get 
+those filters right? Yeah, we did.
+We can see that all of these boards 
+are donked at some frequency. These are  
+all donk bet boards, and if 
+we look at button strategy -
+You can see it's almost exactly 50 percent, 
+and like a very very flat distribution.
+So this rule does seem to hold under the 
+right circumstances and here we see that  
+in all of these boards just to clarify on 
+the 50 rule big blind can construct the  
+leading range such that button doesn't 
+get to bet more than half the time.
+If button could construct such a range 
+then big blind should range check,  
+because that's going to be higher EV for 
+their nutted hands, typically speaking.
+I don't know how well this idea of your value 
+hands need them to aggress enough translates  
+into in position needs to be betting 
+50% of the time - or try to anyway. I  
+don't know how well that translates but it 
+does seem like a solid heuristic, at best
+So let's go on to question three.
+You're gonna enjoy this one!
+You're playing deep stacked 
+heads up. Hole cards are face up.  
+One player has a pocket pair, and the other 
+has a draw. The equity is exactly 50-50.
+Which player prefers to get 
+the money in immediately?
+Oh man, I love these kinds of questions!
+They are like IQ questions, in a way.
+I thought you might like this one!
+I'm gonna have to think a bit 
+about this one. Take your time.
+Which player prefers to get 
+in the money immediately...
+I guess the fact that there's there's like a lot 
+of turns where A2 is gonna go down in equity,  
+it kind of makes you just want to ship it 
+in on the flop because you don't want to  
+like find yourself in this situation 
+where like the money doesn't go in on  
+the flop and then you know you brick out the 
+turn then 22 just gets to like, go all in.
+That would be quite a terrible situation. So I'm 
+assuming the equilibrium strategy is just for A2  
+to ship it in on the Flop to avoid this type of 
+scenario where you get shoved off your equity.
+So with that in mind, my final 
+answer would be B - A2 of Clubs.
+Okay okay side question
+if you're holding the pocket pair here, 
+out-of-position, and you know that  
+in-position is going to check back sometimes 
+on the Flop, what would you do with 22?
+if I knew in-position was going 
+to check back sometimes...
+I think I would be pretty happy to check actually.
+I mean you check to him and have it go check-check  
+sometimes and then just like 
+ship it in on the blank turns.
+Because you don't really gain anything from 
+shipping the flop right? Like he's gonna call,  
+obviously, and then you guys are just 
+gonna split the pot in terms of EV.
+So... Yeah. I think the 
+fact that he's checking back  
+sometimes is going to make you 
+want to check all the time...
+Yeah so I'm actually even more 
+confident in my answer now.
+That's correct!
+Unless I'm very much mistaken
+100% and you got it correct 
+for the right reason as well!
+The draw prefers to ship it in immediately  
+and this is kind of a funky concept because it 
+goes a little bit against our normal rationale.
+But the fact that it's face up - mhm,  
+so counterintuitive! Like we need 
+to jam with 22 to fold out...
+Like normally we think of these draws 
+in terms of implied odds. You know you  
+can get more value later, but the hands 
+are face up there are no implied odds!
+So then you have to think about what happens on 
+the turn if the money hasn't already gotten in...
+And the way I like to look at this is 
+just to look at the equity of different  
+runouts. So two's has appreciating equity. 
+On the turn, 33 cards increase your equity.
+And if your Equity gets increased by even 
+a few percent, you can just shove and force  
+the force the draw off their hand - 
+because we're deep stacked? - yeah.
+And conversely, the draw when it hits - it's 
+already won, basically the full pot right.
+If you make your flush you 
+basically already own the pot,  
+and so forcing 22 off the 
+hand doesn't help that much.
+So whenever it goes check-check it's actually 
+hugely +EV in the pocket pair's favor, because  
+the pair has appreciating equity whereas 
+the draw has deteriorating equity.
+in terms of the number of runouts that 
+improve you the draw really only gets  
+to see the turn card if they don't make it right.
+So even though it's 50%/50%, the 
+fact that you can be pushed off  
+your hand on the turn means it's 
+not 50%/50% after the turn right?
+Really funky concept. Yeah really cool question, 
+I like it it's more like an IQ question.
+Now how applicable is this 
+in actual poker? uh not very  
+not very lol, but I figured you'd enjoy this 
+brain teaser enough that I should throw it in.
+Yeah I like these kinds of fun questions.
+Question four: So two players - 
+we'll just call them QY and TB,  
+whoever they are, are playing a 
+low-stakes heads-up cash game.
+Now QY plays a fixed GTO strategy. 
+TB is something of a calling station,  
+and calls any hand that's mixed between 
+calling and folding, otherwise playing GTO.
+So how would their EV change 
+compared to equilibrium?
+Up meaning this player's EV increases,  
+down meaning it decreases, and 
+right meaning it stays the same.
+Got it, clearly this has 
+something to do with the rake.
+And just to clarify we're talking 
+about a Nash Equilibrium strategy  
+(because some people define GTO as exploitative).
+Assume in this context GTO means 
+equilibrium accounting for rake.
+Okay I'm gonna not like overthink this 
+so much and then just go for the D.
+D, the man chooses D
+So, surprisingly, the answer is C on this one!
+Oh man! - which seems crazy 
+this should like seems like  
+this should not be allowed 
+- yeah what am I missing?
+So this is one of those counterintuitive things, 
+that again, doesn't strongly apply in practice.
+Because in practice if you're 
+playing a calling station,  
+they're not just calling mixed folds, they're 
+probably making a lot of pure mistakes too.
+But you're right that it 
+all comes down to the rake.
+So the calling station calls more hands, 
+and more hands are going to showdown,  
+increasing the average amount of rake paid.
+Ahh! Is it because the EV is 
+already taking a rake into account?
+Yeah! And the EV of mixed folds is already zero.
+Oh man I knew I wasn't missing 
+something really obvious!
+That that's really the trick right - like if you 
+take other stuff like hands that are mixed between  
+call and raise into account, and you put those 
+into a call, then it can also change the rake.
+But, mixed folds are already zero - and 
+you could test this with a simple toy game.
+Give one player a polarized range 
+give the other a bluff-catcher,  
+test the EV with rake and then just redo it where 
+the guy with the bluff-catcher calls more and -
+Man I'm really kicking myself for missing this one
+And this is such a counterintuitive 
+question but it feels just so wrong  
+that the GTO player is the one that gets 
+punished for the calling station's mistake!
+But this is actually a very real 
+effect in actual play - in that other  
+players' mistakes don't necessarily 
+increase the EV of the GTO player.
+Yeah I've seen this before, the 
+rake functions as a third player.
+Yes! So there are plenty of multi-way examples  
+where two players make a mistake 
+and the GTO player gets punished.
+But the rake can also act as a third player, in 
+that, the house's edge can change depending on  
+one player's mistake. If you're increasing 
+the amount of money going to the house,  
+it has to come out of some player, and in 
+this case, the station is only changing  
+their strategy with indifferent call/folds 
+which are already 0 EV to start with - so  
+it comes out of the aggressor's 
+wallet... Which is just so so wrong!
+I feel like I'll get some kickback in the YouTube 
+comments for this question to be honest...
+It makes a ton of sense though, 
+like I don't think it's uh  
+I don't think this this is counterintuitive 
+at all. Like it makes a lot of sense.
+it's not like the first question where it's  
+it's your nut hands gain the 
+most from having a block bet.
+This, to me, makes a ton of sense
+Yeah exactly. I think what 
+I missed is just that...
+The hands that are mixing between call and fold, 
+the EV is already taking the rake into account.
+That's the thing that I missed.
+Yeah like, they're indifferent after the rake, 
+um and in position or sorry not in position,  
+but the fixed GTO player isn't adjusting 
+the strategy to punish that further.
+And so something that I think people will 
+argue like no Nash Equilibrium says that  
+blah blah - but no - Nash equilibrium only 
+says that no player can unilaterally adjust  
+their own strategy to improve their own 
+payoff - it says nothing about decreasing  
+the other person's payoff without any 
+gain to yourself. That's very possible.
+You can spite call more bluff-catchers to 
+have the aggressor pay more rake! This is  
+theoretically possible (not recommended because 
+it's super exploitable) - but it does exist!
+It reminds me of like chop boards where 
+the rake is so high that the first person  
+to shove kicks the other person off the 
+hand, but the other person could spite  
+call and both players take a hit, which 
+is kind of what you were describing.
+I mean in the first place it's 
+not like even strictly speaking a  
+heads-up situation because the 
+rake is like a third player.
+Yep, you're right, it's not strictly 
+a heads-up situation theoretically.  
+The house is also a player - believe it or not.
+An invisible hand taking money 
+out of the pot, so to speak.
+so let's go on to question number five all right
+We've got a cutoff vs big blind single-raised 
+pot on J7459 -flush is possible.
+The action has gone check-bet-call, check-check, 
+and here we can see both position's EV.
+So out-of-position has a bit of an advantage on 
+this potential probe bet spot, because in-position  
+has checked the turn, and we'll go take a look at 
+the spot in a second, but the question will be:
+How does big blind's EV and strategy change if  
+we remove all the second pairs 
+from their range on the river?
+There we go. So here we're looking at the  
+GTO strategy... and let's just go ahead 
+and highlight the second pair here.
+Now typically, big blind will 
+want to check their second pair,  
+and we can see that second pair does have value. 
+These are NOT 0 EV hands, these are +EV hands.
+We can also see that the checking 
+frequency is about 43% overall.
+I'm just going to switch this over to "Vertical" 
+because more people are familiar with this view.
+So, what would happen to 
+Big blind's expected value  
+and their strategy if we just straight up deleted 
+all of these second pair hands from their range?
+Just to give you an idea, here's the EV 
+breakdown - 6.89 for big blind 2.77 for cutoff.
+so this is the... bet-check-bet line
+You're not so concerned 
+about like bet sizing right?
+You could throw it in there if you 
+like. This is an open-ended question.
+I don't think that size is going to change  
+much. Definitely the range is 
+going to be more polarized...
+Although the betting range might not be...
+So second pair is a pretty big chunk of our 
+range right, it's like a quarter of our range.
+So my answer is that...
+First of all, we start fast-playing 
+a lot more of our strong hands.
+So I wouldn't expect to see 
+like very much checking from  
+like flushes and straights, for example.
+There would just be not much of a reason to 
+check these hands. Currently, the only reason  
+why we're doing it is because we have like a 
+bunch of second pair in our checking range,  
+and the times that we check our opponent is gonna 
+bet pretty aggressively with hands like top pair.
+Which is what gives the 
+flushes and straights some EV  
+as a check. So once you take away the 
+second pair I'm assuming there's going  
+to be much less incentive to be going 
+for the check-raise with these heads.
+Here's the other question: What do you 
+think happens to the big blind's EV?
+So it's starting at BB=6.89 vs CO=2.77.
+How would their EV change if we remove 
+these TenX hands from that range?
+It feels like it should go up because
+Like all these things that I work four or five 
+chips, they're definitely below the average.
+Worth less than half the pot?
+So on this surface  
+seems like our EV should go up. But then 
+again, this could always be a misdirection.
+And what about the fact that these are +EV hands?
+So, for example, AT is worth like five bb
+Yeah but still your overall pot 
+share is like six or seven chips,  
+so if you remove it, and it's below the 
+average value, your EV should go up.
+So viewers pay attention! Just because it's a +EV 
+hand doesn't mean that removing it from your range  
+would decrease your overall EV. it's 
+about the pot share - the Giraffe says.
+Yeah, you're uh you're absolutely right!
+So the EV increases, for the reason you 
+said. And I think a lot of viewers will  
+be a little confused like - "wait aren't we 
+removing this hand that's worth four bb?"
+Well, keep in mind that it's 40% pot share,  
+which means your opponent gets 60% pot 
+share. If you remove those below-average  
+hands from your range it's actually 
+going to increase your share of the pot.
+We can share the Sim here. Okay, I think I was 
+definitely over-thinking this one! you were,  
+you were, your first guess 
+was just right on track!
+You were spot on.
+The betting frequency just increases, 
+massively, even more over-betting and  
+large sizes. But it splits between all sizes 
+here. The reason is our range is more polar.
+This is something that I've definitely seen 
+you demonstrate in one of your videos -
+if you remove the middling hands from your range, 
+the hands that need to be protected, then all of  
+a sudden you have fewer hands to protect and you 
+can dedicate more of your value to betting lines.
+Or you could look at it conversely, in that, 
+the opponent is less incentivized to bet to  
+make you know your second pair or 
+your bluff catchers indifferent,  
+and therefore your nutted hands 
+have less incentive to check.
+Ether way leads to the same answer.
+Great job on that one!
+Yeah this is kind of a fun 
+question yeah pretty cool
+Was I right about the way that the 
+EV shifts? I mean I'm pretty sure the  
+EV of the one-pair hands is gonna go up right?
+Well, let's take a look. So 
+for example we can look at...
+Yeah, so here, for example, J3 has 61 out 
+of 102 so we'd call that 60% pot share.
+And a flush has a little bit more 
+than the pot (120/102) 117% pot share.
+Then if we take a look at the (GTO) solution... 
+hmm, doesn't seem to change much, roughly the same  
+EV
+But these middling hands being removed mean that  
+you have less garbage in your range. 
+Also I think that more money goes in  
+with this strategy, simply because you do have the 
+capability to just put in so much more money with  
+so many more hands because you're not dedicated 
+to protecting those bluff-catchers as much.
+So more money going in I would assume some 
+part of your range does also increase in EV.
+But the important thing is that these TenX 
+hands, despite having like 40% pot share,  
+aren't actually adding to your overall 
+EV. They're more of a hindrance than  
+anything else. (But they're still required 
+in an unexploitable strategy, of course).
+If you guys enjoyed this video 
+and you want to see more,  
+watch part two on Poker Giraffe's Channel where 
+he's gonna quiz me instead! We'll see how I do.
+That's all for now, happy grinding!
+And thank you so much QY for this 
+collaboration - it was so much fun!
+Oh, thanks Tom! It was super fun for me 
+as well. I loved all of the questions,  
+I mean I definitely learned a lot and 
+I hope everyone else does as well!
+I know I certainly did.

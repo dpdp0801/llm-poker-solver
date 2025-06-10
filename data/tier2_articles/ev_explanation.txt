@@ -1,0 +1,73 @@
+### TOPIC: ev explanation
+Poker EV, or expected value, is one of the most commonly used terms in modern poker theory. When looking to make a difficult decision at the poker table, the best players out there look to EV to help them make the right choice.
+You will often hear the online crushers say things like “that play prints EV,” but what does it all mean, and how exactly does expected value work in poker?
+If you are wondering these things, you are in the right place. We are about to explain the concept of expected value, how to calculate it, and how to use it in real-world poker scenarios.
+Expected Value (EV) is a fundamental concept in poker that represents the average amount a player can expect to win or lose from a particular decision over the long run. By consistently making decisions with positive EV, players can maximize their profits over time. Calculating EV involves assessing all possible outcomes of a decision, the probability of each outcome, and the associated gains or losses. The formula is:EV = (Probability of Winning × Amount Won) – (Probability of Losing × Amount Lost)For example, if you’re considering a $50 bluff into a $100 pot, and you estimate your opponent will fold 40% of the time:EV = (0.40 × $100) – (0.60 × $50) = $40 – $30 = +$10This indicates a positive expected value, making the bluff profitable in the long term.
+Simply put, the expected value is the measurement of the expected result of a certain action.
+However, the expected value does not necessarily translate into real value each time but rather only over a large number of attempts.
+It is the average result you stand to gain from repeating the same action many times over with the same basic parameters.
+Let’s take an example outside of Texas Hold’em to illustrate this. Things like coin tosses or rolls of the dice can be considered neutral EV situations, as there is exactly the same chance to flip each side or roll each number, and each outcome is typically worth the same.
+However, in the example of board games, you are often asked to roll a certain number or higher on a dice, and this is where EV comes into play.
+By calculating the number of sides that work in your favor and taking into account the reward you get for rolling right, you can calculate the exact value of each roll.
+We will go into detailed EV calculations, which are quite simple, further in the text, but let’s put the expected value into the context of poker first and explain how EV works in the game.
+Like poker, board games offer other unique examples of expected value.
+While novice poker players often think about hands in terms of whether or not their draw is going to hit, all pros care about the expected value of their decisions.
+In the long run, making decisions with positive EV (+EV) over decisions with negative EV (-EV) turns into a real profit.
+A +EV decision yields a positive theoretical chip balance when all the factors are taken into consideration.
+A very simple example of a +EV decision in poker would be holding 9-9 on a board of 9♠7♠3♣ in a cash game and your opponent going all-in. No matter what they have, and no matter how many chips are already in the pot, you will be the favorite to win this hand, and your call will be +EV.
+It becomes a lot more complicated when, on the same board, you have a hand like 10-9, and your opponent plays it equally as aggressively, as now there are hands that beat you, as well as the many possible draws.
+The current size of the pot and the value of the chips you still need to put into the pot all come into play as well, as the net chip result is all that matters, at least in cash games.
+In tournament poker, on the other hand, many players will try to avoid slightly +EV situations in order to try and wait for a better situation instead of risking their tournament life on a virtual coin flip.
+Winning poker tournaments sometimes requires you to shy away from +EV situations.
+This brings us to the fun part of actually calculating our EV using a mathematical formula which always works the same way.
+In order to be able to calculate expected value, we first need to have a good idea of our equity in the hand, and this is where things can get a little troubling.
+In certain situations, it can be difficult to say whether our opponent is holding the nuts, a bluff, or a semi-bluff, and our equity against such hands can be wildly different.
+For this reason, we must compare our current hand with the opponent’s entire perceived range of hands.
+This can be a bit difficult to do in real-time, but with some experience and practice, you will learn to estimate your equity against an opponent’s range quite precisely.
+Once you have an idea of your equity in hand, you will be able to use the following formula to determine your expected value:
+EV = (%W * $W) – (%L *$L)
+In this formula, %W and %L stand for the percentage of times you will win or lose, while $W and $L stand for the number of chips you can win or lose.
+Note that the number of chips you can win is usually not the same as the number of chips you can lose, as there is usually some amount of chips in the pot before the current action.
+Let’s take a look at an example of an actual hand and do some quick EV calculations.
+Especially when playing at the biggest stages,you must be able to mentally calculate EV in poker hands.  (Photo courtesy of PokerGO)
+Playing in a poker tournament, with blinds at 100/200 and a 200 ante, you are sitting on the dealer button with 28,000 chips in your stack.
+You open the hand to 450 with Q♥J♥, the big blind re-raises to 1,800, you make the call, and you take it to the flop heads-up.
+With 3,700 in the pot, the big blind c-bets for 2,500 on the flop of A♥K♦7♥, and it is time to do some calculations.
+The first thing we need to figure out is how much equity we have against our opponent’s range.
+Since this board significantly favors his range over ours, we can assume that we will bet almost all of his hands that he chose to 3-bet with.
+This certainly contains all the big hands, like A-A, K-K, and A-K, and some bluffs, like suited connectors.
+A quick look at the odds calculator tells us that against a hand like A-A or K-K, we have about 33% equity; against A-K, we have 40%; and against A-Q, we have 45%. So even when he has the best hands, we can still hit a flush or a gutshot and win.
+It is also worth noting that there will be hands in our opponent’s range that have completely missed this board, and we are an even bigger favorite against them.
+Let’s assume the 3-bet range of around 10%, including these holdings…
+9-9+,A-Ts+,K-Qs,9-7s+,8-6s+,75-s+,6-5s,5-4s,A-Jo+,K-Qo
+If he c-bets most of the hands, we have around 55% equity, so we will clearly have a positive EV.
+For the sake of the argument, let’s assume he is a very tight player and will c-bet very few bluffs and mostly make hands like top-pair or better. Against that range, we would have around 42% equity.
+Now, let’s do some calculations with the numbers we have:
+EV = (42% * 6,200) – (58% * 2,500)
+EV = 2,604 – 1,450
+EV = 1,154
+The formula clearly tells us that we will win 1,154 chips by simply making this call, even without ever bluffing with our strong draw.
+In fact, this call would be profitable even with significantly less equity, as we would still be making some chips if we have 35% equity or less.
+It is worth noting that expected value is not only used to calculate the value of your calls but also your bets and raises. In many situations in poker, you will be faced with a decision between calling with your hand or making a raise, whether for value or as a bluff.
+In such situations, it is important to first figure out the EV of making a call. If it is negative or not positive enough, you may be able to increase it by raising it instead.
+A raise with a drawing hand in some spots may result in your opponent folding a lot of their hands, significantly increasing the amount of chips you make every time you continue with the hand.
+Since your goal in poker is always to maximize your chips won, always make sure to consider all your options and try to realize how it will affect your equity and your EV.
+Furthermore, other considerations, such as implied odds, must also be considered when deciding on early street calls or raises.
+For example, how much more value will you be able to extract if your draw gets there? Conversely, is there a high probability of your opponent having a stronger draw that will end up costing you greatly when you hit it?
+You should consider all of these considerations when calculating the EV of your decisions, and you should remember to calculate for all of them before making up your mind.
+When attempting bluffs, it is important you mind your body language and not give away any tells.
+We already mentioned that EV only work in the long run and that it does not guarantee a positive outcome of any single event.
+As you saw in the earlier example, our decision to call the flop was profitable from a mathematical perspective, but in some cases, it will cost us chips, namely when our draws don’t get there.
+Of course, this will be negated by the times we do get there, and once we have played the same or similar situation many times, the variance will break in our favor.
+However, it is important to understand that the long run in poker can take quite a while to realize, and there may be times when it seems like our +EV decisions are not working out.
+This is NOT the time to go the other route and take the –EV route, as this is a sure way to make your results even worse both in the short and long term. Keep making +EV decisions and wait for the variance to even out.
+Understanding EV in poker is critical to long-term profit.
+Poker is a game of numbers, and it’s all about the long run and what you expect to win after making a certain play.
+While you can’t control what card will roll off next, you can certainly control the situations in which you choose to put your chips on the line or fold your cards.
+If you can train your mind to think in terms of expected value and always make the correct +EV plays you are able to, you will see this reflected in your final numbers without a doubt.
+Next time you are facing a bet, stop for a second to calculate the EV of your potential plays and only act once you have completed such calculations. Your poker bankroll will thank you!
+EV in poker stands for expected value. EV is a basic poker concept that evaluates how profitable a bet, call, or raise is in a given situation. By consistently making plays with positive EV, you will win money over the long run. On the other hand, if you consistently make negative EV decisions, you will lose money in the long run, regardless of any other factors.
+In order to calculate EV in a poker hand, you will first need to determine what equity your hand has against your opponent’s range, and this will include a bit of guesswork. Once you figure out your opponent’s range and calculate the equity, you can use this formula to quickly calculate your EV: EV = (%W * $W) – (%L * $L).
+The terms +EV and –EV stand for positive expected value and negative expected value, respectively. In poker content, these abbreviations are used to mark plays that have a positive or a negative expected value over the long run.
+It is extremely hard to make the full EV calculation on the spot while playing the game. You would need to figure out your opponent’s whole range, calculate your hand’s equity against that range, and then run the EV calculation. This is why the formula is best suited for studying away from the tables, which allows you to make more educated plays the next time you sit down at the table.
+In most cases, you will over realize your EV when playing in position and under realize when playing out of position. For example, if you make a flop call in position, you may be able to make more money in the long run than the pure EV of that call by playing the later streets well. When playing out of position, you may be forced to fold your cards on the turn or not get value on the river due to having to act first, decreasing the value of your hand.

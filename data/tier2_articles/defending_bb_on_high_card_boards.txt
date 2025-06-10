@@ -1,0 +1,22 @@
+### TOPIC: defending bb on high card boards
+We already covered the strategy for defending BB on ace-high boards, and today, we will dive deeper into high-card textures.
+To build a comprehensive strategy for playing from the big blind versus a c-bet, we will analyze both connected and dry boards. By the end of this article, you will have a good understanding of how to adjust in these situations and how to construct perfect ranges.
+Dry High-Card Boards (e.g., K♠8♥4♣) vs small c-bet (~1/3 pot): Call ~56% with all pairs, ace-highs, and some underpairs; check-raise ~17% with strong top pairs, sets, and select bluffs like gutshots and backdoor draws.Dry High-Card Boards (e.g., K♠8♥4♣) vs vs large c-bet (~2/3 pot): Call ~56% with similar hands; check-raise ~5% focusing on top-tier holdings and occasional bluffs.Connected/Wet High-Card Boards (e.g., Q♥9♥8♦) vs small c-bet (~1/3 pot): Call ~70% including top/middle pairs, some bottom pairs, and flush draws; check-raise ~13% with strong hands and combo draws.Connected/Wet High-Card Boards (e.g., Q♥9♥8♦) vs large c-bet (~2/3 pot): Call ~52% focusing on hands with solid equity; check-raise ~9% with top pairs, strong draws, and select bluffs.
+Today, we will use PeakGTO to analyze high-card boards when you call from the BB vs BTN open and see a flop.
+Key assumptions about the hand:
+We call around 25% preflop against the button open while 3-betting our strongest broadways and pocket pairs, but still have quite a few Kx and Qx combinations helping us cover these high-card boards a bit better. This is how our preflop chart for calling looks:
+To analyse this further, let’s take Ks8h4c as an example. In this spot, we check 100% of the time to the preflop aggressor and let the button take it from there.The tricky part here is that our GTO response quite significantly depends on the sizing our opponent uses for a c-bet, and since he should mostly go with a small bet of around one-third of the pot, we will start with this.
+Versus a small c-bet, we are calling 56% of the time and check-raising 17% of the hands.
+In this situation, we raise a lot of our value hands to build the pot and use a mixed strategy across the board, meaning we use the same hands for calling and raising with a different frequency.
+This strategy lets us bluff quite a lot. Therefore, we can use our lower equity hands such as guthosts and runner runner draws to to put back the breasu to the BTN, who is going to be c-betting a very wide range in this situation.
+As for our calling range, we will continue with pretty much all pairs including he underpairs and even A-high hands.
+Things changes quite a bit against a bigger c-bet, where we need to defend less often because of the MDF concept.
+The biggest difference when playing against big sizing, is that we will check-raise significantly less often and this will be only 5% of our range. While we still using mixed strategies in this situation, we will mostly do some raising with sets and two pair hands for value, mixing in vocational guthots and weak buttom pairs.
+We call with a similar range as when facing a small c-bet putting out chips in the middle any pair and most of our Ax holdings.
+Our strategy on connected boards is going to be fairly similar to dry ones. The biggest difference is that we end up defending fewer hands since we most likely will be facing a large c-bet size.
+Key assumptions:
+On connected board the BTN will mostly use big c-bet sizing against which we will have to defend a bit more than half of the time.
+According to GTO strategy, we will need to call 43% of the time and raise around 9% of our poker hands.
+Our calling range mostly consists of all top and middle pairs, some bottom pairs and flush draws. As for the raising portion, we do that with half of our a-high and k-high flushdraws, and some of the weaker draws alongside sets, two pairs, and open-enders.
+Interesting enough, most of our strong and weak hands that we continue with has a mixed strategy.
+When facing a smaller c-bet, our check-raising range increases to include more bottom pars with combo draws and additional guthosts. On top of that, our calling range increases quite a bit with some a-highs and even underpairs now become a defence.

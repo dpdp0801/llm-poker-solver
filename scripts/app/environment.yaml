@@ -1,0 +1,49 @@
+name: poker-llm
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version
+  - python>=3.10,<3.12
+
+  # PyTorch (will install appropriate version for platform)
+  - pytorch>=2.0.0
+  - torchvision
+  - torchaudio
+  # Note: CUDA packages automatically excluded on non-NVIDIA systems
+
+  # General dependencies (flexible versions for cross-platform compatibility)
+  - numpy>=1.21.0
+  - scipy>=1.9.0
+  - pandas>=1.5.0
+  - requests>=2.28.0
+  - tqdm>=4.64.0
+  - pyyaml>=6.0
+
+  # Development and utility packages
+  - jupyter
+  - ipython>=8.0.0
+  - matplotlib>=3.6.0
+
+  # System packages
+  - git
+
+  # Pip-only packages (more flexible for cross-platform)
+  - pip>=23.0.0
+  - pip:
+    # Core ML libraries
+    - transformers>=4.30.0
+    - accelerate>=0.20.0
+    - datasets>=2.10.0
+    - tokenizers>=0.13.0
+    - safetensors>=0.3.0
+    - huggingface-hub>=0.15.0
+    - peft>=0.4.0
+    
+    # GPU optimization packages (only install if compatible):
+    # Uncomment these if you have NVIDIA GPU:
+    # - bitsandbytes>=0.41.0
+    # - flash-attn>=2.3.0  
+    # - xformers>=0.0.22 

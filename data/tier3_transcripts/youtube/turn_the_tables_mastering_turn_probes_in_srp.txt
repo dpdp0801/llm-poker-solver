@@ -1,0 +1,975 @@
+### TOPIC: turn the tables mastering turn probes in srp
+hi Wizards my name is Manuel better 
+known as Fimo in the poker world I am  
+a high stakes MTT player and coach and 
+I recently joined the GTO wizard team  
+in my sessions I will explore GTO strategies 
+with you and break down the mechanics in an  
+implementable way to help you improve your 
+win rate at the tables I hope to see many  
+of you guys in my live seminars let's 
+get to the next level together [Music]  
+first of all I want to give you a little bit of an 
+overview what to expect today we will first of all  
+try to understand when the spot actually happens 
+in Game in theory how ranges are composed when  
+we get to this node and how ranges are going to 
+change as well on the turn when the turn card is  
+being dealt then we will look at brief Concepts 
+at play nothing special probably stuff that  
+you have heard already quite often and the most 
+important thing we will actually try to understand  
+the mechanics on different turn clusters how 
+strategies change and function on on different  
+turns um depending on the board structure and then 
+we will briefly Summit up with a conclusion and  
+Outlook um what we've learned during the session 
+hopefully and what you have to keep in mind when  
+you study the spot yourself but also what you can 
+expand on when you want to deepen your knowledge  
+further in the spot because of course uh you can 
+always only cover so much in the one hour coaching  
+and there's very much to explore in these turns 
+and River nodes so just briefly when does the  
+spot happen of course when we when we look at 
+turn probes um it is a necessity that the Flop  
+went check check and that happens more often when 
+the ranges are wider especially the inp position  
+range here I have compared two frequencies 
+two aggregated frequencies 40bb scenarios once  
+button big plant versus Under the Gun and big 
+plant versus the button and you can see that  
+under the gun checks much less than the button 
+just because the range Equity of the under the  
+gun player is much higher this is just a general 
+mechanic in MTT poer because uh with the pre flop  
+odds the big plan is always getting the big 
+plan ranges react a little bit more lazy but  
+then in position ranges the race first in ranges 
+and therefore imbalance let's call it between  
+equities gets a little bit bigger when the race 
+comes from early positions so and when the under  
+the gun player has more Equity he can bet more 
+often so it's going to go check check less often  
+but also in wide range scenarios and the mechanics 
+are also more interesting because there's wider  
+range of hands available to play and that always 
+is a better example in my opinion to understand  
+strategies well so here we can see the button 
+checks 25% approximately globally 40bb button  
+big plan doesn't really change to too much for 
+different stack sizes as a global percentage I  
+think but it is very dependent on the actual board 
+structure and there are very specific boards where  
+there's a lot of checking and many boards where 
+there's no checking at all and seeding itself can  
+probably fill at least another coaching so I need 
+to cut a few things a little bit short today but  
+I still briefly want to give you an impression 
+how to identify nodes where where uh starting is  
+worth it one big driver and we will actually look 
+at an example for the hand selection in a minute  
+as well but one big driver for the in position 
+range especially Sports where in position has a  
+lot of medium strength hands and one thing that 
+is important to understand both on the Flop and  
+on the Toyon when you have a medium strong hand 
+and you invest a bed and therefore let the other  
+guy react that always means the responding range 
+is becoming a little bit tighter weak hands are  
+going to fold and when you start out with a medium 
+wrong hand and you bet uh ranges are going to get  
+tighter and then your Equity is actually getting 
+lower and that could potentially be a problem  
+usually it's a bit more of an issue when you are 
+out of position or in certain boards but something  
+to keep in mind so not every hand is interested in 
+betting then sometimes the board is just very very  
+good from a range perspective for the big plant my 
+example for that would be 765 rainbow I called it  
+fair equity for out of position because big play 
+is never going to have a a huge amount of equity  
+in big play defense spots especially not against 
+the button or actually also not against an earlier  
+position but usually he not going to pass 50% 
+Equity very often um just because he has so many  
+hands that don't connect with any given flop and 
+then the third big factor is a top range Advantage  
+for the out of position player for the big plan 
+that is not very uh frequently happening but on  
+paired boards with a bottom pair flop for example 
+where the big plant has many more combinations  
+of the trips that are available so these are 
+important as well so let's quickly touch on Range  
+composition and after that we will have a look in 
+GTO wizard um how the BS actually look like and  
+how how ranges function on this Sports so when we 
+want to give the in position range something like  
+a headline we can call it condensed and now when 
+we think about turn play uh we could actually I  
+I think it's pretty helpful to think about the 
+spot as it would be played in live poker because  
+they the game is a little bit slower and we can 
+understand what actually happens a bit better when  
+the big blind checks the Flop he kind of makes a 
+statement with his range he says I didn't want to  
+lead at least my hand or my range doesn't want to 
+lead but the statement is not very strong because  
+in most scenarios big plane will not have a 
+leading range but it's a little bit of a statement  
+however when when he checks when in position 
+checks that's defining ranges much more and that's  
+what I call condensed here condensed means the top 
+and the bottom is missing so we are now talking  
+about the range that is more centered around the 
+middle medium strength hands of the inos player  
+and in life poker it's very well to observe when 
+inos checks now the dealer is going to tap the  
+table going to burn a card and that is actually a 
+very good moment to think about range compositions  
+in this scenario because now ranges are defined 
+on a way and the turn can change them again but  
+at this particular moment we can observe ranges 
+and that's what I'm trying to do here and at this  
+moment in positions range is condensed because he 
+has B most of his strong hands some of his Bluffs  
+but especially the medium strength hands that I 
+talked about on the last slide already are the  
+ones interested in checking the most so his range 
+is built very much around made hands like hands  
+that are a pair but smaller than top pair so a lot 
+of second pair type hands third pair type hands  
+under Pockets things like that the other hand 
+category that falls into this cluster is what I  
+call showd downable Air so these are usually going 
+to be ace high hands strong King High hands that  
+have decent Equity right now like 40 50% maybe and 
+then the concept I talked about in the beginning  
+kicks in when you now start betting you trim 
+down big plan's range a little bit and your hand  
+is going to suffer inequity again which is kind 
+potentially be problematic still having to play  
+a Turnal River but then again we're in position so 
+it's not that drastic more of a choice that we can  
+make as the inos player Whenever there are range 
+splits especially between betting and checking  
+then draws usually are present in almost all the 
+ranges just to have board coverage and all the Run  
+outs um but also because there are draws that have 
+uh bigger incentive to do one of the two things  
+so there's also going to be a variet of draws 
+in the imposition range and some strong hands  
+for protection usually ones that cover the board 
+quite a lot so they block a lot of the continue  
+range from the big light top sets is a typical 
+example um but it also depends a little bit on  
+the specific board structure in any case the in 
+position range is condensed when it checks the  
+Flop but there is no turn cut yet big BL range as 
+I said is rather undefined most often it's going  
+to be just the full pre flop defense range he 
+calls pre flop checks range on the Flop so nothing  
+is really said yet but on some boards it's going 
+to have leads as well and Boards like 765 rainbow  
+are perfect example but still usually the ranges 
+are going to be built in a way where the remainder  
+the checking range is uh still kind of reflective 
+of the full range that he has preflop so big  
+blind's range is rather under def find at this 
+particular moment the am asking question um High  
+monotone boards I guess the question is in the 
+check cluster because the big plant has a flush  
+Advantage I think yeah there are usually boards 
+that have a lot of equity shifts which monotone  
+boards are one of always checked to some degree 
+but I usually try to focus on the more frequent  
+scenarios when when I start studying a spot or 
+start coaching a spot because it's just more  
+impactful what you can take away from in monotone 
+BS are just relatively rare So I um rather try  
+to ignore them in the first step at least but we 
+can have a follow up on more exotic spots in the  
+future for sure so two uh classic examples of the 
+check boards are going to be BS like high mid mid  
+two connected cars that connect very well with the 
+big blindes the bottom ones and then boards like  
+973 rainbow the typical thing about this board is 
+that there are gut shots between the cards which  
+are more present in the big BL range because he 
+has more offsuit combinations but as I said we  
+need to be a little bit careful not to dive too 
+deep into the Flop strategy today so just briefly  
+exploring one example the queen 86 flash drawboard 
+to understand the Flop check ranges first of all  
+we can see that button checks around 50% here 
+which is relatively typical usually you will have  
+a hard time to find B where the button is going to 
+check more than 50% The Only Exception would be if  
+you had BS like 765 rainbow and would forbid the 
+big blind to lead then check frequencies are going  
+to surpass the 50% Benchmark quite significantly 
+if not this is around the maximum check frequency  
+appro approximately you will find and then looking 
+at the equity craft here I think is very helpful  
+to understand why there is a bunch of checks 
+because in contrast to black 765 Rainbow on Queen  
+86 having a check range is more of a decision 
+for the button you could simplify a strategy  
+to a relatively small bet that would lose very 
+little EV but could bet at a very high frequency  
+not pure but probably something like 80 85% you 
+could do that but the GTO solution doesn't really  
+think it's the best idea and the main reason are 
+first of all that the in position player is going  
+to have a lot of hands that are in the let's call 
+it 50% cluster as I said in reality it's more like  
+40 to 50 40 to 55 but these kind of hands are not 
+really interested in making ranges tighter yet but  
+rather retaining the equity realizing in a smaller 
+pot but it is usually never one single factor that  
+drives these mechanics here we have a second one 
+and that is that the big blind range has very  
+very little absolute autof folds so not too 
+many super low Equity hands that are going to  
+always want to fold against a small bed uh so 
+these factors kind of play together and make  
+it a board where we want to check a little bit 
+as the inos player and 973 rainbow works very  
+similarly actually most of the boards work very 
+similarly and then when we look at the check range  
+uh from the button we can see that a lot of the 
+green hands are going to be in the pair section  
+as I said and then there's a little bit of 
+top pair checking as well that's more of a  
+protection play but the main hand categories that 
+want to check are going to be pairs that are lower  
+than the top pair itself and then when we look 
+at um ace high and King High hands we can also  
+see that the worse kind of King High hands and the 
+worse ace high hands want to bet a little bit more  
+compared to the stronger hands that could maybe 
+more intuitively be understood as Show downable  
+air as I called it and you can also see the 
+equities here they are usually in the 40 to  
+50% percentile all right so I think uh that shows 
+pretty well how the in position range is going  
+to be constructed very condensed trimmed down 
+around hands that have decent Equity right now  
+but not necessarily stronger than top pair then 
+briefly checking on the concepts that play one  
+very important thing is of course position we are 
+looking at the big plan strategy today um playing  
+the turn first in and we are out of precision and 
+that is something very important to keep in mind I  
+will touch on a few examples where it plays or how 
+the role it plays manifests in the strategies it  
+always plays a role of course and then as always 
+Equity play a role but um there are two or three  
+different equities we can have a look at in this 
+scenario first of all the range Equity how is our  
+range um all of our hands going to do at all and 
+usually when you have a stronger range a higher  
+range Equity uh we are going to bet more often 
+and we will see in examples later how exactly that  
+works why it is and what kind of hands it affects 
+the most another Equity we need to consider is  
+the nut Equity the equity of the very strongest 
+hands in the range and uh there it's important to  
+understand two things who has more of these hands 
+and does one of the players have them exclusively  
+so more of these hands um usually is going to 
+be yeah depending on the board structure like  
+when you have very high turns for example we will 
+see that later the inos players going to hit them  
+more often and so one pair hands can be the nuts 
+or we can have a straight completer where a lot  
+of two pairs and Straits are possible that maybe 
+the big plant has more because it's a low board  
+and or it could be a high board where let's 
+say for example on Queen 88867 something like  
+that or queen 869 and the imposition will player 
+will also have hands like check 10 will also turn  
+more two pairs than on 7654 and therefore it also 
+depends if one player has the nuts exclusively or  
+if both players have them when we look at turn 
+props we also need to consider that in GTO the  
+in position player is also going to have some 
+traps so usually we need to consider the top 10  
+to 15% of the range the nut Equity part because in 
+many scenarios in positions traps from the flope  
+will still be the best hands um on the turn but 
+they only represent a very very small fraction  
+of the range and therefore are not sufficient to 
+prevent high agression from the big plant and the  
+last uh type of equity I want to touch on the few 
+times is equity over time Equity over time means  
+is the equity distribution drastically going to 
+change on future cards in this example the time  
+is not very long anymore it's just going to be 
+the river so only one card but uh it can still  
+manifest in ranges in certain ways in strategies 
+and uh it can either be driven by the board but  
+it can also be driven by hand classes I try to 
+explain the whole process of going through the  
+Flop and the turn with the life poker example big 
+BL checks that the defines the range button checks  
+that defines the range much more now we need to 
+look at equities and understand what um Equity  
+distributions look like and what the effect is in 
+strategies and this is especially helpful because  
+sometimes the turn doesn't change anything at all 
+and those are bricks and I think this is a very  
+nice situation to take as a baseline to understand 
+basically we are still um having checked through  
+the Flop and we haven't seen a turn card yet 
+basically and now we understand how ranges  
+would play on a brick turn and deviate from there 
+if necessary so this what I saved in the AI for  
+us to be able to experiment with a few things and 
+to uh yeah change settings a little bit so when we  
+go to ranges something that is always uh almost 
+always the case is that the big blind is going  
+to have a very weak range part and that is just 
+the case because he has defended the white preb  
+and there's always going to be a a lot of hands 
+that don't connect with the board at all no matter  
+what the board is so he's always going to have a 
+lot of very week hands that don't really interact  
+with the board at all and just most of the time 
+need to give up with a few exceptions that I will  
+explain later and then we can have a look at um 
+the the top range for example example here I'm  
+circling more like the top 25% of hands but it 
+doesn't really matter what matters is that we  
+can see that the big blind uh consistently has 
+more Equity than the button in these scenarios  
+when basically the Flop was checked through and 
+there was no equity shift on the turn at all one  
+thing I also not mentioned is that here uh we can 
+see that actually the the button still has the  
+absolute nut advantage in the very very top 2% or 
+so of the range but as I said that doesn't really  
+prevent big plan from showing a lot of aggression 
+which we can see in the large sizing that he is  
+using so it's more about looking at the top 10 20% 
+of range depending on the board exactly to Define  
+strategies and this is um basically the typical 
+example for no equity shifts at all the turn is  
+completely irrelevant what's going to happen is 
+the big blend is going to have have the stronger  
+top range he still has an undefined range so he's 
+all the top pairs all the two pairs all the sets  
+he's going to have in a given scenario um and the 
+in position player doesn't have them anymore he  
+has bet most of his strong hands on the Flop so 
+he lost them in the check check line and he's only  
+going to have a very tiny fraction of traps that 
+he's going to use to defend the turn then another  
+thing we can see is here in this specific example 
+like in the medium range uh there's nothing to be  
+said really and in the the bottom range the as I 
+said the button is always going to be ahead like  
+his air that he checked is showd downable or it's 
+yeah so it's relatively strong while the big plan  
+still has a lot of trash and the range Advantage 
+for big blind I assume is the question is usually  
+always prevalent when there is no equity shift on 
+the turn I will also conclude this in the end we  
+usually always have a scenar on the turn that 
+the big plant has a bottom range disadvantage  
+he's still going to have a lot of weak hands that 
+haven't improved at all and then um who has the  
+nuts depends a lot on the turn and in the moment 
+where dealer Burns the card and no turn has been  
+dealt it most of the time big blant is going to 
+have a top range Advantage even though he might  
+be behind in the absolute uh yeah top two to 5% 
+or whatever what is very typical for bricks is  
+that uh we going to have a very very big bet um 
+like the main strategy here is going to be built  
+around 2x pot and everything else is relatively 
+irrelevant we have a a small frequency of b50  
+to B25 but that can be ignored for the most 
+part we will see a little bit when it becomes  
+really relevant if we want to put it in a very 
+simplistic Model H it's not very important part of  
+the strategy what is important is the huge overbed 
+and that is um something that I also see is one  
+of the biggest population leagues that people 
+just don't apply big enough pressure in these  
+spots they don't use sufficiently big sizings 
+to represent their actual Equity distribution  
+and one um thing why it is uh is so important to 
+use when we look at the turn strategies we always  
+want to accomplish something in in the the range 
+that we are playing against and when we use really  
+big sizings here we're going to see that a lot of 
+the overcards have to fold in the imposition range  
+and he has to continue most of his mate hands he 
+can fold a bunch of lower pairs but he has to kind  
+of Pluff catch uh with with his second pair typ 
+hands and he is going to fold with his overcards  
+and that is very important because applying this 
+concept on the turn gives us the option to go very  
+thin for value on the river because there's 
+very little Equity shifts going to happen now  
+so we made sure that Equity over time is pretty 
+stable if you imagined you would have bet small  
+if the river is a king or something like that or 
+a check in positions range would improve much more  
+often that is a little bit problematic for our 9x 
+because as we saw here our main hand class that  
+wants to apply this strategy is going to be top 
+hairs so they are relatively V vulnerable because  
+a overcard could potentially change equities 
+depends a little bit on the river arriving ranges  
+but when we bet this big there's very little 
+Equity shifts possible just because of the folding  
+range from the button on the turn and also we're 
+going to produce a relatively low stack to p ratio  
+on the river which also allows us to value beted 
+a little bit wider but I also want to show you an  
+example where I think it's very important to have 
+block strategies because we need to differentiate  
+undercards enhance or turns that don't change 
+Equity distributions at all as I said or  
+undercards or turns that connect with the board so 
+they don't really change the equity distribution  
+of the overcards we remember the button checked 
+a lot of high cards king queen ace1 all these  
+kind of Holdings and they still didn't change at 
+all on the turn when an undercard like the five  
+here hits but the big BL is going to gain a very 
+big advantage in the upper half of the region so  
+now we are talking more about Equity of the range 
+you can see here um the big plant is going to have  
+50% Equity compared to 47 on the brick again this 
+doesn't seem very high just because of the fact  
+that the big band carries so much trash in this 
+range that is completely irrelevant to the spot  
+and it's not going to yeah really influence ranges 
+too much it just a plays because it got good  
+pre- flop odds and now it hasn't connected it's 
+going to give up a lot in any way um now though  
+we can see that we have a very relevant and high 
+frequency block bed and we can also see another  
+thing that our big bed sizing has decreased in 
+sizing a little bit and let's explore these two  
+mechanics a little bit in GTO whistled as well 
+so we are going to look at a five on the turn  
+and I mainly want to touch on two different kind 
+of Concepts here first of all the downsize of the  
+big bed and second of all the emerging block bed 
+I mean it was there before but we saw it wasn't  
+as relevant as it is today let's trim this down a 
+little bit to B25 and b125 just to have a clearer  
+cut strategy here but we can also talk a little 
+bit about why this pting pattern changes at all  
+in a second so now you can see compared to I 
+think 15% small bit before we are almost at 30  
+so this is become much more important and that 
+has a bunch of reasons like first of all we can  
+see in the equity distribution what I just showed 
+you the the whole big blind range has improved a  
+lot especially in the middle so range Equity we 
+gained a lot of that and for that reason we want  
+to bet more the nut Equity hasn't changed too much 
+now the traps from the Flop that in position head  
+pocket n or whatever I'm not the absolute nuts 
+anymore because we have more 68 64 typee hands  
+but that's not really the relevant driver of the 
+strategy the relevant driver is the um stronger  
+medium hands now our um medium strength hands 
+are not only a seven but also a five so there's  
+a completely new cluster of hands that has emerged 
+that is also incentivized to blockb in order to  
+extract value from in positions High cards he's 
+still going to have to call Ace highs and King  
+highs against our small bat so that is very nice 
+to extract some value with our five here and he's  
+going to have still a lot of pairs that are five 
+or even worse themselves and need to continue so  
+we can also extract some value from mads and if 
+we take a closer look at the pairs below top pair  
+actually one to bet we can see that many of them 
+are either going to have a relatively High kicker  
+so they can actually extract some value from 
+the imposition range from the second pairs or  
+under Pockets the buck is does have but many of 
+them also have something else going on for them  
+they have great Equity over time they have uh the 
+option to improve on the river as well they are  
+going to have a lot of gunshots going with their 
+pair because that is the main difference when we  
+look at the the 973 DS versus the 975 not only 
+has the 5x as a new hand cluster emerged but also  
+a lot of the main hands that were relatively 
+indifferent between checking and betting on  
+the other example now gained in equity by having 
+additional equity on the river by making Straits  
+and that incentivizes them a little bit more um 
+to go for the thin value on the tur because again  
+considering position it is always a little bit 
+of a thin tradeoff to go for block sances out  
+of position because you are trimming down ranges 
+from in position and you are usually so first of  
+all that decreases your Equity but then again you 
+cannot really prevent the button from realizing a  
+lot of equity right he's still going to call a lot 
+of his M hands so he's still going to hit a lot  
+of um rivers on all different kinds of run outs 
+therefore Equity denial is very hard to accomplish  
+here and being out of position it is not a great 
+strategy to build a pot that you are not going to  
+win very very often so for that reason on these 
+kind of turns where there's additional Equity  
+emerging for the maintenance for the smaller pairs 
+it's very very good uh to implement this strategy  
+compared to the brick turn another thing that is 
+also important to understand when you implement a  
+small bed strategy you're always going to have 
+to sacrifice a few of your very strong hands  
+in order to be able to defend against this 
+aggression on the turn when he raises you of  
+course Very questionable how realistic this is 
+in real games but we are talking about GTO poker  
+about Balan strategies and here in these scenarios 
+you have to sacrifice some of the hands that are  
+stronger than second pair uh to be integrated in 
+a small bed range so you can actually um continue  
+against races sufficiently and still be uncapped 
+there and that is for example not a tradeoff that  
+is worth it on 973 do to sacrifice some strong 
+hands that have a huge gain in protection by  
+betting 2x Point against the overcards to be able 
+to bet more of relatively IND different hands like  
+a seven with a small size but here first of all 
+we have wider variety of hands available we have  
+Straits more two pairs that weren't existing on 
+the brick turn there we just had top pairs or  
+worse H so we have more hands to choose from 
+that we could potentially sacrifice as a blockb  
+and then again we also just have stronger hands 
+absolutely speaking we have straights sow but if  
+this River turn is so good for for the big plan 
+why do we downsize then with our big sizing is a  
+questions we could ask ourself and the reason for 
+that is equity over time to some degree when we  
+bet b125 here in position has to defend um most 
+of his M hands most of his pairs H I think for  
+humans it's very hard to grasp the difference in 
+continuing ranges for B 125 to B1 200 or something  
+like that it just for us feels like an overb and 
+we have to fold a lot um but if we would bet to  
+export here um there would be Rivers where um out 
+of position would just plummet so much inqu equity  
+because if we would do that or let's actually add 
+it if we would bet really really large here Buton  
+would fold a lot of his main but would continue 
+some of his draws and then on some Rivers for  
+example a six where the remaining relatively weak 
+M hands still improve or a club for example big  
+plan range would become so weak or would have so 
+little options to extract additional value because  
+now in position has folded most of his relatively 
+weak M hands on the turn already and now he's  
+improving a lot and that is just the spotted 
+solvers try to avoid of course it's only going  
+to be a few specific Rivers but when you consider 
+the whole game Tre becomes relevant so when Equity  
+over time becomes a little bit worse BS become a 
+little bit more Dynamic then uh usually uh the the  
+top sizing decreases a bit we we just bet a little 
+bit smaller in order to keep the continuing range  
+of the other player wide enough so we don't create 
+very bad River spots for ourselves and this is not  
+a black and white thing it's a sliding scale you 
+could um continue this trend you could make the B  
+9736 and the B the top sizing would probably be B 
+100 and you could make it 9738 and the top sizing  
+would be become b75 so it's more like a trend 
+that emerges through the board structures than  
+an absolute set in stone strategy you're going 
+to see but it's very helpful to understand the  
+logic behind it so that's undercards and the other 
+side of the coin is overcards of course and while  
+for example A brick is a card that doesn't 
+change Equity at all usually an over card  
+is going to be an equity shift to some degree in 
+in position's favor right um he checked a lot of  
+Ace king king queen type hands on the Flop and now 
+he's improving to top pairs on the turn with some  
+of his m a air hands and so his condense range is 
+improving in a little bit of a part and also hands  
+like Queen check are picking up more Equity Queen 
+10 are picking up Equity so you can see that the  
+button regains his top range Advantage so that's 
+important to understand when we think think about  
+range composition to think about it before we 
+actually think about the turn cut and consider  
+that one as well because this can change things a 
+little bit again as we see here so now what we can  
+see um when we lose our top range advantage that 
+we had on the undercards we are also going to lose  
+our big sizing no nut Equity Advantage no big bets 
+very classic get the sample um but we're still  
+going to have a block bed and we will talk about 
+why in a second this can of course have differing  
+decrease of magnitude you can have cards that 
+are first of all connected to the flop in terms  
+of the overcard like the 97 uh n 10 973 connects 
+more um with the 8X the 10 n 97s and so on and  
+then the King which is very disconnected but it 
+also differs in height and very simply speaking  
+the higher the card the better it is going to be 
+for the inos player and Ace is better than a king  
+is better than a queen is better than a check and 
+so on and so forth and what we will see following  
+this trend is the higher the card the lower the 
+betting frequency is going to be for the big  
+blade because the card is going to be worse for 
+him and then the second thing like for example  
+having sizings bigger than the block is more about 
+the connectedness of the board but what you will  
+usually never see is a bets here on these kind 
+of boards I will show you another example later  
+as well because it is a slight Equity shift in in 
+position's favor here for example you can see that  
+uh he clearly gains the top range Advantage again 
+now he's ahead again in terms of strong hands here  
+it's more like even but we are out of position and 
+that is reason enough for us not to start building  
+a pot to liberally and rather relay different 
+strategies for reasons that we are going to talk  
+about now so let's use the king as an example that 
+illustrates a bunch of things like first of all of  
+course we are still going to have strong hands 
+just as the button but we are going to be out  
+of position what is important here is this range 
+part where um the button is going to have a lot of  
+yeah stronger pairs than we do in the tto world 
+Mao has already addressed it there is very much  
+aggression especially on Equity shifts against 
+block bed so when we Block B the in position  
+player is going to raise 25% of the time and that 
+is very questionable if that happens in reality  
+so when we decide to implement a blockb strategy 
+only that is not only a function of our ranges  
+but also relying on the f fact that our opponent 
+is helping us build a pot he's going to raise for  
+us to some degree so that is one function that 
+is going on here that is very questionable if  
+that happens in reality today I want to stay 
+focused on GTO Logics for the most part just  
+because there's quite a lot to cover in just this 
+one chapter but I can tell you that when you would  
+not log for example the in position B not to be 
+aggressive enough against a small bit or a check  
+then you would actually have to start building a 
+part yourself besides this fact like we still have  
+decent range Equity right because there was check 
+check on on the Flop and we still have a decent  
+nut Equity here we still elect to bet small 
+because we get raised sufficiently but when  
+we actually look at which hands are interested 
+more in a bet than a checked and this might be  
+surprising right quickly um jumping back to the 
+strategy we saw that the actual betting strategy  
+was just a wild mix of M hands for the most part 
+in contrast to the big bets where we saw that a  
+lot of the Bluffs are going to be draws air hands 
+basically with relatively strong equity in Block  
+bed strategies most of the Bluffs are rather 
+condensed so they are either like high cards  
+or draws to some degree but usually like they not 
+really any absolute trash hands in there and then  
+we just go a little bit wider with M hands and 
+sometimes we add in a few high card hands that  
+achieve for example cheaper Equity realization 
+with their draws or they can fold out a little  
+bit of equity and not face a very unfavorable 
+scenario off goinging check bet and we face yeah a  
+bed that we can't call so those hands go in there 
+as well but for the most part it's just a very  
+sizing logic that is built around M hands a lot 
+in any way when we look at this range we can see  
+it's a wide mix of all different kind of pairs 
+and when we compare the EVs and look for the red  
+colors in here red meaning these hands are more 
+interested in betting than checking you can see  
+that it's actually not really the top pairs 
+that are the ones that drive the strategy but  
+rather the second pair type P and some specific 
+suits or third pairs these kind of things and  
+that is something that is also a very useful and 
+important Concept in GTO poker and general and  
+one that might differ a little bit from reality 
+so when we check in position is going to use a  
+huge overb right he has gained not advantages 
+again so sizing is big he's going to bet very  
+big again and when he does that what we are going 
+to have is is an indifferent hand with our 9x with  
+our 7x here you can see it very slightly the nine 
+is starting to fold the seven is clearly starting  
+to fold so we can also look at EV and we can see 
+that all these hands have kind of lost their EV  
+choosing this line and then a way out of this was 
+to block in the first place and you can see the  
+clearer blocks here and the ones that create the 
+EV difference at once that have a clear preference  
+are actually going to be certain pair hands that 
+are indifferent zero EV against a polarized bed  
+from inos because when we check inos is going to 
+either bets stronger hands than ours and Bluffs  
+so we need to call sometimes but we don't have EB 
+anymore because it polarizes around our hand glass  
+but when we instead choose to block we will get 
+value from a vast majority of weaker M hands and  
+even some um air hands like showd downable air 
+hands a high and similar so blocking in these  
+spots is often the more attractive option for this 
+kind of re at the in position overb other double  
+check rhous for the most part it's just relatively 
+dry Equity shifts on the turn four in position so  
+usually High cards and you can also see pretty fun 
+Logics around here when you look at which height  
+the high count is the better it is the bigger 
+the BET becomes for example um you would over  
+bet smaller on a check or whatever uh that's also 
+something you can use as a guideline but I would  
+try to simplify my strategies in practice in 
+a way where you can um yeah actually execute  
+it uh to some degree but anyway this is a reason 
+also why we can only Block B because in position  
+again is building the PO for us in some way too 
+either by over betting delayed or raising or BL  
+we have covered the most important mechanics 
+already and now a few special cases there are  
+some two Broadway boards which are not like 
+really interested in blocking actually no two  
+two Broadway boards are interested in blocking but 
+just in over betting for a bunch of reasons and  
+the thing I wanted to say is these two Broadway 
+boards can either emerge on the turn or have been  
+there on the Flop so it could be a b like Queen 
+76 check like the one I show here but it could  
+also be a board like King queen8 flush dra in a 
+brick turn if the in position player chooses to  
+play an according CIT strategy in any case the the 
+driving Factor here is that there is no advantage  
+in the medium strength hands for the big blind and 
+the reason for that is very simple when you elect  
+block bet strategies your goal is kind of for 
+foring wider continues by the inos player um but  
+it is always combined with a tradeoff and when we 
+think back to the example with the 9735 we noticed  
+that a lot of the hands that were interested in 
+Block betting had additional Equity going for  
+them and that was the main driver why they were 
+blocking in the first place but in the example  
+of the two Broadway boards the logic is reversed 
+when we now block we are actually not really going  
+to deny a it but we are going to allow in position 
+to realize Equity with a lot of their bottom range  
+with the remainder air that is usually going to 
+be gutshot tire panss and a lot of them are off  
+suit uh so very high frequency and they can very 
+happily realize the equity they can even show  
+aggression against us because some of his hands 
+also improve on the turn but more importantly  
+what going to happen now he's going to re I this 
+Equity we are going to be out of position playing  
+on the river the the equity over time is going 
+to be more important and we are going to play a  
+bigger part in a spot where inquisitions range 
+is going to improve often on the river and uh  
+that is just not a scenario we want um you also 
+need to consider that like a check is not really  
+a carted has been claimed yet so if we wanted to 
+implement a block sizing from the logic before  
+it would be built around a seven a lot and those 
+hands especially are going to suffer against the  
+double overcard plus added Equity type hands from 
+a player that's in position and he's going to hit  
+the check on top of it sometimes with his King 
+check ACE check tire pants pocket checks and so  
+on and so forth so what's going to happen is the 
+big blind is never going to have clear advantage  
+in the medium strength of hands so betting with 
+a medium strong hand is also not attractive Bing  
+ranges are exclusively built around the top range 
+around nut Equity only around big sizings and  
+medium or small sizes are not attractive at all 
+and as I said it doesn't really matter how this  
+spot came to exist it could have been from the 
+Flop or from the turn so then there's one more  
+logic I wanted to show you most dynamic flops 
+kind of are like the connected underc car turns  
+when you look at the board like Queen 867 or 765 
+King there are some similar similarities going  
+on first of all we have a lot of different hand 
+glasses available to our range that we're already  
+there on the Flop we don't only have like the top 
+pairs from 973 du but we had Straits already on  
+the Flop we had a lot of two pairs on the Flop 
+so that allows wider um strategic diversity that  
+we can use we have different handes we can do 
+different things and a lot of the stuff we have  
+seen already is going to come into play here 
+we're going to have a lot of main hands with  
+additional Equity we have a lot of nuts we can 
+induce races when we block bed but we also have  
+super super strong hands that want to build a PO 
+right away especially with certain blockers that  
+are unfavorable for the imposition player so when 
+we block certain hands he's not going to raise so  
+often and for that reason we need to build a pot 
+ourself so we we still going to have a big sizing  
+in contrast to the other overcards or to the other 
+connected turns but again it's going to be smaller  
+because the equity overtime is not so stable we 
+want to force imposition to continue relatively  
+wide so on a nine River for example uh not all of 
+his remaining 8X improve and we are going to uh  
+yeah have very big drop in with our rate and then 
+we can also see that we have a lot of hands that  
+rather lock bet ourselves get value from hands 
+that would elect to check back against our check  
+instead and um force in position to build a PO 
+for us as well so that way we are applying a  
+few Logics we've seen already at the same time 
+and leveraging some EV by blocking instead of  
+check hauling against the polarized range very 
+big contrast to that is a board with extremely  
+stable Equity not equity for the big plan so here 
+we had the drips on the Flop and we are basically  
+not interested in doing a lot uh different than 
+just leveraging that we can also include some top  
+pairs in our over betting range but again there's 
+no real medium strength H for the big plan that  
+want to implement an additional strategy so for 
+that reason here um again the B is very dry the  
+nut Equity is in big plan's favor so big sizing is 
+super important what we see though is we sizing a  
+bit smaller than on 973 du we don't just to export 
+all the time but also downsize a little bit and  
+the reason for that is mainly that you have your 
+your Equity is not going to change at all anymore  
+on 9 C3 du we had an incentive to fold out the 
+overcards to create a river spot where we have a  
+low spr an in position is not going to hit certain 
+cards anymore and here it doesn't really matter a  
+six is just a nuts on the river and what are you 
+going to do here even though it's not very visible  
+you are approaching a geometric bed size which is 
+b130 because that one will forced in position to  
+go brog over turn River most frequently and that's 
+what you're trying to achieve here on also not  
+equity for big blind dry Bo so very comparable in 
+a way to 97 3 do but then again very different in  
+terms of the hand class that is going to produce 
+the beted for the most part but again also what I  
+forgot to mention was we overall have less Equity 
+because in position checks more hands like pocket  
+Queens checks TS a few King eggs on the Flop so 
+yeah that's also a difference to 973 do and the  
+rest I already said there was no equity shifts 
+at all Equity the not Equity is still for the  
+big blind so big bets only and here especially 
+it's important to not forget about your future  
+PLS it's very easy to just bet flush draws 75 109 
+type hands and then when these hands improve on  
+the river you don't have Bluffs left and good 
+regulars will exploit You by not paying you  
+off on the river anymore so that leads us to 
+the summary the starting point on the turn is  
+basically before the turn card is being DT in that 
+moment the big blant has a top range advantage  
+the whole ranges are usually about equal um 
+it depends a little bit how the Manifest the  
+turn overcast Equity shift to Big BL to button 
+um no overcard it remains stable sometimes the  
+big plan gains a little bit of EV especially on 
+draw completers and the bottom range is always  
+worse for the big plan he still has a lot of trash 
+on any given board when the top range Advantage  
+remains for the big blant we always need to have 
+a big sizing and when we see the equity over time  
+is less stable like on the more connected boils 
+we generally need to downsize that big sizing if  
+there's an equity shift for in position like the 
+973 DWIs King then we need to either check a lot  
+or bet small if you would look at 973 a for 
+example you would probably range check almost  
+and then when you look at big bet strategies most 
+often your your betting selection especially on  
+try uh turns is going to be around pair type hands 
+and your Bluffs are very natural for the most part  
+High Equity hands like gutshots open Enders flush 
+draws but don't forget your future Bluffs when  
+these draws improve you still need air in theory 
+at least and a small sizings are always a little  
+bit more merged rather expanded in the M hand 
+category more pairs weer pairs maybe even some  
+showd downable high cards but not really a lot 
+of unnatural glovs as well now we have briefly  
+covered what you can look out when you study these 
+spots for yourself in G wizard but um of course we  
+need to consider some real world limitations and 
+I think the two that are most important I already  
+addressed first of all aggression versus leads 
+population just doesn't raise enough so maybe  
+you can play a little bit around with the nod log 
+feature see what happens if people don't raise you  
+enough if that changes your sizing choice for 
+example in the first place especially of block  
+bets and um if people bet big enough do they over 
+bet on try overcard turns if they don't what does  
+it do to your strategy with the AI feature you 
+have great options to explore it and then I also  
+want to I want to um suggest a few things to 
+expand on especially the the varying decrees  
+of equity shifts in terms of like how does a card 
+connect with the Flop um there's often be going  
+to be differences in size choice and hand Choice 
+when you look at bars like 973 du versus 9735 or  
+six or eight turn or three flush we have covered 
+all the Logics you're going to need to understand  
+the spots but the actual strategy differs a 
+lot so that's definitely something you want  
+to expl explore yourselves and also the varial 
+um overcards because they lead to a little bit  
+cleaner or less clean cut strategies in terms of 
+blocking and checking and sometimes implementing  
+something like b50 or b75 Bo pairing turns very 
+similar I think also we have covered most of the  
+Logics that apply there but they are a little 
+bit different because it always depends on the  
+nut Equity exclusivity like not only who has these 
+nuts but does somebody has them exclusively and  
+the other guy doesn't have them at all or how is 
+the balance will usually manifest in a bigger or  
+smaller big sizing and then really the only way to 
+get better at these things is first understanding  
+the concepts and then drilling Drilling 
+and drilling again um is my recommendation  
+especially right after these presentations when 
+your knowledge is still fresh sit down um take  
+the time to go over this uh it's very interesting 
+in poker to always acquire new knowledge but your  
+game only gets really better if you also practice 
+what you've learned and um integrate it in your  
+Bame in your autopilot a little bit more if you 
+have any questions um leave them in Discord leave  
+a comment we will try to get back to you for sure 
+um feedback on this session is welcome as well and  
+I am trying to adjust my future seminars on what 
+you guys need what you guys find most helpful as  
+I said was my first one today I'm very excited 
+to be part of the GD wiard team and I hope that  
+I will provide lots of value to you guys in the 
+future but it helps me a lot if you guys let me  
+know what kind of content you appreciate 
+it as well anyway thank you for watching  
+and being part of this live seminar and I wish 
+all of you guys good luck at the tables [Music]

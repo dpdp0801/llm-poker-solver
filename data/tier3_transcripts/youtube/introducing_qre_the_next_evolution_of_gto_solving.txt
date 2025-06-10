@@ -1,0 +1,555 @@
+### TOPIC: introducing qre the next evolution of gto solving
+[Music] the first commercial GTO solvers 
+appeared on the market in 2015 and for the  
+last decade Nash equilibrium has reign 
+supreme as the gold standard of optimal  
+poker strategy today we challenge that 
+paradigm introducing quantal response  
+equilibrium a groundbreaking new approach 
+for solving optimal poker qre represents  
+the next evolution of GTO solving and will soon 
+become the state-of-the-art let me show you why
+this is the Nash equilibrium strategy for 
+a 30-bit blind heads up pot everything is  
+optimized and finally balanced like the gears 
+of a Swiss watch but what happens when your  
+opponent takes that Swiss watch and smashes it 
+into the ground what happens when they take a  
+move that has a 0% frequency representing no hands 
+whatsoever this is what happens a ghost line this  
+is the fundamental problem with Nash equilibrium 
+solvers is that they have very poor responses to  
+nodes that aren't supposed to happen so what's 
+going on here why is the solver calling 106  
+and folding Ace9 what is this ridiculous strategy 
+well what you're looking at is essentially a node  
+in the game tree that has not converged the solver 
+has not finished solving the strategy here you see  
+very early on in the solving process small blind 
+figured out hey I never have to shove here and as  
+soon as that happened big blind stopped improving 
+their response to the shove what we're left with  
+is this barely converge strategy now here's the 
+issue in reality your opponents will take non GTO  
+lines in reality your opponents might just open 
+shove here and it would be nice if we had a good  
+strategy against that without having to node lock 
+or force small blind to take some strategy without  
+assuming what their range ought to look like that 
+is the problem that quantile response equilibrium  
+solves now I'll solve this spot using GTO wizard 
+AI which uses quant response automatically you'll  
+note that anytime you're doing any sort of custom 
+solving from now on it's going to use QRE whereas  
+the default solutions the pre-sold spots will 
+continue to use Nash so I'll load up the quantal  
+response equilibrium and the first thing you'll 
+notice is that it looks basically the same in  
+spots that are common in regular spots where QRE 
+differs from Nash are in the uncommon spots in  
+the ghost lines so when small blind shoves here 
+instead of getting noise we get a nicely converged  
+solution where every hand that calls is a plus 
+call in addition if I click the ranges tab I can  
+actually see what small blinds range ought to look 
+like apparently it's a lot of vulnerable pocket  
+pairs strong ASEXs and some trash with halfdeent 
+blockers kind of what you might expect the range  
+to look like in this spot now I didn't tell small 
+blind that it should use this range where did this  
+come from right i didn't know lock this i didn't 
+force it to bet it came up with this on its own  
+so how does QR determine what range to use in 
+these ghost notes and what else is new in this  
+update that affects you as a poker player stick 
+around to find out nash equilibrium is ubiquitous  
+with game theory optimal poker every professional 
+player in the world knows what Nash equilibrium  
+is so they're probably going to be confused as to 
+why we're moving away from such a wellestablished  
+principle but I think by the end of this video you 
+will not only agree with us but you will welcome  
+quantal response equilibrium as the next iteration 
+of GTO strategies in this video I'm going to  
+cover an introduction to QRE we'll cover its key 
+benefits to you as a poker player we'll do some  
+strategy comparisons before with Nash after with 
+QRE we'll cover the benchmarks and just measure  
+how well it performs and lastly for the nerds 
+in the audience I'll go through a technical  
+explanation about how QRE works on the back end 
+okay let's get into it so what spots does this  
+affect well going forward any spot you solve with 
+GTO Wizard AI that is to say any custom solution  
+now uses quant response equilibrium any pre-solved 
+solutions that means spots solved as part of our  
+pre-existing library of solutions still use Nash 
+so those were solved before those haven't changed  
+now if you want to custom solve a spot in GT 
+Wizard you need an elite subscription however  
+you can still try QRE for free by solving queen 
+of spades 10 of spades seven of hearts this is  
+the free flop we give out to people who would like 
+to try before they buy one of the key shortcomings  
+with Nash equilibrium is how it handles ghostlines 
+you see a Nash strategy assumes that players never  
+make mistakes it assumes people are perfectly 
+rational and no one's ever going to take a non  
+GTO action and so as a result it only optimizes 
+your strategy in spots that are quote unquote  
+supposed to happen in GTO but what about non 
+GTO spots what happens when your opponent takes  
+some ghost line some 0% frequency line well your 
+strategy facing those ghost lines is suboptimal  
+because they never happen in GTO and therefore it 
+has not converged in the solver the problem here  
+is a lack of a defined range if a player takes 
+some action that represents nothing what's the  
+best response against their nothing range how do 
+you fight a ghost that's what quantal response  
+equilibrium seeks to solve quri intentionally 
+introduces mistakes into the solution at a low  
+frequency and this allows it to optimize the 
+strategy everywhere even in lines that aren't  
+supposed to happen and to be clear it gives the 
+same output as Nash in normal spots but it gives  
+a significantly better output against these ghost 
+lines what do you mean it makes mistakes all right  
+so let me be clear because when we published this 
+people were a little confused about what we meant  
+by this when I say it makes mistakes I'm saying 
+it is intentionally taking a minus AV action a  
+fraction of a fraction of a fraction of a percent 
+we're talking very very small amounts here so much  
+so that they are essentially negligible when it 
+comes to the accuracy of your strategy now the way  
+we introduce mistakes is really cool you see it's 
+done rationally in such a way that the larger the  
+EV loss the less likely the mistake is to happen 
+so mistakes that lose a lot of EV barely ever  
+happen mistakes that lose less EV are more likely 
+to happen and the result of this is that you can  
+actually go and see what the range would look like 
+and they kind of align with your intuition about  
+like what you think their range might look like 
+in this spot now to be clear the goal of QRE is  
+not to model some donkey behavior the goal is to 
+create a highly accurate strategy that is as good  
+as an ash equilibrium by introducing the minimum 
+amount of mistakes of the minimum pertubation  
+needed in order to get good responses against 
+ghost lines some of you will be asking about how  
+accurate the strategy is well we've benched this 
+and I'll get more into the benchmarks later but  
+the exploitability is about 0.1% of the pot on 
+average per street so it's pretty darn accurate  
+to be clear guys we did not invent QR quantal 
+response equilibrium was first published about  
+in 1995 and since then it's been used in a wide 
+array of fields like economics political science  
+and behavioral analysis qre is essentially just a 
+better model of human behavior because well let's  
+face it we're somewhat irrational creatures aren't 
+we what is new is applying QRE to poker gto Wizard  
+AI is the very first poker solver to employ quant 
+response equilibrium let's get down to brass tax  
+how does this help me as a poker player and there 
+are a number of key benefits so because quantal  
+response equilibrium handles these ghost lines 
+better it's going to capture more EV against real  
+world mistakes without nodlocking to be clear you 
+can node lock but you don't need to all of that  
+is kind of captured within the rationality 
+premise of QRE and because of this feature  
+it's going to outperform Nash equilibrium against 
+imperfect opponents imperfect opponents sometimes  
+take non-GTO lines and well frankly all of your 
+opponents are at least a little bit imperfect so  
+that leads to better real world results another 
+cool benefit is that you can see what rational  
+mistakes look like and learn how to punish them 
+and I'll show you guys how to do that in just a  
+minute here it also leads to a better training 
+experience in a regular GTO solver if you take  
+someone that's not supposed to happen the solver 
+just has no idea what to do it looks at you and  
+how did you get here with ace queen man i don't 
+it's not a line i don't know what to do quantal  
+response on the other hand knows what to do it has 
+some well- definfined strategy even in these ghost  
+lines qre also tends to lead to faster solve times 
+on large complicated game trees so if you're the  
+type of person that likes to solve with a bunch of 
+different bet sizes at the same time QR is going  
+to be for you in general we've improved our neural 
+network architecture to lead to sharper less  
+exploitable strategies on earlier straits so it's 
+about 25% less exploitable and we'll cover that in  
+our benchmarks lastly the actual motivation behind 
+cury is that it has this uh special quality of  
+being like pertubation stable so you can kind of 
+poke at the equilibrium and it's still going to be  
+stable even in wildly complicated like multi-way 
+spots where there's many different equilibriums  
+to be honest guys I might be butchering this last 
+explanation a bit because I don't understand it  
+i'm not an engineer but suffice it to say our 
+geniuses in the engine team seem very excited  
+about the the use cases of CER and it seems to be 
+a crucial ingredient for a bunch of like really  
+cool upgrades we want to do in the future so CURE 
+is going to act as kind of a crucial ingredient  
+for multi-way solving and for a bunch of other 
+stuff we want to add so hang in there because  
+2025 is going to be a really exciting year let 
+me give you a real world example seven months  
+ago somebody posted this to the r/poker theory 
+subreddit can't get GTO Wizard to give me an  
+answer villain limp called a 4x phrase heads up 
+they called a 70% bet then versus my check he  
+rips it in i can't remotely figure it out what 
+to do in these spots and GTO Wizard AI refuses  
+to balance a realistic range so he's sitting here 
+with king jack facing this 4x over bet on a flush  
+completing turn thinking well what the hell am 
+I supposed to do here and in the past there just  
+wasn't a good solution to this because either you 
+have to nod lock the opponent's strategy like you  
+have to assume what they're shoving here or you 
+have to just go into some ghost line and to this  
+user remember I replied this was before quant 
+response came out I said yeah this is going to  
+be a problem with any solver to be honest the 
+issue is the turn jam just does not happen in  
+GTO and even if it's the only size available 
+the solver would rather just check in the spot  
+rather than go in forex the pot so essentially 
+this means that the strategy facing the shove  
+doesn't converge since this line is discarded so 
+early in the holding process the class of game  
+theory that deals with this is called trembling 
+hand equilibria and it's not a thing with modern  
+solvers here are some workarounds so I tried to 
+give it the best answer that I could give you know  
+knowing the limitations of the software at the 
+time but now we actually have a proper solution  
+to this so let me first show you what the Nash 
+response looks like to this shove here we have a  
+heads up spot and I'll walk you through the line 
+so villain in the small blind calls we raise 4x  
+they call flop is king jack deuce okay now here 
+they bet 75% this is a spot where the solver like  
+will mix between over bets and small bets mostly 
+leaning towards small bets but okay 75 is not the  
+most commonly used size here but whatever we bet 
+this size they call turn is the seven of spades  
+completing the spade draw here they're holding 
+king jack they check and villain just rips it all  
+in 450% pot it may come as a surprise to you that 
+betting 450% of the pot is not an ideal strategy  
+in this spot in fact when they shove here they 
+have no hands so selected line is rarely used in  
+GTO solution may be inaccurate we get this error 
+right and if we go into what our opponent's range  
+looks like we can see it is nothing so what is 
+the best response against a nothing range well  
+what we end up with is a strategy that's not very 
+well converged first of all if I go look at the  
+equity it says everything is 50% you know it's 
+like the old saying goes it's either 50/50 he  
+either he has it or he doesn't what are you 
+going to do you know this is just a like an  
+error based on the fact that small blind has 
+no range in this spot furthermore it's just  
+not a very good strategy like we're folding some 
+flushes okay that's a little odd and then if we  
+go look at the the two pair like you'd think if 
+you have let's say the jack of spades you should  
+call a little bit more often than let's say jack 
+deuce maybe if you have let's say top pair and you  
+have like the ace of spades like you would think 
+this hand should pure call right or at least call  
+more than the other top pair hands but again 
+this spot just hasn't converged because small  
+blind shouldn't be shoving here at all okay so 
+this is the Nash response and it's not very good  
+now let's go over to the quantal response and here 
+again they should not be shoving right they just  
+shouldn't shove at all this one is actually a much 
+better strategy first of all we're not folding a  
+flush facing this size right um and then if we 
+take a look and compare let's say two pair we can  
+see things like if you have the jack of spades you 
+should call more than without and if we go over to  
+like let's say top pair you can see that ace king 
+with the ace of spades should call more than ace  
+king without the ace of spades right like really 
+obvious kind of like this is the first thing you  
+would think of solutions to this spot we can also 
+see that there's equity and expected value and so  
+everything is nicely converged in this spot 
+despite the fact that small blind should not  
+be shoving here we still get a nice response to 
+it and we can go and look at what their perceived  
+range ought to look like so if I click ranges 
+here we can actually see okay what are they  
+supposed to be shoving here if they were to shove 
+even though shoving is bad like even though this  
+is like a bad strategy if they were to do it how 
+should they do it and this is what it came up with  
+so on the right hand side we can see it's shoving 
+with bottom set pocket twos which is kind of an  
+interesting one because like okay you're going to 
+get called by a lot of flushes but you have outs  
+against those flushes that call you pocket threes 
+which is just a bluff and then if we go into here  
+we can see like 30% flushes 16% sets and then 
+for bluffs we've got stuff like uh queen nine  
+with a spade so this is a combo draw and then 
+like a whole lot of flushes at the top so we've  
+got kind of like a realistic strategy that they're 
+shoving with right and this is kind of the benefit  
+of QRE it's not just that we get good responses 
+against ghost lines it's that we can kind of see  
+what the mistaken strategy ought to be next I'd 
+like to show you what happens in a trainer so  
+here's a hand that was played horribly right and 
+you can see that in this spot the Nash equilibrium  
+strategy is question mark it has no idea what 
+to do the answer is not available because well  
+small blind is never supposed to arrive at this 
+spot with ace queen now in the exact same spot  
+in quantal response equilibrium even though it's 
+not really supposed to get you like this there  
+is a well-con converged correct answer it is just 
+supposed to ship it right even though you can see  
+like it never takes this so on the side we can see 
+bet 25% equals 0% of the time we're never supposed  
+to take this action there is still a well-con 
+converged strategy for it let's talk benchmarks  
+so I've shown you the strategy comparisons i've 
+explained to you what QRE is but realistically we  
+just need to measure how good it is right we just 
+need to put it under the microscope and get some  
+numbers and the numbers were good so we're looking 
+at a 25% more accurate strategy by which I mean  
+it is 25% less exploitable on the flop compared 
+to our last algorithm it is three times faster  
+in big complicated pots and it is 38 times better 
+if you consider a metric that uses equal weighted  
+decisions and I'll get to that in just a second 
+here we'll start with the flop exploitability  
+this is kind of our standard method for benching 
+our solver and you can see different iterations of  
+our solver over the last couple years 2023 24 25 
+it's been getting better and better and our latest  
+iteration is a pretty big step up so right now it 
+solves to an accuracy of about 0.12% of the pot  
+give or take 06% so it's really good and again 
+to be clear this isn't an inherent advantage of  
+quantal response equilibrium it's just thanks 
+to upgrades to our architecture in general  
+but to anyone who's worried that introducing you 
+know a tiny amount of mistakes into the strategy  
+will make it too exploitable here i'm hoping I 
+can convince you that that is not the case it  
+is an extremely accurate algorithm another way to 
+bench how good the solver is is to figure out how  
+quickly it solves different spots so we solved 
+a bunch of different spots and we measured the  
+average solving time in seconds as well as the 
+maximum solving time now Nash equilibrium is  
+actually a hair faster so it is 40 milliseconds 
+faster on average but the human mind is barely  
+capable of recognizing a 40 millisecond delay 
+what actually matters is the max solving time  
+in practice right qi is up to three times faster 
+on the max solving time so here you can see this  
+graph that's the blue line representing the 
+the Nash distance and then the max solving  
+time on the y- ais and we solve our rivers to 0.1% 
+accuracy that's why the the line stops there but  
+uh in general QRE tends to have a much lower 
+max than than Nash so what this means to you  
+is that you can expect much faster solutions for 
+big complicated spots let's talk about measuring  
+performance in ghost lines normally if you want 
+to measure how good a strategy is again you  
+just take the Nash distance the exploitability 
+sometimes we call this the accuracy it's just  
+a way of asking if you were to max exploit the 
+strategy how much money could you win against  
+it now the problem with this particular metric is 
+that Nash distance ignores performance in low or  
+no frequency lines after all if a spot is never 
+supposed to happen then it has no impact on the  
+performance of your strategy but in practice 
+people are imperfect and they do take these  
+non-GTO lines so in practice these lines do have 
+a direct effect on your EV therefore it would be  
+very nice if we could measure the performance 
+including these nonGTO lines so we've come up  
+with a new metric which the team is calling a 
+tree payoff weighted loss or TPWL for short we've  
+put out an explanation in the patch notes that 
+goes over this in detail but in short TPWL is  
+just the average EV loss if every decision were 
+equally valuable so regardless of how often you  
+make that decision how often you get there with 
+that hand how often that note occurs how big or  
+small the pot is like we we normalize by the size 
+of the pot take away all of that and just treat  
+every single decision as equally valuable and then 
+average the EV loss of all of those decisions and  
+what you end up with is a metric that measures 
+every node in the game tree and what we found  
+is that quantile response equilibrium is far 
+more accurate on this bench so it typically  
+Nash equilibrium will converge to something like 
+I don't know 4% EV loss whereas QR was closer to  
+zero about 38 times more accurate according to 
+this so pretty darn good now that said all this  
+is really measuring is it's answering the question 
+how good is the quality of the strategy at each  
+individual node in the game train of all possible 
+decisions of course in reality the exploitability  
+of your strategy is still a far more important 
+metric however having low exploitability does  
+not guarantee good performance in all nodes and 
+if two strategies have equal Nash distance and  
+one of them has a better tree payoff weighted 
+loss that will outperform in the real world  
+where people make mistakes okay let's get into the 
+technical explanation for the nerds remaining i'm  
+going to explain how it works under the hood the 
+first point I'd like to make is that there are  
+multiple paths to achieve perfection you say we 
+often talk about GTO as if it's this uh singular  
+unexploitable strategy when the truth is that 
+there are a bunch of strategies that satisfy  
+even very stringent accuracy requirements so 
+in practice we solve to some Nash distance  
+let's say.1% of the pot that's an extremely good 
+accuracy but even that tiny little bit of wiggle  
+room means that there's many possible strategies 
+that will fit inside this circle and so what that  
+means is that both a classic Nash solver as well 
+as our new quant equilibrium solver land in this  
+territory of nearly unexplainable strategies and 
+this isn't even a new concept like I actually  
+covered this in a video that's 3 years old now 
+efficient studying and there I demonstrate that  
+when we took three classic solvers so not AI 
+but like classic old school solvers and solve  
+the exact same spot with the same bet sizes 
+what ends up happening is that we get three  
+completely different strategies and yet all three 
+strategies had the exact same exploitability exact  
+same accuracy uh so there's more than one path to 
+perfection guys okay now that we understand that  
+let's take a look under the hood of QRE so unlike 
+Nash equilibrium which is perfectly rational QR  
+has some kind of irrationality to it so we know 
+it makes mistakes sometimes and the way we define  
+that is through some constant we call lambda 
+this is the irrationality constant and the higher  
+lambda the more irrational it's going to be so the 
+probability of making a mistake is chosen with a  
+softmax function that uses lambda as an input 
+now again Nash is a perfectly rational strategy  
+so with classic Nash equilibrium it is equivalent 
+to here just using a uh an irrationality of zero  
+right so you are perfectly rational you never 
+make mistakes with QRE it does make mistakes so  
+generally when we're solving we start with like a 
+higher value for lambda and then we slowly anneal  
+down to make fewer and fewer mistakes to be clear 
+you don't really need to do that per se it just  
+makes it converge a lot faster but the point is 
+that we start with mistakes and then we end with  
+a strategy that is nearly mistake free but while 
+it was solving it remembers all those mistakes  
+along the way and it knows how to respond to them 
+okay so in order to help you guys understand this  
+I've built this interactive calculator and this 
+is going to show you how QR will actually pick an  
+action probabilistically so let's say that you're 
+choosing between checking and betting and you can  
+check behind and just always lose let's say you 
+have some like give up hand on the river or you  
+can bluff and maybe bluffing is worth 5% of the 
+pot so your opponent's overfolding a little bit  
+now here we can see that red bet that would be 
+to bluff is the preferred strategy obviously  
+right and in a Nash equilibrium silver it's 
+just always going to bluff 100% of the time  
+right and this is simply because well it's the 
+higher review strategy but with QRE we actually  
+value some mistakes so we want some small amount 
+of mistakes to go in there and so we end up seeing  
+is that sometimes it does check and how often 
+it checks depends on our irrationality parameter  
+lambda now at the extreme end let's say we are 
+uh extremely irrational it's just going to do  
+random stuff right like there's no rhyme or reason 
+it's just going to button click but as we zoom in  
+let's say like a 0.1 or something it's going to 
+make mistakes less and less and less often now  
+in practice we're starting very very low like 
+we again you don't need much irrationality in  
+order for this to work so in practice we're only 
+introducing mistakes at a very low frequency and  
+it gets lower and lower as we solve but again 
+the solver remembers how to play against those  
+mistakes so even though these are slowly cooked 
+out or baked out of the solution as we solve the  
+memory of how to play against them remains on the 
+right hand side here we've got some equations this  
+is just basically describing the soft max function 
+that tells you how it's picking actions and I've  
+also made a Desmos chart here if you like sliders 
+personally I like the stacked area charts that  
+describe a strategy but if you guys want you can 
+like play around with this and see how it changes  
+i thought this kind of like helped me understand 
+what was going on with QRE okay so you might also  
+ask yourself how it works when there's more than 
+two actions so I've also built this one facing a  
+bet and so in this case we have three choices we 
+can either fold call or raise and right now I have  
+it set at 000 so we're just going to take all 
+actions equally so it's perfectly split for now  
+but let's say that raising is somehow profitable 
+and calling is unprofitable right so in this case  
+again at the extreme always going to raise because 
+it's the most profitable action right and that's  
+where we end up but an irrational player will 
+sometimes at some frequency they're going to call  
+and at some frequency they're going to fault and 
+as we solve we bake out all of these imperfections  
+but the solver remembers these mistakes along 
+the way the these are the formulas that kind of  
+describe how QRE selects some action and I've 
+also got a Desmos graph for this one but look  
+guys there's way more that goes into this like 
+this is just uh kind of a small part of solving  
+there's a whole bunch more that goes well beyond 
+my expertise and more that I can explain here uh  
+but I still found it helpful to kind of get a 
+feeling for how cury works uh how the mistake  
+probabilities work and all that so if you're like 
+a spreadsheet nerd like me I thought you might  
+appreciate this quantal response equilibrium is 
+the natural evolution of GTO strategies while Nash  
+perfects normal lines QRE optimizes every decision 
+including spots that aren't supposed to happen  
+to put it simply this algorithm outperforms Nash 
+against opponents who make mistakes which is by  
+the way all of your opponents this upgrade isn't 
+just about better responses to ghost lines though  
+qre is a crucial step towards solving more 
+complicated spots like Multi-way and several  
+other projects that our engine team is working 
+on so stay tuned guys there is so much more to
+come
+yeah yeah yeah yeah [Music]

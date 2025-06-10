@@ -1,0 +1,69 @@
+### TOPIC: overbetting flop
+Overbetting The Flop in Cash Games
+Although most commonly analyzed on turns and rivers, flop overbetting can be a devastating weapon that generates massive amounts of EV at equilibrium while also having tremendous exploitative merit.
+This article will equip you with the tools to build out polarized flop strategies. Please note that this article is aimed towards advanced players, so if you’re relatively new to poker, I would highly recommend reading this article on flop c-betting first.
+
+Why Does GTO Overbet the Flop?
+To understand why GTO might opt to overbet the flop, we should familiarize ourselves with the concepts of Nut Advantage and Urgency.
+
+What is Nut Advantage?
+Nut advantage is when you have proportionally more strong hands at the top of your range than your opponent. While a nut advantage does not directly lead to an overbetting strategy, it’s rare to see an overbet placed by a player at a nut disadvantage.
+A player with a nut advantage has incentive to get their stack in. The reason why is simple; it places the top of one player’s range against the top of another’s. As more and more money goes into the pot, ranges get tighter and tighter. The player with the nut advantage will win this matchup more often. Overbetting is a powerful tool for achieving this goal.
+
+What is Urgency?
+“Urgency”, sometimes called “Haste”, refers to when you have an extremely strong hand now, but one that may not be as strong on later streets.
+An example of this is opening the BTN with JJ, getting called by the BB, and seeing a flop of T85 Rainbow. On this flop, JJ is currently ahead of 97% of the opponent’s range but only has 79.6% equity. This gives the JJ urgency to build the pot quickly before any overcards or draws allow our opponent to catch up.
+Lessons in Overbetting The Flop
+This next section aims to use what we’ve learned in some of the most common flop overbet spots. First, we’ll take a look at a few different categories of flop that are frequently overbet. Next, we’ll discuss topics like hand elasticity, which can help us understand why the solver may choose to use an overbet.
+
+Double Broadway Overbets
+Double Broadway boards are relatively common. By filtering for this board type, we find that the overbet is often the predominant strategy.
+The overbet is employed because these boards:
+Give us a large nut advantage as the PFR.
+Many draws exist, but none have completed yet, motivating us to build the pot with our nuttish holdings as quickly as possible.
+Let’s investigate some more Double-Broadway boards!
+When looking at flop strategies, it’s useful to compare Two-Tone and Rainbow boards, as there can be considerable differences between their strategies.
+By comparing these two flops side by side, we can directly compare the effects of urgency. On both of these flops, the PFR has a large nut advantage, but the flush draw version causes them to size up and bet less often. The reason for this is unsurprising: We are more prone to getting outdrawn, so we should size up to get value now rather than later.
+This also explains why overbets do not happen on boards like K72:
+Despite having a huge nut advantage, rather than build our flop strategy around nutted hands, we prefer to build it around bluffs. Our opponent’s range has a lot of inelastic folds—hands so hopeless that they have to fold to any bet—so we prefer to take advantage of this by betting the flop smaller and risking less with our bluffs.
+We don’t have to worry about losing value when doing this; most turns and rivers are clean, so we can simply incorporate overbets on later streets to get the money in. The flop is built around bluffs; the turn and the river are built around our nuttish holdings.
+
+Middling Board Overbets
+A common misconception is that flop overbets only happen on high card boards. When viewed from a surface level, you’d be forgiven for believing this myth. The preflop caller does pair more often on a 973r flop than the preflop raiser after all. And yet…
+If the preflop caller has more pairs in range than us, why would we still choose to overbet?
+The answer comes down to the quality of the pairs! Despite having fewer pairs in range overall, the BTN has a monopoly on all of the overpairs. Due to the complete lack of possible two pairs and straights on this board, any overpair is essentially the nuts.
+Nut Advantage + Draw Heavy Board = Urgency → Leading to Big Bets
+Since we’ve already explored the concept of urgency leading to overbets, let’s now explore the concept of hand elasticity and how it relates to flop strategy.
+
+What is Elasticity?
+Elasticity refers to how prone a hand is to altering its action facing various bet sizes.
+Looking at the charts above, we can determine which hands are elastic and which hands aren’t.
+44 is an elastic hand. Facing the small 33% pot bet, it should always call. It can start mixing folds against 50% pot and should mostly fold against 75% pot. Against the overbet, the hand can no longer continue. K7s and Q2s are both examples of inelastic hands. Q2s must always fold no matter the bet size, while K7s should continue up to around 150% pot.
+Entire ranges can be thought of in terms of elasticity; the more elastic hands a range has, the more it can adapt to pricing, including larger bet sizes. Elasticity is related to the concepts of indifference and hand targeting.
+Thinking back to Double-Broadway boards, hands like 98s are already close to 0 EV on the flop, so there isn’t a point in folding them out. So instead, we use a large bet to target hands like QJ, QT, JT, and Kx force them into indifference.
+
+Overbetting IP against SB Flats
+Most players play the same way against the SB as the BB, this is a mistake! And one doesn’t have to look much further than low paired flops to see this.
+Not exactly a 33% pot range-bet! Why?
+The SB caller has significantly worse pot odds than the BB to enter the pot, and risks being squeezed as well. The result is a flatting range consisting of mostly pocket pairs and suited broadway holdings.
+Since this range is pocket pair heavy and devoid of trash, the SB will almost always have an equity advantage over the IP player on low boards.
+Comparing the EVs between the SB and PFR, we find something interesting. Despite the SB having the equity advantage, the PFR actually has the overall EV advantage. As we should come to expect at this point, Nut Advantage is the culprit. Understanding why the overbet is the most effective strategy is fairly intuitive when we look at the SB’s response facing it.
+The overbet perfectly targets pocket pairs and strong Ace high! Look at all the indifferent hands! The ELASTICITY!
+The SB’s range is already condensed preflop, so a small bet simply doesn’t achieve much. At risk of overkill, compare the sheer difference in fold equity that the small bet has against the SB’s range opposed to the BB’s.
+20% less folding!
+
+Overbetting When Checked to as the IP Preflop Caller
+Our final spot is a black sheep in that we are overbetting as the PFC. In this section, we’ll focus on HJ vs. BTN SRPs, but similar principles apply to most IP PFC spots, including blind-vs-blind spots.
+Like the SB flatting range, the BTN’s range consists of mostly pocket pairs and suited broadway holdings.
+When checked to on low boards, our strategy mainly consists of high frequency small bets. This makes sense as our pocket pairs have incentive to deny equity from overcards, and a small bet best attacks these holdings. We can always size up on later streets with our nuttish hands as needed.
+On Ace-High boards, overbetting is the predominant strategy, and nowhere is this more pronounced than Ace-Low-Low boards.
+We actually have the Nut Advantage on these boards because of our sets and two pairs!
+The overbet serves to make the HJ’s Ax and under-pairs indifferent on the flop. Now that’s targeting!
+
+Conclusion
+In conclusion, mastering the art of overbetting on the flop can be a formidable strategy that gives you an edge over your competitors. In this article, we have examined different scenarios where you can utilize devastating overbets to crush your opponents.
+When contemplating a flop overbet, three crucial factors should be taken into account:
+Nut advantage – Determine who possesses a higher proportion of strong, premium hands within their range.
+Urgency – Strong but vulnerable holdings have more incentive to build the pot immediately.
+Elasticity – How sensitive is my opponent’s response to bet sizing?
+The key to effectively implementing flop overbets is choosing your spots wisely.

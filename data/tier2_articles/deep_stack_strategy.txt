@@ -1,0 +1,64 @@
+### TOPIC: deep stack strategy
+Poker is always a game of strategy, but the variety of plays available with a shallow stack is quite limited compared to advanced options with deeper stacks. While playing deep stack is mostly reserved for cash game players, the early stages of many tournaments also require players to play very deep, so you need to understand the basics no matter what your game is.
+If you have learned how to play poker with shallower stacks and don’t feel very comfortable with more than 100 big blinds, you have come to the right place.
+We are about to look at the most useful tips for deep stack poker play, which will help you make proper adjustments. But before we look into those, let’s try and understand the concept of deep stack poker in general and how it differs from more short-stacked play.
+When playing with deep stacks (typically 100+ big blinds), the dynamics of the game shift significantly, requiring adjustments in strategy to maximize profitability and minimize risk.* Expand Your Preflop Range: Deep stacks increase implied odds, making speculative hands like suited connectors, small pairs, and suited aces more valuable. These hands have the potential to win large pots when they hit strong post-flop combinations.* Exercise Postflop Caution: With more chips behind, it’s essential to be cautious with hands like top pair or overpairs, as the potential for opponents to have stronger hands increases. Focus on pot control and avoid overcommitting with marginal holdings.* Leverage Position: Positional advantage becomes even more critical in deep stack scenarios. Playing in position allows for better control over the pot size and more informed decision-making throughout the hand.* Adjust Bet Sizing: Tailor your bet sizes to the depth of the stacks. Smaller bets can be effective for pot control, while larger bets can apply pressure and build pots when holding strong hands.* Be Mindful of Stack-Off Thresholds: The deeper the stacks, the stronger your hand needs to be to commit all your chips. Recognize situations where it’s appropriate to stack off and when to exercise restraint.Mastering deep stack strategy involves a balance between aggression and caution, leveraging position, and making informed decisions based on the depth of stacks.
+Generally speaking, the term deep stack poker refers to playing with more than 100 big blinds.
+Most commonly, deep stack poker is played at cash game tables. As players can buy in deep from the get-go, and the blinds don’t go up, most players at the table end up with a fairly big chip stack over time.
+While the rules of play don’t change at all, many strategic implications come into play when the stacks get deep.
+In deep stack games, you will see more post-flop play, fewer all-in confrontations, and quite a few difficult spots where the right play is not 100% clear.
+For that reason, many of the best poker players like to play with deep stacks, as this allows them to exploit their opponent’s mistakes and capitalize on their strategic advantage.
+If you want to learn how to adjust your play when sitting with a big stack, keep reading and find out the top 10 tips for playing deep stack poker.
+One thing you will often notice in live cash games is that, as the stacks get bigger, some players start making bigger open raises.
+It is not uncommon to see people raise it up to $20 in a $1/2 Texas Hold’em poker cash game when the stacks get deep, but this is not a strategy you should adopt.
+In fact, there is no reason to change your raise size depending on stack sizes. Opening to 2.5x or 3x is fine, even with hundreds of big blinds in your stack, and adding a big blind per limper is also a good idea.
+Keep in mind that, just like you would if the stacks were shallower, you want to raise bigger with your value hands if there are players at the table who seem to be playing many hands regardless of your raise size.
+For instance, if there is a player who limp-calls any raise, you may want to raise 10x or more when they limp, and you have a hand like A-K, K-K, or pocket aces. On the other hand, it is important not to give too much up with your raise sizes and only make such adjustments in extreme cases.
+Against most players and at most tables, you will want to raise to a normal size with your entire opening range and look to make adjustments to your 3-betting and 4-betting sizes.
+While your open raise sizes remain the same, the hands you raise depends on your position. The preflop charts on PokerCoaching.com show what hands to raise from what positions.
+Deeper stacks also mean bigger average wins and losses, which is why you should expect your variance to increase even if the stakes you are playing are somewhat the same as they were when you play with a shallow stack.
+For instance, a player who always buys in for $1k in a $1/2 game will have bigger swings than the one who buys in for the minimum $100.
+If you buy in deep and keep playing with a deep stack all night, you can expect to win and lose some massive pots, which will lead to significant variance.
+A single turn of a card could cost you hundreds or even thousands of big blinds in some scenarios, which is why you will need a big bankroll if you want to play deep-stack poker.
+However, keep in mind that bigger losses also mean bigger wins. Good deep-stack players generally do much better in poker games than great short-stackers.
+Poker solvers are your friends if you plan on playing deep stack poker, and you should never forget that. Studying with solvers will make you a much better poker player.
+While we strongly recommend using exploitative play in deep stack situations, knowing what the solver might do in certain spots will give you a great baseline to start from.
+What’s even more, simply understanding why solvers do the things they do will make you a better player and allow you to see the game of poker in a new light that you have never seen it in before.
+Studying hands and running them through solvers helps you become a better player.
+When playing out of position in deep stack games, your 3-betting range should undergo the most changes.
+Playing a polarized 3-betting range in the blinds, made up of the most valuable hands and a bunch of bluffs such as A-x hands and suited connectors will make you more difficult to play against.
+By having a lot of bluffs in your 3-betting range, you will be able to 3-bet more against aggressive players and also have better board coverage when they do continue to a flop.
+A hand like 7-6s will work better as a 3-bet from the small blind than a hand like A-To because the range that will continue against a 3-bet will be made up of hands that A-T plays worse against.
+The bluffs in your 3-betting range will allow you to win many pots on the flop by representing hands like A-K or A-Q but also have disguised hands like two pairs, straights, and flushes on a variety of boards.
+Remember not to take it too far with 3-betting OOP either, but take the opportunities you can, especially if the table tends to play soft against 3-bets.
+It is critical that you maintain a polarized range when 3-betting out of position.
+When playing with 50 big blinds, it is usually a no-brainer to pile the chips into the pot with a hand like pocket jacks or A-K, and most of the time, it is the right thing to do.
+When sitting on a 250 big blind stack, or even deeper, you may want to avoid making such plays and add hands like J-J, Q-Q, and A-K to the range of hands with which you call 3-bets instead of 4-betting.
+By just calling with these hands, you will allow yourself to have some very big hands post-flop while keeping your opponent’s range quite wide. At the same time, you will avoid getting into trouble against hands like K-K or A-A.
+In fact, depending on your opponent’s aggressiveness, you will also want to just call a 3-bet with a hand like K-K or A-A yourself from time to time, making you extremely unpredictable and hard to play against in these situations.
+Add a few A-x hands or random bluffs like 6-5s into your 4-betting range, and you will start playing like your favorite poker heroes you have seen playing in deep stack cash games on TV.
+When deep stacked, you can add hands like 6-5 suited to your 4-bet bluffing range.
+Playing deep stack games out of position can be extremely tricky, and there are quite a few times when you will want to play more defensively and control the size of the pot as much as possible.
+Checking and calling will replace betting and raising on many different boards, and this is simply the way things must be.
+For instance, when you flop one pair after 3-betting from the small blind, you definitely don’t want to force the issue and get 300 big blinds into the pot on the flop.
+While you may still have a pretty good hand, chances are that if all the chips go into the pot, you will be drawing nearly dead.
+By playing more defensively, both with your monsters and your medium-made hands, you will allow your opponents to bluff off their chips more often and generally play worse than they would if you took the aggressive approach.
+One of the biggest mistakes recreational poker players make in deep stack poker games is that they stack off before the flop, holding hands like A-K, A-Q, or J-J.
+While there are certain scenarios against some players where stacking off with such a hand preflop can make sense, most players will not put in a few hundred blinds before the flop without at least K-K.
+What’s even worse, even if they do get it in with a hand like Q-Q or A-K, you will never have enough equity to justify going all-in in such scenarios, making it a bad idea to force the issue with hands like A-K, A-Q, or J-J.
+In fact, such hands are ideal candidates to just call against opponent’s 3-bets, and almost always good calls against 4-bets as well.
+However, 4-betting these hands will often get all the worse hands to fold, while 5-betting them against most players will also either lose you value or cost you your whole stack.
+Be very careful with stacking off preflop in deep stack games, and try to avoid doing it without real monster hands unless you are facing an absolute maniac across the table.
+Be wary of stacking off with hands like A-Q and J-J.
+The value of implied odds increases in deep stack poker games, as you stand a chance to win more if you get lucky. Hands like straight draws and nut flush draw have a lot more value when the stacks are deep, as they open up possibilities to win some massive pots.
+For example, if you are in a hand with the nut flush draw and you hit your gin card on the turn or river, there is a chance another player has a flush and may end up paying you in a big way.
+The same goes for straight draws, which can make you a monster hand and get you paid big by flopped sets, two pairs, other strong hands, or even just very aggressive bluffs.
+If you have ever watched the pros play in deep stack cash games, you have probably noticed them making some huge moves with big hands, such as nut flush draws and open-ended straight draws with overcards.
+By playing your big draws as aggressively as you play your monster hands, you will get paid more often when you have a hand like an overpair or a set while also being able to exert maximum pressure and get more folds when you have just a draw.
+If you are the kind of player who only ever makes big bets with a set, no one will ever pay you off when you do make those big bets.
+On the other hand, if you mix your big bets between the two, you will get better results with both, winning big pots both when you make your draws and when people try to bluff catch against you, eventually turning you into a real deep stack machine.
+When playing deep stacked, do not be afraid to get aggressive with your draws!
+The position is always important in poker, but as the stacks get deeper, their importance grows even more.
+Being in position means you can realize more equity and better control the size of the pot, both of which are extremely important factors in deep stack play.
+While playing speculative hands on the button or cutoff can be quite profitable, the same hands fade in value when played from UTG or the blinds.
+This does not mean you should fold hands like 9-8 suited in the small blind, but it does mean that you should be very careful when handling off-suit hands, gap-connectors, and other weaker hands out of position.

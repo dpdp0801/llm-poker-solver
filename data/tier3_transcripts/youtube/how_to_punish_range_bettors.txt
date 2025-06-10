@@ -1,0 +1,143 @@
+### TOPIC: how to punish range bettors
+hey everyone what's up this is Uri for GTO 
+Wizard and in this video I'm going to show  
+you how to crush people who range bet small but 
+let's get into it [Music] so the key to beating  
+any strategy is first of all to understand 
+it and in order to understand the strategy  
+of range betting small I'm going to ask you a 
+simple question and that's you know if we're  
+optimizing for a hand group say either big hands 
+like ace8 or ace king on this board ace8 deuce or  
+medium to small hands like pocket 9 pocket sixes 
+king queen high which type of hands do you think  
+the small bet optimizes for and the answer to 
+this is very clearly the small hands right ace  
+king and ace8 they want big pots i want to bet 
+big something like nines would really kind of  
+appreciate a smaller bet size so the first key 
+bit to understand about the small bet strategy  
+is that it's centered around small hands and in 
+poker a lot of the the dance is how do I get a  
+lot of money in with my big hands without leaving 
+my little hands too face up so they get run over  
+and one way to do this is just chunking everything 
+together so betting everything here I forced the  
+solver to bet everything and once your opponent 
+calls and you get a turn card you now separate  
+your range into two bits which I'll show you guys 
+how to do and and it's very very straightforward  
+and very particular to this kind of strategy where 
+after the small flaw bet now anything like nines  
+or a pair of eights or sevens there's a very 
+clear-cut differentiation now we bet this is  
+called a polarized bet so very very bigger check 
+and all our medium strength hands get to the river  
+so this is the idea of a small bet strategy now 
+how do you beat people once you understand this  
+idea there are actually a few different segments 
+to beating and a few different types of mistakes  
+that you might be making uh mistake number one 
+is folding too much uh when your opponent bets  
+small it's very important that you're aware of a 
+concept called backdoor equity or backdoor draws  
+just continuing with pairs and draws and maybe 
+high card hands isn't enough and I'll show you  
+guys this quickly on the solver where you can 
+see a hand like pen n just continuing on a deuce  
+rainbow this is three to a straight jack 10 is 
+almost three to a straight but it it can make  
+shots on both ends a hand like 97 is always 
+continuing a hand like 67 can continue in a  
+hand like 65 can even continue and this is due to 
+the backdoor equity so these these hands can turn  
+draws similarly all sorts of hands with backdoor 
+flush draws even as weak as 95 suited or 74 suited  
+get to continue versus a small bet now if you're 
+not aware that you can continue with these types  
+of hands there's a very high likelihood these 
+small bets are running you over so first step  
+to countering the small bets is to continue with 
+a wide calling range second step to continuing  
+versus a small bet is your raising range now I 
+already said this is meant to optimize for your  
+opponent's weak to medium strength hands and if 
+we don't raise aggressively they get to see the  
+river kind of cheap with any hand that they want 
+so what the computer does to counter this is it  
+has a very aggressive check raising strategy 
+with both a lot of bluffs a lot of value hands  
+a lot of backdoor draws not in addition to draws 
+especially on these kinds of dry boards so this  
+awareness of backdoor draws is important but there 
+are also some hands that are not actually looking  
+to put a stack in and here we would see something 
+like A6 ace9 suited uh 89 suited of course pair  
+of deuces is generally looking to bluff and and 
+a pair of eight scisses at times too it depends  
+on the runout but the idea with these hands is uh 
+we can attack the weak to medium strength hands it  
+doesn't have to be by putting our stack in it just 
+needs to be by putting more money in with a better  
+hand so something like A6 would go check race and 
+then how do you play it later well just as though  
+the pot is the size you got to and this is your 
+hand strength so very likely check the turn and  
+then maybe throw in a small value bet on the river 
+of course if you turn a six things change and yeah  
+that's part of the game constantly re-evaluating 
+your hand so the number two thing is you want to  
+be check raising aggressively including a bit 
+merged and including back door draws and this  
+denies your opponent the ability to see the river 
+for free now I'll throw in a caveat that if you're  
+going to check raise you better know how to play 
+the turn and you can study this with GTO Wizard  
+most hands tend to play rather intuitively but 
+understanding which turn cards are good or bad  
+for each player helps to manage your frequencies 
+in these spots okay so third key to beating the  
+guys who range bet is to recognize that 
+these guys have kind of pulled the trick  
+so they took their weak hands they bet them along 
+with the strong hands on the flop but then once  
+they checked the turn generally speaking they 
+get to the river with a very weak range now the  
+computer will actually check back stronger than 
+most humans will but in practice most guys keep  
+betting all their good hands check back you know a 
+range that's very centered on threes through kings  
+and 8x and king highs and the third key here is 
+just to be extremely aggressive on the river um  
+and here you see an example of the solver going 
+for a pot-sized bet with most all pairs uh going  
+for quite a few bluffs and if I were to input 
+multiple sizes which I'll do right now you'll  
+actually see that there's also this wide swath 
+of middle pairs which are also betting small to  
+punish your opponent for all the sevens and fives 
+and fours and sixacks and king highs that he got  
+to the river with so very wide very aggressive 
+betting and the less your opponent is trapping  
+the more you can actually size up these bets even 
+bigger and even have over bets so the key thing  
+is that you recognize that the weakness and the 
+strategy is at two points number one when they bet  
+the flop there are a lot of weak hands in there 
+and number two once they check back the turn they  
+get to the river with quite a lot of weak hands 
+and these would be the pressure points where we  
+we can try to take advantage of the strategy 
+whereas when they bet the turn big that's just  
+a very strong range and there's not much you 
+can do there other than hope that you have a  
+good hand and fold quite often the rest of the 
+time so uh that's it for this video i hope that  
+understanding the big picture idea behind range 
+betting as well as three different counters to  
+it is helpful for you guys i know a lot of people 
+implement this strategy and encounter the strategy  
+without really knowing the big picture and I 
+always find that these kinds of things help so  
+hope you enjoyed it like and subscribe to the 
+channel i'll see you guys next time [Music]

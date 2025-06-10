@@ -1,0 +1,398 @@
+### TOPIC: gto analysis
+what's up guys this is tom for gto
+wizard in the spirit of halloween we've
+prepared some spooky gto analysis for
+you we're gonna review two hands that
+put us in some scary spots followed by
+an in-depth look at the gto strategy
+behind them let's jump right in
+[Music]
+this first hand starts off with
+queen two suited in the big blind
+cutoff opens
+recall
+flop comes four four deuce rainbow
+cut off bets third part and we call
+the turn queen of hearts upgrades our
+two pair to a three pair which is really
+just a queen with no kicker
+and the cutoff bets 75 pot we make the
+call
+the turn jack of hearts completes the
+backdoor flush draw and they shove
+over four times the pot what are we
+supposed to do here hearts beat us
+boats beat us trips beat us heck even a
+better queen beats us
+and yet
+we should make this call
+why is that
+let's take a look at the gto analysis
+so cut off opens
+call in the big blind with this range
+lop comes 4 4 deuce rainbow and this is
+an interesting texture i think most
+players would categorize this as quite a
+dry flop and that's because everything
+missed
+right if we take a look at the ranges
+tab
+we can compare the hands breakdown
+between both ranges
+we can see that
+over 80 percent of both ranges are just
+over cards it's just air
+trash
+however because there's no high cards on
+the board all of these over cards are
+competing to outdraw each other and this
+actually makes this type of texture very
+dynamic and we notice there's a small
+donking range here up 13 what's going on
+with that
+let's go look at the equity buckets and
+i want to observe the nut advantage
+and look at this equity distribution
+graph
+now we have a small nut advantage near
+the top and this is mostly owing to
+the fact that we have more trips we
+defend with more forex than they open in
+the cutoff however they have a big range
+advantage throughout and that's simply
+because
+their over cards
+are stronger than our over cards
+so we check
+and cut off it's not range betting here
+but they bet small and betting small is
+quite common compared boards and single
+raised pots
+the reason for that is they don't need a
+big bit to target our air right they're
+not trying to fold us off a made hand
+here they're targeting king high they're
+targeting
+nine seven suited queen 10 off type of
+stuff what stands out to me is just how
+much it's check raising care over 20 of
+the time and that's owing to this
+dynamic board texture you can see even
+queen 2 does play as a raise quite
+frequently in general you want to be
+raising with hands that have good
+backdoor potential such as 3x or 5x
+backdoor flush draw backdoor straight
+draw
+gut shots
+hands like that
+so we call
+we turn
+a queen of hearts
+now the queen of hearts
+very sad card for us
+right we're not really defending that
+many queens we even raised some of them
+flop if we take a look at the turn
+reports
+what i'm going to do here is
+we're going to sort
+all the possible turn cards by ev
+we can see
+top here this is our ev hence the
+queen's not a great turn card for us but
+it's an excellent turn card for the
+cutoff why is that
+that's because
+cutoff
+is betting lots of queen x
+whereas
+we're not calling that much queen x in
+fact we'd much rather have seen an ace
+because we actually have an advantage
+in the ace cards so queen of hearts
+we're going to range check this
+and cut off splits their strategy
+they've got anywhere between a block bet
+and an over bet in this spot many
+different viable options now the 75
+percent is on the more polarized side of
+what they can do
+they're mainly doing this with stuff
+like top pair some over pairs
+various draws flush draws gut shots and
+such when they bet 75 we can already see
+that
+we're put in a pretty
+tough spot
+most of our range is getting close to
+indifferent here you can see the
+polarization in that they have all these
+strong hands weaker hands whereas we
+have more bluff catchers
+queen two again it does have the option
+to raise here but most of the range
+prefers a call when they polarize like
+this so we call
+see a jack of hearts river
+jack of hearts is uh that's an
+interesting river because
+what it does is it completes all the
+backdoor flush draws which evens out the
+advantages a bit we can see here
+it's not really clear who has the
+advantage
+on this river i mean we have more bluff
+catchers near the bottom that's because
+they polarized
+they have a small nut advantage
+however if we take a look
+at the hands breakdown they have more
+boats
+quads we have more flushes what this
+means is that their strongest value can
+polarize over our strongest value
+and that's why once we check
+they have
+a shoving range here this is what
+enables them to get away with this
+massive size we can see the breakdown
+here about
+22 percent boats 30 flushes
+a lot of the rest of it is just air very
+polarizing so when they shove
+we're not happy
+right
+so we take a look here
+i'm going to change this over to ranges
+again and just pay attention
+to this equity distribution
+everything along this line here
+is very close to indifferent
+you need about 44 45 to call this
+massive over bet and most of our range
+sits right on that line
+blushes
+not too happy
+trips
+very sad top pair
+not doing great
+right
+in fact even our ace 10 even
+the nut flush
+is mixing in folds here second not flush
+very close to a pure fold a range is not
+happy but there does seem to be one or
+two combos that are calling in full that
+aren't the nuts one of them is queen
+deuce
+suited that's that's pretty wild
+i think the more advanced players will
+note that we have good blockers but
+let's take a look at that why does queen
+2 have good blockers here we have to
+jump back to cutoffs shoving range
+what i'm going to do is i'm going to
+filter
+just want to look at what they're
+shoving with
+i'm going to change this to range just
+to make it a little easier to see
+i'm going to do is i'm going to apply
+these equity bucket filters i want to
+see what their value range is
+so we can see here that they're shoving
+with twos fours jacks queens and the nut
+flush her value and queen two blocks a
+pretty big chunk of that value range
+right block queens and twos what about
+their bluffs
+what about their worst hats well i mean
+they're bluffing with
+asex king x off suit with heart blockers
+some other king x suited but we'll note
+that queen and ii
+do not interact with this bluffig range
+at all
+so
+what that tells us is we block
+actually a huge portion of their value
+and unblock all of their bluffs for that
+reason
+queen 2 is going to have higher equity
+than most of the rest of our range
+let's take a look nut flush 44
+what about trips how's uh how's 6'4
+doing about 44
+queen 2 on the other hand 46
+that's
+the power of blockers we can see it's
+one of our few plus ev calls
+very scary spot
+obviously
+a great call if anyone could find it all
+right let's take a look at the next hand
+in this next hand we have five two of
+clubs in the big blind small blind opens
+and we call flop comes eight five three
+rainbow okay not a bad flop for us we've
+got second pair some good back doors and
+we've bet three times the pot what okay
+we call
+all right four of diamonds puts a few
+straights out there we turned an open
+ender there's some good flush draws and
+they've shoved and they've shoved wow
+what do we do in this spot got an open
+ender got a pair do we make this call
+yes
+why is that
+let's take a look at the gto analysis
+now most people don't give their solvers
+300 pot over bets so i've switched to
+the complex solutions which have many
+more sizes small blind opens big blind
+calls and we get 853 rainbow
+surprisingly this massive over bet is
+actually the preferred size i'm just
+going to graph that to make it easier to
+see
+wow
+okay that's very strange let's take a
+look at the ranges
+and compare we can see that small blind
+does have the nut advantage
+14 to 2.5 but these nutted hands are all
+quite vulnerable over pairs 8x
+these hands can be outdrawn quite easily
+now in order to have a massive overbet
+your opponent can't have too many made
+nutted hands and if we just filter by
+two pair plus we can see that only about
+two percent of each range is two pair
+plus
+okay
+what if
+they just bet a normal size what if they
+just bet something like one third what
+are we doing
+if they just bet
+something human
+well we're not folding uh mdf would have
+us fold something like 22 percent versus
+this size we're massively under folding
+and the reason is everything somewhat
+connects with this board everything is a
+backdoor straight or a back door flush
+or over cards
+pair plus straw in fact it doesn't even
+matter what size you pick we are over
+calling this board against every size
+like 115 we should be folding something
+like
+a little over half the time we're over
+calling 10
+that's true regardless of what size you
+pick in fact
+take a look at the reports
+and say
+i'll pick 38 this time
+what is the least folded
+flop it's eight five three right
+we pick some random 63 what's the least
+folded flop
+one of the least folded flops out of
+1755 so
+what do you do when you have a bunch of
+vulnerable value hands
+and your opponent
+is just going to overcall with a ton of
+backdoor equity against you well
+you size up and apparently you size up a
+lot so they make it
+300
+okay what are we doing against this size
+i always think it's useful to find
+thresholds in these situations
+what hands are we folding uh we can see
+that
+even some top pair is folding here so
+king eight queen eights ten eight nine
+eight off these hands are all folding
+and the reason is
+that for one thing these hands are
+already dominated
+by their ace eight
+which is a big part of the value range
+the other thing is these hands can't
+really
+out draw the value range as effectively
+but a hand like five two particularly
+five two with a back door flush draw
+this hand has a lot of back door equity
+a lot of routes to outdraw nines plus
+and ace eight we can hit a five we can
+hit a two we can hit uh back door hard
+back doors club we can hit ace a six or
+tons of different ways we can make a
+draw here on the turn and that's
+important when your opponent is
+polarizing this hard it's not about raw
+hand strength it's about how can i out
+draw their value range so similarly
+you'll see sixes and sevens have very
+few outs comparatively
+so even though they're technically a
+stronger hand they're folding here okay
+you'll notice we don't have any raises
+here so we make the call
+four of diamonds
+so we turn a four of diamonds and at
+this point the small blind has a
+decision to make
+do they want to give up they want to
+drag this out to the river using a
+smaller size or do they just want to get
+the chips in now and a portion of their
+range just wants to shove
+that's mainly going to be their over
+pairs
+and they're balancing that with some gut
+shots and open enders
+so
+they ship it
+action's on us what are we calling with
+here
+well we're giving up with you know some
+nines are giving up
+8x is giving up a lot of our second and
+third pairs giving up even hands like
+jack three of diamonds is giving up five
+deuce five deuce is calling and
+this is mainly due to the fact that you
+don't block too many of their bluffs and
+that your outs are clean right any deuce
+five ace or six will allow us to outdraw
+their value range and when you're in
+these very polarized spots that's what's
+important it's not about raw hand
+strength it's not about i have a combo
+draw so i call it's about
+i need to be able to outdraw their value
+unblock their bluffs
+that's what gives this hand enough
+equity to call
+and see we have 40 percent here whereas
+it had like king three of diamonds only
+as 37
+queen eight off only 35 38 so this is
+one of the few plus cv bluff catchers we
+actually have
+in our range
+all right that's it for the video guys
+feel free to comment if you want to
+discuss the theory join our discord we'd
+be happy to talk more about it with you
+there leave a like subscribe and let us
+know what you think
+you

@@ -1,0 +1,77 @@
+### TOPIC: correct semi bluffs
+Picking the Right Semi-Bluffs
+As I often like to remind readers, I am not a professional poker player; I am just a writer who is well-versed in solvers. My writing at GTO Wizard is very much colored by the perspective of a student trying to plug leaks in his own game.
+With that in mind, today I am writing about a big leak I fixed in 2024. My coach, Dara O’Kearney, got me on the right track initially by explaining the error of my way, and since then, I have used GTO Wizard to really hammer the lesson home.
+The leak was related to semi-bluffing.
+Most bluffs should be ‘natural,’ as in they have some property that increases their chances of winning, even if it is not a ‘made’ hand.
+Having a blocker, especially on the river, is a natural bluff as it reduces the number of combinations that can call.
+A semi-bluff is the other type of natural bluff. This is when you bluff with a draw and if you get called, you have a good chance of improving to a very strong hand.
+The leak I had belongs to the second category. My natural instinct was to make my biggest bluffs with my biggest draws. For example, I would only overbet-bluff or check/raise-bluff with hands such as the nut flush draw. I would rarely get too out of line with more speculative draws like gutshots or backdoor draws.
+My logic was that if I were going to take on the risk of making a big bluff, I would want to have the best chance of getting there if I got action.
+This, it turns out, is often backward logic. It’s probably best to jump into a hand to explain why.
+
+Picking Semi-Bluffs on the Flop
+This is an NL500 cash game example where UTG has opened, and the BTN has cold-called. The flop is J♥T♥2♣.
+This is UTG’s first-in flop action:
+UTG c-bet flop strategy on JT2tt vs BTN: 100bb starting, NL500
+We see mostly checks from UTG, who is out of position on a board where the BTN is not a huge underdog. UTG has 54% equity overall, but the BTN has plenty of strong hands themselves, including top set.
+A year ago, my instinct would be to make my bluffs the very strong draws, which on this board would be hands like A♥K♥ and A♥Q♥ for a combo draw+overcards. It would also be hands like K♥Q♥, Q♥9♥ and 9♥8♥ for the mega draw that is the open-ended straight flush draw, sometimes with strong pair outs on top.
+However, looking at these hands on the grid, they are all bet less than half the time, and when we drill down further, the flush draw (i.e., heart) variant is bet the least. These are the checking frequencies of our mega draws, the hands that can turn a straight, as well as a flush if they have hearts. (I’m using the checking frequency rather than betting frequency just because there will be a mix of bet sizes, and this is an easier way to highlight overall aggression):
+There are some outliers, K♥Q♥ for example, which is bet more than any other KQs, but the trend is quite clear.
+If you have a flush draw (i.e., hearts) to go with your straight draw, you are betting much less often than if you just had a straight draw.
+The other interesting thing to note is that when you have a straight draw with a backdoor flush draw (i.e., clubs), you bet the most often.
+Why is this?
+There are a number of reasons. Let’s first look at the equities of all the hands above:
+In some instances, the heart combos have almost twice as much equity as their non-flush draw counterpart. In every instance, the heart combo draw has more than 50% equity, and in the case of A♥K♥ has 67.4% equity.
+Can we actually call them bluffs at this point? One of the reasons these hands don’t get bet as often as the other draws is because they are too strong. We’d actually hate to bet A♥K♥ and get a fold in this spot.
+To highlight this further, the most frequently bluffed hand is 97s, which is bluffed 69.5% of the time overall. It bluffs 96.2% of the time when clubs, but only 10.8% of the time when hearts. So, our most frequently bluffed hand is just a gutshot most of the time.
+This all boils down to a fundamental aspect of bluffing, which is:
+For a hand to be considered a bluff, it needs to be weak enough so that taking down the pot uncontested is one of the best possible outcomes.
+These combo draws have too much equity, and we want to make sure we realize more of it, so we check to induce bets and/or see the next street.
+An interesting note about why the (club) backdoor draws bluff the most. This is because they have a prospect of profitably firing second barrels on many turn cards. If they don’t turn their straight when called, they might turn a club, which means they can bluff the turn with a straight and flush draw. And in case they get reraised on the flop, it’s easy to let go of it. Practically speaking, the times they do make the club flush by the river, they have a very well-disguised hand that most real-life opponents would discount entirely.
+Another way to determine why these hands rarely bluff is to look at what folds. This is the response to the 33% pot bet:
+BTN response vs UTG’s 33% pot c-bet
+Some small pocket pairs fold, and some Ace-x hands fold, and the rest is trash essentially. In equity terms, our combo draw range was massively ahead of all of these hands. Especially A♥K♥ and A♥Q♥, which were dominating the Ace-x and would have been very happy to turn top pair against them. The hands that fold are all hands we would have preferred to keep in the pot with our mega draw.
+This was the first-in flop betting range for UTG as the OOP player. It’s a common strategy to check/raise big draws, so let’s quickly rule that out. If UTG checks, this is the BTN’s betting range:
+BTN flop betting strategy vs UTG check
+We won’t explore it in detail because it’s very repetitive, but the BTN has a lot of the same combo draws as UTG, and they keep to the same strategy of betting least often with straight+flush draws, and betting most with straight+backdoor flush draws.
+When the BTN does bet, it is mostly an overbet, and this is the UTG response:
+UTG response vs BTN’s 125% pot overbet
+It’s a very narrow check/raise range. All our combo draw hands mostly call (and are calling a larger bet than we would have made if we were first to bet it).
+However, the few times we do check/raise bluff with a draw, we do so at a higher frequency with the combo draw that has hearts. It’s such a small part of the range that it is almost insignificant, but as the BTN has strengthened their range by raising, we need a much stronger bluffing candidate when we reraise with a draw.
+
+Picking Semi-Bluffs on the Turn
+Let’s rewind and go back to the original strategy where UTG checks and it gets checked back to them. This is UTG’s first-in turn action:
+UTG delayed c-bet turn strategy on JT2tt 3r vs BTN
+The overall betting frequency has increased as the BTN has weakened their range by not betting. Let’s see what happens now with our combo draw hands:
+On the flop, all these hands were mostly checking, but now on the turn, they are all mostly betting, including our heart combo draws, which bet more than 70% of the time. However, the heart combos still bet less often than the ones without a flush draw.
+To see why, let’s once again look at the equities:
+Most of our combo draws are now under 50% equity, averaging 43.01%. This means that they have become much more enticing to bet as they moved closer toward being a “real” bluff because we only have one card to come. The non-heart draws have, on average, 28.43% equity or less, which is why they are bluffed more often. It’s a much better result for these hands to get folds. We still don’t mind going to the river more frequently with our combo draws.
+Once again, let’s look at the response to the most common bet size of 33% pot:
+BTN response vs UTG’s 33% pot delayed c-bet
+There is still a significant amount of raising, although a bit less than there was on the flop. The same sort of hands fold but at a higher frequency—trash, small pocket pairs, and weak Ace-x.
+With one card to come, this is a much better outcome for our combo draws, even more so since there are even a few hands that continue that our higher card bluffs beat. We can “bluff” with A♥K♥ and A♥Q♥ and still get called by worse straight draws like A5s, A4s, KQs, K9s, and worse flush draws.
+What if We Brick?
+One last thing to explore: what happens when we get called on the turn and a brick falls on the river? I have made the river a 2♦ which is the card perhaps least likely to have helped either player.
+This is the first-in river action from UTG:
+UTG delayed double-barrel river strategy vs BTN on J♥T♥2♣ 3♠ 2♦ (after turn went B33-C)
+And once again, let’s compare the checking frequencies to determine which of our combo draws bluff when they miss:
+Once again, our missed flush draws check the most (i.e., they bluff the least); twice as often as the other suits, in fact.
+This is a very useful heuristic to note:
+Missed straight draws make better bluffs on the river than missed flush draws, most of the time.
+The reason is simple: when you’re bluffing, you hope that your opponent folds. Their folding range usually contains a lot of missed flush draws, but by having a flush draw yourself, you reduce the likelihood they’ll fold. A missed straight draw, on the other hand, interferes less with the folding range, making it relatively more likely they’ll fold.
+Let’s look at the response to the 132% pot bet:
+BTN response vs UTG’s 132% pot bet delayed double-barrel
+KQs bluffs all the time, regardless of suit; it makes for a very good bluff. It makes Ace-x and small pocket pairs fold, which is a great result. It also blocks AKo, QQ, KJs, QJs, KTs, and QTs, which all continue in some capacity.
+In contrast, 87s bluffs half the time except when it is 8♥7♥. A hand like 8♦7♦ makes a good bluff because it’s almost never ahead, so any hand it makes fold was otherwise winning. It crucially unblocks missed heart draws, all of which will fold. 8♥7♥ takes a lot of heart draws out of the BTN’s range, weighting them more towards a bluff-catcher or stronger.
+A quick look at the “Blockers” tab shows us this:
+The 8♥ and 7♥ are both among the cards that lower the BTN’s folding frequency by the greatest amount.
+In contrast, this is the same tab for the K and Q:
+In some instances, having either of these cards increases the chance the BTN will fold, and even for the heart variant, the decrease in fold likelihood is quite low.
+
+Summary
+This was just one hand, but it nicely summarizes what I have been observing for the last three or four months as I fixed this semi-bluffing leak of mine.
+It’s tempting to go all guns blazing when you have a massive draw because it is often unexploitable, and you get to put your money in as an equity favorite and give the opponent a tough decision.
+Big combo draws, however, are actually so strong that they often consider it a pity to take the pot down immediately on the flop.
+Bluffs, by definition, are weaker hands that are happy to take a pot down uncontested. On the flop and turn, it still helps to have outs when called, but they should also be hands that are easy to fold when raised.
+Even though it sucks when you play such a promising hand more passively and then don’t hit any of your outs by the river, you have to be disciplined not to bluff off your stack because there are often better bluffs available in your range.

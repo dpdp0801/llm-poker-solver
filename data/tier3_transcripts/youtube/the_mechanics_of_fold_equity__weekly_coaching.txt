@@ -1,0 +1,1037 @@
+### TOPIC: the mechanics of fold equity
+all right everyone how you guys doing
+good i hope welcome welcome so
+today i'm going to be doing a lecture on
+the mechanics of fold equity i'm filling
+in for solo at the moment he's off for
+vacation so hope you guys enjoy and feel
+free to stop me at any points along the
+way
+and let me know if you have any
+questions
+so
+why bet
+what are some of the reasons to bet
+range advantage nut advantage leveraging
+polarity getting your opponent to fold
+or getting them to call
+there's a number of reasons but why
+specifically
+do you want to bet of course one of the
+primary reasons is fold equity and in
+this lecture i'm going to focus
+specifically on this mechanic now
+there's a whole range of reasons why you
+might want to bet
+but i'm going to focus specifically on
+fold equity now what is fault equity the
+classical definition of fold equity is
+just the probability that your opponent
+folds times the pot right it's just a
+very straightforward equation
+but is that really representative of the
+situation for example let's say you have
+the nuts uh and you get them to fold a
+hand that has no equity against you does
+that really count as fold equity did you
+actually gain anything by getting them
+to fold what about folding out hands
+that might outdraw you later right the
+hand is behind but perhaps it has equity
+against you does that count as fold
+equity what about hands that can't
+outdraw you but might bluff you off a
+better hand later
+for example uh you might imagine a river
+blockbet
+so i'm going to launch a poll here what
+do you guys think counts as fold equity
+interesting so we've got some mixed
+results here now this is multiple choice
+you can of course select multiple things
+we all
+mostly agree on the first definition
+but the truth is that
+the terminology is not super well
+defined so that's what i'm going to
+focus on today
+so here's a simple question
+villain has a range that consists of 1
+absolute nuts and 99
+complete trash and we have everything in
+between the spr is one
+and of course we have 99 equity against
+their range
+let's look at this from an equity
+standpoint
+we have a massive range advantage
+right villains range again 99 percent
+the nut load 33
+and one percent
+ace which is the nut high so how should
+we in position construct our betting
+range they've checked to us with this
+range i'm going to launch another poll
+here
+what do you guys think should we range
+bets should we mix the strongest and
+weakest hands
+range check
+or something else
+again we get some mixed results some
+people are saying range bets and someone
+said mixed other people are saying range
+check a couple people aren't sure so
+let's think about this if we bet what
+happens they're going to call their ace
+and they're going to fold their 3-3 so
+what do we gain by betting right keep in
+mind we could always just
+check back
+well if you put this into a solver it
+will range check right despite having
+massive equity throughout
+you don't actually gain anything when
+you bet
+right because all you do is fold a hand
+that you beat anyway and get called
+by a better hand
+it doesn't matter that we have a huge
+equity advantage we don't actually gain
+anything
+by betting
+that's an important concept to keep in
+mind
+so by the strictest definitions all of
+these hands have the same amount of fold
+equity and the same amount of value when
+called right well except for the pans
+that have a three that block their three
+three but
+you get the idea
+the point is that
+if you're going to bet you need a reason
+so if we just compare the incentives of
+betting to checking we can see we can
+check back and win 99 of the time and we
+beat their regardless of whether we
+better check however we lose an extra
+bet against their trap therefore
+we really don't have any incentive to
+bet now some of the more advanced
+players are rolling their eyes oh this
+is too easy trust me
+it'll get a little more interesting hang
+in there
+what if we make their range stronger
+what if instead of three three and ace
+we give them 99
+jack jack
+and one percent ace now we've made
+villains range stronger
+should we start betting
+again i'm gonna launch a little poll
+what do you guys think should we start
+betting now that it's jack jack and asas
+instead of three three in asics
+so most people are voting yeah we're
+gonna bet more
+and that is the case
+in fact
+we're gonna bet a lot more the reason is
+we now have a reason to bet
+right we have worse hands that can try
+and bluff them off their jacks and we
+have better hands that the jacks might
+call
+we have an incentive to bluff which
+gives them incentive to call which gives
+us an incentive to value that so it's
+interesting you can decrease your equity
+against them and yet
+that'll incentivize you to bet more and
+so for me i'm always kind of curious how
+it shifts as you change the line
+so
+what i did is i ran sims giving them
+three three four four five five six six
+seven seven all the way up to king king
+and this
+fun little pattern emerges
+we can see
+here they have five five six six seven
+seven
+how the value of fold equity changes now
+it seems that around nine so if they
+have
+99 99 one percentage ace that's where
+you want to bet the most
+but we're betting a little bit less
+often if they have these weaker bluffs
+nine seems to maximize and then trailing
+off so why do you guys think this
+pattern emerges
+because the range becomes more polarized
+that's true range does become more
+polarized uh it was polarized to start
+with though
+so 3 3 would be
+the most polarized i suppose you could
+say giving you know absolute nuts or
+absolute trash and nothing in between
+um
+but we are kind of increasing
+the strength of their bluff as it goes
+up
+so again i'm going to launch a little
+poll and i promise i don't have too many
+more polls left this lecture
+um
+what do you guys think
+if you're ever unsure just say blockers
+yeah so
+it maximizes the value of fold equity we
+have the optimal number of bluffs to
+value bets
+yeah
+that's basically the right answer so
+if we take a look here
+here is villains equity with pocket
+pairs against our range
+now this is a pot size bet you'll notice
+nine nine has 33 percent
+and if we make a pod size bet
+well their pot odds indicate they need
+exactly 33 to call so what ends up
+happening is we either run out of bluffs
+or we run out of value bets
+and 99 maximizes
+the amount of value to bluff in our
+range relative
+to uh the bluffing line and so
+as you increase
+the value of fold equity more and more
+of your hands are incentivized to bluff
+but as it gets too strong
+fewer and fewer hands can value bets to
+balance those bluffs or vice versa
+so that's why it gets maximized at nine
+and we see that nice parabolic pattern
+but okay this is all toy game stuff
+let's get into something a little more
+concrete
+so the purpose of betting in position on
+the river
+is to fold out better hands or get
+called by worse hands
+if that doesn't happen you simply have
+no incentive to bet or raise
+what about folding out equity that
+cannot draw you later does this count as
+fold equity
+well
+that's an interesting question
+let's try this turn exercise so it's a
+small blind versus hijack three bet pot
+10 10 9 rainbow
+um
+so we are the pre-flop aggressor we
+check
+hijack bats start
+pots what's our best response
+well
+someone posted this on the discord the
+other day and i thought it was a pretty
+interesting spot we can see that the
+small blind mostly just raises or folds
+there's not a whole lot of calling going
+on
+we can explore this spot a little bit
+more in gtl wizard
+so
+hijack opens small blind three bets stay
+call 10 10 9.
+now we are checking about half the time
+here
+when we check
+they typically prefer a small bet
+33
+and we're hardly
+really calling here right it's mostly
+raising
+so
+why do you guys think that is
+i don't have a poll this time so you're
+just gonna have to let me know what you
+think do you think it's because of
+some sort of nut advantage
+range advantage
+something to do with fold equity what do
+you guys think
+for liquidity
+yeah
+i mean that is what this lecture is
+about so
+very good guess absolutely
+so if we take a look at the ranges um we
+don't really have an advantage here like
+hijack is green
+they are ahead
+and yet
+we're raising quite aggressively
+over 30 of the time
+so people often have this
+idea that
+you know you're stronger you should
+raise more um
+that's not always the case
+there are incentives to raise and
+incentives to call
+now if we notice something
+hijacks range
+doesn't have a whole lot of air right
+it's mostly
+pocket pairs
+strong over cards
+things like gut shots
+they don't have a whole lot of natural
+bluffs
+right
+and so
+that alone may influence
+how we play this spot
+so here's the gtr response
+now this is what they bet and i've
+simplified this my own solver solved it
+myself
+and of course it is raising a lot
+what happens if we give hijack more air
+you know let me go back here let's say
+let's say we give hijack
+four or three off suits which is just
+like the nut blow what will happen
+we could mow
+more yeah why is that
+it's because you have because you have
+some bluff
+yeah i it's because there's no incentive
+to all of a sudden fold out four three
+off so like
+there's
+yeah that's my answer
+excellent answer yeah absolutely so the
+thing is right now their bluffs are very
+strong right
+all of their bluffs have reasonable
+equity against uh our overcards against
+our air
+against some of our natural continues
+but if we give them some complete trash
+all of a sudden we're less incentivized
+to try
+and fold out that trash so
+sorry three two not four three but
+um yeah it doesn't even bet it at full
+frequency a little less than half and
+all of a sudden
+we start calling
+a lot more
+right i didn't force it to bet 3-2 it
+just chose the bet 3-2
+and it just stops raising
+uh nearly as aggressively starts calling
+more
+so
+when it runs out of bluffs
+it kind of forces the silver into this
+raise fold line
+but as you give it more bluffs all of a
+sudden it can create a more balanced
+range and
+we can start calling a lot more so what
+happens if we give it less air for
+example let's
+let's get rid of some of the weakest
+hands you know three two twos fours ace
+five some of these suited connectors
+what will happen if we
+remove some of the weakest hands from
+hijacks range
+um
+we raise more
+yeah i'm thinking yeah yeah you you
+establish the same situation as before
+exactly
+yeah same idea they have a little bit
+less air here and now the calling range
+has completely disappeared it's a pure
+race fault
+right
+so
+we see this general
+pattern or heuristic emerge it should be
+pretty straightforward to understand
+as bluffs get stronger the value of fold
+equity increases you're less
+incentivized to call you're more
+incentivized to race
+as their bluffs get weaker we see the
+opposite effect
+the value of fold equity decreases or
+more incentivized to call less
+incentivized to raised
+make sense
+did you guys have any questions so far
+okay good stuff
+um so
+here we've got a button versus big blind
+single race paw this is a turn example
+so king 829
+now we've bet one third on the flop big
+blind's called
+action's on us
+and we're thinking about betting 75
+on the turn
+let's take a quick look at this spot
+and we can simplify that a bit
+it mostly prefers a medium to large bet
+here
+don't really have a big range advantage
+in fact big blind has
+uh a little more equity near the bottom
+so if we bet 75 pot
+here's how they respond
+raising about six and a half percent
+calling about 50 folding 42.
+everything seems fairly normal so far
+so again i'm going to apply a similar
+experiment
+here we can see that range we just
+looked at
+let's say that they raise
+too polarized
+right
+so
+let's say that instead of
+mixing all these
+merged hands these semi bluffs let me
+just give you an idea what that looks
+like
+right they've got some combo draws some
+flush draws
+a few open enders
+mixing some second pair third pair so
+instead of all of that let's say that
+they raise
+very very polarized
+so now instead they'll have
+sets
+two pair
+and four three off
+right
+extremely polarized
+how do you guys think we'll respond to
+this
+um we would only call because it's very
+similar to
+the first like toy game example you gave
+with the asus and 33.
+yep
+yep
+exactly
+same idea
+we can see the equity distribution
+here's the gto equity distribution and
+here's the
+uh super polarized equity distribution
+so
+as we can see
+it just pure calls
+it's not even folding anything it's just
+a pure call
+and that's because again you have no
+incentive to raise they have 4-3 and
+sets like what are you trying to raise
+them off for three for there's
+no reason to do that
+so
+we can also see that there's a bluffing
+imbalance because we can call anything
+because frankly they have too much for
+three in range
+so again the opposite experiments
+right
+now
+here i've replaced some of the
+worst hands
+with
+stronger bluffs
+and
+they're also raising a lot more stuff in
+general
+here's the gto range here's the new
+check raise
+lots of raises
+the equity distribution looks like this
+and you can see the tail end of this has
+been shifted
+upwards so
+again you guys think we'll see the same
+pattern here
+our response to this extremely draw
+heavy raise
+is to play a raise fold strategy we've
+increased
+the value of the bluffs so much that
+we have a lot less incentive to call and
+a lot more incentive
+to fold out those bluffs so
+instead of doing a calling range it just
+switches to raise fold
+uh with
+many of the made hands all the top pair
+hands like jack nine some semi bluffs
+sets so hopefully you guys are seeing a
+pattern so far that pattern
+is of course this general heuristic that
+we observed earlier
+as flops get stronger
+you shift more to raise fold
+right you don't want to call as much you
+want to raise more as plus get weaker
+you want to call more
+less incentivized to raise
+and
+i know this might be getting a little
+repetitive at this point but i've got
+one more here
+button versus big blind single race pot
+jack 86
+so
+here's the gto range a check with that
+75
+on the flop this is uh the preferred
+sizing for this spot
+and here's how the big blind responds
+using about a 50 size is what it prefers
+so facing that check raise
+we are at an equity disadvantage we can
+see the equity distribution here
+normally we're going to raise about 6.3
+fold 37 call 56. everything's looking
+pretty normal so far
+so in these experiments i've made an
+effort to keep the overall bluff value
+ratio about the same
+uh and just shifted
+their
+the value of their bluffs such that
+their overall frequencies are roughly
+the same does that make sense so they're
+essentially i'm trying to keep
+keep their
+frequencies in check
+so we can get a fair comparison
+so here we have big blind facing 75 bets
+they check raised
+66 percent
+that's what i simplified to
+and here is button facing that check
+race
+on the left we have a super polarized
+version of this
+where they mostly just raise very strong
+hands on the right we have a draw heavy
+version of this where they raise
+many of their flush draws
+strong open enders
+uh
+and so forth
+here's the gto equity distribution
+against
+that i had solved and here's the one
+facing their blood switcher too strong
+as you can see the tail end has been
+lifted up
+and here's the same one where they raise
+a little too
+polarized and the tail end has been
+shifted down
+we can see the overall frequencies
+there's the gto response
+here's the response versus a polarized
+check raise as you can see just calling
+a lot
+and versus the draw heavy check rays
+it is calling less and it just
+ships it with about six percent
+um
+so
+same idea
+but now i have a question for you guys
+can you tell me
+why is it that
+we're basically range calling here
+why are we calling so wide
+let's just go back for a second we can
+see the uh
+overall
+value region is about the same sorry go
+ahead
+for the same reason as be as the example
+you start
+with
+yeah i mean
+absolutely we want to call more but
+what if
+uh
+all right well let's let's see something
+here
+even though the value region stayed the
+same
+the weaker bluffs result in a bluffing
+imbalance
+a villain needs to adjust by bluffing
+less often if they want to generate
+folds
+so
+you need a stronger
+value to bluff ratio
+when your bluffs are weaker
+and we can actually see this with some
+pretty basic toy game math so this is a
+caveman gto calculator
+built on some toy game math the
+assumptions are that villain can only
+call fold equity is static or balance
+there are no blocker effects
+so this calculates the ideal value to
+bluff ratio
+given the assumptions we've laid out
+what sizes do you guys want to use maybe
+like 30 and i don't know
+180 something like that
+so
+i want you guys to pay close attention
+to
+the value to bluff ratio on the flop
+here it's about 29 say 30 to 70.
+30 bluffs sorry 30 value 70 bluffs
+now what happens if we decrease
+the equity of the bluffs
+all of a sudden
+we need closer to 50 value 50 bluffs
+and that's just
+the nature
+of how this works
+so
+if you're going to play an extremely
+polarized range you don't get to bluff
+as often because your bluffs are weaker
+and because of that even though we kept
+their value region the same
+they were too bluff heavy right if they
+wanted to do it properly they needed to
+use something like
+50 value 50 bluffs
+so i gave them a
+stronger range here this is maybe 40
+percent value 60 bluffs and only now
+does button actually start default
+again buttons not raising
+because
+it doesn't have any incentive to raise
+their bluffs are too weak
+but it is
+starting to fold now does that make
+sense to you guys wait so
+sorry
+um can you just like really quick
+explain again why
+if you're if your bluffs have
+like 20 equity versus like a zero
+percent equity bluff
+why are you
+um
+like what causes the value to bluff
+ratio imbalance just just real quick run
+through that again please yeah yeah for
+sure so
+because
+again because now you're getting fold
+equity
+yeah so
+full disclosure what i showed you here
+is facing a raise
+um this calculator is just assuming
+we're just betting three streets in
+position against someone who can only
+call fold but
+in general
+the takeaway is that
+as your bluffs get stronger
+you don't
+your value
+to bluff ratio
+you can have more bluffs so i'm not
+presenting this well so the idea is
+that
+if your bluffs are too weak in order to
+achieve
+the
+same level of balance in order to have
+a proper
+value to bluff ratio by the river
+you will need to start with more value
+i see okay
+because
+your bluffs can't outdraw them
+where in this case the bluffs can
+outdraw them
+therefore you don't need as many uh you
+don't need as
+many value hands to start with to
+achieve the same
+level of balance by the river oh i see
+so because some of your bluffs end up in
+the value range by the river okay
+yeah that makes a lot of sense
+yeah
+um so this math is based on
+one of jaundi's books applications
+uh so
+one of the downfalls is that
+it assumes equity is static but in a
+real game as you bet
+your
+value equity might decrease your bluff
+equity you know it's not going to be 20
+the whole time it's at the river it's
+probably gonna be closer to like a
+hundred or zero but anyway
+just to get the general idea
+i found that calculator kind of helpful
+so
+in other words
+big blind needs to adjust their value to
+bluff ratio if we're going to play so
+polarized
+and that's why
+those super polar strategies aren't
+super efficient people talk about things
+like visibility they talk about things
+like
+you know you can apply pressure on later
+streets that's because using some semi
+bluffs is simply going to be a more
+efficient use of your equity on earlier
+streets
+you want your bluffs
+to have some equity against the value
+range
+so
+how does fold equity affect the cbet
+strategy
+all right let's say the optimal cbet
+sizing
+we can say the same rules apply you know
+if they're folding ranges less equity
+against you then you're less
+incentivized to try and generate folds
+similarly if
+uh
+their folding range has reasonable
+equity against you you're more
+incentivized to generate faults
+so typically
+oh
+sorry about that typically
+you want to size down
+when their fold equity
+is basically worthless like they're
+folding hands that have
+no chance against your range
+and you want to size up when the fold
+equity is valuable they're folding hands
+that can reasonably outdraw you
+another way to say is that perhaps it
+costs more to fold out those hands
+so
+that's one part of it
+the other main factor is that optimal
+seabed sizing is largely regulated by
+the nut advantage
+for example you can't just start over
+betting a huge portion of your range
+if their range is very nutted relative
+to your value
+so
+did you guys have any questions on that
+okay
+so
+let's take a look at aggregate flop
+reports
+we've got paired rainbow disconnected as
+our filters
+so we're looking at
+the top here this is the overall
+frequencies for all flops
+and at the bottom these are filtered
+such that all the flops are paired
+rainbow and disconnected
+now in a three bed pot
+we see that
+it is generally sizing up a bit more
+right we start to use these medium and
+large bets
+whereas in
+a single raised pot
+fewer large bets fewer medium bets
+almost all small bets
+why do you guys think that is
+and i'm going to launch a little poll
+here for you guys
+equity realization withdraws miss
+can you
+set the question again please oh sure so
+the question is
+why do we size up on paired boards in
+three bed pots
+and size down oh sorry that should say
+single raised pots that's a typo i'm
+sorry guys this is button versus big
+blind single raised pots not three bed
+pot
+so we've got a few people who've
+answered
+now
+we can say
+bigger nut advantage in three bed parts
+bigger range advantage in three bed
+parts my personal favorite targeting
+more air in single raised pots whereas
+we're targeting more medium hands and
+three bed pots lower spr fewer trips
+proportional to the ranges
+right but as we've seen uh
+having an equity advantage isn't always
+a reason to size up per se
+so if you actually compare the ev in the
+equity it's hard to really say if you
+have a bigger nut advantage on three bed
+parts
+in three bed pots on paired boards
+um compared to non-paired boards
+so
+you won't always have a ranger nut
+advantage but even so it will size up on
+these ports you do gain a small
+advantage but the primary reasons are
+fewer proportional trips at range
+like if you take a look at just the
+standard button call small blind three
+bet they have proportionally more pocket
+pairs than they do other hands
+and that generally means that
+on paired boards
+they're not going to have as many trips
+but the main thing for me is higher
+value of fold equity instead of
+targeting their air
+you're trying to attack their pocket
+pairs right these hands have reasonable
+equity against your overcards so when
+you're trying to target a stronger hand
+when the value of fold equity increases
+you generally want to size up and lastly
+it's lower spr now you may ask this one
+a lot of people went for
+but you may ask
+well
+why why does that matter um the main
+thing is that
+the nut advantage is proportional to the
+spr
+right in a three bed pod
+you can get it in with a wider range
+because stacks are shorter
+whereas
+in a single raised pot those trips are
+going to account for a lot more and more
+heavily influence the seabed strategy
+because by the time you get it in
+there's going to be
+ranges will be tighter
+when stacks are wider and therefore
+the nuts it trips
+way more heavily
+does that make sense guys yep
+great
+so
+lastly i just want to take a look at how
+fold equity applies to general cbet
+trends so here we've got button versus
+big blind single race pot 100 big blind
+cash game
+500 nl general ranges and i've grouped
+them by high card so aside king heights
+so on and so forth
+now here's a question for you guys
+why is it that we tend to prefer larger
+sizes on say a jack or a 10 than we do
+on an ace or a king
+yeah phillip said
+philip said folds out over cards
+yep
+yeah that's definitely something to
+consider i've launched my my last poll
+of the thing before i wrap this up also
+like on an ace high or can i board
+like i would is it is it accurate to say
+that ranges are more um
+like equities run closer because
+uh
+like
+i think that was one of the the polled
+um answers actually is that like there
+are no more over like over pairs in the
+uh
+in the buttons range
+that he can leverage yeah that's a great
+question
+um
+so for example you say your your queens
+and your kings they're not very happy on
+an ace high board but they certainly
+want to play aggressively on a lot of
+say 10 hijack high boards
+so i don't know if you would say ranges
+run closer though
+so if we take a look
+at the card distribution of both ranges
+keep in mind this is for a single raised
+pot we can see that we actually have
+the button has a huge advantage on ace
+and king cards
+right they have many more aces and kings
+in range compared to the big blind
+well that's sick
+so the way i calculate these is
+i just use flopzilla to calculate the
+card removal and then i tally
+you know what percentage of each range
+contains each of these cards and i find
+this useful for kind of visualizing
+where the advantages lie
+similarly you can do a relative
+distribution so if it's higher up it's
+better for the button and if it's lower
+down it's better for the big blind
+you might see big blind has the
+advantage in all these two through seven
+cards so
+when the board comes all two through
+seven big flight might start donking
+so
+anyway that's beside the point
+we can see here that we actually have a
+much bigger advantage on acer king yet
+we're using smaller sizes we still have
+an advantage on all the 10 plus cards
+but
+more so on acer king
+and so
+if we look here
+the main reason is simply that
+the value of fold equity is higher on a
+jack or 10 high board you want to fold
+out those over cards like phillip said
+uh it's
+your top pair is more incentivized
+to bet them off of hand your over pairs
+want to play more aggressively because
+they don't want to see an overcard so
+it's not necessarily range or nut
+advantage
+it's more so the dynamics of the board
+itself
+now if you have an acei board and you
+hold top pair you're not worried about
+an over card if you bet you're mostly
+going to fold them off hands that you
+had dominated anyway uh whereas on like
+10 jack queen boards they tend to get
+larger as the top pair is more
+vulnerable all the stuff i've said so
+anyway that's my general theory what do
+you guys think
+any questions
+so in conclusion
+fold equity is more than just how often
+they fold on the spot
+you have to think about what you
+actually gain by generating folds
+compare the incentives of betting or
+raising against the incentives of
+checking or calling
+think about how the strength of their
+bluffs or the strength of their air
+influences these incentives
+if the folding range is worthless then
+you haven't actually gained that much
+when you force those cards into the muck
+when the folding range has reasonable
+equity against you especially against
+the value portion of your range you gain
+significantly more
+by folding out those hands if your
+opponent's bluffs are too strong and
+you'll see this often
+in
+an actual play people will only check
+rays with strong draws you know you may
+want to reconsider your calling range
+perhaps you're more incentivized to
+start race folding and less incentivized
+to call super wide
+that's a good point of the i think
+the very important point is
+is that
+you know that people
+bet with a stronger
+bluff
+you should not call
+absolutely
+absolutely so that's a that's a real
+adjustment you guys can and probably
+should make in-game um on draw-heavy
+boards
+most people are going to be using bluffs
+that are too strong
+they're not going to have enough trash
+in range
+which is going to incentivize you to
+raise more and call less just to address
+philip sorry philip i i looked over at
+the chat i didn't see this fold out over
+cards big blind trash has higher equity
+on jack 10 boards
+uh yes because they have all those over
+cards so like a jack or a 10 high board
+if you hold top pair
+well you're very happy to fold out a
+queen a king or an ace some people call
+this cleaning up your outs but in
+general
+their folding range
+is is gonna have more equity against you
+and therefore
+the value of fold equity is higher
+anyway
+that's my lecture guys i hope you
+enjoyed it um if you guys have any
+questions let me know i'll be posting
+the full video if you guys want to watch
+recap
+and thank you for your time see you guys
+[Music]

@@ -1,0 +1,270 @@
+### TOPIC: how to use equity to understand strategies
+what's up guys we at gto wizard just
+released a brand new update
+it's got a lot of exciting features that
+are highly requested and should change
+the way you study
+i'm going to showcase some of these
+features and go over a flop and go over
+a certain formation and we're going to
+show how this can change the way that
+you
+use gto wizard forever
+[Music]
+the first big feature of this update is
+the equity tab
+it works very similarly to the ev tab
+it's basically just a
+heat map of all of our different hands
+in the range and how much equity each
+one of those hands have
+we also added this column here of the
+equity column and the summary filter
+that way if you're in any other tab like
+the strategy tab and you
+still want to be able to see how much
+equity one hand has you can just tab
+over to the summary tab and see
+the how much equity that hand has the
+next
+most exciting part of this update is the
+ranges tab
+basically this is going to rework how we
+see range versus range and how we
+compare different
+ranges in different positions in
+different formations and whatnot
+so we have the ranges side by side here
+and we have all the different metrics in
+the middle
+basically we have the combos we have
+that how much equity charing has how
+much ev
+each range has and then we have this new
+thing called equity buckets
+equity buckets are basically grouping
+all of our all of the different hands in
+our range
+into specific equity buckets so
+that's basically any hand that's between
+100 and 75
+is going into the best hands any hand
+between 75 equity and 50
+equity goes into the good hands and etc
+what this allows us to do is break down
+each different equity bucket and see how
+much
+um each range has so we're able to
+compare okay so the button has 26.1
+percent of best hands and the big blind
+only has 13.1 percent
+and then we can go down to the trash
+hands the big blind has 30.9 percent of
+trash hands the button has 15.1 percent
+of trash hands
+obviously the button has a pretty huge
+advantage on this board it's also
+also shown by the equity at 57 whereas
+the big blind only has 43
+the next way to compare ranges that
+we've added is this equity graph
+and so for anyone who isn't familiar
+with equity graphs
+basically the x-axis is all all the
+combos
+putting on and then the y-axis is all
+the different equity
+for the for those combos so the bottom
+bottom left here
+is the worst hands and the top top right
+here is the best hands
+so as we go down the line we just get
+lower and lower equity
+as we hover over it we also see this
+specific combo and specific amount of
+equity for that combo
+there are also a number of different
+filters that we can add in this
+so we can filter by these equity buckets
+if you click on it
+so we can see best hands and then this
+updates how
+the overall betting strategies work here
+we can also filter by these different
+like
+sets two pair over pair top pair and we
+can see who has more top pair plus and
+so
+if we go up here we have this 19.8
+percent 19.8 percent of the buttons
+range is top pair plus whereas only
+fourteen point three percent of the
+big blinds range is top pair plus
+another cool feature here
+is being able to filter something on
+this tab and be able to say okay
+let's see what the best hands do but we
+also want to see the strategy of the
+best hand so we can go over to this
+strategy tab
+and see okay so for our best hands how
+are
+each different specific combo what is
+its betting frequency what is its
+checking frequency
+and then finally um all of these
+different things
+work as well on mobile that this every
+feature i've set here is completely
+interactive with with the mobile apps as
+well and so if you
+are on the go or need a quick a quick
+solve you can pull it up on your phone
+so now i'm going to try to showcase how
+we can use these new features
+in order to actually lend money in poker
+and the best way we can do this is
+by using these new equity features we
+can start to further understand how
+we choose bet sizes and so here if we go
+back over this is king jack 2 rainbow
+button versus big blind singer is pot
+and so a very standard spot
+and so as we look at the strategy tab we
+can see we're betting at a really high
+frequency
+betting 74 of the time and mostly for a
+small size however we do use a little
+bit of this
+larger size and so when we go back and
+look at this equity graph we can see
+that we are allowed to bet this very
+very very high frequency
+because we have this very large equity
+advantage
+and so when we look over at the at
+the overall betting range we basically
+bet every single
+hand at some frequency so if we go and
+look at even the trash hands we can see
+even the trash hands are able to bet
+this
+simply because the big blind has to
+respect
+this massive advantage that we have here
+and so what's very interesting is once
+we bet this 27 percent and then the big
+blind
+the big blind calls let's go to a turn
+i'm gonna choose a brick turn with the
+six of spades
+the kind of turn that won't change a lot
+there won't be any draws that are
+completed and whatnot
+and so now we can actually start to
+compare how the ranges interact now
+versus how they were on the flop and so
+here now we can actually see the big
+blind starts to have an advantage at
+this low end hand even up to about 45
+equity the big blind has more hands here
+and then up here big line is still
+at an advantage whereas the
+top-end hands the button starts to is
+still uncapped so the button still has
+an advantage at the top end hands but as
+we see the big blind is actually in much
+better shape now than he was on the flop
+and we can also see this by the equity
+now the big the big blind
+actually has an equity advantage and so
+that's an interesting thing
+why did that happen so if we go back we
+were in and remember that the
+button is betting all of these very
+very low equity hands these hands like
+nine six suited and eight six suited and
+eight five suited
+whereas when the big blind calls his bet
+all of those same hands are end up
+folding as well
+all these all these very trash hands end
+up folding
+on almost none of these end up calling
+some of them will bluff raise
+but for the most part the big blind's
+lowest equity hands folded
+whereas the buttons lowest equity hands
+are still in the buttons range they
+ended up betting
+and so now when we skip over back to the
+turn that is how we end up with this
+advantage at these top end of the range
+because
+or at the low end of the range because
+the big blind still has all of these
+very low equity hands in its range
+however the button has the button also
+gets to have this this
+uncapped range because he has hands like
+kings he has hands like jacks whereas
+the big blind isn't going to have any of
+those
+and so if we look at if we actually
+start looking at how the strategy for
+the button is going to be betting here
+the button is going to be mainly over
+betting or checking and so
+that is as a result of the button not
+having an advantage at this lower end of
+the range
+and so now the button has to respect the
+big blinds advantage
+and so the when the button uses this
+over bet he can basically cancel out
+this entire advantage for the big blind
+because all of these lower equity hands
+have to fold
+if we filter by the over bet range we
+see it's an extremely polar strategy
+we see that the best hands are betting
+this at 47.1 percent of the
+of the over betting range our best hands
+while 47 are the trash hands basically
+what that tells you
+none of these marginal hands are going
+to be put into this over bet range
+they're going to end up being checked
+but when we look at the strategy of this
+it's all these high equity hands we can
+see
+that the the best hands here are hands
+like kings hands like jacks
+are being put into this range and so
+it's an extremely polar range whereas
+when we look at the good hands and the
+weak hands
+strategy is almost purely checking and
+this is just because many of these hands
+have really good showdown value hands
+hands like ace jack really get to win
+just a ton and if we look at the
+equity of ice track it's when it's 73
+equity
+h jack is just going to check back the
+turn and be able to win a ton
+and so this is a very quick synopsis of
+how we can actually use
+these filters and use this equity graph
+in order to
+start to understand betting ranges start
+to understand bet frequencies
+and just quickly understand how the
+ranges interact
+hopefully you guys really enjoy this
+this update give any feedback join our
+discord
+like like or subscribe and leave a
+comment if you have any specific
+questions
+you

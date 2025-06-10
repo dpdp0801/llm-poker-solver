@@ -1,0 +1,59 @@
+### TOPIC: turn probing
+The Art of Turn-Probing: Exploiting Checked Flops
+After calling a 3-bet as the out of position (OOP) player, you should expect to see a flop continuation bet from your in position (IP) opponent. In a 100bb CO vs BTN scenario, for example, BTN c-bets more than 80% of the time at equilibrium.
+The 3-bettor, having taken on more risk preflop, arrives at the flop with a stronger range. On most flops, they will possess both an equity advantage and a nuts advantage, the combination of which facilitates aggressive continuation betting.
+As the caller, you’ll often end up check/folding or check/calling with the expectation that future streets will be tough to play. That’s not a failure of knowledge or strategy on your part; it’s merely the consequence of your bad luck for opening into a hand strong enough to 3-bet you.
+But what happens when the IP raiser does not c-bet the flop?
+Is the pot now yours for the taking?
+Which turn cards will be better or worse for you to bet at?
+How much should you bet?
+With which hands?
+This article will examine all that and more.
+
+Aggregate Turn Strategy
+For our examples, we will look at the CO vs BTN configuration, as it is the one that occurs most commonly. The general principles discussed here will apply to other configurations where the 3-bettor is in position as well, though, of course, the details will differ.
+We can’t look at CO’s aggregate turn-probe strategy across all possible flops, so we’ll instead look at their aggregate strategy on a variety of textures, all of which feature among BTN’s most checked flops. This is less of a compromise than it may seem because there are many flops on which BTN bets all or almost all of their range. Checking really is a notable exception for them; a significant part of their strategy only on specific board textures such as the ones that follow.
+The major determinant of CO’s turn-probe frequency is how much equity they flop.
+Here, we see a pretty sharp divide between boards where CO frequently probes the turn and boards where they are more judicious. The major determinant of CO’s turn-probe frequency is how much equity they flop: on boards where they flop half or more of the equity, they probe much more frequently than on those where they flop significantly less.
+Higher frequency turn-bets also correlate with smaller bet sizes. This makes sense: a narrower range is generally a more polar range, which benefits from larger bet sizes.
+These different probe sizes have fundamentally different purposes (dare I say targets?). Smaller bets pressure weak hands in BTN’s range, hands which could easily be drawing slim or dead, and so will struggle to continue profitably even when getting very good odds. Larger bets pressure medium hands, the sort that would happily call a smaller bet, but begin to worry about drawing dead when facing an overbet.
+On more favorable (for IP) board textures, BTN usually c-bets their weakest hands, so a small probe from CO would not accomplish much. To the extent that they check, they are weighted toward medium hands, not weak ones.
+BTN’s Flop Strategy on A♥8♥7♦
+Manhattan plot
+Advanced equity buckets
+Thus, when BTN does not c-bet these flops, CO still mainly checks the turn, often with the intention of giving up. When CO does probe, they either have a very strong hand or represent one with a bluff. This polar strategy pressures the mostly medium hands in BTN’s checking range.
+On less favorable boards, BTN’s checks come disproportionately from their weakest hands. This is partly because they have flopped more weak hands on these boards and partly because they have more incentive to protect their medium hands with a bet. Unless the turn card is one of the few that dramatically improves the weak hands in BTN’s checking range, CO can probe with small bets to pressure those weak hands.
+BTN’s Flop Strategy on 6♥5♥4♦
+To be clear, there are still plenty of medium hands in BTN’s checking range on these less favorable flops, which is why CO’s equilibrium strategy still includes some polar betting. The biggest difference between BTN’s strategy on better and worse flops is the prevalence of weak hands in their checking range. That, in turn, accounts for the difference in CO’s use of small probe-bets.
+Probing BTN’s Bad Flops
+CO’s aggregate turn-probe strategy on 6♥5♥4♦ is a powerful demonstration of how starkly different the strategy is on BTN’s best turn cards:
+CO’s aggregate turn-probe strategy on 654tt
+When a card from the lower half of the deck turns, CO leads most or all of their range, usually for a small size. On an 8♣ turn, for example, CO bets almost everything. The main exceptions are AJ and AQ, which both block and dominate BTN’s folds:
+Manhattan plot: CO probe-bet turn strategy vs BTN on 654tt 8r
+On low card boards, BTN’s checking range is full of unpaired hands that will struggle to continue even when getting a good price.
+Notice also that CO’s large bets come almost exclusively from their strongest hands (straights and sets) and weakest hands. These weakest hands tend to be unpaired hands that can make dominating hands fold while retaining a few outs when called. This includes gutshots like T9s and K9s and flush draws like Q♥J♥.
+High Turns
+Aces and Kings are much better turns for BTN than even Queens or Jacks. On an Ace and King turn, CO rarely bets and strictly uses a larger, polarized sizing when they do bet. For example, when the A♣ turns, CO bets 125% pot with about 13% of their range, including sets and two pairs for value and flush and straight draws as bluffs. These bluffs still have 25–50% equity; CO is not fighting for the pot with their very worst hands:
+Manhattan plot: CO probe-bet turn strategy vs BTN on 654tt Ar
+Probing BTN’s Better Flops
+When BTN checks a favorable flop like A♥8♥7♦, it should (usually) not be because their hand is weak. Mostly, it should be because they have something medium like KK or QQ or A3. This has a few implications for CO’s probing strategy:
+BTN’s checking range is full of bluff-catchers. With the added disadvantage of being out of position, CO can not expect to show a profit betting their worst hands on most turns. If CO were to bluff too much here, BTN could exploit them not only by bluff-catching but also by checking more traps on the flop.
+When CO does bet, it should be for a size that puts those modest pairs to the test.
+CO should probe less often on turn cards that improve the medium hands in BTN’s checking range.
+The worst turns for CO to bet are Aces, Kings, Queens, Eights, and Sevens:
+CO’s aggregate turn-probe strategy on A87tt
+You might be accustomed to thinking it’s good for OOP when the turn pairs the second or third card, but that’s only if the preflop aggressor c-bet the flop. Because that c-betting range should be somewhat polar, cards that improve medium hands are bad for a c-bettor.
+By that same logic, turn cards that improve medium hands are good for the preflop aggressor if they did not c-bet the flop. Their range is thick with hands like Q9, K8, and KK, which like seeing a board pair or a Broadway card roll off.
+Flush and straight draws, on the other hand, are appealing c-betting candidates. That means BTN is less likely to have them after checking, so flushing and straightening turns are better cards for CO to probe. Very low cards also do not interact with BTN’s checking range, and so are good cards for CO to probe as well.
+CO’s probe strategy on A♥8♥7♦ 3♦ looks much like their probe strategy for playing an Ace turn on a flop that’s less favorable to BTN. That is, CO bets big and polar, drawing their bluffs not from air but from draws. This particular board offers both heart and diamond draws, so the lowest-equity bluffs are poor straight draws like 6♠5♠, not complete air:
+Manhattan plot: CO probe-bet turn strategy vs BTN on A♥8♥7♦ 3♦
+If the 3 on the turn is a third ♥, CO’s betting pattern looks quite similar, but the size of their bet shifts downward, preferring 75% pot to overbets. In fact, they use this smaller sizing on all heart turns:
+Manhattan plot: CO probe-bet turn strategy vs BTN on A♥8♥7♦ 3♥
+Despite the incentive to bet flush draws on the flop, BTN does retain some in their checking range. Some of their medium hands also pick up flush draws, making them more comfortable calls even against overbets. However, the pairs that did not turn flush draws will have tough decisions even against the 75% pot bet, given how easily they could be drawing dead.
+CO’s betting pattern is similar on a worse turn like the Q♦, but with less betting overall:
+Manhattan plot: CO probe-bet turn strategy vs BTN on A♥8♥7♦ Q♦
+It’s also worth noting that CO mixes 125% and 175% pot on the 3♦ turn but uses 125% exclusively on the Q♦. They simply don’t want to put as much money into the pot when the turn card is so likely to help their already somewhat strong opponent.
+Conclusion
+The 3-bettor will have a stronger preflop range than the caller. That translates into an equity advantage on most flops, which, combined with a positional advantage, discourages their opponent from contesting the pot with weak hands. Even when the 3-bettor checks the flop, it will often be correct for you to check and give up on the turn if you’ve got nothing going on.
+Just how much you need to have going on depends on the board texture…
+Keep an eye out for favorable turn cards that could provide turn-probing opportunities, while selecting for the discussed hand categories/types.

@@ -1,0 +1,51 @@
+### TOPIC: encountering donk betting
+While No Limit Texas Hold’em allows players to make bets anytime the action is on them, the game follows a certain flow in most situations, with the preflop aggressor usually being the one making the bets on the flop as well.
+Yet, this is not always the case, especially when playing against less experienced players who don’t necessarily understand the advantages of playing within the game flow.
+What’s even more, there are times when acting out of game flow can make sense from a strategic point of view as well, especially if you are trying to exploit certain tendencies.
+The move I am talking about is called a donk bet, and in this article, I am going to explain more about what a donk bet is, when players usually utilize it, and what you can do to deal with donk bets in your poker games.
+The name “donk bet” comes from the word “donkey,” which is typically used to describe a bad poker player who doesn’t really understand any poker strategy.
+A donk bet refers to a bet made on the flop by the player who took a passive line before the flop and is out of position.
+For example, the player on the button makes a raise to 3x the big blind, and the player in the big blind makes the call.
+The flop comes As9d4c, and the player in the big blind comes out betting for 5 big blinds instead of checking, which would be the typical play.
+A donk bet goes against the natural flow of the hand, which typically allows the preflop raiser to continuation bet on the flop.
+Donk betting is usually associated with poor poker players and seeing a player donk bet often can be a good sign that they are not a very strong opponent to play against.
+But how exactly do you deal with donk bets in your games? Before we can look into that, let’s talk briefly about why donk betting is not a good idea in the first place.
+If you have ever watched high-stakes poker games with strong players on TV, you have probably noticed that the player who defends preflop in the blinds almost always checks the flop.
+There are plenty of reasons for that, as checking our entire range as the defender is very often what a GTO poker strategy prefers as it allows us to not reveal any information about our hand.
+By making a bet on the flop, we give our opponent some information about our hand whether we want to or not, as it is nearly impossible to properly balance a donk betting range.
+To be truly balanced, we would need to fire some donk bets with hands that have not connected with the board at all, and this is something most players don’t do.
+Instead, most players who employ a donk betting strategy will fire flops when they flop a draw, or when they flop strong, or a combination of the two.
+In either case, by donk betting the flop, we tell the player in position that we have a piece of the board, allowing them to proceed accordingly.
+If we donk bet, the opponent can simply fold all the hands that have not connected with the board and that he could have otherwise c-bet with.
+For example, imagine defending the big blind against a 3x raise from the button with As7c. The flop comes Ah7d3c. Instead of checking, you decide to fire out a 4bb bet.
+Your opponent is now more or less forced to fold hands like KQ, JQ, JT, and many others that have not connected with this board at all while you are holding a monster.
+On the other hand, had you checked, the opponent would be very likely to fire a c-bet, as the A-high flop favors their opening range.
+Let’s take another example. You defend the big blind against the same player with 6s5s and the flop comes Jd4s3s. Once again, you fire out a 4bb donk bet on the flop.
+Your opponent is once again forced to fold all sorts of hands that have not connected with the board, especially because you have alerted them that you have connected with the board.
+On the other hand, your monster draw was strong enough for a check-raise, which would allow your opponent to fire with a hand like AK or KQ and then have to fold it to your raise, earning you an additional bet.
+In most cases, a donk bet is an inferior play to a check, but let’s check out a few scenarios in which such a play can actually be the right way to go.
+The problem with donk betting is that most players don’t use this play at the right time and instead try to make a donk bet when they don’t want to see the flop checked through.
+A donk bet never makes sense on any A or K-high board, as such a board heavily favors the raiser’s range. The same can be said for boards with multiple Broadway cards.
+On the other hand, low and middle connected boards can give you some space for a donk bet, but only with a well-crafted range.
+Such a poker ranges would have to include a number of both value and bluffing hands merged into one single donk-betting range.
+For instance, on a board of 6h5h3d, you would want to donk out with any number of single pairs, two pairs, sets, straights, and draws to balance the range out.
+On the other hand, you could simply check all these hands and then play them accordingly, facing a c-bet or on the turn when the flop checks through.
+One scenario in which donk betting makes a lot more sense is when the hand goes multi-way, and you flop a strong draw or a strong made hand in the blinds.
+While donk betting in this situation does somewhat advertise your hand as strong, it also allows you to protect your poker equity and make your opponents pay for their draws.
+By checking your nuts in a 4-way pot, you allow your opponents to check back and realize their equity for free, which is usually not a good idea.
+So, if you are ever going to donk bet, do so in multi-way pots where your hand rates to be the best or your draw has a good chance of making the nuts if called.
+Now that we have established you should stay away from donk betting for the most part, let’s talk about what to do when you face a donk bet yourself.
+In most cases, the players donk betting into you will not be terribly advanced, which is why you get to play fairly straightforward against them.
+The biggest exploit you can make when facing a donk bet against an unknown player is to let your hand go unless you are very strong on the flop.
+For instance, if you raise AsKs, the flop comes 8d7c4c, and your opponent donk bets into you, letting the hand go could be a good plan.
+On the other hand, it is also important to recognize that most players don’t donk bet their nutted hands either and will usually be donking with a draw or a relatively weak value hand.
+If you happen to have a drawing hand yourself, a big raise on the flop can give them bad pot odds and often get your opponent to lay down their hand. The best part about this is that even when your opponent does call, that is still a great result for you as they are making a large mathematical error.
+For instance, on the same board as above, you could easily make a big raise with AcQc and get your opponent to fold a hand like 8s5s quite often.
+If you play with the same group of players often, you may be able to pick up on the tendencies of certain players to donk bet a lot of their medium-value hands.
+Once you spot this, you can relentlessly raise against such donk bets and get the player to fold over and over to you for quite a while.
+While this plan can occasionally backfire if the player catches up and traps you with a monster, you will win the pot outright much more often and compensate for the occasional loss.
+A donk bet is a play usually utilized by inexperienced poker players or those who don’t understand poker strategy at a high level, and you can easily go your entire poker career without ever donk betting.
+While the play can make some sense in multi-way pots, it is almost always the inferior choice in heads-up play and should be avoided.
+If you find yourself facing a lot of donk bets from your opponents, make sure to keep a close eye out to figure out the range of hands they like to donk bet with.
+Once you master this, you will be able to make extremely exploitative plays that will leave your opponents in the dust and allow you to completely dominate them.
+As far as donk betting goes on your part, try to avoid this play for the most part and learn how to play out of position while checking your entire range on the vast majority of boards.

@@ -1,0 +1,82 @@
+### TOPIC: 3bet strategy
+If you have watched a single episode of a poker TV show or an hour of a poker livestream, you have surely heard the term 3-bet at least once, as it has become one of the most widely used poker terms.
+While technically speaking, 3-bet literally means a re-raise, the term is used as it better describes the particular type of a re-raise in question, as we will explain in further text.
+If you are already familiar with 3-betting in poker, you can skip the next section, which will explain what a 3-bet in poker is, and move on to the following sections. In those, we are going to discuss the main reasons for 3-betting, the ways in which you should select your 3-betting hands, and the general 3-betting strategy to apply.
+But before all that, for those who don’t know, let’s explain what a 3-bet is in the first place.
+A 3-bet is the first re-raise in a betting round, commonly occurring preflop in No-Limit Texas Hold’em. It’s a powerful tool that can be used both for value and as a bluff.Key Concepts:* Value 3-Betting: Re-raising with strong hands (e.g., AA, KK, QQ, AK) to build the pot and extract value from weaker hands.* Bluff 3-Betting: Re-raising with hands that are not strong but have potential (e.g., suited connectors, suited aces) to exploit opponents who fold too often to 3-bets.* Balancing Your Range: To avoid being predictable, mix value and bluff 3-bets. This balance makes it harder for opponents to read your hand strength.* Merged vs. Polarized Ranges: Merged Range includes strong hands and hands with good playability; used against opponents who call frequently. Polarized Range includes premium hands and bluffs; used against opponents who fold often to 3-bets.Sizing Your 3-Bets:* In Position: 3x to 3.5x the original raise.* Out of Position: 4x to 4.5x the original raise.By effectively incorporating 3-bets into your strategy, you can apply pressure on opponents, isolate weaker players, play more heads-up pots, extract more value from strong hands, and increase your overall profitability.
+The term 3-bet in poker stands for the first re-raise made on any particular betting street, although it is most commonly used during the preflop betting round.
+While the term 2-bet is very rarely used in poker, a 2-bet would be applicable to the first preflop raise, as the big blind always stands as the initial bet. A 3-bet, then, stands for the next raise made before the flop, or rather the second raise made on all consecutive betting streets.
+For instance, in a $1/2 cash game, a player opening to $5 would be 2-betting, while a player re-raising that raise to $15 would be making a 3-bet.
+On the flop, a bet of $10 is made. One player raises to $30, and this raise represents a 2-bet. Then, another player bumps it up to $100, making a 3-bet.
+So, as you can see, the concept of a 3-bet has nothing to do with the size of the raise or bet but rather simply with the particular situation of making the second overall raise on a given betting street.
+3-betting is an essential part of no-limit Texas Hold’em.
+So now that we have discussed what a 3-bet is and how it is made, it’s time to consider the two main reasons to make a 3-bet in the first place.
+The two main reasons to 3-bet are:
+Let’s take a look at both of these reasons with some simple examples and explanations of why a 3-bet is warranted in both cases.
+The first and simplest reason to 3-bet in any given spot is for value. When we believe our hand is very strong, making another raise makes sense, as we want to build the pot and get as much money into the middle as possible.
+For instance, imagine holding two black Aces before the flop in a $0.25/0.50 cash game online in the small blind. The cutoff raises to $1.25, and the action is on you. In all cases, you will want to 3-bet this hand, as getting more money into the pot with Aces is always a good idea.
+At this point, the only decision you have is how much to raise, and this decision can be impacted by several factors, including your and the raiser’s position, stack sizes, player profiles, etc.
+Similarly, holding TsTd on a flop of Tc8c5s, imagine you lead out and get raised. In many cases, you will want to 3-bet right here to build the pot and protect your strong hand against the draws.
+3-betting for value is a simple concept that needs little explanation, although sizing up your value 3-bets and picking the right spot to 3-bet for value can still be a bit tricky at times.
+3-betting as a bluff is a lot more complicated than 3-betting for value. Many novice players never 3-bet as a bluff, and this is one of their big mistakes.
+There are many reasons to 3-bet as a bluff, but the most important is balance. If you only ever bet huge hands, your opponents will start folding to them way too much.
+Even to an untrained eye, a player who only 3-bets once every hour will seem tight. Most players will not want to take their chances and will fold a lot to such an opponent.
+A player who 3-bets as a bluff often will get a lot of action and will often be able to get a lot of money into the pot with his premiums.
+On the other hand, it is also important to make sure your 3-bet bluffing range is not too weak and that you don’t 3-bet bluff too often so as not to get exploited by players playing back at you too much.
+Before you start three-betting with bluffs, brush up on how to bluff!
+When it comes to picking the time and the hand to 3-bet with before the flop, you will want to make sure to balance between your value hands and your bluffs as much as possible.
+This balancing act is one of the big things that separate poker pros from the fish and one of the things you will need to master on your way to poker greatness.
+By 3-betting the right hands before the flop as bluffs, you will get a chance to win some dead money at times and play pots after the flop in which you will have the initiative and a good chance to win an even bigger pot.
+As long as you don’t allow your bluffing range in these spots to become too weak, your 3-bet bluffs will help you make more money with your premium hands, and your overall 3-betting strategy will work like a charm.
+To crush cash games like Rampage poker, you must maintain a balanced 3-betting range.
+We have already talked about the difference between 3-betting for value and 3-betting as a bluff and the importance of mixing the two to make your 3-betting range balanced.
+Now, it’s time to talk about some extra goals that we can accomplish by 3-betting your poker hands instead of calling in certain spots, even in situations when both plays are viable.
+These include:
+When playing poker, you always want to play as much as possible against players who are weaker than you and as little as possible with those who are stronger.
+For that reason, 3-betting is a very strong strategy when faced with players who open a lot of hands but are generally not very strong poker players.
+In many lower-stakes games, you will see fish come into many pots with a “standard” open, and their range will be made up of all sorts of hands.
+When facing such opponents, 3-betting their raises with a merged range, which we will discuss next, will allow you to stay heads-up with them and win many pots on further betting streets.
+Multi-way pots are some of the trickiest spots in poker, and 3-betting is one of our tools to ensure that we don’t play too many such pots when not necessary.
+In live cash games, in particular, you will often see one player raise it, and several players make the call. These players will sometimes have hands as weak as 5-3 off-suit, making a “squeeze play” a great idea.
+When faced with such multi-way situations, 3-betting will often do the trick of allowing you to play the pot against just one player instead of two, three, or more.
+The more people you can get out of the pot, the more equity you will eliminate from the pot, thus allowing yourself to win more money in the long run.
+There is a lot to be said about being aggressive and having the lead in a hand of poker, and 3-betting achieves just that.
+By firing that 3-bet before the flop, you tell your opponents that you might have a hand as strong as KK or AA, and they have no real way of knowing if you do.
+On the other hand, whenever you call a preflop raise, you generally cap your range, making it nearly impossible to represent strong hands on high boards.
+While you could balance this out by adding some of those strongest hands to your calling range, you would be losing value by not building pots with such hands.
+So, 3-bet often and 3-bet with the right ranges, and you will end up being able to win more pots with flop c-bets, delayed c-bets, and other powerful plays that separate the best players from the rest of the pack.
+Being aggressive preflop allows you to apply additional pressure later in the hand.
+When considering which range of hands to 3-bet before the flop, there are a number of factors that come into play, such as the position your opponent opened the pot from, your position, stack sizes, and player profile.
+Your main decision will be whether to use a merged range or a polarized range to 3-bet, and we will discuss 3-betting with a merged range first.
+A merged range, by definition, is a range that includes no pure bluffs but rather only strong hands and hands that have good playability.
+A merged 3-betting range should be used against strong poker players opening from early positions and against calling stations, as in both of these scenarios, folds are unlikely.
+For instance, a strong player opening from UTG will not have many hands that fold to an SB 3-bet, so 3-betting with a hand like 97s does not make much sense against them.
+Similarly, a calling station who always sticks around after a 3-bet should not be 3-bet with hands that rate to be underdogs to his opening range, as this does not accomplish too much.
+Instead, a merged range made up of hands like AA-77, AK, AQ, AKs-ATs, and suited Broadway hands can be used in such scenarios, as all these hands can be ahead of the opening range or play extremely well against it.
+Even if we know our opponent is strong, we can’t just 3-bet our strongest hands, as this would make us extremely easy to play against.
+Exactly opposite of a merged range is a polarized range, which is made up exclusively of the strongest hands and pure bluffs, while all other hands are played differently.
+A polarized 3-betting range can be used against players who are very likely to fold to a 3-bet, and this is especially common in online games where you may have stats on players.
+If a player opens the pot from a late position and has a very high fold to 3-bet stat, then your decision should be to 3-bet with a polarized range.
+Another common scenario in which you should almost always be 3-betting a polarized range is when you find yourself in the big blind, as you can proceed with most of your suited hands and many other connected or A-high hands and call profitably.
+So, in such a scenario, you can go ahead and 3-bet your strongest hands like AA-TT, AK, AQ, AKs-AJs, and KQs, while also adding in pure bluffs like J4s, 76s, 53s, 32s, and similar hands to your range as bluffs.
+With such a range, you will still have a range that’s well balanced between value and bluffs, but you will not be bluffing with a hand like 98s that you can easily profitably call with and play later streets.
+If you struggle knowing what hands to 3-bet with, check out our GTO preflop charts!
+Once you have decided which hands you want to 3-bet in a given spot, you will also want to decide how much to make it.
+In most cases, assuming you are playing against somewhat perceptive players, you don’t want to size up your raises based on the value of your particular hand.
+Instead, you will want to 3-bet your entire chosen range to a particular size, and that size should mostly relate to position.
+Being out of position against the original raiser necessarily means that you will have a more difficult time realizing your equity should the hand go post-flop, which means you will benefit more from folds.
+For that reason, you want to make your out-of-position 3-bets bigger than your in-position 3-bets but don’t go too crazy.
+A good rule of thumb in today’s cash games is to 3-bet anywhere between 3x and 3.5x the original raise size in position and somewhere around 4x to 4.5x out of position. For tournaments, you can use slightly smaller sizing.
+So, if a player opens to $10 from the cutoff in your $2/5 cash game, consider making it $30 to $35 if you are the button but $40 to $45 if you are the small blind.
+This way, you will ensure that you play more 3-bet pots postflop in position and fewer out of position, which will change the outcomes of these spots by quite a bit in the long run.
+Before executing a three-bet, take your time and consider your bet size.
+You now have the basics of a strong poker strategy for 3-betting under your belt, and you can start thinking about how to apply these in your games.
+The next time you are sitting at a poker table, and you are dealt a hand you usually just call a raise with, think about this guide and consider whether a 3-bet might be more appropriate.
+Once you master the 3-bet strategy, you will find yourself 3-betting often and your opponents guessing your cards instead of knowing them, which makes all the difference in the big picture.
+A 3-bet in poker refers to the third bet in a betting sequence. Typically, 3-betting refers to re-raising before the flop when another player has already raised. Since one bet is already active before the flop, the second raise is referred to as a 3-bet.
+There are two main reasons to 3-bet in poker and these are for value and as a bluff. You want to 3-bet your strong hands for value, and you want to 3-bet some weaker hands as a bluff. By 3-betting both hand categories, you can create a balanced 3-betting range that is hard to exploit.
+You can balance your 3-betting range by adding bluffing hands into the range on top of your value hands. By creating a mix of value and bluffs, you will keep your 3-betting range unpredictable and prevent your opponents from exploiting your 3-betting tendencies.
+The exact 3-betting range you should use depends on your own position, the original raiser’s position and tendencies, as well as stack sizes. However, you will typically want to bet all the strongest hands like AA, KK, QQ, and AK, as well as a mix of bluffing hands like A2s and A5s. You can expand both the value and the bluffing range as the original raiser’s position gets later and their raising range expands.
+The size of your 3-bets should not always be the same. Your position should dictate how big you make your 3-bets. When 3-betting in position, you should make a smaller raise than when you are doing it from out of position. You should make your 3-bets between 3x and 3.5x the original raise IP and between 4x and 4.5x the original raise OOP.
+By 3-betting a portion of your preflop range, you will gain many advantages. 3-betting allows you to isolate limpers, reduce the number of players in the hand, take initiative, and even win pots outright. Entering pots as the 3-bettor is often more beneficial than calling raises, as it allows you to win the pot without further action and represents a stronger range than you would have if you just called a raise.
+A 3-bet is the third bet made in a pot, while a 4-bet is the fourth. Looking at preflop action, a 3-bet is the name assigned to the second raise, while the third raise is typically called a 4-bet. Your 4-betting range should be even narrower and tighter than your 3-betting range in poker.

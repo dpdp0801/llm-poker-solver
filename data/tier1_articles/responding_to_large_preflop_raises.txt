@@ -1,0 +1,72 @@
+### TOPIC: responding to large preflop raises
+How To Respond to Large Preflop Raises in Poker
+Solver-derived preflop charts for both cash games and tournaments have historically assumed small raises on the part of the original raiser, usually two to three times the big blind. There are good reasons to use such small raise sizes at a table full of savvy, studied players.
+In tournaments, small preflop raises are indeed the norm, both live and online. In live cash games, however, it is quite common to see open-raises of four or more times the big blind. This makes the aforementioned charts difficult to use, as they do not approximate the situations you are likely to encounter at a small stakes cash table. As we will see, the way you respond to a 2x raise should be quite different from the way you respond to a 4x raise!
+In this article, we will examine some of those differences. We will still not arrive at definitive answers, as players employing these suboptimal raise sizes will probably have suboptimal raising ranges, responses to 3-bets, and postflop play as well, none of which will be taken into account by the solver. However, we will arrive at some heuristics for how to adjust your strategy to raises of different sizes.
+Raked Games
+Whether or not pots are raked is enormously consequential for your strategy. We will first examine a game with:
+10% rake capped at 2bb
+A “no flop, no drop” structure where you pay no rake on pots that end preflop.
+The following charts show CO’s equilibrium Raise First In (RFI) frequency for a variety of raise sizes when the action folds to them in such a game, along with how the BTN, SB, and BB respond to these raises.
+To be clear, these simulations assume the CO is permitted only the raise size in question, and the responses assume no one else has yet contested the raise. In other words, the stats for SB assume BTN folds, and the stats for BB assume both BTN and SB fold.
+Larger raises put more money at risk and so require stronger hands to be profitable.
+125bb starting stacks
+Here is CO’s RFI frequency and the responses with 125bb stacks:
+A Flourish chart
+CO ought to raise fewer hands when they use larger raise sizes. Fundamentally, larger raises put more money at risk and so require stronger hands in order to be able to do so profitably.
+These large raises are not advised. Even AA wins less by raising 7x than it does by raising 2x, a whopping 2bb less. The most profitable size for AA is 3x, which averages 11.02bb compared to 10.34bb with a 2x raise. A 3x raise size still enables CO to open most of the hands they would open for a 2x raise while getting called only ⅓ as often by the BB, which is a big win when it comes to saving money on rake.
+You should fold more often to larger raises even if you think your opponent is not adjusting their opening range.
+Unsurprisingly, the remaining players fold more often to larger raises. BTN and SB consistently 3-bet less often against larger raises, but for the BB, the relationship is more complex. While the other seats virtually never call a raise of any size, BB has a robust calling range against smaller raises. As the price of calling goes up, however, BB stops calling as well. They fold many hands that would have called a smaller raise but sometimes 3-bet them as well!
+You should fold more often to larger raises even if you think your opponent is not adjusting their opening range. In other words, even if you assume your real-life opponent has a 4x raising range that resembles a solver’s 2x raising range, you should still fold more often than you would against the solver’s 2x raise (though perhaps not as often as you would against a solver’s 4x raise). This is because the larger raise offers you less good odds, forcing you to risk more money to contest the pot.
+The solver virtually never calls from any seat but the BB, even against a small raise. If you are going to contest the pot, you are incentivized to 3-bet for a combination of two reasons:
+To push out other players behind you.
+To increase the chances that the hand will end preflop, saving you the rake.
+But even from the BB, calling loses its appeal as the raise size increases. The rake eviscerates the pot odds you’d otherwise be getting, such that any hand strong enough to overcome the edge lost to rake is strong enough to raise.
+The rake is really punishing. To make this concrete, the solver sometimes folds hands as strong as 88 on the BTN to a 2x CO raise. The hands they play consistently are mostly big cards that block the hands with which other players would contest your 3-bet, making it more likely you will win it preflop without paying rake. This resembles MTT strategy with high risk premiums, where responses to raises are similarly tight and aggressive, with a premium on blocker-heavy hands that increase your fold equity.
+BTN response vs CO 2x open-raise: 10% rake, 125bb starting
+Facing a 4x raise, BTN goes even more blocker-heavy, folding virtually all hands containing a card below a Ten and even AJo!
+BTN response vs CO 4x open-raise: 10% rake, 125bb starting
+Their response to a 7x raise is preposterously tight, with even TT and AJs folding!
+BTN response vs CO 7x open-raise: 10% rake, 125bb starting
+It is interesting to note that BTN, SB, and BB respond almost identically to CO’s 7x raise. In a 3-bet pot, the SPR will be low enough that position will not matter much. Nor does having 1bb already in the pot affect your odds all that much when you’re facing a towering 7bb raise. And ranges are so tight that SB and BB will rarely wake up with a 4-betting hand, meaning that the BTN does not take on substantially more risk by 3-betting with two players still to act.
+Deeper Stacks (Raked)
+Deeper stacks incentivize CO to open a slightly wider range. While the BTN can still be a thorn in their side, their position will be a greater asset should they end up playing postflop against one of the Blinds. The deeper stacks also make it slightly less appealing for the Blinds to 3-bet (though they make it slightly more appealing for the BTN).
+Larger raise sizes are more defensible with deeper stacks. They are still not the GTO, solver-preferred option, but, at least from late position, they may be good exploits in games with loose, passive opponents (i.e., most live cash games).
+300bb starting stacks
+When 300bb deep, AA has the highest equilibrium EV using the 4x raise size. The trade-off is that weaker hands have lower EV, such that many can’t be profitably opened at all. Against looser opponents who will call those big raises with bad hands, you’ll still need to tighten your preflop opening range, but more of your best hands will profit from a larger size.
+A Flourish chart
+The responses from the other players are not terribly different from what they would be with shallower stacks. BTN raises a bit more often, as they are happy to grow a pot IP against CO’s wider range. The Blinds, however, 3-bet less often. Even though CO’s range is wider, playing 300bb deep from OOP is a tough hurdle to overcome.
+Unraked Pots
+When pots are not raked, calling is a more appealing option from all positions, and 3-bet ranges are more polar. These strategies will be appropriate not only in friendly games where no fees are charged but in games with a time rake or membership fee—any game where the rake is not taken from the pot.
+125bb Starting Stacks
+Here are the equilibrium strategies with 125bb stacks:
+A Flourish chart
+CO’s opening frequencies are not much different from the raked game; in some cases, they are even a bit lower! It seems the rake can actually be a small help to the original raiser, deterring other players from calling and making it more likely the raise will take the blinds down uncontested.
+As we noted above in the raked game, the size of the original raise does not affect 3-betting frequency terribly much, especially not for the Blinds. What changes is their incentive to call. The BTN always does some calling in the unraked game, as their position reduces the incentive to end the hand preflop.
+For the Blinds, however, calling is mostly about the discount due to the money they already have in the pot. The bigger CO raises, the less it matters that they have a blind (or half a blind) already posted.
+Facing a 2x raise, even SB has a substantial calling range, accompanied by a more polar 3-betting range:
+SB response vs CO 2x open-raise: unraked, 125bb starting
+BB follows the same pattern but with many more hands incentivized to call when getting 3.5:1. Facing a 5x raise, those BB calls vanish almost entirely, replaced by a linear 3-betting range:
+BB response vs CO 2x open-raise
+BB response vs CO 5x open-raise
+Deeper Stacks (Unraked)
+300bb Starting Stacks
+When 300bb deep, BTN’s position (and CO’s wider opening range) incentivizes them to both call and raise slightly more often. The Blinds, however, 3-bet less, leading them to call slightly more often:
+A Flourish chart
+With shallower stacks, the Blinds could count on a low SPR and good equity realization should their 3-bet get called. With deeper stacks, however, 3-bets yield fewer folds from an IP opponent and worse equity realization postflop. The deeper stacks also make 4-betting a greater threat. SB raises more than BB because their raises also serve as a deterrent to BB entering the pot, but neither raises often.
+Facing a 5x open, not even JJ, AKo, or AQs are pure 3-bets for BB:
+BB response vs CO 5x open-raise: unraked, 300bb starting
+If your opponent can correctly deduce the flops on which you will reliably have strong hands and the ones on which you will not, they can exploit you badly.
+Facing a 2x open, AA is BB’s only pure 3-bet:
+BB response vs CO 2x open-raise: unraked, 300bb starting
+All the mixing is important here, because when you are deep and OOP, predictable is a very bad attribute to have. If your opponent can correctly deduce the flops on which you will reliably have strong hands and the ones on which you will not, they can exploit you badly.
+Mixing is also an important part of BTN’s 3-betting, but they have more pure 3-bets. On the left, we can see their response to a 2x CO open. Even against a 7x open (on the right), they continue to call with pocket pairs and suited broadways. These hands complement each other well, making it difficult for CO to predict whether high or low cards will help them.
+BTN response vs CO 2x open-raise
+BTN response vs CO 7x open-raise
+Conclusion
+Larger open-raise sizes present opponents with a different risk profile than smaller, solver-preferred raises. This is for two reasons:
+A larger raise ought to have a stronger range behind it.
+A larger raise makes both calling and 3-betting more expensive.
+Even in the absence of (1), you still should respond more tightly to larger raises simply because they offer less good odds (2).
+The size of the open-raise primarily determines your calling frequency, with a much smaller impact on how often you 3-bet. In unraked games, that’s a big impact, as calling is a significant part of your response to smaller raises but mostly drops out against larger ones.
+When the pot is raked, calling even small raises is undesirable unless you are in the BB. That means your strategy will not vary as much with the size of your opponent’s raise, though you’ll have a somewhat higher threshold for 3-betting larger raises, and should use a slightly smaller multiple of their raise when you do so.

@@ -23,11 +23,13 @@
 
 3. **Download model weights**
 
+https://drive.google.com/drive/folders/10Grc8w4GPq1OZv99hecfiaHo2O0GUp5H?usp=drive_link
+
 paths for model weights:
-out/stageA/stageA_bf16_r256_seq2048
-out/stageB/systemB_bf16_r256
-out/stageB/systemB_bf16_r256
-out/stageB/systemB_bf16_r256
+- out/stageA/stageA_bf16_r256_seq2048
+- out/stageB/systemB_bf16_r256
+- out/stageB/systemB_bf16_r256
+- out/stageB/systemB_bf16_r256
 
 4. **Set up hugging face token in .env**
 HF_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -39,16 +41,11 @@ HF_TOKEN=hf_XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ./run_poker_solver.sh
 
 
-## 🎮 How to Use the GUI
+## How to Use the GUI
 
-1. **Launch the application**: Run `./run_poker_solver.sh`
-2. **Enter game state**: 
+1. Launch the application: Run `./run_poker_solver.sh`
+2. Enter game state: 
    - Set player positions (Hero/Villain)
    - Input hole cards (e.g., "As Kd")
    - Enter flop cards (e.g., "Jh Tc 9s")
-3. **Analyze**: Click "Generate Prompt" and then "Analyze Hand" to get recommendations
-4. **Results**: 
-   - **Action recommendation** with bet sizing
-   - **Hand categorization** (e.g., "overpair", "set with flush draw")
-   - **Equity analysis** and range advantages
-   - **Strategic reasoning** in plain English
+3. Analyze: Click "Generate Prompt" and then "Analyze Hand" to get recommendations
